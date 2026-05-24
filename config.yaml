@@ -1,1 +1,9 @@
-open-claw/config.yaml content here
+model: "llama3.2:3b"
+max_tokens: 4096
+temperature: 0.75
+self_improvement_interval: 50
+max_iterations: 10000
+enable_code_evolution: true
+enable_tool_creation: true
+reflection_depth: 3
+ollama_host: "http://localhost:11434"
