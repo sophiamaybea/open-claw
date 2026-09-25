@@ -121,7 +121,7 @@ create index if not exists oc_tasks_owner_status_updated_idx on public.oc_tasks(
 create index if not exists oc_runs_owner_started_idx on public.oc_runs(owner_id, started_at desc);
 create index if not exists oc_results_owner_created_idx on public.oc_results(owner_id, created_at desc);
 create index if not exists oc_memory_owner_updated_idx on public.oc_memory(owner_id, updated_at desc);
-create index if not exists oc_memory_search_idx on public.oc_memory using gin(search_tsv);
+create index if not exists oc_memory_search_idx on public.oc_memory using gin(search_tsv);\ncreate unique index if not exists oc_memory_source_ref_unique\n  on public.oc_memory(owner_id, source, source_ref)\n  where source_ref is not null;
 create index if not exists oc_events_owner_created_idx on public.oc_events(owner_id, created_at desc);
 create unique index if not exists oc_events_source_ref_unique
   on public.oc_events(owner_id, source, source_ref)
