@@ -11,6 +11,7 @@ on:
     paths:
       - 'apps/hive/**'
       - '.github/workflows/hive-ci.yml'
+  workflow_dispatch:
 
 permissions:
   contents: read
@@ -30,11 +31,9 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 22
-          cache: npm
-          cache-dependency-path: apps/hive/package-lock.json
 
       - name: Install dependencies
-        run: npm install
+        run: npm install --no-audit --no-fund
 
       - name: Build HIVE
         run: npm run build
