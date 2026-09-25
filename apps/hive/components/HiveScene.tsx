@@ -1,9 +1,9 @@
 'use client'
 
-import { Canvas, useFrame } from '@react-three/fiber'
-import { Line } from '@react-three/drei'
+import { Canvas, useFrame, useThree } from '@react-three/fiber'
+import { Line, Sparkles } from '@react-three/drei'
 import * as THREE from 'three'
-import { useMemo, useRef } from 'react'
+import { MutableRefObject, useMemo, useRef } from 'react'
 import { CATEGORY_COLOURS, HiveCategory } from '@/lib/hive-data'
 
 export type SceneNode = {
@@ -22,6 +22,7 @@ type HiveSceneProps = {
   motion?: 'off' | 'reduced' | 'normal'
   mode?: 'attention' | 'radar' | 'money'
   centreLabel?: string
+  scrollProgress?: MutableRefObject<number>
 }
 
 const vertexShader = `
@@ -221,33 +222,59 @@ function Scene({
   onSelect,
   motion = 'reduced',
   mode = 'attention',
+  scrollProgress,
 }: HiveSceneProps) {
+  const root = useRef<THREE.Group>(null)
+  const { pointer } = useThree()
+
+  useFrame(() => {
+    if (!root.current) return
+
+    const progress = scrollProgress?.current ?? 0
+    const motionFactor = motion === 'off' ? 0 : motion === 'reduced' ? .35 : 1
+    const targetX = pointer.y * .12 * motionFactor + progress * .08 * motionFactor
+    const targetY = pointer.x * .18 * motionFactor + progress * .22 * motionFactor
+    const targetZ = progress * .42 * motionFactor
+
+    root.current.rotation.x = THREE.MathUtils.lerp(root.current.rotation.x, targetX, .045)
+    root.current.rotation.y = THREE.MathUtils.lerp(root.current.rotation.y, targetY, .045)
+    root.current.position.z = THREE.MathUtils.lerp(root.current.position.z, targetZ, .04)
+  })
+
   return (
     <>
-      <ambientLight intensity={.4} />
-      <Orbits count={mode === 'money' ? 5 : 4} />
-      <Connections nodes={nodes} mode={mode} />
-      {nodes.map((node, index) => (
-        <Bubble
-          key={node.id}
-          node={node}
-          index={index}
-          selected={node.id === selectedId}
-          onSelect={onSelect}
-          motion={motion}
-          mode={mode}
-        />
-      ))}
-      <mesh position={[0, 0, .2]} scale={1.15}>
-        <icosahedronGeometry args={[.6, 4]} />
-        <meshStandardMaterial
-          color="#786d73"
-          roughness={.84}
-          metalness={.03}
-          emissive="#2a2530"
-          emissiveIntensity={.28}
-        />
-      </mesh>
+      <ambientLight intensity={.52} />
+      <directionalLight position={[4, 6, 7]} intensity={1.05} color="#d9d5ff" />
+      <pointLight position={[-4, -2, 4]} intensity={2.2} distance={12} color="#823DDB" />
+      <pointLight position={[5, 3, 3]} intensity={1.7} distance={11} color="#E653B7" />
+      <group ref={root}>
+        <Orbits count={mode === 'money' ? 5 : 4} />
+        <Connections nodes={nodes} mode={mode} />
+        <Sparkles count={54} scale={[10, 8, 4]} size={1} speed={motion === 'off' ? 0 : .15} opacity={.14} color="#9CA0AB" />
+        {nodes.map((node, index) => (
+          <Bubble
+            key={node.id}
+            node={node}
+            index={index}
+            selected={node.id === selectedId}
+            onSelect={onSelect}
+            motion={motion}
+            mode={mode}
+          />
+        ))}
+        <mesh position={[0, 0, .2]} scale={1.15}>
+          <icosahedronGeometry args={[.6, 5]} />
+          <meshPhysicalMaterial
+            color="#786d73"
+            roughness={.72}
+            metalness={.05}
+            clearcoat={.55}
+            clearcoatRoughness={.34}
+            emissive="#2a2530"
+            emissiveIntensity={.28}
+          />
+        </mesh>
+      </group>
     </>
   )
 }
