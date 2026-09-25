@@ -12,7 +12,7 @@
     {
       "id": "REL-002",
       "from": "ENT-REPO-AGENT",
-      "relationship": "implements",
+      "relationship": "canonically implements",
       "to": "ENT-OPENCLAW",
       "confidence": "HIGH"
     },
@@ -47,16 +47,30 @@
     {
       "id": "REL-007",
       "from": "ENT-OPENCLAW",
-      "relationship": "may integrate",
+      "relationship": "may use under bounded private policy",
       "to": "ENT-COBO",
       "confidence": "MEDIUM"
     },
     {
       "id": "REL-008",
       "from": "ENT-REPO-UI",
-      "relationship": "related UI/control surface for",
+      "relationship": "migrated HIVE code into",
+      "to": "ENT-REPO-AGENT",
+      "confidence": "HIGH"
+    },
+    {
+      "id": "REL-009",
+      "from": "ENT-REPO-OPS",
+      "relationship": "provides private privileged operations boundary for",
       "to": "ENT-OPENCLAW",
-      "confidence": "MEDIUM"
+      "confidence": "HIGH"
+    },
+    {
+      "id": "REL-010",
+      "from": "ENT-REPO-OCTOMINER",
+      "relationship": "provides specialist opportunity-mining capability for",
+      "to": "ENT-OPENCLAW",
+      "confidence": "HIGH"
     }
   ]
 }

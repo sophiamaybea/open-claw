@@ -4,11 +4,11 @@
   "records": [
     {
       "id": "RES-001",
-      "name": "OpenClaw agent repository",
+      "name": "OpenClaw canonical repository",
       "type": "GitHub repository",
       "url": "https://github.com/sophiamaybea/open-claw",
       "in_use": true,
-      "status": "IN DEVELOPMENT"
+      "status": "CANONICAL / IN DEVELOPMENT"
     },
     {
       "id": "RES-002",
@@ -55,16 +55,32 @@
       "name": "Cobo Agentic Wallet",
       "type": "Wallet candidate",
       "url": "https://github.com/CoboGlobal/cobo-agentic-wallet",
-      "in_use": false,
-      "status": "INVESTIGATING"
+      "in_use": "PRIVATE EXPERIMENT",
+      "status": "EXPERIMENTAL"
     },
     {
       "id": "RES-008",
-      "name": "Clawhouse/web repo",
-      "type": "Related repository",
+      "name": "Former HIVE repo",
+      "type": "Legacy repository",
       "url": "https://github.com/sophiamaybea/openclaw",
-      "in_use": "RELATED",
-      "status": "RELATED"
+      "in_use": false,
+      "status": "MIGRATED / LEGACY"
+    },
+    {
+      "id": "RES-009",
+      "name": "Private OpenClaw operations repo",
+      "type": "GitHub repository",
+      "url": "https://github.com/sophiamaybea/bea-openclaw",
+      "in_use": true,
+      "status": "ACTIVE / PRIVATE"
+    },
+    {
+      "id": "RES-010",
+      "name": "Octominer",
+      "type": "Specialist GitHub repository",
+      "url": "https://github.com/sophiamaybea/octominer",
+      "in_use": true,
+      "status": "ACTIVE SPECIALIST / PRIVATE"
     }
   ]
 }

@@ -24,7 +24,8 @@
       "id": "DEC-004",
       "date": "2026-09-25",
       "decision": "open-claw is canonical agent repo; openclaw is related web repo",
-      "active": true
+      "active": false,
+      "superseded_by": "DEC-011"
     },
     {
       "id": "DEC-005",
@@ -60,6 +61,24 @@
       "id": "DEC-010",
       "date": "2026-09-25",
       "decision": "Preserve superseded decisions with links",
+      "active": true
+    },
+    {
+      "id": "DEC-011",
+      "date": "2026-09-25",
+      "decision": "open-claw is the canonical public OpenClaw monorepo and includes HIVE",
+      "active": true
+    },
+    {
+      "id": "DEC-012",
+      "date": "2026-09-25",
+      "decision": "bea-openclaw remains private as the privileged operations boundary",
+      "active": true
+    },
+    {
+      "id": "DEC-013",
+      "date": "2026-09-25",
+      "decision": "octominer remains a specialist private repository while independently useful and testable",
       "active": true
     }
   ]
