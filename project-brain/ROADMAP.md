@@ -8,10 +8,12 @@ _Last updated: 2026-09-25_
 2. Define and implement the cloud-first control/execution architecture.
 3. Replace simulated actions with a real typed tool router + sandbox + receipts.
 4. Connect HIVE in `apps/hive` to real permission-aware runtime state rather than mock/static state.
-5. Add external evaluator/test gates.
-6. Build the live opportunity-ingestion and scoring MVP using existing specialist work where useful.
-7. Audit/fix the v0.1 Python modules before promoting them into the cloud runtime.
-8. Stop creating new OpenClaw repositories by default; use the canonical monorepo structure.
+5. Run Prometheus holdout and live-task evaluations; mirror verified aggregate prompt-performance evidence into private structured memory and surface experiment state in HIVE.
+6. Add an authenticated phone/ChatGPT/HIVE channel adapter for Prometheus without expanding authority.
+7. Add external evaluator/test gates.
+8. Build the live opportunity-ingestion and scoring MVP using existing specialist work where useful.
+9. Audit/fix the v0.1 Python modules before promoting them into the cloud runtime.
+10. Stop creating new OpenClaw repositories by default; use the canonical monorepo structure.
 
 ## NEXT
 
