@@ -15,4 +15,8 @@
 - Confirmed four active OpenClaw repository boundaries: private engineering `bea-agent-core`, public-safe `open-claw`, private operations `bea-openclaw`, and specialist private `octominer`.
 - Corrected an intermediate cleanup classification that had incorrectly labelled `bea-agent-core` legacy after consulting the newer live Project Brain state.
 
+- Built draft PR #7 (`integrated-data-plane-v2`) from current `main`: secure owner-scoped Supabase machine-memory schema, OpenClaw CLI, GitHub event sync, runtime memory bridge and authenticated HIVE control surface.
+- Deliberately did not apply the schema to the existing unrelated Supabase project; dedicated OpenClaw infrastructure remains a required verification gate.
+- Classified the new data plane, CLI and HIVE backend as IN DEVELOPMENT rather than WORKING until deployment, Auth/RLS checks and end-to-end round-trip verification pass.
+
 Clean current truth belongs in PROJECT_STATE.md and the Living Project Brain.
