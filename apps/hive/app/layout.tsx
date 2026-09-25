@@ -2,10 +2,17 @@ import type { Metadata } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'Clawhouse — your private AI worker',
-  description: 'We install, host and manage private AI workers that quietly handle the repetitive parts of your business.'
+  title: 'HIVE — OpenClaw control surface',
+  description:
+    'An accessible visual control surface for OpenClaw missions, Bees, opportunities, memory, money, builds and system health.',
 }
 
-export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
-  return <html lang="en"><body>{children}</body></html>
+export default function RootLayout({
+  children,
+}: Readonly<{ children: React.ReactNode }>) {
+  return (
+    <html lang="en">
+      <body>{children}</body>
+    </html>
+  )
 }
