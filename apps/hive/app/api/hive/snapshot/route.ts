@@ -1,5 +1,5 @@
 import { NextResponse } from 'next/server'
-import { DEMO_SNAPSHOT, HiveSnapshot } from '@/lib/hive-data'
+import { DEMO_SNAPSHOT, type HiveSnapshot } from '@/lib/hive-data'
 
 export const dynamic = 'force-dynamic'
 
@@ -32,12 +32,13 @@ export async function GET() {
   }
 
   try {
-    const response = await fetch(`${engineUrl}/hive/snapshot`, {
+    const response = await fetch(`${engineUrl}/v1/hive/snapshot`, {
       headers: {
         Authorization: `Bearer ${engineToken}`,
         Accept: 'application/json',
       },
       cache: 'no-store',
+      signal: AbortSignal.timeout(8000),
     })
 
     if (!response.ok) {
@@ -56,14 +57,11 @@ export async function GET() {
   } catch (error) {
     console.error('HIVE engine snapshot failed', error)
     return NextResponse.json(
-      { ...DEMO_SNAPSHOT, source: 'demo', updatedAt: new Date().toISOString() },
       {
-        status: 200,
-        headers: {
-          'Cache-Control': 'no-store',
-          'X-Hive-Fallback': 'demo',
-        },
+        error: 'Private OpenClaw engine is unavailable.',
+        stale: true,
       },
+      { status: 503, headers: { 'Cache-Control': 'no-store' } },
     )
   }
 }
