@@ -2,8 +2,8 @@ import type { Metadata } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'Clawhouse — your private AI worker',
-  description: 'We install, host and manage private AI workers that quietly handle the repetitive parts of your business.'
+  title: 'HIVE for OpenClaw',
+  description: 'A front-end visual prototype of the HIVE operating system for OpenClaw.',
 }
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
