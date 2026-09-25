@@ -38,3 +38,8 @@ evolution/
 openclaw_state.json
 *.log
 __pycache__/
+
+# Gencraft CLI
+.gencraft/
+gencraft-output/
+storage-state.json
