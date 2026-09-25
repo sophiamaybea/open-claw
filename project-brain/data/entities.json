@@ -15,13 +15,19 @@
       "status": "WORKING / IN DEVELOPMENT"
     },
     {
-      "id": "ENT-REPO-AGENT",
-      "name": "sophiamaybea/open-claw",
+      "id": "ENT-REPO-PRIVATE-CORE",
+      "name": "sophiamaybea/bea-agent-core",
       "type": "GitHub repository",
-      "status": "CANONICAL / IN DEVELOPMENT"
+      "status": "ACTIVE / PRIMARY PRIVATE ENGINEERING"
     },
     {
-      "id": "ENT-REPO-UI",
+      "id": "ENT-REPO-PUBLIC",
+      "name": "sophiamaybea/open-claw",
+      "type": "GitHub repository",
+      "status": "ACTIVE / CANONICAL PUBLIC"
+    },
+    {
+      "id": "ENT-REPO-UI-LEGACY",
       "name": "sophiamaybea/openclaw",
       "type": "GitHub repository",
       "status": "MIGRATED / LEGACY"
@@ -30,7 +36,7 @@
       "id": "ENT-REPO-OPS",
       "name": "sophiamaybea/bea-openclaw",
       "type": "GitHub repository",
-      "status": "ACTIVE / PRIVATE"
+      "status": "ACTIVE / PRIVATE OPS"
     },
     {
       "id": "ENT-REPO-OCTOMINER",
