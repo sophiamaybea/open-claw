@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.0",
+  "last_updated": "2026-09-25",
+  "records": [
+    {
+      "id": "ENT-OPENCLAW",
+      "name": "OpenClaw",
+      "type": "project/agent",
+      "status": "ACTIVE VISION"
+    },
+    {
+      "id": "ENT-BRAIN",
+      "name": "OPENCLAW Project Brain",
+      "type": "knowledge system",
+      "status": "WORKING / IN DEVELOPMENT"
+    },
+    {
+      "id": "ENT-REPO-AGENT",
+      "name": "sophiamaybea/open-claw",
+      "type": "GitHub repository",
+      "status": "IN DEVELOPMENT"
+    },
+    {
+      "id": "ENT-REPO-UI",
+      "name": "sophiamaybea/openclaw",
+      "type": "GitHub repository",
+      "status": "RELATED"
+    },
+    {
+      "id": "ENT-OLLAMA",
+      "name": "Ollama",
+      "type": "model runtime",
+      "status": "EXPERIMENTAL"
+    },
+    {
+      "id": "ENT-GITHUB",
+      "name": "GitHub",
+      "type": "external system",
+      "status": "WORKING IN HOST"
+    },
+    {
+      "id": "ENT-GDRIVE",
+      "name": "Google Drive",
+      "type": "external system",
+      "status": "WORKING"
+    },
+    {
+      "id": "ENT-COBO",
+      "name": "Cobo Agentic Wallet",
+      "type": "tool candidate",
+      "status": "INVESTIGATING"
+    }
+  ]
+}
