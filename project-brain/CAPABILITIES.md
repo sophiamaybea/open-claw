@@ -17,6 +17,6 @@ _Last updated: 2026-09-25_
 | CAP-011 | Persistent self-improvement memory | EXPERIMENTAL | JSON/JSONL persistence exists; consolidation/vector/graph retrieval do not yet. |
 | CAP-012 | Opportunity / market-gap discovery | IN DEVELOPMENT | Host-assisted live repository archaeology and economic-source classification are now demonstrated; systematic native ingestion, deduplication and outcome learning remain to be built. |
 | CAP-013 | Submission preparation | IN DEVELOPMENT | Can be host-assisted; platform-specific autonomous submission is not verified. |
-| CAP-014 | Problem decomposition / iterative solving | EXPERIMENTAL | Think/act/reflect/evolve scaffolding exists; external evaluators are needed. |
+| CAP-014 | Problem decomposition / iterative solving | EXPERIMENTAL | Think/act/reflect/evolve scaffolding exists; external evaluators are needed. |\n| CAP-015 | Adaptive prompt intelligence | EXPERIMENTAL | Private Prometheus layer compiles rough phone/chat/HIVE/CLI intent into project-aware execution specs, versions strategies, records runs and can create/promote targeted challengers only from evidence-backed outcomes. It is integrated into the private solve loop; channel transport and production outcome benchmarks are not yet verified. |
 
 The detailed machine-readable records live in `data/capabilities.json`.
