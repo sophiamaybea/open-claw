@@ -30,8 +30,10 @@ import {
   Workflow,
   X,
 } from 'lucide-react'
-import { useMemo, useState } from 'react'
+import { useEffect, useMemo, useRef, useState } from 'react'
 import dynamic from 'next/dynamic'
+import gsap from 'gsap'
+import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import {
   CATEGORY_COLOURS,
   DEMO_SNAPSHOT,
@@ -173,11 +175,13 @@ function TodayView({
   motion,
   graph,
   simple,
+  scrollProgress,
 }: {
   snapshot: HiveSnapshot
   motion: ComfortSettings['motion']
   graph: ComfortSettings['graph']
   simple: boolean
+  scrollProgress: React.MutableRefObject<number>
 }) {
   const [selected, setSelected] = useState(snapshot.bees[0]?.id)
   const bee = snapshot.bees.find((item) => item.id === selected) ?? snapshot.bees[0]
@@ -223,6 +227,7 @@ function TodayView({
               onSelect={setSelected}
               motion={motion}
               mode="attention"
+              scrollProgress={scrollProgress}
             />
           )}
           <div className="visual-controls" aria-label="Visual encoding">
@@ -259,9 +264,11 @@ function TodayView({
 function WorkView({
   missions,
   motion,
+  scrollProgress,
 }: {
   missions: Mission[]
   motion: ComfortSettings['motion']
+  scrollProgress: React.MutableRefObject<number>
 }) {
   const [selectedId, setSelectedId] = useState(missions[0]?.id)
   const selected = missions.find((m) => m.id === selectedId) ?? missions[0]
@@ -281,7 +288,7 @@ function WorkView({
           copy="Missions are problems. Bees gather around them. You see the state first and the machinery only when you ask."
         />
         <div className="visual-card work-visual">
-          <HiveScene nodes={nodes} selectedId={selectedId} onSelect={setSelectedId} motion={motion} mode="attention" centreLabel="missions in motion" />
+          <HiveScene nodes={nodes} selectedId={selectedId} onSelect={setSelectedId} motion={motion} mode="attention" centreLabel="missions in motion" scrollProgress={scrollProgress} />
         </div>
         <div className="mission-strip">
           {missions.map((mission) => (
@@ -369,9 +376,11 @@ function BeesView({ bees }: { bees: Bee[] }) {
 function RadarView({
   opportunities,
   motion,
+  scrollProgress,
 }: {
   opportunities: Opportunity[]
   motion: ComfortSettings['motion']
+  scrollProgress: React.MutableRefObject<number>
 }) {
   const [selectedId, setSelectedId] = useState(opportunities[0]?.id)
   const selected = opportunities.find(o => o.id === selectedId) ?? opportunities[0]
@@ -396,7 +405,7 @@ function RadarView({
         <div className="axis-label axis-bottom">LOW REWARD</div>
         <div className="axis-label axis-left">SOONER</div>
         <div className="axis-label axis-right">LATER</div>
-        <HiveScene nodes={nodes} selectedId={selectedId} onSelect={setSelectedId} motion={motion} mode="radar" centreLabel="best fit" />
+        <HiveScene nodes={nodes} selectedId={selectedId} onSelect={setSelectedId} motion={motion} mode="radar" centreLabel="best fit" scrollProgress={scrollProgress} />
       </div>
       <aside className="detail-card">
         <div className="detail-topline"><div><StatusDot category={selected.category}/>SELECTED OPPORTUNITY</div><span>{selected.id}</span></div>
@@ -727,7 +736,9 @@ export default function HiveDashboard() {
   const [view, setView] = useState<View>('Today')
   const [simple, setSimple] = useState(false)
   const [comfortOpen, setComfortOpen] = useState(false)
-  const [snapshot] = useState<HiveSnapshot>(DEMO_SNAPSHOT)
+  const [snapshot, setSnapshot] = useState<HiveSnapshot>(DEMO_SNAPSHOT)
+  const rootRef = useRef<HTMLElement>(null)
+  const scrollProgress = useRef(0)
   const [comfort, setComfort] = useState<ComfortSettings>({
     mode: 'Full Hive',
     brightness: .92,
@@ -740,6 +751,109 @@ export default function HiveDashboard() {
     tint: '#162039',
   })
 
+  useEffect(() => {
+    let cancelled = false
+    fetch('/api/hive/snapshot', { cache: 'no-store' })
+      .then((response) => response.ok ? response.json() : Promise.reject(new Error(`Snapshot request failed: ${response.status}`)))
+      .then((next: HiveSnapshot) => {
+        if (!cancelled) setSnapshot(next)
+      })
+      .catch(() => {
+        // Demo state is an intentional safe fallback until the private engine gateway is configured.
+      })
+
+    return () => {
+      cancelled = true
+    }
+  }, [])
+
+  useEffect(() => {
+    const root = rootRef.current
+    if (!root || comfort.motion === 'off') {
+      scrollProgress.current = 0
+      return
+    }
+
+    gsap.registerPlugin(ScrollTrigger)
+    const cleanups: Array<() => void> = []
+    const reduced = comfort.motion === 'reduced'
+    const finePointer = window.matchMedia('(pointer: fine)').matches
+    const ctx = gsap.context(() => {
+      const intro = root.querySelectorAll('.section-title, .visual-card, .detail-card, .answer-card, .resume-card')
+      gsap.fromTo(
+        intro,
+        { opacity: 0, y: reduced ? 10 : 22, rotationX: reduced ? 0 : 2.4, transformPerspective: 1100 },
+        { opacity: 1, y: 0, rotationX: 0, duration: reduced ? .42 : .72, stagger: .025, ease: 'power3.out' },
+      )
+
+      const revealTargets = gsap.utils.toArray<HTMLElement>('.summary-card, .bee-card, .mission-strip > button, .money-cards article, .lab-grid article, .preference-row')
+      revealTargets.forEach((element) => {
+        gsap.fromTo(
+          element,
+          { opacity: 0, y: reduced ? 8 : 18 },
+          {
+            opacity: 1,
+            y: 0,
+            duration: reduced ? .36 : .58,
+            ease: 'power2.out',
+            scrollTrigger: {
+              trigger: element,
+              start: 'top 96%',
+              once: true,
+            },
+          },
+        )
+      })
+
+      ScrollTrigger.create({
+        trigger: root,
+        start: 'top top',
+        end: 'bottom bottom',
+        scrub: reduced ? .8 : .45,
+        onUpdate: (self) => {
+          scrollProgress.current = self.progress
+        },
+      })
+
+      if (finePointer && !reduced) {
+        const tiltTargets = root.querySelectorAll<HTMLElement>('.detail-card, .summary-card, .bee-card, .change-card, .lab-grid article, .answer-card')
+        tiltTargets.forEach((element) => {
+          const toX = gsap.quickTo(element, 'rotationX', { duration: .45, ease: 'power3.out' })
+          const toY = gsap.quickTo(element, 'rotationY', { duration: .45, ease: 'power3.out' })
+          const toZ = gsap.quickTo(element, 'z', { duration: .4, ease: 'power3.out' })
+
+          const onMove = (event: PointerEvent) => {
+            const rect = element.getBoundingClientRect()
+            const x = (event.clientX - rect.left) / rect.width - .5
+            const y = (event.clientY - rect.top) / rect.height - .5
+            toX(y * -3.2)
+            toY(x * 3.8)
+            toZ(10)
+          }
+          const onLeave = () => {
+            toX(0)
+            toY(0)
+            toZ(0)
+          }
+
+          element.addEventListener('pointermove', onMove)
+          element.addEventListener('pointerleave', onLeave)
+          cleanups.push(() => {
+            element.removeEventListener('pointermove', onMove)
+            element.removeEventListener('pointerleave', onLeave)
+          })
+        })
+      }
+    }, root)
+
+    ScrollTrigger.refresh()
+    return () => {
+      cleanups.forEach((cleanup) => cleanup())
+      ctx.revert()
+      ScrollTrigger.getAll().forEach((trigger) => trigger.kill())
+    }
+  }, [view, comfort.motion])
+
   const style = {
     '--hive-bg': comfort.tint,
     '--brightness': comfort.brightness,
@@ -750,10 +864,10 @@ export default function HiveDashboard() {
   } as React.CSSProperties
 
   const content = (() => {
-    if (view === 'Today' || view === 'Hive') return <TodayView snapshot={snapshot} motion={comfort.motion} graph={comfort.graph} simple={simple || comfort.mode === 'Text Only'} />
-    if (view === 'Work') return <WorkView missions={snapshot.missions} motion={comfort.motion} />
+    if (view === 'Today' || view === 'Hive') return <TodayView snapshot={snapshot} motion={comfort.motion} graph={comfort.graph} simple={simple || comfort.mode === 'Text Only'} scrollProgress={scrollProgress} />
+    if (view === 'Work') return <WorkView missions={snapshot.missions} motion={comfort.motion} scrollProgress={scrollProgress} />
     if (view === 'Bees') return <BeesView bees={snapshot.bees} />
-    if (view === 'Radar') return <RadarView opportunities={snapshot.opportunities} motion={comfort.motion} />
+    if (view === 'Radar') return <RadarView opportunities={snapshot.opportunities} motion={comfort.motion} scrollProgress={scrollProgress} />
     if (view === 'Money') return <MoneyView snapshot={snapshot} />
     if (view === 'Brain') return <BrainView nodes={snapshot.brain} />
     if (view === 'Build') return <BuildView />
@@ -763,7 +877,7 @@ export default function HiveDashboard() {
   })()
 
   return (
-    <main className="hive-root" style={style}>
+    <main ref={rootRef} className="hive-root" style={style}>
       <a className="skip-link" href="#hive-content">Skip to main content</a>
       <header className="topbar">
         <div className="wordmark"><span className="brand-dots">● ●</span>HIVE <small>for OpenClaw</small></div>
@@ -773,7 +887,7 @@ export default function HiveDashboard() {
         </div>
         <label className="search-box"><Search size={19}/><input aria-label="Search your hive" placeholder="Search your hive…"/></label>
         <div className="top-actions">
-          <span className="source-state" title="This branch currently uses safe demo data until the authenticated engine gateway is connected"><span className="live-dot"/>UI PREVIEW</span>
+          <span className="source-state" title={snapshot.source === 'engine' ? 'Live projection from the private OpenClaw engine.' : 'Safe demo data is shown until the authenticated engine gateway is configured.'}><span className="live-dot"/>{snapshot.source === 'engine' ? 'LIVE ENGINE' : 'UI PREVIEW'}</span>
           <button className="comfort-button" onClick={() => setComfortOpen(true)}><SunMedium size={18}/>COMFORT</button>
         </div>
       </header>
