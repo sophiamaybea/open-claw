@@ -7,7 +7,7 @@ from typing import Iterable
 from .models import Opportunity
 
 MONEY_RE = re.compile(
-    r"(?P<currency>[$\u00a3\u20ac])\\s?(?P<number>\\d{1,3}(?:,\\d{3})*(?:\\.\\d+)?)(?P<suffix>[kKmM]?)"
+    r"(?P<currency>[$\u00a3\u20ac])\s?(?P<number>\d{1,3}(?:,\d{3})*(?:\.\d+)?)(?P<suffix>[kKmM]?)"
 )
 SECURITY_TERMS = {
     "bug bounty",
@@ -69,10 +69,10 @@ def _age_days(created_at: str | None) -> float | None:
 
 
 def evaluate(opportunity: Opportunity) -> Opportunity:
-    text = f"{opportunity.title}\\n{opportunity.body}".lower()
+    text = f"{opportunity.title}\n{opportunity.body}".lower()
     if opportunity.reward_usd is None:
         opportunity.reward_usd, opportunity.reward_text = extract_reward(
-            f"{opportunity.title}\\n{opportunity.body}"
+            f"{opportunity.title}\n{opportunity.body}"
         )
 
     score = 0.0
