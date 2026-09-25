@@ -1,0 +1,66 @@
+{
+  "schema_version": "1.0",
+  "last_updated": "2026-09-25",
+  "records": [
+    {
+      "id": "DEC-001",
+      "date": "2026-09-25",
+      "decision": "Project Brain is the persistent source of truth",
+      "active": true
+    },
+    {
+      "id": "DEC-002",
+      "date": "2026-09-25",
+      "decision": "Use Living Doc + Structured Sheet + GitHub mirror",
+      "active": true
+    },
+    {
+      "id": "DEC-003",
+      "date": "2026-09-25",
+      "decision": "Maintain canonical records; do not append blindly",
+      "active": true
+    },
+    {
+      "id": "DEC-004",
+      "date": "2026-09-25",
+      "decision": "open-claw is canonical agent repo; openclaw is related web repo",
+      "active": true
+    },
+    {
+      "id": "DEC-005",
+      "date": "2026-09-25",
+      "decision": "Explicit implementation statuses are mandatory",
+      "active": true
+    },
+    {
+      "id": "DEC-006",
+      "date": "2026-09-25",
+      "decision": "Preserve provenance and confidence",
+      "active": true
+    },
+    {
+      "id": "DEC-007",
+      "date": "2026-09-25",
+      "decision": "Target architecture is cloud-first and mobile-controllable",
+      "active": true
+    },
+    {
+      "id": "DEC-008",
+      "date": "2026-09-25",
+      "decision": "Search Project Brain before substantial work",
+      "active": true
+    },
+    {
+      "id": "DEC-009",
+      "date": "2026-09-25",
+      "decision": "Discovered reward is not realised revenue",
+      "active": true
+    },
+    {
+      "id": "DEC-010",
+      "date": "2026-09-25",
+      "decision": "Preserve superseded decisions with links",
+      "active": true
+    }
+  ]
+}
