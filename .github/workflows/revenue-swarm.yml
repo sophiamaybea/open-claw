@@ -1,0 +1,39 @@
+name: Revenue Swarm v2
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 * * * *"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: revenue-swarm-v2
+  cancel-in-progress: false
+
+jobs:
+  discover-and-reflect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run tests
+        run: python -m pytest -q tests/test_revenue_swarm.py
+
+      - name: Run revenue swarm discovery cycle
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/run_revenue_swarm.py
+
+      - name: Upload inspectable swarm state
+        uses: actions/upload-artifact@v4
+        with:
+          name: revenue-swarm-${{ github.run_id }}
+          path: revenue_swarm/state/
+          retention-days: 30
