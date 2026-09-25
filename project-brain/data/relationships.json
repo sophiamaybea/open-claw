@@ -11,66 +11,59 @@
     },
     {
       "id": "REL-002",
-      "from": "ENT-REPO-AGENT",
-      "relationship": "canonically implements",
+      "from": "ENT-REPO-PRIVATE-CORE",
+      "relationship": "primary private engineering/control plane for",
       "to": "ENT-OPENCLAW",
       "confidence": "HIGH"
     },
     {
       "id": "REL-003",
-      "from": "ENT-OPENCLAW",
-      "relationship": "currently uses in v0.1",
-      "to": "ENT-OLLAMA",
+      "from": "ENT-REPO-PUBLIC",
+      "relationship": "public-safe monorepo for",
+      "to": "ENT-OPENCLAW",
       "confidence": "HIGH"
     },
     {
       "id": "REL-004",
+      "from": "ENT-REPO-UI-LEGACY",
+      "relationship": "migrated HIVE code into",
+      "to": "ENT-REPO-PUBLIC",
+      "confidence": "HIGH"
+    },
+    {
+      "id": "REL-005",
+      "from": "ENT-REPO-OPS",
+      "relationship": "provides privileged operational/deployment boundary for",
+      "to": "ENT-OPENCLAW",
+      "confidence": "HIGH"
+    },
+    {
+      "id": "REL-006",
+      "from": "ENT-REPO-OCTOMINER",
+      "relationship": "provides specialist opportunity-mining capability for",
+      "to": "ENT-OPENCLAW",
+      "confidence": "HIGH"
+    },
+    {
+      "id": "REL-007",
       "from": "ENT-BRAIN",
       "relationship": "stored in",
       "to": "ENT-GDRIVE",
       "confidence": "HIGH"
     },
     {
-      "id": "REL-005",
-      "from": "ENT-BRAIN",
-      "relationship": "mirrored in",
-      "to": "ENT-REPO-AGENT",
-      "confidence": "HIGH"
-    },
-    {
-      "id": "REL-006",
+      "id": "REL-008",
       "from": "ENT-OPENCLAW",
-      "relationship": "version-controlled in",
+      "relationship": "version-controlled through",
       "to": "ENT-GITHUB",
       "confidence": "HIGH"
     },
     {
-      "id": "REL-007",
+      "id": "REL-009",
       "from": "ENT-OPENCLAW",
       "relationship": "may use under bounded private policy",
       "to": "ENT-COBO",
       "confidence": "MEDIUM"
-    },
-    {
-      "id": "REL-008",
-      "from": "ENT-REPO-UI",
-      "relationship": "migrated HIVE code into",
-      "to": "ENT-REPO-AGENT",
-      "confidence": "HIGH"
-    },
-    {
-      "id": "REL-009",
-      "from": "ENT-REPO-OPS",
-      "relationship": "provides private privileged operations boundary for",
-      "to": "ENT-OPENCLAW",
-      "confidence": "HIGH"
-    },
-    {
-      "id": "REL-010",
-      "from": "ENT-REPO-OCTOMINER",
-      "relationship": "provides specialist opportunity-mining capability for",
-      "to": "ENT-OPENCLAW",
-      "confidence": "HIGH"
     }
   ]
 }
