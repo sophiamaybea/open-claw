@@ -25,8 +25,7 @@ class OpenClawAgent:
         self.performance = 50.0
         self.system_prompt = self.memory.get_best_prompt()
         
-        self.evolution_dir = os.path.join(base_dir, "evolution
-")
+        self.evolution_dir = os.path.join(base_dir, "evolution")
         os.makedirs(self.evolution_dir, exist_ok=True)
 
     def think(self, task: str = "Improve myself") -> str:
