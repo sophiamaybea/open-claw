@@ -14,7 +14,7 @@ import {
   FlaskConical,
   Folder,
   Hammer,
-  Home,
+  Home as HomeIcon,
   Layers3,
   MoreHorizontal,
   Radar,
@@ -197,7 +197,7 @@ const connections = [
 ]
 
 const navItems = [
-  ['Today', Home],
+  ['Today', HomeIcon],
   ['Hive', Share2],
   ['Work', Folder],
   ['Bees', Users],
