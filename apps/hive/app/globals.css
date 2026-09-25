@@ -62,6 +62,7 @@ button { min-height: calc(44px * var(--ui-scale, 1)); }
   color: var(--text);
   font-size: calc(16px * var(--text-scale));
   overflow-x: hidden;
+  perspective: 1600px;
 }
 .topbar, .sidebar, .content {
   filter: brightness(var(--brightness)) contrast(var(--contrast)) saturate(var(--saturation));
@@ -677,4 +678,19 @@ button { min-height: calc(44px * var(--ui-scale, 1)); }
     animation-duration: 0s !important;
     animation-iteration-count: 1 !important;
   }
+}
+
+/* GSAP depth layer: cards remain ordinary accessible DOM; perspective is progressive enhancement. */
+.detail-card,
+.summary-card,
+.bee-card,
+.change-card,
+.answer-card,
+.lab-grid article,
+.visual-card,
+.preference-card,
+.resume-card {
+  transform-style: preserve-3d;
+  transform-origin: center;
+  will-change: transform;
 }
