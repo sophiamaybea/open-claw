@@ -24,6 +24,69 @@ Never describe a reward as earned before payout is verified.
 
 These are signals, not a claim that every open issue pays.
 
+
+## Live qualification cycle — 2026-09-25
+
+This cycle materially changed the swarm's qualification policy.
+
+### Verified opportunity signals
+
+- **BCPathway/bc-forge:** a sizeable cluster of open issues carried Drips contributor-funding language. Several fresh tasks were unassigned and low-comment, spanning test-runner consolidation, contributor documentation, network configuration, SPDX/CI compliance, generated documentation, coverage gates, performance/gas benchmarking, spec-to-code traceability and npm provenance/release automation.
+- **Qualification correction:** the repository-level funding mechanism was verifiable, but individual issue reward amounts were not consistently exposed in GitHub. Classification is therefore **FUNDING VERIFIED / PRICE UNVERIFIED**, not "good bounty" or expected earnings.
+- **The Justin Sun Prize:** the public problem bank showed a substantial catalogue of machine-checkable mathematical problems with Lean-proof eligibility. This is strategically interesting as a formal-verification training ground, but payout evidence, award calculation transparency and competition/congestion require further verification before treating it as reliable revenue.
+- **Mantitup-Org/vista:** an active bounty-labelled issue demonstrated an important counterexample. Contributor fixes could land while bounty amount/payment mechanics remained unclear. The swarm must not infer payment from merge, bounty wording or maintainer activity.
+
+### Behaviour-changing qualification rule
+
+Before committing serious engineering effort, prefer opportunities where the swarm can verify:
+
+1. canonical payer or funding source;
+2. exact reward or a defensible reward range;
+3. currency / payment asset;
+4. current claimability;
+5. acceptance criteria;
+6. submission route;
+7. payout route;
+8. competition / existing claims;
+9. payment precedent where available;
+10. objective verification method.
+
+If these are missing, apply an ambiguity penalty or classify the item as a **skill/research lead** rather than a revenue opportunity.
+
+### Source-provenance rule
+
+GitHub bounty searches increasingly surface mirrors, autonomous bounty scouts, agent-generated opportunity posts and third-party reposts. Every economic signal should be classified before scoring as one of:
+
+- CANONICAL_MAINTAINER_OR_PAYER
+- OFFICIAL_BOUNTY_PLATFORM
+- THIRD_PARTY_MIRROR
+- AGENT_GENERATED_ALERT
+- UNVERIFIED_CLAIM
+
+The Economist Bee should heavily discount non-canonical signals until verified against the maintainer/payer or official platform.
+
+### Skill cluster exposed by the cycle
+
+The cycle revealed a practical, machine-verifiable curriculum with repeated economic relevance:
+
+- GitHub Actions and CI engineering;
+- JS/TS test migration and runner consolidation;
+- SPDX/REUSE compliance;
+- npm OIDC provenance and release automation;
+- coverage and diff-coverage enforcement;
+- TSDoc/rustdoc generation;
+- k6/autocannon-style benchmarking;
+- spec-to-code traceability;
+- Lean / formal-verification fundamentals.
+
+These skills are especially attractive because quality can often be checked automatically, making them suitable for OpenClaw's machine-checkable work thesis.
+
+### New heuristic
+
+**Merged != paid. Bounty != funded. Paid-or-credited != money.**
+
+The swarm should optimise for verified economic outcomes, not issue labels or accepted code alone.
+
 ## Bee roles
 
 ### 1. Scout Bees
