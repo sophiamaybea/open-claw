@@ -6,11 +6,18 @@ _Last updated: 2026-09-25_
 
 **Do not create a new repository merely because a new OpenClaw concept has a new name.**
 
-OpenClaw is one system. New work should default to the canonical `sophiamaybea/open-claw` repository as an app, package, module, tool, experiment, document or branch.
+OpenClaw is one system with explicit privacy/security boundaries. New work must first be routed into an existing repository.
+
+## Existing active boundaries
+
+- **`sophiamaybea/bea-agent-core`** — primary private engineering/control plane. Default home for private engineering, internal memory, orchestration and control-plane work.
+- **`sophiamaybea/open-claw`** — canonical public monorepo. Default home for public-safe code, HIVE/control surfaces, reusable public packages and sanitised public documentation.
+- **`sophiamaybea/bea-openclaw`** — private operational/deployment boundary for privileged mail, wallet and runtime operations.
+- **`sophiamaybea/octominer`** — private specialist opportunity-mining package retained while it remains independently useful/testable.
 
 ## A separate repository must earn its existence
 
-Create or retain a separate repository only when at least one is true:
+Create or retain another repository only when at least one is true:
 
 1. **Security boundary** — materially different access controls are required.
 2. **Independent product/distribution** — the component is genuinely released independently.
@@ -19,24 +26,13 @@ Create or retain a separate repository only when at least one is true:
 
 "Different idea", "different agent", "different dashboard", "different experiment" and "might be useful later" are not sufficient reasons.
 
-## Preferred locations
-
-- `apps/` — user-facing applications and control surfaces.
-- `packages/` — reusable runtime libraries and domain modules.
-- `tools/` — deterministic utilities and CLIs.
-- `experiments/` — active experiments that have not earned permanent architecture.
-- `archive/legacy/` — preserved predecessor work that is no longer authoritative.
-- `docs/` — architecture, decisions and policy.
-- `project-brain/` — version-controlled mirror of canonical project memory.
-
-## Intended active OpenClaw repository set
-
-- **`sophiamaybea/open-claw`** — canonical public core, HIVE and public project knowledge.
-- **`sophiamaybea/bea-openclaw`** — private operational boundary for privileged mail/wallet/deployment material.
-- **`sophiamaybea/octominer`** — private specialist opportunity-mining package retained while independently useful.
-
-Other old OpenClaw-labelled repositories are legacy/migrated unless explicitly reactivated.
-
 ## Safety rule
 
 Never reduce repository count by moving private information into a public repository. Consolidation must preserve or improve access boundaries.
+
+## Future creation gate
+
+Before any OpenClaw repository is created, record:
+- why none of the active repositories is suitable;
+- the exact security/deployment/distribution/provenance boundary;
+- how it will be retired or merged if that boundary disappears.
