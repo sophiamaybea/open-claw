@@ -16,6 +16,9 @@ _Last updated: 2026-09-25_
 | STATE-010 | Repository architecture | WORKING POLICY | New work routes to one of four active boundaries; new repositories require a documented real boundary. |
 | STATE-011 | HIVE app | IN DEVELOPMENT | Public HIVE/Clawhouse source now lives at `open-claw/apps/hive/`; current approved HIVE design can evolve there. |
 | STATE-012 | Privacy boundary | ACTIVE | Public consolidation must not receive private revenue strategy, CRM, identity, credentials or institutional memory. |
+| STATE-013 | Shared Supabase data plane | IN DEVELOPMENT | Draft PR #7 implements owner-scoped RLS schema plus shared tasks, runs, results, machine memory, events, artifacts and links. It is not production-live until deployed to a dedicated OpenClaw Supabase project and verified. |
+| STATE-014 | OpenClaw CLI | IN DEVELOPMENT | Draft PR #7 adds `python -m open_claw` commands for shared memory, tasks, results, events and GitHub commit sync. |
+| STATE-015 | HIVE authenticated control plane | IN DEVELOPMENT | Draft PR #7 adds `apps/hive/control` over the same Supabase state while preserving the existing visual prototype. |
 
 ## Consolidation result
 
