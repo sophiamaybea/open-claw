@@ -753,6 +753,35 @@ export default function HiveDashboard() {
 
   useEffect(() => {
     let cancelled = false
+
+    async function loadSnapshot() {
+      try {
+        const response = await fetch('/api/hive/snapshot', { cache: 'no-store' })
+        if (!response.ok) {
+          if (!cancelled) setDataState('offline')
+          return
+        }
+
+        const next = (await response.json()) as HiveSnapshot
+        if (cancelled) return
+        setSnapshot(next)
+        setDataState(next.source === 'engine' ? 'live' : 'preview')
+      } catch {
+        if (!cancelled) setDataState('offline')
+      }
+    }
+
+    void loadSnapshot()
+    const timer = window.setInterval(loadSnapshot, 30_000)
+
+    return () => {
+      cancelled = true
+      window.clearInterval(timer)
+    }
+  }, [])
+
+  useEffect(() => {
+    let cancelled = false
     fetch('/api/hive/snapshot', { cache: 'no-store' })
       .then((response) => response.ok ? response.json() : Promise.reject(new Error(`Snapshot request failed: ${response.status}`)))
       .then((next: HiveSnapshot) => {
