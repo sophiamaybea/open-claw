@@ -15,4 +15,9 @@
 - Confirmed four active OpenClaw repository boundaries: private engineering `bea-agent-core`, public-safe `open-claw`, private operations `bea-openclaw`, and specialist private `octominer`.
 - Corrected an intermediate cleanup classification that had incorrectly labelled `bea-agent-core` legacy after consulting the newer live Project Brain state.
 
+- Ran the first live GitHub Revenue Bee qualification cycle and integrated its public-safe findings into the versioned Project Brain.
+- Added economic-source provenance classes so canonical payer/platform evidence outranks mirrors and agent-generated bounty alerts.
+- Added the rule that merge acceptance and payout verification are separate states; bounty wording alone is not evidence of payment.
+- Added a machine-verifiable skill cluster for CI/release engineering, SPDX/REUSE, coverage, benchmarking, documentation generation, provenance automation and Lean/formal verification.
+
 Clean current truth belongs in PROJECT_STATE.md and the Living Project Brain.
