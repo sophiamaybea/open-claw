@@ -86,20 +86,22 @@ class GencraftBrowserBackend:
         return result
 
     @staticmethod
-    def _visible_image_urls(page) -> set[str]:
+    def _visible_media_urls(page) -> set[str]:
         urls: set[str] = set()
-        for img in page.locator("img").all():
-            try:
-                if not img.is_visible():
+        for selector in ("img", "video", "video source"):
+            for node in page.locator(selector).all():
+                try:
+                    if selector != "video source" and not node.is_visible():
+                        continue
+                    if selector != "video source":
+                        box = node.bounding_box()
+                        if not box or box["width"] < 180 or box["height"] < 180:
+                            continue
+                    src = node.get_attribute("src") or node.get_attribute("data-src")
+                    if src and not src.startswith("data:") and not src.startswith("blob:"):
+                        urls.add(src)
+                except Exception:
                     continue
-                box = img.bounding_box()
-                if not box or box["width"] < 180 or box["height"] < 180:
-                    continue
-                src = img.get_attribute("src") or img.get_attribute("data-src")
-                if src and not src.startswith("data:"):
-                    urls.add(src)
-            except Exception:
-                continue
         return urls
 
     @staticmethod
@@ -248,17 +250,17 @@ class GencraftBrowserBackend:
                 prompt_input.click()
                 page.keyboard.press("Control+A")
                 page.keyboard.type(prompt)
-            before = self._visible_image_urls(page)
+            before = self._visible_media_urls(page)
             self._click_named(page, r"^generate$", required=True)
             deadline = time.monotonic() + wait_seconds
             new_urls: list[str] = []
             while time.monotonic() < deadline:
                 page.wait_for_timeout(2_000)
-                current = self._visible_image_urls(page)
+                current = self._visible_media_urls(page)
                 delta = [u for u in current if u not in before]
                 if delta:
                     page.wait_for_timeout(4_000)
-                    current = self._visible_image_urls(page)
+                    current = self._visible_media_urls(page)
                     new_urls = [u for u in current if u not in before]
                     break
             if not new_urls:
