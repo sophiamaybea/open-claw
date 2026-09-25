@@ -221,10 +221,25 @@ class DataPlane:
                 "status": status,
                 "freshness_class": freshness_class,
             },
+            ignore_duplicates=bool(source_ref),
         )
-        if not rows:
+        if rows:
+            row = rows[0]
+        elif source_ref:
+            matches = self.select(
+                "oc_memory",
+                params={
+                    "select": "id,kind,title,summary,content,source,source_ref,confidence,status,freshness_class,created_at,updated_at",
+                    "source": f"eq.{source}",
+                    "source_ref": f"eq.{source_ref}",
+                    "limit": "1",
+                },
+            )
+            if not matches:
+                raise DataPlaneError("Memory insert was ignored but no existing record was found.")
+            row = matches[0]
+        else:
             raise DataPlaneError("Memory insert returned no row.")
-        row = rows[0]
         self.record_event(
             "memory.created",
             {"memory_id": row["id"], "kind": kind, "title": title},
