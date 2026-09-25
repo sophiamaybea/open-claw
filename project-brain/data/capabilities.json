@@ -1,0 +1,104 @@
+{
+  "schema_version": "1.0",
+  "last_updated": "2026-09-25",
+  "records": [
+    {
+      "id": "CAP-001",
+      "capability": "Repository analysis",
+      "ability": "Strong via connected GitHub tooling; runtime integration not yet native",
+      "status": "EXPERIMENTAL",
+      "confidence": "HIGH"
+    },
+    {
+      "id": "CAP-002",
+      "capability": "Software engineering / Python",
+      "ability": "Prototype exists; robust sandbox/test/patch loop needed",
+      "status": "IN DEVELOPMENT",
+      "confidence": "HIGH"
+    },
+    {
+      "id": "CAP-003",
+      "capability": "Web and technical research",
+      "ability": "Host-assisted; runtime adapter needed",
+      "status": "IN DEVELOPMENT",
+      "confidence": "MEDIUM"
+    },
+    {
+      "id": "CAP-004",
+      "capability": "Bounty and paid-problem discovery",
+      "ability": "Workflow/schema defined; continuous live ingestion not yet verified",
+      "status": "IN DEVELOPMENT",
+      "confidence": "HIGH"
+    },
+    {
+      "id": "CAP-005",
+      "capability": "Data analysis",
+      "ability": "Target capability",
+      "status": "PLANNED",
+      "confidence": "HIGH"
+    },
+    {
+      "id": "CAP-006",
+      "capability": "Mathematics and statistics",
+      "ability": "Target capability",
+      "status": "PLANNED",
+      "confidence": "HIGH"
+    },
+    {
+      "id": "CAP-007",
+      "capability": "Authorised security research",
+      "ability": "Target capability with explicit-scope requirement",
+      "status": "PLANNED",
+      "confidence": "HIGH"
+    },
+    {
+      "id": "CAP-008",
+      "capability": "Smart-contract analysis",
+      "ability": "Target capability",
+      "status": "PLANNED",
+      "confidence": "HIGH"
+    },
+    {
+      "id": "CAP-009",
+      "capability": "Forecasting",
+      "ability": "Target capability",
+      "status": "PLANNED",
+      "confidence": "HIGH"
+    },
+    {
+      "id": "CAP-010",
+      "capability": "Scientific / technical research",
+      "ability": "Target capability",
+      "status": "PLANNED",
+      "confidence": "HIGH"
+    },
+    {
+      "id": "CAP-011",
+      "capability": "Persistent self-improvement memory",
+      "ability": "Basic JSON/JSONL persistence exists; no vector/graph retrieval yet",
+      "status": "EXPERIMENTAL",
+      "confidence": "HIGH"
+    },
+    {
+      "id": "CAP-012",
+      "capability": "Opportunity / market-gap discovery",
+      "ability": "Strategic workflow defined",
+      "status": "IN DEVELOPMENT",
+      "confidence": "HIGH"
+    },
+    {
+      "id": "CAP-013",
+      "capability": "Submission preparation",
+      "ability": "Host-assisted; runtime integration planned",
+      "status": "IN DEVELOPMENT",
+      "confidence": "MEDIUM"
+    },
+    {
+      "id": "CAP-014",
+      "capability": "Problem decomposition / iterative solving",
+      "ability": "Rudimentary think/act/reflect/evolve scaffold exists",
+      "status": "EXPERIMENTAL",
+      "confidence": "HIGH"
+    }
+  ]
+}
