@@ -9,14 +9,15 @@ import sys
 from rich.console import Console
 from rich.live import Live
 from rich.table import Table
+from rich.panel import Panel
 
 from .core import OpenClawAgent
 
 console = Console()
 
 class Trainer:
-    def __init__(self, model: str = "llama3.2:3b", max_iterations: int = 1000, self_improve: bool = True):
-        self.agent = OpenClawAgent(model=model)
+    def __init__(self, model: str = "llama3.2:3b", max_iterations: int = 1000, self_improve: bool = True, provider: str = "auto"):
+        self.agent = OpenClawAgent(model=model, provider=provider)
         self.max_iterations = max_iterations
         self.self_improve = self_improve
         self.running = True

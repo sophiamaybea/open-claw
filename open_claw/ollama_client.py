@@ -14,6 +14,8 @@ from rich.markdown import Markdown
 console = Console()
 
 class OllamaClient:
+    provider = "ollama"
+
     def __init__(self, model: str = "llama3.2:3b", host: str = "http://localhost:11434"):
         self.model = model
         self.host = host

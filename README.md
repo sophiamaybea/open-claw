@@ -51,6 +51,37 @@ npm run dev
 
 This is a public-safe UI/control-surface codebase. Backend/private runtime capabilities remain in their appropriate private boundaries until deliberately promoted.
 
+
+## Free cloud model provider
+
+OpenClaw can now use **Groq's free API tier** as its cloud model backend while retaining Ollama as a local fallback.
+
+The default provider mode is `auto`:
+
+1. If `GROQ_API_KEY` is present, OpenClaw uses Groq.
+2. Otherwise it falls back to local Ollama.
+
+No API key should ever be committed to this repository.
+
+```bash
+export GROQ_API_KEY="your-key"
+export OPENCLAW_PROVIDER="groq"
+python scripts/start_training.py --provider groq
+```
+
+The default Groq model is `openai/gpt-oss-120b`. Override it without changing code:
+
+```bash
+export GROQ_MODEL="openai/gpt-oss-20b"
+```
+
+To force the local fallback:
+
+```bash
+export OPENCLAW_PROVIDER="ollama"
+python scripts/start_training.py --provider ollama --model llama3.2:3b
+```
+
 ## Security
 
 - Never commit secrets, credentials, private keys or wallet material.
