@@ -23,4 +23,6 @@
 - Rebuilt `open-claw/apps/hive` around the approved HIVE Today-screen visual source of truth as a front-end-only deployable prototype; the previous Clawhouse marketing landing page is no longer the active HIVE screen.
 - Added interactive visual states for task selection, Bee inspector updates, Simple/Full density, sidebar selection, Comfort mode and front-end-only completion toggles. No backend integration was added.
 
+- Implemented and merged the first Prometheus prompt-intelligence vertical slice in the private control plane after successful OpenClaw Lab CI. Rough intent now passes through a versioned execution-spec compiler; repeated evidence-backed failures can spawn targeted challengers, and promotion requires measured improvement without unacceptable metric regression. Added a CLI integration seam for phone/ChatGPT/HIVE, while standalone channel transport and real-world performance improvement remain unverified next-stage work.
+
 Clean current truth belongs in PROJECT_STATE.md and the Living Project Brain.
