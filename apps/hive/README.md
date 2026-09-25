@@ -1,14 +1,26 @@
-# HIVE
+# HIVE front-end prototype
 
-HIVE is OpenClaw's visual control surface.
+This folder contains the deployable **front-end-only HIVE visual prototype** for OpenClaw.
 
-This code was migrated from the former `sophiamaybea/openclaw` repository during repository consolidation on 25 September 2026. New HIVE work belongs here.
+It currently implements the approved Today-screen mock-up: orbital work map, task/Bee selection, inspector panel, sidebar navigation states, Simple/Full density, Comfort toggle, and the What needs you / What changed panels.
 
-## Run
+There is intentionally **no live backend connection yet**. All data and interactions are local demo state.
+
+## Run locally
 
 ```bash
 npm install
 npm run dev
 ```
 
-This app is currently a visual/control-surface prototype. It should not imply backend runtime capabilities exist until those capabilities are verified.
+## Deploy on Vercel
+
+Import the `sophiamaybea/open-claw` repository and set the **Root Directory** to:
+
+```text
+apps/hive
+```
+
+Framework preset: **Next.js**.
+
+No environment variables are required for this visual prototype.
