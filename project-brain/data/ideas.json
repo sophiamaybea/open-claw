@@ -1,0 +1,66 @@
+{
+  "schema_version": "1.0",
+  "last_updated": "2026-09-25",
+  "records": [
+    {
+      "id": "IDEA-001",
+      "title": "Cloud-first autonomous problem-solving agent",
+      "status": "PROMISING",
+      "value": "VERY HIGH"
+    },
+    {
+      "id": "IDEA-002",
+      "title": "Cross-industry paid-problem hunter",
+      "status": "PROMISING",
+      "value": "VERY HIGH"
+    },
+    {
+      "id": "IDEA-003",
+      "title": "Self-learning capability and tool library",
+      "status": "EXPERIMENTING",
+      "value": "HIGH"
+    },
+    {
+      "id": "IDEA-004",
+      "title": "Specialist-agent hive",
+      "status": "INVESTIGATING",
+      "value": "HIGH"
+    },
+    {
+      "id": "IDEA-005",
+      "title": "Agentic multi-currency wallet / treasury",
+      "status": "INVESTIGATING",
+      "value": "HIGH"
+    },
+    {
+      "id": "IDEA-006",
+      "title": "Opportunity market-gap detector",
+      "status": "PROMISING",
+      "value": "HIGH"
+    },
+    {
+      "id": "IDEA-007",
+      "title": "Hourly opportunity discovery pipeline",
+      "status": "PROMISING",
+      "value": "MEDIUM-HIGH"
+    },
+    {
+      "id": "IDEA-008",
+      "title": "Evaluation-backed self-improvement harness",
+      "status": "PROMISING",
+      "value": "VERY HIGH"
+    },
+    {
+      "id": "IDEA-009",
+      "title": "Project Brain knowledge graph",
+      "status": "EXPERIMENTING",
+      "value": "HIGH"
+    },
+    {
+      "id": "IDEA-010",
+      "title": "Permission-aware autonomous submission system",
+      "status": "INVESTIGATING",
+      "value": "HIGH"
+    }
+  ]
+}
