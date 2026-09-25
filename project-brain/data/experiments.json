@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "last_updated": "2026-09-25",
+  "records": [
+    {
+      "id": "EXP-001",
+      "date": "2026-09-25",
+      "hypothesis": "Existing repo already implements current cloud-first vision",
+      "result": "NOT SUPPORTED / PARTIAL",
+      "status": "COMPLETED",
+      "lesson": "Current v0.1 is a local predecessor; verify capabilities against source/tests."
+    },
+    {
+      "id": "EXP-002",
+      "date": "2026-09-25",
+      "hypothesis": "open-claw is agent repo and openclaw is a different project",
+      "result": "SUPPORTED",
+      "status": "COMPLETED",
+      "lesson": "Use metadata + commits + source to disambiguate repositories."
+    },
+    {
+      "id": "EXP-003",
+      "date": "2026-09-25",
+      "hypothesis": "Connected Drive is the required sophiamaybea account",
+      "result": "SUPPORTED",
+      "status": "COMPLETED",
+      "lesson": "Verify storage identity before persistent infrastructure when account ambiguity matters."
+    }
+  ]
+}
