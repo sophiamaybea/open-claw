@@ -737,6 +737,7 @@ export default function HiveDashboard() {
   const [simple, setSimple] = useState(false)
   const [comfortOpen, setComfortOpen] = useState(false)
   const [snapshot, setSnapshot] = useState<HiveSnapshot>(DEMO_SNAPSHOT)
+  const [dataState, setDataState] = useState<'preview' | 'live' | 'offline'>('preview')
   const rootRef = useRef<HTMLElement>(null)
   const scrollProgress = useRef(0)
   const [comfort, setComfort] = useState<ComfortSettings>({
@@ -780,21 +781,6 @@ export default function HiveDashboard() {
     }
   }, [])
 
-  useEffect(() => {
-    let cancelled = false
-    fetch('/api/hive/snapshot', { cache: 'no-store' })
-      .then((response) => response.ok ? response.json() : Promise.reject(new Error(`Snapshot request failed: ${response.status}`)))
-      .then((next: HiveSnapshot) => {
-        if (!cancelled) setSnapshot(next)
-      })
-      .catch(() => {
-        // Demo state is an intentional safe fallback until the private engine gateway is configured.
-      })
-
-    return () => {
-      cancelled = true
-    }
-  }, [])
 
   useEffect(() => {
     const root = rootRef.current
@@ -916,7 +902,7 @@ export default function HiveDashboard() {
         </div>
         <label className="search-box"><Search size={19}/><input aria-label="Search your hive" placeholder="Search your hive…"/></label>
         <div className="top-actions">
-          <span className="source-state" title={snapshot.source === 'engine' ? 'Live projection from the private OpenClaw engine.' : 'Safe demo data is shown until the authenticated engine gateway is configured.'}><span className="live-dot"/>{snapshot.source === 'engine' ? 'LIVE ENGINE' : 'UI PREVIEW'}</span>
+          <span className={`source-state source-${dataState}`} title={dataState === 'live' ? 'Live projection from the private OpenClaw engine.' : dataState === 'offline' ? 'Private engine unavailable. Commands fail closed.' : 'Safe demo data is shown until the authenticated engine gateway is configured.'}><span className="live-dot"/>{dataState === 'live' ? 'LIVE ENGINE' : dataState === 'offline' ? 'ENGINE OFFLINE' : 'UI PREVIEW'}</span>
           <button className="comfort-button" onClick={() => setComfortOpen(true)}><SunMedium size={18}/>COMFORT</button>
         </div>
       </header>
