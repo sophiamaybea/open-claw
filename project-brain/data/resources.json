@@ -1,0 +1,70 @@
+{
+  "schema_version": "1.0",
+  "last_updated": "2026-09-25",
+  "records": [
+    {
+      "id": "RES-001",
+      "name": "OpenClaw agent repository",
+      "type": "GitHub repository",
+      "url": "https://github.com/sophiamaybea/open-claw",
+      "in_use": true,
+      "status": "IN DEVELOPMENT"
+    },
+    {
+      "id": "RES-002",
+      "name": "Living Project Brain",
+      "type": "Google Doc",
+      "url": "https://docs.google.com/document/d/1WI6WDFn8Syz23UF9zpkx_tLYqi4OI6qLuExVbMsvos4/edit",
+      "in_use": true,
+      "status": "WORKING"
+    },
+    {
+      "id": "RES-003",
+      "name": "Structured Project Memory",
+      "type": "Google Sheet",
+      "url": "https://docs.google.com/spreadsheets/d/1V2sd3JQSodXUt2NnhZbRkQofJFMpeP242sTCiiV45Ts/edit",
+      "in_use": true,
+      "status": "WORKING"
+    },
+    {
+      "id": "RES-004",
+      "name": "Ollama",
+      "type": "Local model runtime",
+      "url": "https://ollama.com",
+      "in_use": "EXPERIMENTAL",
+      "status": "EXPERIMENTAL"
+    },
+    {
+      "id": "RES-005",
+      "name": "GitHub connector",
+      "type": "Integration",
+      "url": "https://github.com/sophiamaybea",
+      "in_use": true,
+      "status": "WORKING"
+    },
+    {
+      "id": "RES-006",
+      "name": "Google Drive connector",
+      "type": "Integration",
+      "url": "Google Drive: sophiamaybea",
+      "in_use": true,
+      "status": "WORKING"
+    },
+    {
+      "id": "RES-007",
+      "name": "Cobo Agentic Wallet",
+      "type": "Wallet candidate",
+      "url": "https://github.com/CoboGlobal/cobo-agentic-wallet",
+      "in_use": false,
+      "status": "INVESTIGATING"
+    },
+    {
+      "id": "RES-008",
+      "name": "Clawhouse/web repo",
+      "type": "Related repository",
+      "url": "https://github.com/sophiamaybea/openclaw",
+      "in_use": "RELATED",
+      "status": "RELATED"
+    }
+  ]
+}
