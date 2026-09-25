@@ -20,4 +20,7 @@
 - Added the rule that merge acceptance and payout verification are separate states; bounty wording alone is not evidence of payment.
 - Added a machine-verifiable skill cluster for CI/release engineering, SPDX/REUSE, coverage, benchmarking, documentation generation, provenance automation and Lean/formal verification.
 
+- Rebuilt `open-claw/apps/hive` around the approved HIVE Today-screen visual source of truth as a front-end-only deployable prototype; the previous Clawhouse marketing landing page is no longer the active HIVE screen.
+- Added interactive visual states for task selection, Bee inspector updates, Simple/Full density, sidebar selection, Comfort mode and front-end-only completion toggles. No backend integration was added.
+
 Clean current truth belongs in PROJECT_STATE.md and the Living Project Brain.
