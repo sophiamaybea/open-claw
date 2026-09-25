@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.0",
+  "last_updated": "2026-09-25",
+  "records": [
+    {
+      "id": "FAIL-001",
+      "date": "2026-09-25",
+      "failure": "README overstates vector memory",
+      "status": "OPEN / DOCS NEED ALIGNMENT",
+      "confidence": "HIGH"
+    },
+    {
+      "id": "FAIL-002",
+      "date": "2026-09-25",
+      "failure": "act() is too simulated for autonomous real-world solving",
+      "status": "KNOWN LIMITATION",
+      "confidence": "HIGH"
+    },
+    {
+      "id": "FAIL-003",
+      "date": "2026-09-25",
+      "failure": "Local-only runtime conflicts with cloud-first target",
+      "status": "KNOWN LIMITATION",
+      "confidence": "HIGH"
+    },
+    {
+      "id": "FAIL-004",
+      "date": "2026-09-25",
+      "failure": "Potential evolution-directory newline path defect",
+      "status": "NEEDS VERIFICATION",
+      "confidence": "MEDIUM"
+    }
+  ]
+}
