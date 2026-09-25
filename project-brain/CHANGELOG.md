@@ -17,6 +17,6 @@
 - **HIVE frontend implementation:** built a new React/Next.js control surface on branch `feat/hive-control-surface-v1` using React Three Fiber, Three.js, custom GLSL shaders, GSAP and ScrollTrigger.
 - Added HIVE screens for Today, Work, Bees, Radar, Money, Brain, Build, Lab, Security and Me, plus comfort/reduced-motion/text fallbacks.
 - Added a secure same-origin `/api/hive/snapshot` gateway so the public frontend can later consume private engine projections without direct browser-to-Supabase access.
-- Added HIVE CI and opened draft PR #8. The private engine snapshot endpoint remains a follow-up and is not described as working yet.
+- Added HIVE CI and opened draft PR #8. HIVE CI completed successfully on the current PR head. The private engine snapshot endpoint remains a follow-up and is not described as working yet.
 
 Clean current truth belongs in PROJECT_STATE.md and the Living Project Brain.
