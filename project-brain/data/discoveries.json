@@ -1,0 +1,62 @@
+{
+  "schema_version": "1.0",
+  "last_updated": "2026-09-25",
+  "records": [
+    {
+      "id": "DISC-001",
+      "title": "Two similarly named repos have different purposes",
+      "confidence": "HIGH",
+      "source": "GITHUB",
+      "status": "CONFIRMED"
+    },
+    {
+      "id": "DISC-002",
+      "title": "open-claw is current agent repository",
+      "confidence": "HIGH",
+      "source": "GITHUB",
+      "status": "CONFIRMED"
+    },
+    {
+      "id": "DISC-003",
+      "title": "Existing runtime local-first; target cloud-first",
+      "confidence": "HIGH",
+      "source": "GITHUB+USER",
+      "status": "CONFIRMED"
+    },
+    {
+      "id": "DISC-004",
+      "title": "README vector memory not implemented in inspected memory.py",
+      "confidence": "HIGH",
+      "source": "GITHUB",
+      "status": "CONFIRMED FOR MAIN"
+    },
+    {
+      "id": "DISC-005",
+      "title": "v0.1 action loop mostly simulated",
+      "confidence": "HIGH",
+      "source": "GITHUB",
+      "status": "CONFIRMED"
+    },
+    {
+      "id": "DISC-006",
+      "title": "recursive improvement currently writes human-gated recommendation",
+      "confidence": "HIGH",
+      "source": "GITHUB",
+      "status": "CONFIRMED"
+    },
+    {
+      "id": "DISC-007",
+      "title": "clean current state must be separate from changelog history",
+      "confidence": "HIGH",
+      "source": "USER",
+      "status": "CONFIRMED"
+    },
+    {
+      "id": "DISC-008",
+      "title": "revenue requires discovery→submission→payout states",
+      "confidence": "HIGH",
+      "source": "USER",
+      "status": "CONFIRMED"
+    }
+  ]
+}
