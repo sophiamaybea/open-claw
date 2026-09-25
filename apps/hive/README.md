@@ -1,82 +1,46 @@
 # HIVE
 
-HIVE is the human control surface for OpenClaw.
+HIVE is OpenClaw's visual control surface.
 
-It is intentionally **not the OpenClaw engine**. The public-safe frontend lives here in the canonical `sophiamaybea/open-claw` monorepo, while privileged orchestration, credentials, durable private memory access and consequential actions stay behind the private engine/control-plane boundary.
+## Architecture
 
-## Current implementation
-
-This app currently includes an interactive frontend for:
-
-- Today / Hive attention map
-- Work / mission clusters
-- Bees and Bee check-in controls
-- Radar / opportunity field
-- Money / certainty rings
-- Brain / evidence and knowledge map
-- Build / change pipeline
-- Lab / experiments
-- Security / immune-system view
-- Me / editable preferences
-- Comfort presets and live visual controls
-
-The radial/organic views use React Three Fiber + Three.js with a small custom GLSL shader. The interface also has CSS/simple fallbacks and honours reduced-motion preferences.
-
-## Data status
-
-The branch currently uses a typed **demo snapshot** so the interface can be built and reviewed without pretending the private engine gateway already exists.
-
-Do not wire browser code directly to private OpenClaw memory.
-
-The intended flow is:
+The browser UI is deliberately separate from the private OpenClaw engine.
 
 ```text
-HIVE browser
-   ↓
-Next.js server/BFF
-   ↓ authenticated, permission-bounded requests
+browser / HIVE
+      |
+      | same-origin GET /api/hive/snapshot
+      v
+Next.js server gateway
+      |
+      | authenticated server-to-server request
+      v
 private OpenClaw engine
-   ↓
-OpenClaw operational memory / tools / audit trail
+      |
+      +--> operational Supabase memory
+      +--> agent state / missions / audit projections
 ```
 
-The browser should receive only the safe projection needed for the current screen. Privileged credentials, private memory roles, service credentials and wallet authority never belong in the client bundle.
+The frontend never receives reusable Supabase credentials, the private database role, or the engine token. The private engine remains the authority for memory and consequential actions; HIVE receives a safe projection for display and control.
 
-See `docs/ARCHITECTURE.md` and `lib/engine-contract.ts`.
+Until `HIVE_ENGINE_URL` and `HIVE_ENGINE_TOKEN` are configured, the dashboard intentionally renders a labelled demo snapshot.
 
-## Accessibility defaults
+## Visual stack
 
-HIVE is designed around progressive disclosure and forgiving interaction:
+- Next.js + React
+- React Three Fiber + Three.js
+- custom GLSL shaders
+- Drei helpers
+- GSAP + ScrollTrigger
+- progressive accessible fallbacks and reduced-motion modes
 
-- no critical hover-only controls
-- large touch targets
-- reduced-motion support
-- stable navigation
-- Simple / Full information levels
-- editable low-stimulation, migraine, low-energy, fog and text-only modes
-- no compulsory white background
-- high-value information stays visible until dismissed
-- dangerous actions are visually separated
-- graphs are optional rather than required for access to information
-
-The UI stores display and workflow preferences rather than needing medical diagnoses.
-
-## Run locally
+## Run
 
 ```bash
 cd apps/hive
+cp .env.example .env.local
 npm install
 npm run dev
 ```
 
-## Build
-
-```bash
-npm run build
-```
-
-## Engine connection
-
-Environment names are documented in `.env.example`, but the engine gateway must be implemented and authenticated before switching from demo data.
-
-House Bees such as Accessibility, Workflow, Optimiser and Guardian are intended to run in the private engine. HIVE displays their state, suggestions and controls; it does not give browser code their privileged credentials.
+Do not add secrets to git and do not change the engine boundary into direct browser-to-database access.
