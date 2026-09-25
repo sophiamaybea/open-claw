@@ -15,7 +15,7 @@ _Last updated: 2026-09-25_
 | STATE-009 | Cloud-first autonomous runtime | IN DEVELOPMENT | Private engineering/control-plane work has moved beyond the public v0.1 prototype. |
 | STATE-010 | Repository architecture | WORKING POLICY | New work routes to one of four active boundaries; new repositories require a documented real boundary. |
 | STATE-011 | HIVE app | FRONT-END PROTOTYPE WORKING | `open-claw/apps/hive/` now implements the approved Today-screen visual mock-up as a deployable front-end-only Next.js prototype. It includes the orbital task map, Bee inspector, sidebar, complexity toggle and summary panels; no live backend is connected yet. |
-| STATE-012 | Privacy boundary | ACTIVE | Public consolidation must not receive private revenue strategy, CRM, identity, credentials or institutional memory. |
+| STATE-012 | Privacy boundary | ACTIVE | Public consolidation must not receive private revenue strategy, CRM, identity, credentials or institutional memory. |\n| STATE-013 | Prometheus prompt intelligence | EXPERIMENTAL / IMPLEMENTED | Private control plane now compiles rough intent into versioned execution specifications and supports evidence-gated champion/challenger prompt adaptation. Regression CI passed before merge. Standalone phone/ChatGPT transport and real-world improvement evidence remain pending. |
 
 ## Consolidation result
 
