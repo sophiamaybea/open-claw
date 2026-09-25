@@ -4,23 +4,19 @@ _Last updated: 2026-09-25_
 
 | ID | Component | Status | Current truth |
 |---|---|---|---|
-| STATE-001 | Living Project Brain | WORKING | Google Doc + native structured Google Sheet created and linked to this repository mirror. |
-| STATE-002 | Project Brain Drive location | WORKING | Stored only in the user's **sophiamaybea** Google Drive account. |
-| STATE-003 | GitHub connection | WORKING | `sophiamaybea` account connected with write/admin permissions on the relevant repositories. |
-| STATE-004 | `sophiamaybea/open-claw` | IN DEVELOPMENT | Canonical public OpenClaw monorepo. Contains v0.1 Python predecessor, Project Brain mirror and HIVE/control-surface app. |
+| STATE-001 | Living Project Brain | WORKING | Google Doc + native structured Google Sheet exist in the authorised sophiamaybea Drive. |
+| STATE-002 | GitHub connection | WORKING | `sophiamaybea` account connected with write/admin permissions on relevant repositories. |
+| STATE-003 | `sophiamaybea/bea-agent-core` | ACTIVE / PRIMARY PRIVATE | Primary private engineering/control plane. Private institutional memory/CRM/internal engineering remain here. |
+| STATE-004 | `sophiamaybea/open-claw` | ACTIVE / PUBLIC | Canonical public OpenClaw monorepo. Contains the v0.1 public predecessor, public-safe Brain mirror and HIVE/control-surface app. |
 | STATE-005 | Former `sophiamaybea/openclaw` | MIGRATED / LEGACY | HIVE code consolidated into `open-claw/apps/hive`; no new OpenClaw work should start there. |
-| STATE-006 | Local Ollama backend | EXPERIMENTAL | Current v0.1 code defaults to `llama3.2:3b` on `localhost:11434`. |
-| STATE-007 | Think → act → reflect → evolve loop | EXPERIMENTAL | Python scaffolding exists; broad real-world tool execution is not implemented in inspected code. |
-| STATE-008 | Cloud-first autonomous runtime | PLANNED | Required target: persistent cloud worker controllable from iPad/phone. |
-| STATE-009 | Paid-problem/bounty pipeline | IN DEVELOPMENT | Strategy and schemas exist; end-to-end autonomous discovery → solve → submit → payout is not verified. |
-| STATE-010 | Agent wallet/treasury | EXPERIMENTAL / PRIVATE | Private `bea-openclaw` contains bounded wallet tooling; autonomous fund movement remains permission-gated. |
-| STATE-011 | Project Brain API | IN DEVELOPMENT | Data model exists; runtime methods are not yet wired. |
-| STATE-012 | Automatic session update loop | PLANNED | Required process specified; automatic runtime trigger not yet implemented. |
-| STATE-013 | Repository architecture | WORKING POLICY | New OpenClaw subsystems default to the canonical monorepo; separate repos require a real boundary. |
-| STATE-014 | HIVE app | IN DEVELOPMENT | Public visual/control-surface code now lives at `apps/hive/`. |
-| STATE-015 | Private operations boundary | WORKING / PRIVATE | `sophiamaybea/bea-openclaw` remains separate because it contains privileged operational material. |
-| STATE-016 | Octominer | WORKING SPECIALIST / PRIVATE | Retained as a separately testable opportunity-mining package while independently useful. |
+| STATE-006 | `sophiamaybea/bea-openclaw` | ACTIVE / PRIVATE OPS | Operational/deployment boundary for privileged mail/wallet/runtime work. |
+| STATE-007 | `sophiamaybea/octominer` | ACTIVE SPECIALIST / PRIVATE | Separately testable opportunity-mining package while independently useful. |
+| STATE-008 | Local Ollama predecessor | EXPERIMENTAL | Public v0.1 predecessor remains useful scaffolding, not the complete cloud-first system. |
+| STATE-009 | Cloud-first autonomous runtime | IN DEVELOPMENT | Private engineering/control-plane work has moved beyond the public v0.1 prototype. |
+| STATE-010 | Repository architecture | WORKING POLICY | New work routes to one of four active boundaries; new repositories require a documented real boundary. |
+| STATE-011 | HIVE app | IN DEVELOPMENT | Public HIVE/Clawhouse source now lives at `open-claw/apps/hive/`; current approved HIVE design can evolve there. |
+| STATE-012 | Privacy boundary | ACTIVE | Public consolidation must not receive private revenue strategy, CRM, identity, credentials or institutional memory. |
 
-## Important implementation gap
+## Consolidation result
 
-The original v0.1 README overstated some self-evolution capabilities relative to the inspected implementation. The root README has been corrected to describe current truth.
+Repository proliferation was reduced by retiring the duplicate public `openclaw` HIVE repo as an active destination and marking obsolete Grok/KAIRO/idea-evolver repositories as legacy. The newer live Project Brain decision that `bea-agent-core` is the primary private engineering/control plane remains authoritative and was explicitly preserved.
