@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0",
+  "last_updated": "2026-09-25",
+  "records": [
+    {
+      "id": "LEARN-001",
+      "date": "2026-09-25",
+      "learning": "Implementation evidence outranks README wording",
+      "confidence": "HIGH"
+    },
+    {
+      "id": "LEARN-002",
+      "date": "2026-09-25",
+      "learning": "Self-improvement must be externally evaluated",
+      "confidence": "HIGH"
+    },
+    {
+      "id": "LEARN-003",
+      "date": "2026-09-25",
+      "learning": "Persistent memory needs dedup/consolidation, not only storage",
+      "confidence": "HIGH"
+    },
+    {
+      "id": "LEARN-004",
+      "date": "2026-09-25",
+      "learning": "Repository names alone are not sufficient identity",
+      "confidence": "HIGH"
+    },
+    {
+      "id": "LEARN-005",
+      "date": "2026-09-25",
+      "learning": "Revenue needs verified outcome states",
+      "confidence": "HIGH"
+    }
+  ]
+}
