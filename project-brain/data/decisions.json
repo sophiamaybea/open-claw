@@ -72,13 +72,25 @@
     {
       "id": "DEC-012",
       "date": "2026-09-25",
-      "decision": "bea-openclaw remains private as the privileged operations boundary",
+      "decision": "bea-openclaw remains private as the privileged operations/deployment boundary",
       "active": true
     },
     {
       "id": "DEC-013",
       "date": "2026-09-25",
       "decision": "octominer remains a specialist private repository while independently useful and testable",
+      "active": true
+    },
+    {
+      "id": "DEC-014",
+      "date": "2026-09-25",
+      "decision": "bea-agent-core remains the primary private engineering/control plane",
+      "active": true
+    },
+    {
+      "id": "DEC-015",
+      "date": "2026-09-25",
+      "decision": "New OpenClaw repositories require a documented real boundary",
       "active": true
     }
   ]
