@@ -4,13 +4,13 @@ _Last updated: 2026-09-25_
 
 ## NOW
 
-1. Finish wiring the Project Brain API + automatic session update/consolidation hooks.
+1. Provision a dedicated OpenClaw Supabase project; apply and audit the draft shared data-plane schema from PR #7; verify CLI -> Supabase -> HIVE round trips.
 2. Define and implement the cloud-first control/execution architecture.
 3. Replace simulated actions with a real typed tool router + sandbox + receipts.
-4. Connect HIVE in `apps/hive` to real permission-aware runtime state rather than mock/static state.
+4. Complete PR #7 HIVE integration verification, including Auth/RLS, environment configuration, build checks and live runtime state.
 5. Add external evaluator/test gates.
 6. Build the live opportunity-ingestion and scoring MVP using existing specialist work where useful.
-7. Audit/fix the v0.1 Python modules before promoting them into the cloud runtime.
+7. Audit/fix the remaining v0.1 Python modules before promoting them into the cloud runtime; PR #7 already fixes the malformed evolution-directory path and adds shared-memory compatibility.
 8. Stop creating new OpenClaw repositories by default; use the canonical monorepo structure.
 
 ## NEXT
