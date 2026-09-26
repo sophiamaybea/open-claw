@@ -3,7 +3,7 @@ import './globals.css'
 
 export const metadata: Metadata = {
   title: 'HIVE for OpenClaw',
-  description: 'A front-end visual prototype of the HIVE operating system for OpenClaw.',
+  description: 'A visual operating system for inspecting live OpenClaw work, Bees, status and evidence.',
 }
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
