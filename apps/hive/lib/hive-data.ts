@@ -63,6 +63,14 @@ export type BrainNode = {
   summary: string
 }
 
+export type MusicState = {
+  assets: number
+  analysisRuns: number
+  candidateMoments: number
+  listenerConfirmedMoments: number
+  experimentsAwaitingHumanMark: number
+}
+
 export type HiveSnapshot = {
   source: 'demo' | 'engine'
   updatedAt: string
@@ -71,6 +79,7 @@ export type HiveSnapshot = {
   opportunities: Opportunity[]
   money: MoneyItem[]
   brain: BrainNode[]
+  music?: MusicState
 }
 
 export const CATEGORY_COLOURS: Record<HiveCategory, string> = {
