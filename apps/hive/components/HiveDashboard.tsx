@@ -622,7 +622,14 @@ function SecurityView() {
   )
 }
 
-function LabView() {
+function LabView({ music }: { music?: HiveSnapshot['music'] }) {
+  const recordRoom = music ?? {
+    assets: 0,
+    analysisRuns: 0,
+    candidateMoments: 0,
+    listenerConfirmedMoments: 0,
+    experimentsAwaitingHumanMark: 0,
+  }
   const experiments = [
     ['Meta-cognition', 'Compare two task decomposition methods', 'Running'],
     ['Retrieval', 'Brain-first retrieval vs. ideation-first', 'Ready'],
@@ -633,6 +640,20 @@ function LabView() {
     <div className="single-page">
       <SectionTitle eyebrow="SAFE EXPERIMENTATION" title="Lab" copy="Experiments stay temporary until evidence earns promotion. Attractive ideas do not silently become architecture." />
       <div className="lab-grid">
+        <article>
+          <div className="lab-number">RR</div>
+          <small>MUSIC · RECORD ROOM</small>
+          <h2>Goosebump Engine</h2>
+          <span>{music ? 'ENGINE EVIDENCE' : 'WAITING FOR LIVE ENGINE'}</span>
+          <dl>
+            <div><dt>Locked originals</dt><dd>{recordRoom.assets}</dd></div>
+            <div><dt>Analysis runs</dt><dd>{recordRoom.analysisRuns}</dd></div>
+            <div><dt>Candidate moments</dt><dd>{recordRoom.candidateMoments}</dd></div>
+            <div><dt>Listener confirmed</dt><dd>{recordRoom.listenerConfirmedMoments}</dd></div>
+            <div><dt>Needs your mark</dt><dd>{recordRoom.experimentsAwaitingHumanMark}</dd></div>
+          </dl>
+          <p className="plain-copy">A stays untouched. Counterfactuals must change a measurable parameter and do not become learning until you listen and mark them.</p>
+        </article>
         {experiments.map(([type, title, status], index) => (
           <article key={title}>
             <div className="lab-number">0{index + 1}</div>
@@ -886,7 +907,7 @@ export default function HiveDashboard() {
     if (view === 'Money') return <MoneyView snapshot={snapshot} />
     if (view === 'Brain') return <BrainView nodes={snapshot.brain} />
     if (view === 'Build') return <BuildView />
-    if (view === 'Lab') return <LabView />
+    if (view === 'Lab') return <LabView music={snapshot.music} />
     if (view === 'Security') return <SecurityView />
     return <MeView comfort={comfort} setComfort={setComfort} />
   })()
