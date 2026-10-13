@@ -1,36 +1,44 @@
-# Micro Compound (public OpenClaw research experiment)
+# Micro Compound // Observatory
 
-**Status: running synthetic simulation prototype. Zero real capital.**
+**Status: working synthetic research simulator; no real trading.**
 
-This folder contains a standalone white-background research dashboard in [index.html](index.html) and a deterministic JavaScript simulation engine in [engine.mjs](engine.mjs). It tests a fictional $3 starting portfolio using two synthetic strategy arms (memecoin-like momentum and liquid-market scalping), with independent shadow wallets, entry/exit cost deductions, simple performance-based routing, a drawdown circuit breaker and forced closing. Results are synthetic. There is no live price feed or executable trade engine in this browser version.
+This is the public OpenClaw monorepo experiment at `experiments/micro-compound/`. Its dashboard has been rebuilt in the style of a dense, dark trading observatory, inspired by the user's reference screenshots (not a copy of third-party code).
 
-## Use
+## Launch
 
-Serve the folder over HTTP (ES modules may be blocked on file:// URLs):
-
-```bash
+```sh
 cd experiments/micro-compound
 python3 -m http.server 8000
 ```
 
-Then open http://localhost:8000. Click **Run experiment** and change the virtual starting balance or cost multiplier. No credentials, funds, RPC provider or wallet apps are needed.
+Open `http://localhost:8000`. No API keys, exchange account, external wallet or real cryptocurrency is needed. For a full offline / file:// preview, use the stand-alone downloadable HTML provided in the chat, which bundles the engine into the page. The GitHub source `index.html` imports `engine.mjs` and should be served over HTTP.
 
-## Tests
+## Working features
 
-```bash
+- Animated central signal constellation and topology radar, explicitly decorative, not on-chain telemetry
+- Terminal-style decision trace drawn from the deterministic fixture engine
+- Virtual $3 default initial NAV, with changing balance, net profit/loss and drawdown
+- Memecoin-like momentum and liquid-market scalping **synthetic** strategy comparisons with separate shadow wallets
+- Synthetic execution-cost accounting and basic safety circuit breaker
+- Interactive start capital, random seed, cost stress and time-horizon controls
+- Replay/pause, time scrub, interactive equity chart and JSON report export
+- Responsive layout tested for desktop, iPad and narrow mobile screens
+- Experimental local Ed25519 key-vault page (`wallet.html`): **do not fund, do not treat as audited or supported**.
+
+## Validation
+
+```sh
 node --test experiments/micro-compound/tests/*.test.mjs
 ```
 
-A GitHub Actions workflow runs these tests without any secrets.
+Five deterministic tests passed locally; the GitHub Actions CI workflow remains in `.github/workflows/micro-compound-ci.yml`. Browser-tested using Chromium and screenshots at desktop, tablet and phone widths, including new-run and replay controls. GitHub checks should be reviewed before merging.
 
-## The earlier wallet
+## Safety and scientific integrity
 
-The existing *Cobo Agentic Wallet* integration was located in the separate **private** `sophiamaybea/bea-openclaw` repository, under `bin/bea-wallet`. It exposes read-only address/balance commands and requires a paired, owner-approved environment for financial actions. The public experiment neither has access to the associated keys nor attempts to move funds. Repository code cannot verify whether that wallet is currently paired, has an address or holds assets.
+No real wallet is connected, no live orders can be sent, and nothing is signed or broadcast to any public blockchain. Prices, costs, scores, transactions and results are all derived from deterministic synthetic market fixtures. The visual constellation is not evidence of AI agents or trading performance; the six cards stand for software research stages.
 
-We do not generate private keys inside ChatGPT, push secrets to GitHub or accept a payment address allegedly owned by an AI assistant. A separate experimental key-vault prototype may be developed, but it must not be funded before a security review.
+Real-world microcap feasibility, sellability proofs, latency-aware executable quotes, Jev, on-chain Solana and EVM sandbox settlement, proper contextual Thompson sampling, public data ingestion and statistical validation are **not yet implemented in this browser simulator**. The router is a simple performance-weighted baseline, not a trained or production-grade AI model.
 
-## Boundaries
+Your earlier wallet integration was found separately in the private `sophiamaybea/bea-openclaw` repository. Nothing from that wallet, including addresses and secrets, is imported into this experiment.
 
-No real wallet, custody, network transaction submission, Jev inference, Jupiter quote engine, LiteSVM/Anvil settlement, real exchange order-book execution, or actual $3 real-money trading is included. The assumptions in this prototype must not be treated as evidence of a profitable live strategy. The simulated cost factors are approximate parameters, not executable quotes. The full Python v0.1 package was delivered separately as a ChatGPT download and is not yet mirrored in this folder.
-
-See [PLAN.md](PLAN.md), [SECURITY.md](SECURITY.md), and [THIRD_PARTY.md](THIRD_PARTY.md) for future research and limitations.
+See `PLAN.md`, `SECURITY.md` and `THIRD_PARTY.md` for future research and limitations. No guarantee or implication of real-world profit is made.
