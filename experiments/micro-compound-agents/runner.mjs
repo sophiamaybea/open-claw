@@ -1,20 +1,20 @@
 /**
  * Scheduled, unauthenticated, READ-ONLY Coinbase public OHLCV fetch and local
  * PAPER-ONLY simulation. No API keys, credentials or exchange write functions.
- * GitHub Actions retains state.json across invocations by committing it.
+ * GitHub Actions retains state-minute.json across invocations by committing it.
  */
 import {readFile,writeFile,mkdir} from 'node:fs/promises';
 import {fileURLToPath} from 'node:url';
 import {dirname,join} from 'node:path';
-import {newState,advance,publicSummary,PAIRS,FIVE_MINUTES} from './core.mjs';
+import {newState,advance,publicSummary,PAIRS,ONE_MINUTE} from './core.mjs';
 const here=dirname(fileURLToPath(import.meta.url));
-const file=join(here,'state.json'), publicFile=join(here,'site','latest.json');
+const file=join(here,'state-minute.json'), publicFile=join(here,'site','latest.json');
 const now=Date.now(),toIso=secs=>new Date(secs*1000).toISOString();
 async function readState(){try{return JSON.parse(await readFile(file,'utf8'));}catch(e){if(e.code==='ENOENT')return newState();throw e;}}
 async function get(symbol,completeBefore) {
- const from=completeBefore-294*FIVE_MINUTES;
+ const from=completeBefore-294*ONE_MINUTE;
  const u='https://api.exchange.coinbase.com/products/'+encodeURIComponent(symbol)
-   +'/candles?granularity='+FIVE_MINUTES+'&start='+encodeURIComponent(toIso(from))+'&end='+encodeURIComponent(toIso(completeBefore));
+   +'/candles?granularity='+ONE_MINUTE+'&start='+encodeURIComponent(toIso(from))+'&end='+encodeURIComponent(toIso(completeBefore));
  const controller=new AbortController(),timer=setTimeout(()=>controller.abort(),18000);
  try {
    const response=await fetch(u,{signal:controller.signal,headers:{'Accept':'application/json','User-Agent':'MicroCompoundPaperResearch/1.0 (public read-only OHLCV)'}});
@@ -29,7 +29,7 @@ async function main(){
  const state=await readState();
  let summary={status:'WAITING_FOR_MARKET_DATA',processed:0};
  try{
-   const before=Math.floor(now/1000/FIVE_MINUTES)*FIVE_MINUTES;
+   const before=Math.floor(now/1000/ONE_MINUTE)*ONE_MINUTE;
    const fetched=await Promise.all(PAIRS.map(pair=>get(pair,before)));
    const feed=Object.fromEntries(PAIRS.map((p,i)=>[p,fetched[i]]));
    const result=advance(state,feed,now/1000);
