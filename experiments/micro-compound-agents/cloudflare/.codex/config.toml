@@ -1,0 +1,4 @@
+# Project-scoped Cloudflare MCP for Codex when this is opened as a trusted project.
+# You must authorize Cloudflare OAuth in your own browser on first use.
+[mcp_servers.cloudflare]
+url = "https://mcp.cloudflare.com/mcp"
