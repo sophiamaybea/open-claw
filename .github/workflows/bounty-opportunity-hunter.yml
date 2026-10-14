@@ -1,0 +1,45 @@
+name: OpenClaw — bounty opportunity research
+on:
+  push:
+    paths:
+      - .github/workflows/bounty-opportunity-hunter.yml
+      - experiments/micro-compound-agents/bounty-hunter.mjs
+      - experiments/micro-compound-agents/bounty-hunter.test.mjs
+  workflow_dispatch:
+  schedule:
+    - cron: '17 */3 * * *'
+permissions:
+  contents: write
+concurrency:
+  group: openclaw-public-bounty-hunt
+  cancel-in-progress: false
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 7
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          persist-credentials: true
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Validate bounty parsing and scam indicators
+        run: node --test experiments/micro-compound-agents/bounty-hunter.test.mjs
+      - name: Find and rank public GitHub bounty issues
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: node experiments/micro-compound-agents/bounty-hunter.mjs
+      - name: Publish scored leads; never apply automatically
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "openclaw-bounty-research"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add experiments/micro-compound-agents/site/bounties.json
+          if ! git diff --cached --quiet; then
+            git commit -m "opportunity-hunter: public GitHub issue research snapshot [skip ci]"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
