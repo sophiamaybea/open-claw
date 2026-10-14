@@ -1,12 +1,12 @@
 /**
  * MICRO COMPOUND PAPER AGENTS v1.
  * Standalone, deterministic, dependency-free, zero real-money capabilities.
- * Each completed 5m candle can update eight paper agents and their learning ledgers.
+ * Each completed 1m candle can update eight paper agents and their learning ledgers.
  * The *next* candle open is used to simulate an order decided at prior close.
  * No wallet, account, order endpoint, key, short sale, margin, leverage, or swaps.
  */
 export const PAIRS = ['BTC-USD','ETH-USD','SOL-USD'];
-export const FIVE_MINUTES = 300;
+export const ONE_MINUTE = 60;
 export const POLICY_SEEDS = [
   {id:'rotation-24',kind:'rotation',lookback:24,holdBars:12,threshold:.011,ma:48},
   {id:'rotation-72',kind:'rotation',lookback:72,holdBars:36,threshold:.018,ma:96},
@@ -22,7 +22,7 @@ const round=(v,n=6)=>Number(v.toFixed(n));
 function makeWallet(){return {usd:START_CAPITAL,asset:null,qty:0,entrySpend:0,entered:0,peak:START_CAPITAL,drawdown:0,paidFees:0,completed:0,wins:0,avgReward:0,events:[],curve:[],minSizeBlocks:0};}
 function makePolicy(seed,born){return {...seed,born,parents:[],wallet:makeWallet(),observations:0,ewma:0};}
 export function newState(now=new Date().toISOString()){
- return {schema:1, mode:'PAPER_ONLY',source:'Coinbase Exchange public, unauthenticated 5-minute candles',createdAt:now,updatedAt:now,lastBar:null,runs:0,
+ return {schema:2, mode:'PAPER_ONLY',source:'Coinbase Exchange public, unauthenticated 1-minute candles',createdAt:now,updatedAt:now,lastBar:null,runs:0,
   history:Object.fromEntries(PAIRS.map(s=>[s,[]])),
   agents:POLICY_SEEDS.map(p=>makePolicy(p,null)),
   portfolios:{champion:makeWallet(),fixedBaseline:makeWallet(),btcBenchmark:makeWallet(),cash:makeWallet()},
@@ -67,7 +67,7 @@ function portfolioMark(w,bar,ts){
  return value;
 }
 function simulateOrder(w,desired,bar,ts,holdBars,ledger){
- const elapsed=w.asset?(ts-w.entered)/FIVE_MINUTES:Infinity;
+ const elapsed=w.asset?(ts-w.entered)/ONE_MINUTE:Infinity;
  if(w.asset && desired!==w.asset && elapsed<holdBars)desired=w.asset;
  if(w.asset && desired!==w.asset){
   const gross=w.qty*bar[w.asset].o;
@@ -139,7 +139,7 @@ function evaluate(state,ts){
     threshold:leader.threshold*(1+delta*.18),
     holdBars:Math.max(6,Math.min(144,leader.holdBars+delta*6))};
  if(state.agents.some(a=>a.lookback===tweak.lookback&&a.kind===tweak.kind&&a.holdBars===tweak.holdBars&&a.threshold===tweak.threshold))return;
- const child=makePolicy(tweak,ts+FIVE_MINUTES);child.parents=[leader.id];
+ const child=makePolicy(tweak,ts+ONE_MINUTE);child.parents=[leader.id];
  state.agents.push(child);state.mutations.push({at:ts,parent:leader.id,child:child.id});
  pushEvent(state,{at:ts,type:'research',text:'Spawned '+child.id+' for FORWARD-ONLY paper testing.'});
 }
@@ -168,26 +168,27 @@ function processBar(state,bar,ts) {
    if(histories[sym].length>420)histories[sym]=histories[sym].slice(-420);
  }
  state.lastBar=ts;
- if(Math.floor(ts/FIVE_MINUTES)%288===0)evaluate(state,ts);
+ if(Math.floor(ts/ONE_MINUTE)%288===0)evaluate(state,ts);
 }
 export function advance(state,feed,now=Date.now()/1000){
- const cutoff=Math.floor(now/FIVE_MINUTES)*FIVE_MINUTES;
+ const cutoff=Math.floor(now/ONE_MINUTE)*ONE_MINUTE;
  const clean={};
  for(const sym of PAIRS){
    const rows=feed[sym];if(!Array.isArray(rows))throw Error('Missing public market '+sym);
    clean[sym]=rows.map(z=>({t:+z.t,o:+z.o,h:+z.h,l:+z.l,c:+z.c,v:+z.v}))
-     .filter(z=>Number.isInteger(z.t)&&z.t%FIVE_MINUTES===0 && z.t<cutoff && [z.o,z.h,z.l,z.c,z.v].every(Number.isFinite)
+     .filter(z=>Number.isInteger(z.t)&&z.t%ONE_MINUTE===0 && z.t<cutoff && [z.o,z.h,z.l,z.c,z.v].every(Number.isFinite)
        && z.o>0&&z.c>0&&z.l>0&&z.h>=z.l&&z.v>=0)
      .sort((a,b)=>a.t-b.t);
  }
  const times=clean[PAIRS[0]].map(x=>x.t).filter(t=>PAIRS.every(s=>clean[s].some(y=>y.t===t)));
  const byTime=Object.fromEntries(PAIRS.map(s=>[s,new Map(clean[s].map(r=>[r.t,r]))]));
+ if(state.schema!==2)throw Error('Unsupported agent state version; refuse cross-granularity replay');
  if(state.lastBar===null){
    const boot=times.slice(-210);
    if(boot.length<110)throw Error('Too few valid common bars to bootstrap');
    for(const sym of PAIRS)state.history[sym]=boot.map(t=>byTime[sym].get(t));
    state.lastBar=boot.at(-1);
-   for(const a of state.agents)a.born=state.lastBar+FIVE_MINUTES;
+   for(const a of state.agents)a.born=state.lastBar+ONE_MINUTE;
    state.updatedAt=new Date().toISOString();state.runs++;
    pushEvent(state,{at:state.lastBar,type:'bootstrap',text:'Loaded '+boot.length+' historical candles for signal context; NO retroactive paper trades.'});
    return {bootstrap:true,processed:0,lastBar:state.lastBar};
@@ -195,7 +196,7 @@ export function advance(state,feed,now=Date.now()/1000){
  const fresh=times.filter(t=>t>state.lastBar).sort((a,b)=>a-b);
  let processed=0;
  for(const t of fresh){
-   if(t-state.lastBar>FIVE_MINUTES) {
+   if(t-state.lastBar>ONE_MINUTE) {
      const err='Market data gap ('+((t-state.lastBar)/60)+' minutes). Paused trading and cleared stale histories.';
      state.lastError=err;
      pushEvent(state,{at:t,type:'warning',text:err});
