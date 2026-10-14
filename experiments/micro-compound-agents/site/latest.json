@@ -1,0 +1,32 @@
+{
+  "updatedAt": "2026-10-14T18:17:18.212Z",
+  "lastBar": null,
+  "mode": "PAPER ONLY — NO MONEY",
+  "origin": "Coinbase Exchange public market candles",
+  "polls": 0,
+  "researchCycles": 0,
+  "champion": "CASH",
+  "mutationCount": 0,
+  "promotionCount": 0,
+  "health": {
+    "status": "WAITING_FOR_FIRST_CLOUD_RUN",
+    "processed": 0
+  },
+  "portfolios": {
+    "champion": {
+      "nav": 3,
+      "roi_pct": 0
+    },
+    "fixedBaseline": {
+      "nav": 3
+    },
+    "btc": {
+      "nav": 3
+    },
+    "cash": {
+      "nav": 3
+    }
+  },
+  "agents": [],
+  "events": []
+}
