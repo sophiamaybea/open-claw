@@ -11,7 +11,7 @@
     {
       "binding": "DB",
       "database_name": "microcompound-paper",
-      "database_id": "REPLACE_WITH_CREATED_D1_DATABASE_UUID",
+      "database_id": "805fdcba-bcf5-46d3-8a22-e5d8997d15c0",
       "migrations_dir": "migrations"
     }
   ]
