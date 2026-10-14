@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-14T19:10:23.497Z",
-  "lastBar": 1792004940,
+  "updatedAt": "2026-10-14T19:14:38.043Z",
+  "lastBar": 1792005180,
   "mode": "PAPER ONLY — NO MONEY",
   "origin": "Coinbase Exchange public, unauthenticated 1-minute candles",
   "currencies": [
@@ -8,8 +8,8 @@
     "ETH-USD",
     "SOL-USD"
   ],
-  "polls": 1,
-  "researchCycles": 0,
+  "polls": 5,
+  "researchCycles": 1,
   "champion": "CASH",
   "mutationCount": 0,
   "promotionCount": 0,
@@ -22,7 +22,12 @@
       "fees_usd": 0,
       "drawdown_pct": 0,
       "holding": "USD",
-      "history": []
+      "history": [
+        {
+          "t": 1792005000,
+          "value": 3
+        }
+      ]
     },
     "fixedBaseline": {
       "nav": 3,
@@ -32,17 +37,27 @@
       "fees_usd": 0,
       "drawdown_pct": 0,
       "holding": "USD",
-      "history": []
+      "history": [
+        {
+          "t": 1792005000,
+          "value": 3
+        }
+      ]
     },
     "btc": {
-      "nav": 3,
-      "roi_pct": 0,
+      "nav": 2.967705,
+      "roi_pct": -1.077,
       "trades": 0,
       "wins": 0,
-      "fees_usd": 0,
-      "drawdown_pct": 0,
-      "holding": "USD",
-      "history": []
+      "fees_usd": 0.015,
+      "drawdown_pct": 1.19,
+      "holding": "BTC-USD",
+      "history": [
+        {
+          "t": 1792005000,
+          "value": 2.964242
+        }
+      ]
     },
     "cash": {
       "nav": 3,
@@ -52,7 +67,12 @@
       "fees_usd": 0,
       "drawdown_pct": 0,
       "holding": "USD",
-      "history": []
+      "history": [
+        {
+          "t": 1792005000,
+          "value": 3
+        }
+      ]
     }
   },
   "agents": [
@@ -73,7 +93,12 @@
       "fees_usd": 0,
       "drawdown_pct": 0,
       "holding": "USD",
-      "history": []
+      "history": [
+        {
+          "t": 1792005000,
+          "value": 3
+        }
+      ]
     },
     {
       "id": "rotation-72",
@@ -92,7 +117,12 @@
       "fees_usd": 0,
       "drawdown_pct": 0,
       "holding": "USD",
-      "history": []
+      "history": [
+        {
+          "t": 1792005000,
+          "value": 3
+        }
+      ]
     },
     {
       "id": "trend-48",
@@ -111,7 +141,12 @@
       "fees_usd": 0,
       "drawdown_pct": 0,
       "holding": "USD",
-      "history": []
+      "history": [
+        {
+          "t": 1792005000,
+          "value": 3
+        }
+      ]
     },
     {
       "id": "breakout-24",
@@ -130,7 +165,12 @@
       "fees_usd": 0,
       "drawdown_pct": 0,
       "holding": "USD",
-      "history": []
+      "history": [
+        {
+          "t": 1792005000,
+          "value": 3
+        }
+      ]
     },
     {
       "id": "mean-revert-48",
@@ -149,7 +189,12 @@
       "fees_usd": 0,
       "drawdown_pct": 0,
       "holding": "USD",
-      "history": []
+      "history": [
+        {
+          "t": 1792005000,
+          "value": 3
+        }
+      ]
     },
     {
       "id": "flush-reversal",
@@ -168,7 +213,12 @@
       "fees_usd": 0,
       "drawdown_pct": 0,
       "holding": "USD",
-      "history": []
+      "history": [
+        {
+          "t": 1792005000,
+          "value": 3
+        }
+      ]
     },
     {
       "id": "volume-surge",
@@ -187,7 +237,12 @@
       "fees_usd": 0,
       "drawdown_pct": 0,
       "holding": "USD",
-      "history": []
+      "history": [
+        {
+          "t": 1792005000,
+          "value": 3
+        }
+      ]
     },
     {
       "id": "low-vol-rotation",
@@ -206,7 +261,12 @@
       "fees_usd": 0,
       "drawdown_pct": 0,
       "holding": "USD",
-      "history": []
+      "history": [
+        {
+          "t": 1792005000,
+          "value": 3
+        }
+      ]
     }
   ],
   "events": [
@@ -219,9 +279,9 @@
   "warnings": null,
   "security": "No account authentication, private keys, live exchange transactions or wallet connection.",
   "health": {
-    "bootstrap": true,
-    "processed": 0,
-    "lastBar": 1792004940,
-    "status": "BOOTSTRAPPED"
+    "bootstrap": false,
+    "processed": 1,
+    "lastBar": 1792005180,
+    "status": "PAPER_RUNNING"
   }
 }
