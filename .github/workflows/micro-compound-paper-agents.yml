@@ -1,0 +1,46 @@
+name: Micro Compound autonomous paper agents
+on:
+  push:
+    paths:
+      - .github/workflows/micro-compound-paper-agents.yml
+      - experiments/micro-compound-agents/core.mjs
+      - experiments/micro-compound-agents/core.test.mjs
+      - experiments/micro-compound-agents/runner.mjs
+  workflow_dispatch:
+  schedule:
+    - cron: '8,23,38,53 * * * *'
+permissions:
+  contents: write
+concurrency:
+  group: microcompound-paper-state-main
+  cancel-in-progress: false
+jobs:
+  paper-research:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          persist-credentials: true
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Test safety and delayed outcome learning
+        run: node --test experiments/micro-compound-agents/core.test.mjs
+      - name: Fetch public market data and update fake portfolios
+        run: node experiments/micro-compound-agents/runner.mjs
+      - name: Persist *paper-only* state for next research cycle
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "micro-compound-paper-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add experiments/micro-compound-agents/state.json experiments/micro-compound-agents/site/latest.json
+          if ! git diff --cached --quiet; then
+            git commit -m "paper-agents: store 5m read-only market observation and virtual ledger [skip ci]"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          else
+            echo "No paper-state changes to save"
+          fi
