@@ -4,13 +4,13 @@
 
 ## How it is actually run
 
-A GitHub Actions workflow (`.github/workflows/micro-compound-paper-agents.yml`) runs immediately after this workflow is added/updated and periodically at **08, 23, 38, and 53 minutes past each hour, UTC** (every 15 minutes, subject to GitHub Actions scheduling delay or service interruptions). It also supports manual GitHub `workflow_dispatch`. It uses a free-to-read public Coinbase Exchange endpoint, *not* the user's connected Coinbase account and not an API key.
+A GitHub Actions workflow (`.github/workflows/micro-compound-paper-agents.yml`) runs immediately after this workflow is added/updated and periodically at **04, 09, 14, 19, 24, 29, 34, 39, 44, 49, 54 and 59 minutes past each hour UTC** (the GitHub **five-minute minimum**; the job executes five approximately one-minute paper observations). This is **best effort**, subject to cloud queue delays and interruptions. It also supports manual GitHub `workflow_dispatch`. It uses a free-to-read public Coinbase Exchange endpoint, *not* the user's connected Coinbase account and not an API key.
 
-The runner requests **last ~24.5 hours of 5-minute BTC-USD, ETH-USD and SOL-USD OHLCV candles**, filters out the still-open candle, requires a valid synchronized timestamp for all three assets, and simulates new candles exactly once. A stale or missing candle causes **no fabricated fill**. The first run loads historical candles as **context only** and does not retroactively trade them.
+The runner requests **the last ~4.9 hours of 1-minute BTC-USD, ETH-USD and SOL-USD OHLCV candles**, filters out the still-open candle, requires a valid synchronized timestamp for all three assets, and simulates new candles exactly once. A stale or missing candle causes **no fabricated fill**. The first run loads historical candles as **context only** and does not retroactively trade them.
 
-The stateful agent engine is `core.mjs`. Eight separate paper strategies each receive **$3 hypothetical starting capital**, marked to market after a hypothetical 0.50% taker fee on each side and 0.10% slippage on each side. Orders smaller than a hypothetical $1 ticket are blocked. No short selling, leverage, wallet, account, transactions, API keys, or real trade endpoints are present.
+The one-minute system uses `state-minute.json` (schema v2); prior `state.json` preserves the old five-minute experiment and is not reused to fabricate mixed-granularity trading history. The stateful agent engine is `core.mjs`. Eight separate paper strategies each receive **$3 hypothetical starting capital**, marked to market after a hypothetical 0.50% taker fee on each side and 0.10% slippage on each side. Orders smaller than a hypothetical $1 ticket are blocked. No short selling, leverage, wallet, account, transactions, API keys, or real trade endpoints are present.
 
-The worker persists `state.json` and `site/latest.json` to the Git repository after every run. This keeps independent portfolio state and trade outcomes across GitHub Actions invocations. Its dashboard is read-only and fetches `site/latest.json` from the GitHub repository. **Do not add secrets or personal account values to these public files.**
+The worker persists `state-minute.json` and `site/latest.json` to the Git repository after each five-observation batch; thus the public website normally refreshes with new data around every five minutes even though the internal polling loop observes prices around once a minute. This keeps independent portfolio state and trade outcomes across GitHub Actions invocations. Its dashboard is read-only and fetches `site/latest.json` from the GitHub repository. **Do not add secrets or personal account values to these public files.**
 
 ## Autonomous roles
 
@@ -44,3 +44,11 @@ The worker persists `state.json` and `site/latest.json` to the Git repository af
 - [Published summary](https://github.com/sophiamaybea/open-claw/blob/main/experiments/micro-compound-agents/site/latest.json)
 
 Stop running agents: disable the scheduled workflow in GitHub Actions, or remove its `schedule` block.
+
+## Dashboard deployment
+
+The dashboard's standalone static site lives in `site/index.html` and its sibling `site/bounties.html`. GitHub Pages deployment is prepared at `.github/workflows/micro-compound-agent-pages.yml`, but initial automation could not enable Pages because the GitHub Actions token lacks repository administration permission. Owner must select **Settings → Pages → Build and deployment → Source: GitHub Actions** once, then rerun the workflow; do not claim the URL is live until deployment is successful. Vercel deployment is presently blocked by the account's free daily deployment quota. The two dashboards already read live JSON from the public repository; no secret credentials are exposed.
+
+## Opportunity Hunter
+
+An independent public bounty crawler lives in `bounty-hunter.mjs` and its 3-hour scheduled workflow `bounty-opportunity-hunter.yml`. It searches GitHub issues, scores candidates and records `site/bounties.json`. Any payout figure is an **unverified issue-body claim**, not an available guaranteed reward. The agent never replies, applies, signs, withdraws or pays.
