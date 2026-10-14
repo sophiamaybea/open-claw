@@ -1,0 +1,18 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "micro-compound-paper-agents",
+  "main": "worker.mjs",
+  "compatibility_date": "2026-10-14",
+  "workers_dev": true,
+  "triggers": {
+    "crons": ["* * * * *", "17 */3 * * *"]
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "microcompound-paper",
+      "database_id": "REPLACE_WITH_CREATED_D1_DATABASE_UUID",
+      "migrations_dir": "migrations"
+    }
+  ]
+}
