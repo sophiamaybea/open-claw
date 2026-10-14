@@ -1,0 +1,377 @@
+{
+  "meta": {
+    "source": "Coinbase read-only daily OHLCV 2024-01 to 2026-10, six USD spot markets",
+    "periods": {
+      "train": {
+        "from": "2024-07-20",
+        "through": "2024-12-31",
+        "days": 165
+      },
+      "validation": {
+        "from": "2025-01-01",
+        "through": "2025-12-31",
+        "days": 365
+      },
+      "test": {
+        "from": "2026-01-01",
+        "through": "2026-10-14",
+        "days": 287
+      }
+    },
+    "dataCandles": 6108,
+    "uniqueMarkets": [
+      "ADA-USD",
+      "BTC-USD",
+      "DOGE-USD",
+      "ETH-USD",
+      "LTC-USD",
+      "SOL-USD"
+    ],
+    "candidates": 516,
+    "selection": "train 2024 and validation 2025 combined robustness; evaluate only selected family representative on untouched 2026",
+    "startingVirtualUSD": 3,
+    "takerFeeBps": 50,
+    "assumedSlipBps": 10,
+    "minimumQuoteUSD": 1,
+    "realMoneySpent": 0,
+    "execution": "next UTC daily open after signal closes, forced last-day close settlement estimation; no intrabar fills, spread feed or orders; fee schedule based on 2026 account tier and may differ historically",
+    "objective": {
+      "criteria": "Prospective selected model: positive after realistic transaction costs, >=2 holdout entries/exits, beats cash and BTC baseline, <=25% max drawdown; NOT proof or guarantee",
+      "achievers": [
+        "breakout"
+      ]
+    },
+    "trainOnlySelection": {}
+  },
+  "selected": [
+    {
+      "type": "trend",
+      "parameter": {
+        "type": "trend",
+        "k": "DOGE-USD",
+        "n": 20,
+        "thresh": 0,
+        "minHold": 21
+      },
+      "score": 47.741354342238616,
+      "train": {
+        "ret": 165.87117436636646,
+        "net": 7.9761352309909945,
+        "drawdown": 39.286719646543396,
+        "fees": 0.14730500407848562,
+        "trades": 8,
+        "changes": 8,
+        "exposurePct": 72.12121212121212,
+        "valid": true
+      },
+      "validation": {
+        "ret": 37.97524036005348,
+        "net": 4.139257210801604,
+        "drawdown": 30.932509692374005,
+        "fees": 0.2216515067366987,
+        "trades": 10,
+        "changes": 10,
+        "exposurePct": 32.602739726027394,
+        "valid": true
+      },
+      "test": {
+        "ret": 2.1634703112386022,
+        "net": 3.064904109337158,
+        "drawdown": 29.161507062203484,
+        "fees": 0.1943374605611083,
+        "trades": 12,
+        "changes": 12,
+        "exposurePct": 47.73519163763066,
+        "valid": true
+      }
+    },
+    {
+      "type": "rotation",
+      "parameter": {
+        "type": "rotation",
+        "rankN": 60,
+        "maN": 60,
+        "thresh": 0.05,
+        "minHold": 21
+      },
+      "score": 2.8076347413372673,
+      "train": {
+        "ret": 74.81800745552485,
+        "net": 5.244540223665745,
+        "drawdown": 37.39555716467624,
+        "fees": 0.21232906463580653,
+        "trades": 9,
+        "changes": 9,
+        "exposurePct": 78.78787878787878,
+        "valid": true
+      },
+      "validation": {
+        "ret": 10.447605459700803,
+        "net": 3.313428163791024,
+        "drawdown": 45.745430831916856,
+        "fees": 0.24895508978759492,
+        "trades": 14,
+        "changes": 14,
+        "exposurePct": 66.3013698630137,
+        "valid": true
+      },
+      "test": {
+        "ret": -34.43757005897308,
+        "net": 1.9668728982308077,
+        "drawdown": 48.88401179164125,
+        "fees": 0.1721014619084497,
+        "trades": 13,
+        "changes": 13,
+        "exposurePct": 54.35540069686411,
+        "valid": true
+      }
+    },
+    {
+      "type": "volatility_veto",
+      "parameter": {
+        "type": "volatility_veto",
+        "rankN": 120,
+        "maN": 60,
+        "maxVol": 0.025,
+        "minHold": 21
+      },
+      "score": -4.562061130403625,
+      "train": {
+        "ret": 3.6484617284832987,
+        "net": 3.1094538518544987,
+        "drawdown": 14.43886643247802,
+        "fees": 0.11698487737035013,
+        "trades": 5,
+        "changes": 5,
+        "exposurePct": 30.90909090909091,
+        "valid": true
+      },
+      "validation": {
+        "ret": 15.876085710736575,
+        "net": 3.4762825713220975,
+        "drawdown": 26.627728221973516,
+        "fees": 0.38335078850034165,
+        "trades": 18,
+        "changes": 18,
+        "exposurePct": 60,
+        "valid": true
+      },
+      "test": {
+        "ret": -9.71237858184174,
+        "net": 2.7086286425447477,
+        "drawdown": 14.952107885838572,
+        "fees": 0.10420634530387009,
+        "trades": 5,
+        "changes": 5,
+        "exposurePct": 18.81533101045296,
+        "valid": true
+      }
+    },
+    {
+      "type": "breakout",
+      "parameter": {
+        "type": "breakout",
+        "k": "DOGE-USD",
+        "n": 20,
+        "exit": 10,
+        "minHold": 7
+      },
+      "score": 24.513512032989063,
+      "train": {
+        "ret": 120.15171623771579,
+        "net": 6.604551487131474,
+        "drawdown": 21.842013804702315,
+        "fees": 0.16100588337059873,
+        "trades": 8,
+        "changes": 8,
+        "exposurePct": 32.121212121212125,
+        "valid": true
+      },
+      "validation": {
+        "ret": 16.20564713347157,
+        "net": 3.486169414004147,
+        "drawdown": 16.587099308703422,
+        "fees": 0.14197888754864016,
+        "trades": 8,
+        "changes": 8,
+        "exposurePct": 10.684931506849315,
+        "valid": true
+      },
+      "test": {
+        "ret": 9.505804115611461,
+        "net": 3.285174123468344,
+        "drawdown": 16.33066999839935,
+        "fees": 0.15323798953554732,
+        "trades": 8,
+        "changes": 8,
+        "exposurePct": 15.331010452961673,
+        "valid": true
+      }
+    },
+    {
+      "type": "dip_reversal",
+      "parameter": {
+        "type": "dip_reversal",
+        "k": "ETH-USD",
+        "dip": -0.025,
+        "maN": 60,
+        "wait": 30,
+        "minHold": 30
+      },
+      "score": 38.45088372263966,
+      "train": {
+        "ret": 30.649455750084044,
+        "net": 3.9194836725025213,
+        "drawdown": 17.780118366937504,
+        "fees": 0.13098167338521388,
+        "trades": 5,
+        "changes": 5,
+        "exposurePct": 49.696969696969695,
+        "valid": true
+      },
+      "validation": {
+        "ret": 88.6583468045609,
+        "net": 5.659750404136827,
+        "drawdown": 17.251102199896206,
+        "fees": 0.21529801619884548,
+        "trades": 8,
+        "changes": 8,
+        "exposurePct": 32.87671232876713,
+        "valid": true
+      },
+      "test": {
+        "ret": -43.867635207959374,
+        "net": 1.6839709437612187,
+        "drawdown": 52.05809630906859,
+        "fees": 0.13959310272214678,
+        "trades": 11,
+        "changes": 11,
+        "exposurePct": 54.70383275261324,
+        "valid": true
+      }
+    },
+    {
+      "type": "event_surge",
+      "parameter": {
+        "type": "event_surge",
+        "k": "DOGE-USD",
+        "volRatio": 1.5,
+        "dayReturn": 0.01,
+        "wait": 5,
+        "minHold": 5
+      },
+      "score": 36.80304577427803,
+      "train": {
+        "ret": 42.044464613524646,
+        "net": 4.261333938405739,
+        "drawdown": 19.0759468424713,
+        "fees": 0.2856168618114504,
+        "trades": 14,
+        "changes": 14,
+        "exposurePct": 21.21212121212121,
+        "valid": true
+      },
+      "validation": {
+        "ret": 34.82477016406753,
+        "net": 4.044743104922026,
+        "drawdown": 15.284602160100317,
+        "fees": 0.2749677423860098,
+        "trades": 14,
+        "changes": 14,
+        "exposurePct": 9.58904109589041,
+        "valid": true
+      },
+      "test": {
+        "ret": -6.925559981824259,
+        "net": 2.7922332005452724,
+        "drawdown": 19.276656496218123,
+        "fees": 0.23864463707391553,
+        "trades": 14,
+        "changes": 14,
+        "exposurePct": 12.195121951219512,
+        "valid": true
+      }
+    }
+  ],
+  "baselines": [
+    {
+      "asset": "ADA-USD",
+      "ret": -31.73134816812553,
+      "net": 2.048059554956234,
+      "drawdown": 65.97106948067348,
+      "fees": 0.0302551766600756,
+      "trades": 1,
+      "changes": 1,
+      "exposurePct": 100,
+      "valid": true
+    },
+    {
+      "asset": "BTC-USD",
+      "ret": -7.5276367650701665,
+      "net": 2.774170897047895,
+      "drawdown": 39.63814819139075,
+      "fees": 0.034638142507711384,
+      "trades": 1,
+      "changes": 1,
+      "exposurePct": 100,
+      "valid": true
+    },
+    {
+      "asset": "DOGE-USD",
+      "ret": -30.246832157320437,
+      "net": 2.092595035280387,
+      "drawdown": 54.496308016877634,
+      "fees": 0.030524002497042315,
+      "trades": 1,
+      "changes": 1,
+      "exposurePct": 100,
+      "valid": true
+    },
+    {
+      "asset": "ETH-USD",
+      "ret": -18.640998267276075,
+      "net": 2.4407700519817177,
+      "drawdown": 53.3450378857882,
+      "fees": 0.03262566255761373,
+      "trades": 1,
+      "changes": 1,
+      "exposurePct": 100,
+      "valid": true
+    },
+    {
+      "asset": "LTC-USD",
+      "ret": -23.070558528635253,
+      "net": 2.3078832441409425,
+      "drawdown": 51.334286395044074,
+      "fees": 0.03182352890867545,
+      "trades": 1,
+      "changes": 1,
+      "exposurePct": 100,
+      "valid": true
+    },
+    {
+      "asset": "SOL-USD",
+      "ret": -16.763466133446826,
+      "net": 2.497096015996595,
+      "drawdown": 57.6346284935242,
+      "fees": 0.03296565831625484,
+      "trades": 1,
+      "changes": 1,
+      "exposurePct": 100,
+      "valid": true
+    }
+  ],
+  "cash": {
+    "type": "hold",
+    "test": {
+      "ret": 0,
+      "net": 3,
+      "drawdown": 0,
+      "fees": 0,
+      "trades": 0,
+      "changes": 0,
+      "exposurePct": 0,
+      "valid": true
+    }
+  }
+}
