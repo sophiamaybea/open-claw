@@ -1,15 +1,17 @@
 {
   "experiment": "Micro Compound fast learning sweep",
-  "created_at": "2026-10-14T14:40:42.382563+00:00",
+  "created_at": "2026-10-14T14:51:27.439971+00:00",
   "summary": {
     "run_count": 108,
+    "model_evaluations": 1128,
+    "model_vetoes": 831,
     "unique_seeds": 12,
-    "mean_pnl": -0.24221897,
-    "mean_return_pct": -5.19041,
-    "beat_original_router_fraction": 0.0,
+    "mean_pnl": -0.20419446,
+    "mean_return_pct": -4.3756,
+    "beat_original_router_fraction": 0.277778,
     "beat_hold_fraction": 0.0,
     "profitable_fraction": 0.0,
-    "worst_pnl": -1.21278354,
+    "worst_pnl": -0.88798376,
     "best_pnl": 0.0,
     "data_source": "deterministic synthetic fixture",
     "execution_model": "approximate synthetic price+fixed costs; NOT executable prices",
@@ -19,15 +21,15 @@
   },
   "director": {
     "provider": "local-deterministic",
-    "generated_at": "2026-10-14T14:40:42.382626+00:00",
+    "generated_at": "2026-10-14T14:51:27.440061+00:00",
     "mode": "paper-research",
     "findings": [
       "0/108 synthetic fixtures finished above starting virtual NAV after modelled costs.",
       "No observed replay is evidence of future profit or executable fills.",
       "No profitable synthetic run in this sweep. HOLD is the strongest comparator for this data.",
       "At least one run tripped the simulated circuit breaker.",
-      "At 1.0x modelled fees: -0.23197 average virtual net P&L over 36 runs.",
-      "At 2.0x modelled fees: -0.37686 average virtual net P&L over 36 runs.",
+      "At 1.0x modelled fees: -0.18131 average virtual net P&L over 36 runs.",
+      "At 2.0x modelled fees: -0.31344 average virtual net P&L over 36 runs.",
       "At 5.0x modelled fees: -0.11783 average virtual net P&L over 36 runs."
     ],
     "proposed_tests": [
@@ -46,7 +48,9 @@
       "net_return_pct": -4.06255,
       "learning_minus_legacy_pnl": 0.0,
       "primary_trades": 5,
-      "halted": true
+      "halted": true,
+      "model_evaluations": 0,
+      "model_vetoes": 0
     },
     {
       "seed": 3,
@@ -56,7 +60,9 @@
       "net_return_pct": -8.0986,
       "learning_minus_legacy_pnl": 0.0,
       "primary_trades": 5,
-      "halted": true
+      "halted": true,
+      "model_evaluations": 0,
+      "model_vetoes": 0
     },
     {
       "seed": 3,
@@ -66,7 +72,9 @@
       "net_return_pct": 0.0,
       "learning_minus_legacy_pnl": 0.0,
       "primary_trades": 0,
-      "halted": false
+      "halted": false,
+      "model_evaluations": 0,
+      "model_vetoes": 0
     },
     {
       "seed": 3,
@@ -76,7 +84,9 @@
       "net_return_pct": -4.06255,
       "learning_minus_legacy_pnl": 0.0,
       "primary_trades": 5,
-      "halted": true
+      "halted": true,
+      "model_evaluations": 0,
+      "model_vetoes": 0
     },
     {
       "seed": 3,
@@ -86,7 +96,9 @@
       "net_return_pct": -8.0986,
       "learning_minus_legacy_pnl": 0.0,
       "primary_trades": 5,
-      "halted": true
+      "halted": true,
+      "model_evaluations": 0,
+      "model_vetoes": 0
     },
     {
       "seed": 3,
@@ -96,7 +108,9 @@
       "net_return_pct": 0.0,
       "learning_minus_legacy_pnl": 0.0,
       "primary_trades": 0,
-      "halted": false
+      "halted": false,
+      "model_evaluations": 0,
+      "model_vetoes": 0
     },
     {
       "seed": 3,
@@ -106,7 +120,9 @@
       "net_return_pct": -4.06255,
       "learning_minus_legacy_pnl": 0.0,
       "primary_trades": 5,
-      "halted": true
+      "halted": true,
+      "model_evaluations": 0,
+      "model_vetoes": 0
     },
     {
       "seed": 3,
@@ -116,7 +132,9 @@
       "net_return_pct": -8.0986,
       "learning_minus_legacy_pnl": 0.0,
       "primary_trades": 5,
-      "halted": true
+      "halted": true,
+      "model_evaluations": 0,
+      "model_vetoes": 0
     },
     {
       "seed": 3,
@@ -126,7 +144,9 @@
       "net_return_pct": 0.0,
       "learning_minus_legacy_pnl": 0.0,
       "primary_trades": 0,
-      "halted": false
+      "halted": false,
+      "model_evaluations": 0,
+      "model_vetoes": 0
     },
     {
       "seed": 4,
@@ -136,7 +156,9 @@
       "net_return_pct": -5.06637,
       "learning_minus_legacy_pnl": 0.0,
       "primary_trades": 5,
-      "halted": true
+      "halted": true,
+      "model_evaluations": 0,
+      "model_vetoes": 0
     },
     {
       "seed": 4,
@@ -146,7 +168,9 @@
       "net_return_pct": -5.78003,
       "learning_minus_legacy_pnl": 0.0,
       "primary_trades": 5,
-      "halted": true
+      "halted": true,
+      "model_evaluations": 0,
+      "model_vetoes": 0
     },
     {
       "seed": 4,
@@ -156,7 +180,9 @@
       "net_return_pct": -3.68284,
       "learning_minus_legacy_pnl": 0.0,
       "primary_trades": 1,
-      "halted": false
+      "halted": false,
+      "model_evaluations": 0,
+      "model_vetoes": 0
     },
     {
       "seed": 4,
@@ -166,7 +192,9 @@
       "net_return_pct": -5.06637,
       "learning_minus_legacy_pnl": 0.0,
       "primary_trades": 5,
-      "halted": true
+      "halted": true,
+      "model_evaluations": 0,
+      "model_vetoes": 0
     },
     {
       "seed": 4,
@@ -176,7 +204,9 @@
       "net_return_pct": -5.78002,
       "learning_minus_legacy_pnl": 0.0,
       "primary_trades": 5,
-      "halted": true
+      "halted": true,
+      "model_evaluations": 0,
+      "model_vetoes": 0
     },
     {
       "seed": 4,
@@ -186,7 +216,9 @@
       "net_return_pct": -3.68283,
       "learning_minus_legacy_pnl": 0.0,
       "primary_trades": 1,
-      "halted": false
+      "halted": false,
+      "model_evaluations": 0,
+      "model_vetoes": 0
     },
     {
       "seed": 4,
@@ -196,7 +228,9 @@
       "net_return_pct": -5.06637,
       "learning_minus_legacy_pnl": 0.0,
       "primary_trades": 5,
-      "halted": true
+      "halted": true,
+      "model_evaluations": 0,
+      "model_vetoes": 0
     },
     {
       "seed": 4,
@@ -206,7 +240,9 @@
       "net_return_pct": -5.78003,
       "learning_minus_legacy_pnl": 0.0,
       "primary_trades": 5,
-      "halted": true
+      "halted": true,
+      "model_evaluations": 0,
+      "model_vetoes": 0
     },
     {
       "seed": 4,
@@ -216,17 +252,21 @@
       "net_return_pct": -3.68283,
       "learning_minus_legacy_pnl": 0.0,
       "primary_trades": 1,
-      "halted": false
+      "halted": false,
+      "model_evaluations": 0,
+      "model_vetoes": 0
     },
     {
       "seed": 5,
       "start_usd": 1.0,
       "cost_mult": 1.0,
-      "net_pnl": -0.06939402,
-      "net_return_pct": -6.9394,
-      "learning_minus_legacy_pnl": 0.0,
+      "net_pnl": -0.06607039,
+      "net_return_pct": -6.60704,
+      "learning_minus_legacy_pnl": 0.00332363,
       "primary_trades": 10,
-      "halted": true
+      "halted": true,
+      "model_evaluations": 14,
+      "model_vetoes": 14
     },
     {
       "seed": 5,
@@ -236,7 +276,9 @@
       "net_return_pct": -7.3732,
       "learning_minus_legacy_pnl": 0.0,
       "primary_trades": 5,
-      "halted": true
+      "halted": true,
+      "model_evaluations": 0,
+      "model_vetoes": 0
     },
     {
       "seed": 5,
@@ -246,17 +288,21 @@
       "net_return_pct": 0.0,
       "learning_minus_legacy_pnl": 0.0,
       "primary_trades": 0,
-      "halted": false
+      "halted": false,
+      "model_evaluations": 0,
+      "model_vetoes": 0
     },
     {
       "seed": 5,
       "start_usd": 3.0,
       "cost_mult": 1.0,
-      "net_pnl": -0.20818207,
-      "net_return_pct": -6.9394,
-      "learning_minus_legacy_pnl": 0.0,
+      "net_pnl": -0.19821117,
+      "net_return_pct": -6.60704,
+      "learning_minus_legacy_pnl": 0.0099709,
       "primary_trades": 10,
-      "halted": true
+      "halted": true,
+      "model_evaluations": 14,
+      "model_vetoes": 14
     },
     {
       "seed": 5,
@@ -266,7 +312,9 @@
       "net_return_pct": -7.3732,
       "learning_minus_legacy_pnl": 0.0,
       "primary_trades": 5,
-      "halted": true
+      "halted": true,
+      "model_evaluations": 0,
+      "model_vetoes": 0
     },
     {
       "seed": 5,
@@ -276,17 +324,21 @@
       "net_return_pct": 0.0,
       "learning_minus_legacy_pnl": 0.0,
       "primary_trades": 0,
-      "halted": false
+      "halted": false,
+      "model_evaluations": 0,
+      "model_vetoes": 0
     },
     {
       "seed": 5,
       "start_usd": 10.0,
       "cost_mult": 1.0,
-      "net_pnl": -0.69394022,
-      "net_return_pct": -6.9394,
-      "learning_minus_legacy_pnl": 0.0,
+      "net_pnl": -0.66070389,
+      "net_return_pct": -6.60704,
+      "learning_minus_legacy_pnl": 0.03323633,
       "primary_trades": 10,
-      "halted": true
+      "halted": true,
+      "model_evaluations": 14,
+      "model_vetoes": 14
     },
     {
       "seed": 5,
@@ -296,7 +348,9 @@
       "net_return_pct": -7.3732,
       "learning_minus_legacy_pnl": 0.0,
       "primary_trades": 5,
-      "halted": true
+      "halted": true,
+      "model_evaluations": 0,
+      "model_vetoes": 0
     },
     {
       "seed": 5,
@@ -306,17 +360,21 @@
       "net_return_pct": 0.0,
       "learning_minus_legacy_pnl": 0.0,
       "primary_trades": 0,
-      "halted": false
+      "halted": false,
+      "model_evaluations": 0,
+      "model_vetoes": 0
     },
     {
       "seed": 6,
       "start_usd": 1.0,
       "cost_mult": 1.0,
-      "net_pnl": -0.08381107,
-      "net_return_pct": -8.38111,
-      "learning_minus_legacy_pnl": 0.0,
-      "primary_trades": 16,
-      "halted": true
+      "net_pnl": -0.06325962,
+      "net_return_pct": -6.32596,
+      "learning_minus_legacy_pnl": 0.02055145,
+      "primary_trades": 14,
+      "halted": true,
+      "model_evaluations": 37,
+      "model_vetoes": 35
     },
     {
       "seed": 6,
@@ -326,7 +384,9 @@
       "net_return_pct": -8.72088,
       "learning_minus_legacy_pnl": 0.0,
       "primary_trades": 5,
-      "halted": true
+      "halted": true,
+      "model_evaluations": 0,
+      "model_vetoes": 0
     },
     {
       "seed": 6,
@@ -336,17 +396,21 @@
       "net_return_pct": 0.0,
       "learning_minus_legacy_pnl": 0.0,
       "primary_trades": 0,
-      "halted": false
+      "halted": false,
+      "model_evaluations": 0,
+      "model_vetoes": 0
     },
     {
       "seed": 6,
       "start_usd": 3.0,
       "cost_mult": 1.0,
-      "net_pnl": -0.25143321,
-      "net_return_pct": -8.38111,
-      "learning_minus_legacy_pnl": 0.0,
-      "primary_trades": 16,
-      "halted": true
+      "net_pnl": -0.18977887,
+      "net_return_pct": -6.32596,
+      "learning_minus_legacy_pnl": 0.06165434,
+      "primary_trades": 14,
+      "halted": true,
+      "model_evaluations": 37,
+      "model_vetoes": 35
     },
     {
       "seed": 6,
@@ -356,7 +420,9 @@
       "net_return_pct": -8.72088,
       "learning_minus_legacy_pnl": 0.0,
       "primary_trades": 5,
-      "halted": true
+      "halted": true,
+      "model_evaluations": 0,
+      "model_vetoes": 0
     },
     {
       "seed": 6,
@@ -366,17 +432,21 @@
       "net_return_pct": 0.0,
       "learning_minus_legacy_pnl": 0.0,
       "primary_trades": 0,
-      "halted": false
+      "halted": false,
+      "model_evaluations": 0,
+      "model_vetoes": 0
     },
     {
       "seed": 6,
       "start_usd": 10.0,
       "cost_mult": 1.0,
-      "net_pnl": -0.83811069,
-      "net_return_pct": -8.38111,
-      "learning_minus_legacy_pnl": 0.0,
-      "primary_trades": 16,
-      "halted": true
+      "net_pnl": -0.63259623,
+      "net_return_pct": -6.32596,
+      "learning_minus_legacy_pnl": 0.20551446,
+      "primary_trades": 14,
+      "halted": true,
+      "model_evaluations": 37,
+      "model_vetoes": 35
     },
     {
       "seed": 6,
@@ -386,7 +456,9 @@
       "net_return_pct": -8.72088,
       "learning_minus_legacy_pnl": 0.0,
       "primary_trades": 5,
-      "halted": true
+      "halted": true,
+      "model_evaluations": 0,
+      "model_vetoes": 0
     },
     {
       "seed": 6,
@@ -396,17 +468,21 @@
       "net_return_pct": 0.0,
       "learning_minus_legacy_pnl": 0.0,
       "primary_trades": 0,
-      "halted": false
+      "halted": false,
+      "model_evaluations": 0,
+      "model_vetoes": 0
     },
     {
       "seed": 7,
       "start_usd": 1.0,
       "cost_mult": 1.0,
-      "net_pnl": -0.08535744,
-      "net_return_pct": -8.53574,
-      "learning_minus_legacy_pnl": 0.0,
-      "primary_trades": 14,
-      "halted": true
+      "net_pnl": -0.03269445,
+      "net_return_pct": -3.26945,
+      "learning_minus_legacy_pnl": 0.05266299,
+      "primary_trades": 12,
+      "halted": true,
+      "model_evaluations": 27,
+      "model_vetoes": 27
     },
     {
       "seed": 7,
@@ -416,7 +492,9 @@
       "net_return_pct": -6.25751,
       "learning_minus_legacy_pnl": 0.0,
       "primary_trades": 5,
-      "halted": true
+      "halted": true,
+      "model_evaluations": 4,
+      "model_vetoes": 4
     },
     {
       "seed": 7,
@@ -426,17 +504,21 @@
       "net_return_pct": -3.32377,
       "learning_minus_legacy_pnl": 0.0,
       "primary_trades": 1,
-      "halted": false
+      "halted": false,
+      "model_evaluations": 0,
+      "model_vetoes": 0
     },
     {
       "seed": 7,
       "start_usd": 3.0,
       "cost_mult": 1.0,
-      "net_pnl": -0.25607233,
-      "net_return_pct": -8.53574,
-      "learning_minus_legacy_pnl": 0.0,
-      "primary_trades": 14,
-      "halted": true
+      "net_pnl": -0.09808334,
+      "net_return_pct": -3.26944,
+      "learning_minus_legacy_pnl": 0.15798899,
+      "primary_trades": 12,
+      "halted": true,
+      "model_evaluations": 27,
+      "model_vetoes": 27
     },
     {
       "seed": 7,
@@ -446,7 +528,9 @@
       "net_return_pct": -6.25751,
       "learning_minus_legacy_pnl": 0.0,
       "primary_trades": 5,
-      "halted": true
+      "halted": true,
+      "model_evaluations": 4,
+      "model_vetoes": 4
     },
     {
       "seed": 7,
@@ -456,17 +540,21 @@
       "net_return_pct": -3.32377,
       "learning_minus_legacy_pnl": 0.0,
       "primary_trades": 1,
-      "halted": false
+      "halted": false,
+      "model_evaluations": 0,
+      "model_vetoes": 0
     },
     {
       "seed": 7,
       "start_usd": 10.0,
       "cost_mult": 1.0,
-      "net_pnl": -0.85357444,
-      "net_return_pct": -8.53574,
-      "learning_minus_legacy_pnl": 0.0,
-      "primary_trades": 14,
-      "halted": true
+      "net_pnl": -0.32694448,
+      "net_return_pct": -3.26944,
+      "learning_minus_legacy_pnl": 0.52662996,
+      "primary_trades": 12,
+      "halted": true,
+      "model_evaluations": 27,
+      "model_vetoes": 27
     },
     {
       "seed": 7,
@@ -476,7 +564,9 @@
       "net_return_pct": -6.25751,
       "learning_minus_legacy_pnl": 0.0,
       "primary_trades": 5,
-      "halted": true
+      "halted": true,
+      "model_evaluations": 4,
+      "model_vetoes": 4
     },
     {
       "seed": 7,
@@ -486,17 +576,21 @@
       "net_return_pct": -3.32377,
       "learning_minus_legacy_pnl": 0.0,
       "primary_trades": 1,
-      "halted": false
+      "halted": false,
+      "model_evaluations": 0,
+      "model_vetoes": 0
     },
     {
       "seed": 8,
       "start_usd": 1.0,
       "cost_mult": 1.0,
-      "net_pnl": -0.02030278,
-      "net_return_pct": -2.03028,
-      "learning_minus_legacy_pnl": 0.0,
+      "net_pnl": -0.00043297,
+      "net_return_pct": -0.0433,
+      "learning_minus_legacy_pnl": 0.01986981,
       "primary_trades": 14,
-      "halted": true
+      "halted": true,
+      "model_evaluations": 30,
+      "model_vetoes": 16
     },
     {
       "seed": 8,
@@ -506,7 +600,9 @@
       "net_return_pct": -5.16376,
       "learning_minus_legacy_pnl": 0.0,
       "primary_trades": 6,
-      "halted": true
+      "halted": true,
+      "model_evaluations": 1,
+      "model_vetoes": 1
     },
     {
       "seed": 8,
@@ -516,17 +612,21 @@
       "net_return_pct": -4.64403,
       "learning_minus_legacy_pnl": 0.0,
       "primary_trades": 1,
-      "halted": false
+      "halted": false,
+      "model_evaluations": 0,
+      "model_vetoes": 0
     },
     {
       "seed": 8,
       "start_usd": 3.0,
       "cost_mult": 1.0,
-      "net_pnl": -0.06090833,
-      "net_return_pct": -2.03028,
-      "learning_minus_legacy_pnl": 0.0,
+      "net_pnl": -0.00129891,
+      "net_return_pct": -0.0433,
+      "learning_minus_legacy_pnl": 0.05960942,
       "primary_trades": 14,
-      "halted": true
+      "halted": true,
+      "model_evaluations": 30,
+      "model_vetoes": 16
     },
     {
       "seed": 8,
@@ -536,7 +636,9 @@
       "net_return_pct": -5.16376,
       "learning_minus_legacy_pnl": 0.0,
       "primary_trades": 6,
-      "halted": true
+      "halted": true,
+      "model_evaluations": 1,
+      "model_vetoes": 1
     },
     {
       "seed": 8,
@@ -546,17 +648,21 @@
       "net_return_pct": -4.64403,
       "learning_minus_legacy_pnl": 0.0,
       "primary_trades": 1,
-      "halted": false
+      "halted": false,
+      "model_evaluations": 0,
+      "model_vetoes": 0
     },
     {
       "seed": 8,
       "start_usd": 10.0,
       "cost_mult": 1.0,
-      "net_pnl": -0.20302775,
-      "net_return_pct": -2.03028,
-      "learning_minus_legacy_pnl": 0.0,
+      "net_pnl": -0.00432971,
+      "net_return_pct": -0.0433,
+      "learning_minus_legacy_pnl": 0.19869804,
       "primary_trades": 14,
-      "halted": true
+      "halted": true,
+      "model_evaluations": 30,
+      "model_vetoes": 16
     },
     {
       "seed": 8,
@@ -566,7 +672,9 @@
       "net_return_pct": -5.16376,
       "learning_minus_legacy_pnl": 0.0,
       "primary_trades": 6,
-      "halted": true
+      "halted": true,
+      "model_evaluations": 1,
+      "model_vetoes": 1
     },
     {
       "seed": 8,
@@ -576,7 +684,9 @@
       "net_return_pct": -4.64403,
       "learning_minus_legacy_pnl": 0.0,
       "primary_trades": 1,
-      "halted": false
+      "halted": false,
+      "model_evaluations": 0,
+      "model_vetoes": 0
     },
     {
       "seed": 9,
@@ -586,7 +696,9 @@
       "net_return_pct": -3.39505,
       "learning_minus_legacy_pnl": 0.0,
       "primary_trades": 7,
-      "halted": true
+      "halted": true,
+      "model_evaluations": 0,
+      "model_vetoes": 0
     },
     {
       "seed": 9,
@@ -596,7 +708,9 @@
       "net_return_pct": -8.08329,
       "learning_minus_legacy_pnl": 0.0,
       "primary_trades": 5,
-      "halted": true
+      "halted": true,
+      "model_evaluations": 0,
+      "model_vetoes": 0
     },
     {
       "seed": 9,
@@ -606,7 +720,9 @@
       "net_return_pct": -4.34016,
       "learning_minus_legacy_pnl": 0.0,
       "primary_trades": 1,
-      "halted": false
+      "halted": false,
+      "model_evaluations": 0,
+      "model_vetoes": 0
     },
     {
       "seed": 9,
@@ -616,7 +732,9 @@
       "net_return_pct": -3.39505,
       "learning_minus_legacy_pnl": 0.0,
       "primary_trades": 7,
-      "halted": true
+      "halted": true,
+      "model_evaluations": 0,
+      "model_vetoes": 0
     },
     {
       "seed": 9,
@@ -626,7 +744,9 @@
       "net_return_pct": -8.08329,
       "learning_minus_legacy_pnl": 0.0,
       "primary_trades": 5,
-      "halted": true
+      "halted": true,
+      "model_evaluations": 0,
+      "model_vetoes": 0
     },
     {
       "seed": 9,
@@ -636,7 +756,9 @@
       "net_return_pct": -4.34016,
       "learning_minus_legacy_pnl": 0.0,
       "primary_trades": 1,
-      "halted": false
+      "halted": false,
+      "model_evaluations": 0,
+      "model_vetoes": 0
     },
     {
       "seed": 9,
@@ -646,7 +768,9 @@
       "net_return_pct": -3.39505,
       "learning_minus_legacy_pnl": 0.0,
       "primary_trades": 7,
-      "halted": true
+      "halted": true,
+      "model_evaluations": 0,
+      "model_vetoes": 0
     },
     {
       "seed": 9,
@@ -656,7 +780,9 @@
       "net_return_pct": -8.08329,
       "learning_minus_legacy_pnl": 0.0,
       "primary_trades": 5,
-      "halted": true
+      "halted": true,
+      "model_evaluations": 0,
+      "model_vetoes": 0
     },
     {
       "seed": 9,
@@ -666,7 +792,9 @@
       "net_return_pct": -4.34016,
       "learning_minus_legacy_pnl": 0.0,
       "primary_trades": 1,
-      "halted": false
+      "halted": false,
+      "model_evaluations": 0,
+      "model_vetoes": 0
     },
     {
       "seed": 10,
@@ -676,7 +804,9 @@
       "net_return_pct": -4.28606,
       "learning_minus_legacy_pnl": 0.0,
       "primary_trades": 5,
-      "halted": true
+      "halted": true,
+      "model_evaluations": 0,
+      "model_vetoes": 0
     },
     {
       "seed": 10,
@@ -686,7 +816,9 @@
       "net_return_pct": -8.87984,
       "learning_minus_legacy_pnl": 0.0,
       "primary_trades": 5,
-      "halted": true
+      "halted": true,
+      "model_evaluations": 0,
+      "model_vetoes": 0
     },
     {
       "seed": 10,
@@ -696,7 +828,9 @@
       "net_return_pct": -5.2853,
       "learning_minus_legacy_pnl": 0.0,
       "primary_trades": 1,
-      "halted": false
+      "halted": false,
+      "model_evaluations": 0,
+      "model_vetoes": 0
     },
     {
       "seed": 10,
@@ -706,7 +840,9 @@
       "net_return_pct": -4.28606,
       "learning_minus_legacy_pnl": 0.0,
       "primary_trades": 5,
-      "halted": true
+      "halted": true,
+      "model_evaluations": 0,
+      "model_vetoes": 0
     },
     {
       "seed": 10,
@@ -716,7 +852,9 @@
       "net_return_pct": -8.87984,
       "learning_minus_legacy_pnl": 0.0,
       "primary_trades": 5,
-      "halted": true
+      "halted": true,
+      "model_evaluations": 0,
+      "model_vetoes": 0
     },
     {
       "seed": 10,
@@ -726,7 +864,9 @@
       "net_return_pct": -5.2853,
       "learning_minus_legacy_pnl": 0.0,
       "primary_trades": 1,
-      "halted": false
+      "halted": false,
+      "model_evaluations": 0,
+      "model_vetoes": 0
     },
     {
       "seed": 10,
@@ -736,7 +876,9 @@
       "net_return_pct": -4.28606,
       "learning_minus_legacy_pnl": 0.0,
       "primary_trades": 5,
-      "halted": true
+      "halted": true,
+      "model_evaluations": 0,
+      "model_vetoes": 0
     },
     {
       "seed": 10,
@@ -746,7 +888,9 @@
       "net_return_pct": -8.87984,
       "learning_minus_legacy_pnl": 0.0,
       "primary_trades": 5,
-      "halted": true
+      "halted": true,
+      "model_evaluations": 0,
+      "model_vetoes": 0
     },
     {
       "seed": 10,
@@ -756,27 +900,33 @@
       "net_return_pct": -5.2853,
       "learning_minus_legacy_pnl": 0.0,
       "primary_trades": 1,
-      "halted": false
+      "halted": false,
+      "model_evaluations": 0,
+      "model_vetoes": 0
     },
     {
       "seed": 11,
       "start_usd": 1.0,
       "cost_mult": 1.0,
-      "net_pnl": -0.03987693,
-      "net_return_pct": -3.98769,
-      "learning_minus_legacy_pnl": 0.0,
-      "primary_trades": 14,
-      "halted": true
+      "net_pnl": -0.028994,
+      "net_return_pct": -2.8994,
+      "learning_minus_legacy_pnl": 0.01088293,
+      "primary_trades": 18,
+      "halted": false,
+      "model_evaluations": 55,
+      "model_vetoes": 44
     },
     {
       "seed": 11,
       "start_usd": 1.0,
       "cost_mult": 2.0,
-      "net_pnl": -0.11252379,
-      "net_return_pct": -11.25238,
-      "learning_minus_legacy_pnl": 0.0,
-      "primary_trades": 11,
-      "halted": true
+      "net_pnl": -0.0840713,
+      "net_return_pct": -8.40713,
+      "learning_minus_legacy_pnl": 0.02845249,
+      "primary_trades": 9,
+      "halted": false,
+      "model_evaluations": 16,
+      "model_vetoes": 16
     },
     {
       "seed": 11,
@@ -786,27 +936,33 @@
       "net_return_pct": -4.33334,
       "learning_minus_legacy_pnl": 0.0,
       "primary_trades": 1,
-      "halted": false
+      "halted": false,
+      "model_evaluations": 0,
+      "model_vetoes": 0
     },
     {
       "seed": 11,
       "start_usd": 3.0,
       "cost_mult": 1.0,
-      "net_pnl": -0.11963079,
-      "net_return_pct": -3.98769,
-      "learning_minus_legacy_pnl": 0.0,
-      "primary_trades": 14,
-      "halted": true
+      "net_pnl": -0.08698201,
+      "net_return_pct": -2.8994,
+      "learning_minus_legacy_pnl": 0.03264878,
+      "primary_trades": 18,
+      "halted": false,
+      "model_evaluations": 55,
+      "model_vetoes": 44
     },
     {
       "seed": 11,
       "start_usd": 3.0,
       "cost_mult": 2.0,
-      "net_pnl": -0.33757136,
-      "net_return_pct": -11.25238,
-      "learning_minus_legacy_pnl": 0.0,
-      "primary_trades": 11,
-      "halted": true
+      "net_pnl": -0.25221389,
+      "net_return_pct": -8.40713,
+      "learning_minus_legacy_pnl": 0.08535747,
+      "primary_trades": 9,
+      "halted": false,
+      "model_evaluations": 16,
+      "model_vetoes": 16
     },
     {
       "seed": 11,
@@ -816,27 +972,33 @@
       "net_return_pct": -4.33334,
       "learning_minus_legacy_pnl": 0.0,
       "primary_trades": 1,
-      "halted": false
+      "halted": false,
+      "model_evaluations": 0,
+      "model_vetoes": 0
     },
     {
       "seed": 11,
       "start_usd": 10.0,
       "cost_mult": 1.0,
-      "net_pnl": -0.39876929,
-      "net_return_pct": -3.98769,
-      "learning_minus_legacy_pnl": 0.0,
-      "primary_trades": 14,
-      "halted": true
+      "net_pnl": -0.28994003,
+      "net_return_pct": -2.8994,
+      "learning_minus_legacy_pnl": 0.10882926,
+      "primary_trades": 18,
+      "halted": false,
+      "model_evaluations": 55,
+      "model_vetoes": 44
     },
     {
       "seed": 11,
       "start_usd": 10.0,
       "cost_mult": 2.0,
-      "net_pnl": -1.12523788,
-      "net_return_pct": -11.25238,
-      "learning_minus_legacy_pnl": 0.0,
-      "primary_trades": 11,
-      "halted": true
+      "net_pnl": -0.84071297,
+      "net_return_pct": -8.40713,
+      "learning_minus_legacy_pnl": 0.28452491,
+      "primary_trades": 9,
+      "halted": false,
+      "model_evaluations": 16,
+      "model_vetoes": 16
     },
     {
       "seed": 11,
@@ -846,27 +1008,33 @@
       "net_return_pct": -4.33334,
       "learning_minus_legacy_pnl": 0.0,
       "primary_trades": 1,
-      "halted": false
+      "halted": false,
+      "model_evaluations": 0,
+      "model_vetoes": 0
     },
     {
       "seed": 12,
       "start_usd": 1.0,
       "cost_mult": 1.0,
-      "net_pnl": -0.01582742,
-      "net_return_pct": -1.58274,
-      "learning_minus_legacy_pnl": 0.0,
-      "primary_trades": 16,
-      "halted": true
+      "net_pnl": -0.01118589,
+      "net_return_pct": -1.11859,
+      "learning_minus_legacy_pnl": 0.00464153,
+      "primary_trades": 18,
+      "halted": false,
+      "model_evaluations": 72,
+      "model_vetoes": 60
     },
     {
       "seed": 12,
       "start_usd": 1.0,
       "cost_mult": 2.0,
-      "net_pnl": -0.12127835,
-      "net_return_pct": -12.12783,
-      "learning_minus_legacy_pnl": 0.0,
-      "primary_trades": 11,
-      "halted": true
+      "net_pnl": -0.03282916,
+      "net_return_pct": -3.28292,
+      "learning_minus_legacy_pnl": 0.08844919,
+      "primary_trades": 7,
+      "halted": false,
+      "model_evaluations": 27,
+      "model_vetoes": 27
     },
     {
       "seed": 12,
@@ -876,27 +1044,33 @@
       "net_return_pct": -4.68943,
       "learning_minus_legacy_pnl": 0.0,
       "primary_trades": 1,
-      "halted": false
+      "halted": false,
+      "model_evaluations": 0,
+      "model_vetoes": 0
     },
     {
       "seed": 12,
       "start_usd": 3.0,
       "cost_mult": 1.0,
-      "net_pnl": -0.04748226,
-      "net_return_pct": -1.58274,
-      "learning_minus_legacy_pnl": 0.0,
-      "primary_trades": 16,
-      "halted": true
+      "net_pnl": -0.03355766,
+      "net_return_pct": -1.11859,
+      "learning_minus_legacy_pnl": 0.0139246,
+      "primary_trades": 18,
+      "halted": false,
+      "model_evaluations": 72,
+      "model_vetoes": 60
     },
     {
       "seed": 12,
       "start_usd": 3.0,
       "cost_mult": 2.0,
-      "net_pnl": -0.36383506,
-      "net_return_pct": -12.12784,
-      "learning_minus_legacy_pnl": 0.0,
-      "primary_trades": 11,
-      "halted": true
+      "net_pnl": -0.09848748,
+      "net_return_pct": -3.28292,
+      "learning_minus_legacy_pnl": 0.26534758,
+      "primary_trades": 7,
+      "halted": false,
+      "model_evaluations": 27,
+      "model_vetoes": 27
     },
     {
       "seed": 12,
@@ -906,27 +1080,33 @@
       "net_return_pct": -4.68943,
       "learning_minus_legacy_pnl": 0.0,
       "primary_trades": 1,
-      "halted": false
+      "halted": false,
+      "model_evaluations": 0,
+      "model_vetoes": 0
     },
     {
       "seed": 12,
       "start_usd": 10.0,
       "cost_mult": 1.0,
-      "net_pnl": -0.15827421,
-      "net_return_pct": -1.58274,
-      "learning_minus_legacy_pnl": 0.0,
-      "primary_trades": 16,
-      "halted": true
+      "net_pnl": -0.11185886,
+      "net_return_pct": -1.11859,
+      "learning_minus_legacy_pnl": 0.04641535,
+      "primary_trades": 18,
+      "halted": false,
+      "model_evaluations": 72,
+      "model_vetoes": 60
     },
     {
       "seed": 12,
       "start_usd": 10.0,
       "cost_mult": 2.0,
-      "net_pnl": -1.21278354,
-      "net_return_pct": -12.12784,
-      "learning_minus_legacy_pnl": 0.0,
-      "primary_trades": 11,
-      "halted": true
+      "net_pnl": -0.32829159,
+      "net_return_pct": -3.28292,
+      "learning_minus_legacy_pnl": 0.88449195,
+      "primary_trades": 7,
+      "halted": false,
+      "model_evaluations": 27,
+      "model_vetoes": 27
     },
     {
       "seed": 12,
@@ -936,7 +1116,9 @@
       "net_return_pct": -4.68943,
       "learning_minus_legacy_pnl": 0.0,
       "primary_trades": 1,
-      "halted": false
+      "halted": false,
+      "model_evaluations": 0,
+      "model_vetoes": 0
     },
     {
       "seed": 13,
@@ -946,7 +1128,9 @@
       "net_return_pct": -6.14855,
       "learning_minus_legacy_pnl": 0.0,
       "primary_trades": 25,
-      "halted": true
+      "halted": true,
+      "model_evaluations": 44,
+      "model_vetoes": 0
     },
     {
       "seed": 13,
@@ -956,7 +1140,9 @@
       "net_return_pct": -5.41479,
       "learning_minus_legacy_pnl": 0.0,
       "primary_trades": 5,
-      "halted": true
+      "halted": true,
+      "model_evaluations": 0,
+      "model_vetoes": 0
     },
     {
       "seed": 13,
@@ -966,7 +1152,9 @@
       "net_return_pct": 0.0,
       "learning_minus_legacy_pnl": 0.0,
       "primary_trades": 0,
-      "halted": false
+      "halted": false,
+      "model_evaluations": 0,
+      "model_vetoes": 0
     },
     {
       "seed": 13,
@@ -976,7 +1164,9 @@
       "net_return_pct": -6.14855,
       "learning_minus_legacy_pnl": 0.0,
       "primary_trades": 25,
-      "halted": true
+      "halted": true,
+      "model_evaluations": 44,
+      "model_vetoes": 0
     },
     {
       "seed": 13,
@@ -986,7 +1176,9 @@
       "net_return_pct": -5.41479,
       "learning_minus_legacy_pnl": 0.0,
       "primary_trades": 5,
-      "halted": true
+      "halted": true,
+      "model_evaluations": 0,
+      "model_vetoes": 0
     },
     {
       "seed": 13,
@@ -996,7 +1188,9 @@
       "net_return_pct": 0.0,
       "learning_minus_legacy_pnl": 0.0,
       "primary_trades": 0,
-      "halted": false
+      "halted": false,
+      "model_evaluations": 0,
+      "model_vetoes": 0
     },
     {
       "seed": 13,
@@ -1006,7 +1200,9 @@
       "net_return_pct": -6.14855,
       "learning_minus_legacy_pnl": 0.0,
       "primary_trades": 25,
-      "halted": true
+      "halted": true,
+      "model_evaluations": 44,
+      "model_vetoes": 0
     },
     {
       "seed": 13,
@@ -1016,7 +1212,9 @@
       "net_return_pct": -5.41479,
       "learning_minus_legacy_pnl": 0.0,
       "primary_trades": 5,
-      "halted": true
+      "halted": true,
+      "model_evaluations": 0,
+      "model_vetoes": 0
     },
     {
       "seed": 13,
@@ -1026,27 +1224,33 @@
       "net_return_pct": 0.0,
       "learning_minus_legacy_pnl": 0.0,
       "primary_trades": 0,
-      "halted": false
+      "halted": false,
+      "model_evaluations": 0,
+      "model_vetoes": 0
     },
     {
       "seed": 14,
       "start_usd": 1.0,
       "cost_mult": 1.0,
-      "net_pnl": -0.05234233,
-      "net_return_pct": -5.23423,
-      "learning_minus_legacy_pnl": 0.0,
+      "net_pnl": -0.03401164,
+      "net_return_pct": -3.40116,
+      "learning_minus_legacy_pnl": 0.01833069,
       "primary_trades": 18,
-      "halted": true
+      "halted": true,
+      "model_evaluations": 24,
+      "model_vetoes": 8
     },
     {
       "seed": 14,
       "start_usd": 1.0,
       "cost_mult": 2.0,
-      "net_pnl": -0.09753881,
-      "net_return_pct": -9.75388,
-      "learning_minus_legacy_pnl": 0.0,
-      "primary_trades": 9,
-      "halted": true
+      "net_pnl": -0.05137158,
+      "net_return_pct": -5.13716,
+      "learning_minus_legacy_pnl": 0.04616723,
+      "primary_trades": 7,
+      "halted": false,
+      "model_evaluations": 25,
+      "model_vetoes": 25
     },
     {
       "seed": 14,
@@ -1056,27 +1260,33 @@
       "net_return_pct": 0.0,
       "learning_minus_legacy_pnl": 0.0,
       "primary_trades": 0,
-      "halted": false
+      "halted": false,
+      "model_evaluations": 0,
+      "model_vetoes": 0
     },
     {
       "seed": 14,
       "start_usd": 3.0,
       "cost_mult": 1.0,
-      "net_pnl": -0.15702698,
-      "net_return_pct": -5.23423,
-      "learning_minus_legacy_pnl": 0.0,
+      "net_pnl": -0.10203491,
+      "net_return_pct": -3.40116,
+      "learning_minus_legacy_pnl": 0.05499207,
       "primary_trades": 18,
-      "halted": true
+      "halted": true,
+      "model_evaluations": 24,
+      "model_vetoes": 8
     },
     {
       "seed": 14,
       "start_usd": 3.0,
       "cost_mult": 2.0,
-      "net_pnl": -0.29261644,
-      "net_return_pct": -9.75388,
-      "learning_minus_legacy_pnl": 0.0,
-      "primary_trades": 9,
-      "halted": true
+      "net_pnl": -0.15411474,
+      "net_return_pct": -5.13716,
+      "learning_minus_legacy_pnl": 0.1385017,
+      "primary_trades": 7,
+      "halted": false,
+      "model_evaluations": 25,
+      "model_vetoes": 25
     },
     {
       "seed": 14,
@@ -1086,27 +1296,33 @@
       "net_return_pct": 0.0,
       "learning_minus_legacy_pnl": 0.0,
       "primary_trades": 0,
-      "halted": false
+      "halted": false,
+      "model_evaluations": 0,
+      "model_vetoes": 0
     },
     {
       "seed": 14,
       "start_usd": 10.0,
       "cost_mult": 1.0,
-      "net_pnl": -0.52342328,
-      "net_return_pct": -5.23423,
-      "learning_minus_legacy_pnl": 0.0,
+      "net_pnl": -0.34011636,
+      "net_return_pct": -3.40116,
+      "learning_minus_legacy_pnl": 0.18330692,
       "primary_trades": 18,
-      "halted": true
+      "halted": true,
+      "model_evaluations": 24,
+      "model_vetoes": 8
     },
     {
       "seed": 14,
       "start_usd": 10.0,
       "cost_mult": 2.0,
-      "net_pnl": -0.97538815,
-      "net_return_pct": -9.75388,
-      "learning_minus_legacy_pnl": 0.0,
-      "primary_trades": 9,
-      "halted": true
+      "net_pnl": -0.51371579,
+      "net_return_pct": -5.13716,
+      "learning_minus_legacy_pnl": 0.46167236,
+      "primary_trades": 7,
+      "halted": false,
+      "model_evaluations": 25,
+      "model_vetoes": 25
     },
     {
       "seed": 14,
@@ -1116,7 +1332,9 @@
       "net_return_pct": 0.0,
       "learning_minus_legacy_pnl": 0.0,
       "primary_trades": 0,
-      "halted": false
+      "halted": false,
+      "model_evaluations": 0,
+      "model_vetoes": 0
     }
   ]
 }
