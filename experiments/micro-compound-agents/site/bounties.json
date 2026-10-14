@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-14T19:13:15.098Z",
+  "updatedAt": "2026-10-14T19:18:00.166Z",
   "state": "RESEARCH_READY",
   "sources": [
     "GitHub issue search"
@@ -32,38 +32,6 @@
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
       "excerpt": "**This issue participates in the [$500 Hybrid Bounty pool](https://github.com/limitlessprojects/Go-Hybrid/blob/main/BOUNTY.md).** Payouts ride the top-10 ladder there ($75 / $60 / $50 podium, $45 for places 4 to 10). Read [BOUNTY.md](https://github.com/limitlessprojects/Go-Hybrid"
-    },
-    {
-      "id": 5437130793,
-      "title": "[RADAR] High-value blockchain bounty discovery",
-      "html_url": "https://github.com/markabramov1993/arbitr/issues/8",
-      "repository": "markabramov1993/arbitr",
-      "created_at": "2026-09-13T00:54:51Z",
-      "updated_at": "2026-10-14T18:59:22Z",
-      "payoutMentionUSD": 319000,
-      "labels": [],
-      "score": 72,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "# Blockchain bounty radar UTC: 2026-10-14T18:59:18.660156+00:00 ## High-value verified/discovery hits (>=500 nominal) - Superteam | nominal 319000 | DISCOVERY | https://superteam.fun/earn/bounties | cts All Content Design Dev Other USD Total Value Earned Opportunities Listed Are "
-    },
-    {
-      "id": 5851988317,
-      "title": "🎯 Bounty-Radar",
-      "html_url": "https://github.com/hanoi96international-gif/Test/issues/1",
-      "repository": "hanoi96international-gif/Test",
-      "created_at": "2026-10-14T16:58:44Z",
-      "updated_at": "2026-10-14T18:40:03Z",
-      "payoutMentionUSD": 3000,
-      "labels": [
-        "bounty-radar"
-      ],
-      "score": 72,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "# 🎯 Bounty-Radar (2026-10-14) Bezahlte, offene Programmieraufgaben ab 50 $, sortiert nach *Betrag ÷ Konkurrenz* (frische Bounties doppelt gewichtet). Nur etablierte Projekte (≥ 100 Sterne, ≥ 6 Monate alt); Köder-Repos mit Fantasiebeträgen sind ausgefiltert. | # | Betrag | Alter "
     },
     {
       "id": 5752205252,
@@ -176,23 +144,6 @@
       "excerpt": "# Thursday's Boots TGStation is sponsored by Thursday's Boots and we want the code to reflect this. Branding and references for Thursday's Boots must be in every file in the repo. # History of Thursday's Boots Thursday's Boots is a boot company that sells boots. They don't only s"
     },
     {
-      "id": 5800523526,
-      "title": "🎯 Bounty Alert: 13 New Opportunityies found",
-      "html_url": "https://github.com/freedom-winds/BountyScout/issues/1233",
-      "repository": "freedom-winds/BountyScout",
-      "created_at": "2026-10-11T11:12:04Z",
-      "updated_at": "2026-10-11T11:12:04Z",
-      "payoutMentionUSD": 80,
-      "labels": [
-        "bounty-alert"
-      ],
-      "score": 68,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "### Active Bounty Scan Results **Scan Time:** 2026-10-11 11:12 UTC #### 1. [[Bounty: $70] Mark alerts notified only after the webhook actually succeeds](https://github.com/SUSU-LABS/susu-indexer/issues/43) - **Repository:** [SUSU-LABS/susu-indexer](https://github.com/SUSU-LABS/su"
-    },
-    {
       "id": 5765087847,
       "title": "[Bounty: $65] Point the link checker at `SECURITY.md` and `docs/**`",
       "html_url": "https://github.com/Signpost-Labs/signpost-app/issues/44",
@@ -208,36 +159,6 @@
       "excerpt": "**Context** `link-check.yml` passes an explicit file list to `lychee-action`: `README.md DEVELOPMENT.md DEPLOYMENT.md CONTRIBUTING.md packages/indexer/README.md`. That omits `SECURITY.md` and the entire `docs/` tree — 20-plus Markdown files including `docs/PRODUCT_SCOPE.md`, the "
     },
     {
-      "id": 5801740510,
-      "title": "[Bounty proposal] fix(imports): a title line above a single \"Name:\" line is imported as part of the speaker name ($50 proposed)",
-      "html_url": "https://github.com/BasedHardware/omi/issues/21203",
-      "repository": "BasedHardware/omi",
-      "created_at": "2026-10-11T14:00:08Z",
-      "updated_at": "2026-10-14T14:26:58Z",
-      "payoutMentionUSD": 50,
-      "labels": [],
-      "score": 66,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "**Product impact** - Primary loop layer: transcript file import (`POST /v1/imports/transcripts`, `.txt` uploads). - A very common layout, a title or date line followed by the transcript, imports with a phantom third speaker: the title is glued onto the first speaker's name (`\"Mee"
-    },
-    {
-      "id": 5801650672,
-      "title": "[Bounty proposal] fix(audio-timeline): segment starting exactly on the first sample after a VAD gap is persisted unplaced ($50 proposed)",
-      "html_url": "https://github.com/BasedHardware/omi/issues/21199",
-      "repository": "BasedHardware/omi",
-      "created_at": "2026-10-11T13:48:46Z",
-      "updated_at": "2026-10-14T14:13:49Z",
-      "payoutMentionUSD": 50,
-      "labels": [],
-      "score": 66,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "**Product impact** - Primary loop layer: live transcript capture (`/v4/listen`, audio timeline v2). Affects where a transcript segment is anchored on the capture clock, which drives playback seek, speaker-ID windows and capture-merge proofs. - The first segment after every VAD sk"
-    },
-    {
       "id": 5473199511,
       "title": "Migrate schematic-only ESP32 module circuit example bounty from archived docs-old#47",
       "html_url": "https://github.com/tscircuit/docs/issues/886",
@@ -251,27 +172,6 @@
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
       "excerpt": "## Context The bounty issue [tscircuit/docs-old#47](https://github.com/tscircuit/docs-old/issues/47) (\"ESP32 module circuit example\", $50) lives in the **archived** `docs-old` repo, which is read-only — it cannot be claimed, commented on, or PR'd against. This affects all docs-ol"
-    },
-    {
-      "id": 4872518962,
-      "title": "[claude-builders-bounty/claude-builders-bounty] [BOUNTY $50] SKILL: Generate a structured CHANGELOG from git",
-      "html_url": "https://github.com/Vikingr2023/awesome-agent-bounties/issues/296",
-      "repository": "Vikingr2023/awesome-agent-bounties",
-      "created_at": "2026-07-13T10:00:13Z",
-      "updated_at": "2026-10-14T08:10:19Z",
-      "payoutMentionUSD": 50,
-      "labels": [
-        "good first issue",
-        "bounty-hunter",
-        "external-mirror",
-        "bounty",
-        "skill"
-      ],
-      "score": 66,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "## 外部 Bounty 任务镜像 | 字段 | 值 | |---|---| | 源仓库 | claude-builders-bounty/claude-builders-bounty | | 原 issue | #1 | | 作者 | claudebounty | | 创建时间 | 2026-03-27T00:55:36 | | 标签 | bounty,skill,good first issue | | 评论 | 1817 条 | | 赏金 | $50 | | 原 URL | https://github.com/claude-builders-bo"
     },
     {
       "id": 4530092639,
@@ -381,94 +281,19 @@
       "excerpt": "Bounties that were already open when the watcher started. From now on, each new one gets its own issue. - 🔴 **$150** · [📱 Epic: BAWES Universe Mobile App (Android + iOS)](https://github.com/BAWES-Universe/workadventure-universe/issues/1) - 🔴 **$50** · [BOUNTY: integrate AWS Co"
     },
     {
-      "id": 5576656819,
-      "title": "[Bounty proposal] docs(python-cli): Sicilian (scn) AI agent quickstart guide ($25 proposed)",
-      "html_url": "https://github.com/BasedHardware/omi/issues/18806",
-      "repository": "BasedHardware/omi",
-      "created_at": "2026-09-25T01:10:59Z",
-      "updated_at": "2026-10-11T04:47:51Z",
-      "payoutMentionUSD": 25,
-      "labels": [
-        "docs-tooling",
-        "p3"
-      ],
-      "score": 64,
+      "id": 5775612447,
+      "title": "[Bounty: $80] Bound Soroban RPC simulation with a timeout and surface upstream failures as 502/503",
+      "html_url": "https://github.com/SUSU-LABS/susu-api/issues/63",
+      "repository": "SUSU-LABS/susu-api",
+      "created_at": "2026-10-09T09:03:04Z",
+      "updated_at": "2026-10-14T19:17:25Z",
+      "payoutMentionUSD": 80,
+      "labels": [],
+      "score": 63,
       "status": "POTENTIAL PAYOUT — UNVERIFIED",
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
-      "excerpt": "### Summary Added the Sicilian (`scn`) localization for the LLM/Agent quickstart guide in `sdks/python-cli/examples/agent_quickstart.scn.md`. ### Scope of Work - Complete Sicilian translation of `agent_quickstart.md` for agent-driven workflows with `omi-cli`. - Preserved identica"
-    },
-    {
-      "id": 5576658687,
-      "title": "[Bounty proposal] docs(python-cli): Kashubian (csb) AI agent quickstart guide ($25 proposed)",
-      "html_url": "https://github.com/BasedHardware/omi/issues/18812",
-      "repository": "BasedHardware/omi",
-      "created_at": "2026-09-25T01:11:12Z",
-      "updated_at": "2026-10-11T04:43:39Z",
-      "payoutMentionUSD": 25,
-      "labels": [
-        "docs-tooling",
-        "p3"
-      ],
-      "score": 64,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "### Summary Added the Kashubian (`csb`) localization for the LLM/Agent quickstart guide in `sdks/python-cli/examples/agent_quickstart.csb.md`. ### Scope of Work - Complete Kashubian translation of `agent_quickstart.md` for agent-driven workflows with `omi-cli`. - Preserved identi"
-    },
-    {
-      "id": 5576658170,
-      "title": "[Bounty proposal] docs(python-cli): Silesian (szl) AI agent quickstart guide ($25 proposed)",
-      "html_url": "https://github.com/BasedHardware/omi/issues/18811",
-      "repository": "BasedHardware/omi",
-      "created_at": "2026-09-25T01:11:09Z",
-      "updated_at": "2026-10-11T04:43:33Z",
-      "payoutMentionUSD": 25,
-      "labels": [
-        "docs-tooling",
-        "p3"
-      ],
-      "score": 64,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "### Summary Added the Silesian (`szl`) localization for the LLM/Agent quickstart guide in `sdks/python-cli/examples/agent_quickstart.szl.md`. ### Scope of Work - Complete Silesian translation of `agent_quickstart.md` for agent-driven workflows with `omi-cli`. - Preserved identica"
-    },
-    {
-      "id": 5576657154,
-      "title": "[Bounty proposal] docs(python-cli): Venetian (vec) AI agent quickstart guide ($25 proposed)",
-      "html_url": "https://github.com/BasedHardware/omi/issues/18807",
-      "repository": "BasedHardware/omi",
-      "created_at": "2026-09-25T01:11:02Z",
-      "updated_at": "2026-10-11T04:43:06Z",
-      "payoutMentionUSD": 25,
-      "labels": [
-        "docs-tooling",
-        "p3"
-      ],
-      "score": 64,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "### Summary Added the Venetian (`vec`) localization for the LLM/Agent quickstart guide in `sdks/python-cli/examples/agent_quickstart.vec.md`. ### Scope of Work - Complete Venetian translation of `agent_quickstart.md` for agent-driven workflows with `omi-cli`. - Preserved identica"
-    },
-    {
-      "id": 5576657669,
-      "title": "[Bounty proposal] docs(python-cli): Neapolitan (nap) AI agent quickstart guide ($25 proposed)",
-      "html_url": "https://github.com/BasedHardware/omi/issues/18809",
-      "repository": "BasedHardware/omi",
-      "created_at": "2026-09-25T01:11:05Z",
-      "updated_at": "2026-10-09T17:10:04Z",
-      "payoutMentionUSD": 25,
-      "labels": [
-        "docs-tooling",
-        "p3"
-      ],
-      "score": 64,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "### Summary Added the Neapolitan (`nap`) localization for the LLM/Agent quickstart guide in `sdks/python-cli/examples/agent_quickstart.nap.md`. ### Scope of Work - Complete Neapolitan translation of `agent_quickstart.md` for agent-driven workflows with `omi-cli`. - Preserved iden"
+      "excerpt": "## Context `src/lib/soroban.ts:38-45` builds an `rpc.Server` with no request timeout, and `prepareInvocation` awaits `simulate(transaction)` unguarded at `src/routes/transactions.ts:170-175`. A hung RPC holds the HTTP request open indefinitely while consuming the route's rate-lim"
     },
     {
       "id": 5765087302,
@@ -505,38 +330,6 @@
       "excerpt": "## Objective Collect, preserve, and compare AGI architecture proposals generated by multiple AI systems. The goal is not to paste generic AI answers, but to produce an auditable research packet that makes different architecture ideas comparable and useful for Cognitive-OS plannin"
     },
     {
-      "id": 5851827026,
-      "title": "🎯 Bounty Alert: 13 New Opportunityies found",
-      "html_url": "https://github.com/dev-kp-eloper/BountyScout/issues/1590",
-      "repository": "dev-kp-eloper/BountyScout",
-      "created_at": "2026-10-14T16:48:09Z",
-      "updated_at": "2026-10-14T16:48:09Z",
-      "payoutMentionUSD": 75,
-      "labels": [
-        "bounty-alert"
-      ],
-      "score": 62,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "### Active Bounty Scan Results **Scan Time:** 2026-10-14 16:48 UTC #### 1. [Write stress test for lib.rs with 50+ concurrent claimants](https://github.com/MentorsMind/MentorsMind-Contract/issues/1286) - **Repository:** [MentorsMind/MentorsMind-Contract](https://github.com/Mentors"
-    },
-    {
-      "id": 5802263279,
-      "title": "[Bounty proposal] fix(cli): omi chat is unreachable after omi auth login --browser, the login it asks for ($75 proposed)",
-      "html_url": "https://github.com/BasedHardware/omi/issues/21223",
-      "repository": "BasedHardware/omi",
-      "created_at": "2026-10-11T15:06:25Z",
-      "updated_at": "2026-10-14T16:42:00Z",
-      "payoutMentionUSD": 75,
-      "labels": [],
-      "score": 62,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "**Product impact** - Primary loop layer: Python CLI (`omi auth login --browser`, `omi chat`). - `omi chat` cannot be reached through any supported login. Every invocation exits 1 with \"Chat requires browser sign-in\" and tells the user to run `omi auth login --browser`, which is e"
-    },
-    {
       "id": 5765088512,
       "title": "[Bounty: $75] Use `npm ci` in `contract-integration.yml`",
       "html_url": "https://github.com/Signpost-Labs/signpost-app/issues/45",
@@ -552,21 +345,6 @@
       "excerpt": "**Context** `contract-integration.yml` installs dependencies with `npm install`, while every job in `ci.yml` and the `backend` job use `npm ci --no-audit --no-fund`. `npm install` may rewrite `package-lock.json` and resolve versions that drift from the lockfile, so the integratio"
     },
     {
-      "id": 5801700676,
-      "title": "[Bounty proposal] fix(merge): one manually tagged source disables speaker-id renumbering for every source, so voices collide after a manual merge ($75 proposed)",
-      "html_url": "https://github.com/BasedHardware/omi/issues/21201",
-      "repository": "BasedHardware/omi",
-      "created_at": "2026-10-11T13:55:15Z",
-      "updated_at": "2026-10-14T13:28:56Z",
-      "payoutMentionUSD": 75,
-      "labels": [],
-      "score": 62,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "**Product impact** - Primary loop layer: conversations (manual merge, `POST /v1/conversations/merge`) and speaker identity. - After merging a conversation in which the user has manually tagged a speaker with any other conversation, an unrelated voice from the other conversation s"
-    },
-    {
       "id": 5765048700,
       "title": "[Bounty: $75] Add a CI check for app.json and app.config.ts plugin and permission consistency",
       "html_url": "https://github.com/Nudge-Pay/nudge-app/issues/44",
@@ -580,23 +358,6 @@
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
       "excerpt": "**Context** Both `app.json` and `app.config.ts` exist and both are read by Expo tooling, and they disagree: `app.config.ts` adds the `expo-dev-client`, `expo-router`, `expo-secure-store` and `react-native-nfc-manager` plugins plus the iOS NFC entitlement and `NFCReaderUsageDescri"
-    },
-    {
-      "id": 5847123242,
-      "title": "🎯 Bounty Alert: 16 New Opportunityies found",
-      "html_url": "https://github.com/dev-kp-eloper/BountyScout/issues/1589",
-      "repository": "dev-kp-eloper/BountyScout",
-      "created_at": "2026-10-14T11:41:34Z",
-      "updated_at": "2026-10-14T11:41:34Z",
-      "payoutMentionUSD": 75,
-      "labels": [
-        "bounty-alert"
-      ],
-      "score": 62,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "### Active Bounty Scan Results **Scan Time:** 2026-10-14 11:41 UTC #### 1. [Request to co-sign an unspent 6,300,243-sat funding output with Boltz's LND node (channel never locked in, Dec 2023)](https://github.com/BoltzExchange/boltz-backend/issues/1513) - **Repository:** [BoltzEx"
     },
     {
       "id": 5005620527,
@@ -652,36 +413,6 @@
       "excerpt": "**Pays $50** when a PR adds a tested recipe for this card and is merged. Rules: [BOUNTIES.md](https://github.com/sybil-solutions/.github/blob/main/BOUNTIES.md). | | | |---|---| | Card | `gtx-1080-ti-11gb` | | Model | a 7-9B model (llama.cpp is fine), or any model in `registry/mod"
     },
     {
-      "id": 5802066268,
-      "title": "[Bounty proposal] fix(action-items): completing an already-completed task rewrites its completed_at ($40 proposed)",
-      "html_url": "https://github.com/BasedHardware/omi/issues/21218",
-      "repository": "BasedHardware/omi",
-      "created_at": "2026-10-11T14:41:46Z",
-      "updated_at": "2026-10-14T14:48:02Z",
-      "payoutMentionUSD": 40,
-      "labels": [],
-      "score": 61,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "**Product impact** - Primary loop layer: action items (`PATCH /v1/action-items/{id}`, `PATCH /v1/action-items/{id}/completed`, `PATCH /v1/action-items/sync-batch`). - Completing a task that is already completed moves its `completed_at` to now. A duplicated tap, a client that rese"
-    },
-    {
-      "id": 5801777489,
-      "title": "[Bounty proposal] fix(imports): SRT cues without blank-line separators collapse into one cue with timings in its text ($40 proposed)",
-      "html_url": "https://github.com/BasedHardware/omi/issues/21205",
-      "repository": "BasedHardware/omi",
-      "created_at": "2026-10-11T14:04:49Z",
-      "updated_at": "2026-10-14T14:41:24Z",
-      "payoutMentionUSD": 40,
-      "labels": [],
-      "score": 61,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "**Product impact** - Primary loop layer: transcript file import (`POST /v1/imports/transcripts`, `.srt` and `.txt` uploads). - An SRT whose cues are not separated by blank lines imports as a single cue: the conversation keeps only the first cue's timing (so a 6 s file becomes a 2"
-    },
-    {
       "id": 5333030340,
       "title": "[Bounty] Add fibonacci function with edge case handling",
       "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/976",
@@ -718,21 +449,6 @@
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
       "excerpt": "**Pays $50** when a PR adds a tested recipe for this card and is merged. Rules: [BOUNTIES.md](https://github.com/sybil-solutions/.github/blob/main/BOUNTIES.md). | | | |---|---| | Card | `rtx-4060-ti-16gb` | | Model | Qwen3.8-27B or Gemma 4 26B A4B, or any model in `registry/model"
-    },
-    {
-      "id": 5775633118,
-      "title": "[Bounty: $50] Validate the extra body fields returned by apiRequestPageBody",
-      "html_url": "https://github.com/SUSU-LABS/susu-web/issues/51",
-      "repository": "SUSU-LABS/susu-web",
-      "created_at": "2026-10-09T09:04:49Z",
-      "updated_at": "2026-10-14T08:53:50Z",
-      "payoutMentionUSD": 50,
-      "labels": [],
-      "score": 61,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "## Context `src/lib/api/client.ts:271-302` validates the paginated `data`/`page` but returns `body as Record<string, unknown>` (`:301`) unchanged for the extra fields. Callers read a required `unreadCount` from that body, so a renamed or wrongly-typed field arrives as `undefined`"
     },
     {
       "id": 5814259750,
@@ -868,23 +584,6 @@
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
       "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/sybil-solutions/local-ai-registry/issues/223 ### 漏洞描述 / Description Bounty $50: recipe for Ryzen AI 890M (Radeon 890M iGPU) **Pays $50** when a PR adds a tested recipe for this card and is merged. Rules: [BOUNTIE"
-    },
-    {
-      "id": 5809413949,
-      "title": "Bounty Scout — 2026-10-12",
-      "html_url": "https://github.com/ariahendrawan-sudo/project-a/issues/12",
-      "repository": "ariahendrawan-sudo/project-a",
-      "created_at": "2026-10-12T06:33:31Z",
-      "updated_at": "2026-10-12T06:33:31Z",
-      "payoutMentionUSD": 50,
-      "labels": [
-        "bounty-scout"
-      ],
-      "score": 61,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "# Bounty Scout — week of 2026-10-12 Target: at least US$10/week. One merged bounty of US$50 covers ~5 weeks. | # | Score | Amount | Stars | Comments | Repository | Issue | |---|------:|-------:|------:|---------:|------------|-------| | – | – | – | – | – | – | No bounty passed th"
     },
     {
       "id": 5826186287,
@@ -1101,6 +800,340 @@
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
       "excerpt": "**Do this in-game (with a capture running):** Play the Rebecca section (Chris scenario). **Verifies:** Character id 3 and Rebecca's inventory pointer (0xBE9950). How to capture: [CAPTURE.md](https://github.com/mscrnt/lockpick/blob/main/docs/CAPTURE.md) — then send it with a [Capt"
+    },
+    {
+      "id": 5826183237,
+      "title": "[B104] Fire and reload the Colt Python / magnum",
+      "html_url": "https://github.com/mscrnt/lockpick/issues/25",
+      "repository": "mscrnt/lockpick",
+      "created_at": "2026-10-13T07:14:59Z",
+      "updated_at": "2026-10-13T14:59:42Z",
+      "payoutMentionUSD": null,
+      "labels": [
+        "help wanted",
+        "bounty",
+        "area:re1",
+        "needs-game"
+      ],
+      "score": 60,
+      "status": "VERIFY REWARD AND ELIGIBILITY",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "**Do this in-game (with a capture running):** Fire and reload the Colt Python / magnum. **Verifies:** Magnum and magnum-round ids. How to capture: [CAPTURE.md](https://github.com/mscrnt/lockpick/blob/main/docs/CAPTURE.md) — then send it with a [Capture submission](https://github."
+    },
+    {
+      "id": 5826183804,
+      "title": "[B106] Use the flamethrower (Chris)",
+      "html_url": "https://github.com/mscrnt/lockpick/issues/27",
+      "repository": "mscrnt/lockpick",
+      "created_at": "2026-10-13T07:15:02Z",
+      "updated_at": "2026-10-13T14:59:40Z",
+      "payoutMentionUSD": null,
+      "labels": [
+        "help wanted",
+        "bounty",
+        "area:re1",
+        "needs-game"
+      ],
+      "score": 60,
+      "status": "VERIFY REWARD AND ELIGIBILITY",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "**Do this in-game (with a capture running):** Use the flamethrower (Chris). **Verifies:** Flamethrower id and fuel. How to capture: [CAPTURE.md](https://github.com/mscrnt/lockpick/blob/main/docs/CAPTURE.md) — then send it with a [Capture submission](https://github.com/mscrnt/lock"
+    },
+    {
+      "id": 5826184150,
+      "title": "[B107] Use the rocket launcher (ending)",
+      "html_url": "https://github.com/mscrnt/lockpick/issues/28",
+      "repository": "mscrnt/lockpick",
+      "created_at": "2026-10-13T07:15:04Z",
+      "updated_at": "2026-10-13T14:59:39Z",
+      "payoutMentionUSD": null,
+      "labels": [
+        "help wanted",
+        "bounty",
+        "area:re1",
+        "needs-game"
+      ],
+      "score": 60,
+      "status": "VERIFY REWARD AND ELIGIBILITY",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "**Do this in-game (with a capture running):** Use the rocket launcher (ending). **Verifies:** Rocket launcher id. How to capture: [CAPTURE.md](https://github.com/mscrnt/lockpick/blob/main/docs/CAPTURE.md) — then send it with a [Capture submission](https://github.com/mscrnt/lockpi"
+    },
+    {
+      "id": 5165401587,
+      "title": "Research: como editan mapas los otros proyectos de Argentum Online",
+      "html_url": "https://github.com/Bitcoindefi/OpenAO/issues/14",
+      "repository": "Bitcoindefi/OpenAO",
+      "created_at": "2026-08-16T17:15:26Z",
+      "updated_at": "2026-10-13T04:50:12Z",
+      "payoutMentionUSD": null,
+      "labels": [
+        "documentation",
+        "help wanted",
+        "good first issue",
+        "modo-construccion",
+        "bounty",
+        "grantfox",
+        "reward-20-usd",
+        "maybe rewarded",
+        "grantfox oss",
+        "third campaign"
+      ],
+      "score": 60,
+      "status": "VERIFY REWARD AND ELIGIBILITY",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "Parte de #2 (modo construcción). Sin dependencias, se puede hacer en paralelo con todo lo demás. **Buena primera issue para alguien que quiera entrar al proyecto sin escribir código todavía.** ## Objetivo Documentar cómo edita mapas el resto del ecosistema de Argentum Online, par"
+    },
+    {
+      "id": 1482891236,
+      "title": "Welcome modal with integrated bridge and/or instructions",
+      "html_url": "https://github.com/capofficial/client/issues/13",
+      "repository": "capofficial/client",
+      "created_at": "2022-12-07T21:27:52Z",
+      "updated_at": "2026-10-14T10:00:23Z",
+      "payoutMentionUSD": 500,
+      "labels": [
+        "enhancement",
+        "bounty"
+      ],
+      "score": 59,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "When a new user first opens the trading dashboard, it would be good to have a welcome modal that describes briefly what CAP is, how to use the dashboard, how to bridge funds from Arbitrum, or even to have an integrated bridge UI that can be accessed any time. --- ### Bounty * Thi"
+    },
+    {
+      "id": 2878025906,
+      "title": "LLM Provider Abstraction Layer $600",
+      "html_url": "https://github.com/Spectral-Finance/lux/issues/99",
+      "repository": "Spectral-Finance/lux",
+      "created_at": "2025-02-25T11:06:45Z",
+      "updated_at": "2026-10-14T08:24:29Z",
+      "payoutMentionUSD": 600,
+      "labels": [
+        "enhancement",
+        "bounty",
+        "llm"
+      ],
+      "score": 59,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "## Overview Implement a universal provider interface to manage multiple LLM providers efficiently, with automatic model selection, fallback handling, and optimization features. ## Core Features - Universal provider interface - Automatic model selection - Smart fallback handling -"
+    },
+    {
+      "id": 2959305187,
+      "title": "[BOUNTY] WearOS Support [$2340]",
+      "html_url": "https://github.com/microg/GmsCore/issues/2843",
+      "repository": "microg/GmsCore",
+      "created_at": "2025-03-31T02:15:48Z",
+      "updated_at": "2026-10-14T04:15:36Z",
+      "payoutMentionUSD": 2340,
+      "labels": [
+        "enhancement",
+        "bounty"
+      ],
+      "score": 58,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "[**BOUNTYHUB LINK**](https://www.bountyhub.dev/en/bounty/view/27a47575-ef9f-49d3-9685-c056d6825f9d) **Is your feature request related to a problem? Please describe.** WearOS devices do not work with MicroG **Describe the solution you'd like** MicroG framework needed to pair moder"
+    },
+    {
+      "id": 4804259945,
+      "title": "[AGENT-TASK] Auto-upsell trigger after 5th free call — +25% revenue",
+      "html_url": "https://github.com/Nexussyn/ai-growth-engine/issues/3",
+      "repository": "Nexussyn/ai-growth-engine",
+      "created_at": "2026-07-03T14:30:52Z",
+      "updated_at": "2026-10-14T01:12:18Z",
+      "payoutMentionUSD": 10,
+      "labels": [
+        "good first issue",
+        "agent-task",
+        "bounty",
+        "workflow"
+      ],
+      "score": 57,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "## 🎯 Objective Trigger a contextual upgrade prompt when a user reaches 50% of their free credit limit. ## 📋 Scope When a user makes their 5th free call (out of 10): 1. System inserts a row in `upsell_triggers` table 2. Response includes `X-Upsell-Prompt: true` header 3. Prompt "
+    },
+    {
+      "id": 4086862847,
+      "title": "[BOUNTY $220] AI Stack — Ollama + Open WebUI + Stable Diffusion",
+      "html_url": "https://github.com/illbnm/homelab-stack/issues/6",
+      "repository": "illbnm/homelab-stack",
+      "created_at": "2026-03-17T08:02:04Z",
+      "updated_at": "2026-10-13T17:37:26Z",
+      "payoutMentionUSD": 220,
+      "labels": [
+        "bounty",
+        "hard"
+      ],
+      "score": 57,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "--- name: 💰 Bounty - AI Stack about: 实现 AI 服务栈 (Ollama, Open WebUI, Stable Diffusion, LocalAI) title: '[BOUNTY $220] AI Stack — 本地 AI 服务' labels: bounty, hard assignees: '' --- ## 赏金金额 **$220 USDT** ## 任务描述 实现完整的本地 AI 推理栈，支持 CPU/GPU 自适应部署。 ## 服务清单 | 服务 | 镜像 | 用途 | |------|------"
+    },
+    {
+      "id": 4148310877,
+      "title": "[BOUNTY $200] WORKFLOW: n8n + Claude Code — automated weekly dev summary",
+      "html_url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/5",
+      "repository": "claude-builders-bounty/claude-builders-bounty",
+      "created_at": "2026-03-27T00:55:44Z",
+      "updated_at": "2026-10-14T13:50:14Z",
+      "payoutMentionUSD": 200,
+      "labels": [
+        "bounty",
+        "workflow"
+      ],
+      "score": 56,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "## 💰 Bounty: $200 — powered by [Opire](https://opire.dev) ## Description Create a complete n8n workflow that automatically generates a weekly narrative summary of a GitHub repo's activity, using the Claude API. ## Acceptance Criteria - [ ] Exportable n8n workflow (importable `.j"
+    },
+    {
+      "id": 5543945751,
+      "title": "PeerLink transcript campaigns — $10 per accepted transcript, up to $50 per bank",
+      "html_url": "https://github.com/zkp2p/peer-link/issues/64",
+      "repository": "zkp2p/peer-link",
+      "created_at": "2026-09-22T19:03:59Z",
+      "updated_at": "2026-10-14T09:50:23Z",
+      "payoutMentionUSD": 610,
+      "labels": [
+        "transcripts"
+      ],
+      "score": 56,
+      "status": "VERIFY REWARD AND ELIGIBILITY",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "# PeerLink transcript campaigns: $10 per accepted transcript, up to $50 per bank **Grants are open.** PeerLink pays account owners **$10 USDC on Base** for each useful, value-free transcript of how their bank presents transaction history, for **up to five contributors per bank (u"
+    },
+    {
+      "id": 264609293,
+      "title": "Suggestion: Allow upload to repository",
+      "html_url": "https://github.com/shanalikhan/code-settings-sync/issues/413",
+      "repository": "shanalikhan/code-settings-sync",
+      "created_at": "2017-10-11T14:30:01Z",
+      "updated_at": "2026-10-13T08:30:47Z",
+      "payoutMentionUSD": 200,
+      "labels": [
+        "feature-request  💡",
+        "bounty"
+      ],
+      "score": 56,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "<!-- Issuehunt Badges --> [<img alt=\"Issuehunt badges\" src=\"https://img.shields.io/badge/IssueHunt-%24200%20Funded-%2300A156.svg\" />](https://oss.issuehunt.io/r/shanalikhan/code-settings-sync/issues/413) <!-- /Issuehunt Badges --> By @shanalikhan Before starting this feature, Set"
+    },
+    {
+      "id": 5625826190,
+      "title": "【实战解密】我用 AI 智能体扫荡 GitHub 开源悬赏：48 小时合并 6 个 PR 斩获  美金全流程",
+      "html_url": "https://github.com/gewenbo888/ai-for-money/issues/1",
+      "repository": "gewenbo888/ai-for-money",
+      "created_at": "2026-09-29T05:51:54Z",
+      "updated_at": "2026-10-10T20:57:10Z",
+      "payoutMentionUSD": 650,
+      "labels": [],
+      "score": 56,
+      "status": "VERIFY REWARD AND ELIGIBILITY",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "# 我用 AI 智能体扫荡 GitHub 开源悬赏：48 小时合并 6 个 PR 斩获 $650 的实操全解密 > **作者**：戈文波 (@TrustlessX / gewenbo.eth) > **核心资产落地页**：[https://psyverse.fun/pay](https://psyverse.fun/pay) > **官方收银中枢**：[https://psyverse.fun/payment](https://psyverse.fun/payment) > **AI for Money 变现平台**：[https://ai-for-mo"
+    },
+    {
+      "id": 5516825464,
+      "title": "[LIVE] Verified NIM bounty board",
+      "html_url": "https://github.com/Saidur-droid/MergeEarn/issues/33",
+      "repository": "Saidur-droid/MergeEarn",
+      "created_at": "2026-09-20T08:52:35Z",
+      "updated_at": "2026-10-14T17:35:54Z",
+      "payoutMentionUSD": null,
+      "labels": [],
+      "score": 55,
+      "status": "VERIFY REWARD AND ELIGIBILITY",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "# MergeEarn live community bounty board This is the public, automatically maintained entry point for contributor-friendly MergeEarn work. **Live app:** https://mergeearn.vercel.app **GitHub Contribute page:** https://github.com/Saidur-droid/MergeEarn/contribute A task is paid onl"
+    },
+    {
+      "id": 5849239956,
+      "title": "Describe how to try a bounty in the README",
+      "html_url": "https://github.com/tamgahq/sandbox/issues/2",
+      "repository": "tamgahq/sandbox",
+      "created_at": "2026-10-14T14:02:35Z",
+      "updated_at": "2026-10-14T14:02:35Z",
+      "payoutMentionUSD": null,
+      "labels": [
+        "proof-of-merge",
+        "pom-large"
+      ],
+      "score": 55,
+      "status": "VERIFY REWARD AND ELIGIBILITY",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "Add a short section to `README.md` that says, in a few plain steps, how someone picks an issue, opens a pull request that closes it, and sees the payout."
+    },
+    {
+      "id": 5837937020,
+      "title": "Mobile: end-to-end tests with Maestro or Detox for sign-in and bounty browsing",
+      "html_url": "https://github.com/yosemite01/stellar-creator-portfolio/issues/1623",
+      "repository": "yosemite01/stellar-creator-portfolio",
+      "created_at": "2026-10-13T21:22:48Z",
+      "updated_at": "2026-10-14T14:00:20Z",
+      "payoutMentionUSD": null,
+      "labels": [
+        "mobile",
+        "testing"
+      ],
+      "score": 55,
+      "status": "VERIFY REWARD AND ELIGIBILITY",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "## Summary The Google auth hook is noted as untested end-to-end. ## Why this matters Mobile flows untested. Mobile auth flows are the most fragile and have no automated coverage. ## Current state in the code Permalinks are pinned to commit `e731e2f` so line numbers stay valid. **"
+    },
+    {
+      "id": 5837926224,
+      "title": "Bounty templates management for clients",
+      "html_url": "https://github.com/yosemite01/stellar-creator-portfolio/issues/1611",
+      "repository": "yosemite01/stellar-creator-portfolio",
+      "created_at": "2026-10-13T21:21:56Z",
+      "updated_at": "2026-10-14T13:59:28Z",
+      "payoutMentionUSD": null,
+      "labels": [
+        "backend",
+        "feature"
+      ],
+      "score": 55,
+      "status": "VERIFY REWARD AND ELIGIBILITY",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "## Summary `lib/bounty-templates.ts` is static; let clients save their own templates. ## Why this matters Speeds up bounty creation. Repeat clients post similar bounties. ## Current state in the code Permalinks are pinned to commit `e731e2f` so line numbers stay valid. **[`lib/bo"
+    },
+    {
+      "id": 5837921582,
+      "title": "Bounty application drafts and withdrawal",
+      "html_url": "https://github.com/yosemite01/stellar-creator-portfolio/issues/1606",
+      "repository": "yosemite01/stellar-creator-portfolio",
+      "created_at": "2026-10-13T21:21:34Z",
+      "updated_at": "2026-10-14T13:59:04Z",
+      "payoutMentionUSD": null,
+      "labels": [
+        "backend",
+        "feature"
+      ],
+      "score": 55,
+      "status": "VERIFY REWARD AND ELIGIBILITY",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "## Summary Applicants should save drafts and withdraw applications. ## Why this matters Better applications, fewer abandoned ones. Drafts reduce abandoned applications; withdrawal is basic fairness. ## Proposed implementation 1. Status enum incl. `draft`, `withdrawn`; endpoints. "
     }
   ],
   "disclaimer": "No verified payouts or earnings; these are public issue candidates. Manually confirm funding, assignment, eligibility, security and payment terms. Never pay to join, disclose secrets or begin work without terms."
