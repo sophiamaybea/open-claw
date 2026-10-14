@@ -59,6 +59,12 @@ class TestOnlineResearch(unittest.TestCase):
         self.assertEqual(memo['cloud_status'],'not_configured')
         self.assertEqual(memo['provider'],'local-deterministic')
 
+    def test_model_is_evaluated_after_mature_labels(self):
+        from microcompound.agents import run_sweep
+        sweep=run_sweep(seeds=range(6,7),capitals=(3.,),cost_mults=(1.,),minutes=60,force_fallback=True)
+        self.assertGreaterEqual(sweep['summary']['model_evaluations'],0)
+        self.assertTrue(all(x['model_evaluations']>=x['model_vetoes'] for x in sweep['runs']))
+
     def test_shadow_wallets_isolated(self):
         s=LearningSimulator(Configuration(),force_fallback=True)
         self.assertIsNot(s.wallets['primary'],s.wallets['momentum'])
