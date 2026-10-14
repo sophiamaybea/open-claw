@@ -1,0 +1,33 @@
+name: Micro Compound — public dashboard (GitHub Pages)
+on:
+  push:
+    paths:
+      - '.github/workflows/micro-compound-agent-pages.yml'
+      - 'experiments/micro-compound-agents/site/index.html'
+      - 'experiments/micro-compound-agents/site/bounties.html'
+  workflow_dispatch:
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+concurrency:
+  group: pages-micro-compound-agent-lab
+  cancel-in-progress: false
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+      - name: Upload public agent website
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: experiments/micro-compound-agents/site
+      - name: Deploy website
+        id: deployment
+        uses: actions/deploy-pages@v4
