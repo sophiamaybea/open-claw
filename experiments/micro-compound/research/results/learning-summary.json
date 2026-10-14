@@ -1,0 +1,1122 @@
+{
+  "experiment": "Micro Compound fast learning sweep",
+  "created_at": "2026-10-14T14:40:42.382563+00:00",
+  "summary": {
+    "run_count": 108,
+    "unique_seeds": 12,
+    "mean_pnl": -0.24221897,
+    "mean_return_pct": -5.19041,
+    "beat_original_router_fraction": 0.0,
+    "beat_hold_fraction": 0.0,
+    "profitable_fraction": 0.0,
+    "worst_pnl": -1.21278354,
+    "best_pnl": 0.0,
+    "data_source": "deterministic synthetic fixture",
+    "execution_model": "approximate synthetic price+fixed costs; NOT executable prices",
+    "real_money_usd": 0,
+    "hold_baseline_pnl_usd": 0,
+    "interpretation": "Results are neither live returns nor evidence of profitable trading."
+  },
+  "director": {
+    "provider": "local-deterministic",
+    "generated_at": "2026-10-14T14:40:42.382626+00:00",
+    "mode": "paper-research",
+    "findings": [
+      "0/108 synthetic fixtures finished above starting virtual NAV after modelled costs.",
+      "No observed replay is evidence of future profit or executable fills.",
+      "No profitable synthetic run in this sweep. HOLD is the strongest comparator for this data.",
+      "At least one run tripped the simulated circuit breaker.",
+      "At 1.0x modelled fees: -0.23197 average virtual net P&L over 36 runs.",
+      "At 2.0x modelled fees: -0.37686 average virtual net P&L over 36 runs.",
+      "At 5.0x modelled fees: -0.11783 average virtual net P&L over 36 runs."
+    ],
+    "proposed_tests": [
+      "Obtain and archive executable bid/ask order-book snapshots, not ticker closes",
+      "Verify fee tiers and pair minimums before claiming tiny-ticket viability",
+      "Run separate blind holdout regimes and 2x/5x slippage stress before evaluating an online learner"
+    ],
+    "policy": "research proposals only; changes require PR, CI and human review; never issue orders"
+  },
+  "runs": [
+    {
+      "seed": 3,
+      "start_usd": 1.0,
+      "cost_mult": 1.0,
+      "net_pnl": -0.04062547,
+      "net_return_pct": -4.06255,
+      "learning_minus_legacy_pnl": 0.0,
+      "primary_trades": 5,
+      "halted": true
+    },
+    {
+      "seed": 3,
+      "start_usd": 1.0,
+      "cost_mult": 2.0,
+      "net_pnl": -0.080986,
+      "net_return_pct": -8.0986,
+      "learning_minus_legacy_pnl": 0.0,
+      "primary_trades": 5,
+      "halted": true
+    },
+    {
+      "seed": 3,
+      "start_usd": 1.0,
+      "cost_mult": 5.0,
+      "net_pnl": 0.0,
+      "net_return_pct": 0.0,
+      "learning_minus_legacy_pnl": 0.0,
+      "primary_trades": 0,
+      "halted": false
+    },
+    {
+      "seed": 3,
+      "start_usd": 3.0,
+      "cost_mult": 1.0,
+      "net_pnl": -0.12187641,
+      "net_return_pct": -4.06255,
+      "learning_minus_legacy_pnl": 0.0,
+      "primary_trades": 5,
+      "halted": true
+    },
+    {
+      "seed": 3,
+      "start_usd": 3.0,
+      "cost_mult": 2.0,
+      "net_pnl": -0.242958,
+      "net_return_pct": -8.0986,
+      "learning_minus_legacy_pnl": 0.0,
+      "primary_trades": 5,
+      "halted": true
+    },
+    {
+      "seed": 3,
+      "start_usd": 3.0,
+      "cost_mult": 5.0,
+      "net_pnl": 0.0,
+      "net_return_pct": 0.0,
+      "learning_minus_legacy_pnl": 0.0,
+      "primary_trades": 0,
+      "halted": false
+    },
+    {
+      "seed": 3,
+      "start_usd": 10.0,
+      "cost_mult": 1.0,
+      "net_pnl": -0.40625468,
+      "net_return_pct": -4.06255,
+      "learning_minus_legacy_pnl": 0.0,
+      "primary_trades": 5,
+      "halted": true
+    },
+    {
+      "seed": 3,
+      "start_usd": 10.0,
+      "cost_mult": 2.0,
+      "net_pnl": -0.80985998,
+      "net_return_pct": -8.0986,
+      "learning_minus_legacy_pnl": 0.0,
+      "primary_trades": 5,
+      "halted": true
+    },
+    {
+      "seed": 3,
+      "start_usd": 10.0,
+      "cost_mult": 5.0,
+      "net_pnl": 0.0,
+      "net_return_pct": 0.0,
+      "learning_minus_legacy_pnl": 0.0,
+      "primary_trades": 0,
+      "halted": false
+    },
+    {
+      "seed": 4,
+      "start_usd": 1.0,
+      "cost_mult": 1.0,
+      "net_pnl": -0.05066373,
+      "net_return_pct": -5.06637,
+      "learning_minus_legacy_pnl": 0.0,
+      "primary_trades": 5,
+      "halted": true
+    },
+    {
+      "seed": 4,
+      "start_usd": 1.0,
+      "cost_mult": 2.0,
+      "net_pnl": -0.05780025,
+      "net_return_pct": -5.78003,
+      "learning_minus_legacy_pnl": 0.0,
+      "primary_trades": 5,
+      "halted": true
+    },
+    {
+      "seed": 4,
+      "start_usd": 1.0,
+      "cost_mult": 5.0,
+      "net_pnl": -0.03682835,
+      "net_return_pct": -3.68284,
+      "learning_minus_legacy_pnl": 0.0,
+      "primary_trades": 1,
+      "halted": false
+    },
+    {
+      "seed": 4,
+      "start_usd": 3.0,
+      "cost_mult": 1.0,
+      "net_pnl": -0.15199119,
+      "net_return_pct": -5.06637,
+      "learning_minus_legacy_pnl": 0.0,
+      "primary_trades": 5,
+      "halted": true
+    },
+    {
+      "seed": 4,
+      "start_usd": 3.0,
+      "cost_mult": 2.0,
+      "net_pnl": -0.17340075,
+      "net_return_pct": -5.78002,
+      "learning_minus_legacy_pnl": 0.0,
+      "primary_trades": 5,
+      "halted": true
+    },
+    {
+      "seed": 4,
+      "start_usd": 3.0,
+      "cost_mult": 5.0,
+      "net_pnl": -0.11048504,
+      "net_return_pct": -3.68283,
+      "learning_minus_legacy_pnl": 0.0,
+      "primary_trades": 1,
+      "halted": false
+    },
+    {
+      "seed": 4,
+      "start_usd": 10.0,
+      "cost_mult": 1.0,
+      "net_pnl": -0.50663731,
+      "net_return_pct": -5.06637,
+      "learning_minus_legacy_pnl": 0.0,
+      "primary_trades": 5,
+      "halted": true
+    },
+    {
+      "seed": 4,
+      "start_usd": 10.0,
+      "cost_mult": 2.0,
+      "net_pnl": -0.57800251,
+      "net_return_pct": -5.78003,
+      "learning_minus_legacy_pnl": 0.0,
+      "primary_trades": 5,
+      "halted": true
+    },
+    {
+      "seed": 4,
+      "start_usd": 10.0,
+      "cost_mult": 5.0,
+      "net_pnl": -0.36828347,
+      "net_return_pct": -3.68283,
+      "learning_minus_legacy_pnl": 0.0,
+      "primary_trades": 1,
+      "halted": false
+    },
+    {
+      "seed": 5,
+      "start_usd": 1.0,
+      "cost_mult": 1.0,
+      "net_pnl": -0.06939402,
+      "net_return_pct": -6.9394,
+      "learning_minus_legacy_pnl": 0.0,
+      "primary_trades": 10,
+      "halted": true
+    },
+    {
+      "seed": 5,
+      "start_usd": 1.0,
+      "cost_mult": 2.0,
+      "net_pnl": -0.07373199,
+      "net_return_pct": -7.3732,
+      "learning_minus_legacy_pnl": 0.0,
+      "primary_trades": 5,
+      "halted": true
+    },
+    {
+      "seed": 5,
+      "start_usd": 1.0,
+      "cost_mult": 5.0,
+      "net_pnl": 0.0,
+      "net_return_pct": 0.0,
+      "learning_minus_legacy_pnl": 0.0,
+      "primary_trades": 0,
+      "halted": false
+    },
+    {
+      "seed": 5,
+      "start_usd": 3.0,
+      "cost_mult": 1.0,
+      "net_pnl": -0.20818207,
+      "net_return_pct": -6.9394,
+      "learning_minus_legacy_pnl": 0.0,
+      "primary_trades": 10,
+      "halted": true
+    },
+    {
+      "seed": 5,
+      "start_usd": 3.0,
+      "cost_mult": 2.0,
+      "net_pnl": -0.22119596,
+      "net_return_pct": -7.3732,
+      "learning_minus_legacy_pnl": 0.0,
+      "primary_trades": 5,
+      "halted": true
+    },
+    {
+      "seed": 5,
+      "start_usd": 3.0,
+      "cost_mult": 5.0,
+      "net_pnl": 0.0,
+      "net_return_pct": 0.0,
+      "learning_minus_legacy_pnl": 0.0,
+      "primary_trades": 0,
+      "halted": false
+    },
+    {
+      "seed": 5,
+      "start_usd": 10.0,
+      "cost_mult": 1.0,
+      "net_pnl": -0.69394022,
+      "net_return_pct": -6.9394,
+      "learning_minus_legacy_pnl": 0.0,
+      "primary_trades": 10,
+      "halted": true
+    },
+    {
+      "seed": 5,
+      "start_usd": 10.0,
+      "cost_mult": 2.0,
+      "net_pnl": -0.73731987,
+      "net_return_pct": -7.3732,
+      "learning_minus_legacy_pnl": 0.0,
+      "primary_trades": 5,
+      "halted": true
+    },
+    {
+      "seed": 5,
+      "start_usd": 10.0,
+      "cost_mult": 5.0,
+      "net_pnl": 0.0,
+      "net_return_pct": 0.0,
+      "learning_minus_legacy_pnl": 0.0,
+      "primary_trades": 0,
+      "halted": false
+    },
+    {
+      "seed": 6,
+      "start_usd": 1.0,
+      "cost_mult": 1.0,
+      "net_pnl": -0.08381107,
+      "net_return_pct": -8.38111,
+      "learning_minus_legacy_pnl": 0.0,
+      "primary_trades": 16,
+      "halted": true
+    },
+    {
+      "seed": 6,
+      "start_usd": 1.0,
+      "cost_mult": 2.0,
+      "net_pnl": -0.0872088,
+      "net_return_pct": -8.72088,
+      "learning_minus_legacy_pnl": 0.0,
+      "primary_trades": 5,
+      "halted": true
+    },
+    {
+      "seed": 6,
+      "start_usd": 1.0,
+      "cost_mult": 5.0,
+      "net_pnl": 0.0,
+      "net_return_pct": 0.0,
+      "learning_minus_legacy_pnl": 0.0,
+      "primary_trades": 0,
+      "halted": false
+    },
+    {
+      "seed": 6,
+      "start_usd": 3.0,
+      "cost_mult": 1.0,
+      "net_pnl": -0.25143321,
+      "net_return_pct": -8.38111,
+      "learning_minus_legacy_pnl": 0.0,
+      "primary_trades": 16,
+      "halted": true
+    },
+    {
+      "seed": 6,
+      "start_usd": 3.0,
+      "cost_mult": 2.0,
+      "net_pnl": -0.26162641,
+      "net_return_pct": -8.72088,
+      "learning_minus_legacy_pnl": 0.0,
+      "primary_trades": 5,
+      "halted": true
+    },
+    {
+      "seed": 6,
+      "start_usd": 3.0,
+      "cost_mult": 5.0,
+      "net_pnl": 0.0,
+      "net_return_pct": 0.0,
+      "learning_minus_legacy_pnl": 0.0,
+      "primary_trades": 0,
+      "halted": false
+    },
+    {
+      "seed": 6,
+      "start_usd": 10.0,
+      "cost_mult": 1.0,
+      "net_pnl": -0.83811069,
+      "net_return_pct": -8.38111,
+      "learning_minus_legacy_pnl": 0.0,
+      "primary_trades": 16,
+      "halted": true
+    },
+    {
+      "seed": 6,
+      "start_usd": 10.0,
+      "cost_mult": 2.0,
+      "net_pnl": -0.87208804,
+      "net_return_pct": -8.72088,
+      "learning_minus_legacy_pnl": 0.0,
+      "primary_trades": 5,
+      "halted": true
+    },
+    {
+      "seed": 6,
+      "start_usd": 10.0,
+      "cost_mult": 5.0,
+      "net_pnl": 0.0,
+      "net_return_pct": 0.0,
+      "learning_minus_legacy_pnl": 0.0,
+      "primary_trades": 0,
+      "halted": false
+    },
+    {
+      "seed": 7,
+      "start_usd": 1.0,
+      "cost_mult": 1.0,
+      "net_pnl": -0.08535744,
+      "net_return_pct": -8.53574,
+      "learning_minus_legacy_pnl": 0.0,
+      "primary_trades": 14,
+      "halted": true
+    },
+    {
+      "seed": 7,
+      "start_usd": 1.0,
+      "cost_mult": 2.0,
+      "net_pnl": -0.06257507,
+      "net_return_pct": -6.25751,
+      "learning_minus_legacy_pnl": 0.0,
+      "primary_trades": 5,
+      "halted": true
+    },
+    {
+      "seed": 7,
+      "start_usd": 1.0,
+      "cost_mult": 5.0,
+      "net_pnl": -0.0332377,
+      "net_return_pct": -3.32377,
+      "learning_minus_legacy_pnl": 0.0,
+      "primary_trades": 1,
+      "halted": false
+    },
+    {
+      "seed": 7,
+      "start_usd": 3.0,
+      "cost_mult": 1.0,
+      "net_pnl": -0.25607233,
+      "net_return_pct": -8.53574,
+      "learning_minus_legacy_pnl": 0.0,
+      "primary_trades": 14,
+      "halted": true
+    },
+    {
+      "seed": 7,
+      "start_usd": 3.0,
+      "cost_mult": 2.0,
+      "net_pnl": -0.1877252,
+      "net_return_pct": -6.25751,
+      "learning_minus_legacy_pnl": 0.0,
+      "primary_trades": 5,
+      "halted": true
+    },
+    {
+      "seed": 7,
+      "start_usd": 3.0,
+      "cost_mult": 5.0,
+      "net_pnl": -0.09971311,
+      "net_return_pct": -3.32377,
+      "learning_minus_legacy_pnl": 0.0,
+      "primary_trades": 1,
+      "halted": false
+    },
+    {
+      "seed": 7,
+      "start_usd": 10.0,
+      "cost_mult": 1.0,
+      "net_pnl": -0.85357444,
+      "net_return_pct": -8.53574,
+      "learning_minus_legacy_pnl": 0.0,
+      "primary_trades": 14,
+      "halted": true
+    },
+    {
+      "seed": 7,
+      "start_usd": 10.0,
+      "cost_mult": 2.0,
+      "net_pnl": -0.62575067,
+      "net_return_pct": -6.25751,
+      "learning_minus_legacy_pnl": 0.0,
+      "primary_trades": 5,
+      "halted": true
+    },
+    {
+      "seed": 7,
+      "start_usd": 10.0,
+      "cost_mult": 5.0,
+      "net_pnl": -0.33237703,
+      "net_return_pct": -3.32377,
+      "learning_minus_legacy_pnl": 0.0,
+      "primary_trades": 1,
+      "halted": false
+    },
+    {
+      "seed": 8,
+      "start_usd": 1.0,
+      "cost_mult": 1.0,
+      "net_pnl": -0.02030278,
+      "net_return_pct": -2.03028,
+      "learning_minus_legacy_pnl": 0.0,
+      "primary_trades": 14,
+      "halted": true
+    },
+    {
+      "seed": 8,
+      "start_usd": 1.0,
+      "cost_mult": 2.0,
+      "net_pnl": -0.05163764,
+      "net_return_pct": -5.16376,
+      "learning_minus_legacy_pnl": 0.0,
+      "primary_trades": 6,
+      "halted": true
+    },
+    {
+      "seed": 8,
+      "start_usd": 1.0,
+      "cost_mult": 5.0,
+      "net_pnl": -0.04644031,
+      "net_return_pct": -4.64403,
+      "learning_minus_legacy_pnl": 0.0,
+      "primary_trades": 1,
+      "halted": false
+    },
+    {
+      "seed": 8,
+      "start_usd": 3.0,
+      "cost_mult": 1.0,
+      "net_pnl": -0.06090833,
+      "net_return_pct": -2.03028,
+      "learning_minus_legacy_pnl": 0.0,
+      "primary_trades": 14,
+      "halted": true
+    },
+    {
+      "seed": 8,
+      "start_usd": 3.0,
+      "cost_mult": 2.0,
+      "net_pnl": -0.15491291,
+      "net_return_pct": -5.16376,
+      "learning_minus_legacy_pnl": 0.0,
+      "primary_trades": 6,
+      "halted": true
+    },
+    {
+      "seed": 8,
+      "start_usd": 3.0,
+      "cost_mult": 5.0,
+      "net_pnl": -0.13932094,
+      "net_return_pct": -4.64403,
+      "learning_minus_legacy_pnl": 0.0,
+      "primary_trades": 1,
+      "halted": false
+    },
+    {
+      "seed": 8,
+      "start_usd": 10.0,
+      "cost_mult": 1.0,
+      "net_pnl": -0.20302775,
+      "net_return_pct": -2.03028,
+      "learning_minus_legacy_pnl": 0.0,
+      "primary_trades": 14,
+      "halted": true
+    },
+    {
+      "seed": 8,
+      "start_usd": 10.0,
+      "cost_mult": 2.0,
+      "net_pnl": -0.51637637,
+      "net_return_pct": -5.16376,
+      "learning_minus_legacy_pnl": 0.0,
+      "primary_trades": 6,
+      "halted": true
+    },
+    {
+      "seed": 8,
+      "start_usd": 10.0,
+      "cost_mult": 5.0,
+      "net_pnl": -0.46440314,
+      "net_return_pct": -4.64403,
+      "learning_minus_legacy_pnl": 0.0,
+      "primary_trades": 1,
+      "halted": false
+    },
+    {
+      "seed": 9,
+      "start_usd": 1.0,
+      "cost_mult": 1.0,
+      "net_pnl": -0.03395048,
+      "net_return_pct": -3.39505,
+      "learning_minus_legacy_pnl": 0.0,
+      "primary_trades": 7,
+      "halted": true
+    },
+    {
+      "seed": 9,
+      "start_usd": 1.0,
+      "cost_mult": 2.0,
+      "net_pnl": -0.08083293,
+      "net_return_pct": -8.08329,
+      "learning_minus_legacy_pnl": 0.0,
+      "primary_trades": 5,
+      "halted": true
+    },
+    {
+      "seed": 9,
+      "start_usd": 1.0,
+      "cost_mult": 5.0,
+      "net_pnl": -0.04340157,
+      "net_return_pct": -4.34016,
+      "learning_minus_legacy_pnl": 0.0,
+      "primary_trades": 1,
+      "halted": false
+    },
+    {
+      "seed": 9,
+      "start_usd": 3.0,
+      "cost_mult": 1.0,
+      "net_pnl": -0.10185144,
+      "net_return_pct": -3.39505,
+      "learning_minus_legacy_pnl": 0.0,
+      "primary_trades": 7,
+      "halted": true
+    },
+    {
+      "seed": 9,
+      "start_usd": 3.0,
+      "cost_mult": 2.0,
+      "net_pnl": -0.24249878,
+      "net_return_pct": -8.08329,
+      "learning_minus_legacy_pnl": 0.0,
+      "primary_trades": 5,
+      "halted": true
+    },
+    {
+      "seed": 9,
+      "start_usd": 3.0,
+      "cost_mult": 5.0,
+      "net_pnl": -0.13020472,
+      "net_return_pct": -4.34016,
+      "learning_minus_legacy_pnl": 0.0,
+      "primary_trades": 1,
+      "halted": false
+    },
+    {
+      "seed": 9,
+      "start_usd": 10.0,
+      "cost_mult": 1.0,
+      "net_pnl": -0.33950481,
+      "net_return_pct": -3.39505,
+      "learning_minus_legacy_pnl": 0.0,
+      "primary_trades": 7,
+      "halted": true
+    },
+    {
+      "seed": 9,
+      "start_usd": 10.0,
+      "cost_mult": 2.0,
+      "net_pnl": -0.80832926,
+      "net_return_pct": -8.08329,
+      "learning_minus_legacy_pnl": 0.0,
+      "primary_trades": 5,
+      "halted": true
+    },
+    {
+      "seed": 9,
+      "start_usd": 10.0,
+      "cost_mult": 5.0,
+      "net_pnl": -0.43401572,
+      "net_return_pct": -4.34016,
+      "learning_minus_legacy_pnl": 0.0,
+      "primary_trades": 1,
+      "halted": false
+    },
+    {
+      "seed": 10,
+      "start_usd": 1.0,
+      "cost_mult": 1.0,
+      "net_pnl": -0.04286059,
+      "net_return_pct": -4.28606,
+      "learning_minus_legacy_pnl": 0.0,
+      "primary_trades": 5,
+      "halted": true
+    },
+    {
+      "seed": 10,
+      "start_usd": 1.0,
+      "cost_mult": 2.0,
+      "net_pnl": -0.08879838,
+      "net_return_pct": -8.87984,
+      "learning_minus_legacy_pnl": 0.0,
+      "primary_trades": 5,
+      "halted": true
+    },
+    {
+      "seed": 10,
+      "start_usd": 1.0,
+      "cost_mult": 5.0,
+      "net_pnl": -0.05285302,
+      "net_return_pct": -5.2853,
+      "learning_minus_legacy_pnl": 0.0,
+      "primary_trades": 1,
+      "halted": false
+    },
+    {
+      "seed": 10,
+      "start_usd": 3.0,
+      "cost_mult": 1.0,
+      "net_pnl": -0.12858177,
+      "net_return_pct": -4.28606,
+      "learning_minus_legacy_pnl": 0.0,
+      "primary_trades": 5,
+      "halted": true
+    },
+    {
+      "seed": 10,
+      "start_usd": 3.0,
+      "cost_mult": 2.0,
+      "net_pnl": -0.26639513,
+      "net_return_pct": -8.87984,
+      "learning_minus_legacy_pnl": 0.0,
+      "primary_trades": 5,
+      "halted": true
+    },
+    {
+      "seed": 10,
+      "start_usd": 3.0,
+      "cost_mult": 5.0,
+      "net_pnl": -0.15855907,
+      "net_return_pct": -5.2853,
+      "learning_minus_legacy_pnl": 0.0,
+      "primary_trades": 1,
+      "halted": false
+    },
+    {
+      "seed": 10,
+      "start_usd": 10.0,
+      "cost_mult": 1.0,
+      "net_pnl": -0.4286059,
+      "net_return_pct": -4.28606,
+      "learning_minus_legacy_pnl": 0.0,
+      "primary_trades": 5,
+      "halted": true
+    },
+    {
+      "seed": 10,
+      "start_usd": 10.0,
+      "cost_mult": 2.0,
+      "net_pnl": -0.88798376,
+      "net_return_pct": -8.87984,
+      "learning_minus_legacy_pnl": 0.0,
+      "primary_trades": 5,
+      "halted": true
+    },
+    {
+      "seed": 10,
+      "start_usd": 10.0,
+      "cost_mult": 5.0,
+      "net_pnl": -0.52853024,
+      "net_return_pct": -5.2853,
+      "learning_minus_legacy_pnl": 0.0,
+      "primary_trades": 1,
+      "halted": false
+    },
+    {
+      "seed": 11,
+      "start_usd": 1.0,
+      "cost_mult": 1.0,
+      "net_pnl": -0.03987693,
+      "net_return_pct": -3.98769,
+      "learning_minus_legacy_pnl": 0.0,
+      "primary_trades": 14,
+      "halted": true
+    },
+    {
+      "seed": 11,
+      "start_usd": 1.0,
+      "cost_mult": 2.0,
+      "net_pnl": -0.11252379,
+      "net_return_pct": -11.25238,
+      "learning_minus_legacy_pnl": 0.0,
+      "primary_trades": 11,
+      "halted": true
+    },
+    {
+      "seed": 11,
+      "start_usd": 1.0,
+      "cost_mult": 5.0,
+      "net_pnl": -0.04333338,
+      "net_return_pct": -4.33334,
+      "learning_minus_legacy_pnl": 0.0,
+      "primary_trades": 1,
+      "halted": false
+    },
+    {
+      "seed": 11,
+      "start_usd": 3.0,
+      "cost_mult": 1.0,
+      "net_pnl": -0.11963079,
+      "net_return_pct": -3.98769,
+      "learning_minus_legacy_pnl": 0.0,
+      "primary_trades": 14,
+      "halted": true
+    },
+    {
+      "seed": 11,
+      "start_usd": 3.0,
+      "cost_mult": 2.0,
+      "net_pnl": -0.33757136,
+      "net_return_pct": -11.25238,
+      "learning_minus_legacy_pnl": 0.0,
+      "primary_trades": 11,
+      "halted": true
+    },
+    {
+      "seed": 11,
+      "start_usd": 3.0,
+      "cost_mult": 5.0,
+      "net_pnl": -0.13000014,
+      "net_return_pct": -4.33334,
+      "learning_minus_legacy_pnl": 0.0,
+      "primary_trades": 1,
+      "halted": false
+    },
+    {
+      "seed": 11,
+      "start_usd": 10.0,
+      "cost_mult": 1.0,
+      "net_pnl": -0.39876929,
+      "net_return_pct": -3.98769,
+      "learning_minus_legacy_pnl": 0.0,
+      "primary_trades": 14,
+      "halted": true
+    },
+    {
+      "seed": 11,
+      "start_usd": 10.0,
+      "cost_mult": 2.0,
+      "net_pnl": -1.12523788,
+      "net_return_pct": -11.25238,
+      "learning_minus_legacy_pnl": 0.0,
+      "primary_trades": 11,
+      "halted": true
+    },
+    {
+      "seed": 11,
+      "start_usd": 10.0,
+      "cost_mult": 5.0,
+      "net_pnl": -0.43333379,
+      "net_return_pct": -4.33334,
+      "learning_minus_legacy_pnl": 0.0,
+      "primary_trades": 1,
+      "halted": false
+    },
+    {
+      "seed": 12,
+      "start_usd": 1.0,
+      "cost_mult": 1.0,
+      "net_pnl": -0.01582742,
+      "net_return_pct": -1.58274,
+      "learning_minus_legacy_pnl": 0.0,
+      "primary_trades": 16,
+      "halted": true
+    },
+    {
+      "seed": 12,
+      "start_usd": 1.0,
+      "cost_mult": 2.0,
+      "net_pnl": -0.12127835,
+      "net_return_pct": -12.12783,
+      "learning_minus_legacy_pnl": 0.0,
+      "primary_trades": 11,
+      "halted": true
+    },
+    {
+      "seed": 12,
+      "start_usd": 1.0,
+      "cost_mult": 5.0,
+      "net_pnl": -0.0468943,
+      "net_return_pct": -4.68943,
+      "learning_minus_legacy_pnl": 0.0,
+      "primary_trades": 1,
+      "halted": false
+    },
+    {
+      "seed": 12,
+      "start_usd": 3.0,
+      "cost_mult": 1.0,
+      "net_pnl": -0.04748226,
+      "net_return_pct": -1.58274,
+      "learning_minus_legacy_pnl": 0.0,
+      "primary_trades": 16,
+      "halted": true
+    },
+    {
+      "seed": 12,
+      "start_usd": 3.0,
+      "cost_mult": 2.0,
+      "net_pnl": -0.36383506,
+      "net_return_pct": -12.12784,
+      "learning_minus_legacy_pnl": 0.0,
+      "primary_trades": 11,
+      "halted": true
+    },
+    {
+      "seed": 12,
+      "start_usd": 3.0,
+      "cost_mult": 5.0,
+      "net_pnl": -0.14068291,
+      "net_return_pct": -4.68943,
+      "learning_minus_legacy_pnl": 0.0,
+      "primary_trades": 1,
+      "halted": false
+    },
+    {
+      "seed": 12,
+      "start_usd": 10.0,
+      "cost_mult": 1.0,
+      "net_pnl": -0.15827421,
+      "net_return_pct": -1.58274,
+      "learning_minus_legacy_pnl": 0.0,
+      "primary_trades": 16,
+      "halted": true
+    },
+    {
+      "seed": 12,
+      "start_usd": 10.0,
+      "cost_mult": 2.0,
+      "net_pnl": -1.21278354,
+      "net_return_pct": -12.12784,
+      "learning_minus_legacy_pnl": 0.0,
+      "primary_trades": 11,
+      "halted": true
+    },
+    {
+      "seed": 12,
+      "start_usd": 10.0,
+      "cost_mult": 5.0,
+      "net_pnl": -0.46894305,
+      "net_return_pct": -4.68943,
+      "learning_minus_legacy_pnl": 0.0,
+      "primary_trades": 1,
+      "halted": false
+    },
+    {
+      "seed": 13,
+      "start_usd": 1.0,
+      "cost_mult": 1.0,
+      "net_pnl": -0.0614855,
+      "net_return_pct": -6.14855,
+      "learning_minus_legacy_pnl": 0.0,
+      "primary_trades": 25,
+      "halted": true
+    },
+    {
+      "seed": 13,
+      "start_usd": 1.0,
+      "cost_mult": 2.0,
+      "net_pnl": -0.05414791,
+      "net_return_pct": -5.41479,
+      "learning_minus_legacy_pnl": 0.0,
+      "primary_trades": 5,
+      "halted": true
+    },
+    {
+      "seed": 13,
+      "start_usd": 1.0,
+      "cost_mult": 5.0,
+      "net_pnl": 0.0,
+      "net_return_pct": 0.0,
+      "learning_minus_legacy_pnl": 0.0,
+      "primary_trades": 0,
+      "halted": false
+    },
+    {
+      "seed": 13,
+      "start_usd": 3.0,
+      "cost_mult": 1.0,
+      "net_pnl": -0.18445651,
+      "net_return_pct": -6.14855,
+      "learning_minus_legacy_pnl": 0.0,
+      "primary_trades": 25,
+      "halted": true
+    },
+    {
+      "seed": 13,
+      "start_usd": 3.0,
+      "cost_mult": 2.0,
+      "net_pnl": -0.16244374,
+      "net_return_pct": -5.41479,
+      "learning_minus_legacy_pnl": 0.0,
+      "primary_trades": 5,
+      "halted": true
+    },
+    {
+      "seed": 13,
+      "start_usd": 3.0,
+      "cost_mult": 5.0,
+      "net_pnl": 0.0,
+      "net_return_pct": 0.0,
+      "learning_minus_legacy_pnl": 0.0,
+      "primary_trades": 0,
+      "halted": false
+    },
+    {
+      "seed": 13,
+      "start_usd": 10.0,
+      "cost_mult": 1.0,
+      "net_pnl": -0.61485503,
+      "net_return_pct": -6.14855,
+      "learning_minus_legacy_pnl": 0.0,
+      "primary_trades": 25,
+      "halted": true
+    },
+    {
+      "seed": 13,
+      "start_usd": 10.0,
+      "cost_mult": 2.0,
+      "net_pnl": -0.54147914,
+      "net_return_pct": -5.41479,
+      "learning_minus_legacy_pnl": 0.0,
+      "primary_trades": 5,
+      "halted": true
+    },
+    {
+      "seed": 13,
+      "start_usd": 10.0,
+      "cost_mult": 5.0,
+      "net_pnl": 0.0,
+      "net_return_pct": 0.0,
+      "learning_minus_legacy_pnl": 0.0,
+      "primary_trades": 0,
+      "halted": false
+    },
+    {
+      "seed": 14,
+      "start_usd": 1.0,
+      "cost_mult": 1.0,
+      "net_pnl": -0.05234233,
+      "net_return_pct": -5.23423,
+      "learning_minus_legacy_pnl": 0.0,
+      "primary_trades": 18,
+      "halted": true
+    },
+    {
+      "seed": 14,
+      "start_usd": 1.0,
+      "cost_mult": 2.0,
+      "net_pnl": -0.09753881,
+      "net_return_pct": -9.75388,
+      "learning_minus_legacy_pnl": 0.0,
+      "primary_trades": 9,
+      "halted": true
+    },
+    {
+      "seed": 14,
+      "start_usd": 1.0,
+      "cost_mult": 5.0,
+      "net_pnl": 0.0,
+      "net_return_pct": 0.0,
+      "learning_minus_legacy_pnl": 0.0,
+      "primary_trades": 0,
+      "halted": false
+    },
+    {
+      "seed": 14,
+      "start_usd": 3.0,
+      "cost_mult": 1.0,
+      "net_pnl": -0.15702698,
+      "net_return_pct": -5.23423,
+      "learning_minus_legacy_pnl": 0.0,
+      "primary_trades": 18,
+      "halted": true
+    },
+    {
+      "seed": 14,
+      "start_usd": 3.0,
+      "cost_mult": 2.0,
+      "net_pnl": -0.29261644,
+      "net_return_pct": -9.75388,
+      "learning_minus_legacy_pnl": 0.0,
+      "primary_trades": 9,
+      "halted": true
+    },
+    {
+      "seed": 14,
+      "start_usd": 3.0,
+      "cost_mult": 5.0,
+      "net_pnl": 0.0,
+      "net_return_pct": 0.0,
+      "learning_minus_legacy_pnl": 0.0,
+      "primary_trades": 0,
+      "halted": false
+    },
+    {
+      "seed": 14,
+      "start_usd": 10.0,
+      "cost_mult": 1.0,
+      "net_pnl": -0.52342328,
+      "net_return_pct": -5.23423,
+      "learning_minus_legacy_pnl": 0.0,
+      "primary_trades": 18,
+      "halted": true
+    },
+    {
+      "seed": 14,
+      "start_usd": 10.0,
+      "cost_mult": 2.0,
+      "net_pnl": -0.97538815,
+      "net_return_pct": -9.75388,
+      "learning_minus_legacy_pnl": 0.0,
+      "primary_trades": 9,
+      "halted": true
+    },
+    {
+      "seed": 14,
+      "start_usd": 10.0,
+      "cost_mult": 5.0,
+      "net_pnl": 0.0,
+      "net_return_pct": 0.0,
+      "learning_minus_legacy_pnl": 0.0,
+      "primary_trades": 0,
+      "halted": false
+    }
+  ]
+}
