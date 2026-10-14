@@ -26,8 +26,8 @@ Optional (not needed): `python3 -m pip install river`. If River is installed, th
 
 - **108 simulated runs** across twelve independent random seeds, three starting capital amounts, three cost multipliers.
 - **0/108 ended profitable** after modelled costs; **0/108 beat HOLD**.
-- **0/108 beat the legacy discounted router**. This learner did not show an incremental benefit in this fixture.
-- Mean percentage outcome was about **−5.19%** across the synthetic parameter combinations.
+- **30/108 beat the legacy discounted router** (27.78%) and **0/108 beat HOLD**. This is a modest relative reduction of losses in a fictional model, not a viable trading edge.
+- Mean percentage outcome was about **−4.38%** across the synthetic parameter combinations.
 - 5x costs often caused HOLD decisions, so average loss may *decrease* with higher costs. This is abstention, **not an improvement in fill economics**.
 
 Those numbers describe a *fictional* price-generation process and approximate fixed fees, not actual exchange execution or any verified strategy edge. Not an investment claim. See `results/learning-summary.json` and the reproducible full snapshot `research-results.zip` available in the chat. When new market data is integrated, actual venue minimum orders, executable prices, liquidity and exits must be modelled.
