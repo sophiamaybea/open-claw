@@ -108,6 +108,7 @@ export function edgeLab(feed, opts={}) {
  }
  const periods={train:{start:start2024,end:start2025},validation:{start:start2025,end:start2026},test:{start:start2026,end}};
  if(data[0][0].t<1672531200){periods.earlier={start:Math.max(201,data[0].findIndex(d=>d.t>=1672531200)),end:data[0].findIndex(d=>d.t>=1704067200)};}
+ if(data[0][0].t<1640995200){periods.bear2022={start:Math.max(201,data[0].findIndex(d=>d.t>=1640995200)),end:data[0].findIndex(d=>d.t>=1672531200)};}
  if(opts.fixed){
     const p=opts.fixed;
     return {parameter:p,periods:Object.fromEntries(Object.entries(periods).map(([k,v])=>[k,sim(p,v.start,v.end)])),capital:initial,feeBps:fee*10000,slippageBps:slip*10000,signalDelayDays:opts.delayDays??0,assumption:'Static parameter, held fixed across all periods. Excludes incomplete latest candle. No live execution.'};
@@ -121,7 +122,7 @@ export function edgeLab(feed, opts={}) {
   const score=Math.min(a.ret,b.ret)+.25*(a.ret+b.ret)/2-.40*Math.max(a.drawdown,b.drawdown);
   if(!leaders[p.type]||score>leaders[p.type].score)leaders[p.type]={parameter:p,score,train:a,validation:b};
  }
- const selected=Object.entries(leaders).map(([type,obj])=>({type,...obj,test:sim(obj.parameter,periods.test.start,periods.test.end),earlier:periods.earlier?sim(obj.parameter,periods.earlier.start,periods.earlier.end):null}));
+ const selected=Object.entries(leaders).map(([type,obj])=>({type,...obj,test:sim(obj.parameter,periods.test.start,periods.test.end),earlier:periods.earlier?sim(obj.parameter,periods.earlier.start,periods.earlier.end):null,bear2022:periods.bear2022?sim(obj.parameter,periods.bear2022.start,periods.bear2022.end):null}));
  const cash={type:'hold',test:sim({type:'hold',minHold:0},periods.test.start,periods.test.end)};
  const baselines=symbols.map(s=>({asset:s,...sim({type:'buyhold',k:s,minHold:0},periods.test.start,periods.test.end)}));
  const objective={criteria:"Prospective selected model: positive after realistic transaction costs, >=2 holdout entries/exits, beats cash and BTC baseline, <=25% max drawdown; NOT proof or guarantee",achievers:selected.filter(z=>z.test.ret>0&&z.test.ret>baselines.find(x=>x.asset==='BTC-USD').ret&&z.test.drawdown<=25&&z.test.trades>=4&&z.test.valid).map(z=>z.type)};
