@@ -85,7 +85,7 @@ export function edgeLab(feed, opts={}) {
   let cash=initial,qty=0,held=null,entered=-1000,trades=0,fees=0,change=0,peak=initial,maxDD=0,exposureDays=0,invalid=false;
   function nav(i,isOpen){return cash+(held===null?0:qty*(isOpen?data[held][i].o:data[held][i].c));}
   for(let i=start;i<stop;i++){
-    const target=want(p,i,held,entered);
+    const target=want(p,Math.max(1,i-(opts.delayDays??0)),held,entered);
     if(held!==target && i-entered>=p.minHold){
      if(held!==null){
        const gross=qty*data[held][i].o;
@@ -110,7 +110,7 @@ export function edgeLab(feed, opts={}) {
  if(data[0][0].t<1672531200){periods.earlier={start:Math.max(201,data[0].findIndex(d=>d.t>=1672531200)),end:data[0].findIndex(d=>d.t>=1704067200)};}
  if(opts.fixed){
     const p=opts.fixed;
-    return {parameter:p,periods:Object.fromEntries(Object.entries(periods).map(([k,v])=>[k,sim(p,v.start,v.end)])),capital:initial,feeBps:fee*10000,slippageBps:slip*10000,assumption:'Static parameter, held fixed across all periods. Excludes incomplete latest candle. No live execution.'};
+    return {parameter:p,periods:Object.fromEntries(Object.entries(periods).map(([k,v])=>[k,sim(p,v.start,v.end)])),capital:initial,feeBps:fee*10000,slippageBps:slip*10000,signalDelayDays:opts.delayDays??0,assumption:'Static parameter, held fixed across all periods. Excludes incomplete latest candle. No live execution.'};
   }
  const candidates=params(),leaders={},ranking={};
  for(const p of candidates){
