@@ -25,7 +25,7 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Audit no real-money functions and run offline unit tests
+      - name: Install pinned open-source online learner\n        run: python -m pip install river==0.23.0\n      - name: Audit no real-money functions and run offline unit tests
         run: python -m unittest discover -s tests -v
       - name: Replay 108 stress scenarios offline
         run: python -m microcompound.agents --mode sweep --seeds 12 --minutes 60 --output results
