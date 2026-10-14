@@ -1,0 +1,39 @@
+name: Micro Compound research validation (paper only)
+on:
+  push:
+    paths:
+      - 'experiments/micro-compound/**'
+      - '.github/workflows/research-agents.yml'
+  pull_request:
+    paths:
+      - 'experiments/micro-compound/**'
+      - '.github/workflows/research-agents.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  tests-and-sweep:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Verify autonomous learner has no premature promotions
+        run: node --test experiments/micro-compound/tests/*.test.mjs
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Verify research ledger and completed-trade labelling
+        working-directory: experiments/micro-compound/research
+        run: python -m unittest discover -s tests -v
+      - name: Synthetic negative-control replay
+        working-directory: experiments/micro-compound/research
+        run: python -m microcompound.agents --mode sweep --seeds 12 --minutes 60 --output results
+      - name: Preserve raw negative-control experiment records
+        uses: actions/upload-artifact@v4
+        with:
+          name: microcompound-research-${{ github.run_id }}
+          path: experiments/micro-compound/research/results/
+          retention-days: 30

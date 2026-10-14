@@ -1,0 +1,3 @@
+# Optional: the research engine needs only the Python standard library.
+# River adds online train_one/predict_one but is NOT required for a working run.
+river>=0.22,<1.0

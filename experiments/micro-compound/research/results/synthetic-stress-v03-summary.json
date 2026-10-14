@@ -1,0 +1,99 @@
+{
+  "metadata": {
+    "experiment": "Fast v0.3 synthetic stress, 14 October 2026",
+    "scenarios": 155520,
+    "independent_synthetic_paths": 480,
+    "regimes": [
+      "uptrend",
+      "downtrend",
+      "mean_reverting",
+      "sideways",
+      "shock",
+      "pump_dump"
+    ],
+    "bars_per_path": 240,
+    "starting_virtual_balances_usd": [
+      1,
+      3,
+      10
+    ],
+    "fee_multipliers": [
+      1,
+      2,
+      5
+    ],
+    "thresholds": [
+      0.8,
+      1,
+      1.35
+    ],
+    "horizons": [
+      3,
+      8
+    ],
+    "real_money_used": 0,
+    "note": "Experiment 155520 configuration replays on only 480 independently seeded synthetic paths, not 155520 independent samples. Python source and full reproducible output available in local ZIP provided alongside report; do not infer real market performance. Passive limit-entry is not true market making."
+  },
+  "strategy_table": [
+    {
+      "method": "adaptive",
+      "runs": 25920,
+      "mean_pct": -0.02538,
+      "positive_rate_pct": 0.09,
+      "traded_rate_pct": 2.69,
+      "average_trades": 0.128,
+      "worst_pct": -3.97833,
+      "best_pct": 0.84423
+    },
+    {
+      "method": "breakout",
+      "runs": 25920,
+      "mean_pct": -4.05765,
+      "positive_rate_pct": 0.69,
+      "traded_rate_pct": 62.64,
+      "average_trades": 5.058,
+      "worst_pct": -21.72104,
+      "best_pct": 1.12812
+    },
+    {
+      "method": "hold",
+      "runs": 25920,
+      "mean_pct": 0,
+      "positive_rate_pct": 0,
+      "traded_rate_pct": 0,
+      "average_trades": 0,
+      "worst_pct": 0,
+      "best_pct": 0
+    },
+    {
+      "method": "mean_reversion",
+      "runs": 25920,
+      "mean_pct": -5.65865,
+      "positive_rate_pct": 0.03,
+      "traded_rate_pct": 65.74,
+      "average_trades": 6.455,
+      "worst_pct": -22.20773,
+      "best_pct": 0.1478
+    },
+    {
+      "method": "momentum",
+      "runs": 25920,
+      "mean_pct": -5.92997,
+      "positive_rate_pct": 0.02,
+      "traded_rate_pct": 66.67,
+      "average_trades": 7.661,
+      "worst_pct": -22.35251,
+      "best_pct": 0.18927
+    },
+    {
+      "method": "passive_maker",
+      "runs": 25920,
+      "mean_pct": -5.34184,
+      "positive_rate_pct": 0.06,
+      "traded_rate_pct": 66.67,
+      "average_trades": 8.423,
+      "worst_pct": -21.6616,
+      "best_pct": 0.42196
+    }
+  ]
+}

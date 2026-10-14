@@ -1,0 +1,624 @@
+{
+  "periodKey": {
+    "bear2022": "2022",
+    "earlier": "2023",
+    "train": "2024",
+    "validation": "2025",
+    "test": "2026"
+  },
+  "data": "Coinbase spot historical daily candles, no real funds; fixed parameter strategies from prior 2024-25 selection",
+  "rows": [
+    {
+      "rule": {
+        "type": "volatility_veto",
+        "rankN": 20,
+        "maN": 200,
+        "maxVol": 0.025,
+        "minHold": 21
+      },
+      "cfg": {
+        "fee": 0.005,
+        "slip": 0.001,
+        "delay": 0
+      },
+      "periods": {
+        "train": {
+          "ret": 2.704179673982532,
+          "dd": 24.23824746266131,
+          "trades": 11,
+          "feeUSD": 0.23388967490648274,
+          "valid": true
+        },
+        "validation": {
+          "ret": 6.621105894820278,
+          "dd": 26.627728221973477,
+          "trades": 16,
+          "feeUSD": 0.313629442769518,
+          "valid": true
+        },
+        "test": {
+          "ret": 11.099254806248936,
+          "dd": 11.37761473321631,
+          "trades": 5,
+          "feeUSD": 0.11846101189544478,
+          "valid": true
+        },
+        "earlier": {
+          "ret": 16.28910835328943,
+          "dd": 42.23555800322799,
+          "trades": 23,
+          "feeUSD": 0.4522884289675339,
+          "valid": true
+        },
+        "bear2022": {
+          "ret": -18.045691630301164,
+          "dd": 18.045691630301164,
+          "trades": 2,
+          "feeUSD": 0.03273346456430939,
+          "valid": true
+        }
+      }
+    },
+    {
+      "rule": {
+        "type": "volatility_veto",
+        "rankN": 20,
+        "maN": 200,
+        "maxVol": 0.025,
+        "minHold": 21
+      },
+      "cfg": {
+        "fee": 0.005,
+        "slip": 0.005,
+        "delay": 0
+      },
+      "periods": {
+        "train": {
+          "ret": -2.1094832854587797,
+          "dd": 26.034999636978924,
+          "trades": 11,
+          "feeUSD": 0.38064794474872976,
+          "valid": true
+        },
+        "validation": {
+          "ret": 0.010712176320759603,
+          "dd": 28.367811897926227,
+          "trades": 16,
+          "feeUSD": 0.5057389822502274,
+          "valid": true
+        },
+        "test": {
+          "ret": 8.464444747706313,
+          "dd": 12.083811400481535,
+          "trades": 5,
+          "feeUSD": 0.19505165780642258,
+          "valid": true
+        },
+        "earlier": {
+          "ret": 5.643807752868368,
+          "dd": 44.94293131262313,
+          "trades": 23,
+          "feeUSD": 0.7187198421328034,
+          "valid": true
+        },
+        "bear2022": {
+          "ret": -18.69875303532297,
+          "dd": 18.69875303532297,
+          "trades": 2,
+          "feeUSD": 0.05433971180147729,
+          "valid": true
+        }
+      }
+    },
+    {
+      "rule": {
+        "type": "volatility_veto",
+        "rankN": 20,
+        "maN": 200,
+        "maxVol": 0.025,
+        "minHold": 21
+      },
+      "cfg": {
+        "fee": 0.01,
+        "slip": 0.005,
+        "delay": 0
+      },
+      "periods": {
+        "train": {
+          "ret": -7.8110591290231675,
+          "dd": 28.221336765057597,
+          "trades": 11,
+          "feeUSD": 0.5543934300672139,
+          "valid": true
+        },
+        "validation": {
+          "ret": -7.67964636965387,
+          "dd": 30.485193249165633,
+          "trades": 16,
+          "feeUSD": 0.7282865005079997,
+          "valid": true
+        },
+        "test": {
+          "ret": 5.258335892647037,
+          "dd": 12.958729931600816,
+          "trades": 5,
+          "feeUSD": 0.28819251056534506,
+          "valid": true
+        },
+        "earlier": {
+          "ret": -6.304128426439393,
+          "dd": 48.14969804939304,
+          "trades": 23,
+          "feeUSD": 1.0169061211041321,
+          "valid": true
+        },
+        "bear2022": {
+          "ret": -19.507841426273632,
+          "dd": 19.507841426273632,
+          "trades": 2,
+          "feeUSD": 0.0811080427381656,
+          "valid": true
+        }
+      }
+    },
+    {
+      "rule": {
+        "type": "volatility_veto",
+        "rankN": 20,
+        "maN": 200,
+        "maxVol": 0.025,
+        "minHold": 21
+      },
+      "cfg": {
+        "fee": 0.005,
+        "slip": 0.001,
+        "delay": 2
+      },
+      "periods": {
+        "train": {
+          "ret": 6.665498167061856,
+          "dd": 33.987588438137564,
+          "trades": 11,
+          "feeUSD": 0.23280377776257136,
+          "valid": true
+        },
+        "validation": {
+          "ret": 27.37988852280282,
+          "dd": 17.718769914522024,
+          "trades": 16,
+          "feeUSD": 0.33266960933780726,
+          "valid": true
+        },
+        "test": {
+          "ret": 0.6608320543476154,
+          "dd": 9.082582469984118,
+          "trades": 5,
+          "feeUSD": 0.10938776201925693,
+          "valid": true
+        },
+        "earlier": {
+          "ret": 10.777837341383712,
+          "dd": 42.48557344971761,
+          "trades": 23,
+          "feeUSD": 0.42816044256263186,
+          "valid": true
+        },
+        "bear2022": {
+          "ret": -18.520832830892044,
+          "dd": 18.520832830892044,
+          "trades": 2,
+          "feeUSD": 0.03264742289820641,
+          "valid": true
+        }
+      }
+    },
+    {
+      "rule": {
+        "type": "trend",
+        "k": "SOL-USD",
+        "n": 20,
+        "thresh": 0,
+        "minHold": 7
+      },
+      "cfg": {
+        "fee": 0.005,
+        "slip": 0.001,
+        "delay": 0
+      },
+      "periods": {
+        "train": {
+          "ret": 20.127946807651863,
+          "dd": 26.99681535231737,
+          "trades": 16,
+          "feeUSD": 0.28524103506640264,
+          "valid": true
+        },
+        "validation": {
+          "ret": 53.489116385521115,
+          "dd": 25.662612868745384,
+          "trades": 12,
+          "feeUSD": 0.2977642424457007,
+          "valid": true
+        },
+        "test": {
+          "ret": 15.16179157331563,
+          "dd": 29.984194531643944,
+          "trades": 20,
+          "feeUSD": 0.3244490315230857,
+          "valid": true
+        },
+        "earlier": {
+          "ret": 385.23211292904546,
+          "dd": 43.005384955441635,
+          "trades": 29,
+          "feeUSD": 0.8965057221374068,
+          "valid": true
+        },
+        "bear2022": {
+          "ret": -76.16407828006692,
+          "dd": 76.18439190181599,
+          "trades": 25,
+          "feeUSD": 0.26879288822209846,
+          "valid": false
+        }
+      }
+    },
+    {
+      "rule": {
+        "type": "trend",
+        "k": "SOL-USD",
+        "n": 20,
+        "thresh": 0,
+        "minHold": 7
+      },
+      "cfg": {
+        "fee": 0.005,
+        "slip": 0.005,
+        "delay": 0
+      },
+      "periods": {
+        "train": {
+          "ret": 12.680143501457476,
+          "dd": 28.155646643812602,
+          "trades": 16,
+          "feeUSD": 0.46045503499005674,
+          "valid": true
+        },
+        "validation": {
+          "ret": 46.29520396084954,
+          "dd": 26.842622901888884,
+          "trades": 12,
+          "feeUSD": 0.4836899444686649,
+          "valid": true
+        },
+        "test": {
+          "ret": 6.307176607650455,
+          "dd": 33.26577947227962,
+          "trades": 20,
+          "feeUSD": 0.5198159373393877,
+          "valid": true
+        },
+        "earlier": {
+          "ret": 330.35890324303426,
+          "dd": 47.5993340662449,
+          "trades": 29,
+          "feeUSD": 1.3959559874697218,
+          "valid": true
+        },
+        "bear2022": {
+          "ret": -89.09303348879347,
+          "dd": 72.18500014484155,
+          "trades": 21,
+          "feeUSD": 0.3886784910944941,
+          "valid": false
+        }
+      }
+    },
+    {
+      "rule": {
+        "type": "trend",
+        "k": "SOL-USD",
+        "n": 20,
+        "thresh": 0,
+        "minHold": 7
+      },
+      "cfg": {
+        "fee": 0.01,
+        "slip": 0.005,
+        "delay": 0
+      },
+      "periods": {
+        "train": {
+          "ret": 4.015564621043777,
+          "dd": 29.578483194660315,
+          "trades": 16,
+          "feeUSD": 0.6639817239988218,
+          "valid": true
+        },
+        "validation": {
+          "ret": 37.77432544342527,
+          "dd": 28.291463141055363,
+          "trades": 12,
+          "feeUSD": 0.7028004138028073,
+          "valid": true
+        },
+        "test": {
+          "ret": -3.8108120609208984,
+          "dd": 38.15448629275976,
+          "trades": 20,
+          "feeUSD": 0.7427875709202274,
+          "valid": true
+        },
+        "earlier": {
+          "ret": 270.40454206877524,
+          "dd": 52.848692623265315,
+          "trades": 29,
+          "feeUSD": 1.927252555524143,
+          "valid": true
+        },
+        "bear2022": {
+          "ret": -66.73540274142088,
+          "dd": 71.32537105939129,
+          "trades": 20,
+          "feeUSD": 0.5388860365907411,
+          "valid": true
+        }
+      }
+    },
+    {
+      "rule": {
+        "type": "trend",
+        "k": "SOL-USD",
+        "n": 20,
+        "thresh": 0,
+        "minHold": 7
+      },
+      "cfg": {
+        "fee": 0.005,
+        "slip": 0.001,
+        "delay": 2
+      },
+      "periods": {
+        "train": {
+          "ret": -32.326302342376934,
+          "dd": 46.539699763343215,
+          "trades": 16,
+          "feeUSD": 0.2203423754251079,
+          "valid": true
+        },
+        "validation": {
+          "ret": 27.752615953767258,
+          "dd": 32.605795607009625,
+          "trades": 12,
+          "feeUSD": 0.2699312365189868,
+          "valid": true
+        },
+        "test": {
+          "ret": 16.619471949659783,
+          "dd": 28.648869845573106,
+          "trades": 20,
+          "feeUSD": 0.32184062538384917,
+          "valid": true
+        },
+        "earlier": {
+          "ret": 386.0358045467226,
+          "dd": 46.13806771680727,
+          "trades": 29,
+          "feeUSD": 0.9379325351190962,
+          "valid": true
+        },
+        "bear2022": {
+          "ret": -85.76350540055635,
+          "dd": 86.15753454336428,
+          "trades": 21,
+          "feeUSD": 0.2989131517415446,
+          "valid": false
+        }
+      }
+    },
+    {
+      "rule": {
+        "type": "rotation",
+        "rankN": 120,
+        "maN": 120,
+        "thresh": 0,
+        "minHold": 45
+      },
+      "cfg": {
+        "fee": 0.005,
+        "slip": 0.001,
+        "delay": 0
+      },
+      "periods": {
+        "train": {
+          "ret": 49.50627850102585,
+          "dd": 32.52751175280093,
+          "trades": 9,
+          "feeUSD": 0.20962567764499082,
+          "valid": true
+        },
+        "validation": {
+          "ret": 12.25186635298523,
+          "dd": 48.987698277645045,
+          "trades": 8,
+          "feeUSD": 0.16891921402417945,
+          "valid": true
+        },
+        "test": {
+          "ret": 23.758284817882803,
+          "dd": 12.757884924882953,
+          "trades": 3,
+          "feeUSD": 0.08520058369979015,
+          "valid": true
+        },
+        "earlier": {
+          "ret": 328.25642012543585,
+          "dd": 40.959767490498386,
+          "trades": 11,
+          "feeUSD": 0.2911478578807322,
+          "valid": true
+        },
+        "bear2022": {
+          "ret": -20.116489373705036,
+          "dd": 33.120922285526646,
+          "trades": 2,
+          "feeUSD": 0.03235847100916583,
+          "valid": true
+        }
+      }
+    },
+    {
+      "rule": {
+        "type": "rotation",
+        "rankN": 120,
+        "maN": 120,
+        "thresh": 0,
+        "minHold": 45
+      },
+      "cfg": {
+        "fee": 0.005,
+        "slip": 0.005,
+        "delay": 0
+      },
+      "periods": {
+        "train": {
+          "ret": 43.643678054952304,
+          "dd": 33.598550380406635,
+          "trades": 9,
+          "feeUSD": 0.34192707255843563,
+          "valid": true
+        },
+        "validation": {
+          "ret": 8.716444107413924,
+          "dd": 49.39419509396758,
+          "trades": 8,
+          "feeUSD": 0.27676062316317196,
+          "valid": true
+        },
+        "test": {
+          "ret": 21.79378184830867,
+          "dd": 13.103398251913104,
+          "trades": 3,
+          "feeUSD": 0.1408469553991897,
+          "valid": true
+        },
+        "earlier": {
+          "ret": 308.18438339582445,
+          "dd": 42.359955086229945,
+          "trades": 11,
+          "feeUSD": 0.4720475932097733,
+          "valid": true
+        },
+        "bear2022": {
+          "ret": -20.75304941216386,
+          "dd": 33.120922285526646,
+          "trades": 2,
+          "feeUSD": 0.05371719774788914,
+          "valid": true
+        }
+      }
+    },
+    {
+      "rule": {
+        "type": "rotation",
+        "rankN": 120,
+        "maN": 120,
+        "thresh": 0,
+        "minHold": 45
+      },
+      "cfg": {
+        "fee": 0.01,
+        "slip": 0.005,
+        "delay": 0
+      },
+      "periods": {
+        "train": {
+          "ret": 36.637011315200475,
+          "dd": 34.91359331884922,
+          "trades": 9,
+          "feeUSD": 0.4993632018051184,
+          "valid": true
+        },
+        "validation": {
+          "ret": 4.4529497129362605,
+          "dd": 49.8978106077859,
+          "trades": 8,
+          "feeUSD": 0.40641793365808626,
+          "valid": true
+        },
+        "test": {
+          "ret": 19.38172527901085,
+          "dd": 13.531460329489894,
+          "trades": 3,
+          "feeUSD": 0.20913562454114887,
+          "valid": true
+        },
+        "earlier": {
+          "ret": 284.40992292508776,
+          "dd": 44.06374160202237,
+          "trades": 11,
+          "feeUSD": 0.6842932855313374,
+          "valid": true
+        },
+        "bear2022": {
+          "ret": -21.541693991830847,
+          "dd": 33.120922285526646,
+          "trades": 2,
+          "feeUSD": 0.08017887151532221,
+          "valid": true
+        }
+      }
+    },
+    {
+      "rule": {
+        "type": "rotation",
+        "rankN": 120,
+        "maN": 120,
+        "thresh": 0,
+        "minHold": 45
+      },
+      "cfg": {
+        "fee": 0.005,
+        "slip": 0.001,
+        "delay": 2
+      },
+      "periods": {
+        "train": {
+          "ret": 109.65029944668116,
+          "dd": 22.218765555002477,
+          "trades": 9,
+          "feeUSD": 0.27453211007371897,
+          "valid": true
+        },
+        "validation": {
+          "ret": 10.781075241580051,
+          "dd": 41.84920625894111,
+          "trades": 8,
+          "feeUSD": 0.1636040658928034,
+          "valid": true
+        },
+        "test": {
+          "ret": 26.77957987699888,
+          "dd": 12.26532836128243,
+          "trades": 3,
+          "feeUSD": 0.08596055274409645,
+          "valid": true
+        },
+        "earlier": {
+          "ret": 241.37485361494075,
+          "dd": 48.147530469952365,
+          "trades": 11,
+          "feeUSD": 0.2552878360305397,
+          "valid": true
+        },
+        "bear2022": {
+          "ret": -18.927558643994047,
+          "dd": 33.120922285526646,
+          "trades": 2,
+          "feeUSD": 0.03257377033647768,
+          "valid": true
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,407 @@
+{
+  "meta": {
+    "source": "Coinbase read-only daily OHLCV 2024-01 to 2026-10, six USD spot markets",
+    "periods": {
+      "train": {
+        "from": "2024-05-01",
+        "through": "2024-12-31",
+        "days": 245
+      },
+      "validation": {
+        "from": "2025-01-01",
+        "through": "2025-12-31",
+        "days": 365
+      },
+      "test": {
+        "from": "2026-01-01",
+        "through": "2026-10-13",
+        "days": 286
+      },
+      "earlier": {
+        "from": "2023-03-21",
+        "through": "2023-12-31",
+        "days": 286
+      }
+    },
+    "dataCandles": 4515,
+    "uniqueMarkets": [
+      "BTC-USD",
+      "ETH-USD",
+      "SOL-USD"
+    ],
+    "candidates": 330,
+    "selection": "train 2024 and validation 2025 combined robustness; evaluate only selected family representative on untouched 2026",
+    "startingVirtualUSD": 3,
+    "takerFeeBps": 50,
+    "assumedSlipBps": 10,
+    "minimumQuoteUSD": 1,
+    "realMoneySpent": 0,
+    "execution": "next UTC daily open after signal closes, forced last-day close settlement estimation; no intrabar fills, spread feed or orders; fee schedule based on 2026 account tier and may differ historically",
+    "objective": {
+      "criteria": "Prospective selected model: positive after realistic transaction costs, >=2 holdout entries/exits, beats cash and BTC baseline, <=25% max drawdown; NOT proof or guarantee",
+      "achievers": [
+        "volatility_veto",
+        "event_surge"
+      ]
+    },
+    "trainOnlySelection": {}
+  },
+  "selected": [
+    {
+      "type": "trend",
+      "parameter": {
+        "type": "trend",
+        "k": "SOL-USD",
+        "n": 20,
+        "thresh": 0,
+        "minHold": 7
+      },
+      "score": 18.531353565871537,
+      "train": {
+        "ret": 20.127946807651863,
+        "net": 3.6038384042295557,
+        "drawdown": 26.99681535231737,
+        "fees": 0.28524103506640264,
+        "trades": 16,
+        "changes": 16,
+        "exposurePct": 48.97959183673469,
+        "valid": true
+      },
+      "validation": {
+        "ret": 53.489116385521115,
+        "net": 4.6046734915656335,
+        "drawdown": 25.662612868745384,
+        "fees": 0.2977642424457007,
+        "trades": 12,
+        "changes": 12,
+        "exposurePct": 38.35616438356164,
+        "valid": true
+      },
+      "test": {
+        "ret": 15.16179157331563,
+        "net": 3.454853747199469,
+        "drawdown": 29.984194531643944,
+        "fees": 0.3244490315230857,
+        "trades": 20,
+        "changes": 20,
+        "exposurePct": 50,
+        "valid": true
+      },
+      "earlier": {
+        "ret": 214.34213996051034,
+        "net": 9.43026419881531,
+        "drawdown": 38.82941312454242,
+        "fees": 0.5104160738031671,
+        "trades": 25,
+        "changes": 25,
+        "exposurePct": 61.18881118881119,
+        "valid": true
+      }
+    },
+    {
+      "type": "rotation",
+      "parameter": {
+        "type": "rotation",
+        "rankN": 120,
+        "maN": 120,
+        "thresh": 0,
+        "minHold": 45
+      },
+      "score": 0.3765551486785945,
+      "train": {
+        "ret": 49.50627850102585,
+        "net": 4.485188355030775,
+        "drawdown": 32.52751175280093,
+        "fees": 0.20962567764499082,
+        "trades": 9,
+        "changes": 9,
+        "exposurePct": 87.75510204081633,
+        "valid": true
+      },
+      "validation": {
+        "ret": 12.25186635298523,
+        "net": 3.367555990589557,
+        "drawdown": 48.987698277645045,
+        "fees": 0.16891921402417945,
+        "trades": 8,
+        "changes": 8,
+        "exposurePct": 73.42465753424658,
+        "valid": true
+      },
+      "test": {
+        "ret": 23.758284817882803,
+        "net": 3.712748544536484,
+        "drawdown": 12.757884924882953,
+        "fees": 0.08520058369979015,
+        "trades": 3,
+        "changes": 3,
+        "exposurePct": 34.61538461538461,
+        "valid": true
+      },
+      "earlier": {
+        "ret": 290.2204061673878,
+        "net": 11.706612185021635,
+        "drawdown": 27.077736699062786,
+        "fees": 0.19224878351068886,
+        "trades": 7,
+        "changes": 7,
+        "exposurePct": 87.76223776223776,
+        "valid": true
+      }
+    },
+    {
+      "type": "volatility_veto",
+      "parameter": {
+        "type": "volatility_veto",
+        "rankN": 20,
+        "maN": 200,
+        "maxVol": 0.025,
+        "minHold": 21
+      },
+      "score": -6.781250918706508,
+      "train": {
+        "ret": 2.704179673982532,
+        "net": 3.081125390219476,
+        "drawdown": 24.23824746266131,
+        "fees": 0.23388967490648274,
+        "trades": 11,
+        "changes": 11,
+        "exposurePct": 54.285714285714285,
+        "valid": true
+      },
+      "validation": {
+        "ret": 6.621105894820278,
+        "net": 3.1986331768446084,
+        "drawdown": 26.627728221973477,
+        "fees": 0.313629442769518,
+        "trades": 16,
+        "changes": 16,
+        "exposurePct": 53.42465753424658,
+        "valid": true
+      },
+      "test": {
+        "ret": 11.099254806248936,
+        "net": 3.332977644187468,
+        "drawdown": 11.37761473321631,
+        "fees": 0.11846101189544478,
+        "trades": 5,
+        "changes": 5,
+        "exposurePct": 18.88111888111888,
+        "valid": true
+      },
+      "earlier": {
+        "ret": 0.7394697365126435,
+        "net": 3.022184092095379,
+        "drawdown": 42.235558003228014,
+        "fees": 0.32244457931004017,
+        "trades": 19,
+        "changes": 19,
+        "exposurePct": 71.32867132867133,
+        "valid": true
+      }
+    },
+    {
+      "type": "breakout",
+      "parameter": {
+        "type": "breakout",
+        "k": "ETH-USD",
+        "n": 60,
+        "exit": 10,
+        "minHold": 21
+      },
+      "score": 9.38238178126006,
+      "train": {
+        "ret": 15.472585818531993,
+        "net": 3.46417757455596,
+        "drawdown": 10.651849015092326,
+        "fees": 0.07163266039919787,
+        "trades": 4,
+        "changes": 4,
+        "exposurePct": 21.632653061224488,
+        "valid": true
+      },
+      "validation": {
+        "ret": 19.665829648464637,
+        "net": 3.589974889453939,
+        "drawdown": 26.206264926616278,
+        "fees": 0.15047162084348673,
+        "trades": 8,
+        "changes": 8,
+        "exposurePct": 23.013698630136986,
+        "valid": true
+      },
+      "test": {
+        "ret": -11.251645420434109,
+        "net": 2.6624506373869767,
+        "drawdown": 15.182172479735945,
+        "fees": 0.10460585197897136,
+        "trades": 6,
+        "changes": 6,
+        "exposurePct": 22.027972027972027,
+        "valid": true
+      },
+      "earlier": {
+        "ret": 0.34845431808367966,
+        "net": 3.0104536295425106,
+        "drawdown": 20.957660612483576,
+        "fees": 0.1390933371053136,
+        "trades": 8,
+        "changes": 8,
+        "exposurePct": 30.76923076923077,
+        "valid": true
+      }
+    },
+    {
+      "type": "dip_reversal",
+      "parameter": {
+        "type": "dip_reversal",
+        "k": "ETH-USD",
+        "dip": -0.025,
+        "maN": 60,
+        "wait": 30,
+        "minHold": 30
+      },
+      "score": 20.48920223486732,
+      "train": {
+        "ret": 16.228908457744428,
+        "net": 3.486867253732333,
+        "drawdown": 22.126532826663176,
+        "fees": 0.1505269951269827,
+        "trades": 7,
+        "changes": 7,
+        "exposurePct": 45.714285714285715,
+        "valid": true
+      },
+      "validation": {
+        "ret": 88.6583468045609,
+        "net": 5.659750404136827,
+        "drawdown": 17.251102199896206,
+        "fees": 0.21529801619884548,
+        "trades": 8,
+        "changes": 8,
+        "exposurePct": 32.87671232876713,
+        "valid": true
+      },
+      "test": {
+        "ret": -42.64907482441512,
+        "net": 1.7205277552675462,
+        "drawdown": 52.05809630906859,
+        "fees": 0.13981376758033387,
+        "trades": 11,
+        "changes": 11,
+        "exposurePct": 54.54545454545455,
+        "valid": true
+      },
+      "earlier": {
+        "ret": 4.770719706233373,
+        "net": 3.1431215911870014,
+        "drawdown": 23.41369387820643,
+        "fees": 0.1843009929887657,
+        "trades": 9,
+        "changes": 9,
+        "exposurePct": 48.25174825174825,
+        "valid": true
+      }
+    },
+    {
+      "type": "event_surge",
+      "parameter": {
+        "type": "event_surge",
+        "k": "ETH-USD",
+        "volRatio": 1.5,
+        "dayReturn": 0.01,
+        "wait": 14,
+        "minHold": 14
+      },
+      "score": 31.82026314975527,
+      "train": {
+        "ret": 32.824473753961094,
+        "net": 3.9847342126188328,
+        "drawdown": 16.195770927008088,
+        "fees": 0.15673452384549538,
+        "trades": 8,
+        "changes": 8,
+        "exposurePct": 22.857142857142858,
+        "valid": true
+      },
+      "validation": {
+        "ret": 32.546601452998544,
+        "net": 3.976398043589956,
+        "drawdown": 22.244306760283074,
+        "fees": 0.22650319401771377,
+        "trades": 10,
+        "changes": 10,
+        "exposurePct": 19.17808219178082,
+        "valid": true
+      },
+      "test": {
+        "ret": 18.650123125834384,
+        "net": 3.5595036937750315,
+        "drawdown": 10.578562740449977,
+        "fees": 0.15583184716935095,
+        "trades": 8,
+        "changes": 8,
+        "exposurePct": 19.58041958041958,
+        "valid": true
+      },
+      "earlier": {
+        "ret": -27.602643210292545,
+        "net": 2.1719207036912236,
+        "drawdown": 29.710797405396367,
+        "fees": 0.20171260050445958,
+        "trades": 13,
+        "changes": 13,
+        "exposurePct": 32.51748251748252,
+        "valid": true
+      }
+    }
+  ],
+  "baselines": [
+    {
+      "asset": "BTC-USD",
+      "ret": -6.156985646708312,
+      "net": 2.8152904305987505,
+      "drawdown": 39.63814819139075,
+      "fees": 0.03488634894765618,
+      "trades": 1,
+      "changes": 1,
+      "exposurePct": 100,
+      "valid": true
+    },
+    {
+      "asset": "ETH-USD",
+      "ret": -16.87480051801854,
+      "net": 2.493755984459444,
+      "drawdown": 53.3450378857882,
+      "fees": 0.032945497160094976,
+      "trades": 1,
+      "changes": 1,
+      "exposurePct": 100,
+      "valid": true
+    },
+    {
+      "asset": "SOL-USD",
+      "ret": -15.254838695247352,
+      "net": 2.5423548391425794,
+      "drawdown": 57.6346284935242,
+      "fees": 0.03323885040767929,
+      "trades": 1,
+      "changes": 1,
+      "exposurePct": 100,
+      "valid": true
+    }
+  ],
+  "cash": {
+    "type": "hold",
+    "test": {
+      "ret": 0,
+      "net": 3,
+      "drawdown": 0,
+      "fees": 0,
+      "trades": 0,
+      "changes": 0,
+      "exposurePct": 0,
+      "valid": true
+    }
+  }
+}

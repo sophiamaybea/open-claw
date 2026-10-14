@@ -1,0 +1,488 @@
+{
+  "metadata": {
+    "version": "micro-compound-research-v0.5",
+    "source": "Coinbase read-only historical 1-day OHLCV",
+    "marketDays": 1018,
+    "firstEvaluated": "2024-07-24",
+    "lastEvaluated": "2026-10-14",
+    "markets": [
+      "ADA-USD",
+      "BTC-USD",
+      "DOGE-USD",
+      "ETH-USD",
+      "LTC-USD",
+      "SOL-USD"
+    ],
+    "initialVirtualUSD": 3,
+    "realMoneyUSD": 0,
+    "simulatedFeesPctPerSide": 0.5,
+    "slippagePctPerSide": 0.1,
+    "caveat": "ALL 2024-2026 observations have already been inspected in prior research. This is RETROSPECTIVE demonstration, not untouched blind validation; simulated next-day OPEN fills do not model live order book."
+  },
+  "results": {
+    "learning": {
+      "nav": 1.172961,
+      "returnPct": -60.9013,
+      "drawdownPct": 69.113,
+      "closedTrades": 9,
+      "winningClosedTrades": 3,
+      "feeUSD": 0.18405,
+      "minimumTicketSkips": 0
+    },
+    "fixedRotation": {
+      "nav": 4.116207,
+      "returnPct": 37.2069,
+      "drawdownPct": 55.429,
+      "closedTrades": 8,
+      "winningClosedTrades": 4,
+      "feeUSD": 0.30662,
+      "minimumTicketSkips": 0
+    },
+    "cash": {
+      "nav": 3,
+      "returnPct": 0,
+      "drawdownPct": 0,
+      "closedTrades": 0,
+      "winningClosedTrades": 0,
+      "feeUSD": 0,
+      "minimumTicketSkips": 0
+    },
+    "buyAndHoldBTC": {
+      "nav": 3.735651,
+      "returnPct": 24.5217,
+      "drawdownPct": 53.077,
+      "closedTrades": 0,
+      "winningClosedTrades": 0,
+      "feeUSD": 0.015,
+      "minimumTicketSkips": 0
+    },
+    "byYear": {
+      "2024": {
+        "learning": {
+          "retPct": -18.737,
+          "ddPct": 32.089
+        },
+        "fixedRotation": {
+          "retPct": 22.421,
+          "ddPct": 33.32
+        },
+        "cash": {
+          "retPct": 0,
+          "ddPct": 0
+        },
+        "buyAndHoldBTC": {
+          "retPct": 40.464,
+          "ddPct": 20.946
+        }
+      },
+      "2025": {
+        "learning": {
+          "retPct": -44.57,
+          "ddPct": 55.028
+        },
+        "fixedRotation": {
+          "retPct": -10.011,
+          "ddPct": 49.901
+        },
+        "cash": {
+          "retPct": 0,
+          "ddPct": 0
+        },
+        "buyAndHoldBTC": {
+          "retPct": -5.303,
+          "ddPct": 32.103
+        }
+      },
+      "2026": {
+        "learning": {
+          "retPct": -11.481,
+          "ddPct": 13.106
+        },
+        "fixedRotation": {
+          "retPct": 23.752,
+          "ddPct": 13.284
+        },
+        "cash": {
+          "retPct": 0,
+          "ddPct": 0
+        },
+        "buyAndHoldBTC": {
+          "retPct": -5.024,
+          "ddPct": 39.637
+        }
+      }
+    }
+  },
+  "learning": {
+    "initialCandidates": 13,
+    "finalCandidates": 17,
+    "spawned": 4,
+    "changes": 9,
+    "closedShadowLabels": 167,
+    "spawnedToChampion": 1,
+    "championHistory": [
+      {
+        "date": "2024-11-27",
+        "day": 331,
+        "old": null,
+        "new": "rot90",
+        "score": 1.1351
+      },
+      {
+        "date": "2024-12-18",
+        "day": 352,
+        "old": "rot90",
+        "new": "rot30",
+        "score": 2.21534
+      },
+      {
+        "date": "2025-03-12",
+        "day": 436,
+        "old": "rot30",
+        "new": null,
+        "score": null
+      },
+      {
+        "date": "2025-07-16",
+        "day": 562,
+        "old": null,
+        "new": "rot120",
+        "score": 0.32868
+      },
+      {
+        "date": "2025-08-27",
+        "day": 604,
+        "old": "rot120",
+        "new": "lowvol120",
+        "score": 0.91543
+      },
+      {
+        "date": "2025-11-19",
+        "day": 688,
+        "old": "lowvol120",
+        "new": null,
+        "score": null
+      },
+      {
+        "date": "2026-03-25",
+        "day": 814,
+        "old": null,
+        "new": "lowvol120-trial4",
+        "score": 0.08477
+      },
+      {
+        "date": "2026-04-15",
+        "day": 835,
+        "old": "lowvol120-trial4",
+        "new": null,
+        "score": null
+      },
+      {
+        "date": "2026-09-30",
+        "day": 1003,
+        "old": null,
+        "new": "rot120",
+        "score": 0.27939
+      }
+    ],
+    "spawnedCandidates": [
+      {
+        "date": "2024-12-18",
+        "parent": "rot30",
+        "child": "rot30-trial1",
+        "why": "Cost-adjusted parent looked promising; child requires fresh forward paper history before promotion."
+      },
+      {
+        "date": "2025-07-16",
+        "parent": "rot120",
+        "child": "rot120-trial2",
+        "why": "Cost-adjusted parent looked promising; child requires fresh forward paper history before promotion."
+      },
+      {
+        "date": "2025-08-27",
+        "parent": "lowvol120",
+        "child": "lowvol120-trial3",
+        "why": "Cost-adjusted parent looked promising; child requires fresh forward paper history before promotion."
+      },
+      {
+        "date": "2025-09-17",
+        "parent": "lowvol120",
+        "child": "lowvol120-trial4",
+        "why": "Cost-adjusted parent looked promising; child requires fresh forward paper history before promotion."
+      }
+    ],
+    "closedTradeExamples": [
+      {
+        "date": "2024-08-07",
+        "candidate": "rot30",
+        "open": 205,
+        "closed": 219,
+        "asset": "SOL-USD",
+        "netPercent": -17.51906429975688,
+        "netUsd": -0.5255719289927065
+      },
+      {
+        "date": "2024-08-14",
+        "candidate": "rot45",
+        "open": 205,
+        "closed": 226,
+        "asset": "SOL-USD",
+        "netPercent": -16.234403457132306,
+        "netUsd": -0.4870321037139691
+      },
+      {
+        "date": "2024-08-23",
+        "candidate": "rot90",
+        "open": 205,
+        "closed": 235,
+        "asset": "SOL-USD",
+        "netPercent": -18.21563595664667,
+        "netUsd": -0.5464690786994
+      },
+      {
+        "date": "2024-08-23",
+        "candidate": "rot60",
+        "open": 205,
+        "closed": 235,
+        "asset": "SOL-USD",
+        "netPercent": -18.21563595664667,
+        "netUsd": -0.5464690786994
+      },
+      {
+        "date": "2024-08-23",
+        "candidate": "rot30",
+        "open": 221,
+        "closed": 235,
+        "asset": "SOL-USD",
+        "netPercent": -13.258248359265135,
+        "netUsd": -0.32806581912552035
+      },
+      {
+        "date": "2024-08-28",
+        "candidate": "lowvol60",
+        "open": 210,
+        "closed": 240,
+        "asset": "BTC-USD",
+        "netPercent": -13.945608445361312,
+        "netUsd": -0.4183682533608395
+      },
+      {
+        "date": "2024-09-01",
+        "candidate": "rot120s",
+        "open": 223,
+        "closed": 244,
+        "asset": "SOL-USD",
+        "netPercent": -13.207587449062686,
+        "netUsd": -0.39622762347188045
+      },
+      {
+        "date": "2024-09-07",
+        "candidate": "rot200",
+        "open": 205,
+        "closed": 250,
+        "asset": "SOL-USD",
+        "netPercent": -28.624243583778252,
+        "netUsd": -0.8587273075133477
+      },
+      {
+        "date": "2024-09-14",
+        "candidate": "rot45",
+        "open": 236,
+        "closed": 257,
+        "asset": "BTC-USD",
+        "netPercent": -6.66539299642781,
+        "netUsd": -0.16749918616152826
+      },
+      {
+        "date": "2024-09-22",
+        "candidate": "rot150",
+        "open": 205,
+        "closed": 265,
+        "asset": "SOL-USD",
+        "netPercent": -14.669972031002809,
+        "netUsd": -0.4400991609300844
+      },
+      {
+        "date": "2024-09-23",
+        "candidate": "rot60",
+        "open": 236,
+        "closed": 266,
+        "asset": "SOL-USD",
+        "netPercent": -6.819019333938936,
+        "netUsd": -0.16730674788765798
+      },
+      {
+        "date": "2024-09-25",
+        "candidate": "rot120",
+        "open": 223,
+        "closed": 268,
+        "asset": "SOL-USD",
+        "netPercent": -2.0418747282186955,
+        "netUsd": -0.061256241846560755
+      },
+      {
+        "date": "2024-09-25",
+        "candidate": "sol",
+        "open": 223,
+        "closed": 268,
+        "asset": "SOL-USD",
+        "netPercent": -2.0418747282186955,
+        "netUsd": -0.061256241846560755
+      },
+      {
+        "date": "2024-10-03",
+        "candidate": "rot30",
+        "open": 262,
+        "closed": 276,
+        "asset": "BTC-USD",
+        "netPercent": -3.0172244483145483,
+        "netUsd": -0.06476056661317164
+      },
+      {
+        "date": "2024-10-09",
+        "candidate": "btc",
+        "open": 237,
+        "closed": 282,
+        "asset": "BTC-USD",
+        "netPercent": -4.368514092991205,
+        "netUsd": -0.13105542278973603
+      },
+      {
+        "date": "2024-10-10",
+        "candidate": "lowvol120",
+        "open": 238,
+        "closed": 283,
+        "asset": "BTC-USD",
+        "netPercent": -6.841752301857806,
+        "netUsd": -0.2052525690557343
+      }
+    ],
+    "candidateScoreboard": [
+      {
+        "id": "rot120",
+        "seed": true,
+        "born": "2024-01-01",
+        "labels": 8,
+        "returnPct": 37.2069
+      },
+      {
+        "id": "rot90",
+        "seed": true,
+        "born": "2024-01-01",
+        "labels": 10,
+        "returnPct": 33.3564
+      },
+      {
+        "id": "rot60",
+        "seed": true,
+        "born": "2024-01-01",
+        "labels": 14,
+        "returnPct": -16.3533
+      },
+      {
+        "id": "rot150",
+        "seed": true,
+        "born": "2024-01-01",
+        "labels": 8,
+        "returnPct": -45.7635
+      },
+      {
+        "id": "rot200",
+        "seed": true,
+        "born": "2024-01-01",
+        "labels": 8,
+        "returnPct": -41.8092
+      },
+      {
+        "id": "rot45",
+        "seed": true,
+        "born": "2024-01-01",
+        "labels": 21,
+        "returnPct": -35.2699
+      },
+      {
+        "id": "rot120s",
+        "seed": true,
+        "born": "2024-01-01",
+        "labels": 9,
+        "returnPct": 51.2064
+      },
+      {
+        "id": "rot30",
+        "seed": true,
+        "born": "2024-01-01",
+        "labels": 32,
+        "returnPct": -26.6538
+      },
+      {
+        "id": "lowvol60",
+        "seed": true,
+        "born": "2024-01-01",
+        "labels": 10,
+        "returnPct": 6.9226
+      },
+      {
+        "id": "lowvol120",
+        "seed": true,
+        "born": "2024-01-01",
+        "labels": 8,
+        "returnPct": 73.5152
+      },
+      {
+        "id": "btc",
+        "seed": true,
+        "born": "2024-01-01",
+        "labels": 4,
+        "returnPct": 12.5499
+      },
+      {
+        "id": "eth",
+        "seed": true,
+        "born": "2024-01-01",
+        "labels": 3,
+        "returnPct": -9.2486
+      },
+      {
+        "id": "sol",
+        "seed": true,
+        "born": "2024-01-01",
+        "labels": 4,
+        "returnPct": 0.3412
+      },
+      {
+        "id": "rot30-trial1",
+        "seed": false,
+        "born": "2024-12-19",
+        "labels": 15,
+        "returnPct": -51.0135
+      },
+      {
+        "id": "rot120-trial2",
+        "seed": false,
+        "born": "2025-07-17",
+        "labels": 5,
+        "returnPct": -37.2457
+      },
+      {
+        "id": "lowvol120-trial3",
+        "seed": false,
+        "born": "2025-08-28",
+        "labels": 3,
+        "returnPct": -25.4335
+      },
+      {
+        "id": "lowvol120-trial4",
+        "seed": false,
+        "born": "2025-09-18",
+        "labels": 5,
+        "returnPct": -49.9055
+      }
+    ]
+  },
+  "checks": {
+    "no_future_perturbation_of_past_decisions": true,
+    "completed_labels_generated": true,
+    "no_trading_commands": true,
+    "no_naive_training_without_observations": true
+  }
+}
