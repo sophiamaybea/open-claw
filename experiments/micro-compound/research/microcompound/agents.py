@@ -83,27 +83,36 @@ class LearningRouter(DiscountedRouter):
         self.latest: dict[str, dict[str,float]] = {}
         self.completed_labels: list[dict[str, Any]] = []
         self.model_driven_choices = 0
+        self.model_evaluations = 0
+        self.model_vetoes = 0
 
     def choose(self, proposals: dict[str, dict[str, Any]]) -> str:
-        # No experimental ML preference until each arm has >= 8 realised shadow outcomes.
+        # Hard-eligibility from the original deterministic risk/cost rules always wins.
         eligible = [arm for arm in ARMS if proposals[arm]['eligible']]
         if not eligible:
             return 'HOLD'
-        if len(eligible) < 2 or any(self.models[a].samples < 8 for a in eligible):
+        ready = [arm for arm in eligible if self.models[arm].samples >= 8]
+        if not ready:
             return super().choose(proposals)
-        assessed = {}
-        for arm in eligible:
+        # A model may veto a candidate or change relative score; it cannot make an
+        # ineligible candidate tradable, increase portfolio risk, or override HOLD.
+        scores = {arm: self.value[arm] + proposals[arm]['gross_edge_bps']
+                  - proposals[arm]['cost_bps'] for arm in eligible}
+        for arm in ready:
             probability = self.models[arm].predict_one(self.latest.get(arm, {}))
-            # Probability is of a net profitable shadow trade, NOT a calibrated forecast of P&L.
-            # Penalise fee costs and a lower-bound uncertainty margin; never infer new eligibility.
-            ewma = self.value[arm]
-            assessed[arm] = ewma + (probability - .5) * 40 + proposals[arm]['gross_edge_bps'] - proposals[arm]['cost_bps']
-        winner = max(assessed, key=assessed.get)
-        if assessed[winner] <= 0:
+            self.model_evaluations += 1
+            # Experimental weak adjustment with a deliberately bounded influence.
+            scores[arm] += max(-35., min(35., (probability - .5) * 70))
+            if probability < .48:
+                scores[arm] = -float('inf')
+                self.model_vetoes += 1
+        best = max(scores, key=scores.get)
+        if scores[best] <= 0:
             return 'HOLD'
-        self.choices[winner] += 1
-        self.model_driven_choices += 1
-        return winner
+        self.choices[best] += 1
+        if best in ready:
+            self.model_driven_choices += 1
+        return best
 
     def observed_shadow_close(self, arm: str, x: dict[str, float], trade: dict, step: int):
         trade_id = hashlib.sha256(f'{arm}:{x.get("price_change_bps")}:{step}:{self.models[arm].samples}'.encode()).hexdigest()[:16]
@@ -168,6 +177,8 @@ class LearningSimulator(Simulator):
             'timing':'predict at entry; learn after shadow exit only',
             'models':{a:self.router.models[a].report() for a in ARMS},
             'model_driven_choices':self.router.model_driven_choices,
+            'model_evaluations':self.router.model_evaluations,
+            'model_vetoes':self.router.model_vetoes,
             'recent_labelled_exits':self.router.completed_labels[-15:],
             'prequential_metrics_not_in_sample':True,
         }
@@ -228,7 +239,9 @@ def run_sweep(*, seeds=range(3,15), capitals=(1.,3.,10.), cost_mults=(1.,2.,5.),
                 cfg=Configuration(initial_usd=float(initial),seed=seed,meme_roundtrip_cost_bps=260.0*cost_mult,scalp_roundtrip_cost_bps=32.0*cost_mult)
                 report=LearningSimulator(cfg,force_fallback=force_fallback).run(path)
                 baseline=Simulator(cfg).run(path)
-                runs.append({'legacy_router_pnl':baseline['net_pnl'],
+                runs.append({'model_evaluations':report['learning']['model_evaluations'],
+                             'model_vetoes':report['learning']['model_vetoes'],
+                             'legacy_router_pnl':baseline['net_pnl'],
                              'learning_minus_legacy_pnl':round(report['net_pnl']-baseline['net_pnl'],8),
                              'net_return_pct':round(100*report['net_pnl']/initial,5),
                              'seed':seed,'start_usd':initial,'cost_mult':cost_mult,'virtual_nav':report['virtual_nav'],
@@ -237,7 +250,9 @@ def run_sweep(*, seeds=range(3,15), capitals=(1.,3.,10.), cost_mults=(1.,2.,5.),
                              'halted':report['halted'],'learning':report['learning']})
     losses=[v['net_pnl'] for v in runs]
     relative=[v['net_return_pct'] for v in runs]
-    summary={'run_count':len(runs),'unique_seeds':len(set(x['seed'] for x in runs)),
+    summary={'run_count':len(runs),'model_evaluations':sum(x['model_evaluations'] for x in runs),
+             'model_vetoes':sum(x['model_vetoes'] for x in runs),
+             'unique_seeds':len(set(x['seed'] for x in runs)),
              'mean_pnl':round(sum(losses)/len(losses),8),
              'mean_return_pct':round(sum(relative)/len(relative),5),
              'beat_original_router_fraction':round(sum(x['learning_minus_legacy_pnl']>0 for x in runs)/len(runs),6),
