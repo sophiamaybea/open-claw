@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-10-14T18:21:43.355Z",
-  "lastBar": 1792001700,
+  "updatedAt": "2026-10-14T19:10:07.406Z",
+  "lastBar": 1792004940,
   "mode": "PAPER ONLY — NO MONEY",
-  "origin": "Coinbase Exchange public, unauthenticated 5-minute candles",
+  "origin": "Coinbase Exchange public, unauthenticated 1-minute candles",
   "currencies": [
     "BTC-USD",
     "ETH-USD",
     "SOL-USD"
   ],
-  "polls": 2,
+  "polls": 1,
   "researchCycles": 0,
   "champion": "CASH",
   "mutationCount": 0,
@@ -22,12 +22,7 @@
       "fees_usd": 0,
       "drawdown_pct": 0,
       "holding": "USD",
-      "history": [
-        {
-          "t": 1792001700,
-          "value": 3
-        }
-      ]
+      "history": []
     },
     "fixedBaseline": {
       "nav": 3,
@@ -37,27 +32,17 @@
       "fees_usd": 0,
       "drawdown_pct": 0,
       "holding": "USD",
-      "history": [
-        {
-          "t": 1792001700,
-          "value": 3
-        }
-      ]
+      "history": []
     },
     "btc": {
-      "nav": 2.961871,
-      "roi_pct": -1.271,
+      "nav": 3,
+      "roi_pct": 0,
       "trades": 0,
       "wins": 0,
-      "fees_usd": 0.015,
-      "drawdown_pct": 1.27,
-      "holding": "BTC-USD",
-      "history": [
-        {
-          "t": 1792001700,
-          "value": 2.961871
-        }
-      ]
+      "fees_usd": 0,
+      "drawdown_pct": 0,
+      "holding": "USD",
+      "history": []
     },
     "cash": {
       "nav": 3,
@@ -67,12 +52,7 @@
       "fees_usd": 0,
       "drawdown_pct": 0,
       "holding": "USD",
-      "history": [
-        {
-          "t": 1792001700,
-          "value": 3
-        }
-      ]
+      "history": []
     }
   },
   "agents": [
@@ -83,7 +63,7 @@
       "threshold": 0.011,
       "holdBars": 12,
       "parent": null,
-      "born": 1792001700,
+      "born": 1792005000,
       "observations": 0,
       "online_reward": 0,
       "nav": 3,
@@ -93,12 +73,7 @@
       "fees_usd": 0,
       "drawdown_pct": 0,
       "holding": "USD",
-      "history": [
-        {
-          "t": 1792001700,
-          "value": 3
-        }
-      ]
+      "history": []
     },
     {
       "id": "rotation-72",
@@ -107,7 +82,7 @@
       "threshold": 0.018,
       "holdBars": 36,
       "parent": null,
-      "born": 1792001700,
+      "born": 1792005000,
       "observations": 0,
       "online_reward": 0,
       "nav": 3,
@@ -117,12 +92,7 @@
       "fees_usd": 0,
       "drawdown_pct": 0,
       "holding": "USD",
-      "history": [
-        {
-          "t": 1792001700,
-          "value": 3
-        }
-      ]
+      "history": []
     },
     {
       "id": "trend-48",
@@ -131,7 +101,7 @@
       "threshold": 0.016,
       "holdBars": 18,
       "parent": null,
-      "born": 1792001700,
+      "born": 1792005000,
       "observations": 0,
       "online_reward": 0,
       "nav": 3,
@@ -141,12 +111,7 @@
       "fees_usd": 0,
       "drawdown_pct": 0,
       "holding": "USD",
-      "history": [
-        {
-          "t": 1792001700,
-          "value": 3
-        }
-      ]
+      "history": []
     },
     {
       "id": "breakout-24",
@@ -155,7 +120,7 @@
       "threshold": 0.002,
       "holdBars": 12,
       "parent": null,
-      "born": 1792001700,
+      "born": 1792005000,
       "observations": 0,
       "online_reward": 0,
       "nav": 3,
@@ -165,12 +130,7 @@
       "fees_usd": 0,
       "drawdown_pct": 0,
       "holding": "USD",
-      "history": [
-        {
-          "t": 1792001700,
-          "value": 3
-        }
-      ]
+      "history": []
     },
     {
       "id": "mean-revert-48",
@@ -179,7 +139,7 @@
       "threshold": -1.45,
       "holdBars": 12,
       "parent": null,
-      "born": 1792001700,
+      "born": 1792005000,
       "observations": 0,
       "online_reward": 0,
       "nav": 3,
@@ -189,12 +149,7 @@
       "fees_usd": 0,
       "drawdown_pct": 0,
       "holding": "USD",
-      "history": [
-        {
-          "t": 1792001700,
-          "value": 3
-        }
-      ]
+      "history": []
     },
     {
       "id": "flush-reversal",
@@ -203,7 +158,7 @@
       "threshold": -0.018,
       "holdBars": 9,
       "parent": null,
-      "born": 1792001700,
+      "born": 1792005000,
       "observations": 0,
       "online_reward": 0,
       "nav": 3,
@@ -213,12 +168,7 @@
       "fees_usd": 0,
       "drawdown_pct": 0,
       "holding": "USD",
-      "history": [
-        {
-          "t": 1792001700,
-          "value": 3
-        }
-      ]
+      "history": []
     },
     {
       "id": "volume-surge",
@@ -227,7 +177,7 @@
       "threshold": 2,
       "holdBars": 12,
       "parent": null,
-      "born": 1792001700,
+      "born": 1792005000,
       "observations": 0,
       "online_reward": 0,
       "nav": 3,
@@ -237,12 +187,7 @@
       "fees_usd": 0,
       "drawdown_pct": 0,
       "holding": "USD",
-      "history": [
-        {
-          "t": 1792001700,
-          "value": 3
-        }
-      ]
+      "history": []
     },
     {
       "id": "low-vol-rotation",
@@ -251,7 +196,7 @@
       "threshold": 0.009,
       "holdBars": 24,
       "parent": null,
-      "born": 1792001700,
+      "born": 1792005000,
       "observations": 0,
       "online_reward": 0,
       "nav": 3,
@@ -261,17 +206,12 @@
       "fees_usd": 0,
       "drawdown_pct": 0,
       "holding": "USD",
-      "history": [
-        {
-          "t": 1792001700,
-          "value": 3
-        }
-      ]
+      "history": []
     }
   ],
   "events": [
     {
-      "at": 1792001400,
+      "at": 1792004940,
       "type": "bootstrap",
       "text": "Loaded 210 historical candles for signal context; NO retroactive paper trades."
     }
@@ -279,9 +219,9 @@
   "warnings": null,
   "security": "No account authentication, private keys, live exchange transactions or wallet connection.",
   "health": {
-    "bootstrap": false,
-    "processed": 1,
-    "lastBar": 1792001700,
-    "status": "PAPER_RUNNING"
+    "bootstrap": true,
+    "processed": 0,
+    "lastBar": 1792004940,
+    "status": "BOOTSTRAPPED"
   }
 }
