@@ -1,8 +1,1107 @@
 {
-  "updatedAt": null,
-  "state": "INITIALIZING",
-  "results": 0,
-  "opportunities": [],
+  "updatedAt": "2026-10-14T19:13:15.098Z",
+  "state": "RESEARCH_READY",
+  "sources": [
+    "GitHub issue search"
+  ],
+  "searchedQueries": [
+    "is:issue is:open label:bounty",
+    "is:issue is:open bounty in:title",
+    "is:issue is:open \"algora\" in:body",
+    "is:issue is:open \"USDC\" \"bounty\""
+  ],
+  "results": 60,
+  "scanCount": 319,
   "errors": [],
-  "disclaimer": "Research only; source and payout must be verified."
+  "opportunities": [
+    {
+      "id": 5846201177,
+      "title": "Bounty track: hunt accepted-but-unsound programs at the task boundary",
+      "html_url": "https://github.com/limitlessprojects/Go-Hybrid/issues/5",
+      "repository": "limitlessprojects/Go-Hybrid",
+      "created_at": "2026-10-14T10:31:03Z",
+      "updated_at": "2026-10-14T18:09:40Z",
+      "payoutMentionUSD": 500,
+      "labels": [
+        "help wanted",
+        "soundness",
+        "💎 bounty"
+      ],
+      "score": 73,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "**This issue participates in the [$500 Hybrid Bounty pool](https://github.com/limitlessprojects/Go-Hybrid/blob/main/BOUNTY.md).** Payouts ride the top-10 ladder there ($75 / $60 / $50 podium, $45 for places 4 to 10). Read [BOUNTY.md](https://github.com/limitlessprojects/Go-Hybrid"
+    },
+    {
+      "id": 5437130793,
+      "title": "[RADAR] High-value blockchain bounty discovery",
+      "html_url": "https://github.com/markabramov1993/arbitr/issues/8",
+      "repository": "markabramov1993/arbitr",
+      "created_at": "2026-09-13T00:54:51Z",
+      "updated_at": "2026-10-14T18:59:22Z",
+      "payoutMentionUSD": 319000,
+      "labels": [],
+      "score": 72,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "# Blockchain bounty radar UTC: 2026-10-14T18:59:18.660156+00:00 ## High-value verified/discovery hits (>=500 nominal) - Superteam | nominal 319000 | DISCOVERY | https://superteam.fun/earn/bounties | cts All Content Design Dev Other USD Total Value Earned Opportunities Listed Are "
+    },
+    {
+      "id": 5851988317,
+      "title": "🎯 Bounty-Radar",
+      "html_url": "https://github.com/hanoi96international-gif/Test/issues/1",
+      "repository": "hanoi96international-gif/Test",
+      "created_at": "2026-10-14T16:58:44Z",
+      "updated_at": "2026-10-14T18:40:03Z",
+      "payoutMentionUSD": 3000,
+      "labels": [
+        "bounty-radar"
+      ],
+      "score": 72,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "# 🎯 Bounty-Radar (2026-10-14) Bezahlte, offene Programmieraufgaben ab 50 $, sortiert nach *Betrag ÷ Konkurrenz* (frische Bounties doppelt gewichtet). Nur etablierte Projekte (≥ 100 Sterne, ≥ 6 Monate alt); Köder-Repos mit Fantasiebeträgen sind ausgefiltert. | # | Betrag | Alter "
+    },
+    {
+      "id": 5752205252,
+      "title": "[Bounty $3,000] Fix ttnn.sampling distribution bias from low-precision random threshold",
+      "html_url": "https://github.com/tenstorrent/tt-metal/issues/59732",
+      "repository": "tenstorrent/tt-metal",
+      "created_at": "2026-10-07T21:34:17Z",
+      "updated_at": "2026-10-14T14:25:52Z",
+      "payoutMentionUSD": 3000,
+      "labels": [
+        "bounty",
+        "bounty_difficulty/medium"
+      ],
+      "score": 72,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "# 📝 Background This is a community-suggested bounty that we have reviewed and assigned to [@samiyadev786](https://github.com/samiyadev786). `ttnn.sampling` is used for on-device non-greedy token sampling in the shared sampling path used by `tt-transformers` and other model integ"
+    },
+    {
+      "id": 5491809342,
+      "title": "[Bounty $3000] Fix distributed LayerNorm/RMSNorm 2D-core-grid row-stride corruption",
+      "html_url": "https://github.com/tenstorrent/tt-metal/issues/56908",
+      "repository": "tenstorrent/tt-metal",
+      "created_at": "2026-09-17T19:27:38Z",
+      "updated_at": "2026-10-14T12:07:44Z",
+      "payoutMentionUSD": 3000,
+      "labels": [
+        "bounty",
+        "bounty_difficulty/hard"
+      ],
+      "score": 72,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "## 📝 Background This is a community-suggested bounty for a correctness bug in the distributed LayerNorm/RMSNorm use_2d_core_grid=True path. When a core owns more than one row-tile, the 2D reader computes the first tile correctly but then advances linearly instead of applying the"
+    },
+    {
+      "id": 4832474948,
+      "title": "[Bounty $2500] Command-R bringup using TTNN APIs",
+      "html_url": "https://github.com/tenstorrent/tt-metal/issues/49307",
+      "repository": "tenstorrent/tt-metal",
+      "created_at": "2026-07-07T21:46:56Z",
+      "updated_at": "2026-10-13T21:02:04Z",
+      "payoutMentionUSD": 2500,
+      "labels": [
+        "community",
+        "bounty",
+        "bounty_difficulty/hard",
+        "model bringup"
+      ],
+      "score": 72,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "### 📝 Background This bounty is for bringing up [CohereForAI/c4ai-command-r-v01](https://huggingface.co/CohereForAI/c4ai-command-r-v01) using TTNN APIs on Tenstorrent hardware (Wormhole T3K — 4× N300s). Command R is Cohere's open-weight 35B parameter autoregressive language mode"
+    },
+    {
+      "id": 5005621926,
+      "title": "[BOUNTY][$640][FIX] Fix the compatability issues with the TempleOS operating system.",
+      "html_url": "https://github.com/theselfish/SlopStation13/issues/4",
+      "repository": "theselfish/SlopStation13",
+      "created_at": "2026-07-29T05:02:41Z",
+      "updated_at": "2026-10-12T20:07:41Z",
+      "payoutMentionUSD": 640,
+      "labels": [
+        "good first issue",
+        "bounty"
+      ],
+      "score": 69,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "# Bounty Details Due to conflicts in the files, we've lost the ability for TempleOS players to enjoy the game. TempleOS players are 48% of our player base so this is a high priority fix. # Bounty Reward $640 Bohemian Dollars will be paid to whomever completes this task. Payment w"
+    },
+    {
+      "id": 5408446992,
+      "title": "[Bounty] [Bounty: $500] Critical: system.beforeEvents.startup Throws CommandRegistrationE",
+      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1333",
+      "repository": "zhangjiayang6835-cyber/bounty-plaza",
+      "created_at": "2026-09-10T06:04:24Z",
+      "updated_at": "2026-10-13T05:44:56Z",
+      "payoutMentionUSD": 500,
+      "labels": [
+        "bounty",
+        "real"
+      ],
+      "score": 68,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/Senthemodder/aquarium-of-gullibles/issues/4 ### 漏洞描述 / Description [Bounty: $500] Critical: system.beforeEvents.startup Throws CommandRegistrationError on Bedrock 1.21.70 ### Bounty: USDC (Escrow Locked) ### Desc"
+    },
+    {
+      "id": 5005623483,
+      "title": "[Bounty] [$600] Add Thursday's Boots",
+      "html_url": "https://github.com/theselfish/SlopStation13/issues/5",
+      "repository": "theselfish/SlopStation13",
+      "created_at": "2026-07-29T05:02:58Z",
+      "updated_at": "2026-10-13T05:44:29Z",
+      "payoutMentionUSD": 600,
+      "labels": [
+        "good first issue",
+        "bounty"
+      ],
+      "score": 68,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "# Thursday's Boots TGStation is sponsored by Thursday's Boots and we want the code to reflect this. Branding and references for Thursday's Boots must be in every file in the repo. # History of Thursday's Boots Thursday's Boots is a boot company that sells boots. They don't only s"
+    },
+    {
+      "id": 5800523526,
+      "title": "🎯 Bounty Alert: 13 New Opportunityies found",
+      "html_url": "https://github.com/freedom-winds/BountyScout/issues/1233",
+      "repository": "freedom-winds/BountyScout",
+      "created_at": "2026-10-11T11:12:04Z",
+      "updated_at": "2026-10-11T11:12:04Z",
+      "payoutMentionUSD": 80,
+      "labels": [
+        "bounty-alert"
+      ],
+      "score": 68,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "### Active Bounty Scan Results **Scan Time:** 2026-10-11 11:12 UTC #### 1. [[Bounty: $70] Mark alerts notified only after the webhook actually succeeds](https://github.com/SUSU-LABS/susu-indexer/issues/43) - **Repository:** [SUSU-LABS/susu-indexer](https://github.com/SUSU-LABS/su"
+    },
+    {
+      "id": 5765087847,
+      "title": "[Bounty: $65] Point the link checker at `SECURITY.md` and `docs/**`",
+      "html_url": "https://github.com/Signpost-Labs/signpost-app/issues/44",
+      "repository": "Signpost-Labs/signpost-app",
+      "created_at": "2026-10-08T16:08:49Z",
+      "updated_at": "2026-10-14T18:09:31Z",
+      "payoutMentionUSD": 65,
+      "labels": [],
+      "score": 67,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "**Context** `link-check.yml` passes an explicit file list to `lychee-action`: `README.md DEVELOPMENT.md DEPLOYMENT.md CONTRIBUTING.md packages/indexer/README.md`. That omits `SECURITY.md` and the entire `docs/` tree — 20-plus Markdown files including `docs/PRODUCT_SCOPE.md`, the "
+    },
+    {
+      "id": 5801740510,
+      "title": "[Bounty proposal] fix(imports): a title line above a single \"Name:\" line is imported as part of the speaker name ($50 proposed)",
+      "html_url": "https://github.com/BasedHardware/omi/issues/21203",
+      "repository": "BasedHardware/omi",
+      "created_at": "2026-10-11T14:00:08Z",
+      "updated_at": "2026-10-14T14:26:58Z",
+      "payoutMentionUSD": 50,
+      "labels": [],
+      "score": 66,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "**Product impact** - Primary loop layer: transcript file import (`POST /v1/imports/transcripts`, `.txt` uploads). - A very common layout, a title or date line followed by the transcript, imports with a phantom third speaker: the title is glued onto the first speaker's name (`\"Mee"
+    },
+    {
+      "id": 5801650672,
+      "title": "[Bounty proposal] fix(audio-timeline): segment starting exactly on the first sample after a VAD gap is persisted unplaced ($50 proposed)",
+      "html_url": "https://github.com/BasedHardware/omi/issues/21199",
+      "repository": "BasedHardware/omi",
+      "created_at": "2026-10-11T13:48:46Z",
+      "updated_at": "2026-10-14T14:13:49Z",
+      "payoutMentionUSD": 50,
+      "labels": [],
+      "score": 66,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "**Product impact** - Primary loop layer: live transcript capture (`/v4/listen`, audio timeline v2). Affects where a transcript segment is anchored on the capture clock, which drives playback seek, speaker-ID windows and capture-merge proofs. - The first segment after every VAD sk"
+    },
+    {
+      "id": 5473199511,
+      "title": "Migrate schematic-only ESP32 module circuit example bounty from archived docs-old#47",
+      "html_url": "https://github.com/tscircuit/docs/issues/886",
+      "repository": "tscircuit/docs",
+      "created_at": "2026-09-16T10:17:19Z",
+      "updated_at": "2026-10-14T13:20:09Z",
+      "payoutMentionUSD": 50,
+      "labels": [],
+      "score": 66,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "## Context The bounty issue [tscircuit/docs-old#47](https://github.com/tscircuit/docs-old/issues/47) (\"ESP32 module circuit example\", $50) lives in the **archived** `docs-old` repo, which is read-only — it cannot be claimed, commented on, or PR'd against. This affects all docs-ol"
+    },
+    {
+      "id": 4872518962,
+      "title": "[claude-builders-bounty/claude-builders-bounty] [BOUNTY $50] SKILL: Generate a structured CHANGELOG from git",
+      "html_url": "https://github.com/Vikingr2023/awesome-agent-bounties/issues/296",
+      "repository": "Vikingr2023/awesome-agent-bounties",
+      "created_at": "2026-07-13T10:00:13Z",
+      "updated_at": "2026-10-14T08:10:19Z",
+      "payoutMentionUSD": 50,
+      "labels": [
+        "good first issue",
+        "bounty-hunter",
+        "external-mirror",
+        "bounty",
+        "skill"
+      ],
+      "score": 66,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "## 外部 Bounty 任务镜像 | 字段 | 值 | |---|---| | 源仓库 | claude-builders-bounty/claude-builders-bounty | | 原 issue | #1 | | 作者 | claudebounty | | 创建时间 | 2026-03-27T00:55:36 | | 标签 | bounty,skill,good first issue | | 评论 | 1817 条 | | 赏金 | $50 | | 原 URL | https://github.com/claude-builders-bo"
+    },
+    {
+      "id": 4530092639,
+      "title": "Low Handing Fruit Automation",
+      "html_url": "https://github.com/SecureBananaLabs/bug-bounty/issues/743",
+      "repository": "SecureBananaLabs/bug-bounty",
+      "created_at": "2026-05-27T06:32:39Z",
+      "updated_at": "2026-10-14T05:03:06Z",
+      "payoutMentionUSD": 700,
+      "labels": [
+        "bug",
+        "documentation",
+        "good first issue",
+        "help wanted",
+        "bug bounty",
+        "ai agent friendly",
+        "bounty",
+        "💎 bounty",
+        "$700"
+      ],
+      "score": 65,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "Automate Low Hanging fruit bug detection and issue creation recursively. This issue is an issue focused on creating more issues: 1. Find a feature/bug to work on from this repository 2. Create a GitHub issue on the repository to start working on it -- Pull requests without issues"
+    },
+    {
+      "id": 4543261513,
+      "title": "[PAID BOUNTY - $750] Email Threads API",
+      "html_url": "https://github.com/warpspeedopen-source/warpspeed-bounties/issues/4",
+      "repository": "warpspeedopen-source/warpspeed-bounties",
+      "created_at": "2026-05-28T19:40:03Z",
+      "updated_at": "2026-10-13T22:49:17Z",
+      "payoutMentionUSD": 750,
+      "labels": [
+        "help wanted",
+        "bounty",
+        "expert",
+        "paid",
+        "open",
+        "nodejs",
+        "prisma",
+        "typescript",
+        "backend",
+        "api"
+      ],
+      "score": 65,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "## Bounty Overview Build a thread-first Email Threads API for the warpSpeed app. This bounty introduces a new threaded email experience so users can work with conversations instead of isolated messages. Developers will create API support for listing email threads, opening a threa"
+    },
+    {
+      "id": 4697954151,
+      "title": "[$25 BOUNTY] [Python] Add independent log parser fixtures",
+      "html_url": "https://github.com/weilixiong/TentOfTrials/issues/5",
+      "repository": "weilixiong/TentOfTrials",
+      "created_at": "2026-06-19T04:37:59Z",
+      "updated_at": "2026-10-14T03:10:53Z",
+      "payoutMentionUSD": 25,
+      "labels": [
+        "help wanted",
+        "good first issue",
+        "bounty",
+        "language:python"
+      ],
+      "score": 64,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "**Bounty:** $25 (LT) **Area:** `tools/log_aggregator.py` and parser fixture tests **Current state:** The legacy log aggregator notes that parser tests can false-pass because the test data was generated by the same parser logic. This leaves JSON, text, and nginx log parsing vulner"
+    },
+    {
+      "id": 5839548473,
+      "title": "[Bounty] 📋 2 open bounties right now",
+      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1891",
+      "repository": "zhangjiayang6835-cyber/bounty-plaza",
+      "created_at": "2026-10-13T23:57:04Z",
+      "updated_at": "2026-10-14T00:04:10Z",
+      "payoutMentionUSD": 150,
+      "labels": [
+        "bounty",
+        "real"
+      ],
+      "score": 64,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/habibdxb01/bounty-watcher/issues/5 ### 漏洞描述 / Description 📋 2 open bounties right now Bounties that were already open when the watcher started. From now on, each new one gets its own issue. - 🔴 **$150** · [📱 E"
+    },
+    {
+      "id": 5838147120,
+      "title": "📋 2 open bounties right now",
+      "html_url": "https://github.com/habibdxb01/bounty-watcher/issues/5",
+      "repository": "habibdxb01/bounty-watcher",
+      "created_at": "2026-10-13T21:40:05Z",
+      "updated_at": "2026-10-13T22:47:59Z",
+      "payoutMentionUSD": 150,
+      "labels": [
+        "bounty",
+        "assessed"
+      ],
+      "score": 64,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "Bounties that were already open when the watcher started. From now on, each new one gets its own issue. - 🔴 **$150** · [📱 Epic: BAWES Universe Mobile App (Android + iOS)](https://github.com/BAWES-Universe/workadventure-universe/issues/1) - 🔴 **$50** · [BOUNTY: integrate AWS Co"
+    },
+    {
+      "id": 5576656819,
+      "title": "[Bounty proposal] docs(python-cli): Sicilian (scn) AI agent quickstart guide ($25 proposed)",
+      "html_url": "https://github.com/BasedHardware/omi/issues/18806",
+      "repository": "BasedHardware/omi",
+      "created_at": "2026-09-25T01:10:59Z",
+      "updated_at": "2026-10-11T04:47:51Z",
+      "payoutMentionUSD": 25,
+      "labels": [
+        "docs-tooling",
+        "p3"
+      ],
+      "score": 64,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "### Summary Added the Sicilian (`scn`) localization for the LLM/Agent quickstart guide in `sdks/python-cli/examples/agent_quickstart.scn.md`. ### Scope of Work - Complete Sicilian translation of `agent_quickstart.md` for agent-driven workflows with `omi-cli`. - Preserved identica"
+    },
+    {
+      "id": 5576658687,
+      "title": "[Bounty proposal] docs(python-cli): Kashubian (csb) AI agent quickstart guide ($25 proposed)",
+      "html_url": "https://github.com/BasedHardware/omi/issues/18812",
+      "repository": "BasedHardware/omi",
+      "created_at": "2026-09-25T01:11:12Z",
+      "updated_at": "2026-10-11T04:43:39Z",
+      "payoutMentionUSD": 25,
+      "labels": [
+        "docs-tooling",
+        "p3"
+      ],
+      "score": 64,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "### Summary Added the Kashubian (`csb`) localization for the LLM/Agent quickstart guide in `sdks/python-cli/examples/agent_quickstart.csb.md`. ### Scope of Work - Complete Kashubian translation of `agent_quickstart.md` for agent-driven workflows with `omi-cli`. - Preserved identi"
+    },
+    {
+      "id": 5576658170,
+      "title": "[Bounty proposal] docs(python-cli): Silesian (szl) AI agent quickstart guide ($25 proposed)",
+      "html_url": "https://github.com/BasedHardware/omi/issues/18811",
+      "repository": "BasedHardware/omi",
+      "created_at": "2026-09-25T01:11:09Z",
+      "updated_at": "2026-10-11T04:43:33Z",
+      "payoutMentionUSD": 25,
+      "labels": [
+        "docs-tooling",
+        "p3"
+      ],
+      "score": 64,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "### Summary Added the Silesian (`szl`) localization for the LLM/Agent quickstart guide in `sdks/python-cli/examples/agent_quickstart.szl.md`. ### Scope of Work - Complete Silesian translation of `agent_quickstart.md` for agent-driven workflows with `omi-cli`. - Preserved identica"
+    },
+    {
+      "id": 5576657154,
+      "title": "[Bounty proposal] docs(python-cli): Venetian (vec) AI agent quickstart guide ($25 proposed)",
+      "html_url": "https://github.com/BasedHardware/omi/issues/18807",
+      "repository": "BasedHardware/omi",
+      "created_at": "2026-09-25T01:11:02Z",
+      "updated_at": "2026-10-11T04:43:06Z",
+      "payoutMentionUSD": 25,
+      "labels": [
+        "docs-tooling",
+        "p3"
+      ],
+      "score": 64,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "### Summary Added the Venetian (`vec`) localization for the LLM/Agent quickstart guide in `sdks/python-cli/examples/agent_quickstart.vec.md`. ### Scope of Work - Complete Venetian translation of `agent_quickstart.md` for agent-driven workflows with `omi-cli`. - Preserved identica"
+    },
+    {
+      "id": 5576657669,
+      "title": "[Bounty proposal] docs(python-cli): Neapolitan (nap) AI agent quickstart guide ($25 proposed)",
+      "html_url": "https://github.com/BasedHardware/omi/issues/18809",
+      "repository": "BasedHardware/omi",
+      "created_at": "2026-09-25T01:11:05Z",
+      "updated_at": "2026-10-09T17:10:04Z",
+      "payoutMentionUSD": 25,
+      "labels": [
+        "docs-tooling",
+        "p3"
+      ],
+      "score": 64,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "### Summary Added the Neapolitan (`nap`) localization for the LLM/Agent quickstart guide in `sdks/python-cli/examples/agent_quickstart.nap.md`. ### Scope of Work - Complete Neapolitan translation of `agent_quickstart.md` for agent-driven workflows with `omi-cli`. - Preserved iden"
+    },
+    {
+      "id": 5765087302,
+      "title": "[Bounty: $95] Make `visual-regression.yml` compare baselines instead of regenerating them",
+      "html_url": "https://github.com/Signpost-Labs/signpost-app/issues/43",
+      "repository": "Signpost-Labs/signpost-app",
+      "created_at": "2026-10-08T16:08:48Z",
+      "updated_at": "2026-10-14T18:03:00Z",
+      "payoutMentionUSD": 95,
+      "labels": [],
+      "score": 63,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "**Context** `visual-regression.yml` currently runs `npm run test:visual:update`, which regenerates every Storybook baseline in-container and uploads them as the `visual-baselines` artifact. Nothing ever compares against committed PNGs, so the job can never fail on a visual change"
+    },
+    {
+      "id": 4505356532,
+      "title": "[ Bounty $3k ] [ Research ] Collect and compare AI-generated AGI architecture proposals",
+      "html_url": "https://github.com/aLexzzz430/Cognitive-OS/issues/5",
+      "repository": "aLexzzz430/Cognitive-OS",
+      "created_at": "2026-05-22T20:12:15Z",
+      "updated_at": "2026-10-13T18:08:21Z",
+      "payoutMentionUSD": 3000,
+      "labels": [
+        "reward",
+        "bounty",
+        "research"
+      ],
+      "score": 63,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "## Objective Collect, preserve, and compare AGI architecture proposals generated by multiple AI systems. The goal is not to paste generic AI answers, but to produce an auditable research packet that makes different architecture ideas comparable and useful for Cognitive-OS plannin"
+    },
+    {
+      "id": 5851827026,
+      "title": "🎯 Bounty Alert: 13 New Opportunityies found",
+      "html_url": "https://github.com/dev-kp-eloper/BountyScout/issues/1590",
+      "repository": "dev-kp-eloper/BountyScout",
+      "created_at": "2026-10-14T16:48:09Z",
+      "updated_at": "2026-10-14T16:48:09Z",
+      "payoutMentionUSD": 75,
+      "labels": [
+        "bounty-alert"
+      ],
+      "score": 62,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "### Active Bounty Scan Results **Scan Time:** 2026-10-14 16:48 UTC #### 1. [Write stress test for lib.rs with 50+ concurrent claimants](https://github.com/MentorsMind/MentorsMind-Contract/issues/1286) - **Repository:** [MentorsMind/MentorsMind-Contract](https://github.com/Mentors"
+    },
+    {
+      "id": 5802263279,
+      "title": "[Bounty proposal] fix(cli): omi chat is unreachable after omi auth login --browser, the login it asks for ($75 proposed)",
+      "html_url": "https://github.com/BasedHardware/omi/issues/21223",
+      "repository": "BasedHardware/omi",
+      "created_at": "2026-10-11T15:06:25Z",
+      "updated_at": "2026-10-14T16:42:00Z",
+      "payoutMentionUSD": 75,
+      "labels": [],
+      "score": 62,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "**Product impact** - Primary loop layer: Python CLI (`omi auth login --browser`, `omi chat`). - `omi chat` cannot be reached through any supported login. Every invocation exits 1 with \"Chat requires browser sign-in\" and tells the user to run `omi auth login --browser`, which is e"
+    },
+    {
+      "id": 5765088512,
+      "title": "[Bounty: $75] Use `npm ci` in `contract-integration.yml`",
+      "html_url": "https://github.com/Signpost-Labs/signpost-app/issues/45",
+      "repository": "Signpost-Labs/signpost-app",
+      "created_at": "2026-10-08T16:08:52Z",
+      "updated_at": "2026-10-14T14:07:57Z",
+      "payoutMentionUSD": 75,
+      "labels": [],
+      "score": 62,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "**Context** `contract-integration.yml` installs dependencies with `npm install`, while every job in `ci.yml` and the `backend` job use `npm ci --no-audit --no-fund`. `npm install` may rewrite `package-lock.json` and resolve versions that drift from the lockfile, so the integratio"
+    },
+    {
+      "id": 5801700676,
+      "title": "[Bounty proposal] fix(merge): one manually tagged source disables speaker-id renumbering for every source, so voices collide after a manual merge ($75 proposed)",
+      "html_url": "https://github.com/BasedHardware/omi/issues/21201",
+      "repository": "BasedHardware/omi",
+      "created_at": "2026-10-11T13:55:15Z",
+      "updated_at": "2026-10-14T13:28:56Z",
+      "payoutMentionUSD": 75,
+      "labels": [],
+      "score": 62,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "**Product impact** - Primary loop layer: conversations (manual merge, `POST /v1/conversations/merge`) and speaker identity. - After merging a conversation in which the user has manually tagged a speaker with any other conversation, an unrelated voice from the other conversation s"
+    },
+    {
+      "id": 5765048700,
+      "title": "[Bounty: $75] Add a CI check for app.json and app.config.ts plugin and permission consistency",
+      "html_url": "https://github.com/Nudge-Pay/nudge-app/issues/44",
+      "repository": "Nudge-Pay/nudge-app",
+      "created_at": "2026-10-08T16:06:20Z",
+      "updated_at": "2026-10-14T12:19:42Z",
+      "payoutMentionUSD": 75,
+      "labels": [],
+      "score": 62,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "**Context** Both `app.json` and `app.config.ts` exist and both are read by Expo tooling, and they disagree: `app.config.ts` adds the `expo-dev-client`, `expo-router`, `expo-secure-store` and `react-native-nfc-manager` plugins plus the iOS NFC entitlement and `NFCReaderUsageDescri"
+    },
+    {
+      "id": 5847123242,
+      "title": "🎯 Bounty Alert: 16 New Opportunityies found",
+      "html_url": "https://github.com/dev-kp-eloper/BountyScout/issues/1589",
+      "repository": "dev-kp-eloper/BountyScout",
+      "created_at": "2026-10-14T11:41:34Z",
+      "updated_at": "2026-10-14T11:41:34Z",
+      "payoutMentionUSD": 75,
+      "labels": [
+        "bounty-alert"
+      ],
+      "score": 62,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "### Active Bounty Scan Results **Scan Time:** 2026-10-14 11:41 UTC #### 1. [Request to co-sign an unspent 6,300,243-sat funding output with Boltz's LND node (channel never locked in, Dec 2023)](https://github.com/BoltzExchange/boltz-backend/issues/1513) - **Repository:** [BoltzEx"
+    },
+    {
+      "id": 5005620527,
+      "title": "[BOUNTY][$67] Add the Tung Tung Tung Sahur antagonist.",
+      "html_url": "https://github.com/theselfish/SlopStation13/issues/3",
+      "repository": "theselfish/SlopStation13",
+      "created_at": "2026-07-29T05:02:27Z",
+      "updated_at": "2026-10-12T20:06:08Z",
+      "payoutMentionUSD": 67,
+      "labels": [
+        "good first issue",
+        "bounty"
+      ],
+      "score": 62,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "# Brief Space Station 13 is an old game for old men running the world. We're appealing to the younger audience so I and other investors can buy another yacht. The Tung Tung Tung Sahur antagonist. Requirements: - Sprites. Tung Tung Tung Sahur requires a 32x32 sprite of himself wit"
+    },
+    {
+      "id": 5388952916,
+      "title": "Bounty scope confirmation: US$50 bulk JSONL import task",
+      "html_url": "https://github.com/liana-banyan/librarian-mcp/issues/1",
+      "repository": "liana-banyan/librarian-mcp",
+      "created_at": "2026-09-08T15:53:05Z",
+      "updated_at": "2026-10-14T19:04:30Z",
+      "payoutMentionUSD": 50,
+      "labels": [],
+      "score": 61,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "I found the **US$50 bulk JSONL import task** in [`issues/003_bulk_jsonl_import.md`](https://github.com/liana-banyan/librarian-mcp/blob/34171265fa755be9cd8b286f85645b6986f9cba7/issues/003_bulk_jsonl_import.md) and would like to confirm it is still available before implementation. "
+    },
+    {
+      "id": 5814260251,
+      "title": "Bounty $50: recipe for GTX 1080 Ti 11 GB",
+      "html_url": "https://github.com/sybil-solutions/local-ai-registry/issues/218",
+      "repository": "sybil-solutions/local-ai-registry",
+      "created_at": "2026-10-12T13:07:23Z",
+      "updated_at": "2026-10-14T15:50:51Z",
+      "payoutMentionUSD": 50,
+      "labels": [
+        "bounty",
+        "bounty: $50",
+        "recipe",
+        "card support"
+      ],
+      "score": 61,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "**Pays $50** when a PR adds a tested recipe for this card and is merged. Rules: [BOUNTIES.md](https://github.com/sybil-solutions/.github/blob/main/BOUNTIES.md). | | | |---|---| | Card | `gtx-1080-ti-11gb` | | Model | a 7-9B model (llama.cpp is fine), or any model in `registry/mod"
+    },
+    {
+      "id": 5802066268,
+      "title": "[Bounty proposal] fix(action-items): completing an already-completed task rewrites its completed_at ($40 proposed)",
+      "html_url": "https://github.com/BasedHardware/omi/issues/21218",
+      "repository": "BasedHardware/omi",
+      "created_at": "2026-10-11T14:41:46Z",
+      "updated_at": "2026-10-14T14:48:02Z",
+      "payoutMentionUSD": 40,
+      "labels": [],
+      "score": 61,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "**Product impact** - Primary loop layer: action items (`PATCH /v1/action-items/{id}`, `PATCH /v1/action-items/{id}/completed`, `PATCH /v1/action-items/sync-batch`). - Completing a task that is already completed moves its `completed_at` to now. A duplicated tap, a client that rese"
+    },
+    {
+      "id": 5801777489,
+      "title": "[Bounty proposal] fix(imports): SRT cues without blank-line separators collapse into one cue with timings in its text ($40 proposed)",
+      "html_url": "https://github.com/BasedHardware/omi/issues/21205",
+      "repository": "BasedHardware/omi",
+      "created_at": "2026-10-11T14:04:49Z",
+      "updated_at": "2026-10-14T14:41:24Z",
+      "payoutMentionUSD": 40,
+      "labels": [],
+      "score": 61,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "**Product impact** - Primary loop layer: transcript file import (`POST /v1/imports/transcripts`, `.srt` and `.txt` uploads). - An SRT whose cues are not separated by blank lines imports as a single cue: the conversation keeps only the first cue's timing (so a 6 s file becomes a 2"
+    },
+    {
+      "id": 5333030340,
+      "title": "[Bounty] Add fibonacci function with edge case handling",
+      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/976",
+      "repository": "zhangjiayang6835-cyber/bounty-plaza",
+      "created_at": "2026-09-03T06:16:57Z",
+      "updated_at": "2026-10-14T13:48:09Z",
+      "payoutMentionUSD": 50,
+      "labels": [
+        "bounty",
+        "real"
+      ],
+      "score": 61,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/gougousongsong/abk-coding-test/issues/1 ### 漏洞描述 / Description Add fibonacci function with edge case handling ## Task Description Implement a function to calculate Fibonacci numbers. ## Requirements - Function na"
+    },
+    {
+      "id": 5814261673,
+      "title": "Bounty $50: recipe for RTX 4060 Ti 16 GB",
+      "html_url": "https://github.com/sybil-solutions/local-ai-registry/issues/221",
+      "repository": "sybil-solutions/local-ai-registry",
+      "created_at": "2026-10-12T13:07:29Z",
+      "updated_at": "2026-10-14T12:17:13Z",
+      "payoutMentionUSD": 50,
+      "labels": [
+        "bounty",
+        "bounty: $50",
+        "recipe",
+        "good first recipe"
+      ],
+      "score": 61,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "**Pays $50** when a PR adds a tested recipe for this card and is merged. Rules: [BOUNTIES.md](https://github.com/sybil-solutions/.github/blob/main/BOUNTIES.md). | | | |---|---| | Card | `rtx-4060-ti-16gb` | | Model | Qwen3.8-27B or Gemma 4 26B A4B, or any model in `registry/model"
+    },
+    {
+      "id": 5775633118,
+      "title": "[Bounty: $50] Validate the extra body fields returned by apiRequestPageBody",
+      "html_url": "https://github.com/SUSU-LABS/susu-web/issues/51",
+      "repository": "SUSU-LABS/susu-web",
+      "created_at": "2026-10-09T09:04:49Z",
+      "updated_at": "2026-10-14T08:53:50Z",
+      "payoutMentionUSD": 50,
+      "labels": [],
+      "score": 61,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "## Context `src/lib/api/client.ts:271-302` validates the paginated `data`/`page` but returns `body as Record<string, unknown>` (`:301`) unchanged for the extra fields. Callers read a required `unreadCount` from that body, so a renamed or wrongly-typed field arrives as `undefined`"
+    },
+    {
+      "id": 5814259750,
+      "title": "Bounty $50: recipe for RTX 2080 Ti 11 GB",
+      "html_url": "https://github.com/sybil-solutions/local-ai-registry/issues/217",
+      "repository": "sybil-solutions/local-ai-registry",
+      "created_at": "2026-10-12T13:07:21Z",
+      "updated_at": "2026-10-14T02:14:03Z",
+      "payoutMentionUSD": 50,
+      "labels": [
+        "bounty",
+        "bounty: $50",
+        "recipe",
+        "card support",
+        "good first recipe"
+      ],
+      "score": 61,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "**Pays $50** when a PR adds a tested recipe for this card and is merged. Rules: [BOUNTIES.md](https://github.com/sybil-solutions/.github/blob/main/BOUNTIES.md). | | | |---|---| | Card | `rtx-2080-ti-11gb` | | Model | Qwen3.5-9B, or any model in `registry/models.json` not yet test"
+    },
+    {
+      "id": 5814260745,
+      "title": "Bounty $50: recipe for RX 7900 XTX 24 GB",
+      "html_url": "https://github.com/sybil-solutions/local-ai-registry/issues/219",
+      "repository": "sybil-solutions/local-ai-registry",
+      "created_at": "2026-10-12T13:07:25Z",
+      "updated_at": "2026-10-13T17:38:03Z",
+      "payoutMentionUSD": 50,
+      "labels": [
+        "bounty",
+        "bounty: $50",
+        "recipe"
+      ],
+      "score": 61,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "**Pays $50** when a PR adds a tested recipe for this card and is merged. Rules: [BOUNTIES.md](https://github.com/sybil-solutions/.github/blob/main/BOUNTIES.md). | | | |---|---| | Card | `rx-7900-xtx-24gb` | | Model | Qwen3.8-27B, or any model in `registry/models.json` not yet tes"
+    },
+    {
+      "id": 5814261076,
+      "title": "Bounty $50: recipe for a 27B model on a 16 GB AMD card",
+      "html_url": "https://github.com/sybil-solutions/local-ai-registry/issues/220",
+      "repository": "sybil-solutions/local-ai-registry",
+      "created_at": "2026-10-12T13:07:27Z",
+      "updated_at": "2026-10-13T17:04:06Z",
+      "payoutMentionUSD": 50,
+      "labels": [
+        "bounty",
+        "bounty: $50",
+        "recipe"
+      ],
+      "score": 61,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "**Pays $50** when a PR adds a tested recipe for this card and is merged. Rules: [BOUNTIES.md](https://github.com/sybil-solutions/.github/blob/main/BOUNTIES.md). | | | |---|---| | Card | `rx-9070-xt-16gb (or rx-7600-xt-16gb, rx-6800-xt-16gb)` | | Model | Qwen3.8-27B or Swift-1.5 I"
+    },
+    {
+      "id": 5814258919,
+      "title": "Bounty $50: recipe for Intel Arc B580 12 GB",
+      "html_url": "https://github.com/sybil-solutions/local-ai-registry/issues/216",
+      "repository": "sybil-solutions/local-ai-registry",
+      "created_at": "2026-10-12T13:07:17Z",
+      "updated_at": "2026-10-13T17:02:47Z",
+      "payoutMentionUSD": 50,
+      "labels": [
+        "bounty",
+        "bounty: $50",
+        "recipe",
+        "card support"
+      ],
+      "score": 61,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "**Pays $50** when a PR adds a tested recipe for this card and is merged. Rules: [BOUNTIES.md](https://github.com/sybil-solutions/.github/blob/main/BOUNTIES.md). | | | |---|---| | Card | `intel-arc-b580-12gb` | | Model | Qwen3.5-9B or Gemma 4 12B, or any model in `registry/models."
+    },
+    {
+      "id": 5814262860,
+      "title": "Bounty $50: recipe for Ryzen AI 890M (Radeon 890M iGPU)",
+      "html_url": "https://github.com/sybil-solutions/local-ai-registry/issues/223",
+      "repository": "sybil-solutions/local-ai-registry",
+      "created_at": "2026-10-12T13:07:34Z",
+      "updated_at": "2026-10-13T12:09:38Z",
+      "payoutMentionUSD": 50,
+      "labels": [
+        "bounty",
+        "bounty: $50",
+        "recipe",
+        "card support"
+      ],
+      "score": 61,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "**Pays $50** when a PR adds a tested recipe for this card and is merged. Rules: [BOUNTIES.md](https://github.com/sybil-solutions/.github/blob/main/BOUNTIES.md). | | | |---|---| | Card | `radeon-890m-48gb` | | Model | Qwen3.5-9B or Gemma 4 12B, or any model in `registry/models.jso"
+    },
+    {
+      "id": 5818394010,
+      "title": "[Bounty] Bounty $50: recipe for RTX 5060 Ti 16 GB",
+      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1878",
+      "repository": "zhangjiayang6835-cyber/bounty-plaza",
+      "created_at": "2026-10-12T18:14:46Z",
+      "updated_at": "2026-10-12T20:23:12Z",
+      "payoutMentionUSD": 50,
+      "labels": [
+        "bounty",
+        "real"
+      ],
+      "score": 61,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/sybil-solutions/local-ai-registry/issues/222 ### 漏洞描述 / Description Bounty $50: recipe for RTX 5060 Ti 16 GB **Pays $50** when a PR adds a tested recipe for this card and is merged. Rules: [BOUNTIES.md](https://g"
+    },
+    {
+      "id": 5818393912,
+      "title": "[Bounty] Bounty $50: recipe for Ryzen AI 890M (Radeon 890M iGPU)",
+      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1877",
+      "repository": "zhangjiayang6835-cyber/bounty-plaza",
+      "created_at": "2026-10-12T18:14:46Z",
+      "updated_at": "2026-10-12T20:05:11Z",
+      "payoutMentionUSD": 50,
+      "labels": [
+        "bounty",
+        "real"
+      ],
+      "score": 61,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/sybil-solutions/local-ai-registry/issues/223 ### 漏洞描述 / Description Bounty $50: recipe for Ryzen AI 890M (Radeon 890M iGPU) **Pays $50** when a PR adds a tested recipe for this card and is merged. Rules: [BOUNTIE"
+    },
+    {
+      "id": 5809413949,
+      "title": "Bounty Scout — 2026-10-12",
+      "html_url": "https://github.com/ariahendrawan-sudo/project-a/issues/12",
+      "repository": "ariahendrawan-sudo/project-a",
+      "created_at": "2026-10-12T06:33:31Z",
+      "updated_at": "2026-10-12T06:33:31Z",
+      "payoutMentionUSD": 50,
+      "labels": [
+        "bounty-scout"
+      ],
+      "score": 61,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "# Bounty Scout — week of 2026-10-12 Target: at least US$10/week. One merged bounty of US$50 covers ~5 weeks. | # | Score | Amount | Stars | Comments | Repository | Issue | |---|------:|-------:|------:|---------:|------------|-------| | – | – | – | – | – | – | No bounty passed th"
+    },
+    {
+      "id": 5826186287,
+      "title": "[B113] Try to pick something up with a full inventory",
+      "html_url": "https://github.com/mscrnt/lockpick/issues/34",
+      "repository": "mscrnt/lockpick",
+      "created_at": "2026-10-13T07:15:15Z",
+      "updated_at": "2026-10-14T16:12:15Z",
+      "payoutMentionUSD": null,
+      "labels": [
+        "help wanted",
+        "bounty",
+        "area:re1",
+        "needs-game"
+      ],
+      "score": 60,
+      "status": "VERIFY REWARD AND ELIGIBILITY",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "**Do this in-game (with a capture running):** Try to pick something up with a full inventory. **Verifies:** Slot limits: Chris 6, Jill 8. How to capture: [CAPTURE.md](https://github.com/mscrnt/lockpick/blob/main/docs/CAPTURE.md) — then send it with a [Capture submission](https://"
+    },
+    {
+      "id": 5835460830,
+      "title": "Miner CLI: attest a GitHub account and link it to the miner hotkey",
+      "html_url": "https://github.com/ditto-assistant/ditto-subnet/issues/2871",
+      "repository": "ditto-assistant/ditto-subnet",
+      "created_at": "2026-10-13T18:18:59Z",
+      "updated_at": "2026-10-14T15:08:25Z",
+      "payoutMentionUSD": null,
+      "labels": [
+        "enhancement",
+        "help wanted",
+        "bounty"
+      ],
+      "score": 60,
+      "status": "VERIFY REWARD AND ELIGIBILITY",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "## Goal Let a miner prove, from the `uv run ditto` CLI, that they control a GitHub account, and record a verified link between that account and their miner hotkey. Bounties need it: a claim in [docs/bounty-claims.md](https://github.com/ditto-assistant/ditto-subnet/blob/main/docs/"
+    },
+    {
+      "id": 5835466326,
+      "title": "Miner CLI: sign the contributor licence agreement (CLA) with the miner hotkey",
+      "html_url": "https://github.com/ditto-assistant/ditto-subnet/issues/2872",
+      "repository": "ditto-assistant/ditto-subnet",
+      "created_at": "2026-10-13T18:19:24Z",
+      "updated_at": "2026-10-14T15:02:54Z",
+      "payoutMentionUSD": null,
+      "labels": [
+        "enhancement",
+        "help wanted",
+        "bounty"
+      ],
+      "score": 60,
+      "status": "VERIFY REWARD AND ELIGIBILITY",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "## Goal Contributions to SN118 are MIT-licensed under a Contributor License Agreement. In the CLA, the contributor gives up IP claims to the work they submit. The miner executes the CLA by **signing it with their hotkey** from the `uv run ditto` CLI. Platform verifies and stores "
+    },
+    {
+      "id": 5519781644,
+      "title": "Bug: vista deploy still breaks static hosts and platform adapters",
+      "html_url": "https://github.com/Mantitup-Org/vista/issues/62",
+      "repository": "Mantitup-Org/vista",
+      "created_at": "2026-09-20T18:51:07Z",
+      "updated_at": "2026-10-14T10:22:12Z",
+      "payoutMentionUSD": null,
+      "labels": [
+        "bug",
+        "help wanted",
+        "bounty"
+      ],
+      "score": 60,
+      "status": "VERIFY REWARD AND ELIGIBILITY",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "## Goal Hunt and fix remaining **deployment** bugs in `vista deploy` and the hosted docs site. `create-vista-app` no longer copies `Dockerfile` / `render.yaml` / `deploy/`. Platform files must come from the **engine** (`vista deploy`). That path is still buggy on some hosts. ## K"
+    },
+    {
+      "id": 5826185656,
+      "title": "[B111] Pick up each key item (keys, crests, MO disk, emblems...)",
+      "html_url": "https://github.com/mscrnt/lockpick/issues/32",
+      "repository": "mscrnt/lockpick",
+      "created_at": "2026-10-13T07:15:11Z",
+      "updated_at": "2026-10-14T00:47:50Z",
+      "payoutMentionUSD": null,
+      "labels": [
+        "help wanted",
+        "bounty",
+        "area:re1",
+        "needs-game"
+      ],
+      "score": 60,
+      "status": "VERIFY REWARD AND ELIGIBILITY",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "**Do this in-game (with a capture running):** Pick up each key item (keys, crests, MO disk, emblems...). **Verifies:** Key item ids for the item name table. How to capture: [CAPTURE.md](https://github.com/mscrnt/lockpick/blob/main/docs/CAPTURE.md) — then send it with a [Capture s"
+    },
+    {
+      "id": 5826185253,
+      "title": "[B110] Combine items",
+      "html_url": "https://github.com/mscrnt/lockpick/issues/31",
+      "repository": "mscrnt/lockpick",
+      "created_at": "2026-10-13T07:15:09Z",
+      "updated_at": "2026-10-14T00:47:49Z",
+      "payoutMentionUSD": null,
+      "labels": [
+        "help wanted",
+        "bounty",
+        "area:re1",
+        "needs-game"
+      ],
+      "score": 60,
+      "status": "VERIFY REWARD AND ELIGIBILITY",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "**Do this in-game (with a capture running):** Combine items. **Verifies:** Combine results and slot changes. How to capture: [CAPTURE.md](https://github.com/mscrnt/lockpick/blob/main/docs/CAPTURE.md) — then send it with a [Capture submission](https://github.com/mscrnt/lockpick/is"
+    },
+    {
+      "id": 5826184924,
+      "title": "[B109] Get poisoned and cure it (blue herb or serum)",
+      "html_url": "https://github.com/mscrnt/lockpick/issues/30",
+      "repository": "mscrnt/lockpick",
+      "created_at": "2026-10-13T07:15:08Z",
+      "updated_at": "2026-10-14T00:47:48Z",
+      "payoutMentionUSD": null,
+      "labels": [
+        "help wanted",
+        "bounty",
+        "area:re1",
+        "needs-game"
+      ],
+      "score": 60,
+      "status": "VERIFY REWARD AND ELIGIBILITY",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "**Do this in-game (with a capture running):** Get poisoned and cure it (blue herb or serum). **Verifies:** Poison status flags (player +0xDC). How to capture: [CAPTURE.md](https://github.com/mscrnt/lockpick/blob/main/docs/CAPTURE.md) — then send it with a [Capture submission](htt"
+    },
+    {
+      "id": 5826183489,
+      "title": "[B105] Use the bazooka with each round type (explosive, acid, flame)",
+      "html_url": "https://github.com/mscrnt/lockpick/issues/26",
+      "repository": "mscrnt/lockpick",
+      "created_at": "2026-10-13T07:15:00Z",
+      "updated_at": "2026-10-14T00:47:47Z",
+      "payoutMentionUSD": null,
+      "labels": [
+        "help wanted",
+        "bounty",
+        "area:re1",
+        "needs-game"
+      ],
+      "score": 60,
+      "status": "VERIFY REWARD AND ELIGIBILITY",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "**Do this in-game (with a capture running):** Use the bazooka with each round type (explosive, acid, flame). **Verifies:** Bazooka id and round-type ids. How to capture: [CAPTURE.md](https://github.com/mscrnt/lockpick/blob/main/docs/CAPTURE.md) — then send it with a [Capture subm"
+    },
+    {
+      "id": 5826184596,
+      "title": "[B108] Use each healing item (green, red+green, blue, mixed herbs, first aid spray)",
+      "html_url": "https://github.com/mscrnt/lockpick/issues/29",
+      "repository": "mscrnt/lockpick",
+      "created_at": "2026-10-13T07:15:06Z",
+      "updated_at": "2026-10-13T17:04:25Z",
+      "payoutMentionUSD": null,
+      "labels": [
+        "help wanted",
+        "bounty",
+        "area:re1",
+        "needs-game"
+      ],
+      "score": 60,
+      "status": "VERIFY REWARD AND ELIGIBILITY",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "**Do this in-game (with a capture running):** Use each healing item (green, red+green, blue, mixed herbs, first aid spray). **Verifies:** Healing item ids, heal amounts, herb combining. **Status so far:** Partly seen: first aid spray (full heal). How to capture: [CAPTURE.md](http"
+    },
+    {
+      "id": 5826176843,
+      "title": "Capture bounties: help Lockpick learn the game",
+      "html_url": "https://github.com/mscrnt/lockpick/issues/7",
+      "repository": "mscrnt/lockpick",
+      "created_at": "2026-10-13T07:14:25Z",
+      "updated_at": "2026-10-13T14:59:48Z",
+      "payoutMentionUSD": null,
+      "labels": [
+        "help wanted",
+        "bounty",
+        "capture"
+      ],
+      "score": 60,
+      "status": "VERIFY REWARD AND ELIGIBILITY",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "Lockpick only trusts what it has seen the real game do. Everything still needed is listed by release in **[docs/CAPTURE_BOUNTIES.md](https://github.com/mscrnt/lockpick/blob/main/docs/CAPTURE_BOUNTIES.md)** (source of truth, checked off as captures come in). **How to help** 1. Ins"
+    },
+    {
+      "id": 5826182342,
+      "title": "[B007] Play the Rebecca section (Chris scenario)",
+      "html_url": "https://github.com/mscrnt/lockpick/issues/22",
+      "repository": "mscrnt/lockpick",
+      "created_at": "2026-10-13T07:14:54Z",
+      "updated_at": "2026-10-13T14:59:46Z",
+      "payoutMentionUSD": null,
+      "labels": [
+        "help wanted",
+        "bounty",
+        "area:re1",
+        "needs-game"
+      ],
+      "score": 60,
+      "status": "VERIFY REWARD AND ELIGIBILITY",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "**Do this in-game (with a capture running):** Play the Rebecca section (Chris scenario). **Verifies:** Character id 3 and Rebecca's inventory pointer (0xBE9950). How to capture: [CAPTURE.md](https://github.com/mscrnt/lockpick/blob/main/docs/CAPTURE.md) — then send it with a [Capt"
+    }
+  ],
+  "disclaimer": "No verified payouts or earnings; these are public issue candidates. Manually confirm funding, assignment, eligibility, security and payment terms. Never pay to join, disclose secrets or begin work without terms."
 }
