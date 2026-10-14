@@ -27,6 +27,9 @@ function classify(i){
  const labels=(i.labels||[]).map(l=>String(typeof l==='string'?l:l.name).toLowerCase());
  const t=(title+' '+body+' '+labels.join(' ')).toLowerCase();
  const upfront=/(registration fee|pay.*to apply|deposit.*first|send.*private key|seed phrase|wallet recovery|upfront.*fee)/i.test(t);
+ const aggregator=/(bounty[- ]?radar|bounty[- ]?scout|bounty alert|external[- ]?mirror|opportunity aggregator|index of bounties)/i.test(t);
+ const proposed=/(bounty proposal|reward proposed|proposed bounty|\$\d+ proposed)/i.test(title);
+ const hugeClaim=payout=>payout!==null && payout>20000;
  const payout=amounts(title+' '+body);
  const ageDays=(now-Date.parse(i.created_at||now))/864e5;
  const recent=(now-Date.parse(i.updated_at||now))/864e5;
@@ -40,7 +43,10 @@ function classify(i){
  if(ageDays>120)score-=14;
  if(/documentation|docs|readme|translation|frontend|bugfix|bug fix|ui\b/i.test(t))score+=5;
  if(upfront)score-=100;
- const status=upfront?'REJECT / HIGH-RISK':payout!==null&&bountyFlag?'POTENTIAL PAYOUT — UNVERIFIED':'VERIFY REWARD AND ELIGIBILITY';
+ if(aggregator)score-=45;
+ if(proposed)score-=25;
+ if(hugeClaim(payout))score-=28;
+ const status=upfront?'REJECT / HIGH-RISK':aggregator?'AGGREGATED LEAD — TRACE ORIGINAL SOURCE':proposed?'PROPOSAL — FUNDING NOT CONFIRMED':hugeClaim(payout)?'LARGE CLAIM — INDEPENDENT VERIFICATION NEEDED':payout!==null&&bountyFlag?'POTENTIAL PAYOUT — UNVERIFIED':'VERIFY REWARD AND ELIGIBILITY';
  const repo=(new URL(i.repository_url||'https://api.github.com/repos/unknown/repository')).pathname.replace('/repos/','');
  return {id:i.id,title,html_url:i.html_url,repository:repo,created_at:i.created_at,updated_at:i.updated_at,
   payoutMentionUSD:payout,labels:labels.slice(0,10),score,status,requiresHumanVerification:true,source:'Public GitHub issue',excerpt:body.replace(/\s+/g,' ').slice(0,280)};
