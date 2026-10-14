@@ -1,0 +1,37 @@
+name: Micro Compound online research (paper only)
+on:
+  push:
+    paths:
+      - 'experiments/micro-compound/research/**'
+      - '.github/workflows/research-agents.yml'
+  pull_request:
+    paths:
+      - 'experiments/micro-compound/research/**'
+      - '.github/workflows/research-agents.yml'
+  workflow_dispatch:
+  schedule:
+    - cron: '17 */6 * * *'
+permissions:
+  contents: read
+jobs:
+  tests-and-sweep:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    defaults:
+      run:
+        working-directory: experiments/micro-compound/research
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Audit no real-money functions and run offline unit tests
+        run: python -m unittest discover -s tests -v
+      - name: Replay 108 stress scenarios offline
+        run: python -m microcompound.agents --mode sweep --seeds 12 --minutes 60 --output results
+      - name: Package full results and failures
+        uses: actions/upload-artifact@v4
+        with:
+          name: microcompound-research-${{ github.run_id }}
+          path: experiments/micro-compound/research/results/
+          retention-days: 30
