@@ -21,7 +21,7 @@ test('no live orders and zero user funds; shadow challenger labels only after ex
  assert.equal(out.metadata.initialVirtualUSD,3);
  assert.ok(out.learning.closedShadowLabels>100);
  assert.ok(out.learning.spawned>0);
- assert.ok(out.learning.spawnedCandidates.every(x=>x.why.includes('future')));
+ assert.ok(out.learning.spawnedCandidates.every(x=>x.why.includes('forward')));
 });
 test('known historical data cannot qualify as unseen validation',()=>{
  const out=researchLoop(data);
