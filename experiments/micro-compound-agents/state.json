@@ -3,9 +3,9 @@
   "mode": "PAPER_ONLY",
   "source": "Coinbase Exchange public, unauthenticated 5-minute candles",
   "createdAt": "2026-10-14T18:18:36.783Z",
-  "updatedAt": "2026-10-14T18:18:37.089Z",
-  "lastBar": 1792001400,
-  "runs": 1,
+  "updatedAt": "2026-10-14T18:21:43.355Z",
+  "lastBar": 1792001700,
+  "runs": 2,
   "history": {
     "BTC-USD": [
       {
@@ -1687,6 +1687,14 @@
         "l": 81447.07,
         "c": 81571.24,
         "v": 35.60510711
+      },
+      {
+        "t": 1792001700,
+        "o": 81562.45,
+        "h": 81580.01,
+        "l": 81454.29,
+        "c": 81499.99,
+        "v": 31.39609814
       }
     ],
     "ETH-USD": [
@@ -3369,6 +3377,14 @@
         "l": 2423.07,
         "c": 2428.14,
         "v": 601.064592
+      },
+      {
+        "t": 1792001700,
+        "o": 2428.12,
+        "h": 2428.63,
+        "l": 2421.7,
+        "c": 2423.25,
+        "v": 469.96843394
       }
     ],
     "SOL-USD": [
@@ -5051,6 +5067,14 @@
         "l": 104.12,
         "c": 104.3,
         "v": 3141.07211301
+      },
+      {
+        "t": 1792001700,
+        "o": 104.31,
+        "h": 104.34,
+        "l": 103.87,
+        "c": 103.94,
+        "v": 4794.20975883
       }
     ]
   },
@@ -5077,7 +5101,12 @@
         "wins": 0,
         "avgReward": 0,
         "events": [],
-        "curve": [],
+        "curve": [
+          {
+            "t": 1792001700,
+            "value": 3
+          }
+        ],
         "minSizeBlocks": 0
       },
       "observations": 0,
@@ -5105,7 +5134,12 @@
         "wins": 0,
         "avgReward": 0,
         "events": [],
-        "curve": [],
+        "curve": [
+          {
+            "t": 1792001700,
+            "value": 3
+          }
+        ],
         "minSizeBlocks": 0
       },
       "observations": 0,
@@ -5133,7 +5167,12 @@
         "wins": 0,
         "avgReward": 0,
         "events": [],
-        "curve": [],
+        "curve": [
+          {
+            "t": 1792001700,
+            "value": 3
+          }
+        ],
         "minSizeBlocks": 0
       },
       "observations": 0,
@@ -5161,7 +5200,12 @@
         "wins": 0,
         "avgReward": 0,
         "events": [],
-        "curve": [],
+        "curve": [
+          {
+            "t": 1792001700,
+            "value": 3
+          }
+        ],
         "minSizeBlocks": 0
       },
       "observations": 0,
@@ -5189,7 +5233,12 @@
         "wins": 0,
         "avgReward": 0,
         "events": [],
-        "curve": [],
+        "curve": [
+          {
+            "t": 1792001700,
+            "value": 3
+          }
+        ],
         "minSizeBlocks": 0
       },
       "observations": 0,
@@ -5217,7 +5266,12 @@
         "wins": 0,
         "avgReward": 0,
         "events": [],
-        "curve": [],
+        "curve": [
+          {
+            "t": 1792001700,
+            "value": 3
+          }
+        ],
         "minSizeBlocks": 0
       },
       "observations": 0,
@@ -5245,7 +5299,12 @@
         "wins": 0,
         "avgReward": 0,
         "events": [],
-        "curve": [],
+        "curve": [
+          {
+            "t": 1792001700,
+            "value": 3
+          }
+        ],
         "minSizeBlocks": 0
       },
       "observations": 0,
@@ -5273,7 +5332,12 @@
         "wins": 0,
         "avgReward": 0,
         "events": [],
-        "curve": [],
+        "curve": [
+          {
+            "t": 1792001700,
+            "value": 3
+          }
+        ],
         "minSizeBlocks": 0
       },
       "observations": 0,
@@ -5294,7 +5358,12 @@
       "wins": 0,
       "avgReward": 0,
       "events": [],
-      "curve": [],
+      "curve": [
+        {
+          "t": 1792001700,
+          "value": 3
+        }
+      ],
       "minSizeBlocks": 0
     },
     "fixedBaseline": {
@@ -5310,23 +5379,33 @@
       "wins": 0,
       "avgReward": 0,
       "events": [],
-      "curve": [],
+      "curve": [
+        {
+          "t": 1792001700,
+          "value": 3
+        }
+      ],
       "minSizeBlocks": 0
     },
     "btcBenchmark": {
-      "usd": 3,
-      "asset": null,
-      "qty": 0,
-      "entrySpend": 0,
-      "entered": 0,
+      "usd": 0,
+      "asset": "BTC-USD",
+      "qty": 0.000036561162422389006,
+      "entrySpend": 3,
+      "entered": 1792001700,
       "peak": 3,
-      "drawdown": 0,
-      "paidFees": 0,
+      "drawdown": 0.012709711915313116,
+      "paidFees": 0.015,
       "completed": 0,
       "wins": 0,
       "avgReward": 0,
       "events": [],
-      "curve": [],
+      "curve": [
+        {
+          "t": 1792001700,
+          "value": 2.961871
+        }
+      ],
       "minSizeBlocks": 0
     },
     "cash": {
@@ -5342,7 +5421,12 @@
       "wins": 0,
       "avgReward": 0,
       "events": [],
-      "curve": [],
+      "curve": [
+        {
+          "t": 1792001700,
+          "value": 3
+        }
+      ],
       "minSizeBlocks": 0
     }
   },
