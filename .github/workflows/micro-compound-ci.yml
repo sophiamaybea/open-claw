@@ -20,3 +20,5 @@ jobs:
         with:
           node-version: '22'
       - run: node --test experiments/micro-compound/tests/*.test.mjs
+      - name: Run historical Coinbase replay verification (read-only)
+        run: node --test experiments/micro-compound/research/tests/history-replay.test.mjs
