@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-14T19:14:38.043Z",
-  "lastBar": 1792005180,
+  "updatedAt": "2026-10-14T22:20:12.866Z",
+  "lastBar": 1792016340,
   "mode": "PAPER ONLY — NO MONEY",
   "origin": "Coinbase Exchange public, unauthenticated 1-minute candles",
   "currencies": [
@@ -8,7 +8,7 @@
     "ETH-USD",
     "SOL-USD"
   ],
-  "polls": 5,
+  "polls": 10,
   "researchCycles": 1,
   "champion": "CASH",
   "mutationCount": 0,
@@ -26,6 +26,18 @@
         {
           "t": 1792005000,
           "value": 3
+        },
+        {
+          "t": 1792008600,
+          "value": 3
+        },
+        {
+          "t": 1792012200,
+          "value": 3
+        },
+        {
+          "t": 1792015800,
+          "value": 3
         }
       ]
     },
@@ -41,21 +53,45 @@
         {
           "t": 1792005000,
           "value": 3
+        },
+        {
+          "t": 1792008600,
+          "value": 3
+        },
+        {
+          "t": 1792012200,
+          "value": 3
+        },
+        {
+          "t": 1792015800,
+          "value": 3
         }
       ]
     },
     "btc": {
-      "nav": 2.967705,
-      "roi_pct": -1.077,
+      "nav": 2.960071,
+      "roi_pct": -1.331,
       "trades": 0,
       "wins": 0,
       "fees_usd": 0.015,
-      "drawdown_pct": 1.19,
+      "drawdown_pct": 1.33,
       "holding": "BTC-USD",
       "history": [
         {
           "t": 1792005000,
           "value": 2.964242
+        },
+        {
+          "t": 1792008600,
+          "value": 2.972029
+        },
+        {
+          "t": 1792012200,
+          "value": 2.962831
+        },
+        {
+          "t": 1792015800,
+          "value": 2.961668
         }
       ]
     },
@@ -70,6 +106,18 @@
       "history": [
         {
           "t": 1792005000,
+          "value": 3
+        },
+        {
+          "t": 1792008600,
+          "value": 3
+        },
+        {
+          "t": 1792012200,
+          "value": 3
+        },
+        {
+          "t": 1792015800,
           "value": 3
         }
       ]
@@ -97,6 +145,18 @@
         {
           "t": 1792005000,
           "value": 3
+        },
+        {
+          "t": 1792008600,
+          "value": 3
+        },
+        {
+          "t": 1792012200,
+          "value": 3
+        },
+        {
+          "t": 1792015800,
+          "value": 3
         }
       ]
     },
@@ -120,6 +180,18 @@
       "history": [
         {
           "t": 1792005000,
+          "value": 3
+        },
+        {
+          "t": 1792008600,
+          "value": 3
+        },
+        {
+          "t": 1792012200,
+          "value": 3
+        },
+        {
+          "t": 1792015800,
           "value": 3
         }
       ]
@@ -145,6 +217,18 @@
         {
           "t": 1792005000,
           "value": 3
+        },
+        {
+          "t": 1792008600,
+          "value": 3
+        },
+        {
+          "t": 1792012200,
+          "value": 3
+        },
+        {
+          "t": 1792015800,
+          "value": 3
         }
       ]
     },
@@ -169,29 +253,17 @@
         {
           "t": 1792005000,
           "value": 3
-        }
-      ]
-    },
-    {
-      "id": "mean-revert-48",
-      "kind": "reversion",
-      "lookback": 48,
-      "threshold": -1.45,
-      "holdBars": 12,
-      "parent": null,
-      "born": 1792005000,
-      "observations": 0,
-      "online_reward": 0,
-      "nav": 3,
-      "roi_pct": 0,
-      "trades": 0,
-      "wins": 0,
-      "fees_usd": 0,
-      "drawdown_pct": 0,
-      "holding": "USD",
-      "history": [
+        },
         {
-          "t": 1792005000,
+          "t": 1792008600,
+          "value": 3
+        },
+        {
+          "t": 1792012200,
+          "value": 3
+        },
+        {
+          "t": 1792015800,
           "value": 3
         }
       ]
@@ -217,29 +289,17 @@
         {
           "t": 1792005000,
           "value": 3
-        }
-      ]
-    },
-    {
-      "id": "volume-surge",
-      "kind": "volume",
-      "lookback": 24,
-      "threshold": 2,
-      "holdBars": 12,
-      "parent": null,
-      "born": 1792005000,
-      "observations": 0,
-      "online_reward": 0,
-      "nav": 3,
-      "roi_pct": 0,
-      "trades": 0,
-      "wins": 0,
-      "fees_usd": 0,
-      "drawdown_pct": 0,
-      "holding": "USD",
-      "history": [
+        },
         {
-          "t": 1792005000,
+          "t": 1792008600,
+          "value": 3
+        },
+        {
+          "t": 1792012200,
+          "value": 3
+        },
+        {
+          "t": 1792015800,
           "value": 3
         }
       ]
@@ -252,19 +312,103 @@
       "holdBars": 24,
       "parent": null,
       "born": 1792005000,
-      "observations": 0,
-      "online_reward": 0,
-      "nav": 3,
-      "roi_pct": 0,
-      "trades": 0,
+      "observations": 1,
+      "online_reward": -0.002089,
+      "nav": 2.958201,
+      "roi_pct": -1.393,
+      "trades": 1,
       "wins": 0,
-      "fees_usd": 0,
-      "drawdown_pct": 0,
+      "fees_usd": 0.02988,
+      "drawdown_pct": 1.48,
       "holding": "USD",
       "history": [
         {
           "t": 1792005000,
           "value": 3
+        },
+        {
+          "t": 1792008600,
+          "value": 3
+        },
+        {
+          "t": 1792012200,
+          "value": 3
+        },
+        {
+          "t": 1792015800,
+          "value": 2.958201
+        }
+      ]
+    },
+    {
+      "id": "volume-surge",
+      "kind": "volume",
+      "lookback": 24,
+      "threshold": 2,
+      "holdBars": 12,
+      "parent": null,
+      "born": 1792005000,
+      "observations": 2,
+      "online_reward": -0.003683,
+      "nav": 2.920296,
+      "roi_pct": -2.657,
+      "trades": 2,
+      "wins": 0,
+      "fees_usd": 0.059341,
+      "drawdown_pct": 2.74,
+      "holding": "USD",
+      "history": [
+        {
+          "t": 1792005000,
+          "value": 3
+        },
+        {
+          "t": 1792008600,
+          "value": 3
+        },
+        {
+          "t": 1792012200,
+          "value": 3
+        },
+        {
+          "t": 1792015800,
+          "value": 2.920296
+        }
+      ]
+    },
+    {
+      "id": "mean-revert-48",
+      "kind": "reversion",
+      "lookback": 48,
+      "threshold": -1.45,
+      "holdBars": 12,
+      "parent": null,
+      "born": 1792005000,
+      "observations": 5,
+      "online_reward": -0.006968,
+      "nav": 2.780266,
+      "roi_pct": -7.324,
+      "trades": 5,
+      "wins": 0,
+      "fees_usd": 0.160021,
+      "drawdown_pct": 7.32,
+      "holding": "ETH-USD",
+      "history": [
+        {
+          "t": 1792005000,
+          "value": 3
+        },
+        {
+          "t": 1792008600,
+          "value": 2.970982
+        },
+        {
+          "t": 1792012200,
+          "value": 2.846949
+        },
+        {
+          "t": 1792015800,
+          "value": 2.814514
         }
       ]
     }
@@ -281,7 +425,7 @@
   "health": {
     "bootstrap": false,
     "processed": 1,
-    "lastBar": 1792005180,
+    "lastBar": 1792016340,
     "status": "PAPER_RUNNING"
   }
 }
