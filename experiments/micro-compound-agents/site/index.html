@@ -1,0 +1,72 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#080d19"><meta name="robots" content="noindex"><title>Micro Compound · Agent Lab</title><style>
+:root{color-scheme:dark;--bg:#090e19;--panel:#111a2a;--line:#283a4d;--soft:#8d9ead;--ink:#e6eef2;--mint:#6ceac1;--amber:#ffc274;--bad:#ff8e9a}*{box-sizing:border-box}
+body{margin:0;background:radial-gradient(ellipse at 75% 0%,#162c3b 0%,#0a101d 53%,var(--bg) 95%);color:var(--ink);font:14px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;min-height:100vh}
+a{color:var(--mint)}.wrap{max-width:1320px;margin:auto;padding:24px 20px 60px}header{display:flex;align-items:flex-start;justify-content:space-between;gap:16px;border-bottom:1px solid var(--line);padding:8px 0 25px}
+.eyebrow{color:var(--mint);letter-spacing:2.5px;text-transform:uppercase;font-size:10px;font-weight:800}.title{font-family:Georgia,serif;font-weight:400;font-size:clamp(38px,5.5vw,69px);line-height:1.05;letter-spacing:-2px;margin:10px 0 11px}
+.subtitle{max-width:680px;color:#acb8c7;font-size:14px}.badge{border:1px solid #386752;background:#153c33;color:#9ef0c8;border-radius:30px;padding:9px 14px;font-size:11px;white-space:nowrap;letter-spacing:1px}
+.deck{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin:22px 0}.card,.panel{border:1px solid var(--line);background:linear-gradient(140deg,#162131b9,#0e1726d9);border-radius:12px;padding:20px}.card small,.label{display:block;text-transform:uppercase;letter-spacing:1.8px;font-size:10px;color:#96a8bc;font-weight:650}
+.value{font-variant-numeric:tabular-nums;font-size:clamp(25px,3.5vw,42px);font-weight:300;letter-spacing:-1px;margin-top:10px}.help{color:#92a4b8;font-size:12px;margin-top:8px}
+.layout{display:grid;grid-template-columns:1.6fr 1fr;gap:14px}.panel h2{font-family:Georgia,serif;font-size:23px;font-weight:400;margin:0 0 12px}.panel h3{font-size:14px;font-weight:600;margin:5px 0 14px}.muted{color:var(--soft)}.mint{color:var(--mint)}.negative{color:var(--bad)}.positive{color:var(--mint)}.orange{color:var(--amber)}
+.chart{min-height:250px;border-bottom:1px solid #263749;margin:12px 0 15px}.chart svg{width:100%;height:250px;overflow:visible}.chart text{font:11px sans-serif;fill:#94a6b8}
+.grid3{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}.smallbox{background:#0b1623;border:1px solid #223349;border-radius:9px;padding:14px}
+.row{display:flex;align-items:center;justify-content:space-between;gap:12px}.row+.row{border-top:1px solid #223043;padding-top:12px;margin-top:12px}.mono{font-variant-numeric:tabular-nums;font-family:ui-monospace,SFMono-Regular,Consolas,monospace}
+table{width:100%;border-collapse:collapse;font-size:12px}th{text-align:left;color:#90a6ba;text-transform:uppercase;letter-spacing:1px;font-weight:600;font-size:10px;padding:11px 8px;border-bottom:1px solid #314457}td{padding:11px 8px;border-bottom:1px solid #223349;font-variant-numeric:tabular-nums}tr:first-child td{color:#d5f6e4}td:nth-child(n+3){text-align:right}th:nth-child(n+3){text-align:right}
+.panel-wide{grid-column:1/-1}.events{max-height:300px;overflow:auto}.event{padding:12px 0;border-bottom:1px solid #263548;font-size:12px}.event time{color:#829aad;font-size:11px}.event strong{color:var(--mint)}
+footer{font-size:12px;color:#7f93a7;padding-top:20px;line-height:1.7}.topright{display:flex;gap:9px;align-items:center}button{cursor:pointer;background:#182d38;border:1px solid #395b62;color:#c5ecdf;border-radius:7px;padding:9px 13px;font:inherit}button:hover{background:#25434c}
+.status{padding:11px 13px;border:1px solid #4d4b34;background:#302d22;color:#ead1a1;border-radius:8px;margin:18px 0;font-size:13px}.status.ok{border-color:#2c544d;background:#102924;color:#a8e7ce}.status.bad{border-color:#6a414a;background:#30202b;color:#ffb5bf}
+@media(max-width:800px){.deck{grid-template-columns:repeat(2,minmax(0,1fr))}.layout{grid-template-columns:1fr}.grid3{grid-template-columns:1fr}.wrap{padding:16px 12px 48px}header{flex-wrap:wrap}.panel{padding:16px}.card{padding:14px}td,th{padding:11px 4px}table{font-size:11px}.title{font-size:43px}}
+</style></head><body><div class="wrap">
+<header><div><span class="eyebrow">MICRO COMPOUND // RESEARCH TERMINAL</span><h1 class="title">The Agent Laboratory</h1><div class="subtitle">Eight independent strategies. Three dollars of imaginary capital each. Real public market observations, deliberately conservative simulated fees, and learning from completed paper trades.</div></div><div class="topright"><span class="badge">● PAPER MONEY ONLY</span><button type="button" onclick="load()">Refresh</button></div></header>
+<div id="status" class="status">Connecting to paper-agent research ledger…</div>
+<section class="deck"><div class="card"><small>Champion / virtual NAV</small><div class="value mono" id="nav">$3.00</div><div class="help" id="champion">CASH: awaiting evidence</div></div>
+<div class="card"><small>Champion / net return</small><div class="value mono" id="roi">0.00%</div><div class="help">After hypothetical fees and slippage</div></div>
+<div class="card"><small>Learning observations</small><div class="value mono" id="labels">0</div><div class="help">Only completed paper trades count</div></div>
+<div class="card"><small>Live challenger agents</small><div class="value mono" id="agents">8</div><div class="help" id="research">0 mutations · 0 promotions</div></div></section>
+<div class="layout">
+<section class="panel"><div class="row"><h2>Portfolio Observatory</h2><span class="label" id="lastbar">AWAITING MARKET DATA</span></div><div class="chart" id="chart"><div style="padding:80px 0;text-align:center;color:#7f92a5">Waiting for the first paper cycle</div></div>
+<div class="grid3"><div class="smallbox"><div class="label">Fixed strategy</div><div id="fixed" class="value mono" style="font-size:24px">$3.00</div><div class="help">Existing 72-bar rotation</div></div><div class="smallbox"><div class="label">BTC benchmark</div><div id="btc" class="value mono" style="font-size:24px">$3.00</div><div class="help">Simulated BTC buy and hold</div></div><div class="smallbox"><div class="label">No-trade benchmark</div><div id="cash" class="value mono" style="font-size:24px">$3.00</div><div class="help">Cash is a valid decision</div></div></div></section>
+<section class="panel"><h2>Learning Logic</h2><p class="muted">The agents study the same market, but keep separate simulated portfolios and learning records.</p><div class="row"><span>01. Observe</span><span class="mint">Read-only candles</span></div>
+<div class="row"><span>02. Decide</span><span class="mint">Trend, reversal, volume</span></div><div class="row"><span>03. Paper-trade</span><span class="mint">$3, no leverage</span></div>
+<div class="row"><span>04. Learn</span><span class="mint">Only after a position closes</span></div><div class="row"><span>05. Challenge</span><span class="mint">Spawn variations</span></div><div class="row"><span>06. Evaluate</span><span class="orange">New evidence required</span></div><p class="muted" style="margin-top:20px">We will not call a positive backtest proof of future profit. No agent can access, control or spend Coinbase funds.</p></section>
+<section class="panel panel-wide"><div class="row"><h2>Autonomous Agents</h2><span class="label">RANKED BY VIRTUAL NAV · NOT PREDICTIVE</span></div><div style="overflow-x:auto"><table><thead><tr><th>Agent</th><th>Market hypothesis</th><th>Virtual NAV</th><th>Net return</th><th>Closed trades</th><th>DD</th></tr></thead><tbody id="leaderboard"><tr><td colspan="6" class="muted">Awaiting first data cycle…</td></tr></tbody></table></div></section>
+<section class="panel panel-wide"><h2>Research Event Log</h2><div class="events" id="events"><div class="muted">No completed activity yet.</div></div></section>
+</div><footer><strong>Research prototype, not trading advice.</strong> Numbers are from a paper simulator, not real exchange fills. The market feed contains 5-minute historical candles without actual quotes, queue position, latency, tax or detailed spread. Coinbase fees are assumptions based on a prior quoted account tier, not guaranteed fee terms. GitHub Actions is a periodically scheduled runner and may be delayed; the dashboard is a read-only view. No guarantees of profit. <a href="https://github.com/sophiamaybea/open-claw/tree/main/experiments/micro-compound-agents" target="_blank" rel="noopener">Inspect source and audit log ↗</a></footer>
+</div><script>
+const url='https://raw.githubusercontent.com/sophiamaybea/open-claw/main/experiments/micro-compound-agents/site/latest.json';
+const $=id=>document.getElementById(id), usd=n=>'$'+Number(n||0).toFixed(2),pct=n=>(n>0?'+':'')+Number(n||0).toFixed(2)+'%';
+function plot(data){const lines=[['CHAMPION',data.portfolios?.champion,'#6ceac1'],['ROTATION',data.portfolios?.fixedBaseline,'#ffc274'],['BTC',data.portfolios?.btc,'#7e9cda']];
+ const all=lines.flatMap(x=>x[1]?.history?.map(z=>z.value)||[]);if(!all.length)return;
+ const ymin=Math.min(2.75,...all),ymax=Math.max(3.25,...all),h=220,w=740,pad=18;
+ const lineData=lines.map(([name,p,c])=>{const pts=p?.history||[];return {name,c,pts};});
+ let paths='',legend='',a=0;
+ for(const l of lineData){if(l.pts.length<2)continue;const d=l.pts.map((z,i)=>((i===0?'M':'L')+' '+(pad+(i/(l.pts.length-1))*(w-2*pad)).toFixed(1)+' '+(pad+(1-(z.value-ymin)/(ymax-ymin||1))*(h-2*pad)).toFixed(1))).join(' ');
+ paths+='<path d="'+d+'" fill="none" stroke="'+l.c+'" stroke-width="2.3" vector-effect="non-scaling-stroke"/>';legend+='<span style="color:'+l.c+';margin-right:20px">'+l.name+'</span>';a++;
+ }
+ if(!a)return;
+ $('chart').innerHTML='<svg viewBox="0 0 740 230" preserveAspectRatio="none" aria-label="Recent simulated portfolio net values"><path d="M18 110 L722 110" stroke="#314456" stroke-dasharray="5,7"/>'+paths+'<text x="20" y="13">'+usd(ymax)+'</text><text x="20" y="223">'+usd(ymin)+'</text></svg><div class="label" style="margin-top:8px">'+legend+'</div>';
+}
+function show(d){
+ const status=d.health?.status||'UNKNOWN';const ok=status==='PAPER_RUNNING'||status==='BOOTSTRAPPED',bar=d.lastBar?new Date(d.lastBar*1000):null;
+ const stale=bar && Date.now()-bar.getTime()>45*60*1000;
+ $('status').className='status '+(status==='FEED_ERROR'||stale?'bad':ok?'ok':'');
+ $('status').textContent=status==='FEED_ERROR'?'PUBLIC DATA ISSUE: '+(d.health.error||d.warnings||'The feed failed. Trades halted.'):
+   stale?'MARKET DATA STALE. No new simulated fills should occur until data is restored.':
+   status==='BOOTSTRAPPED'?'Initialized historical context. Waiting for newly completed market candles before any paper trades.':
+   status==='PAPER_RUNNING'?'Paper research is running. The most recent cycle processed '+(d.health.processed||0)+' newly completed market candles.':
+   'Research engine has not completed its first scheduled cloud run.';
+ const p=d.portfolios||{},champ=p.champion||{};
+ $('nav').textContent=usd(champ.nav||3);$('roi').textContent=pct(champ.roi_pct||0);$('roi').className='value mono '+(champ.roi_pct<0?'negative':'');
+ $('labels').textContent=(d.agents||[]).reduce((s,x)=>s+(x.observations||0),0).toLocaleString();
+ $('agents').textContent=(d.agents||[]).length;$('research').textContent=(d.mutationCount||0)+' challenger mutations · '+(d.promotionCount||0)+' paper promotions';
+ $('champion').textContent=(d.champion||'CASH')+' · '+(champ.trades||0)+' closed trades';
+ $('fixed').textContent=usd(p.fixedBaseline?.nav||3);$('btc').textContent=usd(p.btc?.nav||3);$('cash').textContent=usd(p.cash?.nav||3);
+ $('lastbar').textContent=bar?'LATEST CANDLE '+bar.toLocaleString():'WAITING FOR DATA';
+ $('leaderboard').innerHTML=(d.agents||[]).map(a=>'<tr><td>'+a.id+'</td><td class="muted">'+a.kind+'</td><td>'+usd(a.nav)+'</td><td class="'+(a.roi_pct<0?'negative':'positive')+'">'+pct(a.roi_pct)+'</td><td>'+a.trades+'</td><td>'+a.drawdown_pct+'%</td></tr>').join('')||'<tr><td colspan="6">Awaiting agents</td></tr>';
+ $('events').innerHTML=(d.events||[]).slice().reverse().map(e=>'<div class="event"><time>'+new Date(e.at*1000).toLocaleString()+'</time><div>'+String(e.text||e.type||'Event').replaceAll('<','&lt;')+'</div></div>').join('')||'<div class="muted">No recorded events yet.</div>';plot(d);
+}
+async function load(){
+ try{const r=await fetch(url+'?t='+Date.now(),{cache:'no-store'});if(!r.ok)throw Error('Public dashboard feed HTTP '+r.status);const d=await r.json();show(d);}
+ catch(e){$('status').className='status bad';$('status').textContent='Waiting for the first GitHub research cycle. '+String(e.message||e);}
+}
+load();setInterval(load,60000);
+</script></body></html>
