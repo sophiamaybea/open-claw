@@ -22,7 +22,7 @@ The worker persists `state.json` and `site/latest.json` to the Git repository af
 | **Risk gate** | Cash-only option, next-bar execution, min order size, min holding time, fixed hypothetical fees/slippage, no leverage. |
 | **Learning ledger** | Every strategy updates its online win/return statistic only **after a full simulated exit**. |
 | **Challenger forge** | Once a strategy has sufficient completed, prospective paper evidence and positive net trade performance, it can spawn a new parameter variant that starts with **no inherited trade record**. |
-| **Evidence examiner** | A potential champion requires at least **21 days** of history since birth, **10 completed paper exits**, a trailing fee-adjusted return better than cash and BTC by a margin, drawdown below 15%, and extra fee stress. |
+| **Evidence examiner** | A potential champion requires at least **30 days** since birth, **15 completed paper exits**, positive net results in **two non-overlapping 14-day windows** that each outperform both cash and BTC, drawdown below 15%, and extra fee stress. |
 | **Champion** | Starts in cash and will only follow a promoted, paper-tested strategy. Promotion is **paper-only**, never authorises a live trade. |
 
 **This is a heuristic incremental learner, not GPT/Claude weights being retrained, not autonomous code self-modification, and not proof of a profit edge.** The selection rules are intentionally conservative, particularly given the small account and fees.
