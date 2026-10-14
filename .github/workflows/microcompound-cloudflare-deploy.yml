@@ -33,7 +33,7 @@ jobs:
           set -euo pipefail
           node --check experiments/micro-compound-agents/core.mjs
           node --check experiments/micro-compound-agents/cloudflare/worker.mjs
-          node -e 'const c=require("./experiments/micro-compound-agents/cloudflare/wrangler.jsonc");if(c.name!=="micro-compound-paper-agents"||c.d1_databases?.[0]?.binding!=="DB"||c.d1_databases?.[0]?.database_name!=="microcompound-paper"||c.d1_databases?.[0]?.database_id==="REPLACE_WITH_CREATED_D1_DATABASE_UUID")process.exit(1);console.log("Safe separate Worker and D1 binding verified")'
+          node -e 'const c=JSON.parse(require("fs").readFileSync("./experiments/micro-compound-agents/cloudflare/wrangler.jsonc","utf8"));if(c.name!=="micro-compound-paper-agents"||c.d1_databases?.[0]?.binding!=="DB"||c.d1_databases?.[0]?.database_name!=="microcompound-paper"||c.d1_databases?.[0]?.database_id==="REPLACE_WITH_CREATED_D1_DATABASE_UUID")process.exit(1);console.log("Safe separate Worker and D1 binding verified")'
 
       - name: Create missing paper ledger tables in existing D1 database
         uses: cloudflare/wrangler-action@v4
