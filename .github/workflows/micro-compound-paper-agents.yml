@@ -1,4 +1,4 @@
-name: Micro Compound autonomous paper agents
+name: Micro Compound — minute research (paper only)
 on:
   push:
     paths:
@@ -7,15 +7,17 @@ on:
       - experiments/micro-compound-agents/core.test.mjs
       - experiments/micro-compound-agents/runner.mjs
   workflow_dispatch:
+  # GitHub supports a five-minute minimum schedule, not a true per-minute cron.
+  # One active job loops through five one-minute public-candle observations.
   schedule:
-    - cron: '8,23,38,53 * * * *'
+    - cron: '4,9,14,19,24,29,34,39,44,49,54,59 * * * *'
 permissions:
   contents: write
 concurrency:
-  group: microcompound-paper-state-main
+  group: micro-compound-minute-paper-main
   cancel-in-progress: false
 jobs:
-  paper-research:
+  paper-minute-collector:
     runs-on: ubuntu-latest
     timeout-minutes: 8
     steps:
@@ -26,21 +28,28 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
-      - name: Test safety and delayed outcome learning
+      - name: Regression tests for paper-only execution
         run: node --test experiments/micro-compound-agents/core.test.mjs
-      - name: Fetch public market data and update fake portfolios
-        run: node experiments/micro-compound-agents/runner.mjs
-      - name: Persist *paper-only* state for next research cycle
+      - name: Five best-effort one-minute cycles
+        shell: bash
+        run: |
+          set -euo pipefail
+          for i in 1 2 3 4 5; do
+            echo "Minute observation $i/5 at $(date -u +%FT%TZ)"
+            node experiments/micro-compound-agents/runner.mjs
+            if [ "$i" != "5" ]; then sleep 60; fi
+          done
+      - name: Persist fake-money state and public summary
         shell: bash
         run: |
           set -euo pipefail
           git config user.name "micro-compound-paper-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add experiments/micro-compound-agents/state.json experiments/micro-compound-agents/site/latest.json
+          git add experiments/micro-compound-agents/state-minute.json experiments/micro-compound-agents/site/latest.json
           if ! git diff --cached --quiet; then
-            git commit -m "paper-agents: store 5m read-only market observation and virtual ledger [skip ci]"
+            git commit -m "paper-agents: five 1m observations and ledger [skip ci]"
             git pull --rebase origin main
             git push origin HEAD:main
           else
-            echo "No paper-state changes to save"
+            echo "No state changes"
           fi
