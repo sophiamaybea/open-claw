@@ -8,7 +8,7 @@ export function edgeLab(feed, opts={}) {
  if(symbols.length<3||len<700)throw Error('Need 3+ years/markets with >=700 days');
  const t0=data[0][0].t;
  for(const c of data){if(c[0].t!==t0)throw Error('Unaligned market histories');for(let i=1;i<len;i++)if(c[i].t!==data[0][i].t)throw Error('Missing candle day');}
- const start2024=Math.max(201,data[0].findIndex(d=>d.t>=1714521600)), start2025=data[0].findIndex(d=>d.t>=1735689600),start2026=data[0].findIndex(d=>d.t>=1767225600),end=len;
+ const start2024=Math.max(201,data[0].findIndex(d=>d.t>=1714521600)), start2025=data[0].findIndex(d=>d.t>=1735689600),start2026=data[0].findIndex(d=>d.t>=1767225600),end=len-1;
  if(Math.min(start2024,start2025,start2026)<0)throw Error('Missing years');
  const fee=opts.takerFee??.005,slip=opts.slippage??.0010,initial=opts.start??3, minTicket=1;
  function average(a){return a.length?a.reduce((s,v)=>s+v,0)/a.length:0;}
@@ -107,6 +107,10 @@ export function edgeLab(feed, opts={}) {
   return {ret:(netCash/initial-1)*100,net:netCash,drawdown:maxDD*100,fees,trades,changes:change,exposurePct:100*exposureDays/(stop-start),valid:!invalid};
  }
  const periods={train:{start:start2024,end:start2025},validation:{start:start2025,end:start2026},test:{start:start2026,end}};
+ if(opts.fixed){
+    const p=opts.fixed;
+    return {parameter:p,periods:Object.fromEntries(Object.entries(periods).map(([k,v])=>[k,sim(p,v.start,v.end)])),capital:initial,feeBps:fee*10000,slippageBps:slip*10000,assumption:'Static parameter, held fixed across all periods. Excludes incomplete latest candle. No live execution.'};
+  }
  const candidates=params(),leaders={},ranking={};
  for(const p of candidates){
   const a=sim(p,periods.train.start,periods.train.end),b=sim(p,periods.validation.start,periods.validation.end);
