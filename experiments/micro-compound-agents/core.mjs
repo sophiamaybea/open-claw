@@ -99,21 +99,36 @@ function recentRet(w,bars=72){
 }
 function evaluate(state,ts){
  state.researchCycles++;
- const contenders=state.agents.filter(a=>a.born!==null && ts-a.born>=21*86400 && a.wallet.completed>=10);
- // The two comparisons are forward paper portfolio evidence. Do not treat historically explored data as blind proof.
+ const contenders=state.agents.filter(a=>a.born!==null && ts-a.born>=30*86400 && a.wallet.completed>=15);
+ // Require TWO non-overlapping forward paper periods, strictly after candidate birth.
+ // Do not reward an attractive one-off retrospective result or profitable paper HOLD.
+ function windowReturn(w,from,to){
+   const rows=w.curve.filter(z=>z.t>=from&&z.t<=to);
+   if(rows.length<220)return null; // 14 days of approximately hourly readings
+   const start=rows[0].value,end=rows.at(-1).value;
+   return start>0?end/start-1:null;
+ }
+ const windowA=[ts-28*86400,ts-14*86400], windowB=[ts-14*86400,ts];
  const eligible=contenders.filter(a=>{
-   const r=recentRet(a.wallet,336),c=recentRet(state.portfolios.cash,336)??0, btc=recentRet(state.portfolios.btcBenchmark,336)??0;
-   if(r===null || a.wallet.drawdown>.15 || !(r>Math.max(c,btc)+.04))return false;
-   // Extra friction stress; at least 10 paper exits that survived doubled spread/fees is required.
-   return a.wallet.events.slice(-10).reduce((sum,e)=>sum+(e.returnPct/100-.012),0)>0;
+   if(a.wallet.drawdown>.15 || a.born>windowA[0])return false;
+   for(const [from,to] of [windowA,windowB]){
+     const p=windowReturn(a.wallet,from,to);
+     const cash=windowReturn(state.portfolios.cash,from,to)??0;
+     const btc=windowReturn(state.portfolios.btcBenchmark,from,to)??0;
+     if(p===null || p<=Math.max(cash,btc)+.015)return false;
+   }
+   // 15 actual closed simulated exits must still produce positive net reward
+   // after an EXTRA 1.2% stress charge per round trip.
+   return a.wallet.events.slice(-15).reduce((sum,e)=>sum+(e.returnPct/100-.012),0)>0;
  });
  eligible.sort((a,b)=>recentRet(b.wallet,336)-recentRet(a.wallet,336));
  if(state.selected==='CASH' && eligible.length){
-   state.selected=eligible[0].id;state.promotions.push({at:ts,to:state.selected,reason:'>=21d fresh paper evidence, 10 exits, excess to cash/BTC, adverse fee stress'});
+   state.selected=eligible[0].id;state.promotions.push({at:ts,to:state.selected,reason:'>=30d new paper, 15 exits, positive 14d+14d vs cash/BTC after fee stress'});
    pushEvent(state,{at:ts,type:'research',text:'Promoted paper champion '+state.selected+'; NO live order permission.'});
  }
  if(state.agents.length>=24)return;
- const leader=contenders.filter(a=>a.wallet.events.length>=4&&a.wallet.avgReward>0&&a.wallet.drawdown<.18)
+ const learners=state.agents.filter(a=>a.born!==null && ts-a.born>=5*86400 && a.wallet.completed>=4);
+ const leader=learners.filter(a=>a.wallet.events.length>=4&&a.wallet.avgReward>0&&a.wallet.drawdown<.18)
    .sort((a,b)=>b.wallet.avgReward-a.wallet.avgReward)[0];
  if(!leader)return;
  const mutationId=state.mutations.length+1;
@@ -153,7 +168,7 @@ function processBar(state,bar,ts) {
    if(histories[sym].length>420)histories[sym]=histories[sym].slice(-420);
  }
  state.lastBar=ts;
- if((state.runs+Math.floor(ts/FIVE_MINUTES))%288===0)evaluate(state,ts);
+ if(Math.floor(ts/FIVE_MINUTES)%288===0)evaluate(state,ts);
 }
 export function advance(state,feed,now=Date.now()/1000){
  const cutoff=Math.floor(now/FIVE_MINUTES)*FIVE_MINUTES;
