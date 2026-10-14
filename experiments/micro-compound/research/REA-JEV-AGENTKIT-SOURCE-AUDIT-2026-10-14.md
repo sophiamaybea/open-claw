@@ -1,0 +1,31 @@
+# Micro Compound source audit: REA, Jev, AgentKit, Stanford graphic, HFT prompts
+**14 October 2026. Source-grounded assessment, not a performance claim. DO NOT connect live funds.**
+
+The user supplied five screenshots and the original repository `https://github.com/morluto/rea`. I inspected REA's official README and security notes, examined available public Jev and AgentKit documentation, and searched the exact title/authors/work-paper number appearing on the Stanford-styled graphic.
+
+## Source by source
+
+1. **REA (morluto/rea): USE AS DEVELOPMENT-RESEARCH ASSISTANT, NOT A TRADING STRATEGY.** It is a legitimate reverse-engineering MCP/CLI toolkit to inspect native, JavaScript/Electron, and web application behaviour, trace modules and record observed evidence. It does not establish trading alpha or perform quantitative backtesting. Requires Node 22+ and often a local browser or native analysis tooling; **not appropriate to run inside a tiny free Cloudflare Worker every minute**. Potential project uses: audit our dashboard UI/network flows and recreate general public functionality from a reference interface. Do not illegally copy proprietary TradingView indicators, bypass access control, scrape accounts, or assume a visually compelling indicator is profitable. Source: https://github.com/morluto/rea
+
+2. **Claude + AgentKit + Jev prompt: USE ARCHITECTURAL CONCEPTS, NOT PROSE CLAIMS.** Split slower research/strategy generation from a fast, narrow decision layer and a third *deterministic* safety gate; typed decisions, delayed labels, versioned prompts, portfolio accounting, kill switch, and test-then-review are sound principles. Its purported \~81ms decision loop is not demonstrated for our Coinbase public 1-minute OHLCV/cloud cron infrastructure. Confidence >0.80 alone is not validated trading edge. `agentkit.xyz` in the screenshot is not a verified identification of a particular AgentKit package. `inngest/agent-kit` supports typed networks and explicit handoffs; `coinbase/agentkit` provides actual wallets and risky fund-moving actions; do not plug wallet-capable providers into paper agents. Sources: https://github.com/inngest/agent-kit ; https://github.com/coinbase/agentkit ; https://github.com/arc-labs-ai/agentkit
+
+3. **Jev typed decision layer: OPTIONAL FUTURE COMPARATOR ONLY.** Jev models can receive typed application state and return allowed decisions plus probability outputs. The safety override remains locally coded HOLD/RISK STOP; no hosted-model probability should replace an auditable cost-aware gate. Vendor availability, credentials, pricing and calibration must be checked before adding integration, and externally priced LLM calls would violate a strict zero-new-spend objective unless free usage is verified. Sources: https://github.com/cristiancolon/jev-hft ; https://github.com/EthanAlgoX/jev-trading ; https://www.jevtypesafeai.com/jev/trading
+
+4. **Grok HFT prompt: USE AS AN ENGINEERING CHECKLIST.** Stale quote checks, realistic slippage, retry/idempotency, max daily loss, book sequence integrity, walk-forward and anomaly logs are relevant. Ultra-low-latency HFT, maker queue position and exchange-level fills **cannot be tested credibly using 1-minute historical OHLCV**. An actual high-frequency hypothesis must start with authorized raw trade+level2 order-book capture and realistic event-time replay such as https://github.com/nkaz001/hftbacktest . It is not suitable for a £3 strategy under high retail taker fees.
+
+5. **Stanford-branded 'AI Trading Gold Rush' graphic: PUBLICATION UNVERIFIED.** The graphic claims an October 2026 Stanford working paper `SU-QF-2026-017` by Daniel K. Mercer, Elena V. Rao and Marcus T. Liang. Independent exact-title, author and working-paper-number searches did not locate a corroborating Stanford publication. Do NOT cite the screenshot as a verified Stanford result or treat the table's counts as observed evidence. The principles about false alpha, cost stress and walk-forward validation are useful but need independent support.
+
+6. **TradingView '1% Trading' screenshot: A VISUAL REFERENCE, NOT AN AUDIT.** Shows Binance BTCUSDT **perpetual** on 5-minute candles with zone overlays, not Coinbase UK spot execution. It contains no reproducible algorithm, verified trades, fees, spread, stop-outs or out-of-sample results. Do not reverse engineer private code as a shortcut, and do not conflate perpetuity/short mechanics with spot-only £3 constraints.
+
+## Architecture improvements recommended
+- Research explorer (offline/rare): develop **a few** registered hypotheses, predeclare untouched test periods, and retire invalidated ideas.
+- Read-only collector (every minute): strict clock UTC, deterministic OHLCV provenance and staleness.
+- Cost-aware rejection engine (every proposed trade): **ASK/BID spread + two transaction fees + adverse slippage + minimum quote ticket + turnover + current drawdown**; default HOLD.
+- Candidate evaluator: compare **actual completed virtual exits** against cash/BTC on multiple **separate and prospective** windows; count independent market days and false discovery risk, not the number of settings tested.
+- Typed model challenger (optional): Jev / AgentKit may propose a structured outcome; a locally coded gate must override any risky action.
+- Separate bounty hunter: prioritize public, verified original opportunities, never conflate reward mentions with verified payout; no auto spending or submitting.
+- Dashboard: display update timestamp, data freshness, benchmark/out-of-sample statistics and reasons every signal was vetoed.
+
+**New isolated prototype created and locally tested:** `rejection-engine.mjs` + `rejection-engine.test.mjs` (ten passing Node 22 unit tests). This is not wired into the deployed Worker and has not established a profitable strategy. The prototype is distributed separately with the analysis report in the associated ChatGPT deliverable, not committed here. No REA, Jev, AgentKit or third-party executable was installed or executed in this evaluation; only read-only source inspections.
+
+Sources: https://github.com/morluto/rea • https://github.com/inngest/agent-kit • https://github.com/coinbase/agentkit • https://github.com/nkaz001/hftbacktest • https://www.tradingview.com/pine-script-docs/
