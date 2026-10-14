@@ -1,0 +1,311 @@
+{
+  "rule": {
+    "type": "rotation",
+    "rankN": 120,
+    "maN": 120,
+    "thresh": 0,
+    "minHold": 45
+  },
+  "source": "Coinbase historical daily OHLCV; 2022 independent bearish falsification; fixed family rule originally selected 2024/2025; results exploratory",
+  "markets": [
+    "BTC-USD",
+    "ETH-USD",
+    "SOL-USD"
+  ],
+  "counts": {
+    "BTC-USD": 1946,
+    "ETH-USD": 1946,
+    "SOL-USD": 1946
+  },
+  "gaps": {
+    "BTC-USD": 0,
+    "ETH-USD": 0,
+    "SOL-USD": 0
+  },
+  "scenarios": [
+    {
+      "fee": 0.005,
+      "slip": 0.001,
+      "delay": 0,
+      "report": {
+        "parameter": {
+          "type": "rotation",
+          "rankN": 120,
+          "maN": 120,
+          "thresh": 0,
+          "minHold": 45
+        },
+        "periods": {
+          "train": {
+            "ret": 49.50627850102585,
+            "net": 4.485188355030775,
+            "drawdown": 32.52751175280093,
+            "fees": 0.20962567764499082,
+            "trades": 9,
+            "changes": 9,
+            "exposurePct": 87.75510204081633,
+            "valid": true
+          },
+          "validation": {
+            "ret": 12.25186635298523,
+            "net": 3.367555990589557,
+            "drawdown": 48.987698277645045,
+            "fees": 0.16891921402417945,
+            "trades": 8,
+            "changes": 8,
+            "exposurePct": 73.42465753424658,
+            "valid": true
+          },
+          "test": {
+            "ret": 23.758284817882803,
+            "net": 3.712748544536484,
+            "drawdown": 12.757884924882953,
+            "fees": 0.08520058369979015,
+            "trades": 3,
+            "changes": 3,
+            "exposurePct": 34.61538461538461,
+            "valid": true
+          },
+          "earlier": {
+            "ret": 328.25642012543585,
+            "net": 12.847692603763075,
+            "drawdown": 40.959767490498386,
+            "fees": 0.2911478578807322,
+            "trades": 11,
+            "changes": 11,
+            "exposurePct": 89.58904109589041,
+            "valid": true
+          },
+          "bear2022": {
+            "ret": -20.116489373705036,
+            "net": 2.396505318788849,
+            "drawdown": 33.120922285526646,
+            "fees": 0.03235847100916583,
+            "trades": 2,
+            "changes": 2,
+            "exposurePct": 12.430939226519337,
+            "valid": true
+          }
+        },
+        "capital": 3,
+        "feeBps": 50,
+        "slippageBps": 10,
+        "signalDelayDays": 0,
+        "assumption": "Static parameter, held fixed across all periods. Excludes incomplete latest candle. No live execution."
+      }
+    },
+    {
+      "fee": 0.005,
+      "slip": 0.005,
+      "delay": 0,
+      "report": {
+        "parameter": {
+          "type": "rotation",
+          "rankN": 120,
+          "maN": 120,
+          "thresh": 0,
+          "minHold": 45
+        },
+        "periods": {
+          "train": {
+            "ret": 43.643678054952304,
+            "net": 4.309310341648569,
+            "drawdown": 33.598550380406635,
+            "fees": 0.34192707255843563,
+            "trades": 9,
+            "changes": 9,
+            "exposurePct": 87.75510204081633,
+            "valid": true
+          },
+          "validation": {
+            "ret": 8.716444107413924,
+            "net": 3.261493323222418,
+            "drawdown": 49.39419509396758,
+            "fees": 0.27676062316317196,
+            "trades": 8,
+            "changes": 8,
+            "exposurePct": 73.42465753424658,
+            "valid": true
+          },
+          "test": {
+            "ret": 21.79378184830867,
+            "net": 3.65381345544926,
+            "drawdown": 13.103398251913104,
+            "fees": 0.1408469553991897,
+            "trades": 3,
+            "changes": 3,
+            "exposurePct": 34.61538461538461,
+            "valid": true
+          },
+          "earlier": {
+            "ret": 308.18438339582445,
+            "net": 12.245531501874733,
+            "drawdown": 42.359955086229945,
+            "fees": 0.4720475932097733,
+            "trades": 11,
+            "changes": 11,
+            "exposurePct": 89.58904109589041,
+            "valid": true
+          },
+          "bear2022": {
+            "ret": -20.75304941216386,
+            "net": 2.377408517635084,
+            "drawdown": 33.120922285526646,
+            "fees": 0.05371719774788914,
+            "trades": 2,
+            "changes": 2,
+            "exposurePct": 12.430939226519337,
+            "valid": true
+          }
+        },
+        "capital": 3,
+        "feeBps": 50,
+        "slippageBps": 50,
+        "signalDelayDays": 0,
+        "assumption": "Static parameter, held fixed across all periods. Excludes incomplete latest candle. No live execution."
+      }
+    },
+    {
+      "fee": 0.01,
+      "slip": 0.005,
+      "delay": 0,
+      "report": {
+        "parameter": {
+          "type": "rotation",
+          "rankN": 120,
+          "maN": 120,
+          "thresh": 0,
+          "minHold": 45
+        },
+        "periods": {
+          "train": {
+            "ret": 36.637011315200475,
+            "net": 4.099110339456014,
+            "drawdown": 34.91359331884922,
+            "fees": 0.4993632018051184,
+            "trades": 9,
+            "changes": 9,
+            "exposurePct": 87.75510204081633,
+            "valid": true
+          },
+          "validation": {
+            "ret": 4.4529497129362605,
+            "net": 3.1335884913880876,
+            "drawdown": 49.8978106077859,
+            "fees": 0.40641793365808626,
+            "trades": 8,
+            "changes": 8,
+            "exposurePct": 73.42465753424658,
+            "valid": true
+          },
+          "test": {
+            "ret": 19.38172527901085,
+            "net": 3.5814517583703256,
+            "drawdown": 13.531460329489894,
+            "fees": 0.20913562454114887,
+            "trades": 3,
+            "changes": 3,
+            "exposurePct": 34.61538461538461,
+            "valid": true
+          },
+          "earlier": {
+            "ret": 284.40992292508776,
+            "net": 11.532297687752633,
+            "drawdown": 44.06374160202237,
+            "fees": 0.6842932855313374,
+            "trades": 11,
+            "changes": 11,
+            "exposurePct": 89.58904109589041,
+            "valid": true
+          },
+          "bear2022": {
+            "ret": -21.541693991830847,
+            "net": 2.3537491802450745,
+            "drawdown": 33.120922285526646,
+            "fees": 0.08017887151532221,
+            "trades": 2,
+            "changes": 2,
+            "exposurePct": 12.430939226519337,
+            "valid": true
+          }
+        },
+        "capital": 3,
+        "feeBps": 100,
+        "slippageBps": 50,
+        "signalDelayDays": 0,
+        "assumption": "Static parameter, held fixed across all periods. Excludes incomplete latest candle. No live execution."
+      }
+    },
+    {
+      "fee": 0.005,
+      "slip": 0.001,
+      "delay": 2,
+      "report": {
+        "parameter": {
+          "type": "rotation",
+          "rankN": 120,
+          "maN": 120,
+          "thresh": 0,
+          "minHold": 45
+        },
+        "periods": {
+          "train": {
+            "ret": 109.65029944668116,
+            "net": 6.2895089834004345,
+            "drawdown": 22.218765555002477,
+            "fees": 0.27453211007371897,
+            "trades": 9,
+            "changes": 9,
+            "exposurePct": 86.53061224489795,
+            "valid": true
+          },
+          "validation": {
+            "ret": 10.781075241580051,
+            "net": 3.3234322572474015,
+            "drawdown": 41.84920625894111,
+            "fees": 0.1636040658928034,
+            "trades": 8,
+            "changes": 8,
+            "exposurePct": 73.97260273972603,
+            "valid": true
+          },
+          "test": {
+            "ret": 26.77957987699888,
+            "net": 3.8033873963099665,
+            "drawdown": 12.26532836128243,
+            "fees": 0.08596055274409645,
+            "trades": 3,
+            "changes": 3,
+            "exposurePct": 33.91608391608391,
+            "valid": true
+          },
+          "earlier": {
+            "ret": 241.37485361494075,
+            "net": 10.241245608448223,
+            "drawdown": 48.147530469952365,
+            "fees": 0.2552878360305397,
+            "trades": 11,
+            "changes": 11,
+            "exposurePct": 89.04109589041096,
+            "valid": true
+          },
+          "bear2022": {
+            "ret": -18.927558643994047,
+            "net": 2.4321732406801786,
+            "drawdown": 33.120922285526646,
+            "fees": 0.03257377033647768,
+            "trades": 2,
+            "changes": 2,
+            "exposurePct": 12.430939226519337,
+            "valid": true
+          }
+        },
+        "capital": 3,
+        "feeBps": 50,
+        "slippageBps": 10,
+        "signalDelayDays": 2,
+        "assumption": "Static parameter, held fixed across all periods. Excludes incomplete latest candle. No live execution."
+      }
+    }
+  ]
+}
