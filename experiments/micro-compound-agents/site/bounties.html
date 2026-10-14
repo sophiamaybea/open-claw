@@ -1,0 +1,38 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex"><title>OpenClaw · Bounty Intelligence</title>
+<style>:root{color-scheme:dark;--bg:#080e1a;--panel:#111d2d;--line:#284457;--ink:#ecf1ec;--mute:#99a9b2;--green:#73eac2;--amber:#ffd08a}
+*{box-sizing:border-box}body{background:radial-gradient(circle at 70% -10%,#193747,#070e19 65%);margin:0;color:var(--ink);font:14px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+main{max-width:1180px;margin:auto;padding:29px 20px 65px}a{color:var(--green)}a:hover{text-decoration:underline}.eyebrow{text-transform:uppercase;color:var(--green);letter-spacing:2.2px;font-size:11px}
+h1{font:normal clamp(40px,7vw,70px)/1.08 Georgia,serif;margin:15px 0;letter-spacing:-1.5px}header{display:flex;justify-content:space-between;align-items:flex-start;gap:16px}nav a{margin-left:14px}
+.intro{color:var(--mute);max-width:750px;font-size:15px}.status{padding:14px;border:1px solid var(--line);border-radius:9px;margin:25px 0;color:#cbe4d7}
+.meta{display:flex;gap:13px;flex-wrap:wrap;margin:18px 0 24px}.pill{border:1px solid var(--line);padding:6px 10px;border-radius:22px;color:#bed3cf;font-size:12px}
+section{border:1px solid var(--line);border-radius:12px;background:#121e2ac4;margin-top:15px;padding:21px;box-shadow:0 8px 24px #060c17aa}
+.row{display:flex;justify-content:space-between;gap:10px}.repo{font:11px ui-monospace,SFMono-Regular,monospace;color:var(--green)}
+h2{font:normal 21px/1.25 Georgia,serif;margin:8px 0}.caption{font-size:12px;color:var(--mute);margin-top:8px}
+.money{color:var(--amber);font-size:22px;font-variant-numeric:tabular-nums}.badge{display:inline-block;border-radius:4px;color:#b9deb9;background:#1f4036;padding:4px 8px;font-size:10px;letter-spacing:.7px}
+.search{width:100%;padding:14px;background:#17283b;border:1px solid #3a4b5c;border-radius:7px;color:#fff;font:inherit}
+.warn{color:#efcc9f}.muted{color:var(--mute)}footer{margin-top:22px;color:#7d91a1;font-size:12px}button{font:inherit;cursor:pointer;background:#263d48;color:#e3f7ef;border:1px solid #466576;border-radius:7px;padding:7px 12px}
+@media(max-width:700px){header{flex-direction:column}nav a{margin:0 14px 0 0}.money{font-size:17px}main{padding:20px 12px}}</style></head><body>
+<main><header><div><span class="eyebrow">OPENCLAW // OPPORTUNITY RESEARCH</span><h1>Bounty Intelligence</h1><p class="intro">Open-source paid-task leads, identified from public GitHub issues. An autonomous scanner collects and ranks opportunities, but does not apply, promise payments or access wallets.</p></div><nav><a href="./index.html">← Agent Laboratory</a></nav></header>
+<div class="status" id="status">Waiting for the first bounty research cycle…</div><div class="meta"><span class="pill" id="count">0 candidate issues</span><span class="pill" id="updated">Not yet scanned</span><span class="pill">Read-only research</span><span class="pill">Rewards unverified</span></div>
+<input id="query" class="search" placeholder="Filter by title, repository, keywords…" aria-label="Filter bounty candidates" type="search">
+<div id="items"><section><h2>Research has not completed</h2><p class="muted">The hunter's first cloud run will populate this view.</p></section></div>
+<footer>Public repositories only. All payment mentions and assignments must be independently verified. Scam signals, ambiguous sponsorship, upfront charges or requests for private keys are grounds for excluding a lead. This dashboard never applies for a bounty or transfers funds.</footer>
+</main><script>
+const endpoint='https://raw.githubusercontent.com/sophiamaybea/open-claw/main/experiments/micro-compound-agents/site/bounties.json';
+const $=id=>document.getElementById(id);let state={opportunities:[]};
+const safe=s=>String(s??'').replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;');
+function show(){
+ const search=$('query').value.toLowerCase();const data=(state.opportunities||[]).filter(x=>(x.title+' '+x.repository+' '+x.excerpt).toLowerCase().includes(search));
+ $('items').innerHTML=data.length?data.slice(0,60).map(x=>{
+  const money=x.payoutMentionUSD==null?'Amount unconfirmed':'$'+Number(x.payoutMentionUSD).toLocaleString('en-US')+' mentioned';
+  return '<section><div class="row"><div class="repo">'+safe(x.repository)+'</div><div class="money">'+safe(money)+'</div></div><h2><a target="_blank" rel="noopener noreferrer" href="'+encodeURI(x.html_url)+'">'+safe(x.title)+'</a></h2><span class="badge">'+safe(x.status)+'</span><div class="caption">Updated '+new Date(x.updated_at).toLocaleDateString()+' · score '+x.score+'</div><p class="caption">'+safe(x.excerpt||'')+'</p></section>';
+ }).join(''):'<section><h2>No matching candidates</h2><p class="muted">Adjust the search or wait for the next research cycle.</p></section>';
+}
+async function load(){
+ try{const r=await fetch(endpoint+'?cache='+Date.now(),{cache:'no-store'});if(!r.ok)throw Error('HTTP '+r.status);state=await r.json();
+ $('status').textContent=state.state==='PARTIAL'?'Partial scan: '+(state.errors||[]).join('; '):state.state==='RESEARCH_READY'?'Scanner completed. Payouts and eligibility remain unverified.':'Waiting for first completed scan.';
+ $('count').textContent=(state.results||0)+' ranked candidate issues';
+ $('updated').textContent=state.updatedAt?'Scanned '+new Date(state.updatedAt).toLocaleString():'Not yet scanned';show();
+ }catch(e){$('status').textContent='Public opportunity feed unavailable: '+e.message;}}
+$('query').addEventListener('input',show);load();setInterval(load,120000);
+</script></body></html>
