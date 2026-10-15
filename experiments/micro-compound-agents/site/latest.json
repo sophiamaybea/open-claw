@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-15T00:37:58.851Z",
-  "lastBar": 1792024560,
+  "updatedAt": "2026-10-15T05:08:46.299Z",
+  "lastBar": 1792040820,
   "mode": "PAPER ONLY — NO MONEY",
   "origin": "Coinbase Exchange public, unauthenticated 1-minute candles",
   "currencies": [
@@ -8,8 +8,8 @@
     "ETH-USD",
     "SOL-USD"
   ],
-  "polls": 20,
-  "researchCycles": 2,
+  "polls": 25,
+  "researchCycles": 3,
   "champion": "CASH",
   "mutationCount": 0,
   "promotionCount": 0,
@@ -46,17 +46,33 @@
         {
           "t": 1792023000,
           "value": 3
+        },
+        {
+          "t": 1792026600,
+          "value": 3
+        },
+        {
+          "t": 1792030200,
+          "value": 3
+        },
+        {
+          "t": 1792033800,
+          "value": 3
+        },
+        {
+          "t": 1792037400,
+          "value": 3
         }
       ]
     },
     "fixedBaseline": {
-      "nav": 3,
-      "roi_pct": 0,
+      "nav": 2.938509,
+      "roi_pct": -2.05,
       "trades": 0,
       "wins": 0,
-      "fees_usd": 0,
-      "drawdown_pct": 0,
-      "holding": "USD",
+      "fees_usd": 0.015,
+      "drawdown_pct": 2.05,
+      "holding": "SOL-USD",
       "history": [
         {
           "t": 1792005000,
@@ -81,16 +97,32 @@
         {
           "t": 1792023000,
           "value": 3
+        },
+        {
+          "t": 1792026600,
+          "value": 3
+        },
+        {
+          "t": 1792030200,
+          "value": 3
+        },
+        {
+          "t": 1792033800,
+          "value": 3
+        },
+        {
+          "t": 1792037400,
+          "value": 3
         }
       ]
     },
     "btc": {
-      "nav": 2.966289,
-      "roi_pct": -1.124,
+      "nav": 2.955696,
+      "roi_pct": -1.477,
       "trades": 0,
       "wins": 0,
       "fees_usd": 0.015,
-      "drawdown_pct": 1.5,
+      "drawdown_pct": 2.78,
       "holding": "BTC-USD",
       "history": [
         {
@@ -116,6 +148,22 @@
         {
           "t": 1792023000,
           "value": 2.965337
+        },
+        {
+          "t": 1792026600,
+          "value": 2.966898
+        },
+        {
+          "t": 1792030200,
+          "value": 2.960206
+        },
+        {
+          "t": 1792033800,
+          "value": 2.948505
+        },
+        {
+          "t": 1792037400,
+          "value": 2.93806
         }
       ]
     },
@@ -151,27 +199,43 @@
         {
           "t": 1792023000,
           "value": 3
+        },
+        {
+          "t": 1792026600,
+          "value": 3
+        },
+        {
+          "t": 1792030200,
+          "value": 3
+        },
+        {
+          "t": 1792033800,
+          "value": 3
+        },
+        {
+          "t": 1792037400,
+          "value": 3
         }
       ]
     }
   },
   "agents": [
     {
-      "id": "rotation-24",
-      "kind": "rotation",
-      "lookback": 24,
-      "threshold": 0.011,
-      "holdBars": 12,
+      "id": "trend-48",
+      "kind": "trend",
+      "lookback": 48,
+      "threshold": 0.016,
+      "holdBars": 18,
       "parent": null,
       "born": 1792005000,
-      "observations": 0,
-      "online_reward": 0,
-      "nav": 3,
-      "roi_pct": 0,
-      "trades": 0,
+      "observations": 1,
+      "online_reward": -0.001722,
+      "nav": 2.965567,
+      "roi_pct": -1.148,
+      "trades": 1,
       "wins": 0,
-      "fees_usd": 0,
-      "drawdown_pct": 0,
+      "fees_usd": 0.029917,
+      "drawdown_pct": 1.44,
       "holding": "USD",
       "history": [
         {
@@ -197,6 +261,82 @@
         {
           "t": 1792023000,
           "value": 3
+        },
+        {
+          "t": 1792026600,
+          "value": 3
+        },
+        {
+          "t": 1792030200,
+          "value": 3
+        },
+        {
+          "t": 1792033800,
+          "value": 3
+        },
+        {
+          "t": 1792037400,
+          "value": 3
+        }
+      ]
+    },
+    {
+      "id": "flush-reversal",
+      "kind": "reversal",
+      "lookback": 12,
+      "threshold": -0.018,
+      "holdBars": 9,
+      "parent": null,
+      "born": 1792005000,
+      "observations": 1,
+      "online_reward": -0.001743,
+      "nav": 2.965134,
+      "roi_pct": -1.162,
+      "trades": 1,
+      "wins": 0,
+      "fees_usd": 0.029915,
+      "drawdown_pct": 2.75,
+      "holding": "USD",
+      "history": [
+        {
+          "t": 1792005000,
+          "value": 3
+        },
+        {
+          "t": 1792008600,
+          "value": 3
+        },
+        {
+          "t": 1792012200,
+          "value": 3
+        },
+        {
+          "t": 1792015800,
+          "value": 3
+        },
+        {
+          "t": 1792019400,
+          "value": 3
+        },
+        {
+          "t": 1792023000,
+          "value": 3
+        },
+        {
+          "t": 1792026600,
+          "value": 3
+        },
+        {
+          "t": 1792030200,
+          "value": 3
+        },
+        {
+          "t": 1792033800,
+          "value": 2.965134
+        },
+        {
+          "t": 1792037400,
+          "value": 2.965134
         }
       ]
     },
@@ -210,13 +350,13 @@
       "born": 1792005000,
       "observations": 0,
       "online_reward": 0,
-      "nav": 3,
-      "roi_pct": 0,
+      "nav": 2.938509,
+      "roi_pct": -2.05,
       "trades": 0,
       "wins": 0,
-      "fees_usd": 0,
-      "drawdown_pct": 0,
-      "holding": "USD",
+      "fees_usd": 0.015,
+      "drawdown_pct": 2.05,
+      "holding": "SOL-USD",
       "history": [
         {
           "t": 1792005000,
@@ -241,49 +381,21 @@
         {
           "t": 1792023000,
           "value": 3
-        }
-      ]
-    },
-    {
-      "id": "trend-48",
-      "kind": "trend",
-      "lookback": 48,
-      "threshold": 0.016,
-      "holdBars": 18,
-      "parent": null,
-      "born": 1792005000,
-      "observations": 0,
-      "online_reward": 0,
-      "nav": 3,
-      "roi_pct": 0,
-      "trades": 0,
-      "wins": 0,
-      "fees_usd": 0,
-      "drawdown_pct": 0,
-      "holding": "USD",
-      "history": [
+        },
         {
-          "t": 1792005000,
+          "t": 1792026600,
           "value": 3
         },
         {
-          "t": 1792008600,
+          "t": 1792030200,
           "value": 3
         },
         {
-          "t": 1792012200,
+          "t": 1792033800,
           "value": 3
         },
         {
-          "t": 1792015800,
-          "value": 3
-        },
-        {
-          "t": 1792019400,
-          "value": 3
-        },
-        {
-          "t": 1792023000,
+          "t": 1792037400,
           "value": 3
         }
       ]
@@ -296,14 +408,14 @@
       "holdBars": 12,
       "parent": null,
       "born": 1792005000,
-      "observations": 0,
-      "online_reward": 0,
-      "nav": 3,
-      "roi_pct": 0,
-      "trades": 0,
+      "observations": 3,
+      "online_reward": -0.00462,
+      "nav": 2.888343,
+      "roi_pct": -3.722,
+      "trades": 3,
       "wins": 0,
-      "fees_usd": 0,
-      "drawdown_pct": 0,
+      "fees_usd": 0.088272,
+      "drawdown_pct": 4.37,
       "holding": "USD",
       "history": [
         {
@@ -329,25 +441,41 @@
         {
           "t": 1792023000,
           "value": 3
+        },
+        {
+          "t": 1792026600,
+          "value": 3
+        },
+        {
+          "t": 1792030200,
+          "value": 3
+        },
+        {
+          "t": 1792033800,
+          "value": 2.952507
+        },
+        {
+          "t": 1792037400,
+          "value": 2.910127
         }
       ]
     },
     {
-      "id": "flush-reversal",
-      "kind": "reversal",
-      "lookback": 12,
-      "threshold": -0.018,
-      "holdBars": 9,
+      "id": "rotation-24",
+      "kind": "rotation",
+      "lookback": 24,
+      "threshold": 0.011,
+      "holdBars": 12,
       "parent": null,
       "born": 1792005000,
-      "observations": 0,
-      "online_reward": 0,
-      "nav": 3,
-      "roi_pct": 0,
-      "trades": 0,
+      "observations": 3,
+      "online_reward": -0.005004,
+      "nav": 2.88516,
+      "roi_pct": -3.828,
+      "trades": 3,
       "wins": 0,
-      "fees_usd": 0,
-      "drawdown_pct": 0,
+      "fees_usd": 0.088549,
+      "drawdown_pct": 3.86,
       "holding": "USD",
       "history": [
         {
@@ -373,6 +501,22 @@
         {
           "t": 1792023000,
           "value": 3
+        },
+        {
+          "t": 1792026600,
+          "value": 3
+        },
+        {
+          "t": 1792030200,
+          "value": 3
+        },
+        {
+          "t": 1792033800,
+          "value": 2.959087
+        },
+        {
+          "t": 1792037400,
+          "value": 2.959087
         }
       ]
     },
@@ -384,15 +528,15 @@
       "holdBars": 24,
       "parent": null,
       "born": 1792005000,
-      "observations": 1,
-      "online_reward": -0.002089,
-      "nav": 2.958201,
-      "roi_pct": -1.393,
-      "trades": 1,
+      "observations": 2,
+      "online_reward": -0.003426,
+      "nav": 2.878147,
+      "roi_pct": -4.062,
+      "trades": 2,
       "wins": 0,
-      "fees_usd": 0.02988,
-      "drawdown_pct": 1.48,
-      "holding": "USD",
+      "fees_usd": 0.074016,
+      "drawdown_pct": 4.06,
+      "holding": "SOL-USD",
       "history": [
         {
           "t": 1792005000,
@@ -416,6 +560,22 @@
         },
         {
           "t": 1792023000,
+          "value": 2.958201
+        },
+        {
+          "t": 1792026600,
+          "value": 2.958201
+        },
+        {
+          "t": 1792030200,
+          "value": 2.958201
+        },
+        {
+          "t": 1792033800,
+          "value": 2.958201
+        },
+        {
+          "t": 1792037400,
           "value": 2.958201
         }
       ]
@@ -428,14 +588,14 @@
       "holdBars": 12,
       "parent": null,
       "born": 1792005000,
-      "observations": 2,
-      "online_reward": -0.003683,
-      "nav": 2.920296,
-      "roi_pct": -2.657,
-      "trades": 2,
+      "observations": 5,
+      "online_reward": -0.006494,
+      "nav": 2.823228,
+      "roi_pct": -5.892,
+      "trades": 5,
       "wins": 0,
-      "fees_usd": 0.059341,
-      "drawdown_pct": 2.74,
+      "fees_usd": 0.145609,
+      "drawdown_pct": 6.09,
       "holding": "USD",
       "history": [
         {
@@ -461,6 +621,22 @@
         {
           "t": 1792023000,
           "value": 2.920296
+        },
+        {
+          "t": 1792026600,
+          "value": 2.920296
+        },
+        {
+          "t": 1792030200,
+          "value": 2.920296
+        },
+        {
+          "t": 1792033800,
+          "value": 2.920296
+        },
+        {
+          "t": 1792037400,
+          "value": 2.878378
         }
       ]
     },
@@ -472,14 +648,14 @@
       "holdBars": 12,
       "parent": null,
       "born": 1792005000,
-      "observations": 9,
-      "online_reward": -0.008734,
-      "nav": 2.698677,
-      "roi_pct": -10.044,
-      "trades": 9,
+      "observations": 17,
+      "online_reward": -0.012367,
+      "nav": 2.417518,
+      "roi_pct": -19.416,
+      "trades": 17,
       "wins": 0,
-      "fees_usd": 0.256523,
-      "drawdown_pct": 10.35,
+      "fees_usd": 0.461925,
+      "drawdown_pct": 19.56,
       "holding": "USD",
       "history": [
         {
@@ -505,6 +681,22 @@
         {
           "t": 1792023000,
           "value": 2.698677
+        },
+        {
+          "t": 1792026600,
+          "value": 2.645475
+        },
+        {
+          "t": 1792030200,
+          "value": 2.579616
+        },
+        {
+          "t": 1792033800,
+          "value": 2.482039
+        },
+        {
+          "t": 1792037400,
+          "value": 2.417518
         }
       ]
     }
@@ -521,9 +713,9 @@
   "health": {
     "bootstrap": false,
     "processed": 1,
-    "lastBar": 1792024560,
+    "lastBar": 1792040820,
     "status": "PAPER_RUNNING",
     "lagMinutes": 1,
-    "observedAt": "2026-10-15T00:37:58.645Z"
+    "observedAt": "2026-10-15T05:08:46.145Z"
   }
 }
