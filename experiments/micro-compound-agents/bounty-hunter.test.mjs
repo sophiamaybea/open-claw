@@ -18,3 +18,12 @@ test('suspicious upfront payment is rejected',()=>{
  const out=rankIssues([{...sample,id:104,body:'Pay a registration fee to apply. $200 reward.'}]);
  assert.equal(out[0].status,'REJECT / HIGH-RISK');
 });
+
+test('assigned bounty is ranked below the otherwise identical unassigned lead',()=>{
+ const free={...sample,id:201,html_url:'https://github.com/demo/widgets/issues/201',assignees:[],comments:1};
+ const taken={...sample,id:202,html_url:'https://github.com/demo/widgets/issues/202',assignees:[{login:'claimed-developer'}],comments:45};
+ const out=rankIssues([taken,free]);
+ assert.equal(out[0].id,201);
+ assert.equal(out[1].status,'ALREADY ASSIGNED — VERIFY AVAILABILITY');
+ assert.deepEqual(out[1].assignees,['claimed-developer']);
+});
