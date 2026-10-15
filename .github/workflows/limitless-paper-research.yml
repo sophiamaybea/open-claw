@@ -1,0 +1,47 @@
+name: Limitless — forecast learning (paper only)
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'experiments/limitless-lab/engine.mjs'
+      - 'experiments/limitless-lab/models.mjs'
+      - 'experiments/limitless-lab/runner.mjs'
+      - 'experiments/limitless-lab/engine.test.mjs'
+      - '.github/workflows/limitless-paper-research.yml'
+  schedule:
+    - cron: '*/5 * * * *'
+permissions:
+  contents: write
+concurrency:
+  group: limitless-paper-state-main
+  cancel-in-progress: false
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 4
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Validate market and settlement learning rules
+        run: node --test experiments/limitless-lab/engine.test.mjs
+      - name: Scan public Limitless data (NO credentials or trades)
+        run: node experiments/limitless-lab/runner.mjs
+      - name: Persist immutable forecasts and verified learning results
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'limitless-paper-bot'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add experiments/limitless-lab/state.json experiments/limitless-lab/site/latest.json
+          if git diff --cached --quiet; then echo 'No state change'; exit 0; fi
+          git commit -m 'paper: update Limitless forecasts and verified outcomes'
+          for attempt in 1 2 3; do
+            if git pull --rebase origin main && git push origin HEAD:main; then exit 0; fi
+            sleep $((attempt * 3))
+          done
+          echo 'Could not persist paper state'; exit 1
