@@ -31,6 +31,8 @@ function classify(i){
  const proposed=/(bounty proposal|reward proposed|proposed bounty|\$\d+ proposed)/i.test(title);
  const hugeClaim=payout=>payout!==null && payout>20000;
  const payout=amounts(title+' '+body);
+ const assignees=(i.assignees||[]).map(a=>String(a.login||'')).filter(Boolean);
+ const commentCount=Number(i.comments||0);
  const ageDays=(now-Date.parse(i.created_at||now))/864e5;
  const recent=(now-Date.parse(i.updated_at||now))/864e5;
  const bountyFlag=labels.some(l=>l.includes('bounty'))||/\bbounty\b/i.test(title);
@@ -46,10 +48,12 @@ function classify(i){
  if(aggregator)score-=45;
  if(proposed)score-=25;
  if(hugeClaim(payout))score-=28;
- const status=upfront?'REJECT / HIGH-RISK':aggregator?'AGGREGATED LEAD — TRACE ORIGINAL SOURCE':proposed?'PROPOSAL — FUNDING NOT CONFIRMED':hugeClaim(payout)?'LARGE CLAIM — INDEPENDENT VERIFICATION NEEDED':payout!==null&&bountyFlag?'POTENTIAL PAYOUT — UNVERIFIED':'VERIFY REWARD AND ELIGIBILITY';
+ if(assignees.length)score-=26; // assigned usually means not available to claim
+ if(commentCount>30)score-=12; // likely contested, must inspect issue discussion
+ const status=upfront?'REJECT / HIGH-RISK':aggregator?'AGGREGATED LEAD — TRACE ORIGINAL SOURCE':proposed?'PROPOSAL — FUNDING NOT CONFIRMED':assignees.length?'ALREADY ASSIGNED — VERIFY AVAILABILITY':hugeClaim(payout)?'LARGE CLAIM — INDEPENDENT VERIFICATION NEEDED':payout!==null&&bountyFlag?'POTENTIAL PAYOUT — UNVERIFIED':'VERIFY REWARD AND ELIGIBILITY';
  const repo=(new URL(i.repository_url||'https://api.github.com/repos/unknown/repository')).pathname.replace('/repos/','');
  return {id:i.id,title,html_url:i.html_url,repository:repo,created_at:i.created_at,updated_at:i.updated_at,
-  payoutMentionUSD:payout,labels:labels.slice(0,10),score,status,requiresHumanVerification:true,source:'Public GitHub issue',excerpt:body.replace(/\s+/g,' ').slice(0,280)};
+  payoutMentionUSD:payout,assignees,commentCount,labels:labels.slice(0,10),score,status,requiresHumanVerification:true,source:'Public GitHub issue',excerpt:body.replace(/\s+/g,' ').slice(0,280)};
 }
 export function rankIssues(items){
  const seen=new Set(),out=[];
