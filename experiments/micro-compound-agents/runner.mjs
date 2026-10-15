@@ -33,7 +33,14 @@ async function main(){
    const fetched=await Promise.all(PAIRS.map(pair=>get(pair,before)));
    const feed=Object.fromEntries(PAIRS.map((p,i)=>[p,fetched[i]]));
    const result=advance(state,feed,now/1000);
-   summary={...result,status:result.bootstrap?'BOOTSTRAPPED':'PAPER_RUNNING'};
+   // Only say PAPER_RUNNING when the exchange's last completed candle is genuinely fresh.
+   // A cloud job may process hours-old candles after a delayed or missed schedule.
+   const lagMinutes=Number.isFinite(result.lastBar)?Math.max(0,Math.floor((before-result.lastBar)/ONE_MINUTE)):null;
+   summary={...result,
+     status:result.bootstrap?'BOOTSTRAPPED':lagMinutes!==null&&lagMinutes>4?'STALE':result.processed>0?'PAPER_RUNNING':'NO_NEW_CANDLES',
+     lagMinutes,
+     observedAt:new Date(now).toISOString()
+   };
    state.lastError=null;
  }catch(e){
    state.lastError=String(e?.message||e).slice(0,220);
