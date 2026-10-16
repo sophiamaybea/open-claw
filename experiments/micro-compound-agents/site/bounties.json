@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-15T21:25:06.412Z",
+  "updatedAt": "2026-10-16T04:34:54.366Z",
   "state": "RESEARCH_READY",
   "sources": [
     "GitHub issue search"
@@ -20,10 +20,10 @@
       "html_url": "https://github.com/limitlessprojects/Go-Hybrid/issues/5",
       "repository": "limitlessprojects/Go-Hybrid",
       "created_at": "2026-10-14T10:31:03Z",
-      "updated_at": "2026-10-15T20:26:36Z",
+      "updated_at": "2026-10-16T04:24:59Z",
       "payoutMentionUSD": 500,
       "assignees": [],
-      "commentCount": 21,
+      "commentCount": 24,
       "labels": [
         "help wanted",
         "soundness",
@@ -36,51 +36,12 @@
       "excerpt": "**This issue participates in the [$500 Hybrid Bounty pool](https://github.com/limitlessprojects/Go-Hybrid/blob/main/BOUNTY.md).** Payouts ride the top-10 ladder there ($75 / $60 / $50 podium, $45 for places 4 to 10). Read [BOUNTY.md](https://github.com/limitlessprojects/Go-Hybrid"
     },
     {
-      "id": 5870306997,
-      "title": "Bounty: Overview becomes the signed-in user's dashboard — a publisher's, and a contributor's",
-      "html_url": "https://github.com/vanduc2514/hackathon-circle-misthos/issues/182",
-      "repository": "vanduc2514/hackathon-circle-misthos",
-      "created_at": "2026-10-15T16:50:38Z",
-      "updated_at": "2026-10-15T18:56:32Z",
-      "payoutMentionUSD": 500,
-      "assignees": [],
-      "commentCount": 11,
-      "labels": [
-        "misthos"
-      ],
-      "score": 73,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "## Deliverable One pull request, merged, that replaces `/overview` with a dashboard for whoever is signed in: a publisher sees the issues they funded and what waits on them, a contributor sees the work they claimed and what they are owed. The all-time platform funnel, the marketi"
-    },
-    {
-      "id": 5198741016,
-      "title": "[Bounty] Bounty #3 — DryLab4 & SiLA 2 Robotic Laboratory Bridge [$20,000 USDC]",
-      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/827",
-      "repository": "zhangjiayang6835-cyber/bounty-plaza",
-      "created_at": "2026-08-20T01:35:10Z",
-      "updated_at": "2026-10-15T20:48:19Z",
-      "payoutMentionUSD": 20000,
-      "assignees": [],
-      "commentCount": 2,
-      "labels": [
-        "bounty",
-        "real"
-      ],
-      "score": 72,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/mister3ai-cmyk/ngp-sovereign-synesis-bounties/issues/3 ### 漏洞描述 / Description Bounty #3 — DryLab4 & SiLA 2 Robotic Laboratory Bridge [$20,000 USDC] ## Overview **Prize: $20,000 USDC** · Status: 🟢 Open Deliver a "
-    },
-    {
       "id": 5862963633,
       "title": "Bounty Golden Path v1: qualified paid-issue discovery → governed execution → verified payout",
       "html_url": "https://github.com/alston-personal/agentmanager/issues/2003",
       "repository": "alston-personal/agentmanager",
       "created_at": "2026-10-15T08:42:58Z",
-      "updated_at": "2026-10-15T17:34:51Z",
+      "updated_at": "2026-10-16T03:51:34Z",
       "payoutMentionUSD": 3000,
       "assignees": [],
       "commentCount": 1,
@@ -92,15 +53,34 @@
       "excerpt": "## Goal Build **Bounty Golden Path v1 — read-only qualification first**, using existing AgentOS ONE/IR, scheduler, node executor, receipts and work completion ledger. Do not add a parallel autonomous runtime or diverge protected branches. ## Grounded observations (2026-10-15) - T"
     },
     {
+      "id": 5856533546,
+      "title": "Bounty ledger: claims, submissions and payouts",
+      "html_url": "https://github.com/sybil-solutions/local-ai-registry/issues/262",
+      "repository": "sybil-solutions/local-ai-registry",
+      "created_at": "2026-10-14T22:11:01Z",
+      "updated_at": "2026-10-15T23:25:10Z",
+      "payoutMentionUSD": 1000,
+      "assignees": [],
+      "commentCount": 0,
+      "labels": [
+        "bounty-ledger"
+      ],
+      "score": 70,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "Recipe bounties: who claimed, who submitted, what was accepted. Updated every hour; rules in [BOUNTIES.md](https://github.com/sybil-solutions/.github/blob/main/BOUNTIES.md); dashboard at [usage.sybilsolutions.ai](https://usage.sybilsolutions.ai/#work). **2026-10:** 0 accepted, $0"
+    },
+    {
       "id": 5873054560,
       "title": "[Bounty: $125] Add AbortSignal support across transfer, completeMint, and attestation polling",
       "html_url": "https://github.com/Parabola-org/parabola/issues/5",
       "repository": "Parabola-org/parabola",
       "created_at": "2026-10-15T20:02:07Z",
-      "updated_at": "2026-10-15T21:22:31Z",
+      "updated_at": "2026-10-16T03:21:23Z",
       "payoutMentionUSD": 125,
       "assignees": [],
-      "commentCount": 5,
+      "commentCount": 6,
       "labels": [
         "enhancement",
         "bounty"
@@ -112,15 +92,35 @@
       "excerpt": "**Context** Nothing in the SDK accepts an `AbortSignal`. `pollForAttestation` (`src/iris/poll.ts:133-170`), `pollTransactionStatus` (`src/chains/stellar.ts:71-86`), and `waitForAllowance`/`retryOnTransientRpcLag` (`src/chains/stellar.ts:210-294`) all run `while` loops with fixed "
     },
     {
+      "id": 5874536691,
+      "title": "[Bounty] [Bounty: $125] Add structured progress callbacks to transfer()",
+      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1910",
+      "repository": "zhangjiayang6835-cyber/bounty-plaza",
+      "created_at": "2026-10-15T21:54:21Z",
+      "updated_at": "2026-10-16T00:02:02Z",
+      "payoutMentionUSD": 125,
+      "assignees": [],
+      "commentCount": 5,
+      "labels": [
+        "bounty",
+        "real"
+      ],
+      "score": 69,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/Parabola-org/parabola/issues/6 ### 漏洞描述 / Description [Bounty: $125] Add structured progress callbacks to transfer() **Context** `transfer()` in `src/transfer.ts:43-139` runs up to four distinct stages — recipien"
+    },
+    {
       "id": 5873055983,
       "title": "[Bounty: $125] Add structured progress callbacks to transfer()",
       "html_url": "https://github.com/Parabola-org/parabola/issues/6",
       "repository": "Parabola-org/parabola",
       "created_at": "2026-10-15T20:02:13Z",
-      "updated_at": "2026-10-15T20:35:35Z",
+      "updated_at": "2026-10-15T21:58:35Z",
       "payoutMentionUSD": 125,
       "assignees": [],
-      "commentCount": 4,
+      "commentCount": 5,
       "labels": [
         "enhancement",
         "bounty"
@@ -132,81 +132,41 @@
       "excerpt": "**Context** `transfer()` in `src/transfer.ts:43-139` runs up to four distinct stages — recipient readiness check, approve, burn (+ confirmation), attestation polling, mint — with no way for a caller to observe progress except by parsing thrown errors after the fact. The README po"
     },
     {
-      "id": 5870181369,
-      "title": "[BOUNTY] Medium: multi-account session desync — dApp swaps/balances use Account 1 when Account 2 active, plus onboarding session never saved (paraloom-wallet)",
-      "html_url": "https://github.com/paraloom-labs/paraloom-core/issues/929",
-      "repository": "paraloom-labs/paraloom-core",
-      "created_at": "2026-10-15T16:42:28Z",
-      "updated_at": "2026-10-15T20:19:20Z",
-      "payoutMentionUSD": 150,
+      "id": 5874536758,
+      "title": "[Bounty] [Bounty: $125] Add AbortSignal support across transfer, completeMint, and attest",
+      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1911",
+      "repository": "zhangjiayang6835-cyber/bounty-plaza",
+      "created_at": "2026-10-15T21:54:22Z",
+      "updated_at": "2026-10-15T21:54:22Z",
+      "payoutMentionUSD": 125,
       "assignees": [],
-      "commentCount": 9,
-      "labels": [],
+      "commentCount": 0,
+      "labels": [
+        "bounty",
+        "real"
+      ],
       "score": 69,
       "status": "POTENTIAL PAYOUT — UNVERIFIED",
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
-      "excerpt": "> **Severity:** Medium · **Component:** `paraloom-wallet` (`lib/storage/session.ts`, `lib/storage/secure.ts`, `src/popup/Onboarding.tsx`, `src/popup/Home.tsx`, `src/popup/Unlock.tsx`, `src/background/index.ts`) · **Reward tier:** up to $150 USDC > **Tested against:** `paraloom-wa"
+      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/Parabola-org/parabola/issues/5 ### 漏洞描述 / Description [Bounty: $125] Add AbortSignal support across transfer, completeMint, and attestation polling **Context** Nothing in the SDK accepts an `AbortSignal`. `pollFo"
     },
     {
-      "id": 5873064375,
-      "title": "[Bounty: $75] Unit tests for src/errors.ts and a public export surface snapshot",
-      "html_url": "https://github.com/Parabola-org/parabola/issues/13",
-      "repository": "Parabola-org/parabola",
-      "created_at": "2026-10-15T20:02:51Z",
-      "updated_at": "2026-10-15T21:06:57Z",
-      "payoutMentionUSD": 75,
-      "assignees": [],
-      "commentCount": 7,
-      "labels": [
-        "testing",
-        "bounty"
-      ],
-      "score": 67,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "**Context** `src/errors.ts` defines the SDK's entire failure taxonomy — `TransferError`, `AttestationNotReadyError`, `IrisRequestError`, `SubmissionTimeoutError` — and there is no `tests/errors.test.ts`. Nothing asserts constructor wiring (`burnTxHash` attachment, optional `code`"
-    },
-    {
-      "id": 5873064977,
-      "title": "[Bounty: $75] Demo app: recovery flow for post-burn failures using TransferError.burnTxHash",
-      "html_url": "https://github.com/Parabola-org/parabola/issues/14",
-      "repository": "Parabola-org/parabola",
-      "created_at": "2026-10-15T20:02:53Z",
-      "updated_at": "2026-10-15T21:02:19Z",
-      "payoutMentionUSD": 75,
-      "assignees": [],
-      "commentCount": 6,
-      "labels": [
-        "enhancement",
-        "bounty"
-      ],
-      "score": 67,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "**Context** `demos/wallet-transfer-demo` drives real transfers but has no path for the failure mode the SDK bends over backwards to support: the burn succeeded, then attestation or mint failed. `TransferError` carries `burnTxHash` exactly so a caller can resume with `completeMint"
-    },
-    {
-      "id": 5873067489,
-      "title": "[Bounty: $60] Harden scripts/testnet-smoke.mjs with retries, exit codes, and a step summary",
-      "html_url": "https://github.com/Parabola-org/parabola/issues/18",
-      "repository": "Parabola-org/parabola",
-      "created_at": "2026-10-15T20:03:03Z",
-      "updated_at": "2026-10-15T20:49:06Z",
-      "payoutMentionUSD": 60,
+      "id": 5765049323,
+      "title": "[Bounty: $55] Add a scheduled nightly run of the client quality gate",
+      "html_url": "https://github.com/Nudge-Pay/nudge-app/issues/46",
+      "repository": "Nudge-Pay/nudge-app",
+      "created_at": "2026-10-08T16:06:22Z",
+      "updated_at": "2026-10-16T04:27:27Z",
+      "payoutMentionUSD": 55,
       "assignees": [],
       "commentCount": 4,
-      "labels": [
-        "chore",
-        "bounty"
-      ],
+      "labels": [],
       "score": 67,
       "status": "POTENTIAL PAYOUT — UNVERIFIED",
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
-      "excerpt": "**Context** `scripts/testnet-smoke.mjs` is the end-to-end testnet check (`pnpm smoke`) and one of the few signals that the SDK works against live Circle Iris and real contracts. Public testnets and faucets flake constantly — transient RPC 5xx, attestation delays just over the pol"
+      "excerpt": "**Context** `ci-client.yml` triggers only on `push` to `develop`/`main` and on pull requests to those branches. A dependency advisory published on a Tuesday, a `@stellar/stellar-sdk` minor release, or a Node image change on the runner will not be observed until the next PR happen"
     },
     {
       "id": 5873066955,
@@ -214,10 +174,10 @@
       "html_url": "https://github.com/Parabola-org/parabola/issues/17",
       "repository": "Parabola-org/parabola",
       "created_at": "2026-10-15T20:03:01Z",
-      "updated_at": "2026-10-15T20:49:05Z",
+      "updated_at": "2026-10-16T02:08:51Z",
       "payoutMentionUSD": 60,
       "assignees": [],
-      "commentCount": 4,
+      "commentCount": 7,
       "labels": [
         "documentation",
         "bounty"
@@ -229,15 +189,175 @@
       "excerpt": "**Context** The README documents the happy path well, and `src/errors.ts` has excellent inline rationale — but a integrator debugging a failed mainnet transfer has to assemble the recovery story by reading source. The pieces are scattered: `TransferError.burnTxHash` (recover via "
     },
     {
+      "id": 5873067489,
+      "title": "[Bounty: $60] Harden scripts/testnet-smoke.mjs with retries, exit codes, and a step summary",
+      "html_url": "https://github.com/Parabola-org/parabola/issues/18",
+      "repository": "Parabola-org/parabola",
+      "created_at": "2026-10-15T20:03:03Z",
+      "updated_at": "2026-10-16T00:44:38Z",
+      "payoutMentionUSD": 60,
+      "assignees": [],
+      "commentCount": 6,
+      "labels": [
+        "chore",
+        "bounty"
+      ],
+      "score": 67,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "**Context** `scripts/testnet-smoke.mjs` is the end-to-end testnet check (`pnpm smoke`) and one of the few signals that the SDK works against live Circle Iris and real contracts. Public testnets and faucets flake constantly — transient RPC 5xx, attestation delays just over the pol"
+    },
+    {
+      "id": 5873064977,
+      "title": "[Bounty: $75] Demo app: recovery flow for post-burn failures using TransferError.burnTxHash",
+      "html_url": "https://github.com/Parabola-org/parabola/issues/14",
+      "repository": "Parabola-org/parabola",
+      "created_at": "2026-10-15T20:02:53Z",
+      "updated_at": "2026-10-16T00:26:56Z",
+      "payoutMentionUSD": 75,
+      "assignees": [],
+      "commentCount": 7,
+      "labels": [
+        "enhancement",
+        "bounty"
+      ],
+      "score": 67,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "**Context** `demos/wallet-transfer-demo` drives real transfers but has no path for the failure mode the SDK bends over backwards to support: the burn succeeded, then attestation or mint failed. `TransferError` carries `burnTxHash` exactly so a caller can resume with `completeMint"
+    },
+    {
+      "id": 5874535862,
+      "title": "[Bounty] [Bounty: $75] Unit tests for src/errors.ts and a public export surface snapshot",
+      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1903",
+      "repository": "zhangjiayang6835-cyber/bounty-plaza",
+      "created_at": "2026-10-15T21:54:18Z",
+      "updated_at": "2026-10-15T21:54:18Z",
+      "payoutMentionUSD": 75,
+      "assignees": [],
+      "commentCount": 0,
+      "labels": [
+        "bounty",
+        "real"
+      ],
+      "score": 67,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/Parabola-org/parabola/issues/13 ### 漏洞描述 / Description [Bounty: $75] Unit tests for src/errors.ts and a public export surface snapshot **Context** `src/errors.ts` defines the SDK's entire failure taxonomy — `Tran"
+    },
+    {
+      "id": 5874535969,
+      "title": "[Bounty] [Bounty: $75] Expose retry/backoff knobs for Stellar allowance wait and RPC-lag ",
+      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1904",
+      "repository": "zhangjiayang6835-cyber/bounty-plaza",
+      "created_at": "2026-10-15T21:54:18Z",
+      "updated_at": "2026-10-15T21:54:18Z",
+      "payoutMentionUSD": 75,
+      "assignees": [],
+      "commentCount": 0,
+      "labels": [
+        "bounty",
+        "real"
+      ],
+      "score": 67,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/Parabola-org/parabola/issues/12 ### 漏洞描述 / Description [Bounty: $75] Expose retry/backoff knobs for Stellar allowance wait and RPC-lag retry **Context** Two recovery loops in `src/chains/stellar.ts` have hard-cod"
+    },
+    {
+      "id": 5874535707,
+      "title": "[Bounty] [Bounty: $75] Demo app: recovery flow for post-burn failures using TransferError",
+      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1902",
+      "repository": "zhangjiayang6835-cyber/bounty-plaza",
+      "created_at": "2026-10-15T21:54:17Z",
+      "updated_at": "2026-10-15T21:54:17Z",
+      "payoutMentionUSD": 75,
+      "assignees": [],
+      "commentCount": 0,
+      "labels": [
+        "bounty",
+        "real"
+      ],
+      "score": 67,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/Parabola-org/parabola/issues/14 ### 漏洞描述 / Description [Bounty: $75] Demo app: recovery flow for post-burn failures using TransferError.burnTxHash **Context** `demos/wallet-transfer-demo` drives real transfers bu"
+    },
+    {
+      "id": 5874535420,
+      "title": "[Bounty] [Bounty: $60] Docs: add a \"Failure modes and recovery\" guide",
+      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1899",
+      "repository": "zhangjiayang6835-cyber/bounty-plaza",
+      "created_at": "2026-10-15T21:54:16Z",
+      "updated_at": "2026-10-15T21:54:16Z",
+      "payoutMentionUSD": 60,
+      "assignees": [],
+      "commentCount": 0,
+      "labels": [
+        "bounty",
+        "real"
+      ],
+      "score": 67,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/Parabola-org/parabola/issues/17 ### 漏洞描述 / Description [Bounty: $60] Docs: add a \"Failure modes and recovery\" guide **Context** The README documents the happy path well, and `src/errors.ts` has excellent inline r"
+    },
+    {
+      "id": 5874535312,
+      "title": "[Bounty] [Bounty: $60] Harden scripts/testnet-smoke.mjs with retries, exit codes, and a s",
+      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1898",
+      "repository": "zhangjiayang6835-cyber/bounty-plaza",
+      "created_at": "2026-10-15T21:54:15Z",
+      "updated_at": "2026-10-15T21:54:15Z",
+      "payoutMentionUSD": 60,
+      "assignees": [],
+      "commentCount": 0,
+      "labels": [
+        "bounty",
+        "real"
+      ],
+      "score": 67,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/Parabola-org/parabola/issues/18 ### 漏洞描述 / Description [Bounty: $60] Harden scripts/testnet-smoke.mjs with retries, exit codes, and a step summary **Context** `scripts/testnet-smoke.mjs` is the end-to-end testnet"
+    },
+    {
+      "id": 5873064375,
+      "title": "[Bounty: $75] Unit tests for src/errors.ts and a public export surface snapshot",
+      "html_url": "https://github.com/Parabola-org/parabola/issues/13",
+      "repository": "Parabola-org/parabola",
+      "created_at": "2026-10-15T20:02:51Z",
+      "updated_at": "2026-10-15T21:46:47Z",
+      "payoutMentionUSD": 75,
+      "assignees": [],
+      "commentCount": 9,
+      "labels": [
+        "testing",
+        "bounty"
+      ],
+      "score": 67,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "**Context** `src/errors.ts` defines the SDK's entire failure taxonomy — `TransferError`, `AttestationNotReadyError`, `IrisRequestError`, `SubmissionTimeoutError` — and there is no `tests/errors.test.ts`. Nothing asserts constructor wiring (`burnTxHash` attachment, optional `code`"
+    },
+    {
       "id": 5873063761,
       "title": "[Bounty: $75] Expose retry/backoff knobs for Stellar allowance wait and RPC-lag retry",
       "html_url": "https://github.com/Parabola-org/parabola/issues/12",
       "repository": "Parabola-org/parabola",
       "created_at": "2026-10-15T20:02:49Z",
-      "updated_at": "2026-10-15T20:42:16Z",
+      "updated_at": "2026-10-15T21:34:55Z",
       "payoutMentionUSD": 75,
       "assignees": [],
-      "commentCount": 4,
+      "commentCount": 5,
       "labels": [
         "enhancement",
         "bounty"
@@ -247,43 +367,6 @@
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
       "excerpt": "**Context** Two recovery loops in `src/chains/stellar.ts` have hard-coded timing with no caller control: `waitForAllowance` (lines 210-227) does 6 attempts × 1500ms, and `retryOnTransientRpcLag` (lines 278-294) does 3 attempts × 2000ms. A backend on a slow RPC provider may need l"
-    },
-    {
-      "id": 5870181687,
-      "title": "[BOUNTY] Medium: concurrent PRIVATE_SWAP clobbers swapJob/pendingSwap and pendingSwap lost on MV3 restart (paraloom-wallet)",
-      "html_url": "https://github.com/paraloom-labs/paraloom-core/issues/930",
-      "repository": "paraloom-labs/paraloom-core",
-      "created_at": "2026-10-15T16:42:29Z",
-      "updated_at": "2026-10-15T20:19:29Z",
-      "payoutMentionUSD": 150,
-      "assignees": [],
-      "commentCount": 9,
-      "labels": [],
-      "score": 64,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "> **Severity:** Medium · **Component:** `paraloom-wallet` (`src/background/index.ts`) · **Reward tier:** up to $150 USDC > **Tested against:** `paraloom-wallet` `main` @ `1e79eec8fbe99cd7e1381f6971c855bdce883d41` · local Vitest reproduction, no live chain touched ## Summary In `s"
-    },
-    {
-      "id": 5860484466,
-      "title": "[Bounty] [BOUNTY ~$30 x4] Post and fund a real task on Verdikta, publish a write-up (paid",
-      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1892",
-      "repository": "zhangjiayang6835-cyber/bounty-plaza",
-      "created_at": "2026-10-15T05:09:29Z",
-      "updated_at": "2026-10-15T12:05:24Z",
-      "payoutMentionUSD": 125,
-      "assignees": [],
-      "commentCount": 2,
-      "labels": [
-        "bounty",
-        "real"
-      ],
-      "score": 64,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/verdikta/verdikta-applications/issues/76 ### 漏洞描述 / Description [BOUNTY ~$30 x4] Post and fund a real task on Verdikta, publish a write-up (paid on Poidh, Base) Four solo bounties on [Poidh](https://poidh.xyz) (B"
     },
     {
       "id": 5839548473,
@@ -331,10 +414,10 @@
       "html_url": "https://github.com/Parabola-org/parabola/issues/1",
       "repository": "Parabola-org/parabola",
       "created_at": "2026-10-15T20:01:50Z",
-      "updated_at": "2026-10-15T21:23:26Z",
+      "updated_at": "2026-10-16T03:25:06Z",
       "payoutMentionUSD": 105,
       "assignees": [],
-      "commentCount": 5,
+      "commentCount": 7,
       "labels": [
         "bug",
         "bounty"
@@ -351,10 +434,10 @@
       "html_url": "https://github.com/Parabola-org/parabola/issues/2",
       "repository": "Parabola-org/parabola",
       "created_at": "2026-10-15T20:01:56Z",
-      "updated_at": "2026-10-15T21:23:20Z",
+      "updated_at": "2026-10-16T03:22:48Z",
       "payoutMentionUSD": 105,
       "assignees": [],
-      "commentCount": 3,
+      "commentCount": 5,
       "labels": [
         "bug",
         "bounty"
@@ -371,7 +454,7 @@
       "html_url": "https://github.com/Parabola-org/parabola/issues/3",
       "repository": "Parabola-org/parabola",
       "created_at": "2026-10-15T20:02:02Z",
-      "updated_at": "2026-10-15T21:23:14Z",
+      "updated_at": "2026-10-16T03:22:42Z",
       "payoutMentionUSD": 105,
       "assignees": [],
       "commentCount": 5,
@@ -391,10 +474,10 @@
       "html_url": "https://github.com/Parabola-org/parabola/issues/4",
       "repository": "Parabola-org/parabola",
       "created_at": "2026-10-15T20:02:04Z",
-      "updated_at": "2026-10-15T21:23:09Z",
+      "updated_at": "2026-10-16T03:22:26Z",
       "payoutMentionUSD": 105,
       "assignees": [],
-      "commentCount": 3,
+      "commentCount": 7,
       "labels": [
         "bug",
         "bounty"
@@ -406,15 +489,15 @@
       "excerpt": "**Context** `checkStellarRecipientReady` in `src/chains/stellar.ts:144-177` wraps `server.getAccount(recipient)` in a bare `catch` that returns `{ exists: false, hasTrustline: false, ready: false }`. Any failure — DNS error, RPC 503, rate limit on the public mainnet endpoint (whi"
     },
     {
-      "id": 5873057158,
-      "title": "[Bounty: $90] Make estimateFee agree with transfer() on maxFee and maxWait fallback",
-      "html_url": "https://github.com/Parabola-org/parabola/issues/7",
+      "id": 5873060298,
+      "title": "[Bounty: $90] Reject unsupported CCTP message versions in decodeCctpMessage",
+      "html_url": "https://github.com/Parabola-org/parabola/issues/9",
       "repository": "Parabola-org/parabola",
-      "created_at": "2026-10-15T20:02:18Z",
-      "updated_at": "2026-10-15T20:55:45Z",
+      "created_at": "2026-10-15T20:02:33Z",
+      "updated_at": "2026-10-16T03:21:58Z",
       "payoutMentionUSD": 90,
       "assignees": [],
-      "commentCount": 5,
+      "commentCount": 7,
       "labels": [
         "bug",
         "bounty"
@@ -423,7 +506,24 @@
       "status": "POTENTIAL PAYOUT — UNVERIFIED",
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
-      "excerpt": "**Context** `transfer()` in `src/transfer.ts:56-71` can silently downgrade a fast transfer to standard when the quoted fee exceeds `options.maxFee` or the fixed 15s fast estimate exceeds `options.maxWait`. `estimateFee` in `src/estimate.ts:15-39` knows nothing about either knob: "
+      "excerpt": "**Context** `decodeCctpMessage` in `src/utils/message.ts:88-121` validates only minimum length, then reads every header and body field at hard-coded V2 offsets (lines 14-36, cross-checked against Circle's reference contracts). It never checks the `version` header field or `burnBo"
+    },
+    {
+      "id": 5775615937,
+      "title": "[Bounty: $80] Add a stable ORDER BY to #selectIn before paging",
+      "html_url": "https://github.com/SUSU-LABS/susu-indexer/issues/37",
+      "repository": "SUSU-LABS/susu-indexer",
+      "created_at": "2026-10-09T09:03:22Z",
+      "updated_at": "2026-10-16T03:16:41Z",
+      "payoutMentionUSD": 80,
+      "assignees": [],
+      "commentCount": 7,
+      "labels": [],
+      "score": 63,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "## Context `supabase/functions/_shared/db.ts:393-405` pages with `.range(from, to)` but never calls `.order(...)` (contrast `db.ts:119-127`). PostgREST/Postgres without `ORDER BY` does not guarantee stable rows across `OFFSET/LIMIT` pages under concurrent writes, so `readGroupFac"
     },
     {
       "id": 5873061556,
@@ -431,10 +531,10 @@
       "html_url": "https://github.com/Parabola-org/parabola/issues/10",
       "repository": "Parabola-org/parabola",
       "created_at": "2026-10-15T20:02:39Z",
-      "updated_at": "2026-10-15T20:55:15Z",
+      "updated_at": "2026-10-16T00:42:51Z",
       "payoutMentionUSD": 90,
       "assignees": [],
-      "commentCount": 6,
+      "commentCount": 8,
       "labels": [
         "bug",
         "bounty"
@@ -451,10 +551,10 @@
       "html_url": "https://github.com/Parabola-org/parabola/issues/11",
       "repository": "Parabola-org/parabola",
       "created_at": "2026-10-15T20:02:45Z",
-      "updated_at": "2026-10-15T20:48:55Z",
+      "updated_at": "2026-10-16T00:26:53Z",
       "payoutMentionUSD": 90,
       "assignees": [],
-      "commentCount": 5,
+      "commentCount": 7,
       "labels": [
         "ci",
         "bounty"
@@ -466,15 +566,15 @@
       "excerpt": "**Context** CI (`.github/workflows/ci.yml`) runs typecheck, tests, build, commitlint, and PR-title lint — but no static analysis of the code itself. `package.json` has no lint script and ESLint is not a devDependency. Rules that would have caught real classes of issues in this co"
     },
     {
-      "id": 5873060298,
-      "title": "[Bounty: $90] Reject unsupported CCTP message versions in decodeCctpMessage",
-      "html_url": "https://github.com/Parabola-org/parabola/issues/9",
+      "id": 5873057158,
+      "title": "[Bounty: $90] Make estimateFee agree with transfer() on maxFee and maxWait fallback",
+      "html_url": "https://github.com/Parabola-org/parabola/issues/7",
       "repository": "Parabola-org/parabola",
-      "created_at": "2026-10-15T20:02:33Z",
-      "updated_at": "2026-10-15T20:40:37Z",
+      "created_at": "2026-10-15T20:02:18Z",
+      "updated_at": "2026-10-16T00:24:48Z",
       "payoutMentionUSD": 90,
       "assignees": [],
-      "commentCount": 4,
+      "commentCount": 7,
       "labels": [
         "bug",
         "bounty"
@@ -483,7 +583,27 @@
       "status": "POTENTIAL PAYOUT — UNVERIFIED",
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
-      "excerpt": "**Context** `decodeCctpMessage` in `src/utils/message.ts:88-121` validates only minimum length, then reads every header and body field at hard-coded V2 offsets (lines 14-36, cross-checked against Circle's reference contracts). It never checks the `version` header field or `burnBo"
+      "excerpt": "**Context** `transfer()` in `src/transfer.ts:56-71` can silently downgrade a fast transfer to standard when the quoted fee exceeds `options.maxFee` or the fixed 15s fast estimate exceeds `options.maxWait`. `estimateFee` in `src/estimate.ts:15-39` knows nothing about either knob: "
+    },
+    {
+      "id": 5874537137,
+      "title": "[Bounty] [Bounty: $105] Preserve burnTxHash when Stellar confirmation polling hits transi",
+      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1915",
+      "repository": "zhangjiayang6835-cyber/bounty-plaza",
+      "created_at": "2026-10-15T21:54:24Z",
+      "updated_at": "2026-10-15T23:54:59Z",
+      "payoutMentionUSD": 105,
+      "assignees": [],
+      "commentCount": 5,
+      "labels": [
+        "bounty",
+        "real"
+      ],
+      "score": 63,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/Parabola-org/parabola/issues/1 ### 漏洞描述 / Description [Bounty: $105] Preserve burnTxHash when Stellar confirmation polling hits transient RPC errors **Context** `pollTransactionStatus` in `src/chains/stellar.ts:7"
     },
     {
       "id": 5873058539,
@@ -491,10 +611,10 @@
       "html_url": "https://github.com/Parabola-org/parabola/issues/8",
       "repository": "Parabola-org/parabola",
       "created_at": "2026-10-15T20:02:25Z",
-      "updated_at": "2026-10-15T20:39:31Z",
+      "updated_at": "2026-10-15T23:18:44Z",
       "payoutMentionUSD": 90,
       "assignees": [],
-      "commentCount": 4,
+      "commentCount": 5,
       "labels": [
         "performance",
         "bounty"
@@ -506,115 +626,198 @@
       "excerpt": "**Context** `burn()` in `src/transfer.ts:153-179` calls `approveUsdcOnArc` unconditionally before every Arc-sourced burn, submitting an exact-amount ERC-20 approve even when TokenMessengerV2 already has an allowance ≥ `amountRaw` from a prior transfer. That's an extra transaction"
     },
     {
-      "id": 5752314779,
-      "title": "[Bounty: $85] Add a CodeQL code-scanning workflow",
-      "html_url": "https://github.com/attestar-labs/attestar/issues/46",
-      "repository": "attestar-labs/attestar",
-      "created_at": "2026-10-07T21:43:56Z",
-      "updated_at": "2026-10-15T20:05:36Z",
-      "payoutMentionUSD": 85,
+      "id": 5874537026,
+      "title": "[Bounty] [Bounty: $105] Stop silently pricing Fast Transfers at zero when Iris returns no",
+      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1914",
+      "repository": "zhangjiayang6835-cyber/bounty-plaza",
+      "created_at": "2026-10-15T21:54:23Z",
+      "updated_at": "2026-10-15T23:17:49Z",
+      "payoutMentionUSD": 105,
       "assignees": [],
-      "commentCount": 3,
-      "labels": [],
-      "score": 63,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "**Context** No static analysis runs over the repository. The TypeScript surface is non-trivial and security-relevant: `apps/web/lib/contracts.ts` builds signed transactions, `apps/web/lib/disclosure.ts` implements AES-GCM with a PBKDF2 key derivation, and `apps/web/lib/ledger.ts`"
-    },
-    {
-      "id": 5752314465,
-      "title": "[Bounty: $80] Add a required CI summary job so skipped jobs cannot pass",
-      "html_url": "https://github.com/attestar-labs/attestar/issues/45",
-      "repository": "attestar-labs/attestar",
-      "created_at": "2026-10-07T21:43:54Z",
-      "updated_at": "2026-10-15T19:00:51Z",
-      "payoutMentionUSD": 80,
-      "assignees": [],
-      "commentCount": 2,
-      "labels": [],
-      "score": 63,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "**Context** With no workflows at present, the first CI change will consist of several independent jobs (`web`, `sdk`, `contracts`, `circuits`, `tests`, `security`). If any of them is conditioned, renamed or inadvertently skipped, branch protection that requires only one of them w"
-    },
-    {
-      "id": 5752314173,
-      "title": "[Bounty: $80] Add a CI check that `apps/web/lib/vk.json` matches the contract fixtures",
-      "html_url": "https://github.com/attestar-labs/attestar/issues/44",
-      "repository": "attestar-labs/attestar",
-      "created_at": "2026-10-07T21:43:53Z",
-      "updated_at": "2026-10-15T18:28:46Z",
-      "payoutMentionUSD": 80,
-      "assignees": [],
-      "commentCount": 3,
-      "labels": [],
-      "score": 63,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "**Context** The verifying key is duplicated in `apps/web/lib/vk.json` and in `packages/contracts/contracts/attestar/src/fixtures.rs` (`ALPHA`, `BETA`, `GAMMA`, `DELTA`, `IC`), and the only thing keeping them equal is that `packages/circuits/scripts/encode_p.mjs` writes the Rust f"
-    },
-    {
-      "id": 2877916840,
-      "title": "YouTube Core Integration and Live Streaming ($3,000)",
-      "html_url": "https://github.com/Spectral-Finance/lux/issues/68",
-      "repository": "Spectral-Finance/lux",
-      "created_at": "2025-02-25T10:26:36Z",
-      "updated_at": "2026-10-15T14:41:51Z",
-      "payoutMentionUSD": 3000,
-      "assignees": [],
-      "commentCount": 17,
-      "labels": [
-        "bounty"
-      ],
-      "score": 63,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "## Overview Implement core YouTube platform integration with advanced live streaming capabilities, enabling Lux agents to manage YouTube channels programmatically. ## Core Features - OAuth2 authentication and token management - Video upload and management - Live stream scheduling"
-    },
-    {
-      "id": 2877960000,
-      "title": "Multi-Chain Data Aggregation Engine $1,750",
-      "html_url": "https://github.com/Spectral-Finance/lux/issues/74",
-      "repository": "Spectral-Finance/lux",
-      "created_at": "2025-02-25T10:40:49Z",
-      "updated_at": "2026-10-15T10:16:45Z",
-      "payoutMentionUSD": 1750,
-      "assignees": [],
-      "commentCount": 8,
+      "commentCount": 5,
       "labels": [
         "bounty",
-        "web3",
-        "infrastructure"
+        "real"
       ],
       "score": 63,
       "status": "POTENTIAL PAYOUT — UNVERIFIED",
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
-      "excerpt": "## Overview Develop a comprehensive multi-chain data aggregation system for collecting and processing blockchain data across multiple EVM-compatible networks. ## Core Features - Multi-chain RPC management - Block and transaction monitoring - Smart contract event aggregation - His"
+      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/Parabola-org/parabola/issues/2 ### 漏洞描述 / Description [Bounty: $105] Stop silently pricing Fast Transfers at zero when Iris returns no fast tier **Context** `fetchFastTransferFeeBps` in `src/iris/poll.ts:10-23` d"
     },
     {
-      "id": 5873066199,
-      "title": "[Bounty: $75] Website: accessibility and motion-preference fixes for the landing page",
-      "html_url": "https://github.com/Parabola-org/parabola/issues/16",
-      "repository": "Parabola-org/parabola",
-      "created_at": "2026-10-15T20:02:58Z",
-      "updated_at": "2026-10-15T20:49:03Z",
-      "payoutMentionUSD": 75,
+      "id": 5874536944,
+      "title": "[Bounty] [Bounty: $105] Tolerate transient Iris failures in getAttestation and resolveBur",
+      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1913",
+      "repository": "zhangjiayang6835-cyber/bounty-plaza",
+      "created_at": "2026-10-15T21:54:23Z",
+      "updated_at": "2026-10-15T21:58:07Z",
+      "payoutMentionUSD": 105,
       "assignees": [],
       "commentCount": 4,
       "labels": [
-        "enhancement",
-        "bounty"
+        "bounty",
+        "real"
       ],
+      "score": 63,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/Parabola-org/parabola/issues/3 ### 漏洞描述 / Description [Bounty: $105] Tolerate transient Iris failures in getAttestation and resolveBurn **Context** `pollForAttestation` in `src/iris/poll.ts:133-170` tolerates up "
+    },
+    {
+      "id": 5874536863,
+      "title": "[Bounty] [Bounty: $105] checkStellarRecipientReady must not report RPC outages as missing",
+      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1912",
+      "repository": "zhangjiayang6835-cyber/bounty-plaza",
+      "created_at": "2026-10-15T21:54:22Z",
+      "updated_at": "2026-10-15T21:54:22Z",
+      "payoutMentionUSD": 105,
+      "assignees": [],
+      "commentCount": 0,
+      "labels": [
+        "bounty",
+        "real"
+      ],
+      "score": 63,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/Parabola-org/parabola/issues/4 ### 漏洞描述 / Description [Bounty: $105] checkStellarRecipientReady must not report RPC outages as missing accounts **Context** `checkStellarRecipientReady` in `src/chains/stellar.ts:1"
+    },
+    {
+      "id": 5874536582,
+      "title": "[Bounty] [Bounty: $90] Make estimateFee agree with transfer() on maxFee and maxWait fallb",
+      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1909",
+      "repository": "zhangjiayang6835-cyber/bounty-plaza",
+      "created_at": "2026-10-15T21:54:21Z",
+      "updated_at": "2026-10-15T21:54:21Z",
+      "payoutMentionUSD": 90,
+      "assignees": [],
+      "commentCount": 0,
+      "labels": [
+        "bounty",
+        "real"
+      ],
+      "score": 63,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/Parabola-org/parabola/issues/7 ### 漏洞描述 / Description [Bounty: $90] Make estimateFee agree with transfer() on maxFee and maxWait fallback **Context** `transfer()` in `src/transfer.ts:56-71` can silently downgrade"
+    },
+    {
+      "id": 5874536479,
+      "title": "[Bounty] [Bounty: $90] Skip the Arc approve transaction when the existing allowance alrea",
+      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1908",
+      "repository": "zhangjiayang6835-cyber/bounty-plaza",
+      "created_at": "2026-10-15T21:54:20Z",
+      "updated_at": "2026-10-15T21:54:20Z",
+      "payoutMentionUSD": 90,
+      "assignees": [],
+      "commentCount": 0,
+      "labels": [
+        "bounty",
+        "real"
+      ],
+      "score": 63,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/Parabola-org/parabola/issues/8 ### 漏洞描述 / Description [Bounty: $90] Skip the Arc approve transaction when the existing allowance already covers the burn **Context** `burn()` in `src/transfer.ts:153-179` calls `ap"
+    },
+    {
+      "id": 5874536358,
+      "title": "[Bounty] [Bounty: $90] Reject unsupported CCTP message versions in decodeCctpMessage",
+      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1907",
+      "repository": "zhangjiayang6835-cyber/bounty-plaza",
+      "created_at": "2026-10-15T21:54:20Z",
+      "updated_at": "2026-10-15T21:54:20Z",
+      "payoutMentionUSD": 90,
+      "assignees": [],
+      "commentCount": 0,
+      "labels": [
+        "bounty",
+        "real"
+      ],
+      "score": 63,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/Parabola-org/parabola/issues/9 ### 漏洞描述 / Description [Bounty: $90] Reject unsupported CCTP message versions in decodeCctpMessage **Context** `decodeCctpMessage` in `src/utils/message.ts:88-121` validates only mi"
+    },
+    {
+      "id": 5874536197,
+      "title": "[Bounty] [Bounty: $90] Reject amounts whose precision exceeds the destination chain's USD",
+      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1906",
+      "repository": "zhangjiayang6835-cyber/bounty-plaza",
+      "created_at": "2026-10-15T21:54:19Z",
+      "updated_at": "2026-10-15T21:54:19Z",
+      "payoutMentionUSD": 90,
+      "assignees": [],
+      "commentCount": 0,
+      "labels": [
+        "bounty",
+        "real"
+      ],
+      "score": 63,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/Parabola-org/parabola/issues/10 ### 漏洞描述 / Description [Bounty: $90] Reject amounts whose precision exceeds the destination chain's USDC decimals **Context** Arc USDC has 6 decimals, Stellar USDC has 7 (`src/cons"
+    },
+    {
+      "id": 5874536083,
+      "title": "[Bounty] [Bounty: $90] Add ESLint with typescript-eslint and wire it into CI",
+      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1905",
+      "repository": "zhangjiayang6835-cyber/bounty-plaza",
+      "created_at": "2026-10-15T21:54:19Z",
+      "updated_at": "2026-10-15T21:54:19Z",
+      "payoutMentionUSD": 90,
+      "assignees": [],
+      "commentCount": 0,
+      "labels": [
+        "bounty",
+        "real"
+      ],
+      "score": 63,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/Parabola-org/parabola/issues/11 ### 漏洞描述 / Description [Bounty: $90] Add ESLint with typescript-eslint and wire it into CI **Context** CI (`.github/workflows/ci.yml`) runs typecheck, tests, build, commitlint, and"
+    },
+    {
+      "id": 5765048700,
+      "title": "[Bounty: $75] Add a CI check for app.json and app.config.ts plugin and permission consistency",
+      "html_url": "https://github.com/Nudge-Pay/nudge-app/issues/44",
+      "repository": "Nudge-Pay/nudge-app",
+      "created_at": "2026-10-08T16:06:20Z",
+      "updated_at": "2026-10-16T03:22:11Z",
+      "payoutMentionUSD": 75,
+      "assignees": [],
+      "commentCount": 5,
+      "labels": [],
       "score": 62,
       "status": "POTENTIAL PAYOUT — UNVERIFIED",
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
-      "excerpt": "**Context** `website/` is the project's landing page with a scripted hero animation (`website/src/hero-animation.ts`, `website/src/animations.ts`). Marketing pages built around canvas/CSS animation commonly ship without `prefers-reduced-motion` handling, keyboard-navigable CTAs, "
+      "excerpt": "**Context** Both `app.json` and `app.config.ts` exist and both are read by Expo tooling, and they disagree: `app.config.ts` adds the `expo-dev-client`, `expo-router`, `expo-secure-store` and `react-native-nfc-manager` plugins plus the iOS NFC entitlement and `NFCReaderUsageDescri"
+    },
+    {
+      "id": 5775623463,
+      "title": "[Bounty: $70] Add Testnet fixtures and tests for fee_updated, treasury_updated and pause_updated",
+      "html_url": "https://github.com/SUSU-LABS/susu-indexer/issues/48",
+      "repository": "SUSU-LABS/susu-indexer",
+      "created_at": "2026-10-09T09:04:01Z",
+      "updated_at": "2026-10-16T03:16:38Z",
+      "payoutMentionUSD": 70,
+      "assignees": [],
+      "commentCount": 6,
+      "labels": [],
+      "score": 62,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "## Context `supabase/functions/_shared/decode.ts:254-270` implements ten event types and claims the shapes are \"asserted against bytes captured from Testnet\" (`decode.ts:15-18`), but `tests/fixtures/chain_events.json` contains only seven. `fee_updated`, `treasury_updated` and `pa"
     },
     {
       "id": 5873065362,
@@ -622,10 +825,10 @@
       "html_url": "https://github.com/Parabola-org/parabola/issues/15",
       "repository": "Parabola-org/parabola",
       "created_at": "2026-10-15T20:02:55Z",
-      "updated_at": "2026-10-15T20:25:14Z",
+      "updated_at": "2026-10-16T01:44:12Z",
       "payoutMentionUSD": 75,
       "assignees": [],
-      "commentCount": 3,
+      "commentCount": 5,
       "labels": [
         "chore",
         "bounty"
@@ -637,15 +840,35 @@
       "excerpt": "**Context** `package.json` publishes a dual CJS/ESM build (`main`/`module`/`exports`) via tsup, but declares no `sideEffects` field (bundlers must assume the SDK can have side effects and keep more than necessary), and nothing validates that the published artifact's export map, `"
     },
     {
-      "id": 5872058639,
-      "title": "[Bounty] Add `ShellDriverSh`: use `/bin/sh` when `SHELL` is not set",
-      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1895",
-      "repository": "zhangjiayang6835-cyber/bounty-plaza",
-      "created_at": "2026-10-15T18:51:20Z",
-      "updated_at": "2026-10-15T20:19:59Z",
+      "id": 5873066199,
+      "title": "[Bounty: $75] Website: accessibility and motion-preference fixes for the landing page",
+      "html_url": "https://github.com/Parabola-org/parabola/issues/16",
+      "repository": "Parabola-org/parabola",
+      "created_at": "2026-10-15T20:02:58Z",
+      "updated_at": "2026-10-16T00:38:24Z",
       "payoutMentionUSD": 75,
       "assignees": [],
-      "commentCount": 1,
+      "commentCount": 9,
+      "labels": [
+        "enhancement",
+        "bounty"
+      ],
+      "score": 62,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "**Context** `website/` is the project's landing page with a scripted hero animation (`website/src/hero-animation.ts`, `website/src/animations.ts`). Marketing pages built around canvas/CSS animation commonly ship without `prefers-reduced-motion` handling, keyboard-navigable CTAs, "
+    },
+    {
+      "id": 5874535594,
+      "title": "[Bounty] [Bounty: $75] Package hygiene: sideEffects flag, export-map validation, and publ",
+      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1901",
+      "repository": "zhangjiayang6835-cyber/bounty-plaza",
+      "created_at": "2026-10-15T21:54:17Z",
+      "updated_at": "2026-10-15T23:20:25Z",
+      "payoutMentionUSD": 75,
+      "assignees": [],
+      "commentCount": 4,
       "labels": [
         "bounty",
         "real"
@@ -654,88 +877,49 @@
       "status": "POTENTIAL PAYOUT — UNVERIFIED",
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
-      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/uvsmtid/protoprimer/issues/143 ### 漏洞描述 / Description Add `ShellDriverSh`: use `/bin/sh` when `SHELL` is not set ## Problem `_get_shell_driver` fails on minimal systems (e.g. containers which have only `/bin/sh`)"
+      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/Parabola-org/parabola/issues/15 ### 漏洞描述 / Description [Bounty: $75] Package hygiene: sideEffects flag, export-map validation, and publint in CI **Context** `package.json` publishes a dual CJS/ESM build (`main`/`"
     },
     {
-      "id": 5868399498,
-      "title": "Add `ShellDriverSh`: use `/bin/sh` when `SHELL` is not set",
-      "html_url": "https://github.com/uvsmtid/protoprimer/issues/143",
-      "repository": "uvsmtid/protoprimer",
-      "created_at": "2026-10-15T14:49:56Z",
-      "updated_at": "2026-10-15T20:05:57Z",
+      "id": 5874535501,
+      "title": "[Bounty] [Bounty: $75] Website: accessibility and motion-preference fixes for the landing",
+      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1900",
+      "repository": "zhangjiayang6835-cyber/bounty-plaza",
+      "created_at": "2026-10-15T21:54:16Z",
+      "updated_at": "2026-10-15T21:54:16Z",
       "payoutMentionUSD": 75,
       "assignees": [],
-      "commentCount": 14,
-      "labels": [
-        "bounty"
-      ],
-      "score": 62,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "## Problem `_get_shell_driver` fails on minimal systems (e.g. containers which have only `/bin/sh`): * `SHELL` is not set: it warns and assumes `bash` (via `shutil.which(\"bash\")`), then hits `assert shell_abs_path is not None` when `bash` is not in `PATH`. * `SHELL=/bin/sh`: it r"
-    },
-    {
-      "id": 2877961885,
-      "title": "Gas Optimization and Transaction Management $1,250",
-      "html_url": "https://github.com/Spectral-Finance/lux/issues/76",
-      "repository": "Spectral-Finance/lux",
-      "created_at": "2025-02-25T10:41:25Z",
-      "updated_at": "2026-10-15T10:27:42Z",
-      "payoutMentionUSD": 1250,
-      "assignees": [],
-      "commentCount": 11,
+      "commentCount": 0,
       "labels": [
         "bounty",
-        "web3",
-        "infrastructure"
+        "real"
       ],
       "score": 62,
       "status": "POTENTIAL PAYOUT — UNVERIFIED",
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
-      "excerpt": "## Overview Develop a sophisticated gas optimization and transaction management system to ensure cost-effective and reliable transaction execution. ## Core Features - Gas price prediction - Transaction batching - Priority fee optimization - Transaction replacement (speed up/cance"
+      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/Parabola-org/parabola/issues/16 ### 漏洞描述 / Description [Bounty: $75] Website: accessibility and motion-preference fixes for the landing page **Context** `website/` is the project's landing page with a scripted he"
     },
     {
-      "id": 2877961216,
-      "title": "Smart Contract Event Monitoring System $1,500",
-      "html_url": "https://github.com/Spectral-Finance/lux/issues/75",
-      "repository": "Spectral-Finance/lux",
-      "created_at": "2025-02-25T10:41:11Z",
-      "updated_at": "2026-10-15T10:23:31Z",
-      "payoutMentionUSD": 1500,
-      "assignees": [],
-      "commentCount": 12,
-      "labels": [
-        "bounty",
-        "web3",
-        "infrastructure"
-      ],
-      "score": 62,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "## Overview Create a robust smart contract event monitoring system capable of tracking and processing events across multiple contracts and chains. ## Core Features - Contract event subscription management - Event filtering and pattern matching - Historical event syncing - Real-ti"
-    },
-    {
-      "id": 5873068588,
-      "title": "[Bounty: $45] Export convertPrecision and add 6↔7 decimal round-trip tests",
-      "html_url": "https://github.com/Parabola-org/parabola/issues/20",
-      "repository": "Parabola-org/parabola",
-      "created_at": "2026-10-15T20:03:08Z",
-      "updated_at": "2026-10-15T20:33:30Z",
-      "payoutMentionUSD": 45,
+      "id": 5814262860,
+      "title": "Bounty $50: recipe for Ryzen AI 890M (Radeon 890M iGPU)",
+      "html_url": "https://github.com/sybil-solutions/local-ai-registry/issues/223",
+      "repository": "sybil-solutions/local-ai-registry",
+      "created_at": "2026-10-12T13:07:34Z",
+      "updated_at": "2026-10-16T04:12:25Z",
+      "payoutMentionUSD": 50,
       "assignees": [],
       "commentCount": 5,
       "labels": [
-        "enhancement",
-        "bounty"
+        "bounty",
+        "bounty: $50",
+        "recipe",
+        "card support"
       ],
       "score": 61,
       "status": "POTENTIAL PAYOUT — UNVERIFIED",
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
-      "excerpt": "**Context** `convertPrecision` in `src/utils/encoding.ts:137-147` implements the Arc(6)↔Stellar(7) decimal conversion that sits at the heart of every cross-chain amount in this SDK, but it is not exported from `src/index.ts` — integrators building fee displays or amount inputs ag"
+      "excerpt": "**Pays $50** when a PR adds a tested recipe for this card and is merged. Rules: [BOUNTIES.md](https://github.com/sybil-solutions/.github/blob/main/BOUNTIES.md). | | | |---|---| | Card | `radeon-890m-48gb` | | Model | Qwen3.5-9B or Gemma 4 12B, or any model in `registry/models.jso"
     },
     {
       "id": 5873068069,
@@ -743,10 +927,10 @@
       "html_url": "https://github.com/Parabola-org/parabola/issues/19",
       "repository": "Parabola-org/parabola",
       "created_at": "2026-10-15T20:03:06Z",
-      "updated_at": "2026-10-15T20:33:29Z",
+      "updated_at": "2026-10-16T02:09:35Z",
       "payoutMentionUSD": 45,
       "assignees": [],
-      "commentCount": 5,
+      "commentCount": 7,
       "labels": [
         "bug",
         "bounty"
@@ -758,58 +942,73 @@
       "excerpt": "**Context** `bytes32ToStellarAddress` in `src/utils/encoding.ts:28-32` does `Buffer.from(hex, \"hex\")` with no validation and passes the result straight to `StrKey.encodeEd25519PublicKey`. `Buffer.from` silently truncates at the first non-hex character and accepts odd-length strin"
     },
     {
-      "id": 2877968050,
-      "title": "Curve Finance Integration and Stablecoin Management $900",
-      "html_url": "https://github.com/Spectral-Finance/lux/issues/81",
-      "repository": "Spectral-Finance/lux",
-      "created_at": "2025-02-25T10:43:53Z",
-      "updated_at": "2026-10-15T14:36:14Z",
-      "payoutMentionUSD": 900,
+      "id": 5775638234,
+      "title": "[Bounty: $50] Validate member_capacity before multiplying it in the Factory contribution check",
+      "html_url": "https://github.com/SUSU-LABS/susu-contracts/issues/35",
+      "repository": "SUSU-LABS/susu-contracts",
+      "created_at": "2026-10-09T09:05:17Z",
+      "updated_at": "2026-10-16T00:22:24Z",
+      "payoutMentionUSD": 50,
       "assignees": [],
-      "commentCount": 14,
+      "commentCount": 6,
+      "labels": [],
+      "score": 61,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "## Context `contracts/factory/src/lib.rs:204-213` evaluates `contribution_amount.checked_mul(member_capacity as i128)` and the capacity range check `!(MIN_MEMBERS..=MAX_MEMBERS).contains(&member_capacity)` in that order. An out-of-range capacity large enough to overflow the multi"
+    },
+    {
+      "id": 5873068588,
+      "title": "[Bounty: $45] Export convertPrecision and add 6↔7 decimal round-trip tests",
+      "html_url": "https://github.com/Parabola-org/parabola/issues/20",
+      "repository": "Parabola-org/parabola",
+      "created_at": "2026-10-15T20:03:08Z",
+      "updated_at": "2026-10-16T00:11:45Z",
+      "payoutMentionUSD": 45,
+      "assignees": [],
+      "commentCount": 7,
       "labels": [
-        "bounty",
-        "web3",
-        "exchanges"
+        "enhancement",
+        "bounty"
       ],
       "score": 61,
       "status": "POTENTIAL PAYOUT — UNVERIFIED",
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
-      "excerpt": "## Overview Implement Curve Finance integration focusing on stablecoin management and optimal yield strategies. ## Core Features - Stablecoin pool management - Curve gauge integration - CRV rewards optimization - Pool analysis and selection - Automated rebalancing - Slippage opti"
+      "excerpt": "**Context** `convertPrecision` in `src/utils/encoding.ts:137-147` implements the Arc(6)↔Stellar(7) decimal conversion that sits at the heart of every cross-chain amount in this SDK, but it is not exported from `src/index.ts` — integrators building fee displays or amount inputs ag"
     },
     {
-      "id": 5814261673,
-      "title": "Bounty $50: recipe for RTX 4060 Ti 16 GB",
-      "html_url": "https://github.com/sybil-solutions/local-ai-registry/issues/221",
+      "id": 5814260745,
+      "title": "Bounty $50: recipe for RX 7900 XTX 24 GB",
+      "html_url": "https://github.com/sybil-solutions/local-ai-registry/issues/219",
       "repository": "sybil-solutions/local-ai-registry",
-      "created_at": "2026-10-12T13:07:29Z",
-      "updated_at": "2026-10-15T11:25:43Z",
+      "created_at": "2026-10-12T13:07:25Z",
+      "updated_at": "2026-10-15T22:13:18Z",
       "payoutMentionUSD": 50,
       "assignees": [],
-      "commentCount": 8,
+      "commentCount": 6,
       "labels": [
         "bounty",
         "bounty: $50",
-        "recipe",
-        "good first recipe"
+        "recipe"
       ],
       "score": 61,
       "status": "POTENTIAL PAYOUT — UNVERIFIED",
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
-      "excerpt": "**Pays $50** when a PR adds a tested recipe for this card and is merged. Rules: [BOUNTIES.md](https://github.com/sybil-solutions/.github/blob/main/BOUNTIES.md). | | | |---|---| | Card | `rtx-4060-ti-16gb` | | Model | Qwen3.8-27B or Gemma 4 26B A4B, or any model in `registry/model"
+      "excerpt": "**Pays $50** when a PR adds a tested recipe for this card and is merged. Rules: [BOUNTIES.md](https://github.com/sybil-solutions/.github/blob/main/BOUNTIES.md). | | | |---|---| | Card | `rx-7900-xtx-24gb` | | Model | Qwen3.8-27B, or any model in `registry/models.json` not yet tes"
     },
     {
-      "id": 5814260251,
-      "title": "Bounty $50: recipe for GTX 1080 Ti 11 GB",
-      "html_url": "https://github.com/sybil-solutions/local-ai-registry/issues/218",
+      "id": 5814258919,
+      "title": "Bounty $50: recipe for Intel Arc B580 12 GB",
+      "html_url": "https://github.com/sybil-solutions/local-ai-registry/issues/216",
       "repository": "sybil-solutions/local-ai-registry",
-      "created_at": "2026-10-12T13:07:23Z",
-      "updated_at": "2026-10-15T09:10:29Z",
+      "created_at": "2026-10-12T13:07:17Z",
+      "updated_at": "2026-10-15T21:59:08Z",
       "payoutMentionUSD": 50,
       "assignees": [],
-      "commentCount": 15,
+      "commentCount": 6,
       "labels": [
         "bounty",
         "bounty: $50",
@@ -820,86 +1019,47 @@
       "status": "POTENTIAL PAYOUT — UNVERIFIED",
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
-      "excerpt": "**Pays $50** when a PR adds a tested recipe for this card and is merged. Rules: [BOUNTIES.md](https://github.com/sybil-solutions/.github/blob/main/BOUNTIES.md). | | | |---|---| | Card | `gtx-1080-ti-11gb` | | Model | a 7-9B model (llama.cpp is fine), or any model in `registry/mod"
+      "excerpt": "**Pays $50** when a PR adds a tested recipe for this card and is merged. Rules: [BOUNTIES.md](https://github.com/sybil-solutions/.github/blob/main/BOUNTIES.md). | | | |---|---| | Card | `intel-arc-b580-12gb` | | Model | Qwen3.5-9B or Gemma 4 12B, or any model in `registry/models."
     },
     {
-      "id": 5858181549,
-      "title": "[BOUNTY ~$30 x4] Post and fund a real task on Verdikta, publish a write-up (paid on Poidh, Base)",
-      "html_url": "https://github.com/verdikta/verdikta-applications/issues/76",
-      "repository": "verdikta/verdikta-applications",
-      "created_at": "2026-10-15T00:58:41Z",
-      "updated_at": "2026-10-15T21:06:09Z",
-      "payoutMentionUSD": 30,
+      "id": 5874535183,
+      "title": "[Bounty] [Bounty: $45] Validate input to bytes32ToStellarAddress",
+      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1897",
+      "repository": "zhangjiayang6835-cyber/bounty-plaza",
+      "created_at": "2026-10-15T21:54:14Z",
+      "updated_at": "2026-10-15T21:54:14Z",
+      "payoutMentionUSD": 45,
       "assignees": [],
-      "commentCount": 6,
+      "commentCount": 0,
       "labels": [
-        "bounty"
+        "bounty",
+        "real"
       ],
-      "score": 60,
+      "score": 61,
       "status": "POTENTIAL PAYOUT — UNVERIFIED",
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
-      "excerpt": "Four solo bounties on [Poidh](https://poidh.xyz) (Base chain), about 0.0125 ETH (~$30) each, for builders who post and fund a real task on Verdikta Bounties, get it completed by the AI jury, and publish a 300-word write-up. Part of the **Bring a Task, Build a Habit** campaign (14"
+      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/Parabola-org/parabola/issues/19 ### 漏洞描述 / Description [Bounty: $45] Validate input to bytes32ToStellarAddress **Context** `bytes32ToStellarAddress` in `src/utils/encoding.ts:28-32` does `Buffer.from(hex, \"hex\")`"
     },
     {
-      "id": 5518390476,
-      "title": "Publish the DittoBench build-bounty board and GitHub contributor guide",
-      "html_url": "https://github.com/ditto-assistant/ditto-subnet/issues/2047",
-      "repository": "ditto-assistant/ditto-subnet",
-      "created_at": "2026-09-20T14:22:57Z",
-      "updated_at": "2026-10-15T19:53:46Z",
-      "payoutMentionUSD": null,
+      "id": 5874535085,
+      "title": "[Bounty] [Bounty: $45] Export convertPrecision and add 6↔7 decimal round-trip tests",
+      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1896",
+      "repository": "zhangjiayang6835-cyber/bounty-plaza",
+      "created_at": "2026-10-15T21:54:14Z",
+      "updated_at": "2026-10-15T21:54:14Z",
+      "payoutMentionUSD": 45,
       "assignees": [],
-      "commentCount": 12,
+      "commentCount": 0,
       "labels": [
-        "documentation",
-        "good first issue",
-        "help wanted",
-        "bounty"
+        "bounty",
+        "real"
       ],
-      "score": 60,
-      "status": "VERIFY REWARD AND ELIGIBILITY",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "> **Implementation consolidated:** the complete v1 implementation is now tracked in [#2942](https://github.com/ditto-assistant/ditto-subnet/issues/2942), which depends on [PR #2889](https://github.com/ditto-assistant/ditto-subnet/pull/2889). This issue preserves detailed referenc"
-    },
-    {
-      "id": 5518390341,
-      "title": "Implement bounty acceptance, alpha awards, fee refunds and accounting",
-      "html_url": "https://github.com/ditto-assistant/ditto-subnet/issues/2046",
-      "repository": "ditto-assistant/ditto-subnet",
-      "created_at": "2026-09-20T14:22:55Z",
-      "updated_at": "2026-10-15T19:53:39Z",
-      "payoutMentionUSD": null,
-      "assignees": [],
-      "commentCount": 11,
-      "labels": [
-        "enhancement",
-        "help wanted",
-        "bounty"
-      ],
-      "score": 60,
-      "status": "VERIFY REWARD AND ELIGIBILITY",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "> **Implementation consolidated:** the complete v1 implementation is now tracked in [#2942](https://github.com/ditto-assistant/ditto-subnet/issues/2942), which depends on [PR #2889](https://github.com/ditto-assistant/ditto-subnet/pull/2889). This issue preserves detailed referenc"
-    },
-    {
-      "id": 5709219294,
-      "title": "[BOUNTY CLAIM] bounty-2026-0304-008 — Kenya eTA verification",
-      "html_url": "https://github.com/angeloasante/Diaspora_AI_Visa_data/issues/3",
-      "repository": "angeloasante/Diaspora_AI_Visa_data",
-      "created_at": "2026-10-05T08:58:36Z",
-      "updated_at": "2026-10-15T19:26:30Z",
-      "payoutMentionUSD": 30,
-      "assignees": [],
-      "commentCount": 1,
-      "labels": [],
-      "score": 60,
+      "score": 61,
       "status": "POTENTIAL PAYOUT — UNVERIFIED",
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
-      "excerpt": "I’m claiming **bounty-2026-0304-008** (£30) and starting the verification/update for routes `* → KE`. Current official Kenya eTA sources checked on 2026-10-05: - https://etakenya.go.ke/general-information - https://etakenya.go.ke/faqs - https://etakenya.go.ke/eligibility Initial "
+      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/Parabola-org/parabola/issues/20 ### 漏洞描述 / Description [Bounty: $45] Export convertPrecision and add 6↔7 decimal round-trip tests **Context** `convertPrecision` in `src/utils/encoding.ts:137-147` implements the A"
     },
     {
       "id": 5625826190,
@@ -919,279 +1079,136 @@
       "excerpt": "# 我用 AI 智能体扫荡 GitHub 开源悬赏：48 小时合并 6 个 PR 斩获 $650 的实操全解密 > **作者**：戈文波 (@TrustlessX / gewenbo.eth) > **核心资产落地页**：[https://psyverse.fun/pay](https://psyverse.fun/pay) > **官方收银中枢**：[https://psyverse.fun/payment](https://psyverse.fun/payment) > **AI for Money 变现平台**：[https://ai-for-mo"
     },
     {
-      "id": 5863340794,
-      "title": "PROD-30: Add bounty issue labels and automation script",
-      "html_url": "https://github.com/veracindarella/paystream-contracts/issues/319",
-      "repository": "veracindarella/paystream-contracts",
-      "created_at": "2026-10-15T09:10:49Z",
-      "updated_at": "2026-10-15T21:23:52Z",
-      "payoutMentionUSD": null,
-      "assignees": [],
-      "commentCount": 1,
-      "labels": [
-        "enhancement",
-        "devops",
-        "stellar wave"
-      ],
-      "score": 55,
-      "status": "VERIFY REWARD AND ELIGIBILITY",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "## Description Bounty issues are manually labelled. A GitHub Actions workflow that reads `docs/bounties.md`, parses the bounty table, and applies `good-first-issue`, `bounty`, and effort labels automatically keeps the bounty programme in sync with documentation. ## Acceptance Cri"
-    },
-    {
-      "id": 5689396425,
-      "title": "[Bounty] Answer 4 linked question(s) as a lesson",
-      "html_url": "https://github.com/Ikalus1988/MisakaNet/issues/2757",
-      "repository": "Ikalus1988/MisakaNet",
-      "created_at": "2026-10-03T11:58:48Z",
-      "updated_at": "2026-10-15T21:23:08Z",
-      "payoutMentionUSD": null,
-      "assignees": [],
-      "commentCount": 5,
-      "labels": [
-        "ready",
-        "bounty"
-      ],
-      "score": 55,
-      "status": "VERIFY REWARD AND ELIGIBILITY",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "<!-- misakanet-question-bounty:anchor-2743 --> # [Bounty] Answer the 4 linked question(s) as a lesson ## Context These intakes ask about something no lesson covers. Measured through the production retrieval path (BM25 plus the IDF-weighted relevance floor), every one of them retu"
-    },
-    {
-      "id": 5872557812,
-      "title": "[Slice A] Public-evidence coverage score and gap atlas",
-      "html_url": "https://github.com/Element-Ventures-Canada-Ltd/openchokepoint/issues/16",
-      "repository": "Element-Ventures-Canada-Ltd/openchokepoint",
-      "created_at": "2026-10-15T19:25:35Z",
-      "updated_at": "2026-10-15T21:12:37Z",
-      "payoutMentionUSD": null,
-      "assignees": [],
-      "commentCount": 1,
-      "labels": [
-        "bounty",
-        "priority: high"
-      ],
-      "score": 55,
-      "status": "VERIFY REWARD AND ELIGIBILITY",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "Handling: Unclassified — public Part of #3. ## Why this matters A trace that shows where the public record runs out is as valuable as one that is complete. Gaps tell programmes, insurers and regulators which evidence must be generated or shared under agreement, because it cannot "
-    },
-    {
-      "id": 5872571042,
-      "title": "[Slice C] Red-team the hard boundaries: try to get technical data past the validator",
-      "html_url": "https://github.com/Element-Ventures-Canada-Ltd/openchokepoint/issues/18",
-      "repository": "Element-Ventures-Canada-Ltd/openchokepoint",
-      "created_at": "2026-10-15T19:26:34Z",
-      "updated_at": "2026-10-15T21:10:50Z",
-      "payoutMentionUSD": null,
-      "assignees": [],
-      "commentCount": 1,
-      "labels": [
-        "bounty",
-        "priority: high"
-      ],
-      "score": 55,
-      "status": "VERIFY REWARD AND ELIGIBILITY",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "Handling: Unclassified — public Part of #3. ## Why this matters This repository is public. Its most important promise is that it never carries technical data: no parameters, schedules, dimensions or test results. That promise is only as strong as the checks that enforce it. This "
-    },
-    {
-      "id": 5872565482,
-      "title": "[Slice B] Verifiable evidence pointers: prove a record exists without disclosing it",
-      "html_url": "https://github.com/Element-Ventures-Canada-Ltd/openchokepoint/issues/17",
-      "repository": "Element-Ventures-Canada-Ltd/openchokepoint",
-      "created_at": "2026-10-15T19:26:09Z",
-      "updated_at": "2026-10-15T21:09:30Z",
-      "payoutMentionUSD": null,
-      "assignees": [],
-      "commentCount": 1,
-      "labels": [
-        "schema",
-        "bounty",
-        "priority: high"
-      ],
-      "score": 55,
-      "status": "VERIFY REWARD AND ELIGIBILITY",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "Handling: Unclassified — public Part of #3. ## Why this matters Real evidence records (build records, heat-treatment certificates, inspection results) can never be published here. Today the schema can only say \"a record of this kind is claimed to exist\". To let real suppliers tak"
-    },
-    {
-      "id": 5863413198,
-      "title": "SEC-34: Add tip-off bounty for responsible disclosure",
-      "html_url": "https://github.com/veracindarella/paystream-contracts/issues/337",
-      "repository": "veracindarella/paystream-contracts",
-      "created_at": "2026-10-15T09:15:55Z",
-      "updated_at": "2026-10-15T20:55:07Z",
-      "payoutMentionUSD": null,
-      "assignees": [],
-      "commentCount": 1,
-      "labels": [
-        "documentation",
-        "security",
-        "stellar wave"
-      ],
-      "score": 55,
-      "status": "VERIFY REWARD AND ELIGIBILITY",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "## Description SECURITY.md describes the reporting process but does not mention a bug bounty or acknowledgement programme. A clear responsible disclosure reward (even non-monetary recognition) incentivises security researchers to report findings rather than exploit them. ## Accep"
-    },
-    {
-      "id": 5872186990,
-      "title": "e2e: multi-CID scenarios on main, with a manualOnly flag so the paid bounty-171 replay stays out of the nightly",
-      "html_url": "https://github.com/verdikta/verdikta-arbiter/issues/89",
-      "repository": "verdikta/verdikta-arbiter",
-      "created_at": "2026-10-15T19:00:09Z",
-      "updated_at": "2026-10-15T20:19:39Z",
-      "payoutMentionUSD": null,
-      "assignees": [],
-      "commentCount": 1,
-      "labels": [],
-      "score": 55,
-      "status": "VERIFY REWARD AND ELIGIBILITY",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "## Goal The e2e harness on `main` can send a request the way production bounties do (several CIDs plus an addendum), and the bounty-171 replay used to validate #81 lives on `main` as a scenario that runs only when someone names it. The nightly L4 and the L2 job never pay for it. "
-    },
-    {
-      "id": 5865867397,
-      "title": "ai-node: one image over a provider's pixel limits fails every jury model, so the request times out on every oracle (bounty 171) — fit images to the limits before dispatch",
-      "html_url": "https://github.com/verdikta/verdikta-arbiter/issues/81",
-      "repository": "verdikta/verdikta-arbiter",
-      "created_at": "2026-10-15T12:12:29Z",
-      "updated_at": "2026-10-15T20:18:35Z",
-      "payoutMentionUSD": null,
-      "assignees": [],
-      "commentCount": 11,
-      "labels": [],
-      "score": 55,
-      "status": "VERIFY REWARD AND ELIGIBILITY",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "## Goal No image attachment can make a provider reject an evaluation because of its pixel dimensions or size. Images that already fit reach the providers byte-for-byte unchanged, tall page screenshots stay legible, one unusable attachment cannot fail the whole jury, and errors na"
-    },
-    {
-      "id": 5518395484,
-      "title": "Epic: SN118 scoped build bounties: paid slots, human review, and alpha awards",
-      "html_url": "https://github.com/ditto-assistant/ditto-subnet/issues/2054",
-      "repository": "ditto-assistant/ditto-subnet",
-      "created_at": "2026-09-20T14:23:55Z",
-      "updated_at": "2026-10-15T20:18:24Z",
+      "id": 5858193188,
+      "title": "Add cursor-based pagination and sorting to /api/audit-log route",
+      "html_url": "https://github.com/OphirPay/OphirPay/issues/1361",
+      "repository": "OphirPay/OphirPay",
+      "created_at": "2026-10-15T00:59:53Z",
+      "updated_at": "2026-10-16T03:15:13Z",
       "payoutMentionUSD": null,
       "assignees": [],
       "commentCount": 9,
       "labels": [
-        "epic",
-        "bounty"
-      ],
-      "score": 55,
-      "status": "VERIFY REWARD AND ELIGIBILITY",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "## Outcome Let Ditto publish specific open-source build tasks, accept three paid attempts per round, review submissions, and award contributors whose work or ideas it chooses to use. This extends the existing maintenance-bounty program to useful product modules and integrations. "
-    },
-    {
-      "id": 5870125276,
-      "title": "Bounty: rework the way in — one gate: a wallet, a GitHub account, then a side",
-      "html_url": "https://github.com/vanduc2514/hackathon-circle-misthos/issues/181",
-      "repository": "vanduc2514/hackathon-circle-misthos",
-      "created_at": "2026-10-15T16:38:40Z",
-      "updated_at": "2026-10-15T20:18:12Z",
-      "payoutMentionUSD": null,
-      "assignees": [],
-      "commentCount": 1,
-      "labels": [
         "enhancement",
-        "p1",
-        "area:backend",
-        "area:frontend"
+        "backend",
+        "difficulty: medium",
+        "bounty",
+        "stellar wave"
       ],
       "score": 55,
       "status": "VERIFY REWARD AND ELIGIBILITY",
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
-      "excerpt": "## Deliverable One pull request, merged, that replaces the way a visitor gets into Misthos with a single mandatory gate: prove a wallet (MetaMask first, a Circle wallet as the second way in), link a GitHub account, then choose publisher or contributor and name the party. The gate"
+      "excerpt": "**Target Branch: integration/staging** --- ## Description The audit log endpoint `src/app/api/audit-log/route.ts` currently fetches entries using basic offset-based queries (`skip`/`take`). For enterprise accounts with tens of thousands of payment audit logs, deep offset queries "
     },
     {
-      "id": 5868119763,
-      "title": "[Bug bounty] Acala exchange: destination fee buffer applied to the whole output instead of only the fee (amountOut inflated ~10%)",
-      "html_url": "https://github.com/paraspell/xcm-tools/issues/2153",
-      "repository": "paraspell/xcm-tools",
-      "created_at": "2026-10-15T14:32:45Z",
-      "updated_at": "2026-10-15T20:17:58Z",
+      "id": 5877489813,
+      "title": "bounty_finalize cannot pay out an approved bounty, its tool/doc copy promises it can, and the agent door has no payout path at all",
+      "html_url": "https://github.com/Uuriko/project-room/issues/3693",
+      "repository": "Uuriko/project-room",
+      "created_at": "2026-10-16T02:56:20Z",
+      "updated_at": "2026-10-16T02:56:20Z",
       "payoutMentionUSD": null,
       "assignees": [],
-      "commentCount": 1,
-      "labels": [
-        "bug bounty 💰"
-      ],
-      "score": 55,
-      "status": "VERIFY REWARD AND ELIGIBILITY",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "# 🐞 Bug Report ## 🔍 Describe the Bug In the **Acala exchange** SWAP path (`packages/swap`), when the destination token is the Acala native asset (`ACA`), the destination fee buffer is applied to the **whole remaining output** instead of only to the fee. **File:** `packages/swap"
-    },
-    {
-      "id": 5516825464,
-      "title": "[LIVE] Verified NIM bounty board",
-      "html_url": "https://github.com/Saidur-droid/MergeEarn/issues/33",
-      "repository": "Saidur-droid/MergeEarn",
-      "created_at": "2026-09-20T08:52:35Z",
-      "updated_at": "2026-10-15T20:06:44Z",
-      "payoutMentionUSD": null,
-      "assignees": [],
-      "commentCount": 1,
+      "commentCount": 0,
       "labels": [],
       "score": 55,
       "status": "VERIFY REWARD AND ELIGIBILITY",
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
-      "excerpt": "# MergeEarn live community bounty board This is the public, automatically maintained entry point for contributor-friendly MergeEarn work. **Live app:** https://mergeearn.vercel.app **GitHub Contribute page:** https://github.com/Saidur-droid/MergeEarn/contribute A task is paid onl"
+      "excerpt": "## Summary In `server/bounty-escrow.mjs` at `c710d547e`, an `approved` bounty (challenge window passed, award vested) can be paid out by exactly one door: `closeEpoch` → `_sweep`. The per-bounty door cannot do it, the shipped copy says it can, and the agent (MCP) door cannot reac"
     },
     {
-      "id": 5870381529,
-      "title": "Add bounty operator controls and gate funded activation",
-      "html_url": "https://github.com/ditto-assistant/ditto-subnet/issues/2943",
-      "repository": "ditto-assistant/ditto-subnet",
-      "created_at": "2026-10-15T16:55:24Z",
-      "updated_at": "2026-10-15T19:53:50Z",
+      "id": 5858287505,
+      "title": "Add live network transaction fee estimator widget to payment submission form",
+      "html_url": "https://github.com/OphirPay/OphirPay/issues/1373",
+      "repository": "OphirPay/OphirPay",
+      "created_at": "2026-10-15T01:09:29Z",
+      "updated_at": "2026-10-16T02:28:38Z",
       "payoutMentionUSD": null,
       "assignees": [],
-      "commentCount": 0,
+      "commentCount": 4,
       "labels": [
         "enhancement",
-        "bounty"
+        "frontend",
+        "difficulty: medium",
+        "bounty",
+        "stellar wave"
       ],
       "score": 55,
       "status": "VERIFY REWARD AND ELIGIBILITY",
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
-      "excerpt": "> **Implementation consolidated:** the complete v1 implementation is now tracked in [#2942](https://github.com/ditto-assistant/ditto-subnet/issues/2942), which depends on [PR #2889](https://github.com/ditto-assistant/ditto-subnet/pull/2889). This issue preserves detailed referenc"
+      "excerpt": "**Target Branch: integration/staging** --- ## Description On `src/components/forms/payment-form.tsx`, transaction fees default to the base reserve or static fee. During network congestion, transactions submitted with minimum base fees can stall in Horizon transaction queues. User"
     },
     {
-      "id": 5872576709,
-      "title": "[Slice D] Standards crosswalk: W3C PROV-O, QIF (ISO 23952), STEP AP242 (ISO 10303-242)",
-      "html_url": "https://github.com/Element-Ventures-Canada-Ltd/openchokepoint/issues/19",
-      "repository": "Element-Ventures-Canada-Ltd/openchokepoint",
-      "created_at": "2026-10-15T19:26:59Z",
-      "updated_at": "2026-10-15T19:33:31Z",
+      "id": 5858314167,
+      "title": "Add interactive vesting timeline and claim simulator for payment streams UI",
+      "html_url": "https://github.com/OphirPay/OphirPay/issues/1377",
+      "repository": "OphirPay/OphirPay",
+      "created_at": "2026-10-15T01:12:30Z",
+      "updated_at": "2026-10-16T02:06:41Z",
       "payoutMentionUSD": null,
       "assignees": [],
-      "commentCount": 0,
+      "commentCount": 4,
       "labels": [
-        "schema",
-        "bounty"
+        "enhancement",
+        "frontend",
+        "difficulty: medium",
+        "bounty",
+        "stellar wave"
       ],
       "score": 55,
       "status": "VERIFY REWARD AND ELIGIBILITY",
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
-      "excerpt": "Handling: Unclassified — public Part of #3. ## Why this matters Industry already records manufacturing and quality data in established standards. A schema that maps cleanly to them can be adopted without re-keying data; one that does not will stay a research artefact. ## The prob"
+      "excerpt": "**Target Branch: integration/staging** --- ## Description The payment stream detail page displays start date, end date, and total balance, but lacks an interactive visual vesting chart. Users cannot easily visualize how much has unlocked, what is currently claimable in real-time,"
+    },
+    {
+      "id": 5858322916,
+      "title": "Add drag-and-drop CSV batch upload zone with visual upload progress feedback",
+      "html_url": "https://github.com/OphirPay/OphirPay/issues/1378",
+      "repository": "OphirPay/OphirPay",
+      "created_at": "2026-10-15T01:13:31Z",
+      "updated_at": "2026-10-16T01:52:52Z",
+      "payoutMentionUSD": null,
+      "assignees": [],
+      "commentCount": 9,
+      "labels": [
+        "enhancement",
+        "frontend",
+        "difficulty: medium",
+        "bounty",
+        "stellar wave"
+      ],
+      "score": 55,
+      "status": "VERIFY REWARD AND ELIGIBILITY",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "**Target Branch: integration/staging** --- ## Description In `src/components/CsvBatchImport.tsx`, batch CSV files can currently only be selected via standard file dialog input. Users importing payroll or vendor lists expect modern drag-and-drop file upload with visual dropping fe"
+    },
+    {
+      "id": 5858298247,
+      "title": "Add QR code payment request generator with configurable amounts and assets",
+      "html_url": "https://github.com/OphirPay/OphirPay/issues/1375",
+      "repository": "OphirPay/OphirPay",
+      "created_at": "2026-10-15T01:10:37Z",
+      "updated_at": "2026-10-16T01:46:57Z",
+      "payoutMentionUSD": null,
+      "assignees": [],
+      "commentCount": 7,
+      "labels": [
+        "enhancement",
+        "frontend",
+        "difficulty: medium",
+        "bounty",
+        "stellar wave"
+      ],
+      "score": 55,
+      "status": "VERIFY REWARD AND ELIGIBILITY",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "**Target Branch: integration/staging** --- ## Description The payment request view supports link sharing, but in-person merchants and mobile users require scanning SEP-0007 / Stellar pay QR codes directly from the screen. The existing `QrCode.tsx` component is only used for two-f"
     }
   ],
   "disclaimer": "No verified payouts or earnings; these are public issue candidates. Manually confirm funding, assignment, eligibility, security and payment terms. Never pay to join, disclose secrets or begin work without terms."
