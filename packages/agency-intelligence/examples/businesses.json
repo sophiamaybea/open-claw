@@ -1,0 +1,23 @@
+[
+  {
+    "business_name": "Example Independent Studio",
+    "website": "https://studio.example.org",
+    "issues": [
+      "broken_contact_link",
+      "accessibility_missing_alt"
+    ],
+    "source_url": "https://studio.example.org/contact",
+    "source": "example-only synthetic input",
+    "location": "Example City"
+  },
+  {
+    "business_name": "Example Florist",
+    "website": "https://florist.example.org",
+    "issues": [
+      "slow_server_response"
+    ],
+    "source_url": "https://florist.example.org",
+    "source": "example-only synthetic input",
+    "location": "Example City"
+  }
+]
