@@ -18,7 +18,7 @@ class AgencyIntelligenceTests(unittest.TestCase):
             {"business_name": "A", "website": "https://a.example/", "issues": "stale_copyright"},
             {"business_name": "B", "website": "https://b.example", "issues": "missing_spf"},
         ]
-        result = engine.prepare_queue(rows)
+        result = engine.prepare_queue(rows, min_score=8)
         self.assertEqual(len(result), 2)
         self.assertEqual(result[0]["service"], "Booking flow repair")
         self.assertEqual(result[0]["score"], 30)
