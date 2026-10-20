@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-19T20:36:20.275Z",
+  "updatedAt": "2026-10-20T00:22:20.216Z",
   "state": "RESEARCH_READY",
   "sources": [
     "GitHub issue search"
@@ -52,6 +52,23 @@
       "excerpt": "## Goal Build **Bounty Golden Path v1 — read-only qualification first**, using existing AgentOS ONE/IR, scheduler, node executor, receipts and work completion ledger. Do not add a parallel autonomous runtime or diverge protected branches. ## Grounded observations (2026-10-15) - T"
     },
     {
+      "id": 5932756571,
+      "title": "[BOUNTY] Medium: deactivate_validator strands dual-stake SPL collateral permanently & slash_validator omits min_token_stake deactivation floor",
+      "html_url": "https://github.com/paraloom-labs/paraloom-core/issues/1129",
+      "repository": "paraloom-labs/paraloom-core",
+      "created_at": "2026-10-19T22:45:47Z",
+      "updated_at": "2026-10-20T00:20:11Z",
+      "payoutMentionUSD": 150,
+      "assignees": [],
+      "commentCount": 1,
+      "labels": [],
+      "score": 69,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "## Summary - **Proposed Tier:** Medium (`$150 USDC` — `docs/bug-bounty.md` Stage 1 On-Chain Bridge & Dual-Stake Validator Invariant) - **Target Repository:** `paraloom-labs/paraloom-core` - **Affected Files (In-Scope `programs/paraloom/`):** - `programs/paraloom/src/lib.rs` (`dea"
+    },
+    {
       "id": 5473199511,
       "title": "Migrate schematic-only ESP32 module circuit example bounty from archived docs-old#47",
       "html_url": "https://github.com/tscircuit/docs/issues/886",
@@ -95,7 +112,7 @@
       "html_url": "https://github.com/bujiproject-art/agentmidasopendevteam/issues/31",
       "repository": "bujiproject-art/agentmidasopendevteam",
       "created_at": "2026-10-19T05:06:52Z",
-      "updated_at": "2026-10-19T20:26:15Z",
+      "updated_at": "2026-10-19T22:20:01Z",
       "payoutMentionUSD": 150,
       "assignees": [],
       "commentCount": 0,
@@ -164,38 +181,101 @@
       "excerpt": "Bounties that were already open when the watcher started. From now on, each new one gets its own issue. - 🔴 **$150** · [📱 Epic: BAWES Universe Mobile App (Android + iOS)](https://github.com/BAWES-Universe/workadventure-universe/issues/1) - 🔴 **$50** · [BOUNTY: integrate AWS Co"
     },
     {
-      "id": 5775612447,
-      "title": "[Bounty: $80] Bound Soroban RPC simulation with a timeout and surface upstream failures as 502/503",
-      "html_url": "https://github.com/SUSU-LABS/susu-api/issues/63",
-      "repository": "SUSU-LABS/susu-api",
-      "created_at": "2026-10-09T09:03:04Z",
-      "updated_at": "2026-10-19T13:32:45Z",
-      "payoutMentionUSD": 80,
+      "id": 5516825464,
+      "title": "[LIVE] Verified NIM bounty board",
+      "html_url": "https://github.com/Saidur-droid/MergeEarn/issues/33",
+      "repository": "Saidur-droid/MergeEarn",
+      "created_at": "2026-09-20T08:52:35Z",
+      "updated_at": "2026-10-19T22:56:50Z",
+      "payoutMentionUSD": null,
       "assignees": [],
-      "commentCount": 11,
+      "commentCount": 1,
       "labels": [],
-      "score": 63,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "score": 55,
+      "status": "VERIFY REWARD AND ELIGIBILITY",
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
-      "excerpt": "## Context `src/lib/soroban.ts:38-45` builds an `rpc.Server` with no request timeout, and `prepareInvocation` awaits `simulate(transaction)` unguarded at `src/routes/transactions.ts:170-175`. A hung RPC holds the HTTP request open indefinitely while consuming the route's rate-lim"
+      "excerpt": "# MergeEarn live community bounty board This is the public, automatically maintained entry point for contributor-friendly MergeEarn work. **Live app:** https://mergeearn.vercel.app **GitHub Contribute page:** https://github.com/Saidur-droid/MergeEarn/contribute A task is paid onl"
     },
     {
-      "id": 5765088512,
-      "title": "[Bounty: $75] Use `npm ci` in `contract-integration.yml`",
-      "html_url": "https://github.com/Signpost-Labs/signpost-app/issues/45",
-      "repository": "Signpost-Labs/signpost-app",
-      "created_at": "2026-10-08T16:08:52Z",
-      "updated_at": "2026-10-19T13:01:09Z",
-      "payoutMentionUSD": 75,
+      "id": 5928176491,
+      "title": "[opt-out check] PrivateEye: which brokers are behind its search results?",
+      "html_url": "https://github.com/lizTheDeveloper/privacy-the-game/issues/418",
+      "repository": "lizTheDeveloper/privacy-the-game",
+      "created_at": "2026-10-19T17:09:26Z",
+      "updated_at": "2026-10-19T22:51:02Z",
+      "payoutMentionUSD": null,
       "assignees": [],
-      "commentCount": 4,
-      "labels": [],
-      "score": 62,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "commentCount": 1,
+      "labels": [
+        "bounty",
+        "bounty: medium",
+        "data-brokers"
+      ],
+      "score": 55,
+      "status": "VERIFY REWARD AND ELIGIBILITY",
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
-      "excerpt": "**Context** `contract-integration.yml` installs dependencies with `npm install`, while every job in `ci.yml` and the `backend` job use `npm ci --no-audit --no-fund`. `npm install` may rewrite `package-lock.json` and resolve versions that drift from the lockfile, so the integratio"
+      "excerpt": "**What**: Identify which data brokers stand behind PrivateEye, which passes searches on to unnamed partner sites and has no removal form of its own. **Why it matters**: Players of Reclaim City use these links to opt out of data brokers, and the dataset is cited by journalists, so"
+    },
+    {
+      "id": 5928123479,
+      "title": "[find opt-out] Data Facts, Inc.: find the official opt-out route",
+      "html_url": "https://github.com/lizTheDeveloper/privacy-the-game/issues/373",
+      "repository": "lizTheDeveloper/privacy-the-game",
+      "created_at": "2026-10-19T17:05:54Z",
+      "updated_at": "2026-10-19T22:50:50Z",
+      "payoutMentionUSD": null,
+      "assignees": [],
+      "commentCount": 1,
+      "labels": [
+        "bounty",
+        "bounty: medium",
+        "data-brokers"
+      ],
+      "score": 55,
+      "status": "VERIFY REWARD AND ELIGIBILITY",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "**What**: Find Data Facts, Inc.'s official opt-out or \"do not sell\" route, or show that none exists. **Why it matters**: Players of Reclaim City use these links to opt out of data brokers, and the dataset is cited by journalists, so a wrong or dead link costs real people real tim"
+    },
+    {
+      "id": 5928177608,
+      "title": "[opt-out check] RocketReach: find a no-account opt-out route",
+      "html_url": "https://github.com/lizTheDeveloper/privacy-the-game/issues/419",
+      "repository": "lizTheDeveloper/privacy-the-game",
+      "created_at": "2026-10-19T17:09:31Z",
+      "updated_at": "2026-10-19T22:43:01Z",
+      "payoutMentionUSD": null,
+      "assignees": [],
+      "commentCount": 1,
+      "labels": [
+        "bounty",
+        "bounty: medium",
+        "data-brokers"
+      ],
+      "score": 55,
+      "status": "VERIFY REWARD AND ELIGIBILITY",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "**What**: Find out whether RocketReach's opt-out needs an account, and whether a no-account route exists. **Why it matters**: Players of Reclaim City use these links to opt out of data brokers, and the dataset is cited by journalists, so a wrong or dead link costs real people rea"
+    },
+    {
+      "id": 5931769972,
+      "title": "MCP / WebMCP edge cases: v2-era ids get calldata for a different bounty, + 19 more (report)",
+      "html_url": "https://github.com/picsoritdidnthappen/poidh-app/issues/1584",
+      "repository": "picsoritdidnthappen/poidh-app",
+      "created_at": "2026-10-19T21:21:29Z",
+      "updated_at": "2026-10-19T21:21:29Z",
+      "payoutMentionUSD": null,
+      "assignees": [],
+      "commentCount": 0,
+      "labels": [],
+      "score": 55,
+      "status": "VERIFY REWARD AND ELIGIBILITY",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "For the \"test POIDH webmcp + mcp\" bounty (Base #1495), I ran read-only and dry-run tests against `https://poidh.xyz/api/mcp` (all 11 tools), the 9 WebMCP tools on poidh.xyz, and the `/tx` approval links on mainnet, Base and Arbitrum, checking results against `/data` and on-chain "
     },
     {
       "id": 5917631627,
@@ -302,23 +382,6 @@
       "excerpt": "# 🐞 Bug Report ## 🔍 Describe the Bug In the **Acala exchange** SWAP path (`packages/swap`), when the destination token is the Acala native asset (`ACA`), the destination fee buffer is applied to the **whole remaining output** instead of only to the fee. **File:** `packages/swap"
     },
     {
-      "id": 5516825464,
-      "title": "[LIVE] Verified NIM bounty board",
-      "html_url": "https://github.com/Saidur-droid/MergeEarn/issues/33",
-      "repository": "Saidur-droid/MergeEarn",
-      "created_at": "2026-09-20T08:52:35Z",
-      "updated_at": "2026-10-19T19:16:58Z",
-      "payoutMentionUSD": null,
-      "assignees": [],
-      "commentCount": 1,
-      "labels": [],
-      "score": 55,
-      "status": "VERIFY REWARD AND ELIGIBILITY",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "# MergeEarn live community bounty board This is the public, automatically maintained entry point for contributor-friendly MergeEarn work. **Live app:** https://mergeearn.vercel.app **GitHub Contribute page:** https://github.com/Saidur-droid/MergeEarn/contribute A task is paid onl"
-    },
-    {
       "id": 5896130243,
       "title": "Emit Standardized Events and Structured Observability Across Backstop, Bounty, Grants, and Treasury",
       "html_url": "https://github.com/Refract-Protocol/refract-contracts/issues/210",
@@ -355,48 +418,6 @@
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
       "excerpt": "## Problem The PRD includes opt-in private loss-of-funds bounty programs: configurable gross amount, 75/25 split, private intake, appeals and private payment records. The Umia program is the first. No case, intake or settlement implementation exists in the code. Requirements: SEC"
-    },
-    {
-      "id": 5928177608,
-      "title": "[opt-out check] RocketReach: find a no-account opt-out route",
-      "html_url": "https://github.com/lizTheDeveloper/privacy-the-game/issues/419",
-      "repository": "lizTheDeveloper/privacy-the-game",
-      "created_at": "2026-10-19T17:09:31Z",
-      "updated_at": "2026-10-19T17:09:31Z",
-      "payoutMentionUSD": null,
-      "assignees": [],
-      "commentCount": 0,
-      "labels": [
-        "bounty",
-        "bounty: medium",
-        "data-brokers"
-      ],
-      "score": 55,
-      "status": "VERIFY REWARD AND ELIGIBILITY",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "**What**: Find out whether RocketReach's opt-out needs an account, and whether a no-account route exists. **Why it matters**: Players of Reclaim City use these links to opt out of data brokers, and the dataset is cited by journalists, so a wrong or dead link costs real people rea"
-    },
-    {
-      "id": 5928176491,
-      "title": "[opt-out check] PrivateEye: which brokers are behind its search results?",
-      "html_url": "https://github.com/lizTheDeveloper/privacy-the-game/issues/418",
-      "repository": "lizTheDeveloper/privacy-the-game",
-      "created_at": "2026-10-19T17:09:26Z",
-      "updated_at": "2026-10-19T17:09:26Z",
-      "payoutMentionUSD": null,
-      "assignees": [],
-      "commentCount": 0,
-      "labels": [
-        "bounty",
-        "bounty: medium",
-        "data-brokers"
-      ],
-      "score": 55,
-      "status": "VERIFY REWARD AND ELIGIBILITY",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "**What**: Identify which data brokers stand behind PrivateEye, which passes searches on to unnamed partner sites and has no removal form of its own. **Why it matters**: Players of Reclaim City use these links to opt out of data brokers, and the dataset is cited by journalists, so"
     },
     {
       "id": 5928175548,
@@ -1217,27 +1238,6 @@
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
       "excerpt": "**What**: Find Equifax Apprise Solutions LLC's official opt-out or \"do not sell\" route, or show that none exists. **Why it matters**: Players of Reclaim City use these links to opt out of data brokers, and the dataset is cited by journalists, so a wrong or dead link costs real pe"
-    },
-    {
-      "id": 5928129011,
-      "title": "[find opt-out] Employment Tax Servicing, LLC: find the official opt-out route",
-      "html_url": "https://github.com/lizTheDeveloper/privacy-the-game/issues/378",
-      "repository": "lizTheDeveloper/privacy-the-game",
-      "created_at": "2026-10-19T17:06:17Z",
-      "updated_at": "2026-10-19T17:06:17Z",
-      "payoutMentionUSD": null,
-      "assignees": [],
-      "commentCount": 0,
-      "labels": [
-        "bounty",
-        "bounty: medium",
-        "data-brokers"
-      ],
-      "score": 55,
-      "status": "VERIFY REWARD AND ELIGIBILITY",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "**What**: Find Employment Tax Servicing, LLC's official opt-out or \"do not sell\" route, or show that none exists. **Why it matters**: Players of Reclaim City use these links to opt out of data brokers, and the dataset is cited by journalists, so a wrong or dead link costs real pe"
     }
   ],
   "disclaimer": "No verified payouts or earnings; these are public issue candidates. Manually confirm funding, assignment, eligibility, security and payment terms. Never pay to join, disclose secrets or begin work without terms."
