@@ -1,13 +1,13 @@
 {
   "version": "limitless-lab-v1",
   "mode": "PAPER_ONLY",
-  "updatedAt": "2026-10-20T23:34:29.394Z",
-  "runs": 38,
+  "updatedAt": "2026-10-21T01:59:46.281Z",
+  "runs": 39,
   "errors": [],
   "calibrator": {
-    "bias": 0.06349592000000003,
-    "slope": 1.1798841437024459,
-    "trained": 199,
+    "bias": 0.08700676000000003,
+    "slope": 1.2040252819658421,
+    "trained": 203,
     "learningRate": 0.04
   },
   "forecasts": [
@@ -4606,8 +4606,10 @@
       "assessment": {},
       "decision": "HOLD",
       "reason": "NO_INDEPENDENT_FORECAST",
-      "resolution": null,
-      "verifiedAt": null
+      "resolution": 1,
+      "verifiedAt": "2026-10-21T01:59:46.281Z",
+      "brierMarket": 0.13322499999999998,
+      "brierCalibration": 0.111588066304
     },
     {
       "slug": "btc-up-or-down-15-min-1792539000",
@@ -4627,8 +4629,10 @@
       "assessment": {},
       "decision": "HOLD",
       "reason": "NO_INDEPENDENT_FORECAST",
-      "resolution": null,
-      "verifiedAt": null
+      "resolution": 1,
+      "verifiedAt": "2026-10-21T01:59:46.281Z",
+      "brierMarket": 0.140625,
+      "brierCalibration": 0.11916027841599997
     },
     {
       "slug": "eth-up-or-down-hourly-p-1792526709897",
@@ -4648,8 +4652,10 @@
       "assessment": {},
       "decision": "HOLD",
       "reason": "NO_INDEPENDENT_FORECAST",
-      "resolution": null,
-      "verifiedAt": null
+      "resolution": 0,
+      "verifiedAt": "2026-10-21T01:59:46.281Z",
+      "brierMarket": 0.003025,
+      "brierCalibration": 0.0014019033640000002
     },
     {
       "slug": "btc-up-or-down-hourly-p-1792526708822",
@@ -4669,114 +4675,92 @@
       "assessment": {},
       "decision": "HOLD",
       "reason": "NO_INDEPENDENT_FORECAST",
-      "resolution": null,
-      "verifiedAt": null
+      "resolution": 0,
+      "verifiedAt": "2026-10-21T01:59:46.281Z",
+      "brierMarket": 0.005625,
+      "brierCalibration": 0.0029193489610000005
     }
   ],
-  "resolvedCount": 199,
+  "resolvedCount": 203,
   "scanned": [
     {
-      "slug": "eth-up-or-down-5-min-1792539000",
+      "slug": "eth-up-or-down-5-min-1792547700",
       "title": "ETH Up or Down - 5 Min",
       "symbol": "ETH",
       "bucket": "5m",
-      "expiresAt": "2026-10-20T23:35:00.000Z",
-      "remainingMin": 0.51,
+      "expiresAt": "2026-10-21T02:00:00.000Z",
+      "remainingMin": 0.23,
       "status": "FUNDED",
       "tradeType": "clob",
       "quality": "NO_VALID_QUOTES",
       "decision": "HOLD"
     },
     {
-      "slug": "btc-up-or-down-5-min-1792539000",
+      "slug": "btc-up-or-down-5-min-1792547700",
       "title": "BTC Up or Down - 5 Min",
       "symbol": "BTC",
       "bucket": "5m",
-      "expiresAt": "2026-10-20T23:35:00.000Z",
-      "remainingMin": 0.51,
+      "expiresAt": "2026-10-21T02:00:00.000Z",
+      "remainingMin": 0.23,
       "status": "FUNDED",
       "tradeType": "clob",
       "quality": "NO_VALID_QUOTES",
       "decision": "HOLD"
     },
     {
-      "slug": "eth-up-or-down-15-min-1792539000",
+      "slug": "eth-up-or-down-15-min-1792547100",
       "title": "ETH Up or Down - 15 Min",
       "symbol": "ETH",
       "bucket": "15m",
-      "expiresAt": "2026-10-20T23:45:00.000Z",
-      "remainingMin": 10.51,
+      "expiresAt": "2026-10-21T02:00:00.000Z",
+      "remainingMin": 0.23,
       "status": "FUNDED",
       "tradeType": "clob",
-      "quality": "VALID_ORDER_BOOK",
-      "yesBid": 0.6,
-      "yesAsk": 0.67,
-      "spread": 0.07,
-      "marketProbability": 0.635,
-      "independentProbability": null,
-      "decision": "HOLD",
-      "reason": "NO_INDEPENDENT_FORECAST"
+      "quality": "NO_VALID_QUOTES",
+      "decision": "HOLD"
     },
     {
-      "slug": "btc-up-or-down-15-min-1792539000",
+      "slug": "btc-up-or-down-15-min-1792547100",
       "title": "BTC Up or Down - 15 Min",
       "symbol": "BTC",
       "bucket": "15m",
-      "expiresAt": "2026-10-20T23:45:00.000Z",
-      "remainingMin": 10.51,
+      "expiresAt": "2026-10-21T02:00:00.000Z",
+      "remainingMin": 0.23,
       "status": "FUNDED",
       "tradeType": "clob",
-      "quality": "VALID_ORDER_BOOK",
-      "yesBid": 0.602,
-      "yesAsk": 0.648,
-      "spread": 0.046,
-      "marketProbability": 0.625,
-      "independentProbability": null,
-      "decision": "HOLD",
-      "reason": "NO_INDEPENDENT_FORECAST"
+      "quality": "NO_VALID_QUOTES",
+      "decision": "HOLD"
     },
     {
-      "slug": "eth-up-or-down-hourly-p-1792526709897",
-      "title": "ETH Up or Down Hourly",
-      "symbol": "ETH",
-      "bucket": "1h",
-      "expiresAt": "2026-10-21T00:00:00.000Z",
-      "remainingMin": 25.51,
-      "status": "FUNDED",
-      "tradeType": "clob",
-      "quality": "VALID_ORDER_BOOK",
-      "yesBid": 0.038,
-      "yesAsk": 0.072,
-      "spread": 0.034,
-      "marketProbability": 0.055,
-      "independentProbability": null,
-      "decision": "HOLD",
-      "reason": "NO_INDEPENDENT_FORECAST"
-    },
-    {
-      "slug": "btc-up-or-down-hourly-p-1792526708822",
+      "slug": "btc-up-or-down-hourly-p-1792533904857",
       "title": "BTC Up or Down Hourly",
       "symbol": "BTC",
-      "bucket": "1h",
-      "expiresAt": "2026-10-21T00:00:00.000Z",
-      "remainingMin": 25.51,
+      "bucket": "5m",
+      "expiresAt": "2026-10-21T02:00:00.000Z",
+      "remainingMin": 0.23,
       "status": "FUNDED",
       "tradeType": "clob",
-      "quality": "VALID_ORDER_BOOK",
-      "yesBid": 0.06,
-      "yesAsk": 0.09,
-      "spread": 0.03,
-      "marketProbability": 0.075,
-      "independentProbability": null,
-      "decision": "HOLD",
-      "reason": "NO_INDEPENDENT_FORECAST"
+      "quality": "NO_VALID_QUOTES",
+      "decision": "HOLD"
+    },
+    {
+      "slug": "eth-up-or-down-hourly-p-1792533905934",
+      "title": "ETH Up or Down Hourly",
+      "symbol": "ETH",
+      "bucket": "5m",
+      "expiresAt": "2026-10-21T02:00:00.000Z",
+      "remainingMin": 0.23,
+      "status": "FUNDED",
+      "tradeType": "clob",
+      "quality": "NO_VALID_QUOTES",
+      "decision": "HOLD"
     }
   ],
   "lastScan": {
-    "at": "2026-10-20T23:34:29.394Z",
+    "at": "2026-10-21T01:59:46.281Z",
     "listed": 25,
     "eligible": 6,
-    "newForecasts": 4
+    "newForecasts": 0
   },
   "latestModels": {
     "laya": "NOT_CONFIGURED",
