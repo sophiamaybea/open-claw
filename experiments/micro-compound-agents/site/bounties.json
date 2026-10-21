@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-20T23:54:15.935Z",
+  "updatedAt": "2026-10-21T04:51:33.629Z",
   "state": "RESEARCH_READY",
   "sources": [
     "GitHub issue search"
@@ -72,21 +72,63 @@
       "excerpt": "Recipe bounties: who claimed, who submitted, what was accepted. Updated every hour; rules in [BOUNTIES.md](https://github.com/sybil-solutions/.github/blob/main/BOUNTIES.md); dashboard at [usage.sybilsolutions.ai](https://usage.sybilsolutions.ai/#work). **2026-10:** 4 accepted, $2"
     },
     {
-      "id": 5943789255,
-      "title": "bounty digest 2026-10-20",
-      "html_url": "https://github.com/airdropia/earn-ops/issues/1",
-      "repository": "airdropia/earn-ops",
-      "created_at": "2026-10-20T14:46:02Z",
-      "updated_at": "2026-10-20T15:18:28Z",
-      "payoutMentionUSD": 1000,
+      "id": 4459344392,
+      "title": "[ Bounty $3k ] [ Solidity ] Add permit2 support to all token interaction contracts — mainnet prep",
+      "html_url": "https://github.com/ClankerNation/OpenAgents/issues/175",
+      "repository": "ClankerNation/OpenAgents",
+      "created_at": "2026-05-16T09:00:27Z",
+      "updated_at": "2026-10-21T01:35:18Z",
+      "payoutMentionUSD": 3800,
       "assignees": [],
-      "commentCount": 0,
-      "labels": [],
-      "score": 70,
+      "commentCount": 6,
+      "labels": [
+        "autonomus agents only",
+        "good first issue",
+        "help wanted",
+        "💎 bounty",
+        "high-value",
+        "crypto-eligible",
+        "$3k"
+      ],
+      "score": 68,
       "status": "POTENTIAL PAYOUT — UNVERIFIED",
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
-      "excerpt": "Automated digest 2026-10-20T15:18:27.797Z ## pool payment state - asi: paymentMode=disabled committed=0 cap=$1,000 chain=solana status=active - canonry: paymentMode=disabled committed=0 cap=$0 chain=solana status=paused - darling-arm64: paymentMode=disabled committed=0 cap=$0 cha"
+      "excerpt": "All contracts require users to call `approve` before interacting. Permit2 enables gasless approvals. ### Implementation - Add Permit2 integration to StakingRewards, AMMPool, and LendingPool - Support `permitTransferFrom` with signature - Keep standard `transferFrom` as fallback -"
+    },
+    {
+      "id": 5752379363,
+      "title": "[Bounty: $85] Add a CI check for `.env.example` drift against the frontend schema",
+      "html_url": "https://github.com/streamr-labs/streamr/issues/45",
+      "repository": "streamr-labs/streamr",
+      "created_at": "2026-10-07T21:49:50Z",
+      "updated_at": "2026-10-21T00:47:16Z",
+      "payoutMentionUSD": 85,
+      "assignees": [],
+      "commentCount": 1,
+      "labels": [],
+      "score": 68,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "**Context** `src/contracts/util.ts` parses exactly four variables — `PUBLIC_STELLAR_NETWORK`, `PUBLIC_STELLAR_NETWORK_PASSPHRASE`, `PUBLIC_STELLAR_RPC_URL`, `PUBLIC_STELLAR_HORIZON_URL` — with a Zod enum that accepts only `PUBLIC|FUTURENET|TESTNET|LOCAL|STANDALONE`. `.env.example"
+    },
+    {
+      "id": 5953389274,
+      "title": "Bounty #30 Restaurant POS Interface ($400): scope and paid availability",
+      "html_url": "https://github.com/bujiproject-art/agentmidasopendevteam/issues/45",
+      "repository": "bujiproject-art/agentmidasopendevteam",
+      "created_at": "2026-10-21T02:50:12Z",
+      "updated_at": "2026-10-21T02:50:12Z",
+      "payoutMentionUSD": 400,
+      "assignees": [],
+      "commentCount": 0,
+      "labels": [],
+      "score": 67,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "Hello, I am an AI coding assistant acting with this GitHub account owner's authorization. I am interested in the paid **BOUNTIES.md item 30 — Restaurant POS Interface (advertised cash bounty: USD 400)**. Proposed implementation: a responsive restaurant ordering interface with men"
     },
     {
       "id": 5765049323,
@@ -106,32 +148,15 @@
       "excerpt": "**Context** `ci-client.yml` triggers only on `push` to `develop`/`main` and on pull requests to those branches. A dependency advisory published on a Tuesday, a `@stellar/stellar-sdk` minor release, or a Node image change on the runner will not be observed until the next PR happen"
     },
     {
-      "id": 5943570514,
-      "title": "[BOUNTY] High: Unsegregated fee accounting in bridge_vault allows user withdrawals to drain validator rewards and permanently deadlock unbonding stake exit",
-      "html_url": "https://github.com/paraloom-labs/paraloom-core/issues/1138",
-      "repository": "paraloom-labs/paraloom-core",
-      "created_at": "2026-10-20T14:33:25Z",
-      "updated_at": "2026-10-20T14:33:31Z",
-      "payoutMentionUSD": 400,
-      "assignees": [],
-      "commentCount": 1,
-      "labels": [],
-      "score": 67,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "### Summary - **Severity:** High ($400 USDC — Stage 1 On-Chain Bridge & Staking Invariant) - **Affected Files:** `programs/paraloom/src/lib.rs` (lines 440–474 in `transact`, lines 1007–1050 in `claim_rewards`, lines 1673–1746 in `withdraw_unbonded_stake`) - **Payout Address:** `3"
-    },
-    {
       "id": 5950653348,
       "title": "[Bounty] [TEST BOUNTY] Fix typo in README",
       "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4061",
       "repository": "zhangjiayang6835-cyber/bounty-plaza",
       "created_at": "2026-10-20T22:25:17Z",
-      "updated_at": "2026-10-20T23:49:55Z",
+      "updated_at": "2026-10-21T03:53:27Z",
       "payoutMentionUSD": 50,
       "assignees": [],
-      "commentCount": 2,
+      "commentCount": 3,
       "labels": [
         "bounty",
         "real"
@@ -189,10 +214,10 @@
       "html_url": "https://github.com/oll4com/spaceapp/issues/64",
       "repository": "oll4com/spaceapp",
       "created_at": "2026-10-16T05:30:32Z",
-      "updated_at": "2026-10-20T21:15:11Z",
+      "updated_at": "2026-10-21T01:21:42Z",
       "payoutMentionUSD": 400,
       "assignees": [],
-      "commentCount": 45,
+      "commentCount": 46,
       "labels": [
         "enhancement",
         "help wanted",
@@ -203,6 +228,23 @@
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
       "excerpt": "## Context SpaceApp publishes three images from one `Dockerfile`: `spaceapp-core` (API, web server, Temporal worker), `spaceapp-cli` (the CLI host that runs the AI coding CLIs in PTYs) and `spaceapp-browser` (Browser Host plus Chromium). All three build `FROM runtime-base`. That "
+    },
+    {
+      "id": 5954318793,
+      "title": "[BOUNTY] Medium: Single-spend `payload.authority` rotation evicts `cosign_counts` at `MAX_COSIGN_COUNTS` to reset `MAX_COSIGNS_PER_SETTLEMENT`, and `initiate_transact_verification` omits the `#726` `already_verified` sho",
+      "html_url": "https://github.com/paraloom-labs/paraloom-core/issues/1154",
+      "repository": "paraloom-labs/paraloom-core",
+      "created_at": "2026-10-21T04:26:06Z",
+      "updated_at": "2026-10-21T04:26:06Z",
+      "payoutMentionUSD": 150,
+      "assignees": [],
+      "commentCount": 0,
+      "labels": [],
+      "score": 64,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "## Summary - **Severity:** Medium (up to $150 USDC — Stage 1 Bug Bounty: settlement / co-sign & consensus path in `src/node/mod.rs`) - **Affected Component:** `src/node/mod.rs` (`cosign_settlement` lines `942–1111`, `Node::initiate_transact_verification` lines `2229–2329`) - **Co"
     },
     {
       "id": 5839548473,
@@ -263,21 +305,29 @@
       "excerpt": "## Overview Implement core YouTube platform integration with advanced live streaming capabilities, enabling Lux agents to manage YouTube channels programmatically. ## Core Features - OAuth2 authentication and token management - Video upload and management - Live stream scheduling"
     },
     {
-      "id": 5775628727,
-      "title": "[Bounty: $70] Clean up orphaned avatar objects when the profile write fails or changes",
-      "html_url": "https://github.com/SUSU-LABS/susu-web/issues/46",
-      "repository": "SUSU-LABS/susu-web",
-      "created_at": "2026-10-09T09:04:27Z",
-      "updated_at": "2026-10-20T14:33:43Z",
-      "payoutMentionUSD": 70,
+      "id": 4459345273,
+      "title": "[ Bounty $1k ] [ API ] Add audit log for all admin actions — pre-audit",
+      "html_url": "https://github.com/ClankerNation/OpenAgents/issues/184",
+      "repository": "ClankerNation/OpenAgents",
+      "created_at": "2026-05-16T09:00:51Z",
+      "updated_at": "2026-10-21T01:38:53Z",
+      "payoutMentionUSD": 1600,
       "assignees": [],
-      "commentCount": 7,
-      "labels": [],
+      "commentCount": 8,
+      "labels": [
+        "autonomus agents only",
+        "good first issue",
+        "help wanted",
+        "💎 bounty",
+        "high-value",
+        "crypto-eligible",
+        "$1k"
+      ],
       "score": 62,
       "status": "POTENTIAL PAYOUT — UNVERIFIED",
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
-      "excerpt": "## Context `src/lib/storage/avatar.ts:270-292` uploads an object and returns its path; the doc at `:258-268` says the caller must remove it if the subsequent `PATCH /me` fails, and must remove the replaced object after a successful write. No code enforces this: `useUpdateProfile`"
+      "excerpt": "Admin actions (parameter changes, user management) in the API leave no trace. No accountability. ### Implementation - Add `AuditLog` model: action, actor, target, before/after values, timestamp, ip - Log all write operations from admin endpoints - Add `GET /admin/audit-log` with "
     },
     {
       "id": 5874535501,
@@ -315,23 +365,6 @@
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
       "excerpt": "**Pays $50** when a PR adds a tested recipe for this card and is merged. Rules: [BOUNTIES.md](https://github.com/sybil-solutions/.github/blob/main/BOUNTIES.md). | | | |---|---| | Card | `rtx-3070-ti-laptop-8gb` | | Model | Qwen3.5-9B or Gemma 4 12B, or any model in `registry/mode"
-    },
-    {
-      "id": 5775630781,
-      "title": "[Bounty: $50] Harden assertRpcMatchesNetwork against custom mainnet RPC endpoints",
-      "html_url": "https://github.com/SUSU-LABS/susu-web/issues/48",
-      "repository": "SUSU-LABS/susu-web",
-      "created_at": "2026-10-09T09:04:38Z",
-      "updated_at": "2026-10-20T14:28:32Z",
-      "payoutMentionUSD": 50,
-      "assignees": [],
-      "commentCount": 6,
-      "labels": [],
-      "score": 61,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "## Context `src/lib/stellar/network.ts:48-69` only rejects a contradiction when the URL literally contains `testnet` or `mainnet`. A mainnet RPC served from a custom host (no such token) while network is `testnet` passes, so transactions could be built for the wrong network with "
     },
     {
       "id": 5814262860,
@@ -401,19 +434,43 @@
       "html_url": "https://github.com/evenifyouforget/Stronghold-Protocol-EN/issues/29",
       "repository": "evenifyouforget/Stronghold-Protocol-EN",
       "created_at": "2026-10-20T20:06:11Z",
-      "updated_at": "2026-10-20T20:06:11Z",
+      "updated_at": "2026-10-21T02:51:55Z",
       "payoutMentionUSD": null,
       "assignees": [],
-      "commentCount": 0,
+      "commentCount": 1,
       "labels": [
         "enhancement",
-        "help wanted"
+        "help wanted",
+        "research-and-development",
+        "bot-players",
+        "drafted-by-ai"
       ],
       "score": 60,
       "status": "VERIFY REWARD AND ELIGIBILITY",
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
       "excerpt": "**What's wrong** The AI player scores a 机变 bounty card by its expected payout minus its expected LP loss, using its own kill-chance estimate (`bountyKillChance` in `server/match/bot.js`). Measured over 320 bot matches (all difficulties, solo and 4-bot co-op), that estimate is far"
+    },
+    {
+      "id": 5922300294,
+      "title": "[BOUNTY] $5.00+ USDC: Adversarial Prompt Injection Bypass on CanaryGuard Firewall",
+      "html_url": "https://github.com/ak10082247-max/canaryguard-402/issues/2",
+      "repository": "ak10082247-max/canaryguard-402",
+      "created_at": "2026-10-19T10:36:17Z",
+      "updated_at": "2026-10-21T02:10:32Z",
+      "payoutMentionUSD": 5,
+      "assignees": [],
+      "commentCount": 7,
+      "labels": [
+        "help wanted",
+        "bounty",
+        "security"
+      ],
+      "score": 60,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "### 🎯 Objective CanaryGuard defends autonomous AI agents using deterministic, sub-millisecond heuristic filtering. To win the bounty, submit an adversarial prompt injection or instruction override payload that slips past Strict Mode with status `\"clean\"` (Risk: 0) instead of bei"
     },
     {
       "id": 5692019131,
@@ -457,12 +514,49 @@
       "excerpt": "Bounties that were already open when the watcher started. From now on, each new one gets its own issue. - 🔴 **$150** · [📱 Epic: BAWES Universe Mobile App (Android + iOS)](https://github.com/BAWES-Universe/workadventure-universe/issues/1) - 🔴 **$50** · [BOUNTY: integrate AWS Co"
     },
     {
+      "id": 5658395849,
+      "title": "Glassbox open: A$10 machine verified completion bounty",
+      "html_url": "https://github.com/philipwright1295-wq/glassbox-agent-arena/issues/10",
+      "repository": "philipwright1295-wq/glassbox-agent-arena",
+      "created_at": "2026-10-01T07:10:01Z",
+      "updated_at": "2026-10-21T02:27:56Z",
+      "payoutMentionUSD": 10,
+      "assignees": [],
+      "commentCount": 0,
+      "labels": [],
+      "score": 57,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "# Glassbox is live Glassbox is an autonomous-agent evaluation arena built to test whether an agent can reason through a unique machine-generated technical environment and complete the required task sequence end to end. **Access:** A$1 AUD for one unique Glassbox instance **Comple"
+    },
+    {
+      "id": 5872576709,
+      "title": "[Slice D] Standards crosswalk: W3C PROV-O, QIF (ISO 23952), STEP AP242 (ISO 10303-242)",
+      "html_url": "https://github.com/Element-Ventures-Canada-Ltd/openchokepoint/issues/19",
+      "repository": "Element-Ventures-Canada-Ltd/openchokepoint",
+      "created_at": "2026-10-15T19:26:59Z",
+      "updated_at": "2026-10-21T02:52:03Z",
+      "payoutMentionUSD": null,
+      "assignees": [],
+      "commentCount": 11,
+      "labels": [
+        "schema",
+        "bounty"
+      ],
+      "score": 55,
+      "status": "VERIFY REWARD AND ELIGIBILITY",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "Handling: Unclassified — public Part of #3. ## Why this matters Industry already records manufacturing and quality data in established standards. A schema that maps cleanly to them can be adopted without re-keying data; one that does not will stay a research artefact. ## The prob"
+    },
+    {
       "id": 5516825464,
       "title": "[LIVE] Verified NIM bounty board",
       "html_url": "https://github.com/Saidur-droid/MergeEarn/issues/33",
       "repository": "Saidur-droid/MergeEarn",
       "created_at": "2026-09-20T08:52:35Z",
-      "updated_at": "2026-10-20T22:39:45Z",
+      "updated_at": "2026-10-21T00:54:33Z",
       "payoutMentionUSD": null,
       "assignees": [],
       "commentCount": 1,
@@ -472,6 +566,59 @@
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
       "excerpt": "# MergeEarn live community bounty board This is the public, automatically maintained entry point for contributor-friendly MergeEarn work. **Live app:** https://mergeearn.vercel.app **GitHub Contribute page:** https://github.com/Saidur-droid/MergeEarn/contribute A task is paid onl"
+    },
+    {
+      "id": 5951949973,
+      "title": "Public bug bounty for wrong-result bugs",
+      "html_url": "https://github.com/lambdaclass/stabileo/issues/505",
+      "repository": "lambdaclass/stabileo",
+      "created_at": "2026-10-21T00:23:23Z",
+      "updated_at": "2026-10-21T00:41:36Z",
+      "payoutMentionUSD": null,
+      "assignees": [],
+      "commentCount": 1,
+      "labels": [
+        "roadmap:solver-proofs"
+      ],
+      "score": 55,
+      "status": "VERIFY REWARD AND ELIGIBILITY",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "Roadmap: Soundness multipliers, item 8. Pay for reproducible wrong or unconservative results (not crashes or UI issues), with severity by the SAFETY_ADVISORIES.md scale; every accepted report gets a regression test, a postmortem (#449) and, where it applies, an advisory. Compleme"
+    },
+    {
+      "id": 5948817679,
+      "title": "[BOUNTY] Medium: Discovery wallet claim needs no proof of ownership — impersonating any registered validator burns the per-nullifier co-sign budget and freezes a targeted settlement",
+      "html_url": "https://github.com/paraloom-labs/paraloom-core/issues/1145",
+      "repository": "paraloom-labs/paraloom-core",
+      "created_at": "2026-10-20T20:08:35Z",
+      "updated_at": "2026-10-21T00:11:49Z",
+      "payoutMentionUSD": null,
+      "assignees": [],
+      "commentCount": 2,
+      "labels": [],
+      "score": 55,
+      "status": "VERIFY REWARD AND ELIGIBILITY",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "**Component:** `src/node/` (Discovery handling, co-sign ingress) + `src/consensus/transact.rs` (validator registration/admission). In scope (Stage 1: `src/consensus/`, settlement/co-sign path of `src/node/`). Checked `docs/security-log.md` — not listed (this is the residual gap o"
+    },
+    {
+      "id": 5927901374,
+      "title": "[BOUNTY] Medium: Incompatible AssetId representations between relayer::jupiter::mint_to_asset and privacy::poseidon_circom::mint_to_asset, and v2 vs v3 commitment mismatch on PrivateSwapRelayer output_note",
+      "html_url": "https://github.com/paraloom-labs/paraloom-core/issues/1125",
+      "repository": "paraloom-labs/paraloom-core",
+      "created_at": "2026-10-19T16:50:24Z",
+      "updated_at": "2026-10-21T00:06:12Z",
+      "payoutMentionUSD": null,
+      "assignees": [],
+      "commentCount": 1,
+      "labels": [],
+      "score": 55,
+      "status": "VERIFY REWARD AND ELIGIBILITY",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "## Summary - **Proposed Tier:** Medium (`docs/bug-bounty.md` — Stage 1 / Stage 2 Privacy & Relayer Settlement) - **Target Repository:** `paraloom-labs/paraloom-core` - **Affected Files:** - `src/relayer/jupiter.rs` (`mint_to_asset`, `asset_to_mint`) - `src/relayer/private_swap.rs"
     },
     {
       "id": 5928172508,
@@ -536,23 +683,6 @@
       "excerpt": "## Summary `SECURITY.md` is comprehensive but lacks a formal vulnerability disclosure policy and does not describe any bug bounty program. Ethical security researchers need clear guidance on responsible disclosure. ## Required Sections 1. **Scope**: which components are in scope "
     },
     {
-      "id": 5948817679,
-      "title": "[BOUNTY] Medium: Discovery wallet claim needs no proof of ownership — impersonating any registered validator burns the per-nullifier co-sign budget and freezes a targeted settlement",
-      "html_url": "https://github.com/paraloom-labs/paraloom-core/issues/1145",
-      "repository": "paraloom-labs/paraloom-core",
-      "created_at": "2026-10-20T20:08:35Z",
-      "updated_at": "2026-10-20T20:08:35Z",
-      "payoutMentionUSD": null,
-      "assignees": [],
-      "commentCount": 0,
-      "labels": [],
-      "score": 55,
-      "status": "VERIFY REWARD AND ELIGIBILITY",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "**Component:** `src/node/` (Discovery handling, co-sign ingress) + `src/consensus/transact.rs` (validator registration/admission). In scope (Stage 1: `src/consensus/`, settlement/co-sign path of `src/node/`). Checked `docs/security-log.md` — not listed (this is the residual gap o"
-    },
-    {
       "id": 5928173570,
       "title": "[opt-out check] TruePeopleSearch: test the removal flow end to end",
       "html_url": "https://github.com/lizTheDeveloper/privacy-the-game/issues/415",
@@ -591,26 +721,6 @@
       "excerpt": "## Proposed skill directory / name `mermail-bounty-ops` ## Purpose Load this skill when the owner wants Mermail to triage inbound bounty, freelance, bug-bounty, hackathon, grant, or agent-job email into a bounded opportunity queue. It extracts stated payout/deadline/eligibility f"
     },
     {
-      "id": 5872576709,
-      "title": "[Slice D] Standards crosswalk: W3C PROV-O, QIF (ISO 23952), STEP AP242 (ISO 10303-242)",
-      "html_url": "https://github.com/Element-Ventures-Canada-Ltd/openchokepoint/issues/19",
-      "repository": "Element-Ventures-Canada-Ltd/openchokepoint",
-      "created_at": "2026-10-15T19:26:59Z",
-      "updated_at": "2026-10-20T16:57:06Z",
-      "payoutMentionUSD": null,
-      "assignees": [],
-      "commentCount": 8,
-      "labels": [
-        "schema",
-        "bounty"
-      ],
-      "score": 55,
-      "status": "VERIFY REWARD AND ELIGIBILITY",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "Handling: Unclassified — public Part of #3. ## Why this matters Industry already records manufacturing and quality data in established standards. A schema that maps cleanly to them can be adopted without re-keying data; one that does not will stay a research artefact. ## The prob"
-    },
-    {
       "id": 5255918104,
       "title": "Launch Bug Bounty Program",
       "html_url": "https://github.com/Soroban-Cookbook/Soroban-Cookbook-/issues/928",
@@ -630,90 +740,6 @@
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
       "excerpt": "## Summary Public launch of bug bounty ## Current State No in-repo deliverables; operational/community work tracked for planning. ## Implementation Hints Document outcomes in README or `CONTRIBUTING.md` when completed; link external resources. ## Acceptance Criteria - Program liv"
-    },
-    {
-      "id": 5889181662,
-      "title": "Feature proposal: findings have no list page, so the documented goes-quiet-after-3-dismissals control can only be driven one run at a time (bounty requested)",
-      "html_url": "https://github.com/neatlogs/neatroots/issues/290",
-      "repository": "neatlogs/neatroots",
-      "created_at": "2026-10-16T18:24:06Z",
-      "updated_at": "2026-10-20T16:36:07Z",
-      "payoutMentionUSD": null,
-      "assignees": [],
-      "commentCount": 0,
-      "labels": [
-        "enhancement",
-        "accepted",
-        "area: ui"
-      ],
-      "score": 55,
-      "status": "VERIFY REWARD AND ELIGIBILITY",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "## The gap A check goes **quiet** in a project once you dismiss it three times there, and that is the product's own noise control: quiet findings are still recorded on the run page, but stop counting, stop sending notes and stay off Home (`docs/checks.md`, `docs/tester-guide.md`)"
-    },
-    {
-      "id": 5889178149,
-      "title": "Feature proposal: a compare view for two runs, since compare_runs is MCP-only today (bounty requested)",
-      "html_url": "https://github.com/neatlogs/neatroots/issues/289",
-      "repository": "neatlogs/neatroots",
-      "created_at": "2026-10-16T18:23:50Z",
-      "updated_at": "2026-10-20T16:36:05Z",
-      "payoutMentionUSD": null,
-      "assignees": [],
-      "commentCount": 0,
-      "labels": [
-        "enhancement",
-        "accepted",
-        "area: ui"
-      ],
-      "score": 55,
-      "status": "VERIFY REWARD AND ELIGIBILITY",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "## What happens The loop the README describes ends in compare: \"run the agent, see what went wrong, let a coding agent fix it, replay, compare\", and the sequence diagram has the coding agent doing `compare_runs: before and after`. The comparison itself exists and works, but only "
-    },
-    {
-      "id": 5889166381,
-      "title": "Feature proposal: retention is value-blind, so a run with findings is evicted before a clean run (bounty requested)",
-      "html_url": "https://github.com/neatlogs/neatroots/issues/287",
-      "repository": "neatlogs/neatroots",
-      "created_at": "2026-10-16T18:22:56Z",
-      "updated_at": "2026-10-20T16:36:02Z",
-      "payoutMentionUSD": null,
-      "assignees": [],
-      "commentCount": 2,
-      "labels": [
-        "enhancement",
-        "accepted",
-        "area: store"
-      ],
-      "score": 55,
-      "status": "VERIFY REWARD AND ELIGIBILITY",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "## What happens today Retention has no notion of value. Both passes take the oldest unpinned runs, whatever they contain: - Age pass, `packages/neatroots/src/store/db.ts`: `SELECT trace_id FROM runs WHERE pinned = 0 AND COALESCE(ended_ms, received_ms) < ?`, a time cutoff and noth"
-    },
-    {
-      "id": 5883903093,
-      "title": "Feature proposal: show GenAI message content sent as OTel events (logs and span events) (bounty requested)",
-      "html_url": "https://github.com/neatlogs/neatroots/issues/248",
-      "repository": "neatlogs/neatroots",
-      "created_at": "2026-10-16T12:09:50Z",
-      "updated_at": "2026-10-20T16:35:29Z",
-      "payoutMentionUSD": null,
-      "assignees": [],
-      "commentCount": 0,
-      "labels": [
-        "enhancement",
-        "accepted",
-        "area: ingest"
-      ],
-      "score": 55,
-      "status": "VERIFY REWARD AND ELIGIBILITY",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": " ## What happens The official OpenTelemetry GenAI instrumentations send prompts and answers as **events**, not span attributes. With `OTEL_INSTRUMENTATION_GENAI_CAPTURE_MESSAGE_CONTENT=true` set, this covers `opentelemetry-instrumentation-openai-v2`, google-genai, vertexai and th"
     },
     {
       "id": 5928174563,
@@ -1081,44 +1107,6 @@
       "excerpt": "**What**: Find Data Driven Safety, LLC's official opt-out or \"do not sell\" route, or show that none exists. **Why it matters**: Players of Reclaim City use these links to opt out of data brokers, and the dataset is cited by journalists, so a wrong or dead link costs real people r"
     },
     {
-      "id": 5928123479,
-      "title": "[find opt-out] Data Facts, Inc.: find the official opt-out route",
-      "html_url": "https://github.com/lizTheDeveloper/privacy-the-game/issues/373",
-      "repository": "lizTheDeveloper/privacy-the-game",
-      "created_at": "2026-10-19T17:05:54Z",
-      "updated_at": "2026-10-19T22:50:50Z",
-      "payoutMentionUSD": null,
-      "assignees": [],
-      "commentCount": 1,
-      "labels": [
-        "bounty",
-        "bounty: medium",
-        "data-brokers"
-      ],
-      "score": 55,
-      "status": "VERIFY REWARD AND ELIGIBILITY",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "**What**: Find Data Facts, Inc.'s official opt-out or \"do not sell\" route, or show that none exists. **Why it matters**: Players of Reclaim City use these links to opt out of data brokers, and the dataset is cited by journalists, so a wrong or dead link costs real people real tim"
-    },
-    {
-      "id": 5531886541,
-      "title": "[Opportunity Router] Latest ranked opportunities",
-      "html_url": "https://github.com/oguzpoyrazyasin/poyraz/issues/1",
-      "repository": "oguzpoyrazyasin/poyraz",
-      "created_at": "2026-09-21T20:05:37Z",
-      "updated_at": "2026-10-20T20:40:16Z",
-      "payoutMentionUSD": 6000,
-      "assignees": [],
-      "commentCount": 3,
-      "labels": [],
-      "score": 54,
-      "status": "VERIFY REWARD AND ELIGIBILITY",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "# Opportunity Router — 2026-10-20 20:40 UTC v0.3 adds Solution Preparation after verification. Results are estimates, not guaranteed payouts. No task is automatically claimed or submitted. ## Ranked opportunities | Final | Verify | Reward signal | Opportunity | Key risk | |---:|-"
-    },
-    {
       "id": 4530092639,
       "title": "Low Handing Fruit Automation",
       "html_url": "https://github.com/SecureBananaLabs/bug-bounty/issues/743",
@@ -1180,42 +1168,63 @@
       "excerpt": "# 我用 AI 智能体扫荡 GitHub 开源悬赏：48 小时合并 6 个 PR 斩获 $650 的实操全解密 > **作者**：戈文波 (@TrustlessX / gewenbo.eth) > **核心资产落地页**：[https://psyverse.fun/pay](https://psyverse.fun/pay) > **官方收银中枢**：[https://psyverse.fun/payment](https://psyverse.fun/payment) > **AI for Money 变现平台**：[https://ai-for-mo"
     },
     {
-      "id": 5906876177,
-      "title": "Safety check blocks authorized bug bounty work with Daybreak enabled",
-      "html_url": "https://github.com/openai/codex/issues/54998",
-      "repository": "openai/codex",
-      "created_at": "2026-10-18T06:31:35Z",
-      "updated_at": "2026-10-20T22:37:06Z",
+      "id": 5954536384,
+      "title": "bounty-watch 2026-10-21: 0 new, 0 resumed, 2 watchlist changes",
+      "html_url": "https://github.com/abdulsalam-create/bounty-watch/issues/148",
+      "repository": "abdulsalam-create/bounty-watch",
+      "created_at": "2026-10-21T04:49:48Z",
+      "updated_at": "2026-10-21T04:49:48Z",
       "payoutMentionUSD": null,
       "assignees": [],
-      "commentCount": 1,
+      "commentCount": 0,
       "labels": [
-        "bug",
-        "cli",
-        "safety-check"
+        "bounty-watch"
       ],
       "score": 50,
       "status": "VERIFY REWARD AND ELIGIBILITY",
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
-      "excerpt": "### What version of Codex CLI is running? 0.163.0 ### What subscription do you have? ChatGPT Pro (shown as Pro 100 in /status), with approved Daybreak access ### Which model were you using? GPT-6-Sol (reasoning: medium); configured provider: openai ### What platform is your compu"
+      "excerpt": "# bounty-watch report 2026-10-21 ## Watchlist changes (2) - **Linktree** (`bc:linktree-mbb-og`) https://bugcrowd.com/engagements/linktree-mbb-og - https://linktr.ee: new JS bundles: 1o7uhy-f8rrvj.js, 1wz3k6n2l4j5p.js, 1zb3y3ehen3li.js; removed JS bundles: 0_7ua82keh04r.js, 2ypzhw"
     },
     {
-      "id": 5950667630,
-      "title": "Bounty: a 27B-class model (Ternary-Bonsai-2-27B) validated on an 8 GB consumer GPU",
-      "html_url": "https://github.com/sybil-solutions/local-ai-registry/issues/349",
-      "repository": "sybil-solutions/local-ai-registry",
-      "created_at": "2026-10-20T22:26:30Z",
-      "updated_at": "2026-10-20T22:32:05Z",
+      "id": 5935824922,
+      "title": "Frantic bounty #141: Let your agent onboard itself through the Nitrosend MCP server and send one email",
+      "html_url": "https://github.com/auscaster/frantic-board/issues/540",
+      "repository": "auscaster/frantic-board",
+      "created_at": "2026-10-20T04:15:47Z",
+      "updated_at": "2026-10-21T03:29:50Z",
       "payoutMentionUSD": null,
       "assignees": [],
-      "commentCount": 1,
+      "commentCount": 12,
+      "labels": [
+        "bounty",
+        "funded",
+        "available",
+        "claimed",
+        "delivered"
+      ],
+      "score": 50,
+      "status": "VERIFY REWARD AND ELIGIBILITY",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "Frantic bounty #141 Let your agent onboard itself through the Nitrosend MCP server and send one email Worker price: $1 Slots: 100 (97 available) Status: Available Claim: https://gofrantic.com/bounties/141 Funding receipt: https://gofrantic.com/r/61735cc5 Frantic is the source of "
+    },
+    {
+      "id": 5790605429,
+      "title": "Open bounty: build one reusable AI/automation micro-tool — revenue-share proposals welcome",
+      "html_url": "https://github.com/Hirokimm/ai-tool-lab/issues/6",
+      "repository": "Hirokimm/ai-tool-lab",
+      "created_at": "2026-10-10T11:01:37Z",
+      "updated_at": "2026-10-21T03:06:06Z",
+      "payoutMentionUSD": null,
+      "assignees": [],
+      "commentCount": 3,
       "labels": [],
       "score": 50,
       "status": "VERIFY REWARD AND ELIGIBILITY",
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
-      "excerpt": "## A 27B-class model, validated, on an 8 GB consumer GPU The registry can serve a 27B-class model on an 8 GB card, and the evidence is attached: **Ternary-Bonsai-2-27B-PTQ1_0 on an RTX 3070 8 GB**, 8192-token context, all six lab gates, **37.5 tok/s** decode (34.2 tok/s on a seco"
+      "excerpt": "## Zero-cash builder / operator call We are looking for independent builders, automation specialists, and small software teams who can turn a repeatable business workflow into a reusable micro-tool, template, integration, or lightweight SaaS. This is **not an hourly-job posting**"
     }
   ],
   "disclaimer": "No verified payouts or earnings; these are public issue candidates. Manually confirm funding, assignment, eligibility, security and payment terms. Never pay to join, disclose secrets or begin work without terms."
