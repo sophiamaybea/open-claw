@@ -1,0 +1,13 @@
+# Ready-to-deploy maths microservice on Render. Not deployed yet: Render account returned HTTP 402 billing information required.
+# Standalone numeric-only engine; never use it to process private information without auth.
+services:
+  - type: web
+    name: openclaw-bounty-math
+    runtime: python
+    plan: free
+    region: frankfurt
+    rootDir: packages/bounty-math
+    buildCommand: pip install -r requirements.txt && python -m unittest discover -s tests -v
+    startCommand: python -u server.py
+    healthCheckPath: /healthz
+    autoDeploy: false
