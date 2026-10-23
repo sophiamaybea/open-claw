@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-23T04:52:55.272Z",
+  "updatedAt": "2026-10-23T11:41:57.317Z",
   "state": "RESEARCH_READY",
   "sources": [
     "GitHub issue search"
@@ -32,6 +32,23 @@
       "excerpt": "## 🎯 Estado: SKILL COMPLETA — bloqueada solo por permisos del token La skill **`mermail-bookkeeper-agent`** está terminada, validada con `npm test` del repo oficial (18 skills, 73 tools ✅) y commiteada en el branch `feat/mermail-bookkeeper-agent`. --- ### PASO 1 — Actualizar el "
     },
     {
+      "id": 5695126149,
+      "title": "[BOUNTY] Medium: slash_validator omits forfeiture of pending_rewards, allowing slashed validators to extract fees and forcing reward payout on account close",
+      "html_url": "https://github.com/paraloom-labs/paraloom-core/issues/863",
+      "repository": "paraloom-labs/paraloom-core",
+      "created_at": "2026-10-04T01:10:05Z",
+      "updated_at": "2026-10-23T11:12:23Z",
+      "payoutMentionUSD": 3000,
+      "assignees": [],
+      "commentCount": 2,
+      "labels": [],
+      "score": 72,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "# [Security Report] `slash_validator` omits forfeiture of `pending_rewards`, allowing slashed/malicious validators to extract protocol fees and forcing reward payout on account close **Severity**: Medium / High **Affected Component**: `programs/paraloom/src/lib.rs` (`slash_valida"
+    },
+    {
       "id": 5862963633,
       "title": "Bounty Golden Path v1: qualified paid-issue discovery → governed execution → verified payout",
       "html_url": "https://github.com/alston-personal/agentmanager/issues/2003",
@@ -47,6 +64,27 @@
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
       "excerpt": "## Goal Build **Bounty Golden Path v1 — read-only qualification first**, using existing AgentOS ONE/IR, scheduler, node executor, receipts and work completion ledger. Do not add a parallel autonomous runtime or diverge protected branches. ## Grounded observations (2026-10-15) - T"
+    },
+    {
+      "id": 5927955613,
+      "title": "[stronger source] Zumigo supplies Microbilt (tier C)",
+      "html_url": "https://github.com/lizTheDeveloper/privacy-the-game/issues/333",
+      "repository": "lizTheDeveloper/privacy-the-game",
+      "created_at": "2026-10-19T16:54:07Z",
+      "updated_at": "2026-10-23T08:54:15Z",
+      "payoutMentionUSD": 300,
+      "assignees": [],
+      "commentCount": 6,
+      "labels": [
+        "bounty",
+        "bounty: medium",
+        "data-brokers"
+      ],
+      "score": 71,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "**What**: Find a tier A document that supports this unpublished tier C link. **Why it matters**: Only tier A links (regulator, court, SEC filing, statutory annual report, federal procurement record) are published. This one rests on a weaker source, so it stays out of the game and"
     },
     {
       "id": 5404801661,
@@ -67,6 +105,23 @@
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
       "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/Senthemodder/solana-anchor-runtime/issues/1 ### 漏洞描述 / Description [Bounty: $1,500] Critical: Missing Account Ownership Validation in Anchor CPI Dispatcher ### Severity: Critical ### Reward: ,500 USDC (Escrow Loc"
+    },
+    {
+      "id": 5997040692,
+      "title": "bounty digest 2026-10-23",
+      "html_url": "https://github.com/airdropia/earn-ops/issues/9",
+      "repository": "airdropia/earn-ops",
+      "created_at": "2026-10-23T11:37:15Z",
+      "updated_at": "2026-10-23T11:37:15Z",
+      "payoutMentionUSD": 1000,
+      "assignees": [],
+      "commentCount": 0,
+      "labels": [],
+      "score": 70,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "Automated digest 2026-10-23T11:37:14.961Z ## pool payment state - asi: paymentMode=disabled committed=0 cap=$1,000 chain=solana status=active - canonry: paymentMode=disabled committed=0 cap=$0 chain=solana status=paused - darling-arm64: paymentMode=disabled committed=0 cap=$0 cha"
     },
     {
       "id": 5274853778,
@@ -154,10 +209,10 @@
       "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4081",
       "repository": "zhangjiayang6835-cyber/bounty-plaza",
       "created_at": "2026-10-22T23:17:32Z",
-      "updated_at": "2026-10-23T02:52:41Z",
+      "updated_at": "2026-10-23T09:52:42Z",
       "payoutMentionUSD": 50,
       "assignees": [],
-      "commentCount": 3,
+      "commentCount": 4,
       "labels": [
         "bounty",
         "real"
@@ -189,27 +244,6 @@
       "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/jomaaabbe78-spec/bookningsapp/issues/1 ### 漏洞描述 / Description [TEST BOUNTY] Fix typo in README **Bounty: $50** There is a typo in README.md: \"Welcom\" should be \"Welcome\". **Reward:** $50 via PayPal/Crypto **Conta"
     },
     {
-      "id": 5878910506,
-      "title": "[$600] Support rootless Podman as a container engine in the run-spaceapp launcher",
-      "html_url": "https://github.com/oll4com/spaceapp/issues/63",
-      "repository": "oll4com/spaceapp",
-      "created_at": "2026-10-16T05:30:31Z",
-      "updated_at": "2026-10-23T02:24:20Z",
-      "payoutMentionUSD": 600,
-      "assignees": [],
-      "commentCount": 38,
-      "labels": [
-        "enhancement",
-        "help wanted",
-        "💎 bounty"
-      ],
-      "score": 66,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "## Context The `run-spaceapp` launcher (`packages/run-spaceapp`) installs and runs SpaceApp as a Docker Compose stack (`templates/compose.yml`: core, CLI, browser, PostgreSQL/pgvector, Temporal). Docker is the only supported engine. The launcher detects Docker and installs it if "
-    },
-    {
       "id": 5387619561,
       "title": "[Bounty] [Bounty: ] Race Condition in Distributed Async Event Queue during High Concurren",
       "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1217",
@@ -230,45 +264,24 @@
       "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/Senthemodder/claude-honeypot/issues/1 ### 漏洞描述 / Description [Bounty: ] Race Condition in Distributed Async Event Queue during High Concurrency # [Bounty: $250] Race Condition in Distributed Async Event Queue dur"
     },
     {
-      "id": 5949384825,
-      "title": "[TEST BOUNTY] Fix typo in README",
-      "html_url": "https://github.com/jomaaabbe78-spec/bookningsapp/issues/1",
-      "repository": "jomaaabbe78-spec/bookningsapp",
-      "created_at": "2026-10-20T20:46:34Z",
-      "updated_at": "2026-10-22T17:00:02Z",
-      "payoutMentionUSD": 50,
+      "id": 5986552924,
+      "title": "[Bounty] 📋 2 open bounties right now",
+      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4080",
+      "repository": "zhangjiayang6835-cyber/bounty-plaza",
+      "created_at": "2026-10-22T20:02:23Z",
+      "updated_at": "2026-10-23T09:13:14Z",
+      "payoutMentionUSD": 150,
       "assignees": [],
-      "commentCount": 9,
+      "commentCount": 6,
       "labels": [
-        "good first issue",
-        "bounty"
+        "bounty",
+        "real"
       ],
-      "score": 66,
+      "score": 64,
       "status": "POTENTIAL PAYOUT — UNVERIFIED",
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
-      "excerpt": "**Bounty: $50** There is a typo in README.md: \"Welcom\" should be \"Welcome\". **Reward:** $50 via PayPal/Crypto **Contact:** DM for payment details"
-    },
-    {
-      "id": 5878910737,
-      "title": "[$400] Per-service container images: ship each image only the code and dependencies it runs",
-      "html_url": "https://github.com/oll4com/spaceapp/issues/64",
-      "repository": "oll4com/spaceapp",
-      "created_at": "2026-10-16T05:30:32Z",
-      "updated_at": "2026-10-23T01:54:56Z",
-      "payoutMentionUSD": 400,
-      "assignees": [],
-      "commentCount": 55,
-      "labels": [
-        "enhancement",
-        "help wanted",
-        "💎 bounty"
-      ],
-      "score": 65,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "## Context SpaceApp publishes three images from one `Dockerfile`: `spaceapp-core` (API, web server, Temporal worker), `spaceapp-cli` (the CLI host that runs the AI coding CLIs in PTYs) and `spaceapp-browser` (Browser Host plus Chromium). All three build `FROM runtime-base`. That "
+      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/habibdxb01/bounty-watcher/issues/8 ### 漏洞描述 / Description 📋 2 open bounties right now Bounties that were already open when the watcher started. From now on, each new one gets its own issue. - 🔴 **$150** · [📱 E"
     },
     {
       "id": 5954759045,
@@ -286,26 +299,6 @@
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
       "excerpt": "# [BOUNTY] Medium: `peer_id_from_multiaddr` extracts the first `/p2p/<peer_id>` instead of the trailing target `PeerId` on `p2p-circuit` multiaddrs, permanently suppressing co-validator keep-alive redials and poisoning Kademlia routing ## Summary - **Severity:** Medium (up to $15"
-    },
-    {
-      "id": 5986552924,
-      "title": "[Bounty] 📋 2 open bounties right now",
-      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4080",
-      "repository": "zhangjiayang6835-cyber/bounty-plaza",
-      "created_at": "2026-10-22T20:02:23Z",
-      "updated_at": "2026-10-23T02:52:42Z",
-      "payoutMentionUSD": 150,
-      "assignees": [],
-      "commentCount": 5,
-      "labels": [
-        "bounty",
-        "real"
-      ],
-      "score": 64,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/habibdxb01/bounty-watcher/issues/8 ### 漏洞描述 / Description 📋 2 open bounties right now Bounties that were already open when the watcher started. From now on, each new one gets its own issue. - 🔴 **$150** · [📱 E"
     },
     {
       "id": 5981846324,
@@ -345,6 +338,23 @@
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
       "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/habibdxb01/bounty-watcher/issues/5 ### 漏洞描述 / Description 📋 2 open bounties right now Bounties that were already open when the watcher started. From now on, each new one gets its own issue. - 🔴 **$150** · [📱 E"
+    },
+    {
+      "id": 5765087302,
+      "title": "[Bounty: $95] Make `visual-regression.yml` compare baselines instead of regenerating them",
+      "html_url": "https://github.com/Signpost-Labs/signpost-app/issues/43",
+      "repository": "Signpost-Labs/signpost-app",
+      "created_at": "2026-10-08T16:08:48Z",
+      "updated_at": "2026-10-23T06:29:00Z",
+      "payoutMentionUSD": 95,
+      "assignees": [],
+      "commentCount": 4,
+      "labels": [],
+      "score": 63,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "**Context** `visual-regression.yml` currently runs `npm run test:visual:update`, which regenerates every Storybook baseline in-container and uploads them as the `visual-baselines` artifact. Nothing ever compares against committed PNGs, so the job can never fail on a visual change"
     },
     {
       "id": 5874536863,
@@ -452,66 +462,6 @@
       "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/Parabola-org/parabola/issues/7 ### 漏洞描述 / Description [Bounty: $90] Make estimateFee agree with transfer() on maxFee and maxWait fallback **Context** `transfer()` in `src/transfer.ts:56-71` can silently downgrade"
     },
     {
-      "id": 5874536083,
-      "title": "[Bounty] [Bounty: $90] Add ESLint with typescript-eslint and wire it into CI",
-      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1905",
-      "repository": "zhangjiayang6835-cyber/bounty-plaza",
-      "created_at": "2026-10-15T21:54:19Z",
-      "updated_at": "2026-10-22T17:35:15Z",
-      "payoutMentionUSD": 90,
-      "assignees": [],
-      "commentCount": 10,
-      "labels": [
-        "bounty",
-        "real"
-      ],
-      "score": 63,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/Parabola-org/parabola/issues/11 ### 漏洞描述 / Description [Bounty: $90] Add ESLint with typescript-eslint and wire it into CI **Context** CI (`.github/workflows/ci.yml`) runs typecheck, tests, build, commitlint, and"
-    },
-    {
-      "id": 5874537026,
-      "title": "[Bounty] [Bounty: $105] Stop silently pricing Fast Transfers at zero when Iris returns no",
-      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1914",
-      "repository": "zhangjiayang6835-cyber/bounty-plaza",
-      "created_at": "2026-10-15T21:54:23Z",
-      "updated_at": "2026-10-22T17:19:29Z",
-      "payoutMentionUSD": 105,
-      "assignees": [],
-      "commentCount": 13,
-      "labels": [
-        "bounty",
-        "real"
-      ],
-      "score": 63,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/Parabola-org/parabola/issues/2 ### 漏洞描述 / Description [Bounty: $105] Stop silently pricing Fast Transfers at zero when Iris returns no fast tier **Context** `fetchFastTransferFeeBps` in `src/iris/poll.ts:10-23` d"
-    },
-    {
-      "id": 5874536358,
-      "title": "[Bounty] [Bounty: $90] Reject unsupported CCTP message versions in decodeCctpMessage",
-      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1907",
-      "repository": "zhangjiayang6835-cyber/bounty-plaza",
-      "created_at": "2026-10-15T21:54:20Z",
-      "updated_at": "2026-10-22T17:16:03Z",
-      "payoutMentionUSD": 90,
-      "assignees": [],
-      "commentCount": 8,
-      "labels": [
-        "bounty",
-        "real"
-      ],
-      "score": 63,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/Parabola-org/parabola/issues/9 ### 漏洞描述 / Description [Bounty: $90] Reject unsupported CCTP message versions in decodeCctpMessage **Context** `decodeCctpMessage` in `src/utils/message.ts:88-121` validates only mi"
-    },
-    {
       "id": 788655995,
       "title": "[sifnode] $1000 bounty for implementing Google Cloud support for sifnode #503",
       "html_url": "https://github.com/Sifchain/sifnode/issues/524",
@@ -571,27 +521,6 @@
       "excerpt": "## Why The DSH plugin's four UI surfaces — sidebar footer action, conversation tab, right-pane panel, and settings — have **never been mounted in a live DSH runtime**. Everything we have is: - TypeScript compilation - unit tests - static contract conformance (`scripts/check_dsh_p"
     },
     {
-      "id": 5922300294,
-      "title": "[BOUNTY] $5.00+ USDC: Adversarial Prompt Injection Bypass on CanaryGuard Firewall",
-      "html_url": "https://github.com/ak10082247-max/canaryguard-402/issues/2",
-      "repository": "ak10082247-max/canaryguard-402",
-      "created_at": "2026-10-19T10:36:17Z",
-      "updated_at": "2026-10-22T18:19:18Z",
-      "payoutMentionUSD": 5,
-      "assignees": [],
-      "commentCount": 10,
-      "labels": [
-        "help wanted",
-        "bounty",
-        "security"
-      ],
-      "score": 60,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "### 🎯 Objective CanaryGuard defends autonomous AI agents using deterministic, sub-millisecond heuristic filtering. To win the bounty, submit an adversarial prompt injection or instruction override payload that slips past Strict Mode with status `\"clean\"` (Risk: 0) instead of bei"
-    },
-    {
       "id": 5838147120,
       "title": "📋 2 open bounties right now",
       "html_url": "https://github.com/habibdxb01/bounty-watcher/issues/5",
@@ -649,12 +578,73 @@
       "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/Iamgoofball/-tg-station/issues/338 ### 漏洞描述 / Description [BOUNTY] [MONEY] [$50] Implement Dodge Rolling Add dodge rolling to the game; you can't take damage while doing so. 50 dollars. bounty, reward, label:boun"
     },
     {
+      "id": 5997098124,
+      "title": "Scope digest 2026-10-23: 5 changes across 4 bounty programs",
+      "html_url": "https://github.com/abdulsalam-create/bounty-watch/issues/160",
+      "repository": "abdulsalam-create/bounty-watch",
+      "created_at": "2026-10-23T11:41:43Z",
+      "updated_at": "2026-10-23T11:41:43Z",
+      "payoutMentionUSD": null,
+      "assignees": [],
+      "commentCount": 0,
+      "labels": [
+        "bounty-watch"
+      ],
+      "score": 55,
+      "status": "VERIFY REWARD AND ELIGIBILITY",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "# Daily scope digest 2026-10-23 5 scope change(s) across 4 bug bounty program(s) since the last digest. Dashboard: https://abdulsalam-create.github.io/bounty-watch/scope.html ### The Browser Company of NYC (`h1:bcny`) https://hackerone.com/bcny - ➖ **scope** removed: `Arc on Mac`"
+    },
+    {
+      "id": 5988518260,
+      "title": "[BOUNTY] 🚀 1,000 DOOM ($wDOOM on Base) — Block #10,000 Milestone: Star + Fork Repo & Mine 1+ Live Pool Share",
+      "html_url": "https://github.com/doomsday-network/doomsday/issues/9",
+      "repository": "doomsday-network/doomsday",
+      "created_at": "2026-10-22T22:33:46Z",
+      "updated_at": "2026-10-23T11:37:43Z",
+      "payoutMentionUSD": null,
+      "assignees": [],
+      "commentCount": 9,
+      "labels": [
+        "enhancement",
+        "help wanted",
+        "good first issue"
+      ],
+      "score": 55,
+      "status": "VERIFY REWARD AND ELIGIBILITY",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "# 🚀 Block #10,000 (`500,000 DOOM` Mined) Milestone Bounty — `1,000 DOOM` (`$wDOOM` on Base Mainnet) As **Doomsday Network** crosses **Block `#10,000`** (`500,000 DOOM` mined, `20+` on-chain wallets, `5` ranked pool miners), we are awarding **1,000.0 DOOM (`wDOOM` on Base Mainnet"
+    },
+    {
+      "id": 5986994336,
+      "title": "[BOUNTY] ⭐ 500 DOOM ($wDOOM on Base) — Star Both Repos & Run Quickstart (Auto-Verified via GitHub Stargazers API!)",
+      "html_url": "https://github.com/doomsday-network/doomsday/issues/8",
+      "repository": "doomsday-network/doomsday",
+      "created_at": "2026-10-22T20:32:47Z",
+      "updated_at": "2026-10-23T11:36:10Z",
+      "payoutMentionUSD": null,
+      "assignees": [],
+      "commentCount": 11,
+      "labels": [
+        "enhancement",
+        "help wanted",
+        "good first issue"
+      ],
+      "score": 55,
+      "status": "VERIFY REWARD AND ELIGIBILITY",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "## ⭐ 500 DOOM / wDOOM Stargazer & Early Supporter Bounty (Instant On-Chain Payout!) Our 24/7 autonomous relayer (`doomsday-airdrop.service`) polls the GitHub Stargazers API (`GET /repos/doomsday-network/doomsday/stargazers`) every 90 seconds and automatically dispenses **500.0 wD"
+    },
+    {
       "id": 5417102574,
       "title": "S23 — Market and bounties: listings, bids, fees, bounty rules",
       "html_url": "https://github.com/Thiesi/Blacksite/issues/23",
       "repository": "Thiesi/Blacksite",
       "created_at": "2026-09-10T20:40:16Z",
-      "updated_at": "2026-10-23T03:15:49Z",
+      "updated_at": "2026-10-23T11:20:36Z",
       "payoutMentionUSD": null,
       "assignees": [],
       "commentCount": 10,
@@ -668,6 +658,248 @@
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
       "excerpt": "**Spec file (source of truth): [`docs/plan/slices/S23-market-and-bounties.md`](https://github.com/Thiesi/blacksite/blob/main/docs/plan/slices/S23-market-and-bounties.md)** Read `AGENTS.md` and the current linked spec/roadmap first. The planning mirror below uses main `4ae1cb1` pl"
+    },
+    {
+      "id": 5980597213,
+      "title": "[BOUNTY] 🛡️ 500 DOOM ($wDOOM on Base) — Report a Fake GitHub Bounty Repo or Run the 3-Second DOOM Quickstart",
+      "html_url": "https://github.com/doomsday-network/bounty-guard/issues/1",
+      "repository": "doomsday-network/bounty-guard",
+      "created_at": "2026-10-22T13:47:01Z",
+      "updated_at": "2026-10-23T11:12:15Z",
+      "payoutMentionUSD": null,
+      "assignees": [],
+      "commentCount": 25,
+      "labels": [
+        "help wanted",
+        "good first issue",
+        "bounty"
+      ],
+      "score": 55,
+      "status": "VERIFY REWARD AND ELIGIBILITY",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "## 🛡️ Real On-Chain Bounties for Bounty Hunters (`500 DOOM / wDOOM` on Base Mainnet) Unlike the fake engagement-farming bounty repos exposed by `bounty-guard` (`UnsafeLabs`, `bounty-plaza`, `aquarium-of-gullibles`), **Doomsday Network** pays out 100% verifiable on-chain rewards "
+    },
+    {
+      "id": 5979159683,
+      "title": "[Bounty] Answer the 2 linked question(s)",
+      "html_url": "https://github.com/Ikalus1988/MisakaNet/issues/3728",
+      "repository": "Ikalus1988/MisakaNet",
+      "created_at": "2026-10-22T12:19:39Z",
+      "updated_at": "2026-10-23T11:12:04Z",
+      "payoutMentionUSD": null,
+      "assignees": [],
+      "commentCount": 6,
+      "labels": [
+        "ready",
+        "bounty"
+      ],
+      "score": 55,
+      "status": "VERIFY REWARD AND ELIGIBILITY",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "<!-- misakanet-question-bounty:anchor-3659 --> # [Bounty] Answer the 2 linked question(s) ## Context These intakes ask about something no lesson covers. Measured through the production retrieval path (BM25 plus the IDF-weighted relevance floor), every one of them returns `no_matc"
+    },
+    {
+      "id": 5767110338,
+      "title": "Cut bounty-infra over to the code-owner approval gate",
+      "html_url": "https://github.com/glunk-works/claude-workbench/issues/406",
+      "repository": "glunk-works/claude-workbench",
+      "created_at": "2026-10-08T18:42:19Z",
+      "updated_at": "2026-10-23T10:48:41Z",
+      "payoutMentionUSD": null,
+      "assignees": [],
+      "commentCount": 1,
+      "labels": [
+        "chore",
+        "status/needs-human",
+        "area/identity"
+      ],
+      "score": 55,
+      "status": "VERIFY REWARD AND ELIGIBILITY",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "## What Back up rulesets; add CODEOWNERS (both accounts; add the second account's access if missing, checking seat billing on private 603 repos); install dev and reviewer Apps; allow_auto_merge; split rulesets (checks pinned no bypass / approval no bypass) or add the repo to the "
+    },
+    {
+      "id": 5516825464,
+      "title": "[LIVE] Verified NIM bounty board",
+      "html_url": "https://github.com/Saidur-droid/MergeEarn/issues/33",
+      "repository": "Saidur-droid/MergeEarn",
+      "created_at": "2026-09-20T08:52:35Z",
+      "updated_at": "2026-10-23T10:29:41Z",
+      "payoutMentionUSD": null,
+      "assignees": [],
+      "commentCount": 1,
+      "labels": [],
+      "score": 55,
+      "status": "VERIFY REWARD AND ELIGIBILITY",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "# MergeEarn live community bounty board This is the public, automatically maintained entry point for contributor-friendly MergeEarn work. **Live app:** https://mergeearn.vercel.app **GitHub Contribute page:** https://github.com/Saidur-droid/MergeEarn/contribute A task is paid onl"
+    },
+    {
+      "id": 5964032238,
+      "title": "[puzzle] Deadlock detection for boxes stuck in corners",
+      "html_url": "https://github.com/amiller/bounty-arcade/issues/7",
+      "repository": "amiller/bounty-arcade",
+      "created_at": "2026-10-21T16:02:14Z",
+      "updated_at": "2026-10-23T09:04:31Z",
+      "payoutMentionUSD": null,
+      "assignees": [],
+      "commentCount": 2,
+      "labels": [
+        "bounty"
+      ],
+      "score": 55,
+      "status": "VERIFY REWARD AND ELIGIBILITY",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "**App:** `apps/puzzle` **Amount:** not yet funded **Base commit:** `5c76d40` **Checker:** [`bounties/puzzle-deadlock/check.yml`](https://github.com/amiller/bounty-arcade/blob/8232383/bounties/puzzle-deadlock/check.yml) at `8232383`, run with `node check.mjs bounties/puzzle-deadlo"
+    },
+    {
+      "id": 5928838982,
+      "title": "Implement private security bounty programs (SEC-01 to SEC-18)",
+      "html_url": "https://github.com/SlopDotCash/slopdotcash/issues/910",
+      "repository": "SlopDotCash/slopdotcash",
+      "created_at": "2026-10-19T17:55:50Z",
+      "updated_at": "2026-10-23T08:54:01Z",
+      "payoutMentionUSD": null,
+      "assignees": [],
+      "commentCount": 5,
+      "labels": [
+        "enhancement"
+      ],
+      "score": 55,
+      "status": "VERIFY REWARD AND ELIGIBILITY",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "## Owner-directed self-service policy update The owner confirmed the following target requirements in this review. [PR #1029](https://github.com/SlopDotCash/slopdotcash/pull/1029) records them in the canonical repository PRD; that PR is pending review. These decisions supersede c"
+    },
+    {
+      "id": 5927747754,
+      "title": "[opt-out check] Task Genie, Inc.: confirm the opt-out route works",
+      "html_url": "https://github.com/lizTheDeveloper/privacy-the-game/issues/131",
+      "repository": "lizTheDeveloper/privacy-the-game",
+      "created_at": "2026-10-19T16:39:49Z",
+      "updated_at": "2026-10-23T08:49:10Z",
+      "payoutMentionUSD": null,
+      "assignees": [],
+      "commentCount": 5,
+      "labels": [
+        "good first issue",
+        "bounty",
+        "bounty: small",
+        "data-brokers"
+      ],
+      "score": 55,
+      "status": "VERIFY REWARD AND ELIGIBILITY",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "**What**: Check whether the opt-out route we list for Task Genie, Inc. is a real, working one. **Why it matters**: Players of Reclaim City use these links to opt out of data brokers, and the dataset is cited by journalists, so a wrong or dead link costs real people real time. - B"
+    },
+    {
+      "id": 5985683823,
+      "title": "[BOUNTY] 🏆 2,500 DOOM ($wDOOM on Base) — Connect Worker to Live Doomsday Pool & Claim Rank #7–#10 on Leaderboard (Ranks #4–#6 Claimed!)",
+      "html_url": "https://github.com/doomsday-network/bounty-guard/issues/4",
+      "repository": "doomsday-network/bounty-guard",
+      "created_at": "2026-10-22T19:02:16Z",
+      "updated_at": "2026-10-23T08:33:38Z",
+      "payoutMentionUSD": null,
+      "assignees": [],
+      "commentCount": 5,
+      "labels": [
+        "enhancement",
+        "help wanted",
+        "good first issue"
+      ],
+      "score": 55,
+      "status": "VERIFY REWARD AND ELIGIBILITY",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "## 🏆 Claim an Open Top-10 Network Miner Leaderboard Slot (2,500 DOOM / wDOOM Reward!) **Bounty Guard** is powered by [**Doomsday Network**](https://doomsday.network) (`DOOM` on Layer-1 / `wDOOM` on Base Mainnet [`0x623c84A5E04bF715018203334b0eFE41696eBC3E`](https://basescan.org/"
+    },
+    {
+      "id": 5870381828,
+      "title": "Evaluate one scoped build-bounty pilot against an internal build",
+      "html_url": "https://github.com/ditto-assistant/ditto-subnet/issues/2944",
+      "repository": "ditto-assistant/ditto-subnet",
+      "created_at": "2026-10-15T16:55:25Z",
+      "updated_at": "2026-10-23T08:30:38Z",
+      "payoutMentionUSD": null,
+      "assignees": [],
+      "commentCount": 6,
+      "labels": [
+        "enhancement",
+        "bounty"
+      ],
+      "score": 55,
+      "status": "VERIFY REWARD AND ELIGIBILITY",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "## Outcome Complete one useful open-source build through the paid-slot system in #2054 and decide whether it saves team effort and produces sufficient product value. ## Pilot sequence 1. Rehearse the complete flow without funds: publication, three claims, a timely submission, mis"
+    },
+    {
+      "id": 5984493531,
+      "title": "[BOUNTY] 🏆 2,500 DOOM ($wDOOM on Base) — Mine Pool Shares on GPU/CPU & Claim Rank #7–#10 on the Live Leaderboard (Ranks #4–#6 Claimed!)",
+      "html_url": "https://github.com/doomsday-network/doomsday/issues/7",
+      "repository": "doomsday-network/doomsday",
+      "created_at": "2026-10-22T17:42:47Z",
+      "updated_at": "2026-10-23T08:29:35Z",
+      "payoutMentionUSD": null,
+      "assignees": [],
+      "commentCount": 10,
+      "labels": [
+        "enhancement",
+        "help wanted",
+        "good first issue"
+      ],
+      "score": 55,
+      "status": "VERIFY REWARD AND ELIGIBILITY",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "## 🏆 Claim an Open Top-10 Network Miner Leaderboard Slot (2,500 DOOM / wDOOM Reward!) **Doomsday Network** ([`https://doomsday.network`](https://doomsday.network)) has a live **0%-Fee PPLNS Mining Pool** paying **50 DOOM per block** (~12s block time) directly on-chain, plus an i"
+    },
+    {
+      "id": 5917632046,
+      "title": "[BOUNTY #3] High-Throughput MoE KV-Cache Compression Benchmark",
+      "html_url": "https://github.com/patrickkellyyoung-ai/swarm-agora-mcp/issues/4",
+      "repository": "patrickkellyyoung-ai/swarm-agora-mcp",
+      "created_at": "2026-10-19T04:11:43Z",
+      "updated_at": "2026-10-23T07:03:08Z",
+      "payoutMentionUSD": null,
+      "assignees": [],
+      "commentCount": 5,
+      "labels": [
+        "help wanted",
+        "good first issue",
+        "bounty",
+        "bot-task"
+      ],
+      "score": 55,
+      "status": "VERIFY REWARD AND ELIGIBILITY",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "### 🤖 Autonomous Model Architecture Bounty **Reward:** 2 Swarm Query Credits **Category:** Inference Acceleration **Host:** WhisperAI Studio Swarm Agora #### Objective: Evaluate 4-bit vs 8-bit KV unified cache degradation across 36-layer Qwen2MoE architectures under high concurr"
+    },
+    {
+      "id": 5951949973,
+      "title": "Public bug bounty for wrong-result bugs",
+      "html_url": "https://github.com/lambdaclass/stabileo/issues/505",
+      "repository": "lambdaclass/stabileo",
+      "created_at": "2026-10-21T00:23:23Z",
+      "updated_at": "2026-10-23T06:29:32Z",
+      "payoutMentionUSD": null,
+      "assignees": [],
+      "commentCount": 3,
+      "labels": [
+        "roadmap:solver-proofs"
+      ],
+      "score": 55,
+      "status": "VERIFY REWARD AND ELIGIBILITY",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "Roadmap: Soundness multipliers, item 8. Pay for reproducible wrong or unconservative results (not crashes or UI issues), with severity by the SAFETY_ADVISORIES.md scale; every accepted report gets a regression test, a postmortem (#449) and, where it applies, an advisory. Compleme"
     },
     {
       "id": 5964032610,
@@ -689,27 +921,6 @@
       "excerpt": "**App:** `apps/puzzle` **Amount:** not yet funded **Base commit:** `5c76d40` **Checker:** [`bounties/puzzle-progress/check.yml`](https://github.com/amiller/bounty-arcade/blob/8232383/bounties/puzzle-progress/check.yml) at `8232383`, run with `node check.mjs bounties/puzzle-progre"
     },
     {
-      "id": 5988518260,
-      "title": "[BOUNTY] 🚀 1,000 DOOM ($wDOOM on Base) — Block #10,000 Milestone: Star + Fork Repo & Mine 1+ Live Pool Share",
-      "html_url": "https://github.com/doomsday-network/doomsday/issues/9",
-      "repository": "doomsday-network/doomsday",
-      "created_at": "2026-10-22T22:33:46Z",
-      "updated_at": "2026-10-23T02:41:59Z",
-      "payoutMentionUSD": null,
-      "assignees": [],
-      "commentCount": 5,
-      "labels": [
-        "enhancement",
-        "help wanted",
-        "good first issue"
-      ],
-      "score": 55,
-      "status": "VERIFY REWARD AND ELIGIBILITY",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "# 🚀 Block #10,000 (`500,000 DOOM` Mined) Milestone Bounty — `1,000 DOOM` (`$wDOOM` on Base Mainnet) As **Doomsday Network** crosses **Block `#10,000`** (`500,000 DOOM` mined, `20+` on-chain wallets, `5` ranked pool miners), we are awarding **1,000.0 DOOM (`wDOOM` on Base Mainnet"
-    },
-    {
       "id": 5236647829,
       "title": "Security contact needed — published bug bounty email is inactive",
       "html_url": "https://github.com/deso-protocol/core/issues/1476",
@@ -725,129 +936,6 @@
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
       "excerpt": "Hi DeSo maintainers, I have a security vulnerability affecting a currently deployed DeSo component. I’m trying to disclose it responsibly and privately, but the security / bug-bounty email currently listed in the DeSo documentation is no longer accepting mail. I also tried other "
-    },
-    {
-      "id": 5980597213,
-      "title": "[BOUNTY] 🛡️ 500 DOOM ($wDOOM on Base) — Report a Fake GitHub Bounty Repo or Run the 3-Second DOOM Quickstart",
-      "html_url": "https://github.com/doomsday-network/bounty-guard/issues/1",
-      "repository": "doomsday-network/bounty-guard",
-      "created_at": "2026-10-22T13:47:01Z",
-      "updated_at": "2026-10-23T02:36:51Z",
-      "payoutMentionUSD": null,
-      "assignees": [],
-      "commentCount": 22,
-      "labels": [
-        "help wanted",
-        "good first issue",
-        "bounty"
-      ],
-      "score": 55,
-      "status": "VERIFY REWARD AND ELIGIBILITY",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "## 🛡️ Real On-Chain Bounties for Bounty Hunters (`500 DOOM / wDOOM` on Base Mainnet) Unlike the fake engagement-farming bounty repos exposed by `bounty-guard` (`UnsafeLabs`, `bounty-plaza`, `aquarium-of-gullibles`), **Doomsday Network** pays out 100% verifiable on-chain rewards "
-    },
-    {
-      "id": 5985683823,
-      "title": "[BOUNTY] 🏆 2,500 DOOM ($wDOOM on Base) — Connect Worker to Live Doomsday Pool & Claim Rank #7–#10 on Leaderboard (Ranks #4–#6 Claimed!)",
-      "html_url": "https://github.com/doomsday-network/bounty-guard/issues/4",
-      "repository": "doomsday-network/bounty-guard",
-      "created_at": "2026-10-22T19:02:16Z",
-      "updated_at": "2026-10-23T02:26:13Z",
-      "payoutMentionUSD": null,
-      "assignees": [],
-      "commentCount": 3,
-      "labels": [
-        "enhancement",
-        "help wanted",
-        "good first issue"
-      ],
-      "score": 55,
-      "status": "VERIFY REWARD AND ELIGIBILITY",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "## 🏆 Claim an Open Top-10 Network Miner Leaderboard Slot (2,500 DOOM / wDOOM Reward!) **Bounty Guard** is powered by [**Doomsday Network**](https://doomsday.network) (`DOOM` on Layer-1 / `wDOOM` on Base Mainnet [`0x623c84A5E04bF715018203334b0eFE41696eBC3E`](https://basescan.org/"
-    },
-    {
-      "id": 5984493531,
-      "title": "[BOUNTY] 🏆 2,500 DOOM ($wDOOM on Base) — Mine Pool Shares on GPU/CPU & Claim Rank #7–#10 on the Live Leaderboard (Ranks #4–#6 Claimed!)",
-      "html_url": "https://github.com/doomsday-network/doomsday/issues/7",
-      "repository": "doomsday-network/doomsday",
-      "created_at": "2026-10-22T17:42:47Z",
-      "updated_at": "2026-10-23T02:26:07Z",
-      "payoutMentionUSD": null,
-      "assignees": [],
-      "commentCount": 8,
-      "labels": [
-        "enhancement",
-        "help wanted",
-        "good first issue"
-      ],
-      "score": 55,
-      "status": "VERIFY REWARD AND ELIGIBILITY",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "## 🏆 Claim an Open Top-10 Network Miner Leaderboard Slot (2,500 DOOM / wDOOM Reward!) **Doomsday Network** ([`https://doomsday.network`](https://doomsday.network)) has a live **0%-Fee PPLNS Mining Pool** paying **50 DOOM per block** (~12s block time) directly on-chain, plus an i"
-    },
-    {
-      "id": 5986994336,
-      "title": "[BOUNTY] ⭐ 500 DOOM ($wDOOM on Base) — Star Both Repos & Run Quickstart (Auto-Verified via GitHub Stargazers API!)",
-      "html_url": "https://github.com/doomsday-network/doomsday/issues/8",
-      "repository": "doomsday-network/doomsday",
-      "created_at": "2026-10-22T20:32:47Z",
-      "updated_at": "2026-10-23T02:26:05Z",
-      "payoutMentionUSD": null,
-      "assignees": [],
-      "commentCount": 7,
-      "labels": [
-        "enhancement",
-        "help wanted",
-        "good first issue"
-      ],
-      "score": 55,
-      "status": "VERIFY REWARD AND ELIGIBILITY",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "## ⭐ 500 DOOM / wDOOM Stargazer & Early Supporter Bounty (Instant On-Chain Payout!) Our 24/7 autonomous relayer (`doomsday-airdrop.service`) polls the GitHub Stargazers API (`GET /repos/doomsday-network/doomsday/stargazers`) every 90 seconds and automatically dispenses **500.0 wD"
-    },
-    {
-      "id": 5980596564,
-      "title": "[BOUNTY] ⚡ 500–1,000 DOOM ($wDOOM on Base) — Run the 3-Second Terminal Quickstart or GPU Miner & Post Output",
-      "html_url": "https://github.com/doomsday-network/doomsday/issues/4",
-      "repository": "doomsday-network/doomsday",
-      "created_at": "2026-10-22T13:46:58Z",
-      "updated_at": "2026-10-23T01:44:24Z",
-      "payoutMentionUSD": null,
-      "assignees": [],
-      "commentCount": 23,
-      "labels": [
-        "enhancement",
-        "help wanted",
-        "good first issue",
-        "bounty"
-      ],
-      "score": 55,
-      "status": "VERIFY REWARD AND ELIGIBILITY",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "## ⚡ Earn 500–1,000 Free DOOM (`$wDOOM` on Base Mainnet) in 30 Seconds! We are building a public hardware benchmark table for **DoomHash** (our 64-bit golden-ratio matrix + SHA-256 Proof-of-Idle-Work algorithm) and onboarding new miners into our **Top-10 Miner Leaderboard** (Slot"
-    },
-    {
-      "id": 5516825464,
-      "title": "[LIVE] Verified NIM bounty board",
-      "html_url": "https://github.com/Saidur-droid/MergeEarn/issues/33",
-      "repository": "Saidur-droid/MergeEarn",
-      "created_at": "2026-09-20T08:52:35Z",
-      "updated_at": "2026-10-23T00:55:57Z",
-      "payoutMentionUSD": null,
-      "assignees": [],
-      "commentCount": 1,
-      "labels": [],
-      "score": 55,
-      "status": "VERIFY REWARD AND ELIGIBILITY",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "# MergeEarn live community bounty board This is the public, automatically maintained entry point for contributor-friendly MergeEarn work. **Live app:** https://mergeearn.vercel.app **GitHub Contribute page:** https://github.com/Saidur-droid/MergeEarn/contribute A task is paid onl"
     },
     {
       "id": 5979160209,
@@ -870,25 +958,6 @@
       "excerpt": "<!-- misakanet-question-bounty:anchor-3611 --> # [Bounty] Answer the 2 linked question(s) ## Context These intakes ask about something no lesson covers. Measured through the production retrieval path (BM25 plus the IDF-weighted relevance floor), every one of them returns `no_matc"
     },
     {
-      "id": 5928838982,
-      "title": "Implement private security bounty programs (SEC-01 to SEC-18)",
-      "html_url": "https://github.com/SlopDotCash/slopdotcash/issues/910",
-      "repository": "SlopDotCash/slopdotcash",
-      "created_at": "2026-10-19T17:55:50Z",
-      "updated_at": "2026-10-22T23:38:25Z",
-      "payoutMentionUSD": null,
-      "assignees": [],
-      "commentCount": 4,
-      "labels": [
-        "enhancement"
-      ],
-      "score": 55,
-      "status": "VERIFY REWARD AND ELIGIBILITY",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "## Scope SEC-01 to SEC-18 and MVP-13 in the [canonical PRD and private bounty acceptance matrix](https://github.com/SlopDotCash/slopdotcash/blob/development/docs/slop-product-requirements.md#18-private-bounty-acceptance). Opt-in private loss-of-funds programs use project-specific"
-    },
-    {
       "id": 5870381529,
       "title": "Add bounty operator controls and gate funded activation",
       "html_url": "https://github.com/ditto-assistant/ditto-subnet/issues/2943",
@@ -909,26 +978,6 @@
       "excerpt": "> **Implementation consolidated:** the complete v1 implementation is now tracked in [#2942](https://github.com/ditto-assistant/ditto-subnet/issues/2942), which depends on [PR #2889](https://github.com/ditto-assistant/ditto-subnet/pull/2889). This issue preserves detailed referenc"
     },
     {
-      "id": 5870381828,
-      "title": "Evaluate one scoped build-bounty pilot against an internal build",
-      "html_url": "https://github.com/ditto-assistant/ditto-subnet/issues/2944",
-      "repository": "ditto-assistant/ditto-subnet",
-      "created_at": "2026-10-15T16:55:25Z",
-      "updated_at": "2026-10-22T22:48:14Z",
-      "payoutMentionUSD": null,
-      "assignees": [],
-      "commentCount": 6,
-      "labels": [
-        "enhancement",
-        "bounty"
-      ],
-      "score": 55,
-      "status": "VERIFY REWARD AND ELIGIBILITY",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "## Outcome Complete one useful open-source build through the paid-slot system in #2054 and decide whether it saves team effort and produces sufficient product value. ## Pilot sequence 1. Rehearse the complete flow without funds: publication, three claims, a timely submission, mis"
-    },
-    {
       "id": 5979160793,
       "title": "[Bounty] Answer the 2 linked question(s)",
       "html_url": "https://github.com/Ikalus1988/MisakaNet/issues/3730",
@@ -947,26 +996,6 @@
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
       "excerpt": "<!-- misakanet-question-bounty:anchor-3653 --> # [Bounty] Answer the 2 linked question(s) ## Context These intakes ask about something no lesson covers. Measured through the production retrieval path (BM25 plus the IDF-weighted relevance floor), every one of them returns `no_matc"
-    },
-    {
-      "id": 5979159683,
-      "title": "[Bounty] Answer the 2 linked question(s)",
-      "html_url": "https://github.com/Ikalus1988/MisakaNet/issues/3728",
-      "repository": "Ikalus1988/MisakaNet",
-      "created_at": "2026-10-22T12:19:39Z",
-      "updated_at": "2026-10-22T21:39:50Z",
-      "payoutMentionUSD": null,
-      "assignees": [],
-      "commentCount": 4,
-      "labels": [
-        "ready",
-        "bounty"
-      ],
-      "score": 55,
-      "status": "VERIFY REWARD AND ELIGIBILITY",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "<!-- misakanet-question-bounty:anchor-3659 --> # [Bounty] Answer the 2 linked question(s) ## Context These intakes ask about something no lesson covers. Measured through the production retrieval path (BM25 plus the IDF-weighted relevance floor), every one of them returns `no_matc"
     },
     {
       "id": 5979159185,
@@ -1052,23 +1081,6 @@
       "excerpt": "**App:** `apps/board` **Amount:** not yet funded **Base commit:** `5c76d40` **Checker:** [`bounties/board-wip-limit/check.yml`](https://github.com/amiller/bounty-arcade/blob/8232383/bounties/board-wip-limit/check.yml) at `8232383`, run with `node check.mjs bounties/board-wip-limi"
     },
     {
-      "id": 5985513056,
-      "title": "Design session: barbarians + goodie huts — early-game bounty, a reason to keep soldiers home and to explore",
-      "html_url": "https://github.com/Apelsinmack/Civulator/issues/129",
-      "repository": "Apelsinmack/Civulator",
-      "created_at": "2026-10-22T18:50:28Z",
-      "updated_at": "2026-10-22T19:14:45Z",
-      "payoutMentionUSD": null,
-      "assignees": [],
-      "commentCount": 2,
-      "labels": [],
-      "score": 55,
-      "status": "VERIFY REWARD AND ELIGIBILITY",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "**Erik, 2026-10-22 evening:** barbarians are not in the game yet and are 'kind of needed': it takes time before the civs meet each other; barbarians are good bounty in the early game; and they demand protection, so they are an incentive to keep at least some soldiers at home. ## "
-    },
-    {
       "id": 5820258875,
       "title": "[Bounty Solution] highlight/highlight#8032: document sveltekit backend instrumentation",
       "html_url": "https://github.com/chiuhehe1-design/conm/issues/10",
@@ -1091,7 +1103,7 @@
       "html_url": "https://github.com/oguzpoyrazyasin/poyraz/issues/1",
       "repository": "oguzpoyrazyasin/poyraz",
       "created_at": "2026-09-21T20:05:37Z",
-      "updated_at": "2026-10-22T23:26:31Z",
+      "updated_at": "2026-10-23T10:08:53Z",
       "payoutMentionUSD": 6000,
       "assignees": [],
       "commentCount": 3,
@@ -1100,7 +1112,24 @@
       "status": "VERIFY REWARD AND ELIGIBILITY",
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
-      "excerpt": "# Opportunity Router — 2026-10-22 23:26 UTC v0.3 adds Solution Preparation after verification. Results are estimates, not guaranteed payouts. No task is automatically claimed or submitted. ## Ranked opportunities | Final | Verify | Reward signal | Opportunity | Key risk | |---:|-"
+      "excerpt": "# Opportunity Router — 2026-10-23 10:08 UTC v0.3 adds Solution Preparation after verification. Results are estimates, not guaranteed payouts. No task is automatically claimed or submitted. ## Ranked opportunities | Final | Verify | Reward signal | Opportunity | Key risk | |---:|-"
+    },
+    {
+      "id": 3559374577,
+      "title": "Bounty: Implement ORB-SLAM3 Algorithm with Docker + ROS2 Support",
+      "html_url": "https://github.com/opensense-inc/opensense-slam-sdk/issues/1",
+      "repository": "opensense-inc/opensense-slam-sdk",
+      "created_at": "2025-10-28T01:49:09Z",
+      "updated_at": "2026-10-23T08:34:33Z",
+      "payoutMentionUSD": 500,
+      "assignees": [],
+      "commentCount": 3,
+      "labels": [],
+      "score": 54,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "## Bounty **$500 USD** for successful implementation meeting all requirements below. ## Overview Implement ORB-SLAM3 as a new SLAM algorithm in the neuronav-slam-sdk, following the existing abstraction pattern used by RTABMapSLAM. The implementation must integrate seamlessly with"
     },
     {
       "id": 5378359785,
@@ -1140,62 +1169,21 @@
       "excerpt": "# Revenue Mesh Radar Last scan: 2026-10-16T12:42:24.386Z Scanned: 20 | Actionable: 3 | Cut: 17 > Expected JPY/hour is a ranking heuristic, not guaranteed income. | Source | Reward | EV / h | Win est. | Hours est. | Competition | Candidate | |---|---:|---:|---:|---:|---:|---| | al"
     },
     {
-      "id": 4695069116,
-      "title": "[$45 BOUNTY] [Python] Add config generator validation coverage",
-      "html_url": "https://github.com/Thecesar85/TentOfTrials-bounty-67/issues/1",
-      "repository": "Thecesar85/TentOfTrials-bounty-67",
-      "created_at": "2026-06-18T18:38:55Z",
-      "updated_at": "2026-10-23T00:06:38Z",
-      "payoutMentionUSD": 45,
+      "id": 5465420680,
+      "title": "Relance monétisation 2026-09-15 — blocage facturation GCP et reprise des voies existantes",
+      "html_url": "https://github.com/liubaining-louis/louis-os/issues/473",
+      "repository": "liubaining-louis/louis-os",
+      "created_at": "2026-09-15T17:42:14Z",
+      "updated_at": "2026-10-23T11:27:29Z",
+      "payoutMentionUSD": 1000,
       "assignees": [],
-      "commentCount": 12,
-      "labels": [
-        "help wanted",
-        "good first issue",
-        "language:python",
-        "bounty"
-      ],
-      "score": 52,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "**Bounty:** $45 (LT) **Area:** `tools/config_generator.py` **Current state:** The config generator exposes reusable helpers for environment config generation, recursive merging, and sensitive value masking. The module currently has no focused tests for those helpers, and `SENSITI"
-    },
-    {
-      "id": 5920031748,
-      "title": "[P1] hy-check: HYB-E6006 misses parenthesized/type-aliased conversion targets, bool(const), constant expressions/identifiers, and file-level const initializers",
-      "html_url": "https://github.com/limitlessprojects/Go-Hybrid/issues/823",
-      "repository": "limitlessprojects/Go-Hybrid",
-      "created_at": "2026-10-19T07:54:32Z",
-      "updated_at": "2026-10-22T21:20:00Z",
-      "payoutMentionUSD": 800,
-      "assignees": [],
-      "commentCount": 4,
+      "commentCount": 11,
       "labels": [],
-      "score": 51,
+      "score": 52,
       "status": "VERIFY REWARD AND ELIGIBILITY",
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
-      "excerpt": "## Severity **P1 — High ($800)** — Valid-looking Hybrid programs with invalid constant type conversions pass `hyb check` with **0 diagnostics** and then fail `go build` on the emitted Go code (`Tier 0 BUILDABLE` invariant breach). ## Summary `Checker::check_conversion_call` (`com"
-    },
-    {
-      "id": 5940972045,
-      "title": "[BOUNTY] Suggestion #1291",
-      "html_url": "https://github.com/SPLURT-Station/S.P.L.U.R.T-tg/issues/1327",
-      "repository": "SPLURT-Station/S.P.L.U.R.T-tg",
-      "created_at": "2026-10-20T11:39:18Z",
-      "updated_at": "2026-10-23T04:25:32Z",
-      "payoutMentionUSD": null,
-      "assignees": [],
-      "commentCount": 9,
-      "labels": [
-        "bounty"
-      ],
-      "score": 50,
-      "status": "VERIFY REWARD AND ELIGIBILITY",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "### About the Bounty ## Original issue text: **Suggestion:** A boolean variable applied to all objects \"ghost_cafe_only\" that will make objects vanish if they are pulled outside of the ghost café or infinidorms. Some dorm rooms have things such as surgery trays, valuable material"
+      "excerpt": "## Relance demandée le 15 septembre 2026 — état vérifié Objectif : reprendre la monétisation hors charbon, avec priorité aux missions courtes déjà accessibles et aux paiements prouvés. Ce dossier complète #77 (journal historique volumineux), #322 et #305. ### Exécution de cette s"
     }
   ],
   "disclaimer": "No verified payouts or earnings; these are public issue candidates. Manually confirm funding, assignment, eligibility, security and payment terms. Never pay to join, disclose secrets or begin work without terms."
