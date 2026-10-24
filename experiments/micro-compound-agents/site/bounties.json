@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-24T20:52:03.679Z",
+  "updatedAt": "2026-10-24T23:17:11.266Z",
   "state": "RESEARCH_READY",
   "sources": [
     "GitHub issue search"
@@ -14,6 +14,23 @@
   "scanCount": 310,
   "errors": [],
   "opportunities": [
+    {
+      "id": 5695126149,
+      "title": "[BOUNTY] Medium: slash_validator omits forfeiture of pending_rewards, allowing slashed validators to extract fees and forcing reward payout on account close",
+      "html_url": "https://github.com/paraloom-labs/paraloom-core/issues/863",
+      "repository": "paraloom-labs/paraloom-core",
+      "created_at": "2026-10-04T01:10:05Z",
+      "updated_at": "2026-10-24T21:42:04Z",
+      "payoutMentionUSD": 3000,
+      "assignees": [],
+      "commentCount": 3,
+      "labels": [],
+      "score": 72,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "# [Security Report] `slash_validator` omits forfeiture of `pending_rewards`, allowing slashed/malicious validators to extract protocol fees and forcing reward payout on account close **Severity**: Medium / High **Affected Component**: `programs/paraloom/src/lib.rs` (`slash_valida"
+    },
     {
       "id": 5862963633,
       "title": "Bounty Golden Path v1: qualified paid-issue discovery → governed execution → verified payout",
@@ -72,6 +89,74 @@
       "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/s6pa1rta3n-lab/universal_bounty_fleet/issues/1 ### 漏洞描述 / Description [Bounty] Fail-closed Victory Audit on planted auth_bypass ## GrantFox OSS bounty **Reward:** $1,200.00 USDC **Escrow:** GrantFox smart-contrac"
     },
     {
+      "id": 6012320659,
+      "title": "[Bounty #743] Validate /api/payments payload before intent creation",
+      "html_url": "https://github.com/SecureBananaLabs/bug-bounty/issues/13679",
+      "repository": "SecureBananaLabs/bug-bounty",
+      "created_at": "2026-10-24T11:13:02Z",
+      "updated_at": "2026-10-24T22:32:50Z",
+      "payoutMentionUSD": 700,
+      "assignees": [],
+      "commentCount": 1,
+      "labels": [],
+      "score": 69,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "## Problem POST /api/payments forwards `req.body` directly to `createPaymentIntent` without schema or bounds validation. Any arbitrary JSON payload is accepted, including negative or zero amounts, missing amounts, invalid currency identifiers, and excessive unbounded fields. In a"
+    },
+    {
+      "id": 6016161331,
+      "title": "[Bounty #743] Validate /api/messages payload before persistence",
+      "html_url": "https://github.com/SecureBananaLabs/bug-bounty/issues/13783",
+      "repository": "SecureBananaLabs/bug-bounty",
+      "created_at": "2026-10-24T18:23:18Z",
+      "updated_at": "2026-10-24T22:27:48Z",
+      "payoutMentionUSD": 700,
+      "assignees": [],
+      "commentCount": 1,
+      "labels": [],
+      "score": 69,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "## Problem POST /api/messages forwards req.body directly to sendMessage without schema validation. Any JSON object is accepted, including missing senderId/receiverId, empty content, oversized content, and prototype pollution fields. The in-memory message store then persists malfo"
+    },
+    {
+      "id": 6016835688,
+      "title": "[Bounty #743] Validate /api/users payload before persistence",
+      "html_url": "https://github.com/SecureBananaLabs/bug-bounty/issues/13802",
+      "repository": "SecureBananaLabs/bug-bounty",
+      "created_at": "2026-10-24T19:39:29Z",
+      "updated_at": "2026-10-24T22:22:46Z",
+      "payoutMentionUSD": 700,
+      "assignees": [],
+      "commentCount": 1,
+      "labels": [],
+      "score": 69,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "## Problem POST /api/users forwards req.body directly to createUser without schema validation. Any JSON object is accepted, including missing email/fullName, malformed email addresses, unhashed passwords, and prototype pollution fields. The in-memory user store then persists malf"
+    },
+    {
+      "id": 6016847346,
+      "title": "[Bounty #743] Validate /api/upload files and reject missing or dangerous uploads",
+      "html_url": "https://github.com/SecureBananaLabs/bug-bounty/issues/13806",
+      "repository": "SecureBananaLabs/bug-bounty",
+      "created_at": "2026-10-24T19:40:52Z",
+      "updated_at": "2026-10-24T22:09:46Z",
+      "payoutMentionUSD": 700,
+      "assignees": [],
+      "commentCount": 1,
+      "labels": [],
+      "score": 69,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "## Problem POST /api/upload accepts empty upload requests without a file attachment and returns a 201 Created status code with \"no-file\". Furthermore, it lacks MIME type whitelisting and file extension sanitation, allowing arbitrary executable scripts (.sh, .exe, .bat, .php) and "
+    },
+    {
       "id": 5961264150,
       "title": "[BOUNTY] Medium: privateSwapFromToken Orphans Self-Funded GAS_LAMPORTS SOL on Pre-Swap Failure and recoverReshields Races Active Swaps Without RESUME_GRACE_MS or reshieldRecovered Persistence (paraloom-wallet)",
       "html_url": "https://github.com/paraloom-labs/paraloom-core/issues/1175",
@@ -87,40 +172,6 @@
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
       "excerpt": "Companion Issue: https://github.com/paraloom-labs/paraloom-wallet/issues/107 Companion Fix PR: https://github.com/paraloom-labs/paraloom-wallet/pull/108 # [BOUNTY] Medium: `privateSwapFromToken` Orphans Self-Funded `GAS_LAMPORTS` SOL on Pre-Swap Failure and `recoverReshields` Rac"
-    },
-    {
-      "id": 6016835688,
-      "title": "[Bounty #743] Validate /api/users payload before persistence",
-      "html_url": "https://github.com/SecureBananaLabs/bug-bounty/issues/13802",
-      "repository": "SecureBananaLabs/bug-bounty",
-      "created_at": "2026-10-24T19:39:29Z",
-      "updated_at": "2026-10-24T20:15:45Z",
-      "payoutMentionUSD": 700,
-      "assignees": [],
-      "commentCount": 0,
-      "labels": [],
-      "score": 69,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "## Problem POST /api/users forwards req.body directly to createUser without schema validation. Any JSON object is accepted, including missing email/fullName, malformed email addresses, unhashed passwords, and prototype pollution fields. The in-memory user store then persists malf"
-    },
-    {
-      "id": 6016847346,
-      "title": "[Bounty #743] Validate /api/upload files and reject missing or dangerous uploads",
-      "html_url": "https://github.com/SecureBananaLabs/bug-bounty/issues/13806",
-      "repository": "SecureBananaLabs/bug-bounty",
-      "created_at": "2026-10-24T19:40:52Z",
-      "updated_at": "2026-10-24T20:04:43Z",
-      "payoutMentionUSD": 700,
-      "assignees": [],
-      "commentCount": 0,
-      "labels": [],
-      "score": 69,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "## Problem POST /api/upload accepts empty upload requests without a file attachment and returns a 201 Created status code with \"no-file\". Furthermore, it lacks MIME type whitelisting and file extension sanitation, allowing arbitrary executable scripts (.sh, .exe, .bat, .php) and "
     },
     {
       "id": 6011002391,
@@ -155,57 +206,6 @@
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
       "excerpt": "## Problem POST /api/proposals forwards `req.body` directly to `createProposal` without schema or bounds validation. Any arbitrary JSON object is accepted into the in-memory proposals store, including negative or zero bid amounts, missing cover letters, missing jobId associations"
-    },
-    {
-      "id": 6016178154,
-      "title": "[Bounty #743] Validate /api/notifications payload before persistence",
-      "html_url": "https://github.com/SecureBananaLabs/bug-bounty/issues/13787",
-      "repository": "SecureBananaLabs/bug-bounty",
-      "created_at": "2026-10-24T18:25:13Z",
-      "updated_at": "2026-10-24T18:25:13Z",
-      "payoutMentionUSD": 700,
-      "assignees": [],
-      "commentCount": 0,
-      "labels": [],
-      "score": 69,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "## Problem POST /api/notifications forwards req.body directly to createNotification without schema validation. Any JSON object is accepted, including missing userId, missing notification type, empty message text, excessively long payloads, and prototype pollution fields. The in-m"
-    },
-    {
-      "id": 6016161331,
-      "title": "[Bounty #743] Validate /api/messages payload before persistence",
-      "html_url": "https://github.com/SecureBananaLabs/bug-bounty/issues/13783",
-      "repository": "SecureBananaLabs/bug-bounty",
-      "created_at": "2026-10-24T18:23:18Z",
-      "updated_at": "2026-10-24T18:23:18Z",
-      "payoutMentionUSD": 700,
-      "assignees": [],
-      "commentCount": 0,
-      "labels": [],
-      "score": 69,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "## Problem POST /api/messages forwards req.body directly to sendMessage without schema validation. Any JSON object is accepted, including missing senderId/receiverId, empty content, oversized content, and prototype pollution fields. The in-memory message store then persists malfo"
-    },
-    {
-      "id": 6014847160,
-      "title": "[Bounty #743] Validate /api/reviews payload before persistence",
-      "html_url": "https://github.com/SecureBananaLabs/bug-bounty/issues/13762",
-      "repository": "SecureBananaLabs/bug-bounty",
-      "created_at": "2026-10-24T16:02:39Z",
-      "updated_at": "2026-10-24T17:43:31Z",
-      "payoutMentionUSD": 700,
-      "assignees": [],
-      "commentCount": 1,
-      "labels": [],
-      "score": 69,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "## Problem POST /api/reviews forwards req.body directly to createReview without schema validation. Any JSON object is accepted, including invalid rating ranges (e.g. negative numbers or numbers > 5), missing targetId, missing reviewerId, empty or excessively long comments, and pr"
     },
     {
       "id": 5874535969,
@@ -313,23 +313,6 @@
       "excerpt": "Claiming **Bounty #38** (Bounty #38: i18n Framework Setup ($250)) per `BOUNTIES.md`. - **Implementation**: Self-contained React + TypeScript + Tailwind CSS package under `bounties/38-i18n-framework-setup/` following the Agent Midas Black/Gold design system and 6-layer security st"
     },
     {
-      "id": 5962741746,
-      "title": "Bug bounty participation and payout terms",
-      "html_url": "https://github.com/priors-agents/priors/issues/13",
-      "repository": "priors-agents/priors",
-      "created_at": "2026-10-21T14:43:40Z",
-      "updated_at": "2026-10-24T18:28:41Z",
-      "payoutMentionUSD": 300,
-      "assignees": [],
-      "commentCount": 3,
-      "labels": [],
-      "score": 66,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "Hi, I'm considering local SDK/x402 research under the current BOUNTY.md. Before investing time, could you please confirm: - Is an individual researcher residing in Colombia eligible, without a participation fee or deposit? - Could an accepted award be paid in USDC on Solana or th"
-    },
-    {
       "id": 5989002106,
       "title": "[Bounty] Задача: Дописать тесты",
       "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4081",
@@ -388,6 +371,23 @@
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
       "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/Senthemodder/claude-honeypot/issues/1 ### 漏洞描述 / Description [Bounty: ] Race Condition in Distributed Async Event Queue during High Concurrency # [Bounty: $250] Race Condition in Distributed Async Event Queue dur"
+    },
+    {
+      "id": 6010644564,
+      "title": "Claiming Bounty #32 - Fitness Class Scheduler ($200)",
+      "html_url": "https://github.com/bujiproject-art/agentmidasopendevteam/issues/108",
+      "repository": "bujiproject-art/agentmidasopendevteam",
+      "created_at": "2026-10-24T07:37:42Z",
+      "updated_at": "2026-10-24T22:36:08Z",
+      "payoutMentionUSD": 200,
+      "assignees": [],
+      "commentCount": 1,
+      "labels": [],
+      "score": 65,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "Claiming **Bounty #32** (Bounty #32: Fitness Class Scheduler ($200)) per `BOUNTIES.md`. - **Implementation**: Self-contained React + TypeScript + Tailwind CSS package under `bounties/32-fitness-class-scheduler/` following the Agent Midas Black/Gold design system and 6-layer secur"
     },
     {
       "id": 5494327153,
@@ -495,6 +495,23 @@
       "excerpt": "Claiming **Bounty #39** (Bounty #39: Landing Page Template Kit ($200)) per `BOUNTIES.md`. - **Implementation**: Self-contained React + TypeScript + Tailwind CSS package under `bounties/39-landing-page-template-kit/` following the Agent Midas Black/Gold design system and 6-layer s"
     },
     {
+      "id": 5973260659,
+      "title": "[BOUNTY] Medium: CPI ordering violation in slash_validator (SVM balance isolation), unguarded zero-lamport mutation, and omitted dual-stake token telemetry",
+      "html_url": "https://github.com/paraloom-labs/paraloom-core/issues/1189",
+      "repository": "paraloom-labs/paraloom-core",
+      "created_at": "2026-10-22T04:49:21Z",
+      "updated_at": "2026-10-24T21:00:28Z",
+      "payoutMentionUSD": 150,
+      "assignees": [],
+      "commentCount": 4,
+      "labels": [],
+      "score": 64,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "### Bounty Program Claim - **Severity**: Medium ($150 USDC - Stage 1 Scope: On-Chain Bridge, Consensus & Dual-Stake Staking) - **Settlement Wallet**: `0x9332620f242e88B722d714aA6d96859b9F77399D` (USDC on Base / EVM) - **Reporter**: duongynhi000005-oss --- ### Summary of Vulnerabi"
+    },
+    {
       "id": 5954318793,
       "title": "[BOUNTY] Medium: Single-spend `payload.authority` rotation evicts `cosign_counts` at `MAX_COSIGN_COUNTS` to reset `MAX_COSIGNS_PER_SETTLEMENT`, and `initiate_transact_verification` omits the `#726` `already_verified` sho",
       "html_url": "https://github.com/paraloom-labs/paraloom-core/issues/1154",
@@ -527,23 +544,6 @@
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
       "excerpt": "# [BOUNTY] Medium: `privateSwap` Spends Shielded SOL Before Enforcing the `SWAP_OVERHEAD_LAMPORTS` + 25 bps Withdrawal Fee Floor, Drops Unused `SWAP_OVERHEAD_LAMPORTS` SOL After `reshieldToken`, and Leaves Sub-Reserve Stranded SOL Unrecovered (`paraloom-wallet`) - **Target Reposi"
-    },
-    {
-      "id": 5973260659,
-      "title": "[BOUNTY] Medium: CPI ordering violation in slash_validator (SVM balance isolation), unguarded zero-lamport mutation, and omitted dual-stake token telemetry",
-      "html_url": "https://github.com/paraloom-labs/paraloom-core/issues/1189",
-      "repository": "paraloom-labs/paraloom-core",
-      "created_at": "2026-10-22T04:49:21Z",
-      "updated_at": "2026-10-24T20:01:30Z",
-      "payoutMentionUSD": 150,
-      "assignees": [],
-      "commentCount": 4,
-      "labels": [],
-      "score": 64,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "### Bounty Program Claim - **Severity**: Medium ($150 USDC - Stage 1 Scope: On-Chain Bridge, Consensus & Dual-Stake Staking) - **Settlement Wallet**: `0x9332620f242e88B722d714aA6d96859b9F77399D` (USDC on Base / EVM) - **Reporter**: duongynhi000005-oss --- ### Summary of Vulnerabi"
     },
     {
       "id": 5954759045,
@@ -636,24 +636,40 @@
       "excerpt": "Bounties that were already open when the watcher started. From now on, each new one gets its own issue. - 🔴 **$150** · [📱 Epic: BAWES Universe Mobile App (Android + iOS)](https://github.com/BAWES-Universe/workadventure-universe/issues/1) - 🔴 **$50** · [BOUNTY: integrate AWS Co"
     },
     {
-      "id": 5839548473,
-      "title": "[Bounty] 📋 2 open bounties right now",
-      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1891",
-      "repository": "zhangjiayang6835-cyber/bounty-plaza",
-      "created_at": "2026-10-13T23:57:04Z",
-      "updated_at": "2026-10-17T22:24:26Z",
-      "payoutMentionUSD": 150,
+      "id": 6003832923,
+      "title": "USDC-quoted pairs not having the correct marketcap displayed in tools",
+      "html_url": "https://github.com/blake-guthrie/GLASS/issues/1",
+      "repository": "blake-guthrie/GLASS",
+      "created_at": "2026-10-23T19:03:20Z",
+      "updated_at": "2026-10-24T22:14:21Z",
+      "payoutMentionUSD": 100,
       "assignees": [],
-      "commentCount": 7,
+      "commentCount": 10,
       "labels": [
-        "bounty",
-        "real"
+        "bounty"
       ],
-      "score": 64,
+      "score": 63,
       "status": "POTENTIAL PAYOUT — UNVERIFIED",
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
-      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/habibdxb01/bounty-watcher/issues/5 ### 漏洞描述 / Description 📋 2 open bounties right now Bounties that were already open when the watcher started. From now on, each new one gets its own issue. - 🔴 **$150** · [📱 E"
+      "excerpt": "Fix this problem to get paid in fees of $100"
+    },
+    {
+      "id": 5765087302,
+      "title": "[Bounty: $95] Make `visual-regression.yml` compare baselines instead of regenerating them",
+      "html_url": "https://github.com/Signpost-Labs/signpost-app/issues/43",
+      "repository": "Signpost-Labs/signpost-app",
+      "created_at": "2026-10-08T16:08:48Z",
+      "updated_at": "2026-10-24T21:52:46Z",
+      "payoutMentionUSD": 95,
+      "assignees": [],
+      "commentCount": 5,
+      "labels": [],
+      "score": 63,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "**Context** `visual-regression.yml` currently runs `npm run test:visual:update`, which regenerates every Storybook baseline in-container and uploads them as the `visual-baselines` artifact. Nothing ever compares against committed PNGs, so the job can never fail on a visual change"
     },
     {
       "id": 5918162597,
@@ -691,25 +707,6 @@
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
       "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/alfrexo95/bounty-bot/issues/28 ### 漏洞描述 / Description 💰 Bounty Seguro ($$100): 💰 Bounty Seguro ($$100): [Bounty] 💰 Bounty Seguro 🤖 **Bounty con Pago Garantizado (Escrow)** - **Título:** 💰 Bounty Seguro ($$10"
-    },
-    {
-      "id": 6003832923,
-      "title": "USDC-quoted pairs not having the correct marketcap displayed in tools",
-      "html_url": "https://github.com/blake-guthrie/GLASS/issues/1",
-      "repository": "blake-guthrie/GLASS",
-      "created_at": "2026-10-23T19:03:20Z",
-      "updated_at": "2026-10-24T17:41:16Z",
-      "payoutMentionUSD": 100,
-      "assignees": [],
-      "commentCount": 9,
-      "labels": [
-        "bounty"
-      ],
-      "score": 63,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "Fix this problem to get paid in fees of $100"
     },
     {
       "id": 6004857118,
@@ -832,46 +829,6 @@
       "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/Parabola-org/parabola/issues/1 ### 漏洞描述 / Description [Bounty: $105] Preserve burnTxHash when Stellar confirmation polling hits transient RPC errors **Context** `pollTransactionStatus` in `src/chains/stellar.ts:7"
     },
     {
-      "id": 6010161728,
-      "title": "[Bounty] 💰 Bounty Seguro ($$100): [Bounty] USDC-quoted pairs not having the correct ",
-      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4109",
-      "repository": "zhangjiayang6835-cyber/bounty-plaza",
-      "created_at": "2026-10-24T06:31:48Z",
-      "updated_at": "2026-10-24T06:34:55Z",
-      "payoutMentionUSD": 100,
-      "assignees": [],
-      "commentCount": 2,
-      "labels": [
-        "bounty",
-        "real"
-      ],
-      "score": 63,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/alfrexo95/bounty-bot/issues/21 ### 漏洞描述 / Description 💰 Bounty Seguro ($$100): [Bounty] USDC-quoted pairs not having the correct 🤖 **Bounty con Pago Garantizado (Escrow)** - **Título:** [Bounty] USDC-quoted pai"
-    },
-    {
-      "id": 6007774119,
-      "title": "💰 Bounty Seguro ($$100): [Bounty] USDC-quoted pairs not having the correct ",
-      "html_url": "https://github.com/alfrexo95/bounty-bot/issues/21",
-      "repository": "alfrexo95/bounty-bot",
-      "created_at": "2026-10-24T01:01:40Z",
-      "updated_at": "2026-10-24T05:39:21Z",
-      "payoutMentionUSD": 100,
-      "assignees": [],
-      "commentCount": 2,
-      "labels": [
-        "bounty",
-        "escrow"
-      ],
-      "score": 63,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "🤖 **Bounty con Pago Garantizado (Escrow)** - **Título:** [Bounty] USDC-quoted pairs not having the correct marketcap displayed in tools - **Monto:** $$100 - **Plataforma:** USDC Escrow - **Enlace:** [Ir al Issue](https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4107"
-    },
-    {
       "id": 5752323412,
       "title": "[Bounty: $75] Add a required aggregate CI summary job",
       "html_url": "https://github.com/flowstellar/stellar-flow-ai/issues/46",
@@ -889,15 +846,36 @@
       "excerpt": "**Context** Once the workflow has several jobs, a branch-protection rule can only require the checks it names, so a job that is renamed, skipped by a conditional, or newly added can leave a pull request green while a whole check never ran. There is no workflow in this repo at all"
     },
     {
+      "id": 5814260745,
+      "title": "Bounty $50: recipe for RX 7900 XTX 24 GB",
+      "html_url": "https://github.com/sybil-solutions/local-ai-registry/issues/219",
+      "repository": "sybil-solutions/local-ai-registry",
+      "created_at": "2026-10-12T13:07:25Z",
+      "updated_at": "2026-10-24T21:36:29Z",
+      "payoutMentionUSD": 50,
+      "assignees": [],
+      "commentCount": 15,
+      "labels": [
+        "bounty",
+        "bounty: $50",
+        "recipe"
+      ],
+      "score": 61,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "**Pays $50** when a PR adds a tested recipe for this card and is merged. Rules: [BOUNTIES.md](https://github.com/sybil-solutions/.github/blob/main/BOUNTIES.md). | | | |---|---| | Card | `rx-7900-xtx-24gb` | | Model | Qwen3.8-27B, or any model in `registry/models.json` not yet tes"
+    },
+    {
       "id": 6014641501,
       "title": "[ESCROW BOUNTY] 🔌 2,000 DOOM ($wDOOM on Base) — Integrate BountyGuard Into Your Public Agent Repo or GitHub Action Workflow!",
       "html_url": "https://github.com/doomsday-network/bounty-guard/issues/7",
       "repository": "doomsday-network/bounty-guard",
       "created_at": "2026-10-24T15:39:31Z",
-      "updated_at": "2026-10-24T20:20:23Z",
+      "updated_at": "2026-10-24T23:09:20Z",
       "payoutMentionUSD": null,
       "assignees": [],
-      "commentCount": 14,
+      "commentCount": 18,
       "labels": [
         "help wanted",
         "good first issue",
@@ -916,10 +894,10 @@
       "html_url": "https://github.com/ak10082247-max/canaryguard-402/issues/2",
       "repository": "ak10082247-max/canaryguard-402",
       "created_at": "2026-10-19T10:36:17Z",
-      "updated_at": "2026-10-24T19:06:12Z",
+      "updated_at": "2026-10-24T21:25:48Z",
       "payoutMentionUSD": 5,
       "assignees": [],
-      "commentCount": 13,
+      "commentCount": 14,
       "labels": [
         "help wanted",
         "bounty",
@@ -930,6 +908,26 @@
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
       "excerpt": "### 🎯 Objective CanaryGuard defends autonomous AI agents using deterministic, sub-millisecond heuristic filtering. To win the bounty, submit an adversarial prompt injection or instruction override payload that slips past Strict Mode with status `\"clean\"` (Risk: 0) instead of bei"
+    },
+    {
+      "id": 1482891236,
+      "title": "Welcome modal with integrated bridge and/or instructions",
+      "html_url": "https://github.com/capofficial/client/issues/13",
+      "repository": "capofficial/client",
+      "created_at": "2022-12-07T21:27:52Z",
+      "updated_at": "2026-10-24T22:47:15Z",
+      "payoutMentionUSD": 500,
+      "assignees": [],
+      "commentCount": 26,
+      "labels": [
+        "enhancement",
+        "bounty"
+      ],
+      "score": 59,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "When a new user first opens the trading dashboard, it would be good to have a welcome modal that describes briefly what CAP is, how to use the dashboard, how to bridge funds from Arbitrum, or even to have an integrated bridge UI that can be accessed any time. --- ### Bounty * Thi"
     },
     {
       "id": 6004722681,
@@ -947,6 +945,26 @@
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
       "excerpt": "## Objective Get BountyForge's **first legitimately paid AI-assisted coding repair**, then repeat toward a **$2,000/month gross** target. This is a private income-generation operator, **not a SaaS to sell**. Optimize for accepted work and net receipts, not developmental test coun"
+    },
+    {
+      "id": 5839548473,
+      "title": "[Bounty] 📋 2 open bounties right now",
+      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1891",
+      "repository": "zhangjiayang6835-cyber/bounty-plaza",
+      "created_at": "2026-10-13T23:57:04Z",
+      "updated_at": "2026-10-17T22:24:26Z",
+      "payoutMentionUSD": 150,
+      "assignees": [],
+      "commentCount": 7,
+      "labels": [
+        "bounty",
+        "real"
+      ],
+      "score": 59,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/habibdxb01/bounty-watcher/issues/5 ### 漏洞描述 / Description 📋 2 open bounties right now Bounties that were already open when the watcher started. From now on, each new one gets its own issue. - 🔴 **$150** · [📱 E"
     },
     {
       "id": 5838147120,
@@ -967,6 +985,48 @@
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
       "excerpt": "Bounties that were already open when the watcher started. From now on, each new one gets its own issue. - 🔴 **$150** · [📱 Epic: BAWES Universe Mobile App (Android + iOS)](https://github.com/BAWES-Universe/workadventure-universe/issues/1) - 🔴 **$50** · [BOUNTY: integrate AWS Co"
+    },
+    {
+      "id": 6017814234,
+      "title": "Frantic bounty #137: Protocol conformance audit: izanami-916.github.io/protocol.html vs the live ask rail",
+      "html_url": "https://github.com/auscaster/frantic-board/issues/557",
+      "repository": "auscaster/frantic-board",
+      "created_at": "2026-10-24T21:29:44Z",
+      "updated_at": "2026-10-24T21:49:01Z",
+      "payoutMentionUSD": 10,
+      "assignees": [],
+      "commentCount": 1,
+      "labels": [
+        "bounty",
+        "funded",
+        "claimed"
+      ],
+      "score": 57,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "Frantic bounty #137 Protocol conformance audit: izanami-916.github.io/protocol.html vs the live ask rail Worker price: $10 Slots: 1 (filled) Status: claimed Claim: https://gofrantic.com/bounties/137 Funding receipt: https://gofrantic.com/r/ea708cee Frantic is the source of truth."
+    },
+    {
+      "id": 6017814730,
+      "title": "Frantic bounty #138: Find a live HTTP 402 endpoint that prices in Nano (XNO)",
+      "html_url": "https://github.com/auscaster/frantic-board/issues/558",
+      "repository": "auscaster/frantic-board",
+      "created_at": "2026-10-24T21:29:48Z",
+      "updated_at": "2026-10-24T21:32:12Z",
+      "payoutMentionUSD": 10,
+      "assignees": [],
+      "commentCount": 1,
+      "labels": [
+        "bounty",
+        "funded",
+        "delivered"
+      ],
+      "score": 57,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "Frantic bounty #138 Find a live HTTP 402 endpoint that prices in Nano (XNO) Worker price: $10 Slots: 1 (filled) Status: delivered Claim: https://gofrantic.com/bounties/138 Funding receipt: https://gofrantic.com/r/5a08bdba Frantic is the source of truth. This GitHub issue is a mir"
     },
     {
       "id": 5625826190,
@@ -1006,15 +1066,51 @@
       "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/Iamgoofball/-tg-station/issues/338 ### 漏洞描述 / Description [BOUNTY] [MONEY] [$50] Implement Dodge Rolling Add dodge rolling to the game; you can't take damage while doing so. 50 dollars. bounty, reward, label:boun"
     },
     {
+      "id": 5964030658,
+      "title": "[board] Work-in-progress limit on Doing",
+      "html_url": "https://github.com/amiller/bounty-arcade/issues/3",
+      "repository": "amiller/bounty-arcade",
+      "created_at": "2026-10-21T16:02:08Z",
+      "updated_at": "2026-10-24T22:37:10Z",
+      "payoutMentionUSD": null,
+      "assignees": [],
+      "commentCount": 7,
+      "labels": [
+        "bounty"
+      ],
+      "score": 55,
+      "status": "VERIFY REWARD AND ELIGIBILITY",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "**App:** `apps/board` **Amount:** not yet funded **Base commit:** `5c76d40` **Checker:** [`bounties/board-wip-limit/check.yml`](https://github.com/amiller/bounty-arcade/blob/8232383/bounties/board-wip-limit/check.yml) at `8232383`, run with `node check.mjs bounties/board-wip-limi"
+    },
+    {
+      "id": 6016401567,
+      "title": "[tooling] Version guard accepts stale compiler defaults when an unrelated string contains the pin (tested patch)",
+      "html_url": "https://github.com/limitlessprojects/Go-Hybrid/issues/1597",
+      "repository": "limitlessprojects/Go-Hybrid",
+      "created_at": "2026-10-24T18:50:43Z",
+      "updated_at": "2026-10-24T22:24:45Z",
+      "payoutMentionUSD": 500,
+      "assignees": [],
+      "commentCount": 2,
+      "labels": [],
+      "score": 55,
+      "status": "VERIFY REWARD AND ELIGIBILITY",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "Tested on main `1f0ff978f4deff78c77bca96db0e3e46f32de71b` (remote main rechecked 2026-10-24). This is a tooling improvement for BOUNTY.md, not a compiler soundness or security-impact claim. Prepared and tested by Codex with the JRCage account owner's authorization; no independent"
+    },
+    {
       "id": 6017132129,
       "title": "[ESCROW BOUNTY] ⚡ 1,000 wDOOM (Base Mainnet) — Test DoomPay 3-Line Checkout Session & Benchmark a Mining Share",
       "html_url": "https://github.com/doomsday-network/doom-pay/issues/1",
       "repository": "doomsday-network/doom-pay",
       "created_at": "2026-10-24T20:13:00Z",
-      "updated_at": "2026-10-24T20:44:56Z",
+      "updated_at": "2026-10-24T22:22:52Z",
       "payoutMentionUSD": null,
       "assignees": [],
-      "commentCount": 4,
+      "commentCount": 15,
       "labels": [
         "help wanted",
         "good first issue",
@@ -1025,109 +1121,6 @@
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
       "excerpt": "### ⚡ `1,000.0 wDOOM` (Base Mainnet ERC-20) — DoomPay Integration & Pool Benchmark Bounty **Reward:** **`1,000.0 wDOOM`** (Base Mainnet `0x623c84A5E04bF715018203334b0eFE41696eBC3E`) or **`1,000.0 DOOM`** (Layer-1) **Escrow Status:** `LOCKED` (`100%` on-chain reserve verified via "
-    },
-    {
-      "id": 5985683823,
-      "title": "[BOUNTY] 🏆 2,500 DOOM ($wDOOM on Base) — Connect Worker to Live Doomsday Pool & Claim Rank #10 on Leaderboard (Ranks #4–#9 Claimed!)",
-      "html_url": "https://github.com/doomsday-network/bounty-guard/issues/4",
-      "repository": "doomsday-network/bounty-guard",
-      "created_at": "2026-10-22T19:02:16Z",
-      "updated_at": "2026-10-24T20:22:30Z",
-      "payoutMentionUSD": null,
-      "assignees": [],
-      "commentCount": 11,
-      "labels": [
-        "enhancement",
-        "help wanted",
-        "good first issue"
-      ],
-      "score": 55,
-      "status": "VERIFY REWARD AND ELIGIBILITY",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "## 🏆 Claim an Open Top-10 Network Miner Leaderboard Slot (2,500 DOOM / wDOOM Reward!) **Bounty Guard** is powered by [**Doomsday Network**](https://doomsday.network) (`DOOM` on Layer-1 / `wDOOM` on Base Mainnet [`0x623c84A5E04bF715018203334b0eFE41696eBC3E`](https://basescan.org/"
-    },
-    {
-      "id": 5986994336,
-      "title": "[BOUNTY] ⭐ 500 DOOM ($wDOOM on Base) — Star Both Repos & Run Quickstart (Auto-Verified via GitHub Stargazers API!)",
-      "html_url": "https://github.com/doomsday-network/doomsday/issues/8",
-      "repository": "doomsday-network/doomsday",
-      "created_at": "2026-10-22T20:32:47Z",
-      "updated_at": "2026-10-24T20:22:08Z",
-      "payoutMentionUSD": null,
-      "assignees": [],
-      "commentCount": 27,
-      "labels": [
-        "enhancement",
-        "help wanted",
-        "good first issue"
-      ],
-      "score": 55,
-      "status": "VERIFY REWARD AND ELIGIBILITY",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "## ⭐ 500 DOOM / wDOOM Stargazer & Early Supporter Bounty (Instant On-Chain Payout!) Our 24/7 autonomous relayer (`doomsday-airdrop.service`) polls the GitHub Stargazers API (`GET /repos/doomsday-network/doomsday/stargazers`) every 90 seconds and automatically dispenses **500.0 wD"
-    },
-    {
-      "id": 6014640631,
-      "title": "[ESCROW BOUNTY] ⭐ 750 DOOM ($wDOOM on Base) — Star All 4 Doomsday Network Repos & Mine 1+ Live Pool Share via mine_pool.py",
-      "html_url": "https://github.com/doomsday-network/doomsday/issues/30",
-      "repository": "doomsday-network/doomsday",
-      "created_at": "2026-10-24T15:39:25Z",
-      "updated_at": "2026-10-24T20:21:14Z",
-      "payoutMentionUSD": null,
-      "assignees": [],
-      "commentCount": 7,
-      "labels": [
-        "help wanted",
-        "good first issue",
-        "bounty",
-        "escrow-verified"
-      ],
-      "score": 55,
-      "status": "VERIFY REWARD AND ELIGIBILITY",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "### ⭐ 750 DOOM (`$wDOOM` on Base Mainnet) — 4-Repo Star + 1-Command Live Pool Share Bounty **On-Chain Escrow Status:** 🟢 `SAFE_WITH_ESCROW` (`onchain_utxo_and_base_erc20_verified`) - **Base Mainnet `wDOOM` Contract:** [`0x623c84A5E04bF715018203334b0eFE41696eBC3E`](https://basesc"
-    },
-    {
-      "id": 6014641226,
-      "title": "[ESCROW BOUNTY] 🛡️ 1,000 DOOM ($wDOOM on Base) — Star All 4 Doomsday Repos, Run scan_bounties.py & Mine 1 Pool Share!",
-      "html_url": "https://github.com/doomsday-network/github-bounty-scanner/issues/1",
-      "repository": "doomsday-network/github-bounty-scanner",
-      "created_at": "2026-10-24T15:39:29Z",
-      "updated_at": "2026-10-24T20:20:49Z",
-      "payoutMentionUSD": null,
-      "assignees": [],
-      "commentCount": 12,
-      "labels": [
-        "help wanted",
-        "good first issue",
-        "bounty",
-        "escrow-verified"
-      ],
-      "score": 55,
-      "status": "VERIFY REWARD AND ELIGIBILITY",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "### 🛡️ 1,000 DOOM (`$wDOOM` on Base Mainnet) — Live GitHub Bounty Scanner & Honeypot Audit **On-Chain Escrow Status:** 🟢 `SAFE_WITH_ESCROW` - **Base Mainnet `wDOOM` Contract:** [`0x623c84A5E04bF715018203334b0eFE41696eBC3E`](https://basescan.org/token/0x623c84A5E04bF715018203334"
-    },
-    {
-      "id": 6016401567,
-      "title": "[tooling] Version guard accepts stale compiler defaults when an unrelated string contains the pin (tested patch)",
-      "html_url": "https://github.com/limitlessprojects/Go-Hybrid/issues/1597",
-      "repository": "limitlessprojects/Go-Hybrid",
-      "created_at": "2026-10-24T18:50:43Z",
-      "updated_at": "2026-10-24T19:19:23Z",
-      "payoutMentionUSD": 500,
-      "assignees": [],
-      "commentCount": 1,
-      "labels": [],
-      "score": 55,
-      "status": "VERIFY REWARD AND ELIGIBILITY",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "Tested on main `1f0ff978f4deff78c77bca96db0e3e46f32de71b` (remote main rechecked 2026-10-24). This is a tooling improvement for BOUNTY.md, not a compiler soundness or security-impact claim. Prepared and tested by Codex with the JRCage account owner's authorization; no independent"
     }
   ],
   "disclaimer": "No verified payouts or earnings; these are public issue candidates. Manually confirm funding, assignment, eligibility, security and payment terms. Never pay to join, disclose secrets or begin work without terms."
