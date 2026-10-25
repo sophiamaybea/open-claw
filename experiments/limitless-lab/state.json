@@ -1,13 +1,13 @@
 {
   "version": "limitless-lab-v1",
   "mode": "PAPER_ONLY",
-  "updatedAt": "2026-10-25T01:47:34.365Z",
-  "runs": 64,
+  "updatedAt": "2026-10-25T06:59:51.697Z",
+  "runs": 65,
   "errors": [],
   "calibrator": {
-    "bias": 0.3570479200000002,
-    "slope": 1.334437929126021,
-    "trained": 311,
+    "bias": 0.3705874000000002,
+    "slope": 1.3546427904731164,
+    "trained": 316,
     "learningRate": 0.04
   },
   "forecasts": [
@@ -7182,8 +7182,10 @@
       "assessment": {},
       "decision": "HOLD",
       "reason": "NO_INDEPENDENT_FORECAST",
-      "resolution": null,
-      "verifiedAt": null
+      "resolution": 1,
+      "verifiedAt": "2026-10-25T06:59:51.697Z",
+      "brierMarket": 0.003968999999999993,
+      "brierCalibration": 0.0004166089209999982
     },
     {
       "slug": "eth-up-or-down-15-min-1792892700",
@@ -7203,8 +7205,10 @@
       "assessment": {},
       "decision": "HOLD",
       "reason": "NO_INDEPENDENT_FORECAST",
-      "resolution": null,
-      "verifiedAt": null
+      "resolution": 1,
+      "verifiedAt": "2026-10-25T06:59:51.697Z",
+      "brierMarket": 0.01155625000000001,
+      "brierCalibration": 0.0018443589160000034
     },
     {
       "slug": "btc-up-or-down-15-min-1792892700",
@@ -7224,8 +7228,10 @@
       "assessment": {},
       "decision": "HOLD",
       "reason": "NO_INDEPENDENT_FORECAST",
-      "resolution": null,
-      "verifiedAt": null
+      "resolution": 1,
+      "verifiedAt": "2026-10-25T06:59:51.697Z",
+      "brierMarket": 0.034410249999999996,
+      "brierCalibration": 0.008836376004000005
     },
     {
       "slug": "btc-up-or-down-hourly-p-1792879506754",
@@ -7245,8 +7251,10 @@
       "assessment": {},
       "decision": "HOLD",
       "reason": "NO_INDEPENDENT_FORECAST",
-      "resolution": null,
-      "verifiedAt": null
+      "resolution": 1,
+      "verifiedAt": "2026-10-25T06:59:51.697Z",
+      "brierMarket": 0.07022500000000001,
+      "brierCalibration": 0.025469925648999994
     },
     {
       "slug": "eth-up-or-down-hourly-p-1792879511901",
@@ -7266,120 +7274,92 @@
       "assessment": {},
       "decision": "HOLD",
       "reason": "NO_INDEPENDENT_FORECAST",
-      "resolution": null,
-      "verifiedAt": null
+      "resolution": 1,
+      "verifiedAt": "2026-10-25T06:59:51.697Z",
+      "brierMarket": 0.004290250000000001,
+      "brierCalibration": 0.00046375622499999873
     }
   ],
-  "resolvedCount": 311,
+  "resolvedCount": 316,
   "scanned": [
     {
-      "slug": "eth-up-or-down-5-min-1792892700",
+      "slug": "eth-up-or-down-5-min-1792911300",
       "title": "ETH Up or Down - 5 Min",
       "symbol": "ETH",
       "bucket": "5m",
-      "expiresAt": "2026-10-25T01:50:00.000Z",
-      "remainingMin": 2.43,
+      "expiresAt": "2026-10-25T07:00:00.000Z",
+      "remainingMin": 0.14,
       "status": "FUNDED",
       "tradeType": "clob",
       "quality": "NO_VALID_QUOTES",
       "decision": "HOLD"
     },
     {
-      "slug": "btc-up-or-down-5-min-1792892700",
+      "slug": "btc-up-or-down-5-min-1792911300",
       "title": "BTC Up or Down - 5 Min",
       "symbol": "BTC",
       "bucket": "5m",
-      "expiresAt": "2026-10-25T01:50:00.000Z",
-      "remainingMin": 2.43,
+      "expiresAt": "2026-10-25T07:00:00.000Z",
+      "remainingMin": 0.14,
       "status": "FUNDED",
       "tradeType": "clob",
-      "quality": "VALID_ORDER_BOOK",
-      "yesBid": 0.879,
-      "yesAsk": 0.995,
-      "spread": 0.116,
-      "marketProbability": 0.937,
-      "independentProbability": null,
-      "decision": "HOLD",
-      "reason": "NO_INDEPENDENT_FORECAST"
+      "quality": "NO_VALID_QUOTES",
+      "decision": "HOLD"
     },
     {
-      "slug": "eth-up-or-down-15-min-1792892700",
+      "slug": "eth-up-or-down-15-min-1792910700",
       "title": "ETH Up or Down - 15 Min",
       "symbol": "ETH",
       "bucket": "15m",
-      "expiresAt": "2026-10-25T02:00:00.000Z",
-      "remainingMin": 12.43,
+      "expiresAt": "2026-10-25T07:00:00.000Z",
+      "remainingMin": 0.14,
       "status": "FUNDED",
       "tradeType": "clob",
-      "quality": "VALID_ORDER_BOOK",
-      "yesBid": 0.875,
-      "yesAsk": 0.91,
-      "spread": 0.035,
-      "marketProbability": 0.8925,
-      "independentProbability": null,
-      "decision": "HOLD",
-      "reason": "NO_INDEPENDENT_FORECAST"
+      "quality": "NO_VALID_QUOTES",
+      "decision": "HOLD"
     },
     {
-      "slug": "btc-up-or-down-15-min-1792892700",
+      "slug": "btc-up-or-down-15-min-1792910700",
       "title": "BTC Up or Down - 15 Min",
       "symbol": "BTC",
       "bucket": "15m",
-      "expiresAt": "2026-10-25T02:00:00.000Z",
-      "remainingMin": 12.43,
+      "expiresAt": "2026-10-25T07:00:00.000Z",
+      "remainingMin": 0.14,
       "status": "FUNDED",
       "tradeType": "clob",
-      "quality": "VALID_ORDER_BOOK",
-      "yesBid": 0.79,
-      "yesAsk": 0.839,
-      "spread": 0.049,
-      "marketProbability": 0.8145,
-      "independentProbability": null,
-      "decision": "HOLD",
-      "reason": "NO_INDEPENDENT_FORECAST"
+      "quality": "NO_VALID_QUOTES",
+      "decision": "HOLD"
     },
     {
-      "slug": "btc-up-or-down-hourly-p-1792879506754",
-      "title": "BTC Up or Down Hourly",
-      "symbol": "BTC",
-      "bucket": "15m",
-      "expiresAt": "2026-10-25T02:00:00.000Z",
-      "remainingMin": 12.43,
-      "status": "FUNDED",
-      "tradeType": "clob",
-      "quality": "VALID_ORDER_BOOK",
-      "yesBid": 0.713,
-      "yesAsk": 0.757,
-      "spread": 0.044,
-      "marketProbability": 0.735,
-      "independentProbability": null,
-      "decision": "HOLD",
-      "reason": "NO_INDEPENDENT_FORECAST"
-    },
-    {
-      "slug": "eth-up-or-down-hourly-p-1792879511901",
+      "slug": "eth-up-or-down-hourly-p-1792897511195",
       "title": "ETH Up or Down Hourly",
       "symbol": "ETH",
-      "bucket": "15m",
-      "expiresAt": "2026-10-25T02:00:00.000Z",
-      "remainingMin": 12.43,
+      "bucket": "5m",
+      "expiresAt": "2026-10-25T07:00:00.000Z",
+      "remainingMin": 0.14,
       "status": "FUNDED",
       "tradeType": "clob",
-      "quality": "VALID_ORDER_BOOK",
-      "yesBid": 0.922,
-      "yesAsk": 0.947,
-      "spread": 0.025,
-      "marketProbability": 0.9345,
-      "independentProbability": null,
-      "decision": "HOLD",
-      "reason": "NO_INDEPENDENT_FORECAST"
+      "quality": "NO_VALID_QUOTES",
+      "decision": "HOLD"
+    },
+    {
+      "slug": "btc-up-or-down-hourly-p-1792897505808",
+      "title": "BTC Up or Down Hourly",
+      "symbol": "BTC",
+      "bucket": "5m",
+      "expiresAt": "2026-10-25T07:00:00.000Z",
+      "remainingMin": 0.14,
+      "status": "FUNDED",
+      "tradeType": "clob",
+      "quality": "NO_VALID_QUOTES",
+      "decision": "HOLD"
     }
   ],
   "lastScan": {
-    "at": "2026-10-25T01:47:34.365Z",
+    "at": "2026-10-25T06:59:51.697Z",
     "listed": 25,
     "eligible": 6,
-    "newForecasts": 5
+    "newForecasts": 0
   },
   "latestModels": {
     "laya": "NOT_CONFIGURED",
