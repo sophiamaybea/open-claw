@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-25T11:33:42.105Z",
+  "updatedAt": "2026-10-25T16:24:01.469Z",
   "state": "RESEARCH_READY",
   "sources": [
     "GitHub issue search"
@@ -20,7 +20,7 @@
       "html_url": "https://github.com/perria080925-bot/agente-bountie/issues/1",
       "repository": "perria080925-bot/agente-bountie",
       "created_at": "2026-09-27T14:39:06Z",
-      "updated_at": "2026-10-25T05:38:12Z",
+      "updated_at": "2026-10-25T15:05:11Z",
       "payoutMentionUSD": 500,
       "assignees": [],
       "commentCount": 3,
@@ -47,6 +47,26 @@
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
       "excerpt": "## Goal Build **Bounty Golden Path v1 — read-only qualification first**, using existing AgentOS ONE/IR, scheduler, node executor, receipts and work completion ledger. Do not add a parallel autonomous runtime or diverge protected branches. ## Grounded observations (2026-10-15) - T"
+    },
+    {
+      "id": 5404801661,
+      "title": "[Bounty] [Bounty: $1,500] Critical: Missing Account Ownership Validation in Anchor CPI Di",
+      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1301",
+      "repository": "zhangjiayang6835-cyber/bounty-plaza",
+      "created_at": "2026-09-09T21:13:10Z",
+      "updated_at": "2026-10-25T15:06:40Z",
+      "payoutMentionUSD": 1500,
+      "assignees": [],
+      "commentCount": 10,
+      "labels": [
+        "bounty",
+        "real"
+      ],
+      "score": 71,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/Senthemodder/solana-anchor-runtime/issues/1 ### 漏洞描述 / Description [Bounty: $1,500] Critical: Missing Account Ownership Validation in Anchor CPI Dispatcher ### Severity: Critical ### Reward: ,500 USDC (Escrow Loc"
     },
     {
       "id": 6023893993,
@@ -86,48 +106,6 @@
       "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/s6pa1rta3n-lab/universal_bounty_fleet/issues/1 ### 漏洞描述 / Description [Bounty] Fail-closed Victory Audit on planted auth_bypass ## GrantFox OSS bounty **Reward:** $1,200.00 USDC **Escrow:** GrantFox smart-contrac"
     },
     {
-      "id": 6020799940,
-      "title": "[BOUNTY] Medium: Unchecked and Uninitialized Validator Token ATA in paraloom-cli validator register and register_validator causes runtime CPI deserialization failure (AccountNotInitialized) and silent gas burn for new va",
-      "html_url": "https://github.com/paraloom-labs/paraloom-core/issues/1215",
-      "repository": "paraloom-labs/paraloom-core",
-      "created_at": "2026-10-25T04:24:30Z",
-      "updated_at": "2026-10-25T08:04:57Z",
-      "payoutMentionUSD": 150,
-      "assignees": [],
-      "commentCount": 2,
-      "labels": [],
-      "score": 69,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "## Summary - **Proposed Bounty Tier:** **Medium** (`$150 USDC` per `docs/bug-bounty.md` Stage 1 Node & Bridge CLI registration path) - **Target Repository:** [`paraloom-labs/paraloom-core`](https://github.com/paraloom-labs/paraloom-core) - **Affected Subsystems & Files:** - `src/"
-    },
-    {
-      "id": 4459347495,
-      "title": "[ Bounty $7k ] [ Solidity ] Fix Timelock queued transactions can be executed after delay expires — testnet finding",
-      "html_url": "https://github.com/ClankerNation/OpenAgents/issues/201",
-      "repository": "ClankerNation/OpenAgents",
-      "created_at": "2026-05-16T09:01:35Z",
-      "updated_at": "2026-10-25T05:39:15Z",
-      "payoutMentionUSD": 7000,
-      "assignees": [],
-      "commentCount": 15,
-      "labels": [
-        "autonomus agents only",
-        "good first issue",
-        "help wanted",
-        "💎 bounty",
-        "high-value",
-        "crypto-eligible",
-        "$7k"
-      ],
-      "score": 68,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "Queued transactions in `contracts/governance/Timelock.sol` have no `GRACE_PERIOD` after `eta`. A transaction queued with `eta = now + 2 days` remains executable forever after day 2. ### Fix - Add `GRACE_PERIOD` constant (14 days) - Reject execution if `block.timestamp > eta + GRA"
-    },
-    {
       "id": 5874535969,
       "title": "[Bounty] [Bounty: $75] Expose retry/backoff knobs for Stellar allowance wait and RPC-lag ",
       "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1904",
@@ -153,7 +131,7 @@
       "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4081",
       "repository": "zhangjiayang6835-cyber/bounty-plaza",
       "created_at": "2026-10-22T23:17:32Z",
-      "updated_at": "2026-10-25T09:04:28Z",
+      "updated_at": "2026-10-25T15:35:02Z",
       "payoutMentionUSD": 50,
       "assignees": [],
       "commentCount": 7,
@@ -166,6 +144,47 @@
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
       "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/vlad441/ncpp/issues/1 ### 漏洞描述 / Description Задача: Дописать тесты ## Задача: Дописать тесты Нужно дописать тесты для непокрытых функций и методов для модулей которые зафиксированы документацией (например, парсе"
+    },
+    {
+      "id": 5878910506,
+      "title": "[$600] Support rootless Podman as a container engine in the run-spaceapp launcher",
+      "html_url": "https://github.com/oll4com/spaceapp/issues/63",
+      "repository": "oll4com/spaceapp",
+      "created_at": "2026-10-16T05:30:31Z",
+      "updated_at": "2026-10-25T15:19:58Z",
+      "payoutMentionUSD": 600,
+      "assignees": [],
+      "commentCount": 43,
+      "labels": [
+        "enhancement",
+        "help wanted",
+        "💎 bounty"
+      ],
+      "score": 66,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "## Context The `run-spaceapp` launcher (`packages/run-spaceapp`) installs and runs SpaceApp as a Docker Compose stack (`templates/compose.yml`: core, CLI, browser, PostgreSQL/pgvector, Temporal). Docker is the only supported engine. The launcher detects Docker and installs it if "
+    },
+    {
+      "id": 5950653348,
+      "title": "[Bounty] [TEST BOUNTY] Fix typo in README",
+      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4061",
+      "repository": "zhangjiayang6835-cyber/bounty-plaza",
+      "created_at": "2026-10-20T22:25:17Z",
+      "updated_at": "2026-10-25T15:17:33Z",
+      "payoutMentionUSD": 50,
+      "assignees": [],
+      "commentCount": 10,
+      "labels": [
+        "bounty",
+        "real"
+      ],
+      "score": 66,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/jomaaabbe78-spec/bookningsapp/issues/1 ### 漏洞描述 / Description [TEST BOUNTY] Fix typo in README **Bounty: $50** There is a typo in README.md: \"Welcom\" should be \"Welcome\". **Reward:** $50 via PayPal/Crypto **Conta"
     },
     {
       "id": 5949384825,
@@ -188,26 +207,6 @@
       "excerpt": "**Bounty: $50** There is a typo in README.md: \"Welcom\" should be \"Welcome\". **Reward:** $50 via PayPal/Crypto **Contact:** DM for payment details"
     },
     {
-      "id": 5950653348,
-      "title": "[Bounty] [TEST BOUNTY] Fix typo in README",
-      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4061",
-      "repository": "zhangjiayang6835-cyber/bounty-plaza",
-      "created_at": "2026-10-20T22:25:17Z",
-      "updated_at": "2026-10-25T05:38:14Z",
-      "payoutMentionUSD": 50,
-      "assignees": [],
-      "commentCount": 9,
-      "labels": [
-        "bounty",
-        "real"
-      ],
-      "score": 66,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/jomaaabbe78-spec/bookningsapp/issues/1 ### 漏洞描述 / Description [TEST BOUNTY] Fix typo in README **Bounty: $50** There is a typo in README.md: \"Welcom\" should be \"Welcome\". **Reward:** $50 via PayPal/Crypto **Conta"
-    },
-    {
       "id": 5387619561,
       "title": "[Bounty] [Bounty: ] Race Condition in Distributed Async Event Queue during High Concurren",
       "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1217",
@@ -228,93 +227,41 @@
       "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/Senthemodder/claude-honeypot/issues/1 ### 漏洞描述 / Description [Bounty: ] Race Condition in Distributed Async Event Queue during High Concurrency # [Bounty: $250] Race Condition in Distributed Async Event Queue dur"
     },
     {
-      "id": 5878910737,
-      "title": "[$400] Per-service container images: ship each image only the code and dependencies it runs",
-      "html_url": "https://github.com/oll4com/spaceapp/issues/64",
-      "repository": "oll4com/spaceapp",
-      "created_at": "2026-10-16T05:30:32Z",
-      "updated_at": "2026-10-25T11:20:45Z",
-      "payoutMentionUSD": 400,
+      "id": 6008510143,
+      "title": "Claiming Bounty #5 - Sales Forecasting Widget ($200)",
+      "html_url": "https://github.com/bujiproject-art/agentmidasopendevteam/issues/89",
+      "repository": "bujiproject-art/agentmidasopendevteam",
+      "created_at": "2026-10-24T02:34:01Z",
+      "updated_at": "2026-10-25T11:36:06Z",
+      "payoutMentionUSD": 200,
       "assignees": [],
-      "commentCount": 59,
-      "labels": [
-        "enhancement",
-        "help wanted",
-        "💎 bounty"
-      ],
+      "commentCount": 1,
+      "labels": [],
       "score": 65,
       "status": "POTENTIAL PAYOUT — UNVERIFIED",
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
-      "excerpt": "## Context SpaceApp publishes three images from one `Dockerfile`: `spaceapp-core` (API, web server, Temporal worker), `spaceapp-cli` (the CLI host that runs the AI coding CLIs in PTYs) and `spaceapp-browser` (Browser Host plus Chromium). All three build `FROM runtime-base`. That "
+      "excerpt": "Claiming **Bounty #5** (Bounty #5: Sales Forecasting Widget ($200)) per `BOUNTIES.md`. - **Implementation**: Self-contained React + TypeScript + Tailwind CSS package under `bounties/05-sales-forecasting-widget/` following the Agent Midas Black/Gold design system and 6-layer secur"
     },
     {
-      "id": 6023043216,
-      "title": "[BOUNTY] Medium: Missing slash_validator and update_reputation instruction builders, discriminators, and derive_slashed_funds_vault in bridge::solana::instructions",
-      "html_url": "https://github.com/paraloom-labs/paraloom-core/issues/1220",
-      "repository": "paraloom-labs/paraloom-core",
-      "created_at": "2026-10-25T09:42:06Z",
-      "updated_at": "2026-10-25T11:20:02Z",
+      "id": 5986552924,
+      "title": "[Bounty] 📋 2 open bounties right now",
+      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4080",
+      "repository": "zhangjiayang6835-cyber/bounty-plaza",
+      "created_at": "2026-10-22T20:02:23Z",
+      "updated_at": "2026-10-25T15:39:07Z",
       "payoutMentionUSD": 150,
       "assignees": [],
-      "commentCount": 2,
-      "labels": [],
+      "commentCount": 9,
+      "labels": [
+        "bounty",
+        "real"
+      ],
       "score": 64,
       "status": "POTENTIAL PAYOUT — UNVERIFIED",
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
-      "excerpt": "## Severity Medium ($150 USDC - Stage 1 Consensus & Solana Bridge Scope) ## Settlement Wallet (USDC Base / EVM - Mandatory Invariant) 0x3a5E08708dd1CF22AAe94f913Ab69b17b80a3dC5 ## Target Repository & Subsystems - paraloom-labs/paraloom-core - src/bridge/solana/instructions.rs - p"
-    },
-    {
-      "id": 5973260659,
-      "title": "[BOUNTY] Medium: CPI ordering violation in slash_validator (SVM balance isolation), unguarded zero-lamport mutation, and omitted dual-stake token telemetry",
-      "html_url": "https://github.com/paraloom-labs/paraloom-core/issues/1189",
-      "repository": "paraloom-labs/paraloom-core",
-      "created_at": "2026-10-22T04:49:21Z",
-      "updated_at": "2026-10-25T09:05:12Z",
-      "payoutMentionUSD": 150,
-      "assignees": [],
-      "commentCount": 4,
-      "labels": [],
-      "score": 64,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "### Bounty Program Claim - **Severity**: Medium ($150 USDC - Stage 1 Scope: On-Chain Bridge, Consensus & Dual-Stake Staking) - **Settlement Wallet**: `0x9332620f242e88B722d714aA6d96859b9F77399D` (USDC on Base / EVM) - **Reporter**: duongynhi000005-oss --- ### Summary of Vulnerabi"
-    },
-    {
-      "id": 6021980271,
-      "title": "[BOUNTY] Medium: Missing SPL asset instruction builders (deposit_note_spl, init_asset_vault, set_asset_deposit_cap, set_min_token_stake) and derive_asset_config in bridge::solana::instructions, breaking off-chain client ",
-      "html_url": "https://github.com/paraloom-labs/paraloom-core/issues/1218",
-      "repository": "paraloom-labs/paraloom-core",
-      "created_at": "2026-10-25T07:23:45Z",
-      "updated_at": "2026-10-25T08:55:12Z",
-      "payoutMentionUSD": 150,
-      "assignees": [],
-      "commentCount": 2,
-      "labels": [],
-      "score": 64,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "## Severity **Medium ($150 USDC – Stage 1 Solana Bridge & Client Toolchain Scope)** ## Settlement Wallet (USDC Base / EVM – Mandatory Invariant) `0x3a5E08708dd1CF22AAe94f913Ab69b17b80a3dC5` ## Affected Files - `src/bridge/solana/instructions.rs` - `src/bin/paraloom_cli.rs` --- ##"
-    },
-    {
-      "id": 5955012893,
-      "title": "[BOUNTY] Medium: Direct lamport balance mutation before token CPI in withdraw_unbonded_stake violates Solana runtime balance isolation and dual-stake events omit token telemetry",
-      "html_url": "https://github.com/paraloom-labs/paraloom-core/issues/1158",
-      "repository": "paraloom-labs/paraloom-core",
-      "created_at": "2026-10-21T05:39:08Z",
-      "updated_at": "2026-10-25T08:04:09Z",
-      "payoutMentionUSD": 150,
-      "assignees": [],
-      "commentCount": 2,
-      "labels": [],
-      "score": 64,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "## Severity **Medium ($150 USDC — Stage 1 On-Chain Bridge & Dual-Stake Staking Scope)** ## Settlement Wallet (USDC Base / EVM — Mandatory Invariant) `0x8366bCe3a2D379Dec7656D7A67015789FaF999f20` ## Affected Files - `programs/paraloom/src/lib.rs` (`withdraw_unbonded_stake`, `regis"
+      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/habibdxb01/bounty-watcher/issues/8 ### 漏洞描述 / Description 📋 2 open bounties right now Bounties that were already open when the watcher started. From now on, each new one gets its own issue. - 🔴 **$150** · [📱 E"
     },
     {
       "id": 5954759045,
@@ -322,7 +269,7 @@
       "html_url": "https://github.com/paraloom-labs/paraloom-core/issues/1156",
       "repository": "paraloom-labs/paraloom-core",
       "created_at": "2026-10-21T05:12:56Z",
-      "updated_at": "2026-10-25T07:03:36Z",
+      "updated_at": "2026-10-25T15:05:26Z",
       "payoutMentionUSD": 150,
       "assignees": [],
       "commentCount": 3,
@@ -334,24 +281,38 @@
       "excerpt": "# [BOUNTY] Medium: `peer_id_from_multiaddr` extracts the first `/p2p/<peer_id>` instead of the trailing target `PeerId` on `p2p-circuit` multiaddrs, permanently suppressing co-validator keep-alive redials and poisoning Kademlia routing ## Summary - **Severity:** Medium (up to $15"
     },
     {
-      "id": 5986552924,
-      "title": "[Bounty] 📋 2 open bounties right now",
-      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4080",
-      "repository": "zhangjiayang6835-cyber/bounty-plaza",
-      "created_at": "2026-10-22T20:02:23Z",
-      "updated_at": "2026-10-25T06:23:33Z",
+      "id": 6021980271,
+      "title": "[BOUNTY] Medium: Missing SPL asset instruction builders (deposit_note_spl, init_asset_vault, set_asset_deposit_cap, set_min_token_stake) and derive_asset_config in bridge::solana::instructions, breaking off-chain client ",
+      "html_url": "https://github.com/paraloom-labs/paraloom-core/issues/1218",
+      "repository": "paraloom-labs/paraloom-core",
+      "created_at": "2026-10-25T07:23:45Z",
+      "updated_at": "2026-10-25T15:03:45Z",
       "payoutMentionUSD": 150,
       "assignees": [],
-      "commentCount": 8,
-      "labels": [
-        "bounty",
-        "real"
-      ],
+      "commentCount": 3,
+      "labels": [],
       "score": 64,
       "status": "POTENTIAL PAYOUT — UNVERIFIED",
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
-      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/habibdxb01/bounty-watcher/issues/8 ### 漏洞描述 / Description 📋 2 open bounties right now Bounties that were already open when the watcher started. From now on, each new one gets its own issue. - 🔴 **$150** · [📱 E"
+      "excerpt": "## Severity **Medium ($150 USDC – Stage 1 Solana Bridge & Client Toolchain Scope)** ## Settlement Wallet (USDC Base / EVM – Mandatory Invariant) `0x3a5E08708dd1CF22AAe94f913Ab69b17b80a3dC5` ## Affected Files - `src/bridge/solana/instructions.rs` - `src/bin/paraloom_cli.rs` --- ##"
+    },
+    {
+      "id": 6023043216,
+      "title": "[BOUNTY] Medium: Missing slash_validator and update_reputation instruction builders, discriminators, and derive_slashed_funds_vault in bridge::solana::instructions",
+      "html_url": "https://github.com/paraloom-labs/paraloom-core/issues/1220",
+      "repository": "paraloom-labs/paraloom-core",
+      "created_at": "2026-10-25T09:42:06Z",
+      "updated_at": "2026-10-25T12:04:52Z",
+      "payoutMentionUSD": 150,
+      "assignees": [],
+      "commentCount": 2,
+      "labels": [],
+      "score": 64,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "## Severity Medium ($150 USDC - Stage 1 Consensus & Solana Bridge Scope) ## Settlement Wallet (USDC Base / EVM - Mandatory Invariant) 0x3a5E08708dd1CF22AAe94f913Ab69b17b80a3dC5 ## Target Repository & Subsystems - paraloom-labs/paraloom-core - src/bridge/solana/instructions.rs - p"
     },
     {
       "id": 5981846324,
@@ -373,52 +334,12 @@
       "excerpt": "Bounties that were already open when the watcher started. From now on, each new one gets its own issue. - 🔴 **$150** · [📱 Epic: BAWES Universe Mobile App (Android + iOS)](https://github.com/BAWES-Universe/workadventure-universe/issues/1) - 🔴 **$50** · [BOUNTY: integrate AWS Co"
     },
     {
-      "id": 6013302485,
-      "title": "💰 Bounty Seguro ($$100): 💰 Bounty Seguro ($$100): [Bounty] 💰 Bounty Seguro ",
-      "html_url": "https://github.com/alfrexo95/bounty-bot/issues/28",
-      "repository": "alfrexo95/bounty-bot",
-      "created_at": "2026-10-24T13:12:36Z",
-      "updated_at": "2026-10-25T10:03:01Z",
-      "payoutMentionUSD": 100,
-      "assignees": [],
-      "commentCount": 4,
-      "labels": [
-        "bounty",
-        "escrow"
-      ],
-      "score": 63,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "🤖 **Bounty con Pago Garantizado (Escrow)** - **Título:** 💰 Bounty Seguro ($$100): [Bounty] 💰 Bounty Seguro ($$100): [Bounty] USDC-qu - **Monto:** $$100 - **Plataforma:** USDC Escrow - **Enlace:** [Ir al Issue](https://github.com/alfrexo95/bounty-bot/issues/27) --- ### 💰 Payme"
-    },
-    {
-      "id": 6007774119,
-      "title": "💰 Bounty Seguro ($$100): [Bounty] USDC-quoted pairs not having the correct ",
-      "html_url": "https://github.com/alfrexo95/bounty-bot/issues/21",
-      "repository": "alfrexo95/bounty-bot",
-      "created_at": "2026-10-24T01:01:40Z",
-      "updated_at": "2026-10-25T08:51:13Z",
-      "payoutMentionUSD": 100,
-      "assignees": [],
-      "commentCount": 3,
-      "labels": [
-        "bounty",
-        "escrow"
-      ],
-      "score": 63,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "🤖 **Bounty con Pago Garantizado (Escrow)** - **Título:** [Bounty] USDC-quoted pairs not having the correct marketcap displayed in tools - **Monto:** $$100 - **Plataforma:** USDC Escrow - **Enlace:** [Ir al Issue](https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4107"
-    },
-    {
       "id": 6004857118,
       "title": "[Bounty] USDC-quoted pairs not having the correct marketcap displayed in tools",
       "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4107",
       "repository": "zhangjiayang6835-cyber/bounty-plaza",
       "created_at": "2026-10-23T20:20:52Z",
-      "updated_at": "2026-10-25T08:41:27Z",
+      "updated_at": "2026-10-25T15:35:28Z",
       "payoutMentionUSD": 100,
       "assignees": [],
       "commentCount": 4,
@@ -433,12 +354,32 @@
       "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/blake-guthrie/GLASS/issues/1 ### 漏洞描述 / Description USDC-quoted pairs not having the correct marketcap displayed in tools Fix this problem to get paid in fees of $100 ### 积分币奖励 / Coin Reward 125 coins ### 真实赏金（US"
     },
     {
+      "id": 6019191166,
+      "title": "[Bounty] [STEAM VAULT] 🎮 Exchange 100,000 DOOM ($wDOOM) for a $10 Steam Digital Gift Card",
+      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4113",
+      "repository": "zhangjiayang6835-cyber/bounty-plaza",
+      "created_at": "2026-10-25T00:27:06Z",
+      "updated_at": "2026-10-25T15:35:26Z",
+      "payoutMentionUSD": 100,
+      "assignees": [],
+      "commentCount": 2,
+      "labels": [
+        "bounty",
+        "real"
+      ],
+      "score": 63,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/doomsday-network/doom-pay/issues/4 ### 漏洞描述 / Description [STEAM VAULT] 🎮 Exchange 100,000 DOOM ($wDOOM) for a $10 Steam Digital Gift Card! (10 / 10 Available — $100 USD Vault) ### 🎮 DoomVault — Redeem `100,000"
+    },
+    {
       "id": 6019191244,
       "title": "[Bounty] [STEAM VAULT] 🎮 Exchange 100,000 DOOM ($wDOOM) for a $10 Steam Digital Gift Card",
       "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4114",
       "repository": "zhangjiayang6835-cyber/bounty-plaza",
       "created_at": "2026-10-25T00:27:07Z",
-      "updated_at": "2026-10-25T08:29:41Z",
+      "updated_at": "2026-10-25T15:35:25Z",
       "payoutMentionUSD": 100,
       "assignees": [],
       "commentCount": 2,
@@ -453,24 +394,63 @@
       "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/doomsday-network/doomsday/issues/39 ### 漏洞描述 / Description [STEAM VAULT] 🎮 Exchange 100,000 DOOM ($wDOOM) for a $10 Steam Digital Gift Card! (10 / 10 Available — $100 USD Vault) ### 🎮 DoomVault — Redeem `100,00"
     },
     {
-      "id": 6019191166,
-      "title": "[Bounty] [STEAM VAULT] 🎮 Exchange 100,000 DOOM ($wDOOM) for a $10 Steam Digital Gift Card",
-      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4113",
-      "repository": "zhangjiayang6835-cyber/bounty-plaza",
-      "created_at": "2026-10-25T00:27:06Z",
-      "updated_at": "2026-10-25T08:18:36Z",
+      "id": 6003832923,
+      "title": "USDC-quoted pairs not having the correct marketcap displayed in tools",
+      "html_url": "https://github.com/blake-guthrie/GLASS/issues/1",
+      "repository": "blake-guthrie/GLASS",
+      "created_at": "2026-10-23T19:03:20Z",
+      "updated_at": "2026-10-25T14:44:28Z",
       "payoutMentionUSD": 100,
       "assignees": [],
-      "commentCount": 2,
+      "commentCount": 13,
       "labels": [
-        "bounty",
-        "real"
+        "bounty"
       ],
       "score": 63,
       "status": "POTENTIAL PAYOUT — UNVERIFIED",
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
-      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/doomsday-network/doom-pay/issues/4 ### 漏洞描述 / Description [STEAM VAULT] 🎮 Exchange 100,000 DOOM ($wDOOM) for a $10 Steam Digital Gift Card! (10 / 10 Available — $100 USD Vault) ### 🎮 DoomVault — Redeem `100,000"
+      "excerpt": "Fix this problem to get paid in fees of $100"
+    },
+    {
+      "id": 6007774119,
+      "title": "💰 Bounty Seguro ($$100): [Bounty] USDC-quoted pairs not having the correct ",
+      "html_url": "https://github.com/alfrexo95/bounty-bot/issues/21",
+      "repository": "alfrexo95/bounty-bot",
+      "created_at": "2026-10-24T01:01:40Z",
+      "updated_at": "2026-10-25T12:21:53Z",
+      "payoutMentionUSD": 100,
+      "assignees": [],
+      "commentCount": 4,
+      "labels": [
+        "bounty",
+        "escrow"
+      ],
+      "score": 63,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "🤖 **Bounty con Pago Garantizado (Escrow)** - **Título:** [Bounty] USDC-quoted pairs not having the correct marketcap displayed in tools - **Monto:** $$100 - **Plataforma:** USDC Escrow - **Enlace:** [Ir al Issue](https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4107"
+    },
+    {
+      "id": 6013302485,
+      "title": "💰 Bounty Seguro ($$100): 💰 Bounty Seguro ($$100): [Bounty] 💰 Bounty Seguro ",
+      "html_url": "https://github.com/alfrexo95/bounty-bot/issues/28",
+      "repository": "alfrexo95/bounty-bot",
+      "created_at": "2026-10-24T13:12:36Z",
+      "updated_at": "2026-10-25T11:38:10Z",
+      "payoutMentionUSD": 100,
+      "assignees": [],
+      "commentCount": 5,
+      "labels": [
+        "bounty",
+        "escrow"
+      ],
+      "score": 63,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "🤖 **Bounty con Pago Garantizado (Escrow)** - **Título:** 💰 Bounty Seguro ($$100): [Bounty] 💰 Bounty Seguro ($$100): [Bounty] USDC-qu - **Monto:** $$100 - **Plataforma:** USDC Escrow - **Enlace:** [Ir al Issue](https://github.com/alfrexo95/bounty-bot/issues/27) --- ### 💰 Payme"
     },
     {
       "id": 6014202777,
@@ -533,25 +513,6 @@
       "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/Parabola-org/parabola/issues/1 ### 漏洞描述 / Description [Bounty: $105] Preserve burnTxHash when Stellar confirmation polling hits transient RPC errors **Context** `pollTransactionStatus` in `src/chains/stellar.ts:7"
     },
     {
-      "id": 6003832923,
-      "title": "USDC-quoted pairs not having the correct marketcap displayed in tools",
-      "html_url": "https://github.com/blake-guthrie/GLASS/issues/1",
-      "repository": "blake-guthrie/GLASS",
-      "created_at": "2026-10-23T19:03:20Z",
-      "updated_at": "2026-10-25T03:43:45Z",
-      "payoutMentionUSD": 100,
-      "assignees": [],
-      "commentCount": 12,
-      "labels": [
-        "bounty"
-      ],
-      "score": 63,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "Fix this problem to get paid in fees of $100"
-    },
-    {
       "id": 6018782156,
       "title": "[STEAM VAULT] 🎮 Exchange 100,000 DOOM ($wDOOM) for a $10 Steam Digital Gift Card! (10 / 10 Available — $100 USD Vault)",
       "html_url": "https://github.com/doomsday-network/doom-pay/issues/4",
@@ -592,26 +553,6 @@
       "excerpt": "### 🎮 DoomVault — Redeem `100,000 DOOM` (`$wDOOM`) for a `$10 USD` Steam Digital Gift Card! **Vault Inventory:** 🟢 **`10 / 10 Cards Available` (`$100 USD` Total Vault)** **Exchange Rate:** **`100,000.0 DOOM` (Layer-1) or `100,000.0 wDOOM` (Base Mainnet)** = **`1x $10.00 USD Ste"
     },
     {
-      "id": 6010805059,
-      "title": "💰 Bounty Seguro ($$100): [Bounty] 💰 Bounty Seguro ($$100): [Bounty] USDC-qu",
-      "html_url": "https://github.com/alfrexo95/bounty-bot/issues/27",
-      "repository": "alfrexo95/bounty-bot",
-      "created_at": "2026-10-24T07:59:32Z",
-      "updated_at": "2026-10-24T08:02:53Z",
-      "payoutMentionUSD": 100,
-      "assignees": [],
-      "commentCount": 2,
-      "labels": [
-        "bounty",
-        "escrow"
-      ],
-      "score": 63,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "🤖 **Bounty con Pago Garantizado (Escrow)** - **Título:** [Bounty] 💰 Bounty Seguro ($$100): [Bounty] USDC-quoted pairs not having the correct - **Monto:** $$100 - **Plataforma:** USDC Escrow - **Enlace:** [Ir al Issue](https://github.com/zhangjiayang6835-cyber/bounty-plaza/issue"
-    },
-    {
       "id": 5752348361,
       "title": "[Bounty: $60] Enable retries on CI in `playwright.config.ts`",
       "html_url": "https://github.com/scaffold-studio-hq/scaffold-studio-frontend/issues/44",
@@ -629,29 +570,27 @@
       "excerpt": "**Context** `playwright.config.ts` sets `retries: 0` unconditionally. Playwright's own convention is to retry on CI and not locally, because web-server startup, animation timing and network flake are the dominant failure modes for an end-to-end suite that talks to a blockchain RP"
     },
     {
-      "id": 4459345273,
-      "title": "[ Bounty $1k ] [ API ] Add audit log for all admin actions — pre-audit",
-      "html_url": "https://github.com/ClankerNation/OpenAgents/issues/184",
-      "repository": "ClankerNation/OpenAgents",
-      "created_at": "2026-05-16T09:00:51Z",
-      "updated_at": "2026-10-25T05:35:59Z",
-      "payoutMentionUSD": 1600,
+      "id": 5814259750,
+      "title": "Bounty $50: recipe for RTX 2080 Ti 11 GB",
+      "html_url": "https://github.com/sybil-solutions/local-ai-registry/issues/217",
+      "repository": "sybil-solutions/local-ai-registry",
+      "created_at": "2026-10-12T13:07:21Z",
+      "updated_at": "2026-10-25T15:41:21Z",
+      "payoutMentionUSD": 50,
       "assignees": [],
-      "commentCount": 9,
+      "commentCount": 18,
       "labels": [
-        "autonomus agents only",
-        "good first issue",
-        "help wanted",
-        "💎 bounty",
-        "high-value",
-        "crypto-eligible",
-        "$1k"
+        "bounty",
+        "bounty: $50",
+        "recipe",
+        "card support",
+        "good first recipe"
       ],
-      "score": 62,
+      "score": 61,
       "status": "POTENTIAL PAYOUT — UNVERIFIED",
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
-      "excerpt": "Admin actions (parameter changes, user management) in the API leave no trace. No accountability. ### Implementation - Add `AuditLog` model: action, actor, target, before/after values, timestamp, ip - Log all write operations from admin endpoints - Add `GET /admin/audit-log` with "
+      "excerpt": "**Pays $50** when a PR adds a tested recipe for this card and is merged. Rules: [BOUNTIES.md](https://github.com/sybil-solutions/.github/blob/main/BOUNTIES.md). | | | |---|---| | Card | `rtx-2080-ti-11gb` | | Model | Qwen3.5-9B, or any model in `registry/models.json` not yet test"
     },
     {
       "id": 5814260745,
@@ -659,10 +598,10 @@
       "html_url": "https://github.com/sybil-solutions/local-ai-registry/issues/219",
       "repository": "sybil-solutions/local-ai-registry",
       "created_at": "2026-10-12T13:07:25Z",
-      "updated_at": "2026-10-24T21:36:29Z",
+      "updated_at": "2026-10-25T14:28:25Z",
       "payoutMentionUSD": 50,
       "assignees": [],
-      "commentCount": 15,
+      "commentCount": 16,
       "labels": [
         "bounty",
         "bounty: $50",
@@ -675,39 +614,15 @@
       "excerpt": "**Pays $50** when a PR adds a tested recipe for this card and is merged. Rules: [BOUNTIES.md](https://github.com/sybil-solutions/.github/blob/main/BOUNTIES.md). | | | |---|---| | Card | `rx-7900-xtx-24gb` | | Model | Qwen3.8-27B, or any model in `registry/models.json` not yet tes"
     },
     {
-      "id": 4452271542,
-      "title": "[ T3 Code ] Implement global search across chat, files, and git history",
-      "html_url": "https://github.com/UnsafeLabs/Bounty-Hunters/issues/860",
-      "repository": "UnsafeLabs/Bounty-Hunters",
-      "created_at": "2026-05-15T07:53:00Z",
-      "updated_at": "2026-10-25T05:41:06Z",
-      "payoutMentionUSD": 115,
-      "assignees": [],
-      "commentCount": 12,
-      "labels": [
-        "good first issue",
-        "help wanted",
-        "💎 bounty",
-        "ai agent friendly",
-        "ai only allowed - no humans",
-        "$115"
-      ],
-      "score": 60,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "The web application lacks a global search feature for finding content across chat messages, files, and git history. ### Implementation - Create `t3code/apps/web/src/components/GlobalSearch.tsx` accessible via Ctrl+Shift+F - Search across three sources: chat message text, file nam"
-    },
-    {
       "id": 5922300294,
       "title": "[BOUNTY] $5.00+ USDC: Adversarial Prompt Injection Bypass on CanaryGuard Firewall",
       "html_url": "https://github.com/ak10082247-max/canaryguard-402/issues/2",
       "repository": "ak10082247-max/canaryguard-402",
       "created_at": "2026-10-19T10:36:17Z",
-      "updated_at": "2026-10-25T01:49:36Z",
+      "updated_at": "2026-10-25T15:44:57Z",
       "payoutMentionUSD": 5,
       "assignees": [],
-      "commentCount": 15,
+      "commentCount": 16,
       "labels": [
         "help wanted",
         "bounty",
@@ -725,10 +640,10 @@
       "html_url": "https://github.com/doomsday-network/bounty-guard/issues/7",
       "repository": "doomsday-network/bounty-guard",
       "created_at": "2026-10-24T15:39:31Z",
-      "updated_at": "2026-10-24T23:33:29Z",
+      "updated_at": "2026-10-25T14:39:55Z",
       "payoutMentionUSD": null,
       "assignees": [],
-      "commentCount": 19,
+      "commentCount": 25,
       "labels": [
         "help wanted",
         "good first issue",
@@ -747,10 +662,10 @@
       "html_url": "https://github.com/capofficial/client/issues/13",
       "repository": "capofficial/client",
       "created_at": "2022-12-07T21:27:52Z",
-      "updated_at": "2026-10-24T22:47:15Z",
+      "updated_at": "2026-10-25T15:41:58Z",
       "payoutMentionUSD": 500,
       "assignees": [],
-      "commentCount": 26,
+      "commentCount": 27,
       "labels": [
         "enhancement",
         "bounty"
@@ -817,30 +732,6 @@
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
       "excerpt": "Bounties that were already open when the watcher started. From now on, each new one gets its own issue. - 🔴 **$150** · [📱 Epic: BAWES Universe Mobile App (Android + iOS)](https://github.com/BAWES-Universe/workadventure-universe/issues/1) - 🔴 **$50** · [BOUNTY: integrate AWS Co"
-    },
-    {
-      "id": 4452268942,
-      "title": "[ T3 Code ] Add sliding window metrics aggregation with Effect.Stream",
-      "html_url": "https://github.com/UnsafeLabs/Bounty-Hunters/issues/856",
-      "repository": "UnsafeLabs/Bounty-Hunters",
-      "created_at": "2026-05-15T07:52:27Z",
-      "updated_at": "2026-10-25T05:41:11Z",
-      "payoutMentionUSD": 380,
-      "assignees": [],
-      "commentCount": 18,
-      "labels": [
-        "good first issue",
-        "help wanted",
-        "💎 bounty",
-        "ai agent friendly",
-        "ai only allowed - no humans",
-        "$380"
-      ],
-      "score": 58,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "The RPC instrumentation in `t3code/apps/server/src/observability/` tracks individual calls but does not aggregate metrics into time-bucketed windows for trend analysis. ### Implementation - Create a `MetricsAggregator` service using Effect.Ref and Effect.Schedule that collects RP"
     },
     {
       "id": 6017814234,
@@ -922,6 +813,185 @@
       "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/Iamgoofball/-tg-station/issues/338 ### 漏洞描述 / Description [BOUNTY] [MONEY] [$50] Implement Dodge Rolling Add dodge rolling to the game; you can't take damage while doing so. 50 dollars. bounty, reward, label:boun"
     },
     {
+      "id": 5738556204,
+      "title": "Import instructions-only Agent Skills into the governed owner catalog",
+      "html_url": "https://github.com/AstralDeep/AstralDeep/issues/334",
+      "repository": "AstralDeep/AstralDeep",
+      "created_at": "2026-10-07T02:48:45Z",
+      "updated_at": "2026-10-25T16:16:02Z",
+      "payoutMentionUSD": null,
+      "assignees": [],
+      "commentCount": 7,
+      "labels": [
+        "enhancement",
+        "bounty",
+        "points:100",
+        "track:interoperability",
+        "track:security",
+        "track:reusability",
+        "priority:p2"
+      ],
+      "score": 55,
+      "status": "VERIFY REWARD AND ELIGIBILITY",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "## Problem or idea Anthropic publishes reusable SKILL.md instructions and the Agent Skills format is now an open standard. Astral already has an owner-scoped, revisioned skill catalog, but no bounded standards-aware import was found. Copying plugin directories would also bring sc"
+    },
+    {
+      "id": 5516825464,
+      "title": "[LIVE] Verified NIM bounty board",
+      "html_url": "https://github.com/Saidur-droid/MergeEarn/issues/33",
+      "repository": "Saidur-droid/MergeEarn",
+      "created_at": "2026-09-20T08:52:35Z",
+      "updated_at": "2026-10-25T16:09:52Z",
+      "payoutMentionUSD": null,
+      "assignees": [],
+      "commentCount": 1,
+      "labels": [],
+      "score": 55,
+      "status": "VERIFY REWARD AND ELIGIBILITY",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "# MergeEarn live community bounty board This is the public, automatically maintained entry point for contributor-friendly MergeEarn work. **Live app:** https://mergeearn.vercel.app **GitHub Contribute page:** https://github.com/Saidur-droid/MergeEarn/contribute A task is paid onl"
+    },
+    {
+      "id": 6015218291,
+      "title": "[ESCROW BOUNTY] ⚡ 1,000 DOOM ($wDOOM on Base) — Star All 5 Doomsday Repos, Test Remote MCP & Mine 1 Pool Share!",
+      "html_url": "https://github.com/doomsday-network/web3-agent-skills/issues/1",
+      "repository": "doomsday-network/web3-agent-skills",
+      "created_at": "2026-10-24T16:42:50Z",
+      "updated_at": "2026-10-25T16:02:51Z",
+      "payoutMentionUSD": null,
+      "assignees": [],
+      "commentCount": 17,
+      "labels": [
+        "help wanted",
+        "good first issue",
+        "bounty"
+      ],
+      "score": 55,
+      "status": "VERIFY REWARD AND ELIGIBILITY",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "## ⚡ [ESCROW BOUNTY] `1,000 DOOM` (`$wDOOM` on Base Mainnet `8453`) — Star All 5 Doomsday Repos, Query `/mcp` & Mine 1 Pool Share! [![Escrow Status](https://img.shields.io/badge/Escrow-LOCKED_ON_CHAIN-00ff88)](https://doomsday.network/escrow/list) [![Base Mainnet wDOOM](https://i"
+    },
+    {
+      "id": 6025444823,
+      "title": "[Bug bounty] XCM API silently strips isFeeAsset from multi-asset currency items, causing transfers to fail with Fee asset is required",
+      "html_url": "https://github.com/paraspell/xcm-tools/issues/2281",
+      "repository": "paraspell/xcm-tools",
+      "created_at": "2026-10-25T14:19:14Z",
+      "updated_at": "2026-10-25T15:26:19Z",
+      "payoutMentionUSD": null,
+      "assignees": [],
+      "commentCount": 3,
+      "labels": [
+        "bug bounty 💰"
+      ],
+      "score": 55,
+      "status": "VERIFY REWARD AND ELIGIBILITY",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "# [Bug bounty] XCM API silently strips isFeeAsset from multi-asset currency items, causing transfers to fail with Fee asset is required ## 🔍 Describe the Bug The XCM API README documents multi-currency transfers across all transfer endpoints as follows: ``` [ {currencySelection,"
+    },
+    {
+      "id": 6025670231,
+      "title": "[Bug bounty] AssetHub swaps crash with unhandled RangeError (NaN BigInt) when slippagePct is omitted or invalid",
+      "html_url": "https://github.com/paraspell/xcm-tools/issues/2285",
+      "repository": "paraspell/xcm-tools",
+      "created_at": "2026-10-25T14:44:30Z",
+      "updated_at": "2026-10-25T15:04:25Z",
+      "payoutMentionUSD": null,
+      "assignees": [],
+      "commentCount": 1,
+      "labels": [
+        "bug bounty 💰"
+      ],
+      "score": 55,
+      "status": "VERIFY REWARD AND ELIGIBILITY",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "# 🐞 Bug Report ## 🔍 Describe the Bug In `packages/swap/src/exchanges/AssetHub/AssetHubExchange.ts`, calling `swapCurrency` without an explicit `slippagePct` or with an unparsed value results in an unhandled engine crash: ``` RangeError: The number NaN cannot be converted to a B"
+    },
+    {
+      "id": 6025441566,
+      "title": "[Bug bounty] validateTransact returns the sender/recipient error instead of throwing, so the guard never runs",
+      "html_url": "https://github.com/paraspell/xcm-tools/issues/2277",
+      "repository": "paraspell/xcm-tools",
+      "created_at": "2026-10-25T14:18:52Z",
+      "updated_at": "2026-10-25T14:37:21Z",
+      "payoutMentionUSD": null,
+      "assignees": [],
+      "commentCount": 0,
+      "labels": [
+        "bug bounty 💰"
+      ],
+      "score": 55,
+      "status": "VERIFY REWARD AND ELIGIBILITY",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "# 🐞 Bug Report ## 🔍 Describe the Bug In `packages/sdk-core/src/transfer/utils/validationUtils.ts`, `validateTransact` checks that the sender matches the destination for a `.transact()` call. Every other check in the same function throws a `ValidationError` when it fails. This o"
+    },
+    {
+      "id": 6025441202,
+      "title": "[Bug bounty] Dedot transform() mangles string numeric currency_id in multi-key objects",
+      "html_url": "https://github.com/paraspell/xcm-tools/issues/2276",
+      "repository": "paraspell/xcm-tools",
+      "created_at": "2026-10-25T14:18:49Z",
+      "updated_at": "2026-10-25T14:37:20Z",
+      "payoutMentionUSD": null,
+      "assignees": [],
+      "commentCount": 0,
+      "labels": [
+        "bug bounty 💰"
+      ],
+      "score": 55,
+      "status": "VERIFY REWARD AND ELIGIBILITY",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "# 🐞 Bug Report ## 🔍 Describe the Bug In `packages/sdk-dedot/src/XcmTransformer.ts`, `transform()` converts a string numeric `currency_id` to the number `123` when it is the only key in the object, but mangles it into `{ type: '123' }` when the object has other keys. The cause i"
+    },
+    {
+      "id": 6025440856,
+      "title": "[Bug bounty] PAPI transform() mangles string numeric currency_id in multi-key objects",
+      "html_url": "https://github.com/paraspell/xcm-tools/issues/2275",
+      "repository": "paraspell/xcm-tools",
+      "created_at": "2026-10-25T14:18:47Z",
+      "updated_at": "2026-10-25T14:37:19Z",
+      "payoutMentionUSD": null,
+      "assignees": [],
+      "commentCount": 0,
+      "labels": [
+        "bug bounty 💰"
+      ],
+      "score": 55,
+      "status": "VERIFY REWARD AND ELIGIBILITY",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "# 🐞 Bug Report ## 🔍 Describe the Bug In `packages/sdk/src/PapiXcmTransformer.ts`, `transform()` converts a string numeric `currency_id` to the number `100` when it is the only key in the object, but mangles it into `{ type: '100' }` when the object has other keys. The cause is "
+    },
+    {
+      "id": 5404683219,
+      "title": "T-09: Platform Engineering Report, the decision register from PT1 to the 2026 dev kit",
+      "html_url": "https://github.com/Arrow-air/project-quiver/issues/256",
+      "repository": "Arrow-air/project-quiver",
+      "created_at": "2026-09-09T20:59:34Z",
+      "updated_at": "2026-10-25T14:21:34Z",
+      "payoutMentionUSD": 500,
+      "assignees": [],
+      "commentCount": 23,
+      "labels": [
+        "task-board",
+        "claimable",
+        "fund-qgb-01"
+      ],
+      "score": 55,
+      "status": "VERIFY REWARD AND ELIGIBILITY",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "**Task board row T-09** | | | |---|---| | Price | $500 in two paid milestones after an unpaid gate: M0 the sample (unpaid, it is the application), M1 the decision register $300, M2 the narrative, images, weight breakdown, and review revisions $200 | | Funding line | QGB-01, Platf"
+    },
+    {
       "id": 6023919218,
       "title": "bounty-watch 2026-10-25: 0 new, 0 resumed, 4 watchlist changes",
       "html_url": "https://github.com/abdulsalam-create/bounty-watch/issues/170",
@@ -939,63 +1009,6 @@
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
       "excerpt": "# bounty-watch report 2026-10-25 ## Watchlist changes (4) - **Trello** (`bc:trello`) https://bugcrowd.com/engagements/trello - https://api.trello.com: new JS bundles: trello-test-page.7755889c.js, trello-test-page.runtime.5bd36ba7.js; removed JS bundles: trello-test-page.37fda582"
-    },
-    {
-      "id": 6017132129,
-      "title": "[ESCROW BOUNTY] ⚡ 1,000 wDOOM (Base Mainnet) — Test DoomPay 3-Line Checkout Session & Benchmark a Mining Share",
-      "html_url": "https://github.com/doomsday-network/doom-pay/issues/1",
-      "repository": "doomsday-network/doom-pay",
-      "created_at": "2026-10-24T20:13:00Z",
-      "updated_at": "2026-10-25T11:26:40Z",
-      "payoutMentionUSD": null,
-      "assignees": [],
-      "commentCount": 29,
-      "labels": [
-        "help wanted",
-        "good first issue",
-        "bounty"
-      ],
-      "score": 55,
-      "status": "VERIFY REWARD AND ELIGIBILITY",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "### ⚡ `1,000.0 wDOOM` (Base Mainnet ERC-20) — DoomPay Integration & Pool Benchmark Bounty **Reward:** **`1,000.0 wDOOM`** (Base Mainnet `0x623c84A5E04bF715018203334b0eFE41696eBC3E`) or **`1,000.0 DOOM`** (Layer-1) **Escrow Status:** `LOCKED` (`100%` on-chain reserve verified via "
-    },
-    {
-      "id": 6022396572,
-      "title": "探索 prompt の着眼語彙を Wordfence 公開事例の頻度で作り直す（wp2shell-bounty-v10）",
-      "html_url": "https://github.com/momoponwork1415-lgtm/wordpress-bounty-harness/issues/522",
-      "repository": "momoponwork1415-lgtm/wordpress-bounty-harness",
-      "created_at": "2026-10-25T08:21:42Z",
-      "updated_at": "2026-10-25T08:53:19Z",
-      "payoutMentionUSD": null,
-      "assignees": [],
-      "commentCount": 1,
-      "labels": [
-        "needs-triage"
-      ],
-      "score": 55,
-      "status": "VERIFY REWARD AND ELIGIBILITY",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "## 問い 直近 1 年の Wordfence 公開事例（未認証 / subscriber から届く Programme 内 5 種、2,812 件）に沿って探索の着眼語彙を書き直すと、SQLi・file/RCE・object injection の候補が増えるか。 ## 背景 - 市場の種別比は stored XSS 40%、SQLi 19%、file/RCE 18%、ATO 18%、object injection 5%。本番の scope 内 Finding 198 件は XSS 45%、SQLi 1%、file/RCE 5%、object inj"
-    },
-    {
-      "id": 5516825464,
-      "title": "[LIVE] Verified NIM bounty board",
-      "html_url": "https://github.com/Saidur-droid/MergeEarn/issues/33",
-      "repository": "Saidur-droid/MergeEarn",
-      "created_at": "2026-09-20T08:52:35Z",
-      "updated_at": "2026-10-25T06:49:27Z",
-      "payoutMentionUSD": null,
-      "assignees": [],
-      "commentCount": 1,
-      "labels": [],
-      "score": 55,
-      "status": "VERIFY REWARD AND ELIGIBILITY",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "# MergeEarn live community bounty board This is the public, automatically maintained entry point for contributor-friendly MergeEarn work. **Live app:** https://mergeearn.vercel.app **GitHub Contribute page:** https://github.com/Saidur-droid/MergeEarn/contribute A task is paid onl"
     },
     {
       "id": 6014640631,
@@ -1018,25 +1031,6 @@
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
       "excerpt": "### ⭐ 750 DOOM (`$wDOOM` on Base Mainnet) — 4-Repo Star + 1-Command Live Pool Share Bounty **On-Chain Escrow Status:** 🟢 `SAFE_WITH_ESCROW` (`onchain_utxo_and_base_erc20_verified`) - **Base Mainnet `wDOOM` Contract:** [`0x623c84A5E04bF715018203334b0eFE41696eBC3E`](https://basesc"
-    },
-    {
-      "id": 6020951064,
-      "title": "bounty-watch 2026-10-25: 0 new, 0 resumed, 2 watchlist changes",
-      "html_url": "https://github.com/abdulsalam-create/bounty-watch/issues/169",
-      "repository": "abdulsalam-create/bounty-watch",
-      "created_at": "2026-10-25T04:46:32Z",
-      "updated_at": "2026-10-25T04:46:32Z",
-      "payoutMentionUSD": null,
-      "assignees": [],
-      "commentCount": 0,
-      "labels": [
-        "bounty-watch"
-      ],
-      "score": 55,
-      "status": "VERIFY REWARD AND ELIGIBILITY",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "# bounty-watch report 2026-10-25 ## Watchlist changes (2) - **Trello** (`bc:trello`) https://bugcrowd.com/engagements/trello - changelog updated: https://api.trello.com/docs/changelog _[changelog]_ - **Trello** (`bc:trello`) https://bugcrowd.com/engagements/trello - changelog upd"
     },
     {
       "id": 5872571042,
@@ -1098,27 +1092,6 @@
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
       "excerpt": "**App:** `apps/board` **Amount:** not yet funded **Base commit:** `5c76d40` **Checker:** [`bounties/board-wip-limit/check.yml`](https://github.com/amiller/bounty-arcade/blob/8232383/bounties/board-wip-limit/check.yml) at `8232383`, run with `node check.mjs bounties/board-wip-limi"
-    },
-    {
-      "id": 6015218291,
-      "title": "[ESCROW BOUNTY] ⚡ 1,000 DOOM ($wDOOM on Base) — Star All 5 Doomsday Repos, Test Remote MCP & Mine 1 Pool Share!",
-      "html_url": "https://github.com/doomsday-network/web3-agent-skills/issues/1",
-      "repository": "doomsday-network/web3-agent-skills",
-      "created_at": "2026-10-24T16:42:50Z",
-      "updated_at": "2026-10-24T21:54:19Z",
-      "payoutMentionUSD": null,
-      "assignees": [],
-      "commentCount": 16,
-      "labels": [
-        "help wanted",
-        "good first issue",
-        "bounty"
-      ],
-      "score": 55,
-      "status": "VERIFY REWARD AND ELIGIBILITY",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "## ⚡ [ESCROW BOUNTY] `1,000 DOOM` (`$wDOOM` on Base Mainnet `8453`) — Star All 5 Doomsday Repos, Query `/mcp` & Mine 1 Pool Share! [![Escrow Status](https://img.shields.io/badge/Escrow-LOCKED_ON_CHAIN-00ff88)](https://doomsday.network/escrow/list) [![Base Mainnet wDOOM](https://i"
     },
     {
       "id": 6014641226,
@@ -1203,6 +1176,23 @@
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
       "excerpt": "**App:** `apps/flight` **Amount:** not yet funded **Base commit:** `5c76d40` **Checker:** [`bounties/flight-replay/check.yml`](https://github.com/amiller/bounty-arcade/blob/8232383/bounties/flight-replay/check.yml) at `8232383`, run with `node check.mjs bounties/flight-replay/che"
+    },
+    {
+      "id": 5820258875,
+      "title": "[Bounty Solution] highlight/highlight#8032: document sveltekit backend instrumentation",
+      "html_url": "https://github.com/chiuhehe1-design/conm/issues/10",
+      "repository": "chiuhehe1-design/conm",
+      "created_at": "2026-10-12T20:51:16Z",
+      "updated_at": "2026-10-22T16:55:07Z",
+      "payoutMentionUSD": null,
+      "assignees": [],
+      "commentCount": 1,
+      "labels": [],
+      "score": 55,
+      "status": "VERIFY REWARD AND ELIGIBILITY",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "# PR Blueprint — Issue #8032 Repository: highlight/highlight Issue URL: https://github.com/highlight/highlight/issues/8032 Generated: 2026-10-13T05:51:15.926501 ## Analysis The issue (HIG-4434) requests documentation of SvelteKit backend instrumentation for highlight.io. The `hig"
     }
   ],
   "disclaimer": "No verified payouts or earnings; these are public issue candidates. Manually confirm funding, assignment, eligibility, security and payment terms. Never pay to join, disclose secrets or begin work without terms."
