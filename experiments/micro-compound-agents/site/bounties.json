@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-26T20:30:15.692Z",
+  "updatedAt": "2026-10-27T00:27:21.452Z",
   "state": "RESEARCH_READY",
   "sources": [
     "GitHub issue search"
@@ -14,26 +14,6 @@
   "scanCount": 310,
   "errors": [],
   "opportunities": [
-    {
-      "id": 5407238541,
-      "title": "[Bounty: $650] JSON UI: Dynamic Container Inventory Text Slicing Overflow in hud_screen.json",
-      "html_url": "https://github.com/Senthemodder/aquarium-of-gullibles/issues/3",
-      "repository": "Senthemodder/aquarium-of-gullibles",
-      "created_at": "2026-09-10T03:05:51Z",
-      "updated_at": "2026-10-25T17:45:19Z",
-      "payoutMentionUSD": 650,
-      "assignees": [],
-      "commentCount": 13,
-      "labels": [
-        "help wanted",
-        "bounty"
-      ],
-      "score": 79,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "### Bounty: USDC (Escrow Locked) ### Description In ui/hud_screen.json, custom inventory text slicing overflows on item names > 16 characters on mobile viewport profiles. ` [JSON UI Engine][Warning] Binding resolution failed for #inventory_text_slice. Expression '%.16s' failed: i"
-    },
     {
       "id": 5862963633,
       "title": "Bounty Golden Path v1: qualified paid-issue discovery → governed execution → verified payout",
@@ -72,43 +52,6 @@
       "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/Senthemodder/solana-anchor-runtime/issues/1 ### 漏洞描述 / Description [Bounty: $1,500] Critical: Missing Account Ownership Validation in Anchor CPI Dispatcher ### Severity: Critical ### Reward: ,500 USDC (Escrow Loc"
     },
     {
-      "id": 5485922862,
-      "title": "[Bounty] [BOUNTY: $1,500] BOUNTY FOR IMPLEMENTING A DJANGO HELLO WORLD INTO THIS REPO",
-      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1584",
-      "repository": "zhangjiayang6835-cyber/bounty-plaza",
-      "created_at": "2026-09-17T10:10:06Z",
-      "updated_at": "2026-10-25T17:57:57Z",
-      "payoutMentionUSD": 1500,
-      "assignees": [],
-      "commentCount": 4,
-      "labels": [
-        "bounty",
-        "real"
-      ],
-      "score": 71,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/OmniBlocks/bountyfarmer/issues/18 ### 漏洞描述 / Description [BOUNTY: $1,500] BOUNTY FOR IMPLEMENTING A DJANGO HELLO WORLD INTO THIS REPO Do you want FREE MONEY? 100% FREE? 1000%? EVEN MORE? YES, OF COURSE YOU DO! Al"
-    },
-    {
-      "id": 6040157157,
-      "title": "bounty digest 2026-10-26",
-      "html_url": "https://github.com/airdropia/earn-ops/issues/18",
-      "repository": "airdropia/earn-ops",
-      "created_at": "2026-10-26T13:00:10Z",
-      "updated_at": "2026-10-26T13:35:01Z",
-      "payoutMentionUSD": 1000,
-      "assignees": [],
-      "commentCount": 0,
-      "labels": [],
-      "score": 70,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "Automated digest 2026-10-26T13:00:09.563Z ## pool payment state - asi: paymentMode=disabled committed=0 cap=$1,000 chain=robinhood status=active - canonry: paymentMode=disabled committed=0 cap=$0 chain=solana status=paused - darling-arm64: paymentMode=disabled committed=0 cap=$0 "
-    },
-    {
       "id": 6020799940,
       "title": "[BOUNTY] Medium: Unchecked and Uninitialized Validator Token ATA in paraloom-cli validator register and register_validator causes runtime CPI deserialization failure (AccountNotInitialized) and silent gas burn for new va",
       "html_url": "https://github.com/paraloom-labs/paraloom-core/issues/1215",
@@ -144,6 +87,93 @@
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
       "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/Parabola-org/parabola/issues/12 ### 漏洞描述 / Description [Bounty: $75] Expose retry/backoff knobs for Stellar allowance wait and RPC-lag retry **Context** Two recovery loops in `src/chains/stellar.ts` have hard-cod"
+    },
+    {
+      "id": 6049849781,
+      "title": "[theorem bounty] Run-138 C5 maps a sharpness-and-cancellation claim to a cancellation-only theorem",
+      "html_url": "https://github.com/jdhart81/viridis-canon/issues/151",
+      "repository": "jdhart81/viridis-canon",
+      "created_at": "2026-10-26T23:16:24Z",
+      "updated_at": "2026-10-27T00:07:36Z",
+      "payoutMentionUSD": 50,
+      "assignees": [],
+      "commentCount": 1,
+      "labels": [],
+      "score": 66,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "### Run Run-138 ### Theorem or witness `Viridis.GaianSystems.AlignmentCone.cancellation_gives_perfect_alignment` — the sole `aristotle_target` for C5. ### Category Misstated certified coverage / omitted sharpness half of a two-part formal claim. ### Evidence The [Run-138 claim in"
+    },
+    {
+      "id": 6050296630,
+      "title": "[theorem bounty] Run-135 C4 asserts a fair-bit finite-law witness but certifies only supplied entropy numbers",
+      "html_url": "https://github.com/jdhart81/viridis-canon/issues/154",
+      "repository": "jdhart81/viridis-canon",
+      "created_at": "2026-10-26T23:57:37Z",
+      "updated_at": "2026-10-27T00:07:13Z",
+      "payoutMentionUSD": 50,
+      "assignees": [],
+      "commentCount": 1,
+      "labels": [],
+      "score": 66,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "### Run Run-135 ### Theorem or witness name `Viridis.Applications.SufficientSanitization.sufficient_sanitization_nonvacuous` ### Category Misstated / non-vacuity witness does not construct the finite-distribution example identified in the certified claim inventory. ### Specific c"
+    },
+    {
+      "id": 6050304694,
+      "title": "[theorem bounty] Run-139 C2's box-and-budget optimiser is absent from its four certified algebraic targets",
+      "html_url": "https://github.com/jdhart81/viridis-canon/issues/155",
+      "repository": "jdhart81/viridis-canon",
+      "created_at": "2026-10-26T23:58:26Z",
+      "updated_at": "2026-10-27T00:03:30Z",
+      "payoutMentionUSD": 50,
+      "assignees": [],
+      "commentCount": 1,
+      "labels": [],
+      "score": 66,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "### Run Run-139 ### Theorem or witness name `Viridis.ThermodynamicEconomics.RetrofitWaterFilling.clippedAllocation_nonnegative`, `clippedAllocation_le_one`, `interior_stationarity`, `coordinate_improvement_identity` (the four `aristotle_target` entries for claim C2). ### Category"
+    },
+    {
+      "id": 6049818758,
+      "title": "[theorem bounty] Run-131 C131-01 maps objective-derived switch thresholds to an ordering-only Lean theorem",
+      "html_url": "https://github.com/jdhart81/viridis-canon/issues/150",
+      "repository": "jdhart81/viridis-canon",
+      "created_at": "2026-10-26T23:13:36Z",
+      "updated_at": "2026-10-26T23:18:42Z",
+      "payoutMentionUSD": 50,
+      "assignees": [],
+      "commentCount": 1,
+      "labels": [],
+      "score": 66,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "### Run Run-131 ### Theorem or witness name `Viridis.Cognition.CognitiveSwitchingHysteresis.threshold_order` ### Category Misstated / formal-coverage mismatch (the theorem mapped to C131-01 does not establish the objective-derived threshold claim). ### Argument The [Run-131 seale"
+    },
+    {
+      "id": 6049286905,
+      "title": "[bounty] Run-123: C1 maps KL decomposition to a definitional ledger identity",
+      "html_url": "https://github.com/jdhart81/viridis-canon/issues/149",
+      "repository": "jdhart81/viridis-canon",
+      "created_at": "2026-10-26T22:27:21Z",
+      "updated_at": "2026-10-26T22:44:34Z",
+      "payoutMentionUSD": 50,
+      "assignees": [],
+      "commentCount": 1,
+      "labels": [
+        "theorem-bounty"
+      ],
+      "score": 66,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "### Run Run-123 ### Theorem or witness name Viridis.Run123.kl_chain_rule_habitable_partition ### Category Misstated (the Lean statement does not match the paper's claim) ### Your argument Source comparison at commit 26c97dea3e239aef1b13610bd0fd251b84bc8bfb. This is a possible for"
     },
     {
       "id": 6007652142,
@@ -319,26 +349,6 @@
       "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/vlad441/ncpp/issues/1 ### 漏洞描述 / Description Задача: Дописать тесты ## Задача: Дописать тесты Нужно дописать тесты для непокрытых функций и методов для модулей которые зафиксированы документацией (например, парсе"
     },
     {
-      "id": 5950653348,
-      "title": "[Bounty] [TEST BOUNTY] Fix typo in README",
-      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4061",
-      "repository": "zhangjiayang6835-cyber/bounty-plaza",
-      "created_at": "2026-10-20T22:25:17Z",
-      "updated_at": "2026-10-26T04:09:08Z",
-      "payoutMentionUSD": 50,
-      "assignees": [],
-      "commentCount": 10,
-      "labels": [
-        "bounty",
-        "real"
-      ],
-      "score": 66,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/jomaaabbe78-spec/bookningsapp/issues/1 ### 漏洞描述 / Description [TEST BOUNTY] Fix typo in README **Bounty: $50** There is a typo in README.md: \"Welcom\" should be \"Welcome\". **Reward:** $50 via PayPal/Crypto **Conta"
-    },
-    {
       "id": 5387619561,
       "title": "[Bounty] [Bounty: ] Race Condition in Distributed Async Event Queue during High Concurren",
       "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1217",
@@ -357,6 +367,23 @@
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
       "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/Senthemodder/claude-honeypot/issues/1 ### 漏洞描述 / Description [Bounty: ] Race Condition in Distributed Async Event Queue during High Concurrency # [Bounty: $250] Race Condition in Distributed Async Event Queue dur"
+    },
+    {
+      "id": 6031278300,
+      "title": "Claiming Bounty #7 - Blog Publishing System ($200)",
+      "html_url": "https://github.com/bujiproject-art/agentmidasopendevteam/issues/150",
+      "repository": "bujiproject-art/agentmidasopendevteam",
+      "created_at": "2026-10-26T00:46:30Z",
+      "updated_at": "2026-10-26T21:39:01Z",
+      "payoutMentionUSD": 200,
+      "assignees": [],
+      "commentCount": 1,
+      "labels": [],
+      "score": 65,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "Claiming **Bounty #7** (Bounty #7: Blog Publishing System ($200)) per `BOUNTIES.md`. - **Implementation**: Self-contained React + TypeScript + Tailwind CSS package under `bounties/07-blog-publishing-system/` following the Agent Midas 6-layer security and accessibility standards. "
     },
     {
       "id": 5878910737,
@@ -465,23 +492,6 @@
       "excerpt": "## Severity **Medium ($150 USDC — Stage 1 On-Chain Bridge & Dual-Stake Staking Scope)** ## Settlement Wallet (USDC Base / EVM — Mandatory Invariant) `0x8366bCe3a2D379Dec7656D7A67015789FaF999f20` ## Affected Files - `programs/paraloom/src/lib.rs` (`withdraw_unbonded_stake`, `regis"
     },
     {
-      "id": 6030823216,
-      "title": "[BOUNTY] Medium: Merkle root history capacity mismatch between on-chain verifier (64) and off-chain tree (256) causes settlement liveness aborts",
-      "html_url": "https://github.com/paraloom-labs/paraloom-core/issues/1230",
-      "repository": "paraloom-labs/paraloom-core",
-      "created_at": "2026-10-25T23:54:55Z",
-      "updated_at": "2026-10-26T14:10:31Z",
-      "payoutMentionUSD": 150,
-      "assignees": [],
-      "commentCount": 0,
-      "labels": [],
-      "score": 64,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "## Severity Medium ($150 USDC - Stage 1 Shielded Pool Settlement & Privacy Scope) ## Settlement Wallet (USDC Base / EVM - Mandatory Invariant) 0x3a5E08708dd1CF22AAe94f913Ab69b17b80a3dC5 ## Target Repository & Subsystems - paraloom-labs/paraloom-core - programs/paraloom/src/merkle"
-    },
-    {
       "id": 5986552924,
       "title": "[Bounty] 📋 2 open bounties right now",
       "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4080",
@@ -519,6 +529,25 @@
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
       "excerpt": "Bounties that were already open when the watcher started. From now on, each new one gets its own issue. - 🔴 **$150** · [📱 Epic: BAWES Universe Mobile App (Android + iOS)](https://github.com/BAWES-Universe/workadventure-universe/issues/1) - 🔴 **$50** · [BOUNTY: integrate AWS Co"
+    },
+    {
+      "id": 6003832923,
+      "title": "USDC-quoted pairs not having the correct marketcap displayed in tools",
+      "html_url": "https://github.com/blake-guthrie/GLASS/issues/1",
+      "repository": "blake-guthrie/GLASS",
+      "created_at": "2026-10-23T19:03:20Z",
+      "updated_at": "2026-10-27T00:11:54Z",
+      "payoutMentionUSD": 100,
+      "assignees": [],
+      "commentCount": 15,
+      "labels": [
+        "bounty"
+      ],
+      "score": 63,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "Fix this problem to get paid in fees of $100"
     },
     {
       "id": 1242048508,
@@ -640,102 +669,63 @@
       "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/doomsday-network/doomsday/issues/39 ### 漏洞描述 / Description [STEAM VAULT] 🎮 Exchange 100,000 DOOM ($wDOOM) for a $10 Steam Digital Gift Card! (10 / 10 Available — $100 USD Vault) ### 🎮 DoomVault — Redeem `100,00"
     },
     {
-      "id": 6003832923,
-      "title": "USDC-quoted pairs not having the correct marketcap displayed in tools",
-      "html_url": "https://github.com/blake-guthrie/GLASS/issues/1",
-      "repository": "blake-guthrie/GLASS",
-      "created_at": "2026-10-23T19:03:20Z",
-      "updated_at": "2026-10-25T20:28:15Z",
-      "payoutMentionUSD": 100,
-      "assignees": [],
-      "commentCount": 14,
-      "labels": [
-        "bounty"
-      ],
-      "score": 63,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "Fix this problem to get paid in fees of $100"
-    },
-    {
-      "id": 5874536083,
-      "title": "[Bounty] [Bounty: $90] Add ESLint with typescript-eslint and wire it into CI",
-      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1905",
-      "repository": "zhangjiayang6835-cyber/bounty-plaza",
-      "created_at": "2026-10-15T21:54:19Z",
-      "updated_at": "2026-10-25T17:16:34Z",
-      "payoutMentionUSD": 90,
-      "assignees": [],
-      "commentCount": 12,
-      "labels": [
-        "bounty",
-        "real"
-      ],
-      "score": 63,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/Parabola-org/parabola/issues/11 ### 漏洞描述 / Description [Bounty: $90] Add ESLint with typescript-eslint and wire it into CI **Context** CI (`.github/workflows/ci.yml`) runs typecheck, tests, build, commitlint, and"
-    },
-    {
-      "id": 5874536944,
-      "title": "[Bounty] [Bounty: $105] Tolerate transient Iris failures in getAttestation and resolveBur",
-      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1913",
-      "repository": "zhangjiayang6835-cyber/bounty-plaza",
-      "created_at": "2026-10-15T21:54:23Z",
-      "updated_at": "2026-10-25T16:58:29Z",
-      "payoutMentionUSD": 105,
-      "assignees": [],
-      "commentCount": 10,
-      "labels": [
-        "bounty",
-        "real"
-      ],
-      "score": 63,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/Parabola-org/parabola/issues/3 ### 漏洞描述 / Description [Bounty: $105] Tolerate transient Iris failures in getAttestation and resolveBurn **Context** `pollForAttestation` in `src/iris/poll.ts:133-170` tolerates up "
-    },
-    {
-      "id": 5408447125,
-      "title": "[Bounty] [Bounty: $650] JSON UI: Dynamic Container Inventory Text Slicing Overflow in hud",
-      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1335",
-      "repository": "zhangjiayang6835-cyber/bounty-plaza",
-      "created_at": "2026-09-10T06:04:25Z",
-      "updated_at": "2026-10-25T17:43:34Z",
-      "payoutMentionUSD": 650,
-      "assignees": [],
-      "commentCount": 42,
-      "labels": [
-        "bounty",
-        "real"
-      ],
-      "score": 62,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/Senthemodder/aquarium-of-gullibles/issues/3 ### 漏洞描述 / Description [Bounty: $650] JSON UI: Dynamic Container Inventory Text Slicing Overflow in hud_screen.json ### Bounty: USDC (Escrow Locked) ### Description In "
-    },
-    {
-      "id": 6027465455,
-      "title": "omi bounty digest: 2 unclaimed of 10",
-      "html_url": "https://github.com/airdropia/earn-ops/issues/16",
-      "repository": "airdropia/earn-ops",
-      "created_at": "2026-10-25T17:52:51Z",
-      "updated_at": "2026-10-26T13:18:02Z",
+      "id": 6050255249,
+      "title": "[bounty] Run-133: C1 factorization is assumed by its assigned theorem",
+      "html_url": "https://github.com/jdhart81/viridis-canon/issues/152",
+      "repository": "jdhart81/viridis-canon",
+      "created_at": "2026-10-26T23:53:35Z",
+      "updated_at": "2026-10-27T00:17:50Z",
       "payoutMentionUSD": 50,
       "assignees": [],
-      "commentCount": 0,
+      "commentCount": 1,
+      "labels": [],
+      "score": 61,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "### Run Run-133 ### Theorem or witness name `Viridis.HDFM.CorridorOverlapDuality.synchrony_dividend_identity` ### Category Misstated: C1's finite-path factorization is a hypothesis of its assigned theorem. ### Your argument The [frozen claim inventory, C1](https://github.com/jdha"
+    },
+    {
+      "id": 5814260745,
+      "title": "Bounty $50: recipe for RX 7900 XTX 24 GB",
+      "html_url": "https://github.com/sybil-solutions/local-ai-registry/issues/219",
+      "repository": "sybil-solutions/local-ai-registry",
+      "created_at": "2026-10-12T13:07:25Z",
+      "updated_at": "2026-10-26T20:35:53Z",
+      "payoutMentionUSD": 50,
+      "assignees": [],
+      "commentCount": 17,
       "labels": [
-        "bounty-digest"
+        "bounty",
+        "bounty: $50",
+        "recipe"
       ],
       "score": 61,
       "status": "POTENTIAL PAYOUT — UNVERIFIED",
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
-      "excerpt": "The omi bounty proposals that nobody has taken yet. Scanned 10 open proposals, 2 unclaimed. ### #23720 [Bounty proposal] fix(cli): harden conversations_to_tsv against speaker 0 drops, lone surrogates, and non-atomic writes ( proposed) Amount: $50 Files: sdks/python-cli/examples/c"
+      "excerpt": "**Pays $50** when a PR adds a tested recipe for this card and is merged. Rules: [BOUNTIES.md](https://github.com/sybil-solutions/.github/blob/main/BOUNTIES.md). | | | |---|---| | Card | `rx-7900-xtx-24gb` | | Model | Qwen3.8-27B, or any model in `registry/models.json` not yet tes"
+    },
+    {
+      "id": 5922300294,
+      "title": "[BOUNTY] $5.00+ USDC: Adversarial Prompt Injection Bypass on CanaryGuard Firewall",
+      "html_url": "https://github.com/ak10082247-max/canaryguard-402/issues/2",
+      "repository": "ak10082247-max/canaryguard-402",
+      "created_at": "2026-10-19T10:36:17Z",
+      "updated_at": "2026-10-27T00:03:13Z",
+      "payoutMentionUSD": 5,
+      "assignees": [],
+      "commentCount": 20,
+      "labels": [
+        "help wanted",
+        "bounty",
+        "security"
+      ],
+      "score": 60,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "### 🎯 Objective CanaryGuard defends autonomous AI agents using deterministic, sub-millisecond heuristic filtering. To win the bounty, submit an adversarial prompt injection or instruction override payload that slips past Strict Mode with status `\"clean\"` (Risk: 0) instead of bei"
     },
     {
       "id": 6038800428,
@@ -784,68 +774,6 @@
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
       "excerpt": "## 背景 MisakaNet 的\"CI 失败 → 课程建议 / 自动 intake\"闭环已做成**外部可复用 action**（`Ikalus1988/MisakaNet@v1`，2026-09-20 迁到仓库根并上架 GitHub Marketplace；旧写法 `.github/actions/misaka-intake-bot@main` 因 `owner/repo@ref` 引用不到子目录而失效，见 PR #1932）。本仓自用 dogfood 基线已验证决策质量（22 样本：hit 9/9 对症、0 误配、噪音正确拦截）。 **现状问题**："
-    },
-    {
-      "id": 5692019131,
-      "title": "Help us test the DSH web sidebar in a real DSH host",
-      "html_url": "https://github.com/zsxh1990/pr-genius/issues/102",
-      "repository": "zsxh1990/pr-genius",
-      "created_at": "2026-10-03T17:44:41Z",
-      "updated_at": "2026-10-26T09:29:33Z",
-      "payoutMentionUSD": null,
-      "assignees": [],
-      "commentCount": 10,
-      "labels": [
-        "help wanted",
-        "user-feedback",
-        "bounty"
-      ],
-      "score": 60,
-      "status": "VERIFY REWARD AND ELIGIBILITY",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "## Why The DSH plugin's four UI surfaces — sidebar footer action, conversation tab, right-pane panel, and settings — have **never been mounted in a live DSH runtime**. Everything we have is: - TypeScript compilation - unit tests - static contract conformance (`scripts/check_dsh_p"
-    },
-    {
-      "id": 5922300294,
-      "title": "[BOUNTY] $5.00+ USDC: Adversarial Prompt Injection Bypass on CanaryGuard Firewall",
-      "html_url": "https://github.com/ak10082247-max/canaryguard-402/issues/2",
-      "repository": "ak10082247-max/canaryguard-402",
-      "created_at": "2026-10-19T10:36:17Z",
-      "updated_at": "2026-10-25T17:49:24Z",
-      "payoutMentionUSD": 5,
-      "assignees": [],
-      "commentCount": 19,
-      "labels": [
-        "help wanted",
-        "bounty",
-        "security"
-      ],
-      "score": 60,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "### 🎯 Objective CanaryGuard defends autonomous AI agents using deterministic, sub-millisecond heuristic filtering. To win the bounty, submit an adversarial prompt injection or instruction override payload that slips past Strict Mode with status `\"clean\"` (Risk: 0) instead of bei"
-    },
-    {
-      "id": 5519781492,
-      "title": "Bounty: hunt bugs across the entire Vista framework",
-      "html_url": "https://github.com/Mantitup-Org/vista/issues/61",
-      "repository": "Mantitup-Org/vista",
-      "created_at": "2026-09-20T18:51:05Z",
-      "updated_at": "2026-10-25T17:35:49Z",
-      "payoutMentionUSD": null,
-      "assignees": [],
-      "commentCount": 19,
-      "labels": [
-        "help wanted",
-        "bounty"
-      ],
-      "score": 60,
-      "status": "VERIFY REWARD AND ELIGIBILITY",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "## Goal Find real bugs anywhere in Vista — not only one feature. This is a framework-wide bounty hunt. Scope is the published packages and the live docs app: - `@vistagenic/vista` (RSC/SSR, `vista/link`, `vista/image`, `vista/theme`, `vista/auth`, `vista/ai`, `vista/stack`, `vist"
     },
     {
       "id": 4452127725,
@@ -988,36 +916,58 @@
       "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/Iamgoofball/-tg-station/issues/338 ### 漏洞描述 / Description [BOUNTY] [MONEY] [$50] Implement Dodge Rolling Add dodge rolling to the game; you can't take damage while doing so. 50 dollars. bounty, reward, label:boun"
     },
     {
-      "id": 5767110338,
-      "title": "Cut bounty-infra over to the code-owner approval gate",
-      "html_url": "https://github.com/glunk-works/claude-workbench/issues/406",
-      "repository": "glunk-works/claude-workbench",
-      "created_at": "2026-10-08T18:42:19Z",
-      "updated_at": "2026-10-26T20:29:17Z",
+      "id": 6049854494,
+      "title": "Fix README commands that match no hanzo subcommand",
+      "html_url": "https://github.com/hanzoai/cli/issues/11",
+      "repository": "hanzoai/cli",
+      "created_at": "2026-10-26T23:16:49Z",
+      "updated_at": "2026-10-27T00:19:02Z",
+      "payoutMentionUSD": null,
+      "assignees": [],
+      "commentCount": 5,
+      "labels": [
+        "documentation",
+        "good first issue",
+        "bounty",
+        "bounty:starter"
+      ],
+      "score": 55,
+      "status": "VERIFY REWARD AND ELIGIBILITY",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "## Summary Four commands in the README match no `hanzo` subcommand, and the README says an unknown first word is read as a coding task. Typing `hanzo clusters list` as written starts an AI session about \"clusters list\". One docs link also returns 404. ## Evidence Checked at `5ce6"
+    },
+    {
+      "id": 5928154106,
+      "title": "[find opt-out] NATIONAL STUDENT CLEARINGHOUSE: find the official opt-out route",
+      "html_url": "https://github.com/lizTheDeveloper/privacy-the-game/issues/400",
+      "repository": "lizTheDeveloper/privacy-the-game",
+      "created_at": "2026-10-19T17:07:54Z",
+      "updated_at": "2026-10-27T00:02:48Z",
       "payoutMentionUSD": null,
       "assignees": [],
       "commentCount": 1,
       "labels": [
-        "type/chore",
-        "status/needs-human",
-        "area/identity"
+        "bounty",
+        "bounty: medium",
+        "data-brokers"
       ],
       "score": 55,
       "status": "VERIFY REWARD AND ELIGIBILITY",
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
-      "excerpt": "## What Follow `plugins/way-of-working/reference/cutover.md` (shipped in v0.28.0) on this repo. Its ruleset does not yet require the gate's check, so the runbook's second order applies: PR 1, then the pinned check added to the checks ruleset, then fresh gate runs, with no gated P"
+      "excerpt": "**What**: Find NATIONAL STUDENT CLEARINGHOUSE's official opt-out or \"do not sell\" route, or show that none exists. **Why it matters**: Players of Reclaim City use these links to opt out of data brokers, and the dataset is cited by journalists, so a wrong or dead link costs real p"
     },
     {
-      "id": 5928167204,
-      "title": "[find opt-out] SageStream LLC: find the official opt-out route",
-      "html_url": "https://github.com/lizTheDeveloper/privacy-the-game/issues/409",
+      "id": 5928155254,
+      "title": "[find opt-out] Nielsen Marketing Cloud: find the official opt-out route",
+      "html_url": "https://github.com/lizTheDeveloper/privacy-the-game/issues/401",
       "repository": "lizTheDeveloper/privacy-the-game",
-      "created_at": "2026-10-19T17:08:46Z",
-      "updated_at": "2026-10-26T20:18:43Z",
+      "created_at": "2026-10-19T17:07:59Z",
+      "updated_at": "2026-10-26T23:58:29Z",
       "payoutMentionUSD": null,
       "assignees": [],
-      "commentCount": 2,
+      "commentCount": 1,
       "labels": [
         "bounty",
         "bounty: medium",
@@ -1027,18 +977,105 @@
       "status": "VERIFY REWARD AND ELIGIBILITY",
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
-      "excerpt": "**What**: Find SageStream LLC's official opt-out or \"do not sell\" route, or show that none exists. **Why it matters**: Players of Reclaim City use these links to opt out of data brokers, and the dataset is cited by journalists, so a wrong or dead link costs real people real time."
+      "excerpt": "**What**: Find Nielsen Marketing Cloud's official opt-out or \"do not sell\" route, or show that none exists. **Why it matters**: Players of Reclaim City use these links to opt out of data brokers, and the dataset is cited by journalists, so a wrong or dead link costs real people r"
     },
     {
-      "id": 5928171492,
-      "title": "[find opt-out] Vintel AI: find the official opt-out route",
-      "html_url": "https://github.com/lizTheDeveloper/privacy-the-game/issues/413",
-      "repository": "lizTheDeveloper/privacy-the-game",
-      "created_at": "2026-10-19T17:09:04Z",
-      "updated_at": "2026-10-26T20:09:43Z",
+      "id": 6049850555,
+      "title": "Fix the README Validation example: val.NewValidator does not exist",
+      "html_url": "https://github.com/hanzoai/orm/issues/6",
+      "repository": "hanzoai/orm",
+      "created_at": "2026-10-26T23:16:28Z",
+      "updated_at": "2026-10-26T23:58:18Z",
       "payoutMentionUSD": null,
       "assignees": [],
-      "commentCount": 2,
+      "commentCount": 3,
+      "labels": [
+        "documentation",
+        "good first issue",
+        "bounty",
+        "bounty:starter"
+      ],
+      "score": 55,
+      "status": "VERIFY REWARD AND ELIGIBILITY",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "## Summary The README's Validation example uses functions that do not exist, so it does not compile. The real `val` API is different and already tested. ## Evidence Checked at `482e1ad`. - `README.md:131-134` calls `val.NewValidator()`, `v.CheckString(\"email\", user.Email)`, `.Req"
+    },
+    {
+      "id": 6049847425,
+      "title": "Fix README: it documents sqlite APIs that do not exist",
+      "html_url": "https://github.com/hanzoai/sqlite/issues/3",
+      "repository": "hanzoai/sqlite",
+      "created_at": "2026-10-26T23:16:12Z",
+      "updated_at": "2026-10-26T23:57:16Z",
+      "payoutMentionUSD": null,
+      "assignees": [],
+      "commentCount": 1,
+      "labels": [
+        "documentation",
+        "good first issue",
+        "bounty",
+        "bounty:starter"
+      ],
+      "score": 55,
+      "status": "VERIFY REWARD AND ELIGIBILITY",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "## Summary The README names four symbols that are not in the package and says the pure-Go build cannot encrypt, while the code and its tests encrypt on every build. Copying the \"Encryption\" snippet gives a compile error. ## Evidence Checked at `af225db`. - `README.md:73` calls `s"
+    },
+    {
+      "id": 6049851354,
+      "title": "Fix the README docs link and complete the Packages table",
+      "html_url": "https://github.com/hanzoai/orm/issues/7",
+      "repository": "hanzoai/orm",
+      "created_at": "2026-10-26T23:16:32Z",
+      "updated_at": "2026-10-26T23:56:21Z",
+      "payoutMentionUSD": null,
+      "assignees": [],
+      "commentCount": 1,
+      "labels": [
+        "documentation",
+        "good first issue",
+        "bounty",
+        "bounty:starter"
+      ],
+      "score": 55,
+      "status": "VERIFY REWARD AND ELIGIBILITY",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "## Summary The README's docs link returns 404, and its Packages table lists five entries while the repo has nine more packages with their own doc comments. A reader cannot find the docs or learn that `engine`, `relational` or `tenant` exist. ## Evidence Checked at `482e1ad`. - `R"
+    },
+    {
+      "id": 6049861069,
+      "title": "Return 500, not 404, when node details fail for another reason",
+      "html_url": "https://github.com/hanzoai/agents/issues/10",
+      "repository": "hanzoai/agents",
+      "created_at": "2026-10-26T23:17:24Z",
+      "updated_at": "2026-10-26T23:54:25Z",
+      "payoutMentionUSD": null,
+      "assignees": [],
+      "commentCount": 1,
+      "labels": [
+        "bug",
+        "bounty:starter",
+        "bounty"
+      ],
+      "score": 55,
+      "status": "VERIFY REWARD AND ELIGIBILITY",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "## Summary The node details endpoint answers 404 \"node not found\" for every error, including a failing database. A caller cannot tell a missing node from a broken server, and the handler carries a TODO saying so. ## Evidence Checked at `6ab6811`, under `control-plane/internal/`. "
+    },
+    {
+      "id": 5928156406,
+      "title": "[find opt-out] Partners Credit and Verification Solutions: find the official opt-out route",
+      "html_url": "https://github.com/lizTheDeveloper/privacy-the-game/issues/402",
+      "repository": "lizTheDeveloper/privacy-the-game",
+      "created_at": "2026-10-19T17:08:03Z",
+      "updated_at": "2026-10-26T23:54:10Z",
+      "payoutMentionUSD": null,
+      "assignees": [],
+      "commentCount": 1,
       "labels": [
         "bounty",
         "bounty: medium",
@@ -1048,7 +1085,51 @@
       "status": "VERIFY REWARD AND ELIGIBILITY",
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
-      "excerpt": "**What**: Find Vintel AI's official opt-out or \"do not sell\" route, or show that none exists. **Why it matters**: Players of Reclaim City use these links to opt out of data brokers, and the dataset is cited by journalists, so a wrong or dead link costs real people real time. - Br"
+      "excerpt": "**What**: Find Partners Credit and Verification Solutions's official opt-out or \"do not sell\" route, or show that none exists. **Why it matters**: Players of Reclaim City use these links to opt out of data brokers, and the dataset is cited by journalists, so a wrong or dead link "
+    },
+    {
+      "id": 6049863565,
+      "title": "Point the README install steps and badges at hanzo.ai/lz4/v4",
+      "html_url": "https://github.com/hanzo-go/lz4/issues/1",
+      "repository": "hanzo-go/lz4",
+      "created_at": "2026-10-26T23:17:36Z",
+      "updated_at": "2026-10-26T23:44:41Z",
+      "payoutMentionUSD": null,
+      "assignees": [],
+      "commentCount": 1,
+      "labels": [
+        "documentation",
+        "good first issue",
+        "bounty",
+        "bounty:starter"
+      ],
+      "score": 55,
+      "status": "VERIFY REWARD AND ELIGIBILITY",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "## Summary The README tells readers to `go get` and `go install` from the upstream project's path and documents a `lz4c` command-line tool. This module is `hanzo.ai/lz4/v4` and ships no command-line tool, so the install steps fetch the wrong module and the CLI section describes s"
+    },
+    {
+      "id": 6049864386,
+      "title": "Add the LICENSE file the README links to",
+      "html_url": "https://github.com/hanzo-js/sdk/issues/1",
+      "repository": "hanzo-js/sdk",
+      "created_at": "2026-10-26T23:17:41Z",
+      "updated_at": "2026-10-26T23:23:21Z",
+      "payoutMentionUSD": null,
+      "assignees": [],
+      "commentCount": 1,
+      "labels": [
+        "documentation",
+        "good first issue",
+        "bounty",
+        "bounty:starter"
+      ],
+      "score": 55,
+      "status": "VERIFY REWARD AND ELIGIBILITY",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "## Summary The README and `package.json` both declare the BSD-3-Clause license and link to a `LICENSE` file, but the repository has no license file. Both links are 404 on GitHub, and the license badge points at nothing. ## Evidence Checked at `953ce0d`. - `README.md:8` is the lic"
     },
     {
       "id": 5516825464,
@@ -1056,7 +1137,7 @@
       "html_url": "https://github.com/Saidur-droid/MergeEarn/issues/33",
       "repository": "Saidur-droid/MergeEarn",
       "created_at": "2026-09-20T08:52:35Z",
-      "updated_at": "2026-10-26T19:32:51Z",
+      "updated_at": "2026-10-26T23:19:16Z",
       "payoutMentionUSD": null,
       "assignees": [],
       "commentCount": 1,
@@ -1068,105 +1149,26 @@
       "excerpt": "# MergeEarn live community bounty board This is the public, automatically maintained entry point for contributor-friendly MergeEarn work. **Live app:** https://mergeearn.vercel.app **GitHub Contribute page:** https://github.com/Saidur-droid/MergeEarn/contribute A task is paid onl"
     },
     {
-      "id": 6025441566,
-      "title": "[Bug bounty] validateTransact returns the sender/recipient error instead of throwing, so the guard never runs",
-      "html_url": "https://github.com/paraspell/xcm-tools/issues/2277",
-      "repository": "paraspell/xcm-tools",
-      "created_at": "2026-10-25T14:18:52Z",
-      "updated_at": "2026-10-26T18:05:11Z",
+      "id": 6049861923,
+      "title": "List only the hooks @hanzo/react exports; delete 9 empty hook files",
+      "html_url": "https://github.com/hanzoai/ui/issues/257",
+      "repository": "hanzoai/ui",
+      "created_at": "2026-10-26T23:17:28Z",
+      "updated_at": "2026-10-26T23:18:35Z",
       "payoutMentionUSD": null,
       "assignees": [],
       "commentCount": 1,
       "labels": [
-        "bug bounty 💰"
-      ],
-      "score": 55,
-      "status": "VERIFY REWARD AND ELIGIBILITY",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "# 🐞 Bug Report ## 🔍 Describe the Bug In `packages/sdk-core/src/transfer/utils/validationUtils.ts`, `validateTransact` checks that the sender matches the destination for a `.transact()` call. Every other check in the same function throws a `ValidationError` when it fails. This o"
-    },
-    {
-      "id": 6025441202,
-      "title": "[Bug bounty] Dedot transform() mangles string numeric currency_id in multi-key objects",
-      "html_url": "https://github.com/paraspell/xcm-tools/issues/2276",
-      "repository": "paraspell/xcm-tools",
-      "created_at": "2026-10-25T14:18:49Z",
-      "updated_at": "2026-10-26T18:05:09Z",
-      "payoutMentionUSD": null,
-      "assignees": [],
-      "commentCount": 1,
-      "labels": [
-        "bug bounty 💰"
-      ],
-      "score": 55,
-      "status": "VERIFY REWARD AND ELIGIBILITY",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "# 🐞 Bug Report ## 🔍 Describe the Bug In `packages/sdk-dedot/src/XcmTransformer.ts`, `transform()` converts a string numeric `currency_id` to the number `123` when it is the only key in the object, but mangles it into `{ type: '123' }` when the object has other keys. The cause i"
-    },
-    {
-      "id": 6025440856,
-      "title": "[Bug bounty] PAPI transform() mangles string numeric currency_id in multi-key objects",
-      "html_url": "https://github.com/paraspell/xcm-tools/issues/2275",
-      "repository": "paraspell/xcm-tools",
-      "created_at": "2026-10-25T14:18:47Z",
-      "updated_at": "2026-10-26T18:04:45Z",
-      "payoutMentionUSD": null,
-      "assignees": [],
-      "commentCount": 0,
-      "labels": [
-        "bug bounty 💰"
-      ],
-      "score": 55,
-      "status": "VERIFY REWARD AND ELIGIBILITY",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "# 🐞 Bug Report ## 🔍 Describe the Bug In `packages/sdk/src/PapiXcmTransformer.ts`, `transform()` converts a string numeric `currency_id` to the number `100` when it is the only key in the object, but mangles it into `{ type: '100' }` when the object has other keys. The cause is "
-    },
-    {
-      "id": 5928170274,
-      "title": "[find opt-out] United One Resources, Inc.: find the official opt-out route",
-      "html_url": "https://github.com/lizTheDeveloper/privacy-the-game/issues/412",
-      "repository": "lizTheDeveloper/privacy-the-game",
-      "created_at": "2026-10-19T17:08:59Z",
-      "updated_at": "2026-10-26T17:36:33Z",
-      "payoutMentionUSD": null,
-      "assignees": [],
-      "commentCount": 2,
-      "labels": [
-        "bounty",
-        "bounty: medium",
-        "data-brokers"
-      ],
-      "score": 55,
-      "status": "VERIFY REWARD AND ELIGIBILITY",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "**What**: Find United One Resources, Inc.'s official opt-out or \"do not sell\" route, or show that none exists. **Why it matters**: Players of Reclaim City use these links to opt out of data brokers, and the dataset is cited by journalists, so a wrong or dead link costs real peopl"
-    },
-    {
-      "id": 6043013069,
-      "title": "[Good first issue · Oct 26 – Nov 26] Bring one real failure — we'll help turn it into a lesson",
-      "html_url": "https://github.com/Ikalus1988/MisakaNet/issues/3901",
-      "repository": "Ikalus1988/MisakaNet",
-      "created_at": "2026-10-26T15:41:16Z",
-      "updated_at": "2026-10-26T17:17:32Z",
-      "payoutMentionUSD": null,
-      "assignees": [],
-      "commentCount": 6,
-      "labels": [
-        "help wanted",
+        "documentation",
         "good first issue",
-        "status: competition",
-        "ready",
-        "bounty"
+        "bounty",
+        "bounty:starter"
       ],
       "score": 55,
       "status": "VERIFY REWARD AND ELIGIBILITY",
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
-      "excerpt": "# Bring one real failure (Oct 26 – Nov 26, 2026) MisakaNet has **650 failure lessons**, but the gaps are the failures nobody wrote down yet. This month's good first issue is deliberately small: bring **one real failure from your own environment**, with enough detail that the next"
+      "excerpt": "## Summary The `@hanzo/react` README documents twelve hooks, but the package exports three. Nine of the hook source files are empty (zero bytes), so a reader cannot tell what is real. ## Evidence Checked at `ed39469`, under `pkg/react/`. - `README.md:146-165` (\"Available Hooks\") "
     }
   ],
   "disclaimer": "No verified payouts or earnings; these are public issue candidates. Manually confirm funding, assignment, eligibility, security and payment terms. Never pay to join, disclose secrets or begin work without terms."
