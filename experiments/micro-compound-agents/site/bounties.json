@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-04T17:16:20.481Z",
+  "updatedAt": "2026-11-04T23:41:46.750Z",
   "state": "RESEARCH_READY",
   "sources": [
     "GitHub issue search"
@@ -52,26 +52,6 @@
       "excerpt": "## Goal Build **Bounty Golden Path v1 — read-only qualification first**, using existing AgentOS ONE/IR, scheduler, node executor, receipts and work completion ledger. Do not add a parallel autonomous runtime or diverge protected branches. ## Grounded observations (2026-10-15) - T"
     },
     {
-      "id": 5404801661,
-      "title": "[Bounty] [Bounty: $1,500] Critical: Missing Account Ownership Validation in Anchor CPI Di",
-      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1301",
-      "repository": "zhangjiayang6835-cyber/bounty-plaza",
-      "created_at": "2026-09-09T21:13:10Z",
-      "updated_at": "2026-11-04T03:01:56Z",
-      "payoutMentionUSD": 1500,
-      "assignees": [],
-      "commentCount": 7,
-      "labels": [
-        "bounty",
-        "real"
-      ],
-      "score": 71,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/Senthemodder/solana-anchor-runtime/issues/1 ### 漏洞描述 / Description [Bounty: $1,500] Critical: Missing Account Ownership Validation in Anchor CPI Dispatcher ### Severity: Critical ### Reward: ,500 USDC (Escrow Loc"
-    },
-    {
       "id": 5856533546,
       "title": "Bounty ledger: claims, submissions and payouts",
       "html_url": "https://github.com/sybil-solutions/local-ai-registry/issues/262",
@@ -91,21 +71,61 @@
       "excerpt": "Recipe bounties: who claimed, who submitted, what was accepted. Updated every hour; rules in [BOUNTIES.md](https://github.com/sybil-solutions/.github/blob/main/BOUNTIES.md); dashboard at [usage.sybilsolutions.ai](https://usage.sybilsolutions.ai/#work). **2026-11:** 0 accepted, $0"
     },
     {
-      "id": 6052232822,
-      "title": "[BOUNTY] Medium: depositSpl ignores confirmBySignatureStatus timeout result, causing phantom note creation and stranded tokens on dropped deposits (paraloom-wallet)",
-      "html_url": "https://github.com/paraloom-labs/paraloom-wallet/issues/117",
-      "repository": "paraloom-labs/paraloom-wallet",
-      "created_at": "2026-10-27T03:18:00Z",
-      "updated_at": "2026-11-04T11:16:25Z",
+      "id": 5874536758,
+      "title": "[Bounty] [Bounty: $125] Add AbortSignal support across transfer, completeMint, and attest",
+      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1911",
+      "repository": "zhangjiayang6835-cyber/bounty-plaza",
+      "created_at": "2026-10-15T21:54:22Z",
+      "updated_at": "2026-11-04T21:06:36Z",
+      "payoutMentionUSD": 125,
+      "assignees": [],
+      "commentCount": 8,
+      "labels": [
+        "bounty",
+        "real"
+      ],
+      "score": 69,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/Parabola-org/parabola/issues/5 ### 漏洞描述 / Description [Bounty: $125] Add AbortSignal support across transfer, completeMint, and attestation polling **Context** Nothing in the SDK accepts an `AbortSignal`. `pollFo"
+    },
+    {
+      "id": 5874536691,
+      "title": "[Bounty] [Bounty: $125] Add structured progress callbacks to transfer()",
+      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1910",
+      "repository": "zhangjiayang6835-cyber/bounty-plaza",
+      "created_at": "2026-10-15T21:54:21Z",
+      "updated_at": "2026-11-04T21:05:37Z",
+      "payoutMentionUSD": 125,
+      "assignees": [],
+      "commentCount": 15,
+      "labels": [
+        "bounty",
+        "real"
+      ],
+      "score": 69,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/Parabola-org/parabola/issues/6 ### 漏洞描述 / Description [Bounty: $125] Add structured progress callbacks to transfer() **Context** `transfer()` in `src/transfer.ts:43-139` runs up to four distinct stages — recipien"
+    },
+    {
+      "id": 6138413816,
+      "title": "Chinese documentation bounty: remaining scope, AI assistance and CNY payout",
+      "html_url": "https://github.com/Clawland-AI/picclaw/issues/36",
+      "repository": "Clawland-AI/picclaw",
+      "created_at": "2026-10-31T18:38:44Z",
+      "updated_at": "2026-11-04T18:54:19Z",
       "payoutMentionUSD": 150,
       "assignees": [],
-      "commentCount": 2,
+      "commentCount": 1,
       "labels": [],
       "score": 69,
       "status": "POTENTIAL PAYOUT — UNVERIFIED",
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
-      "excerpt": "# [BOUNTY] Medium: `depositSpl` Ignores `confirmBySignatureStatus` Timeout Result, Causing Phantom Note Creation and Stranded Tokens on Dropped Deposits (`paraloom-wallet`) ## Summary - **Target Repository:** [`paraloom-labs/paraloom-wallet`](https://github.com/paraloom-labs/para"
+      "excerpt": "Hello maintainers, I am River, an AI assistant acting for GitHub user @a415635511-alt. We are interested in a bounded paid contribution to the Chinese Documentation Translation bounty advertised at USD 150 on https://clawland.ai/pages/bounty. I saw PicClaw PR #29 and will not dup"
     },
     {
       "id": 6128167043,
@@ -133,10 +153,10 @@
       "html_url": "https://github.com/ClankerNation/OpenAgents/issues/130",
       "repository": "ClankerNation/OpenAgents",
       "created_at": "2026-05-16T08:58:31Z",
-      "updated_at": "2026-11-04T13:16:32Z",
+      "updated_at": "2026-11-04T19:30:39Z",
       "payoutMentionUSD": 8500,
       "assignees": [],
-      "commentCount": 5,
+      "commentCount": 6,
       "labels": [
         "autonomus agents only",
         "good first issue",
@@ -158,10 +178,10 @@
       "html_url": "https://github.com/ClankerNation/OpenAgents/issues/149",
       "repository": "ClankerNation/OpenAgents",
       "created_at": "2026-05-16T08:59:20Z",
-      "updated_at": "2026-11-04T13:11:28Z",
+      "updated_at": "2026-11-04T19:30:35Z",
       "payoutMentionUSD": 8000,
       "assignees": [],
-      "commentCount": 5,
+      "commentCount": 6,
       "labels": [
         "autonomus agents only",
         "good first issue",
@@ -178,65 +198,15 @@
       "excerpt": "GovernorAlpha at `contracts/governance/GovernorAlpha.sol` counts votes at execution time. Users can acquire tokens after proposal creation to manipulate votes. ### Implementation - Snapshot balances at proposal creation block - `getVotingPower(address, proposalId)` reads from sna"
     },
     {
-      "id": 4459344172,
-      "title": "[ Bounty $9k ] [ API ] Fix agents.py doesn't validate endpoint URL format — testnet finding",
-      "html_url": "https://github.com/ClankerNation/OpenAgents/issues/173",
-      "repository": "ClankerNation/OpenAgents",
-      "created_at": "2026-05-16T09:00:22Z",
-      "updated_at": "2026-11-04T10:05:19Z",
-      "payoutMentionUSD": 9000,
-      "assignees": [],
-      "commentCount": 11,
-      "labels": [
-        "autonomus agents only",
-        "good first issue",
-        "help wanted",
-        "💎 bounty",
-        "high-value",
-        "crypto-eligible",
-        "$9k"
-      ],
-      "score": 68,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "The `register_agent` endpoint in `api/routes/agents.py` accepts any string as the agent endpoint. Invalid URLs cause crashes when the system tries to contact the agent. ### Fix - Validate URL format: must be valid http/https URL - Check URL is reachable with a HEAD request (timeo"
-    },
-    {
-      "id": 4459343391,
-      "title": "[ Bounty $8k ] [ API ] Fix main.py has no CORS configuration — urgent",
-      "html_url": "https://github.com/ClankerNation/OpenAgents/issues/166",
-      "repository": "ClankerNation/OpenAgents",
-      "created_at": "2026-05-16T09:00:04Z",
-      "updated_at": "2026-11-04T09:28:26Z",
-      "payoutMentionUSD": 8800,
-      "assignees": [],
-      "commentCount": 13,
-      "labels": [
-        "autonomus agents only",
-        "good first issue",
-        "help wanted",
-        "💎 bounty",
-        "high-value",
-        "crypto-eligible",
-        "$8k"
-      ],
-      "score": 68,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "The FastAPI app in `api/main.py` doesn't configure CORS. Frontend apps on different domains get blocked by browser. ### Fix - Add `CORSMiddleware` with configurable origins from env var - Allow common methods: GET, POST, PUT, DELETE, OPTIONS - Allow credentials for authenticated "
-    },
-    {
       "id": 4459345722,
       "title": "[ Bounty $7k ] [ API ] Fix tasks.py has no websocket endpoint for real-time task updates — urgent",
       "html_url": "https://github.com/ClankerNation/OpenAgents/issues/188",
       "repository": "ClankerNation/OpenAgents",
       "created_at": "2026-05-16T09:01:01Z",
-      "updated_at": "2026-11-04T09:24:05Z",
+      "updated_at": "2026-11-04T19:30:33Z",
       "payoutMentionUSD": 7000,
       "assignees": [],
-      "commentCount": 14,
+      "commentCount": 15,
       "labels": [
         "autonomus agents only",
         "good first issue",
@@ -253,15 +223,15 @@
       "excerpt": "Task status changes in `api/routes/tasks.py` require polling. No real-time notification mechanism. ### Fix - Add WebSocket endpoint `ws /tasks/ws` - Broadcast task state changes to connected clients - Filter by task ID subscription - Update the file header documentation block in "
     },
     {
-      "id": 4459312394,
-      "title": "[ Bounty $4k ] [ API ] Fix SQL injection in agent search endpoint",
-      "html_url": "https://github.com/ClankerNation/OpenAgents/issues/27",
+      "id": 4459343391,
+      "title": "[ Bounty $8k ] [ API ] Fix main.py has no CORS configuration — urgent",
+      "html_url": "https://github.com/ClankerNation/OpenAgents/issues/166",
       "repository": "ClankerNation/OpenAgents",
-      "created_at": "2026-05-16T08:47:15Z",
-      "updated_at": "2026-11-04T09:12:54Z",
-      "payoutMentionUSD": 4700,
+      "created_at": "2026-05-16T09:00:04Z",
+      "updated_at": "2026-11-04T19:30:31Z",
+      "payoutMentionUSD": 8800,
       "assignees": [],
-      "commentCount": 10,
+      "commentCount": 14,
       "labels": [
         "autonomus agents only",
         "good first issue",
@@ -269,24 +239,24 @@
         "💎 bounty",
         "high-value",
         "crypto-eligible",
-        "$4k"
+        "$8k"
       ],
       "score": 68,
       "status": "POTENTIAL PAYOUT — UNVERIFIED",
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
-      "excerpt": "String interpolation in `api/routes/agents.py` query. No input validation. ### Fix - Parameterized queries - Name validation: 64 chars, alphanumeric - Pagination cap 100 - Update the file header documentation block in each modified file to include the contributor traceability fie"
+      "excerpt": "The FastAPI app in `api/main.py` doesn't configure CORS. Frontend apps on different domains get blocked by browser. ### Fix - Add `CORSMiddleware` with configurable origins from env var - Allow common methods: GET, POST, PUT, DELETE, OPTIONS - Allow credentials for authenticated "
     },
     {
-      "id": 4459340948,
-      "title": "[ Bounty $3k ] [ API ] Fix main.py doesn't have request ID middleware for log correlation",
-      "html_url": "https://github.com/ClankerNation/OpenAgents/issues/140",
+      "id": 4459344172,
+      "title": "[ Bounty $9k ] [ API ] Fix agents.py doesn't validate endpoint URL format — testnet finding",
+      "html_url": "https://github.com/ClankerNation/OpenAgents/issues/173",
       "repository": "ClankerNation/OpenAgents",
-      "created_at": "2026-05-16T08:58:56Z",
-      "updated_at": "2026-11-04T09:02:29Z",
-      "payoutMentionUSD": 3300,
+      "created_at": "2026-05-16T09:00:22Z",
+      "updated_at": "2026-11-04T19:30:19Z",
+      "payoutMentionUSD": 9000,
       "assignees": [],
-      "commentCount": 4,
+      "commentCount": 12,
       "labels": [
         "autonomus agents only",
         "good first issue",
@@ -294,13 +264,13 @@
         "💎 bounty",
         "high-value",
         "crypto-eligible",
-        "$3k"
+        "$9k"
       ],
       "score": 68,
       "status": "POTENTIAL PAYOUT — UNVERIFIED",
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
-      "excerpt": "API logs in `api/main.py` have no request ID. Correlating logs across a single request is impossible. ### Fix - Add middleware that generates UUID request ID per request - Set `X-Request-ID` response header - Accept client-provided `X-Request-ID` for distributed tracing - Per the"
+      "excerpt": "The `register_agent` endpoint in `api/routes/agents.py` accepts any string as the agent endpoint. Invalid URLs cause crashes when the system tries to contact the agent. ### Fix - Validate URL format: must be valid http/https URL - Check URL is reachable with a HEAD request (timeo"
     },
     {
       "id": 6202412785,
@@ -308,24 +278,7 @@
       "html_url": "https://github.com/paraloom-labs/paraloom-core/issues/1337",
       "repository": "paraloom-labs/paraloom-core",
       "created_at": "2026-11-04T12:11:10Z",
-      "updated_at": "2026-11-04T12:39:36Z",
-      "payoutMentionUSD": 400,
-      "assignees": [],
-      "commentCount": 1,
-      "labels": [],
-      "score": 67,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "# [BUG BOUNTY] High: `TransactSpl` requires initialized SPL `TokenAccount`s for `recipient` and `fee_token` during internal transfers (`ext_amount == 0`), reverting all private SPL transfers on-chain ## 🔍 Summary - **Target Repository:** [`paraloom-labs/paraloom-core`](https://g"
-    },
-    {
-      "id": 6052141702,
-      "title": "[BOUNTY] High: spendV3 and transfer omit shielded address checksum validation, allowing typo-induced unspendable note creation and fund loss (paraloom-wallet)",
-      "html_url": "https://github.com/paraloom-labs/paraloom-wallet/issues/116",
-      "repository": "paraloom-labs/paraloom-wallet",
-      "created_at": "2026-10-27T03:08:20Z",
-      "updated_at": "2026-11-04T11:15:30Z",
+      "updated_at": "2026-11-04T21:37:08Z",
       "payoutMentionUSD": 400,
       "assignees": [],
       "commentCount": 2,
@@ -334,7 +287,44 @@
       "status": "POTENTIAL PAYOUT — UNVERIFIED",
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
-      "excerpt": "# [BOUNTY] High: `spendV3` and `transfer` Omit Shielded Address Checksum Validation, Allowing Typo-Induced Unspendable Note Creation and Irrecoverable Fund Loss (`paraloom-wallet`) ## Summary - **Target Repository:** [`paraloom-labs/paraloom-wallet`](https://github.com/paraloom-l"
+      "excerpt": "# [BUG BOUNTY] High: `TransactSpl` requires initialized SPL `TokenAccount`s for `recipient` and `fee_token` during internal transfers (`ext_amount == 0`), reverting all private SPL transfers on-chain ## 🔍 Summary - **Target Repository:** [`paraloom-labs/paraloom-core`](https://g"
+    },
+    {
+      "id": 5874535862,
+      "title": "[Bounty] [Bounty: $75] Unit tests for src/errors.ts and a public export surface snapshot",
+      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1903",
+      "repository": "zhangjiayang6835-cyber/bounty-plaza",
+      "created_at": "2026-10-15T21:54:18Z",
+      "updated_at": "2026-11-04T21:03:52Z",
+      "payoutMentionUSD": 75,
+      "assignees": [],
+      "commentCount": 7,
+      "labels": [
+        "bounty",
+        "real"
+      ],
+      "score": 67,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/Parabola-org/parabola/issues/13 ### 漏洞描述 / Description [Bounty: $75] Unit tests for src/errors.ts and a public export surface snapshot **Context** `src/errors.ts` defines the SDK's entire failure taxonomy — `Tran"
+    },
+    {
+      "id": 5943570514,
+      "title": "[BOUNTY] High: Unsegregated fee accounting in bridge_vault allows user withdrawals to drain validator rewards and permanently deadlock unbonding stake exit",
+      "html_url": "https://github.com/paraloom-labs/paraloom-core/issues/1138",
+      "repository": "paraloom-labs/paraloom-core",
+      "created_at": "2026-10-20T14:33:25Z",
+      "updated_at": "2026-11-04T17:53:32Z",
+      "payoutMentionUSD": 400,
+      "assignees": [],
+      "commentCount": 2,
+      "labels": [],
+      "score": 67,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "### Summary - **Severity:** High ($400 USDC — Stage 1 On-Chain Bridge & Staking Invariant) - **Affected Files:** `programs/paraloom/src/lib.rs` (lines 440–474 in `transact`, lines 1007–1050 in `claim_rewards`, lines 1673–1746 in `withdraw_unbonded_stake`) - **Payout Address:** `3"
     },
     {
       "id": 6064993649,
@@ -397,21 +387,24 @@
       "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/Parabola-org/parabola/issues/12 ### 漏洞描述 / Description [Bounty: $75] Expose retry/backoff knobs for Stellar allowance wait and RPC-lag retry **Context** Two recovery loops in `src/chains/stellar.ts` have hard-cod"
     },
     {
-      "id": 6099049985,
-      "title": "[BOUNTY] High: Soundness & Validation Gaps in Mainnet Ceremony Cutover Pipeline (zkey_json_to_arkworks, circom_reduction, and r1cs_export)",
-      "html_url": "https://github.com/paraloom-labs/paraloom-core/issues/1277",
-      "repository": "paraloom-labs/paraloom-core",
-      "created_at": "2026-10-29T11:53:12Z",
-      "updated_at": "2026-11-04T09:40:19Z",
-      "payoutMentionUSD": 300,
+      "id": 6064993522,
+      "title": "Preserve RFC 7239 `Forwarded` host authority in sub-mounted ASGI `Request.scope_for`",
+      "html_url": "https://github.com/WholeTroutMedia/oss-verification-sandbox/issues/1",
+      "repository": "WholeTroutMedia/oss-verification-sandbox",
+      "created_at": "2026-10-27T18:08:12Z",
+      "updated_at": "2026-11-04T21:11:20Z",
+      "payoutMentionUSD": 250,
       "assignees": [],
-      "commentCount": 2,
-      "labels": [],
+      "commentCount": 8,
+      "labels": [
+        "bounty",
+        "bug"
+      ],
       "score": 66,
       "status": "POTENTIAL PAYOUT — UNVERIFIED",
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
-      "excerpt": "# [BOUNTY] High: Soundness & Validation Gaps in Mainnet Ceremony Cutover Pipeline (`zkey_json_to_arkworks`, `circom_reduction`, and `r1cs_export`) ## Summary - **Target Repository:** [`paraloom-labs/paraloom-core`](https://github.com/paraloom-labs/paraloom-core) - **Severity:** H"
+      "excerpt": "### Problem Description When an ASGI application is mounted behind a reverse proxy that emits RFC 7239 `Forwarded: proto=https;host=edge.example.org`, calling `Request.scope_for` on a sub-mounted route drops the outer proxy authority nonce and falls back to `scope['server']`. ###"
     },
     {
       "id": 6074432983,
@@ -419,10 +412,10 @@
       "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4152",
       "repository": "zhangjiayang6835-cyber/bounty-plaza",
       "created_at": "2026-10-28T07:17:25Z",
-      "updated_at": "2026-11-04T07:00:57Z",
+      "updated_at": "2026-11-04T21:07:50Z",
       "payoutMentionUSD": 250,
       "assignees": [],
-      "commentCount": 10,
+      "commentCount": 11,
       "labels": [
         "bounty",
         "real"
@@ -514,40 +507,6 @@
       "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/jomaaabbe78-spec/bookningsapp/issues/1 ### 漏洞描述 / Description [TEST BOUNTY] Fix typo in README **Bounty: $50** There is a typo in README.md: \"Welcom\" should be \"Welcome\". **Reward:** $50 via PayPal/Crypto **Conta"
     },
     {
-      "id": 6052558717,
-      "title": "[BOUNTY] Medium: submitTransact casts 64-bit extAmount to JavaScript Number, causing IEEE-754 precision loss and ingress proof verification rejection (paraloom-wallet)",
-      "html_url": "https://github.com/paraloom-labs/paraloom-wallet/issues/121",
-      "repository": "paraloom-labs/paraloom-wallet",
-      "created_at": "2026-10-27T03:53:35Z",
-      "updated_at": "2026-11-04T11:19:35Z",
-      "payoutMentionUSD": 150,
-      "assignees": [],
-      "commentCount": 2,
-      "labels": [],
-      "score": 64,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "### Target Information - Repository: paraloom-labs/paraloom-wallet - File: lib/paraloom/transact.ts (lines 280-302, submitTransact) - Component: Transact Submission & Ingress Payload Serialization - Severity: Medium ($150 USDC) - Settlement Wallet: 0x3a5E08708dd1CF22AAe94f913Ab69"
-    },
-    {
-      "id": 6023043216,
-      "title": "[BOUNTY] Medium: Missing slash_validator and update_reputation instruction builders, discriminators, and derive_slashed_funds_vault in bridge::solana::instructions",
-      "html_url": "https://github.com/paraloom-labs/paraloom-core/issues/1220",
-      "repository": "paraloom-labs/paraloom-core",
-      "created_at": "2026-10-25T09:42:06Z",
-      "updated_at": "2026-11-04T10:51:17Z",
-      "payoutMentionUSD": 150,
-      "assignees": [],
-      "commentCount": 6,
-      "labels": [],
-      "score": 64,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "## Severity Medium ($150 USDC - Stage 1 Consensus & Solana Bridge Scope) ## Settlement Wallet (USDC Base / EVM - Mandatory Invariant) 0x3a5E08708dd1CF22AAe94f913Ab69b17b80a3dC5 ## Target Repository & Subsystems - paraloom-labs/paraloom-core - src/bridge/solana/instructions.rs - p"
-    },
-    {
       "id": 5986552924,
       "title": "[Bounty] 📋 2 open bounties right now",
       "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4080",
@@ -588,15 +547,75 @@
       "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/habibdxb01/bounty-watcher/issues/5 ### 漏洞描述 / Description 📋 2 open bounties right now Bounties that were already open when the watcher started. From now on, each new one gets its own issue. - 🔴 **$150** · [📱 E"
     },
     {
+      "id": 5874536083,
+      "title": "[Bounty] [Bounty: $90] Add ESLint with typescript-eslint and wire it into CI",
+      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1905",
+      "repository": "zhangjiayang6835-cyber/bounty-plaza",
+      "created_at": "2026-10-15T21:54:19Z",
+      "updated_at": "2026-11-04T21:06:06Z",
+      "payoutMentionUSD": 90,
+      "assignees": [],
+      "commentCount": 10,
+      "labels": [
+        "bounty",
+        "real"
+      ],
+      "score": 63,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/Parabola-org/parabola/issues/11 ### 漏洞描述 / Description [Bounty: $90] Add ESLint with typescript-eslint and wire it into CI **Context** CI (`.github/workflows/ci.yml`) runs typecheck, tests, build, commitlint, and"
+    },
+    {
+      "id": 5874536944,
+      "title": "[Bounty] [Bounty: $105] Tolerate transient Iris failures in getAttestation and resolveBur",
+      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1913",
+      "repository": "zhangjiayang6835-cyber/bounty-plaza",
+      "created_at": "2026-10-15T21:54:23Z",
+      "updated_at": "2026-11-04T21:04:55Z",
+      "payoutMentionUSD": 105,
+      "assignees": [],
+      "commentCount": 8,
+      "labels": [
+        "bounty",
+        "real"
+      ],
+      "score": 63,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/Parabola-org/parabola/issues/3 ### 漏洞描述 / Description [Bounty: $105] Tolerate transient Iris failures in getAttestation and resolveBurn **Context** `pollForAttestation` in `src/iris/poll.ts:133-170` tolerates up "
+    },
+    {
+      "id": 5874537026,
+      "title": "[Bounty] [Bounty: $105] Stop silently pricing Fast Transfers at zero when Iris returns no",
+      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1914",
+      "repository": "zhangjiayang6835-cyber/bounty-plaza",
+      "created_at": "2026-10-15T21:54:23Z",
+      "updated_at": "2026-11-04T21:04:24Z",
+      "payoutMentionUSD": 105,
+      "assignees": [],
+      "commentCount": 12,
+      "labels": [
+        "bounty",
+        "real"
+      ],
+      "score": 63,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/Parabola-org/parabola/issues/2 ### 漏洞描述 / Description [Bounty: $105] Stop silently pricing Fast Transfers at zero when Iris returns no fast tier **Context** `fetchFastTransferFeeBps` in `src/iris/poll.ts:10-23` d"
+    },
+    {
       "id": 4459344058,
       "title": "[ Bounty $8k ] [ Solidity ] Fix AgentRegistry registerAgent frontrunning with deterministic ID — deployment blocker",
       "html_url": "https://github.com/ClankerNation/OpenAgents/issues/172",
       "repository": "ClankerNation/OpenAgents",
       "created_at": "2026-05-16T09:00:20Z",
-      "updated_at": "2026-11-04T13:51:28Z",
+      "updated_at": "2026-11-04T19:31:04Z",
       "payoutMentionUSD": 8500,
       "assignees": [],
-      "commentCount": 7,
+      "commentCount": 8,
       "labels": [
         "autonomus agents only",
         "good first issue",
@@ -618,10 +637,10 @@
       "html_url": "https://github.com/ClankerNation/OpenAgents/issues/135",
       "repository": "ClankerNation/OpenAgents",
       "created_at": "2026-05-16T08:58:44Z",
-      "updated_at": "2026-11-04T13:48:13Z",
+      "updated_at": "2026-11-04T19:30:55Z",
       "payoutMentionUSD": 8900,
       "assignees": [],
-      "commentCount": 6,
+      "commentCount": 7,
       "labels": [
         "autonomus agents only",
         "good first issue",
@@ -638,203 +657,15 @@
       "excerpt": "The `SessionManager` in `sdk/src/auth/session.ts` returns the current token for API calls but doesn't intercept 401 responses to auto-refresh. ### Fix - Add request interceptor that catches 401 responses - Auto-refresh token and retry the original request once - If refresh also f"
     },
     {
-      "id": 4459347633,
-      "title": "[ Bounty $8k ] [ API ] Add structured error responses with error codes — security critical",
-      "html_url": "https://github.com/ClankerNation/OpenAgents/issues/202",
-      "repository": "ClankerNation/OpenAgents",
-      "created_at": "2026-05-16T09:01:37Z",
-      "updated_at": "2026-11-04T13:06:20Z",
-      "payoutMentionUSD": 8600,
-      "assignees": [],
-      "commentCount": 30,
-      "labels": [
-        "autonomus agents only",
-        "good first issue",
-        "help wanted",
-        "💎 bounty",
-        "high-value",
-        "crypto-eligible",
-        "$8k"
-      ],
-      "score": 63,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "API errors return inconsistent formats. Some return strings, others return FastAPI default validation errors. ### Implementation - Define error schema: `{code: string, message: string, details: object}` - Map all errors to consistent codes: `VALIDATION_ERROR`, `NOT_FOUND`, `AUTH_"
-    },
-    {
-      "id": 2877917865,
-      "title": "YouTube Content Intelligence System $2,500",
-      "html_url": "https://github.com/Spectral-Finance/lux/issues/69",
-      "repository": "Spectral-Finance/lux",
-      "created_at": "2025-02-25T10:26:59Z",
-      "updated_at": "2026-11-04T12:31:47Z",
-      "payoutMentionUSD": 2500,
-      "assignees": [],
-      "commentCount": 9,
-      "labels": [
-        "bounty"
-      ],
-      "score": 63,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "## Overview Create an intelligent system for content analysis, optimization, and automated decision-making for YouTube channels. ## Core Features - Video performance analytics - Audience engagement analysis - Content recommendation engine - Optimal posting time prediction - Title"
-    },
-    {
-      "id": 4459344689,
-      "title": "[ Bounty $8k ] [ API ] Fix main.py doesn't have request ID middleware for log correlation — testnet finding",
-      "html_url": "https://github.com/ClankerNation/OpenAgents/issues/178",
-      "repository": "ClankerNation/OpenAgents",
-      "created_at": "2026-05-16T09:00:35Z",
-      "updated_at": "2026-11-04T10:05:16Z",
-      "payoutMentionUSD": 8500,
-      "assignees": [],
-      "commentCount": 21,
-      "labels": [
-        "autonomus agents only",
-        "good first issue",
-        "help wanted",
-        "💎 bounty",
-        "high-value",
-        "crypto-eligible",
-        "$8k"
-      ],
-      "score": 63,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "API logs in `api/main.py` have no request ID. Correlating logs across a single request is impossible. ### Fix - Add middleware that generates UUID request ID per request - Set `X-Request-ID` response header - Accept client-provided `X-Request-ID` for distributed tracing - Add a c"
-    },
-    {
-      "id": 4459342891,
-      "title": "[ Bounty $9k ] [ SDK ] Fix rpc.ts doesn't handle JSON-RPC batch response ordering — backwards compat",
-      "html_url": "https://github.com/ClankerNation/OpenAgents/issues/161",
-      "repository": "ClankerNation/OpenAgents",
-      "created_at": "2026-05-16T08:59:51Z",
-      "updated_at": "2026-11-04T10:02:06Z",
-      "payoutMentionUSD": 9000,
-      "assignees": [],
-      "commentCount": 20,
-      "labels": [
-        "autonomus agents only",
-        "good first issue",
-        "help wanted",
-        "💎 bounty",
-        "high-value",
-        "crypto-eligible",
-        "$9k"
-      ],
-      "score": 63,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "The RPC provider in `sdk/src/providers/rpc.ts` sends batch requests but assumes responses arrive in the same order. JSON-RPC spec allows responses in any order. ### Fix - Match responses to requests by `id` field - Handle partial batch failures (some succeed, some fail) - Add a c"
-    },
-    {
-      "id": 4459347067,
-      "title": "[ Bounty $9k ] [ SDK ] Fix encoding.ts decodeParameter doesn't handle dynamic types — backwards compat",
-      "html_url": "https://github.com/ClankerNation/OpenAgents/issues/198",
-      "repository": "ClankerNation/OpenAgents",
-      "created_at": "2026-05-16T09:01:27Z",
-      "updated_at": "2026-11-04T09:50:09Z",
-      "payoutMentionUSD": 9300,
-      "assignees": [],
-      "commentCount": 28,
-      "labels": [
-        "autonomus agents only",
-        "good first issue",
-        "help wanted",
-        "💎 bounty",
-        "high-value",
-        "crypto-eligible",
-        "$9k"
-      ],
-      "score": 63,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "The `decodeParameter` in `sdk/src/utils/encoding.ts` only handles fixed-size types (uint256, address, bool). Dynamic types (string, bytes, arrays) are returned as raw hex. ### Fix - Add string decoding: read offset, then length, then UTF-8 data - Add bytes decoding: read offset, "
-    },
-    {
-      "id": 4459345084,
-      "title": "[ Bounty $8k ] [ Solidity ] Add batch operations to AgentRegistry for gas efficiency — code review finding",
-      "html_url": "https://github.com/ClankerNation/OpenAgents/issues/182",
-      "repository": "ClankerNation/OpenAgents",
-      "created_at": "2026-05-16T09:00:46Z",
-      "updated_at": "2026-11-04T09:45:11Z",
-      "payoutMentionUSD": 8500,
-      "assignees": [],
-      "commentCount": 10,
-      "labels": [
-        "autonomus agents only",
-        "good first issue",
-        "help wanted",
-        "💎 bounty",
-        "high-value",
-        "crypto-eligible",
-        "$8k"
-      ],
-      "score": 63,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "Registering multiple agents requires separate transactions in `contracts/AgentRegistry.sol`. Gas-inefficient for platforms onboarding many agents. ### Implementation - Add `batchRegister(string[] names, string[] endpoints)` function - Single transaction for up to 50 agents - Emit"
-    },
-    {
-      "id": 2877843575,
-      "title": "Twitter Analytics and Monitoring ($2,000)",
-      "html_url": "https://github.com/Spectral-Finance/lux/issues/60",
-      "repository": "Spectral-Finance/lux",
-      "created_at": "2025-02-25T10:02:10Z",
-      "updated_at": "2026-11-04T09:23:55Z",
-      "payoutMentionUSD": 2000,
-      "assignees": [],
-      "commentCount": 7,
-      "labels": [
-        "bounty"
-      ],
-      "score": 63,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "## Overview Implement analytics and monitoring capabilities for Twitter engagement, including metrics tracking, sentiment analysis, and trend monitoring. ## Core Features - Tweet engagement metrics - Follower growth tracking - Hashtag performance analysis - Sentiment analysis of "
-    },
-    {
-      "id": 4459345589,
-      "title": "[ Bounty $7k ] [ API ] Fix agents.py doesn't validate endpoint URL format — urgent",
-      "html_url": "https://github.com/ClankerNation/OpenAgents/issues/187",
-      "repository": "ClankerNation/OpenAgents",
-      "created_at": "2026-05-16T09:00:59Z",
-      "updated_at": "2026-11-04T09:06:44Z",
-      "payoutMentionUSD": 7200,
-      "assignees": [],
-      "commentCount": 11,
-      "labels": [
-        "autonomus agents only",
-        "good first issue",
-        "help wanted",
-        "💎 bounty",
-        "high-value",
-        "crypto-eligible",
-        "$7k"
-      ],
-      "score": 63,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "The `register_agent` endpoint in `api/routes/agents.py` accepts any string as the agent endpoint. Invalid URLs cause crashes when the system tries to contact the agent. ### Fix - Validate URL format: must be valid http/https URL - Check URL is reachable with a HEAD request (timeo"
-    },
-    {
       "id": 4459346138,
       "title": "[ Bounty $6k ] [ SDK ] Add contract deployment helpers to SDK — code review finding",
       "html_url": "https://github.com/ClankerNation/OpenAgents/issues/191",
       "repository": "ClankerNation/OpenAgents",
       "created_at": "2026-05-16T09:01:09Z",
-      "updated_at": "2026-11-04T08:39:37Z",
+      "updated_at": "2026-11-04T19:30:37Z",
       "payoutMentionUSD": 6700,
       "assignees": [],
-      "commentCount": 9,
+      "commentCount": 10,
       "labels": [
         "autonomus agents only",
         "good first issue",
@@ -851,15 +682,40 @@
       "excerpt": "The SDK can interact with deployed contracts but has no deployment utilities. Users must use hardhat separately. ### Implementation - Add `deployContract(abi, bytecode, args)` method - Wait for deployment confirmation - Return deployed contract instance - Add a `@contributor-info"
     },
     {
+      "id": 4459347067,
+      "title": "[ Bounty $9k ] [ SDK ] Fix encoding.ts decodeParameter doesn't handle dynamic types — backwards compat",
+      "html_url": "https://github.com/ClankerNation/OpenAgents/issues/198",
+      "repository": "ClankerNation/OpenAgents",
+      "created_at": "2026-05-16T09:01:27Z",
+      "updated_at": "2026-11-04T19:30:28Z",
+      "payoutMentionUSD": 9300,
+      "assignees": [],
+      "commentCount": 29,
+      "labels": [
+        "autonomus agents only",
+        "good first issue",
+        "help wanted",
+        "💎 bounty",
+        "high-value",
+        "crypto-eligible",
+        "$9k"
+      ],
+      "score": 63,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "The `decodeParameter` in `sdk/src/utils/encoding.ts` only handles fixed-size types (uint256, address, bool). Dynamic types (string, bytes, arrays) are returned as raw hex. ### Fix - Add string decoding: read offset, then length, then UTF-8 data - Add bytes decoding: read offset, "
+    },
+    {
       "id": 4459345846,
       "title": "[ Bounty $5k ] [ Solidity ] Fix PrizeSplit doesn't handle case where winner is contract without receive — urgent",
       "html_url": "https://github.com/ClankerNation/OpenAgents/issues/189",
       "repository": "ClankerNation/OpenAgents",
       "created_at": "2026-05-16T09:01:04Z",
-      "updated_at": "2026-11-04T08:16:45Z",
+      "updated_at": "2026-11-04T19:30:26Z",
       "payoutMentionUSD": 5000,
       "assignees": [],
-      "commentCount": 11,
+      "commentCount": 12,
       "labels": [
         "autonomus agents only",
         "good first issue",
@@ -881,10 +737,10 @@
       "html_url": "https://github.com/ClankerNation/OpenAgents/issues/192",
       "repository": "ClankerNation/OpenAgents",
       "created_at": "2026-05-16T09:01:12Z",
-      "updated_at": "2026-11-04T08:10:04Z",
+      "updated_at": "2026-11-04T19:30:21Z",
       "payoutMentionUSD": 3900,
       "assignees": [],
-      "commentCount": 11,
+      "commentCount": 12,
       "labels": [
         "autonomus agents only",
         "good first issue",
@@ -901,54 +757,42 @@
       "excerpt": "Admin actions (parameter changes, user management) in the API leave no trace. No accountability. ### Implementation - Add `AuditLog` model: action, actor, target, before/after values, timestamp, ip - Log all write operations from admin endpoints - Add `GET /admin/audit-log` with "
     },
     {
-      "id": 4459344877,
-      "title": "[ Bounty $8k ] [ Solidity ] Fix GovernorAlpha execute has no quorum validation — backwards compat",
-      "html_url": "https://github.com/ClankerNation/OpenAgents/issues/180",
-      "repository": "ClankerNation/OpenAgents",
-      "created_at": "2026-05-16T09:00:40Z",
-      "updated_at": "2026-11-04T08:04:37Z",
-      "payoutMentionUSD": 8200,
+      "id": 2877917865,
+      "title": "YouTube Content Intelligence System $2,500",
+      "html_url": "https://github.com/Spectral-Finance/lux/issues/69",
+      "repository": "Spectral-Finance/lux",
+      "created_at": "2025-02-25T10:26:59Z",
+      "updated_at": "2026-11-04T12:31:47Z",
+      "payoutMentionUSD": 2500,
       "assignees": [],
-      "commentCount": 12,
+      "commentCount": 9,
       "labels": [
-        "autonomus agents only",
-        "good first issue",
-        "help wanted",
-        "💎 bounty",
-        "high-value",
-        "crypto-eligible",
-        "$8k"
+        "bounty"
       ],
       "score": 63,
       "status": "POTENTIAL PAYOUT — UNVERIFIED",
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
-      "excerpt": "The `execute` function in `contracts/governance/GovernorAlpha.sol` checks vote count but has no quorum requirement. A proposal with 1 FOR vote and 0 AGAINST can execute. ### Fix - Add `QUORUM_VOTES` constant (e.g., 4% of total supply) - Check `proposal.forVotes >= QUORUM_VOTES` i"
+      "excerpt": "## Overview Create an intelligent system for content analysis, optimization, and automated decision-making for YouTube channels. ## Core Features - Video performance analytics - Audience engagement analysis - Content recommendation engine - Optimal posting time prediction - Title"
     },
     {
-      "id": 4459343096,
-      "title": "[ Bounty $2k ] [ Solidity ] Add permit2 support to all token interaction contracts — backwards compat",
-      "html_url": "https://github.com/ClankerNation/OpenAgents/issues/163",
-      "repository": "ClankerNation/OpenAgents",
-      "created_at": "2026-05-16T08:59:56Z",
-      "updated_at": "2026-11-04T07:52:30Z",
-      "payoutMentionUSD": 2300,
+      "id": 2877843575,
+      "title": "Twitter Analytics and Monitoring ($2,000)",
+      "html_url": "https://github.com/Spectral-Finance/lux/issues/60",
+      "repository": "Spectral-Finance/lux",
+      "created_at": "2025-02-25T10:02:10Z",
+      "updated_at": "2026-11-04T09:23:55Z",
+      "payoutMentionUSD": 2000,
       "assignees": [],
-      "commentCount": 3,
+      "commentCount": 7,
       "labels": [
-        "autonomus agents only",
-        "good first issue",
-        "help wanted",
-        "💎 bounty",
-        "high-value",
-        "crypto-eligible",
-        "$2k"
+        "bounty"
       ],
       "score": 63,
       "status": "POTENTIAL PAYOUT — UNVERIFIED",
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
-      "excerpt": "All contracts require users to call `approve` before interacting. Permit2 enables gasless approvals. ### Implementation - Add Permit2 integration to StakingRewards, AMMPool, and LendingPool - Support `permitTransferFrom` with signature - Keep standard `transferFrom` as fallback -"
+      "excerpt": "## Overview Implement analytics and monitoring capabilities for Twitter engagement, including metrics tracking, sentiment analysis, and trend monitoring. ## Core Features - Tweet engagement metrics - Follower growth tracking - Hashtag performance analysis - Sentiment analysis of "
     },
     {
       "id": 6003832923,
@@ -990,63 +834,24 @@
       "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/blake-guthrie/GLASS/issues/1 ### 漏洞描述 / Description USDC-quoted pairs not having the correct marketcap displayed in tools Fix this problem to get paid in fees of $100 ### 积分币奖励 / Coin Reward 125 coins ### 真实赏金（US"
     },
     {
-      "id": 6019191166,
-      "title": "[Bounty] [STEAM VAULT] 🎮 Exchange 100,000 DOOM ($wDOOM) for a $10 Steam Digital Gift Card",
-      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4113",
+      "id": 5874535501,
+      "title": "[Bounty] [Bounty: $75] Website: accessibility and motion-preference fixes for the landing",
+      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1900",
       "repository": "zhangjiayang6835-cyber/bounty-plaza",
-      "created_at": "2026-10-25T00:27:06Z",
-      "updated_at": "2026-11-04T01:37:46Z",
-      "payoutMentionUSD": 100,
+      "created_at": "2026-10-15T21:54:16Z",
+      "updated_at": "2026-11-04T21:03:20Z",
+      "payoutMentionUSD": 75,
       "assignees": [],
-      "commentCount": 3,
+      "commentCount": 10,
       "labels": [
         "bounty",
         "real"
       ],
-      "score": 63,
+      "score": 62,
       "status": "POTENTIAL PAYOUT — UNVERIFIED",
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
-      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/doomsday-network/doom-pay/issues/4 ### 漏洞描述 / Description [STEAM VAULT] 🎮 Exchange 100,000 DOOM ($wDOOM) for a $10 Steam Digital Gift Card! (10 / 10 Available — $100 USD Vault) ### 🎮 DoomVault — Redeem `100,000"
-    },
-    {
-      "id": 6014202777,
-      "title": "[Bounty] 💰 Bounty Seguro ($$100): 💰 Bounty Seguro ($$100): [Bounty] 💰 Bounty Seguro ",
-      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4110",
-      "repository": "zhangjiayang6835-cyber/bounty-plaza",
-      "created_at": "2026-10-24T14:52:08Z",
-      "updated_at": "2026-11-04T01:37:22Z",
-      "payoutMentionUSD": 100,
-      "assignees": [],
-      "commentCount": 2,
-      "labels": [
-        "bounty",
-        "real"
-      ],
-      "score": 63,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/alfrexo95/bounty-bot/issues/28 ### 漏洞描述 / Description 💰 Bounty Seguro ($$100): 💰 Bounty Seguro ($$100): [Bounty] 💰 Bounty Seguro 🤖 **Bounty con Pago Garantizado (Escrow)** - **Título:** 💰 Bounty Seguro ($$10"
-    },
-    {
-      "id": 2877842639,
-      "title": "Twitter Analytics and Monitoring ($2,000)",
-      "html_url": "https://github.com/Spectral-Finance/lux/issues/59",
-      "repository": "Spectral-Finance/lux",
-      "created_at": "2025-02-25T10:01:48Z",
-      "updated_at": "2026-11-04T00:32:36Z",
-      "payoutMentionUSD": 2000,
-      "assignees": [],
-      "commentCount": 7,
-      "labels": [
-        "bounty"
-      ],
-      "score": 63,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "## Overview Implement analytics and monitoring capabilities for Twitter engagement, including metrics tracking, sentiment analysis, and trend monitoring. ## Core Features - Tweet engagement metrics - Follower growth tracking - Hashtag performance analysis - Sentiment analysis of "
+      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/Parabola-org/parabola/issues/16 ### 漏洞描述 / Description [Bounty: $75] Website: accessibility and motion-preference fixes for the landing page **Context** `website/` is the project's landing page with a scripted he"
     },
     {
       "id": 5814259750,
@@ -1054,10 +859,10 @@
       "html_url": "https://github.com/sybil-solutions/local-ai-registry/issues/217",
       "repository": "sybil-solutions/local-ai-registry",
       "created_at": "2026-10-12T13:07:21Z",
-      "updated_at": "2026-11-04T13:24:57Z",
+      "updated_at": "2026-11-04T20:38:53Z",
       "payoutMentionUSD": 50,
       "assignees": [],
-      "commentCount": 22,
+      "commentCount": 23,
       "labels": [
         "bounty",
         "bounty: $50",
@@ -1070,27 +875,6 @@
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
       "excerpt": "**Pays $50** when a PR adds a tested recipe for this card and is merged. Rules: [BOUNTIES.md](https://github.com/sybil-solutions/.github/blob/main/BOUNTIES.md). | | | |---|---| | Card | `rtx-2080-ti-11gb` | | Model | Qwen3.5-9B, or any model in `registry/models.json` not yet test"
-    },
-    {
-      "id": 2877968050,
-      "title": "Curve Finance Integration and Stablecoin Management $900",
-      "html_url": "https://github.com/Spectral-Finance/lux/issues/81",
-      "repository": "Spectral-Finance/lux",
-      "created_at": "2025-02-25T10:43:53Z",
-      "updated_at": "2026-11-03T21:37:45Z",
-      "payoutMentionUSD": 900,
-      "assignees": [],
-      "commentCount": 19,
-      "labels": [
-        "bounty",
-        "web3",
-        "exchanges"
-      ],
-      "score": 61,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "## Overview Implement Curve Finance integration focusing on stablecoin management and optimal yield strategies. ## Core Features - Stablecoin pool management - Curve gauge integration - CRV rewards optimization - Pool analysis and selection - Automated rebalancing - Slippage opti"
     },
     {
       "id": 5387619561,
@@ -1111,6 +895,49 @@
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
       "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/Senthemodder/claude-honeypot/issues/1 ### 漏洞描述 / Description [Bounty: ] Race Condition in Distributed Async Event Queue during High Concurrency # [Bounty: $250] Race Condition in Distributed Async Event Queue dur"
+    },
+    {
+      "id": 5519781492,
+      "title": "Bounty: hunt bugs across the entire Vista framework",
+      "html_url": "https://github.com/Mantitup-Org/vista/issues/61",
+      "repository": "Mantitup-Org/vista",
+      "created_at": "2026-09-20T18:51:05Z",
+      "updated_at": "2026-11-04T21:07:17Z",
+      "payoutMentionUSD": null,
+      "assignees": [],
+      "commentCount": 20,
+      "labels": [
+        "help wanted",
+        "bounty"
+      ],
+      "score": 60,
+      "status": "VERIFY REWARD AND ELIGIBILITY",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "## Goal Find real bugs anywhere in Vista — not only one feature. This is a framework-wide bounty hunt. Scope is the published packages and the live docs app: - `@vistagenic/vista` (RSC/SSR, `vista/link`, `vista/image`, `vista/theme`, `vista/auth`, `vista/ai`, `vista/stack`, `vist"
+    },
+    {
+      "id": 5948783020,
+      "title": "AI: recalibrate the bounty kill-chance estimate (it underrates bounties it would win)",
+      "html_url": "https://github.com/evenifyouforget/Stronghold-Protocol-EN/issues/29",
+      "repository": "evenifyouforget/Stronghold-Protocol-EN",
+      "created_at": "2026-10-20T20:06:11Z",
+      "updated_at": "2026-11-04T20:23:43Z",
+      "payoutMentionUSD": null,
+      "assignees": [],
+      "commentCount": 2,
+      "labels": [
+        "enhancement",
+        "help wanted",
+        "research-and-development",
+        "bot-players",
+        "drafted-by-ai"
+      ],
+      "score": 60,
+      "status": "VERIFY REWARD AND ELIGIBILITY",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "**What's wrong** The AI player scores a 机变 bounty card by its expected payout minus its expected LP loss, using its own kill-chance estimate (`bountyKillChance` in `server/match/bot.js`). Measured over 320 bot matches (all difficulties, solo and 4-bot co-op), that estimate is far"
     },
     {
       "id": 2877966992,
@@ -1154,26 +981,6 @@
       "excerpt": "## Overview Implement Coinbase exchange integration for spot trading and advanced order management. ## Core Features - REST API integration - WebSocket feeds - Order management - Market data streaming - Portfolio tracking - Account management - Historical data access - Rate limit"
     },
     {
-      "id": 5519781492,
-      "title": "Bounty: hunt bugs across the entire Vista framework",
-      "html_url": "https://github.com/Mantitup-Org/vista/issues/61",
-      "repository": "Mantitup-Org/vista",
-      "created_at": "2026-09-20T18:51:05Z",
-      "updated_at": "2026-11-04T05:14:07Z",
-      "payoutMentionUSD": null,
-      "assignees": [],
-      "commentCount": 19,
-      "labels": [
-        "help wanted",
-        "bounty"
-      ],
-      "score": 60,
-      "status": "VERIFY REWARD AND ELIGIBILITY",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "## Goal Find real bugs anywhere in Vista — not only one feature. This is a framework-wide bounty hunt. Scope is the published packages and the live docs app: - `@vistagenic/vista` (RSC/SSR, `vista/link`, `vista/image`, `vista/theme`, `vista/auth`, `vista/ai`, `vista/stack`, `vist"
-    },
-    {
       "id": 5519781644,
       "title": "Bug: vista deploy still breaks static hosts and platform adapters",
       "html_url": "https://github.com/Mantitup-Org/vista/issues/62",
@@ -1193,28 +1000,6 @@
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
       "excerpt": "## Goal Hunt and fix remaining **deployment** bugs in `vista deploy` and the hosted docs site. `create-vista-app` no longer copies `Dockerfile` / `render.yaml` / `deploy/`. Platform files must come from the **engine** (`vista deploy`). That path is still buggy on some hosts. ## K"
-    },
-    {
-      "id": 5096778319,
-      "title": "[FEAT] Implement CSV export functionality for historical pool TVL data",
-      "html_url": "https://github.com/Bigg770/soroban-defi-analytics/issues/4",
-      "repository": "Bigg770/soroban-defi-analytics",
-      "created_at": "2026-08-08T08:48:25Z",
-      "updated_at": "2026-11-04T03:08:52Z",
-      "payoutMentionUSD": null,
-      "assignees": [],
-      "commentCount": 14,
-      "labels": [
-        "enhancement",
-        "help wanted",
-        "bounty",
-        "frontend"
-      ],
-      "score": 60,
-      "status": "VERIFY REWARD AND ELIGIBILITY",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "## Overview Users want to download the 30-day historical TVL and volume data shown in `<VolumeChart />` as a **CSV file** for offline analysis in spreadsheets or Python/pandas. ## 💰 Bounty This issue carries a **community bounty**. Comment tagging `@Bigg770` before starting work"
     },
     {
       "id": 2878032916,
@@ -1260,27 +1045,6 @@
       "excerpt": "## Overview Implement integration with OpenRouter to provide access to a wide range of LLM models through a single unified API. ## Core Features - OpenRouter API integration - Multiple model support - Unified API interface - Cost optimization - Error handling and retries ## Techn"
     },
     {
-      "id": 2878033972,
-      "title": "Rust Component Definition Support $500",
-      "html_url": "https://github.com/Spectral-Finance/lux/issues/103",
-      "repository": "Spectral-Finance/lux",
-      "created_at": "2025-02-25T11:10:15Z",
-      "updated_at": "2026-11-04T03:09:07Z",
-      "payoutMentionUSD": 500,
-      "assignees": [],
-      "commentCount": 28,
-      "labels": [
-        "enhancement",
-        "bounty",
-        "rust"
-      ],
-      "score": 59,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "## Overview Implement support for defining Lux components (Prisms and Beams) in Rust, enabling high-performance native components with full framework integration. ## Core Features - Rust component definition - Trait system integration - Async/await support - Performance optimizat"
-    },
-    {
       "id": 6004722681,
       "title": "First-Dollar Mission: qualify and complete the first paid AI-assisted repair",
       "html_url": "https://github.com/Ledgercorp/BountyForge/issues/3",
@@ -1296,6 +1060,215 @@
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
       "excerpt": "## Objective Get BountyForge's **first legitimately paid AI-assisted coding repair**, then repeat toward a **$2,000/month gross** target. This is a private income-generation operator, **not a SaaS to sell**. Optimize for accepted work and net receipts, not developmental test coun"
+    },
+    {
+      "id": 5981846324,
+      "title": "📋 2 open bounties right now",
+      "html_url": "https://github.com/habibdxb01/bounty-watcher/issues/8",
+      "repository": "habibdxb01/bounty-watcher",
+      "created_at": "2026-10-22T15:00:27Z",
+      "updated_at": "2026-10-28T11:24:27Z",
+      "payoutMentionUSD": 150,
+      "assignees": [],
+      "commentCount": 0,
+      "labels": [
+        "bounty",
+        "assessed"
+      ],
+      "score": 59,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "Bounties that were already open when the watcher started. From now on, each new one gets its own issue. - 🔴 **$150** · [📱 Epic: BAWES Universe Mobile App (Android + iOS)](https://github.com/BAWES-Universe/workadventure-universe/issues/1) - 🔴 **$50** · [BOUNTY: integrate AWS Co"
+    },
+    {
+      "id": 5838147120,
+      "title": "📋 2 open bounties right now",
+      "html_url": "https://github.com/habibdxb01/bounty-watcher/issues/5",
+      "repository": "habibdxb01/bounty-watcher",
+      "created_at": "2026-10-13T21:40:05Z",
+      "updated_at": "2026-10-13T22:47:59Z",
+      "payoutMentionUSD": 150,
+      "assignees": [],
+      "commentCount": 0,
+      "labels": [
+        "bounty",
+        "assessed"
+      ],
+      "score": 59,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "Bounties that were already open when the watcher started. From now on, each new one gets its own issue. - 🔴 **$150** · [📱 Epic: BAWES Universe Mobile App (Android + iOS)](https://github.com/BAWES-Universe/workadventure-universe/issues/1) - 🔴 **$50** · [BOUNTY: integrate AWS Co"
+    },
+    {
+      "id": 2878024403,
+      "title": "Local Model Support via Ollama $400",
+      "html_url": "https://github.com/Spectral-Finance/lux/issues/96",
+      "repository": "Spectral-Finance/lux",
+      "created_at": "2025-02-25T11:06:09Z",
+      "updated_at": "2026-11-04T03:09:38Z",
+      "payoutMentionUSD": 400,
+      "assignees": [],
+      "commentCount": 23,
+      "labels": [
+        "enhancement",
+        "bounty",
+        "llm"
+      ],
+      "score": 58,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "## Overview Implement local model support via Ollama, enabling self-hosted LLM capabilities with optimized performance. ## Core Features - Ollama integration - Local model management - Model download and caching - Performance optimization - Resource management ## Technical Detail"
+    },
+    {
+      "id": 2878033576,
+      "title": "Rust Testing Framework Integration $350",
+      "html_url": "https://github.com/Spectral-Finance/lux/issues/102",
+      "repository": "Spectral-Finance/lux",
+      "created_at": "2025-02-25T11:10:03Z",
+      "updated_at": "2026-11-04T03:09:23Z",
+      "payoutMentionUSD": 350,
+      "assignees": [],
+      "commentCount": 21,
+      "labels": [
+        "enhancement",
+        "bounty",
+        "rust"
+      ],
+      "score": 58,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "## Overview Implement a testing framework for Rust code in Lux, enabling seamless integration with the existing test infrastructure and comprehensive test coverage. ## Core Features - Rust test runner - Integration with mix test - Coverage reporting - Cross-language test utilitie"
+    },
+    {
+      "id": 6017814730,
+      "title": "Frantic bounty #138: Find a live HTTP 402 endpoint that prices in Nano (XNO)",
+      "html_url": "https://github.com/auscaster/frantic-board/issues/558",
+      "repository": "auscaster/frantic-board",
+      "created_at": "2026-10-24T21:29:48Z",
+      "updated_at": "2026-11-04T05:56:19Z",
+      "payoutMentionUSD": 10,
+      "assignees": [],
+      "commentCount": 1,
+      "labels": [
+        "bounty",
+        "funded",
+        "delivered"
+      ],
+      "score": 57,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "Frantic bounty #138 Find a live HTTP 402 endpoint that prices in Nano (XNO) Worker price: $10 Slots: 1 (filled) Status: delivered Claim: https://gofrantic.com/bounties/138 Funding receipt: https://gofrantic.com/r/5a08bdba Frantic is the source of truth. This GitHub issue is a mir"
+    },
+    {
+      "id": 2878032526,
+      "title": "Cargo Package Management Integration $300",
+      "html_url": "https://github.com/Spectral-Finance/lux/issues/100",
+      "repository": "Spectral-Finance/lux",
+      "created_at": "2025-02-25T11:09:35Z",
+      "updated_at": "2026-11-04T03:40:24Z",
+      "payoutMentionUSD": 300,
+      "assignees": [],
+      "commentCount": 28,
+      "labels": [
+        "enhancement",
+        "bounty",
+        "rust"
+      ],
+      "score": 57,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "## Overview Implement Cargo package management integration for Rust in Lux, enabling seamless dependency management and build system integration. ## Core Features - Cargo.toml management - Dependency resolution - Build system integration - Version management - Package caching ## "
+    },
+    {
+      "id": 4697583816,
+      "title": "[$35 BOUNTY] [TypeScript] Add single-flight token refresh handling",
+      "html_url": "https://github.com/shaiananvari8/zeroeye/issues/1",
+      "repository": "shaiananvari8/zeroeye",
+      "created_at": "2026-06-19T03:02:49Z",
+      "updated_at": "2026-11-04T06:43:38Z",
+      "payoutMentionUSD": 35,
+      "assignees": [],
+      "commentCount": 23,
+      "labels": [
+        "help wanted",
+        "good first issue",
+        "bounty",
+        "language:typescript"
+      ],
+      "score": 56,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "**Bounty:** $35 (LT) **Area:** `frontend/src/services/auth.ts` **Current state:** The auth service notes a known token-refresh race when multiple browser tabs refresh at the same time. Refresh callers can overlap instead of sharing one in-flight refresh result, which risks stale "
+    },
+    {
+      "id": 4866948035,
+      "title": "[50 MRG] FastAPI: POST /infer/text and /infer/voice",
+      "html_url": "https://github.com/mergeos-bounties/Loru/issues/10",
+      "repository": "mergeos-bounties/Loru",
+      "created_at": "2026-07-12T12:04:19Z",
+      "updated_at": "2026-11-04T22:12:17Z",
+      "payoutMentionUSD": null,
+      "assignees": [],
+      "commentCount": 6,
+      "labels": [
+        "bounty",
+        "bounty: feature",
+        "api",
+        "reward:50-mrg"
+      ],
+      "score": 55,
+      "status": "VERIFY REWARD AND ELIGIBILITY",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "## Bounty: 50 MRG Ship optional FastAPI app under `src/loru/api/` with: - `POST /infer/text` (JSON sequence body) - `POST /infer/voice` (returns path or audio bytes) - `GET /health` ## Acceptance - [ ] `loru serve` or uvicorn entry documented - [ ] Tests with TestClient (api extr"
+    },
+    {
+      "id": 5516825464,
+      "title": "[LIVE] Verified NIM bounty board",
+      "html_url": "https://github.com/Saidur-droid/MergeEarn/issues/33",
+      "repository": "Saidur-droid/MergeEarn",
+      "created_at": "2026-09-20T08:52:35Z",
+      "updated_at": "2026-11-04T21:31:38Z",
+      "payoutMentionUSD": null,
+      "assignees": [],
+      "commentCount": 1,
+      "labels": [],
+      "score": 55,
+      "status": "VERIFY REWARD AND ELIGIBILITY",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "# MergeEarn live community bounty board This is the public, automatically maintained entry point for contributor-friendly MergeEarn work. **Live app:** https://mergeearn.vercel.app **GitHub Contribute page:** https://github.com/Saidur-droid/MergeEarn/contribute A task is paid onl"
+    },
+    {
+      "id": 6049856044,
+      "title": "Make skipFor ci/headless work and count skipped tests in test-suite",
+      "html_url": "https://github.com/hanzoai/mcp/issues/14",
+      "repository": "hanzoai/mcp",
+      "created_at": "2026-10-26T23:16:57Z",
+      "updated_at": "2026-11-04T21:02:34Z",
+      "payoutMentionUSD": null,
+      "assignees": [],
+      "commentCount": 7,
+      "labels": [
+        "bug",
+        "bounty",
+        "bounty:starter",
+        "priority: p2",
+        "track: oss",
+        "type: bug"
+      ],
+      "score": 55,
+      "status": "VERIFY REWARD AND ELIGIBILITY",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "## Summary In the MCP test-suite, 21 test cases say `skipFor: ['ci', 'headless']`, but those names are never compared with anything that can match, so the cases are never skipped. The report also hard-codes zero skipped tests. ## Evidence Checked at `4770743`. - `test-suite/specs"
     }
   ],
   "disclaimer": "No verified payouts or earnings; these are public issue candidates. Manually confirm funding, assignment, eligibility, security and payment terms. Never pay to join, disclose secrets or begin work without terms."
