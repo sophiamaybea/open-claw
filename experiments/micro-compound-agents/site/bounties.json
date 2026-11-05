@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-05T17:25:47.414Z",
+  "updatedAt": "2026-11-05T23:39:21.891Z",
   "state": "RESEARCH_READY",
   "sources": [
     "GitHub issue search"
@@ -11,7 +11,7 @@
     "is:issue is:open \"USDC\" \"bounty\""
   ],
   "results": 60,
-  "scanCount": 313,
+  "scanCount": 317,
   "errors": [],
   "opportunities": [
     {
@@ -20,10 +20,10 @@
       "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4187",
       "repository": "zhangjiayang6835-cyber/bounty-plaza",
       "created_at": "2026-10-30T18:53:56Z",
-      "updated_at": "2026-11-05T08:06:07Z",
+      "updated_at": "2026-11-05T21:40:21Z",
       "payoutMentionUSD": 750,
       "assignees": [],
-      "commentCount": 12,
+      "commentCount": 13,
       "labels": [
         "bounty",
         "real"
@@ -33,40 +33,6 @@
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
       "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/tenstorrent/tt-metal/issues/62571 ### 漏洞描述 / Description [Bounty $750] Improve Qwen3-TTS Code Predictor Accuracy 📝 Background The Qwen3-TTS code predictor produces logits for 15 codebook heads during decoding. I"
-    },
-    {
-      "id": 5603518489,
-      "title": "[AGENTE] Checklist submission bounty Mermail ($500 USDC)",
-      "html_url": "https://github.com/perria080925-bot/agente-bountie/issues/1",
-      "repository": "perria080925-bot/agente-bountie",
-      "created_at": "2026-09-27T14:39:06Z",
-      "updated_at": "2026-11-05T05:52:38Z",
-      "payoutMentionUSD": 500,
-      "assignees": [],
-      "commentCount": 3,
-      "labels": [],
-      "score": 73,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "## 🎯 Estado: SKILL COMPLETA — bloqueada solo por permisos del token La skill **`mermail-bookkeeper-agent`** está terminada, validada con `npm test` del repo oficial (18 skills, 73 tools ✅) y commiteada en el branch `feat/mermail-bookkeeper-agent`. --- ### PASO 1 — Actualizar el "
-    },
-    {
-      "id": 5695126149,
-      "title": "[BOUNTY] Medium: slash_validator omits forfeiture of pending_rewards, allowing slashed validators to extract fees and forcing reward payout on account close",
-      "html_url": "https://github.com/paraloom-labs/paraloom-core/issues/863",
-      "repository": "paraloom-labs/paraloom-core",
-      "created_at": "2026-10-04T01:10:05Z",
-      "updated_at": "2026-11-05T11:59:10Z",
-      "payoutMentionUSD": 3000,
-      "assignees": [],
-      "commentCount": 4,
-      "labels": [],
-      "score": 72,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "# [Security Report] `slash_validator` omits forfeiture of `pending_rewards`, allowing slashed/malicious validators to extract protocol fees and forcing reward payout on account close **Severity**: Medium / High **Affected Component**: `programs/paraloom/src/lib.rs` (`slash_valida"
     },
     {
       "id": 5404801661,
@@ -113,10 +79,10 @@
       "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4188",
       "repository": "zhangjiayang6835-cyber/bounty-plaza",
       "created_at": "2026-10-30T22:49:56Z",
-      "updated_at": "2026-11-05T05:52:48Z",
+      "updated_at": "2026-11-05T21:41:24Z",
       "payoutMentionUSD": 750,
       "assignees": [],
-      "commentCount": 3,
+      "commentCount": 5,
       "labels": [
         "bounty",
         "real"
@@ -126,6 +92,46 @@
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
       "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/alfrexo95/bounty-bot/issues/68 ### 漏洞描述 / Description 💰 Bounty Seguro ($$750): [Bounty] [Bounty $750] Improve Qwen3-TTS Code Pred 🤖 **Bounty con Pago Garantizado (Escrow)** - **Título:** [Bounty] [Bounty $750] "
+    },
+    {
+      "id": 6127708839,
+      "title": "💰 Bounty Seguro ($$750): [Bounty] [Bounty $750] Improve Qwen3-TTS Code Pred",
+      "html_url": "https://github.com/alfrexo95/bounty-bot/issues/68",
+      "repository": "alfrexo95/bounty-bot",
+      "created_at": "2026-10-30T22:08:13Z",
+      "updated_at": "2026-11-05T21:39:11Z",
+      "payoutMentionUSD": 750,
+      "assignees": [],
+      "commentCount": 2,
+      "labels": [
+        "bounty",
+        "escrow"
+      ],
+      "score": 69,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "🤖 **Bounty con Pago Garantizado (Escrow)** - **Título:** [Bounty] [Bounty $750] Improve Qwen3-TTS Code Predictor Accuracy - **Monto:** $$750 - **Plataforma:** GitHub Issue - **Enlace:** [Ir al Issue](https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4187) --- ### 💰 "
+    },
+    {
+      "id": 6131350727,
+      "title": "💰 Bounty Seguro ($$750): [Bounty] 💰 Bounty Seguro ($$750): [Bounty] [Bounty",
+      "html_url": "https://github.com/alfrexo95/bounty-bot/issues/69",
+      "repository": "alfrexo95/bounty-bot",
+      "created_at": "2026-10-31T04:58:34Z",
+      "updated_at": "2026-11-05T21:31:12Z",
+      "payoutMentionUSD": 750,
+      "assignees": [],
+      "commentCount": 2,
+      "labels": [
+        "bounty",
+        "escrow"
+      ],
+      "score": 69,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "🤖 **Bounty con Pago Garantizado (Escrow)** - **Título:** [Bounty] 💰 Bounty Seguro ($$750): [Bounty] [Bounty $750] Improve Qwen3-TTS Code Pred - **Monto:** $$750 - **Plataforma:** GitHub Issue - **Enlace:** [Ir al Issue](https://github.com/zhangjiayang6835-cyber/bounty-plaza/iss"
     },
     {
       "id": 5874536758,
@@ -173,7 +179,7 @@
       "html_url": "https://github.com/WholeTroutMedia/agent-conformance-quarantine/issues/2",
       "repository": "WholeTroutMedia/agent-conformance-quarantine",
       "created_at": "2026-11-05T13:04:04Z",
-      "updated_at": "2026-11-05T17:18:55Z",
+      "updated_at": "2026-11-05T23:18:12Z",
       "payoutMentionUSD": 600,
       "assignees": [],
       "commentCount": 0,
@@ -192,10 +198,10 @@
       "html_url": "https://github.com/WholeTroutMedia/agent-conformance-quarantine/issues/1",
       "repository": "WholeTroutMedia/agent-conformance-quarantine",
       "created_at": "2026-11-05T13:04:04Z",
-      "updated_at": "2026-11-05T17:18:54Z",
+      "updated_at": "2026-11-05T23:18:11Z",
       "payoutMentionUSD": 450,
       "assignees": [],
-      "commentCount": 0,
+      "commentCount": 1,
       "labels": [
         "bounty"
       ],
@@ -207,11 +213,11 @@
     },
     {
       "id": 6223736610,
-      "title": "[Bounty $600 USDC] PagedAttention KV-Cache Block Desync on Prefix-Aware Chunked Preemption (drain_horizon_table_f52)",
+      "title": "[Bounty $600 USDC] PagedAttention KV-Cache Block Desync on Prefix-Aware Chunked Preemption (coalesce_stride_ring_423)",
       "html_url": "https://github.com/WholeTroutMedia/protocol-conformance-relay/issues/2",
       "repository": "WholeTroutMedia/protocol-conformance-relay",
       "created_at": "2026-11-05T13:04:02Z",
-      "updated_at": "2026-11-05T17:18:53Z",
+      "updated_at": "2026-11-05T23:18:10Z",
       "payoutMentionUSD": 600,
       "assignees": [],
       "commentCount": 0,
@@ -226,14 +232,14 @@
     },
     {
       "id": 6223736459,
-      "title": "[Bounty $450 USDC] Streaming MCP SSE Chunk Boundary Reassembly with Backpressure Backoff (partition_cursor_6d79)",
+      "title": "[Bounty $450 USDC] Streaming MCP SSE Chunk Boundary Reassembly with Backpressure Backoff (drain_slot_ef8f)",
       "html_url": "https://github.com/WholeTroutMedia/protocol-conformance-relay/issues/1",
       "repository": "WholeTroutMedia/protocol-conformance-relay",
       "created_at": "2026-11-05T13:04:02Z",
-      "updated_at": "2026-11-05T17:18:52Z",
+      "updated_at": "2026-11-05T23:18:09Z",
       "payoutMentionUSD": 450,
       "assignees": [],
-      "commentCount": 0,
+      "commentCount": 1,
       "labels": [
         "bounty"
       ],
@@ -242,6 +248,86 @@
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
       "excerpt": "> **Automated CI Regression Mirror Notice**: Automated CI build and specification relay issue; manual pull requests from human engineers are not reviewed on this mirror. - **Escrow Rail**: https://algora.io / https://polar.sh / https://opire.dev - **Funding Status**: Held in escr"
+    },
+    {
+      "id": 6229025753,
+      "title": "[Bounty] [Bounty $600 USDC] PagedAttention KV-Cache Block Desync on Prefix-Aware Chunked ",
+      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4207",
+      "repository": "zhangjiayang6835-cyber/bounty-plaza",
+      "created_at": "2026-11-05T18:17:54Z",
+      "updated_at": "2026-11-05T21:42:20Z",
+      "payoutMentionUSD": 600,
+      "assignees": [],
+      "commentCount": 1,
+      "labels": [
+        "bounty",
+        "real"
+      ],
+      "score": 68,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/WholeTroutMedia/protocol-conformance-relay/issues/2 ### 漏洞描述 / Description [Bounty $600 USDC] PagedAttention KV-Cache Block Desync on Prefix-Aware Chunked Preemption (drain_horizon_table_f52) > **Automated CI Reg"
+    },
+    {
+      "id": 6229025386,
+      "title": "[Bounty] [Escrowed $450 USDC] 20-Vector Conformance Suite: Streaming MCP SSE Chunk Bounda",
+      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4205",
+      "repository": "zhangjiayang6835-cyber/bounty-plaza",
+      "created_at": "2026-11-05T18:17:53Z",
+      "updated_at": "2026-11-05T21:09:49Z",
+      "payoutMentionUSD": 450,
+      "assignees": [],
+      "commentCount": 1,
+      "labels": [
+        "bounty",
+        "real"
+      ],
+      "score": 68,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/WholeTroutMedia/agent-conformance-quarantine/issues/1 ### 漏洞描述 / Description [Escrowed $450 USDC] 20-Vector Conformance Suite: Streaming MCP SSE Chunk Boundary Reassembly with Backpressure Backoff > **Automated C"
+    },
+    {
+      "id": 6229025565,
+      "title": "[Bounty] [Escrowed $600 USDC] 20-Vector Conformance Suite: PagedAttention KV-Cache Block ",
+      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4206",
+      "repository": "zhangjiayang6835-cyber/bounty-plaza",
+      "created_at": "2026-11-05T18:17:53Z",
+      "updated_at": "2026-11-05T21:09:34Z",
+      "payoutMentionUSD": 600,
+      "assignees": [],
+      "commentCount": 1,
+      "labels": [
+        "bounty",
+        "real"
+      ],
+      "score": 68,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/WholeTroutMedia/agent-conformance-quarantine/issues/2 ### 漏洞描述 / Description [Escrowed $600 USDC] 20-Vector Conformance Suite: PagedAttention KV-Cache Block Desync on Prefix-Aware Chunked Preemption > **Automated"
+    },
+    {
+      "id": 6229025925,
+      "title": "[Bounty] [Bounty $450 USDC] Streaming MCP SSE Chunk Boundary Reassembly with Backpressure",
+      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4208",
+      "repository": "zhangjiayang6835-cyber/bounty-plaza",
+      "created_at": "2026-11-05T18:17:55Z",
+      "updated_at": "2026-11-05T21:08:16Z",
+      "payoutMentionUSD": 450,
+      "assignees": [],
+      "commentCount": 2,
+      "labels": [
+        "bounty",
+        "real"
+      ],
+      "score": 68,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/WholeTroutMedia/protocol-conformance-relay/issues/1 ### 漏洞描述 / Description [Bounty $450 USDC] Streaming MCP SSE Chunk Boundary Reassembly with Backpressure Backoff (partition_cursor_6d79) > **Automated CI Regress"
     },
     {
       "id": 5407238639,
@@ -269,10 +355,10 @@
       "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4142",
       "repository": "zhangjiayang6835-cyber/bounty-plaza",
       "created_at": "2026-10-27T22:13:25Z",
-      "updated_at": "2026-11-05T07:06:01Z",
+      "updated_at": "2026-11-05T21:53:42Z",
       "payoutMentionUSD": 350,
       "assignees": [],
-      "commentCount": 6,
+      "commentCount": 7,
       "labels": [
         "bounty",
         "real"
@@ -302,23 +388,6 @@
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
       "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/Parabola-org/parabola/issues/12 ### 漏洞描述 / Description [Bounty: $75] Expose retry/backoff knobs for Stellar allowance wait and RPC-lag retry **Context** Two recovery loops in `src/chains/stellar.ts` have hard-cod"
-    },
-    {
-      "id": 6202412785,
-      "title": "[BUG BOUNTY] High: TransactSpl requires initialized TokenAccounts for recipient and fee_token during internal transfers (ext_amount == 0), reverting all private SPL transfers",
-      "html_url": "https://github.com/paraloom-labs/paraloom-core/issues/1337",
-      "repository": "paraloom-labs/paraloom-core",
-      "created_at": "2026-11-04T12:11:10Z",
-      "updated_at": "2026-11-05T05:52:35Z",
-      "payoutMentionUSD": 400,
-      "assignees": [],
-      "commentCount": 2,
-      "labels": [],
-      "score": 67,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "# [BUG BOUNTY] High: `TransactSpl` requires initialized SPL `TokenAccount`s for `recipient` and `fee_token` during internal transfers (`ext_amount == 0`), reverting all private SPL transfers on-chain ## 🔍 Summary - **Target Repository:** [`paraloom-labs/paraloom-core`](https://g"
     },
     {
       "id": 5874535862,
@@ -363,7 +432,27 @@
       "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4152",
       "repository": "zhangjiayang6835-cyber/bounty-plaza",
       "created_at": "2026-10-28T07:17:25Z",
-      "updated_at": "2026-11-05T09:07:42Z",
+      "updated_at": "2026-11-05T21:56:24Z",
+      "payoutMentionUSD": 250,
+      "assignees": [],
+      "commentCount": 12,
+      "labels": [
+        "bounty",
+        "real"
+      ],
+      "score": 66,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/alfrexo95/bounty-bot/issues/53 ### 漏洞描述 / Description 💰 Bounty Seguro ($$250): [Bounty] Preserve RFC 7239 `Forwarded` host author 🤖 **Bounty con Pago Garantizado (Escrow)** - **Título:** [Bounty] Preserve RFC 7"
+    },
+    {
+      "id": 6068643803,
+      "title": "[Bounty] Preserve RFC 7239 `Forwarded` host authority in sub-mounted ASGI `Request.scope_",
+      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4143",
+      "repository": "zhangjiayang6835-cyber/bounty-plaza",
+      "created_at": "2026-10-27T22:13:25Z",
+      "updated_at": "2026-11-05T21:56:09Z",
       "payoutMentionUSD": 250,
       "assignees": [],
       "commentCount": 11,
@@ -375,7 +464,26 @@
       "status": "POTENTIAL PAYOUT — UNVERIFIED",
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
-      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/alfrexo95/bounty-bot/issues/53 ### 漏洞描述 / Description 💰 Bounty Seguro ($$250): [Bounty] Preserve RFC 7239 `Forwarded` host author 🤖 **Bounty con Pago Garantizado (Escrow)** - **Título:** [Bounty] Preserve RFC 7"
+      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/WholeTroutMedia/oss-verification-sandbox/issues/1 ### 漏洞描述 / Description Preserve RFC 7239 `Forwarded` host authority in sub-mounted ASGI `Request.scope_for` ### Problem Description When an ASGI application is mo"
+    },
+    {
+      "id": 6206594886,
+      "title": "Mainnet: deploy and win the demo bounty",
+      "html_url": "https://github.com/Vasqq/BounTEE/issues/35",
+      "repository": "Vasqq/BounTEE",
+      "created_at": "2026-11-04T16:10:00Z",
+      "updated_at": "2026-11-05T21:08:21Z",
+      "payoutMentionUSD": 50,
+      "assignees": [],
+      "commentCount": 0,
+      "labels": [
+        "ready-for-human"
+      ],
+      "score": 66,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "## What to build Deploy BounTEE to mainnet and win the one demo bounty: an independent AI agent finds the bug and wins it with a claim key, after a cheat claim on it scores zero (ADR-0018). This run is the evidence the README, the landing page, the video and Verify show (ADR-0017"
     },
     {
       "id": 6089460910,
@@ -418,26 +526,6 @@
       "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/alfrexo95/bounty-bot/issues/58 ### 漏洞描述 / Description 💰 Bounty Seguro ($$250): [Bounty] 💰 Bounty Seguro ($$250): 💰 Bounty Seguro 🤖 **Bounty con Pago Garantizado (Escrow)** - **Título:** [Bounty] 💰 Bounty Seg"
     },
     {
-      "id": 6068643803,
-      "title": "[Bounty] Preserve RFC 7239 `Forwarded` host authority in sub-mounted ASGI `Request.scope_",
-      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4143",
-      "repository": "zhangjiayang6835-cyber/bounty-plaza",
-      "created_at": "2026-10-27T22:13:25Z",
-      "updated_at": "2026-11-05T07:05:59Z",
-      "payoutMentionUSD": 250,
-      "assignees": [],
-      "commentCount": 10,
-      "labels": [
-        "bounty",
-        "real"
-      ],
-      "score": 66,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/WholeTroutMedia/oss-verification-sandbox/issues/1 ### 漏洞描述 / Description Preserve RFC 7239 `Forwarded` host authority in sub-mounted ASGI `Request.scope_for` ### Problem Description When an ASGI application is mo"
-    },
-    {
       "id": 6056974343,
       "title": "[BOUNTY] Medium: paraloom validator withdraw-unbonded omits idempotent ATA creation, causing AccountNotInitialized failure and freezing unbonded SOL/token withdrawal (paraloom-core)",
       "html_url": "https://github.com/paraloom-labs/paraloom-core/issues/1242",
@@ -453,57 +541,6 @@
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
       "excerpt": "### Target Information - **Repository**: `paraloom-labs/paraloom-core` - **File**: `src/bin/paraloom_cli.rs` (`ValidatorCommands::WithdrawUnbonded`) & `programs/paraloom-bridge/src/lib.rs` (`WithdrawUnbondedStake`) - **Component**: Validator CLI & Solana Dual-Stake Withdrawal Lif"
-    },
-    {
-      "id": 5816890505,
-      "title": "[BOUNTY] Medium: create_initialize_validator_registry_instruction and init-validator-registry pass pre-dual-stake 4-account layout instead of 9 required accounts (paraloom-core)",
-      "html_url": "https://github.com/paraloom-labs/paraloom-core/issues/876",
-      "repository": "paraloom-labs/paraloom-core",
-      "created_at": "2026-10-12T16:13:21Z",
-      "updated_at": "2026-11-05T11:58:19Z",
-      "payoutMentionUSD": 150,
-      "assignees": [],
-      "commentCount": 2,
-      "labels": [],
-      "score": 64,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "## Summary - **Proposed Tier:** Medium ($150 USDC) / Low ($50 USDC) - **Target Repository:** `paraloom-labs/paraloom-core` - **Affected Files:** `src/bridge/solana/instructions.rs` (`create_initialize_validator_registry_instruction`, lines 223–240), `src/bin/init_validator_regist"
-    },
-    {
-      "id": 6076665984,
-      "title": "[BOUNTY] Medium: Missing init_asset_vault, set_asset_deposit_cap, and set_min_token_stake instruction builders, discriminators, and derive_asset_config in bridge::solana",
-      "html_url": "https://github.com/paraloom-labs/paraloom-core/issues/1258",
-      "repository": "paraloom-labs/paraloom-core",
-      "created_at": "2026-10-28T10:00:20Z",
-      "updated_at": "2026-11-05T08:07:12Z",
-      "payoutMentionUSD": 150,
-      "assignees": [],
-      "commentCount": 4,
-      "labels": [],
-      "score": 64,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "## Summary - **Target Repository:** [`paraloom-labs/paraloom-core`](https://github.com/paraloom-labs/paraloom-core) - **Severity:** Medium ($150 USDC — Stage 1 Public Beta Bug Bounty) - **Affected Components:** - `src/bridge/solana/instructions.rs` - `src/bridge/solana/mod.rs` - "
-    },
-    {
-      "id": 5954759045,
-      "title": "[BOUNTY] Medium: peer_id_from_multiaddr extracts the first /p2p/<peer_id> instead of trailing target PeerId on p2p-circuit multiaddrs, suppressing co-validator redials and poisoning Kademlia",
-      "html_url": "https://github.com/paraloom-labs/paraloom-core/issues/1156",
-      "repository": "paraloom-labs/paraloom-core",
-      "created_at": "2026-10-21T05:12:56Z",
-      "updated_at": "2026-11-05T04:56:15Z",
-      "payoutMentionUSD": 150,
-      "assignees": [],
-      "commentCount": 5,
-      "labels": [],
-      "score": 64,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "# [BOUNTY] Medium: `peer_id_from_multiaddr` extracts the first `/p2p/<peer_id>` instead of the trailing target `PeerId` on `p2p-circuit` multiaddrs, permanently suppressing co-validator keep-alive redials and poisoning Kademlia routing ## Summary - **Severity:** Medium (up to $15"
     },
     {
       "id": 5986552924,
@@ -829,21 +866,130 @@
       "excerpt": "Bounties that were already open when the watcher started. From now on, each new one gets its own issue. - 🔴 **$150** · [📱 Epic: BAWES Universe Mobile App (Android + iOS)](https://github.com/BAWES-Universe/workadventure-universe/issues/1) - 🔴 **$50** · [BOUNTY: integrate AWS Co"
     },
     {
-      "id": 1666556525,
-      "title": "[BOUNTY] API3 DAO - Use of first-party oracles [$1000]",
-      "html_url": "https://github.com/ethereumzurich/sponsor-bounties/issues/3",
-      "repository": "ethereumzurich/sponsor-bounties",
-      "created_at": "2023-04-13T14:38:44Z",
-      "updated_at": "2026-11-05T09:06:19Z",
-      "payoutMentionUSD": 1000,
+      "id": 6232990638,
+      "title": "Headless GitHub Action that evaluates bounty rules on merged PRs",
+      "html_url": "https://github.com/Flow-Pulse/FlowPulse/issues/2",
+      "repository": "Flow-Pulse/FlowPulse",
+      "created_at": "2026-11-05T22:43:31Z",
+      "updated_at": "2026-11-05T22:43:31Z",
+      "payoutMentionUSD": null,
       "assignees": [],
-      "commentCount": 4,
-      "labels": [],
-      "score": 56,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "commentCount": 0,
+      "labels": [
+        "complexity: high",
+        "area: ci"
+      ],
+      "score": 55,
+      "status": "VERIFY REWARD AND ELIGIBILITY",
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
-      "excerpt": "# Using API3's First-party Oracles ### Background [API3](https://api3.org/) is a collaborative project that delivers traditional API services to smart contract platforms in a decentralized and trust-minimized way. It is governed by a decentralized autonomous organization (DAO), n"
+      "excerpt": "Today rules run in the browser (`frontend/src/lib/ci.ts`). Build `ci/github-action/`: a JavaScript Action that runs on `pull_request: closed`, reads a `.flowpulse.yml` rule file, extracts the author's `stellar: G…` address, and opens a bounty stream with a repo-secret signing key"
+    },
+    {
+      "id": 5516825464,
+      "title": "[LIVE] Verified NIM bounty board",
+      "html_url": "https://github.com/Saidur-droid/MergeEarn/issues/33",
+      "repository": "Saidur-droid/MergeEarn",
+      "created_at": "2026-09-20T08:52:35Z",
+      "updated_at": "2026-11-05T22:25:55Z",
+      "payoutMentionUSD": null,
+      "assignees": [],
+      "commentCount": 1,
+      "labels": [],
+      "score": 55,
+      "status": "VERIFY REWARD AND ELIGIBILITY",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "# MergeEarn live community bounty board This is the public, automatically maintained entry point for contributor-friendly MergeEarn work. **Live app:** https://mergeearn.vercel.app **GitHub Contribute page:** https://github.com/Saidur-droid/MergeEarn/contribute A task is paid onl"
+    },
+    {
+      "id": 6228918547,
+      "title": "Avviso alla community sui costi di bounty, sviluppo su Vercel e VPS",
+      "html_url": "https://github.com/MyZubster-Ecosystem/myzubster/issues/1696",
+      "repository": "MyZubster-Ecosystem/myzubster",
+      "created_at": "2026-11-05T18:11:00Z",
+      "updated_at": "2026-11-05T20:20:50Z",
+      "payoutMentionUSD": null,
+      "assignees": [],
+      "commentCount": 0,
+      "labels": [],
+      "score": 55,
+      "status": "VERIFY REWARD AND ELIGIBILITY",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "Ciao a tutti, al momento myzubster non riesce a coprire tutti i costi cerco una soluzione con altri contributori"
+    },
+    {
+      "id": 6230683704,
+      "title": "bounty-watch 2026-11-05: 0 new, 1 resumed, 7 watchlist changes",
+      "html_url": "https://github.com/abdulsalam-create/bounty-watch/issues/221",
+      "repository": "abdulsalam-create/bounty-watch",
+      "created_at": "2026-11-05T20:03:07Z",
+      "updated_at": "2026-11-05T20:03:07Z",
+      "payoutMentionUSD": null,
+      "assignees": [],
+      "commentCount": 0,
+      "labels": [
+        "bounty-watch"
+      ],
+      "score": 55,
+      "status": "VERIFY REWARD AND ELIGIBILITY",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "# bounty-watch report 2026-11-05 ## 🔥 High-value: bypasses / new features / takeovers (1) - **Trello** (`bc:trello`) https://bugcrowd.com/engagements/trello - 2 new feature flag(s): feature-flag, flag-distribution - new JS: https://trello-bifrost.prod-east.frontend.public.atl-pa"
+    },
+    {
+      "id": 6025441566,
+      "title": "[Bug bounty] validateTransact returns the sender/recipient error instead of throwing, so the guard never runs",
+      "html_url": "https://github.com/paraspell/xcm-tools/issues/2277",
+      "repository": "paraspell/xcm-tools",
+      "created_at": "2026-10-25T14:18:52Z",
+      "updated_at": "2026-11-05T18:52:08Z",
+      "payoutMentionUSD": null,
+      "assignees": [],
+      "commentCount": 3,
+      "labels": [
+        "bug bounty 💰"
+      ],
+      "score": 55,
+      "status": "VERIFY REWARD AND ELIGIBILITY",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "# 🐞 Bug Report ## 🔍 Describe the Bug In `packages/sdk-core/src/transfer/utils/validationUtils.ts`, `validateTransact` checks that the sender matches the destination for a `.transact()` call. Every other check in the same function throws a `ValidationError` when it fails. This o"
+    },
+    {
+      "id": 6229562906,
+      "title": "[Bug bounty][Medium] Playground: URL-prefilled transactOptions.call → one-click signing of hidden arbitrary inner call (+ frameable hosts)",
+      "html_url": "https://github.com/paraspell/xcm-tools/issues/2431",
+      "repository": "paraspell/xcm-tools",
+      "created_at": "2026-11-05T18:51:09Z",
+      "updated_at": "2026-11-05T18:51:09Z",
+      "payoutMentionUSD": null,
+      "assignees": [],
+      "commentCount": 0,
+      "labels": [],
+      "score": 55,
+      "status": "VERIFY REWARD AND ELIGIBILITY",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "# 🐞 Bug Report ## 🔍 Describe the Bug Playground: URL-prefilled transactOptions.call → one-click signing of a hidden arbitrary inner call executing on the destination chain (+ clickjacking chain, live-verified frameable hosts) The Playground prefills an **executable XCM Transact"
+    },
+    {
+      "id": 6131817615,
+      "title": "Bounty claim: chain break",
+      "html_url": "https://github.com/derekgdicamillo/atlas-prime-beacon/issues/1",
+      "repository": "derekgdicamillo/atlas-prime-beacon",
+      "created_at": "2026-10-31T06:06:23Z",
+      "updated_at": "2026-11-05T18:03:17Z",
+      "payoutMentionUSD": null,
+      "assignees": [],
+      "commentCount": 2,
+      "labels": [],
+      "score": 55,
+      "status": "VERIFY REWARD AND ELIGIBILITY",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "# Bounty claim: chain break Category 2 (chain break). The published root chain in `roots/` is not append-only. It rewinds, shrinks, and freezes, and the shipped verifier cannot detect any of it. I have no access to the private ledger. Everything below is derived from the public `"
     },
     {
       "id": 6227672930,
@@ -863,23 +1009,6 @@
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
       "excerpt": "### Affected Component Documentation & Scripts ### Bug Description Hello EnclaveAI Team, I attempted to contact security@majeklabs.com as listed in SECURITY.md, but the email was undeliverable. Could you please confirm: Is the bug bounty currently active and accepting paid submis"
-    },
-    {
-      "id": 5516825464,
-      "title": "[LIVE] Verified NIM bounty board",
-      "html_url": "https://github.com/Saidur-droid/MergeEarn/issues/33",
-      "repository": "Saidur-droid/MergeEarn",
-      "created_at": "2026-09-20T08:52:35Z",
-      "updated_at": "2026-11-05T16:49:36Z",
-      "payoutMentionUSD": null,
-      "assignees": [],
-      "commentCount": 1,
-      "labels": [],
-      "score": 55,
-      "status": "VERIFY REWARD AND ELIGIBILITY",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "# MergeEarn live community bounty board This is the public, automatically maintained entry point for contributor-friendly MergeEarn work. **Live app:** https://mergeearn.vercel.app **GitHub Contribute page:** https://github.com/Saidur-droid/MergeEarn/contribute A task is paid onl"
     },
     {
       "id": 6218133582,
@@ -1021,25 +1150,6 @@
       "excerpt": "### About the Bounty ## Original issue text: **Suggestion:** Add the Show Skills verb back into IC tab and into UI, allowing you to check on some basic skills like Primitive, Athletics and the ones you have leveled up at least once as a simpler version to track one's skills that "
     },
     {
-      "id": 6218331256,
-      "title": "bounty-watch 2026-11-05: 0 new, 0 resumed, 5 watchlist changes",
-      "html_url": "https://github.com/abdulsalam-create/bounty-watch/issues/218",
-      "repository": "abdulsalam-create/bounty-watch",
-      "created_at": "2026-11-05T06:51:47Z",
-      "updated_at": "2026-11-05T06:51:47Z",
-      "payoutMentionUSD": null,
-      "assignees": [],
-      "commentCount": 0,
-      "labels": [
-        "bounty-watch"
-      ],
-      "score": 55,
-      "status": "VERIFY REWARD AND ELIGIBILITY",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "# bounty-watch report 2026-11-05 ## Watchlist changes (5) - **Linktree** (`bc:linktree-mbb-og`) https://bugcrowd.com/engagements/linktree-mbb-og - https://linktr.ee: new JS bundles: 0qo2fr-mj1moy.js, 11suy_z2u3cmi.js, 1zzxg5tvk34mk.js, 41l7ouuq8-q8u.js, 442nrdr8blz_j.js; removed "
-    },
-    {
       "id": 4866948035,
       "title": "[50 MRG] FastAPI: POST /infer/text and /infer/voice",
       "html_url": "https://github.com/mergeos-bounties/Loru/issues/10",
@@ -1084,114 +1194,6 @@
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
       "excerpt": "## Summary In the MCP test-suite, 21 test cases say `skipFor: ['ci', 'headless']`, but those names are never compared with anything that can match, so the cases are never skipped. The report also hard-codes zero skipped tests. ## Evidence Checked at `4770743`. - `test-suite/specs"
-    },
-    {
-      "id": 4866908763,
-      "title": "[50 MRG] Scraper: Arbeitnow + EU/EURES-oriented remote listings pack",
-      "html_url": "https://github.com/mergeos-bounties/NeraJob/issues/16",
-      "repository": "mergeos-bounties/NeraJob",
-      "created_at": "2026-07-12T11:51:06Z",
-      "updated_at": "2026-11-04T21:00:47Z",
-      "payoutMentionUSD": null,
-      "assignees": [],
-      "commentCount": 11,
-      "labels": [
-        "bounty",
-        "bounty: feature",
-        "scraper",
-        "reward:50-mrg",
-        "api"
-      ],
-      "score": 55,
-      "status": "VERIFY REWARD AND ELIGIBILITY",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "## Bounty: 50 MRG Improve **EU-focused** coverage: polish Arbeitnow (if missing) and add one additional EU-friendly public source (document choice: EURES open data, or another public API). ## Requirements - At least one new registered scraper beyond existing RemoteOK/sample - Tes"
-    },
-    {
-      "id": 6049858547,
-      "title": "Fix 9 broken relative links in the examples and Go SDK READMEs",
-      "html_url": "https://github.com/hanzoai/agents/issues/7",
-      "repository": "hanzoai/agents",
-      "created_at": "2026-10-26T23:17:11Z",
-      "updated_at": "2026-11-04T21:00:13Z",
-      "payoutMentionUSD": null,
-      "assignees": [],
-      "commentCount": 11,
-      "labels": [
-        "documentation",
-        "good first issue",
-        "bounty:starter",
-        "bounty",
-        "priority: p2",
-        "track: oss",
-        "type: docs"
-      ],
-      "score": 55,
-      "status": "VERIFY REWARD AND ELIGIBILITY",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "## Summary Nine relative links in the examples and Go SDK READMEs point at paths that do not exist: the example index links to two folders that were renamed or never created, and five other links climb to the wrong level or to deleted files. ## Evidence Checked at `6ab6811`. - `e"
-    },
-    {
-      "id": 6111027746,
-      "title": "fix(router): prevent sequential TAKE_PORTION compounding basis points error causing CurrencyNotSettled DoS",
-      "html_url": "https://github.com/Uniswap/v4-periphery/issues/624",
-      "repository": "Uniswap/v4-periphery",
-      "created_at": "2026-10-30T00:40:46Z",
-      "updated_at": "2026-11-05T07:06:03Z",
-      "payoutMentionUSD": 15000,
-      "assignees": [],
-      "commentCount": 2,
-      "labels": [],
-      "score": 54,
-      "status": "VERIFY REWARD AND ELIGIBILITY",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "# Security Finding / Code Review — Target #115: `Uniswap/v4-periphery` **Target Repository**: `Uniswap/v4-periphery` **File Affected**: `src/V4Router.sol` **Component**: `V4Router._handleAction` (`Actions.TAKE_PORTION`) **Impact**: Sequential `TAKE_PORTION` actions compute basis "
-    },
-    {
-      "id": 2877956115,
-      "title": "Web3 Wallet Management and Transaction Infrastructure $2,000",
-      "html_url": "https://github.com/Spectral-Finance/lux/issues/73",
-      "repository": "Spectral-Finance/lux",
-      "created_at": "2025-02-25T10:39:43Z",
-      "updated_at": "2026-11-05T13:22:06Z",
-      "payoutMentionUSD": 2000,
-      "assignees": [],
-      "commentCount": 45,
-      "labels": [
-        "bounty",
-        "web3",
-        "infrastructure"
-      ],
-      "score": 51,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "## Overview Build a robust wallet management and transaction infrastructure to support multi-chain operations and secure transaction handling. ## Core Features - Multi-wallet management system - Transaction signing and broadcasting - Key management and security - Transaction hist"
-    },
-    {
-      "id": 6060494985,
-      "title": "[Bounty $3000] Static checker for compute-kernel API ordering rules (init / uninit / reconfig)",
-      "html_url": "https://github.com/tenstorrent/tt-metal/issues/62681",
-      "repository": "tenstorrent/tt-metal",
-      "created_at": "2026-10-27T13:49:31Z",
-      "updated_at": "2026-11-05T09:54:26Z",
-      "payoutMentionUSD": 3000,
-      "assignees": [
-        "ke1rro"
-      ],
-      "commentCount": 4,
-      "labels": [
-        "bounty_difficulty/hard",
-        "bounty_candidate"
-      ],
-      "score": 51,
-      "status": "ALREADY ASSIGNED — VERIFY AVAILABILITY",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "## 📝 Background Compute kernels drive the unpacker, math engine (FPU/SFPU) and packer of each Tensix core through the compute kernel API (`tt_metal/hw/inc/api/compute/`), which wraps the LLK API (`tt_metal/hw/ckernels/<arch>/metal/llk_api/`). That API is stateful. Most operation"
     }
   ],
   "disclaimer": "No verified payouts or earnings; these are public issue candidates. Manually confirm funding, assignment, eligibility, security and payment terms. Never pay to join, disclose secrets or begin work without terms."
