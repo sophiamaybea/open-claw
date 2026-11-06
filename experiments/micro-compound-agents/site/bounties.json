@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-05T23:39:21.891Z",
+  "updatedAt": "2026-11-06T06:50:37.005Z",
   "state": "RESEARCH_READY",
   "sources": [
     "GitHub issue search"
@@ -11,16 +11,36 @@
     "is:issue is:open \"USDC\" \"bounty\""
   ],
   "results": 60,
-  "scanCount": 317,
+  "scanCount": 320,
   "errors": [],
   "opportunities": [
+    {
+      "id": 6234318791,
+      "title": "[Bounty $750] Fix sharded softmax on offset core grids",
+      "html_url": "https://github.com/tenstorrent/tt-metal/issues/64575",
+      "repository": "tenstorrent/tt-metal",
+      "created_at": "2026-11-06T00:36:43Z",
+      "updated_at": "2026-11-06T06:09:35Z",
+      "payoutMentionUSD": 750,
+      "assignees": [],
+      "commentCount": 7,
+      "labels": [
+        "bounty",
+        "bounty_difficulty/medium"
+      ],
+      "score": 74,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "## 📝 Background ttnn.softmax_in_place and ttnn.scale_mask_softmax_in_place can silently return incorrect results for height-sharded inputs when used with SoftmaxShardedMultiCoreProgramConfig and the shard grid does not begin at core (0, 0). On affected offset grids, some shards "
+    },
     {
       "id": 6125178549,
       "title": "[Bounty] [Bounty $750] Improve Qwen3-TTS Code Predictor Accuracy",
       "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4187",
       "repository": "zhangjiayang6835-cyber/bounty-plaza",
       "created_at": "2026-10-30T18:53:56Z",
-      "updated_at": "2026-11-05T21:40:21Z",
+      "updated_at": "2026-11-06T03:09:51Z",
       "payoutMentionUSD": 750,
       "assignees": [],
       "commentCount": 13,
@@ -35,12 +55,155 @@
       "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/tenstorrent/tt-metal/issues/62571 ### 漏洞描述 / Description [Bounty $750] Improve Qwen3-TTS Code Predictor Accuracy 📝 Background The Qwen3-TTS code predictor produces logits for 15 codebook heads during decoding. I"
     },
     {
+      "id": 6236023535,
+      "title": "💎 [Escrowed $600 USDC] 24-Vector Conformance Suite: PagedAttention KV-Cache Block Desync on Prefix-Aware Chunked Preemption",
+      "html_url": "https://github.com/IES-BoilerRoom/vllm-paged-kv-verifier/issues/2",
+      "repository": "IES-BoilerRoom/vllm-paged-kv-verifier",
+      "created_at": "2026-11-06T03:17:51Z",
+      "updated_at": "2026-11-06T06:47:57Z",
+      "payoutMentionUSD": 600,
+      "assignees": [],
+      "commentCount": 2,
+      "labels": [
+        "help wanted",
+        "good first issue",
+        "bounty"
+      ],
+      "score": 73,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "> **Automated CI Regression Mirror Notice**: Automated CI conformance runner issue; manual pull requests from human engineers are not reviewed on this mirror. - **Escrow Rail**: https://algora.io / https://polar.sh / https://opire.dev - **Funding Status**: Held in escrow — Reward"
+    },
+    {
+      "id": 6236023445,
+      "title": "💎 [Escrowed $450 USDC] 24-Vector Conformance Suite: Streaming MCP SSE Chunk Boundary Reassembly with Backpressure Backoff",
+      "html_url": "https://github.com/IES-BoilerRoom/vllm-paged-kv-verifier/issues/1",
+      "repository": "IES-BoilerRoom/vllm-paged-kv-verifier",
+      "created_at": "2026-11-06T03:17:50Z",
+      "updated_at": "2026-11-06T06:47:56Z",
+      "payoutMentionUSD": 450,
+      "assignees": [],
+      "commentCount": 2,
+      "labels": [
+        "help wanted",
+        "good first issue",
+        "bounty"
+      ],
+      "score": 73,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "> **Automated CI Regression Mirror Notice**: Automated CI conformance runner issue; manual pull requests from human engineers are not reviewed on this mirror. - **Escrow Rail**: https://algora.io / https://polar.sh / https://opire.dev - **Funding Status**: Held in escrow — Reward"
+    },
+    {
+      "id": 6235937671,
+      "title": "💎 [Escrowed $600 USDC] 24-Vector Conformance Suite: PagedAttention KV-Cache Block Desync on Prefix-Aware Chunked Preemption",
+      "html_url": "https://github.com/IES-BoilerRoom/mcp-sse-frame-conformance/issues/2",
+      "repository": "IES-BoilerRoom/mcp-sse-frame-conformance",
+      "created_at": "2026-11-06T03:09:28Z",
+      "updated_at": "2026-11-06T06:17:49Z",
+      "payoutMentionUSD": 600,
+      "assignees": [],
+      "commentCount": 3,
+      "labels": [
+        "help wanted",
+        "good first issue",
+        "bounty"
+      ],
+      "score": 73,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "> **Automated CI Regression Mirror Notice**: Automated CI conformance runner issue; manual pull requests from human engineers are not reviewed on this mirror. - **Escrow Rail**: https://algora.io / https://polar.sh / https://opire.dev - **Funding Status**: Held in escrow — Reward"
+    },
+    {
+      "id": 6235937586,
+      "title": "💎 [Escrowed $450 USDC] 24-Vector Conformance Suite: Streaming MCP SSE Chunk Boundary Reassembly with Backpressure Backoff",
+      "html_url": "https://github.com/IES-BoilerRoom/mcp-sse-frame-conformance/issues/1",
+      "repository": "IES-BoilerRoom/mcp-sse-frame-conformance",
+      "created_at": "2026-11-06T03:09:28Z",
+      "updated_at": "2026-11-06T06:17:48Z",
+      "payoutMentionUSD": 450,
+      "assignees": [],
+      "commentCount": 3,
+      "labels": [
+        "help wanted",
+        "good first issue",
+        "bounty"
+      ],
+      "score": 73,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "> **Automated CI Regression Mirror Notice**: Automated CI conformance runner issue; manual pull requests from human engineers are not reviewed on this mirror. - **Escrow Rail**: https://algora.io / https://polar.sh / https://opire.dev - **Funding Status**: Held in escrow — Reward"
+    },
+    {
+      "id": 6235969478,
+      "title": "💎 [Escrowed $600 USDC] 24-Vector Conformance Suite: PagedAttention KV-Cache Block Desync on Prefix-Aware Chunked Preemption",
+      "html_url": "https://github.com/IES-BoilerRoom/tokio-ringbuffer-seqcst-matrix/issues/2",
+      "repository": "IES-BoilerRoom/tokio-ringbuffer-seqcst-matrix",
+      "created_at": "2026-11-06T03:12:35Z",
+      "updated_at": "2026-11-06T03:47:53Z",
+      "payoutMentionUSD": 600,
+      "assignees": [],
+      "commentCount": 1,
+      "labels": [
+        "help wanted",
+        "good first issue",
+        "bounty"
+      ],
+      "score": 73,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "> **Automated CI Regression Mirror Notice**: Automated CI conformance runner issue; manual pull requests from human engineers are not reviewed on this mirror. - **Escrow Rail**: https://algora.io / https://polar.sh / https://opire.dev - **Funding Status**: Held in escrow — Reward"
+    },
+    {
+      "id": 6235969397,
+      "title": "💎 [Escrowed $450 USDC] 24-Vector Conformance Suite: Streaming MCP SSE Chunk Boundary Reassembly with Backpressure Backoff",
+      "html_url": "https://github.com/IES-BoilerRoom/tokio-ringbuffer-seqcst-matrix/issues/1",
+      "repository": "IES-BoilerRoom/tokio-ringbuffer-seqcst-matrix",
+      "created_at": "2026-11-06T03:12:35Z",
+      "updated_at": "2026-11-06T03:47:52Z",
+      "payoutMentionUSD": 450,
+      "assignees": [],
+      "commentCount": 1,
+      "labels": [
+        "help wanted",
+        "good first issue",
+        "bounty"
+      ],
+      "score": 73,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "> **Automated CI Regression Mirror Notice**: Automated CI conformance runner issue; manual pull requests from human engineers are not reviewed on this mirror. - **Escrow Rail**: https://algora.io / https://polar.sh / https://opire.dev - **Funding Status**: Held in escrow — Reward"
+    },
+    {
+      "id": 5603518489,
+      "title": "[AGENTE] Checklist submission bounty Mermail ($500 USDC)",
+      "html_url": "https://github.com/perria080925-bot/agente-bountie/issues/1",
+      "repository": "perria080925-bot/agente-bountie",
+      "created_at": "2026-09-27T14:39:06Z",
+      "updated_at": "2026-11-06T02:09:26Z",
+      "payoutMentionUSD": 500,
+      "assignees": [],
+      "commentCount": 3,
+      "labels": [],
+      "score": 73,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "## 🎯 Estado: SKILL COMPLETA — bloqueada solo por permisos del token La skill **`mermail-bookkeeper-agent`** está terminada, validada con `npm test` del repo oficial (18 skills, 73 tools ✅) y commiteada en el branch `feat/mermail-bookkeeper-agent`. --- ### PASO 1 — Actualizar el "
+    },
+    {
       "id": 5404801661,
       "title": "[Bounty] [Bounty: $1,500] Critical: Missing Account Ownership Validation in Anchor CPI Di",
       "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1301",
       "repository": "zhangjiayang6835-cyber/bounty-plaza",
       "created_at": "2026-09-09T21:13:10Z",
-      "updated_at": "2026-11-05T04:51:41Z",
+      "updated_at": "2026-11-06T01:02:52Z",
       "payoutMentionUSD": 1500,
       "assignees": [],
       "commentCount": 7,
@@ -55,23 +218,24 @@
       "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/Senthemodder/solana-anchor-runtime/issues/1 ### 漏洞描述 / Description [Bounty: $1,500] Critical: Missing Account Ownership Validation in Anchor CPI Dispatcher ### Severity: Critical ### Reward: ,500 USDC (Escrow Loc"
     },
     {
-      "id": 5856533546,
-      "title": "Bounty ledger: claims, submissions and payouts",
-      "html_url": "https://github.com/sybil-solutions/local-ai-registry/issues/262",
-      "repository": "sybil-solutions/local-ai-registry",
-      "created_at": "2026-10-14T22:11:01Z",
-      "updated_at": "2026-11-05T12:32:00Z",
-      "payoutMentionUSD": 1000,
+      "id": 6236275176,
+      "title": "[Bounty] [Bounty $750] Fix sharded softmax on offset core grids",
+      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4225",
+      "repository": "zhangjiayang6835-cyber/bounty-plaza",
+      "created_at": "2026-11-06T03:42:47Z",
+      "updated_at": "2026-11-06T04:04:33Z",
+      "payoutMentionUSD": 750,
       "assignees": [],
-      "commentCount": 0,
+      "commentCount": 1,
       "labels": [
-        "bounty-ledger"
+        "bounty",
+        "real"
       ],
-      "score": 70,
+      "score": 69,
       "status": "POTENTIAL PAYOUT — UNVERIFIED",
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
-      "excerpt": "Recipe bounties: who claimed, who submitted, what was accepted. Updated every hour; rules in [BOUNTIES.md](https://github.com/sybil-solutions/.github/blob/main/BOUNTIES.md); dashboard at [usage.sybilsolutions.ai](https://usage.sybilsolutions.ai/#work). **2026-11:** 0 accepted, $0"
+      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/tenstorrent/tt-metal/issues/64575 ### 漏洞描述 / Description [Bounty $750] Fix sharded softmax on offset core grids ## 📝 Background ttnn.softmax_in_place and ttnn.scale_mask_softmax_in_place can silently return inco"
     },
     {
       "id": 6128167043,
@@ -79,7 +243,7 @@
       "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4188",
       "repository": "zhangjiayang6835-cyber/bounty-plaza",
       "created_at": "2026-10-30T22:49:56Z",
-      "updated_at": "2026-11-05T21:41:24Z",
+      "updated_at": "2026-11-06T02:09:54Z",
       "payoutMentionUSD": 750,
       "assignees": [],
       "commentCount": 5,
@@ -134,52 +298,88 @@
       "excerpt": "🤖 **Bounty con Pago Garantizado (Escrow)** - **Título:** [Bounty] 💰 Bounty Seguro ($$750): [Bounty] [Bounty $750] Improve Qwen3-TTS Code Pred - **Monto:** $$750 - **Plataforma:** GitHub Issue - **Enlace:** [Ir al Issue](https://github.com/zhangjiayang6835-cyber/bounty-plaza/iss"
     },
     {
-      "id": 5874536758,
-      "title": "[Bounty] [Bounty: $125] Add AbortSignal support across transfer, completeMint, and attest",
-      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1911",
-      "repository": "zhangjiayang6835-cyber/bounty-plaza",
-      "created_at": "2026-10-15T21:54:22Z",
-      "updated_at": "2026-11-04T21:06:36Z",
-      "payoutMentionUSD": 125,
+      "id": 6235831761,
+      "title": "💎 [Escrowed $600 USDC] 24-Vector Conformance Suite: PagedAttention KV-Cache Block Desync on Prefix-Aware Chunked Preemption",
+      "html_url": "https://github.com/IES-BoilerRoom/Furnace/issues/2",
+      "repository": "IES-BoilerRoom/Furnace",
+      "created_at": "2026-11-06T02:59:49Z",
+      "updated_at": "2026-11-06T06:47:55Z",
+      "payoutMentionUSD": 600,
       "assignees": [],
-      "commentCount": 8,
+      "commentCount": 3,
       "labels": [
-        "bounty",
-        "real"
+        "bounty"
       ],
-      "score": 69,
+      "score": 68,
       "status": "POTENTIAL PAYOUT — UNVERIFIED",
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
-      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/Parabola-org/parabola/issues/5 ### 漏洞描述 / Description [Bounty: $125] Add AbortSignal support across transfer, completeMint, and attestation polling **Context** Nothing in the SDK accepts an `AbortSignal`. `pollFo"
+      "excerpt": "> **Automated CI Regression Mirror Notice**: Automated CI conformance runner issue; manual pull requests from human engineers are not reviewed on this mirror. - **Escrow Rail**: https://algora.io / https://polar.sh / https://opire.dev - **Funding Status**: Held in escrow — Reward"
     },
     {
-      "id": 5874536691,
-      "title": "[Bounty] [Bounty: $125] Add structured progress callbacks to transfer()",
-      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1910",
-      "repository": "zhangjiayang6835-cyber/bounty-plaza",
-      "created_at": "2026-10-15T21:54:21Z",
-      "updated_at": "2026-11-04T21:05:37Z",
-      "payoutMentionUSD": 125,
+      "id": 6235831663,
+      "title": "💎 [Escrowed $450 USDC] 24-Vector Conformance Suite: Streaming MCP SSE Chunk Boundary Reassembly with Backpressure Backoff",
+      "html_url": "https://github.com/IES-BoilerRoom/Furnace/issues/1",
+      "repository": "IES-BoilerRoom/Furnace",
+      "created_at": "2026-11-06T02:59:49Z",
+      "updated_at": "2026-11-06T06:47:55Z",
+      "payoutMentionUSD": 450,
       "assignees": [],
-      "commentCount": 15,
+      "commentCount": 2,
       "labels": [
-        "bounty",
-        "real"
+        "bounty"
       ],
-      "score": 69,
+      "score": 68,
       "status": "POTENTIAL PAYOUT — UNVERIFIED",
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
-      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/Parabola-org/parabola/issues/6 ### 漏洞描述 / Description [Bounty: $125] Add structured progress callbacks to transfer() **Context** `transfer()` in `src/transfer.ts:43-139` runs up to four distinct stages — recipien"
+      "excerpt": "> **Automated CI Regression Mirror Notice**: Automated CI conformance runner issue; manual pull requests from human engineers are not reviewed on this mirror. - **Escrow Rail**: https://algora.io / https://polar.sh / https://opire.dev - **Funding Status**: Held in escrow — Reward"
+    },
+    {
+      "id": 6235831527,
+      "title": "💎 [Bounty $600 USDC] PagedAttention KV-Cache Block Desync on Prefix-Aware Chunked Preemption (reconcile_stride_ring_70c)",
+      "html_url": "https://github.com/IES-BoilerRoom/protocol-conformance-relay/issues/2",
+      "repository": "IES-BoilerRoom/protocol-conformance-relay",
+      "created_at": "2026-11-06T02:59:48Z",
+      "updated_at": "2026-11-06T06:47:54Z",
+      "payoutMentionUSD": 600,
+      "assignees": [],
+      "commentCount": 2,
+      "labels": [
+        "bounty"
+      ],
+      "score": 68,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "> **Automated CI Regression Mirror Notice**: Automated CI build and specification relay issue; manual pull requests from human engineers are not reviewed on this mirror. - **Escrow Rail**: https://algora.io / https://polar.sh / https://opire.dev - **Funding Status**: Held in escr"
+    },
+    {
+      "id": 6235831443,
+      "title": "💎 [Bounty $450 USDC] Streaming MCP SSE Chunk Boundary Reassembly with Backpressure Backoff (_unwind_stride_index_v5)",
+      "html_url": "https://github.com/IES-BoilerRoom/protocol-conformance-relay/issues/1",
+      "repository": "IES-BoilerRoom/protocol-conformance-relay",
+      "created_at": "2026-11-06T02:59:47Z",
+      "updated_at": "2026-11-06T06:47:53Z",
+      "payoutMentionUSD": 450,
+      "assignees": [],
+      "commentCount": 2,
+      "labels": [
+        "bounty"
+      ],
+      "score": 68,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "> **Automated CI Regression Mirror Notice**: Automated CI build and specification relay issue; manual pull requests from human engineers are not reviewed on this mirror. - **Escrow Rail**: https://algora.io / https://polar.sh / https://opire.dev - **Funding Status**: Held in escr"
     },
     {
       "id": 6223737202,
-      "title": "[Escrowed $600 USDC] 20-Vector Conformance Suite: PagedAttention KV-Cache Block Desync on Prefix-Aware Chunked Preemption",
+      "title": "[Escrowed $600 USDC] 24-Vector Conformance Suite: PagedAttention KV-Cache Block Desync on Prefix-Aware Chunked Preemption",
       "html_url": "https://github.com/WholeTroutMedia/agent-conformance-quarantine/issues/2",
       "repository": "WholeTroutMedia/agent-conformance-quarantine",
       "created_at": "2026-11-05T13:04:04Z",
-      "updated_at": "2026-11-05T23:18:12Z",
+      "updated_at": "2026-11-06T06:47:47Z",
       "payoutMentionUSD": 600,
       "assignees": [],
       "commentCount": 0,
@@ -194,11 +394,11 @@
     },
     {
       "id": 6223737041,
-      "title": "[Escrowed $450 USDC] 20-Vector Conformance Suite: Streaming MCP SSE Chunk Boundary Reassembly with Backpressure Backoff",
+      "title": "[Escrowed $450 USDC] 24-Vector Conformance Suite: Streaming MCP SSE Chunk Boundary Reassembly with Backpressure Backoff",
       "html_url": "https://github.com/WholeTroutMedia/agent-conformance-quarantine/issues/1",
       "repository": "WholeTroutMedia/agent-conformance-quarantine",
       "created_at": "2026-11-05T13:04:04Z",
-      "updated_at": "2026-11-05T23:18:11Z",
+      "updated_at": "2026-11-06T06:47:46Z",
       "payoutMentionUSD": 450,
       "assignees": [],
       "commentCount": 1,
@@ -213,11 +413,11 @@
     },
     {
       "id": 6223736610,
-      "title": "[Bounty $600 USDC] PagedAttention KV-Cache Block Desync on Prefix-Aware Chunked Preemption (coalesce_stride_ring_423)",
+      "title": "[Bounty $600 USDC] PagedAttention KV-Cache Block Desync on Prefix-Aware Chunked Preemption (reconcile_stride_ring_70c)",
       "html_url": "https://github.com/WholeTroutMedia/protocol-conformance-relay/issues/2",
       "repository": "WholeTroutMedia/protocol-conformance-relay",
       "created_at": "2026-11-05T13:04:02Z",
-      "updated_at": "2026-11-05T23:18:10Z",
+      "updated_at": "2026-11-06T06:47:45Z",
       "payoutMentionUSD": 600,
       "assignees": [],
       "commentCount": 0,
@@ -232,11 +432,11 @@
     },
     {
       "id": 6223736459,
-      "title": "[Bounty $450 USDC] Streaming MCP SSE Chunk Boundary Reassembly with Backpressure Backoff (drain_slot_ef8f)",
+      "title": "[Bounty $450 USDC] Streaming MCP SSE Chunk Boundary Reassembly with Backpressure Backoff (_unwind_stride_index_v5)",
       "html_url": "https://github.com/WholeTroutMedia/protocol-conformance-relay/issues/1",
       "repository": "WholeTroutMedia/protocol-conformance-relay",
       "created_at": "2026-11-05T13:04:02Z",
-      "updated_at": "2026-11-05T23:18:09Z",
+      "updated_at": "2026-11-06T06:47:44Z",
       "payoutMentionUSD": 450,
       "assignees": [],
       "commentCount": 1,
@@ -250,15 +450,15 @@
       "excerpt": "> **Automated CI Regression Mirror Notice**: Automated CI build and specification relay issue; manual pull requests from human engineers are not reviewed on this mirror. - **Escrow Rail**: https://algora.io / https://polar.sh / https://opire.dev - **Funding Status**: Held in escr"
     },
     {
-      "id": 6229025753,
-      "title": "[Bounty] [Bounty $600 USDC] PagedAttention KV-Cache Block Desync on Prefix-Aware Chunked ",
-      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4207",
+      "id": 6236275091,
+      "title": "[Bounty] 💎 [Bounty $450 USDC] Streaming MCP SSE Chunk Boundary Reassembly with Backpressu",
+      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4224",
       "repository": "zhangjiayang6835-cyber/bounty-plaza",
-      "created_at": "2026-11-05T18:17:54Z",
-      "updated_at": "2026-11-05T21:42:20Z",
-      "payoutMentionUSD": 600,
+      "created_at": "2026-11-06T03:42:46Z",
+      "updated_at": "2026-11-06T05:04:52Z",
+      "payoutMentionUSD": 450,
       "assignees": [],
-      "commentCount": 1,
+      "commentCount": 2,
       "labels": [
         "bounty",
         "real"
@@ -267,7 +467,207 @@
       "status": "POTENTIAL PAYOUT — UNVERIFIED",
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
-      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/WholeTroutMedia/protocol-conformance-relay/issues/2 ### 漏洞描述 / Description [Bounty $600 USDC] PagedAttention KV-Cache Block Desync on Prefix-Aware Chunked Preemption (drain_horizon_table_f52) > **Automated CI Reg"
+      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/IES-BoilerRoom/protocol-conformance-relay/issues/1 ### 漏洞描述 / Description 💎 [Bounty $450 USDC] Streaming MCP SSE Chunk Boundary Reassembly with Backpressure Backoff (_fence_cursor_state_v4) > **Automated CI Regr"
+    },
+    {
+      "id": 6236275020,
+      "title": "[Bounty] 💎 [Bounty $600 USDC] PagedAttention KV-Cache Block Desync on Prefix-Aware Chunke",
+      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4223",
+      "repository": "zhangjiayang6835-cyber/bounty-plaza",
+      "created_at": "2026-11-06T03:42:46Z",
+      "updated_at": "2026-11-06T04:18:32Z",
+      "payoutMentionUSD": 600,
+      "assignees": [],
+      "commentCount": 2,
+      "labels": [
+        "bounty",
+        "real"
+      ],
+      "score": 68,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/IES-BoilerRoom/protocol-conformance-relay/issues/2 ### 漏洞描述 / Description 💎 [Bounty $600 USDC] PagedAttention KV-Cache Block Desync on Prefix-Aware Chunked Preemption (reconcile_stride_dbdc) > **Automated CI Reg"
+    },
+    {
+      "id": 6236274899,
+      "title": "[Bounty] 💎 [Escrowed $450 USDC] 24-Vector Conformance Suite: Streaming MCP SSE Chunk Boun",
+      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4222",
+      "repository": "zhangjiayang6835-cyber/bounty-plaza",
+      "created_at": "2026-11-06T03:42:45Z",
+      "updated_at": "2026-11-06T04:18:26Z",
+      "payoutMentionUSD": 450,
+      "assignees": [],
+      "commentCount": 2,
+      "labels": [
+        "bounty",
+        "real"
+      ],
+      "score": 68,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/IES-BoilerRoom/Furnace/issues/1 ### 漏洞描述 / Description 💎 [Escrowed $450 USDC] 24-Vector Conformance Suite: Streaming MCP SSE Chunk Boundary Reassembly with Backpressure Backoff > **Automated CI Regression Mirror"
+    },
+    {
+      "id": 6236274831,
+      "title": "[Bounty] 💎 [Escrowed $600 USDC] 24-Vector Conformance Suite: PagedAttention KV-Cache Bloc",
+      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4221",
+      "repository": "zhangjiayang6835-cyber/bounty-plaza",
+      "created_at": "2026-11-06T03:42:45Z",
+      "updated_at": "2026-11-06T04:18:20Z",
+      "payoutMentionUSD": 600,
+      "assignees": [],
+      "commentCount": 2,
+      "labels": [
+        "bounty",
+        "real"
+      ],
+      "score": 68,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/IES-BoilerRoom/Furnace/issues/2 ### 漏洞描述 / Description 💎 [Escrowed $600 USDC] 24-Vector Conformance Suite: PagedAttention KV-Cache Block Desync on Prefix-Aware Chunked Preemption > **Automated CI Regression Mirr"
+    },
+    {
+      "id": 6236274751,
+      "title": "[Bounty] 💎 [Escrowed $450 USDC] 24-Vector Conformance Suite: Streaming MCP SSE Chunk Boun",
+      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4220",
+      "repository": "zhangjiayang6835-cyber/bounty-plaza",
+      "created_at": "2026-11-06T03:42:44Z",
+      "updated_at": "2026-11-06T04:18:13Z",
+      "payoutMentionUSD": 450,
+      "assignees": [],
+      "commentCount": 2,
+      "labels": [
+        "bounty",
+        "real"
+      ],
+      "score": 68,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/IES-BoilerRoom/mcp-sse-frame-conformance/issues/1 ### 漏洞描述 / Description 💎 [Escrowed $450 USDC] 24-Vector Conformance Suite: Streaming MCP SSE Chunk Boundary Reassembly with Backpressure Backoff > **Automated CI"
+    },
+    {
+      "id": 6236274666,
+      "title": "[Bounty] 💎 [Escrowed $600 USDC] 24-Vector Conformance Suite: PagedAttention KV-Cache Bloc",
+      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4219",
+      "repository": "zhangjiayang6835-cyber/bounty-plaza",
+      "created_at": "2026-11-06T03:42:44Z",
+      "updated_at": "2026-11-06T04:18:07Z",
+      "payoutMentionUSD": 600,
+      "assignees": [],
+      "commentCount": 2,
+      "labels": [
+        "bounty",
+        "real"
+      ],
+      "score": 68,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/IES-BoilerRoom/mcp-sse-frame-conformance/issues/2 ### 漏洞描述 / Description 💎 [Escrowed $600 USDC] 24-Vector Conformance Suite: PagedAttention KV-Cache Block Desync on Prefix-Aware Chunked Preemption > **Automated "
+    },
+    {
+      "id": 6236274581,
+      "title": "[Bounty] 💎 [Escrowed $600 USDC] 24-Vector Conformance Suite: PagedAttention KV-Cache Bloc",
+      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4218",
+      "repository": "zhangjiayang6835-cyber/bounty-plaza",
+      "created_at": "2026-11-06T03:42:43Z",
+      "updated_at": "2026-11-06T04:18:01Z",
+      "payoutMentionUSD": 600,
+      "assignees": [],
+      "commentCount": 2,
+      "labels": [
+        "bounty",
+        "real"
+      ],
+      "score": 68,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/IES-BoilerRoom/tokio-ringbuffer-seqcst-matrix/issues/2 ### 漏洞描述 / Description 💎 [Escrowed $600 USDC] 24-Vector Conformance Suite: PagedAttention KV-Cache Block Desync on Prefix-Aware Chunked Preemption > **Autom"
+    },
+    {
+      "id": 6236274502,
+      "title": "[Bounty] 💎 [Escrowed $450 USDC] 24-Vector Conformance Suite: Streaming MCP SSE Chunk Boun",
+      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4217",
+      "repository": "zhangjiayang6835-cyber/bounty-plaza",
+      "created_at": "2026-11-06T03:42:43Z",
+      "updated_at": "2026-11-06T04:17:55Z",
+      "payoutMentionUSD": 450,
+      "assignees": [],
+      "commentCount": 2,
+      "labels": [
+        "bounty",
+        "real"
+      ],
+      "score": 68,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/IES-BoilerRoom/tokio-ringbuffer-seqcst-matrix/issues/1 ### 漏洞描述 / Description 💎 [Escrowed $450 USDC] 24-Vector Conformance Suite: Streaming MCP SSE Chunk Boundary Reassembly with Backpressure Backoff > **Automat"
+    },
+    {
+      "id": 6236274385,
+      "title": "[Bounty] 💎 [Escrowed $450 USDC] 24-Vector Conformance Suite: Streaming MCP SSE Chunk Boun",
+      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4216",
+      "repository": "zhangjiayang6835-cyber/bounty-plaza",
+      "created_at": "2026-11-06T03:42:42Z",
+      "updated_at": "2026-11-06T04:17:49Z",
+      "payoutMentionUSD": 450,
+      "assignees": [],
+      "commentCount": 2,
+      "labels": [
+        "bounty",
+        "real"
+      ],
+      "score": 68,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/IES-BoilerRoom/vllm-paged-kv-verifier/issues/1 ### 漏洞描述 / Description 💎 [Escrowed $450 USDC] 24-Vector Conformance Suite: Streaming MCP SSE Chunk Boundary Reassembly with Backpressure Backoff > **Automated CI Re"
+    },
+    {
+      "id": 6236274298,
+      "title": "[Bounty] 💎 [Escrowed $600 USDC] 24-Vector Conformance Suite: PagedAttention KV-Cache Bloc",
+      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4215",
+      "repository": "zhangjiayang6835-cyber/bounty-plaza",
+      "created_at": "2026-11-06T03:42:42Z",
+      "updated_at": "2026-11-06T04:17:43Z",
+      "payoutMentionUSD": 600,
+      "assignees": [],
+      "commentCount": 2,
+      "labels": [
+        "bounty",
+        "real"
+      ],
+      "score": 68,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/IES-BoilerRoom/vllm-paged-kv-verifier/issues/2 ### 漏洞描述 / Description 💎 [Escrowed $600 USDC] 24-Vector Conformance Suite: PagedAttention KV-Cache Block Desync on Prefix-Aware Chunked Preemption > **Automated CI "
+    },
+    {
+      "id": 6229025925,
+      "title": "[Bounty] [Bounty $450 USDC] Streaming MCP SSE Chunk Boundary Reassembly with Backpressure",
+      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4208",
+      "repository": "zhangjiayang6835-cyber/bounty-plaza",
+      "created_at": "2026-11-05T18:17:55Z",
+      "updated_at": "2026-11-06T02:09:51Z",
+      "payoutMentionUSD": 450,
+      "assignees": [],
+      "commentCount": 2,
+      "labels": [
+        "bounty",
+        "real"
+      ],
+      "score": 68,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/WholeTroutMedia/protocol-conformance-relay/issues/1 ### 漏洞描述 / Description [Bounty $450 USDC] Streaming MCP SSE Chunk Boundary Reassembly with Backpressure Backoff (partition_cursor_6d79) > **Automated CI Regress"
     },
     {
       "id": 6229025386,
@@ -275,7 +675,7 @@
       "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4205",
       "repository": "zhangjiayang6835-cyber/bounty-plaza",
       "created_at": "2026-11-05T18:17:53Z",
-      "updated_at": "2026-11-05T21:09:49Z",
+      "updated_at": "2026-11-06T00:47:31Z",
       "payoutMentionUSD": 450,
       "assignees": [],
       "commentCount": 1,
@@ -295,7 +695,7 @@
       "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4206",
       "repository": "zhangjiayang6835-cyber/bounty-plaza",
       "created_at": "2026-11-05T18:17:53Z",
-      "updated_at": "2026-11-05T21:09:34Z",
+      "updated_at": "2026-11-06T00:47:29Z",
       "payoutMentionUSD": 600,
       "assignees": [],
       "commentCount": 1,
@@ -310,13 +710,13 @@
       "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/WholeTroutMedia/agent-conformance-quarantine/issues/2 ### 漏洞描述 / Description [Escrowed $600 USDC] 20-Vector Conformance Suite: PagedAttention KV-Cache Block Desync on Prefix-Aware Chunked Preemption > **Automated"
     },
     {
-      "id": 6229025925,
-      "title": "[Bounty] [Bounty $450 USDC] Streaming MCP SSE Chunk Boundary Reassembly with Backpressure",
-      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4208",
+      "id": 6229025753,
+      "title": "[Bounty] [Bounty $600 USDC] PagedAttention KV-Cache Block Desync on Prefix-Aware Chunked ",
+      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4207",
       "repository": "zhangjiayang6835-cyber/bounty-plaza",
-      "created_at": "2026-11-05T18:17:55Z",
-      "updated_at": "2026-11-05T21:08:16Z",
-      "payoutMentionUSD": 450,
+      "created_at": "2026-11-05T18:17:54Z",
+      "updated_at": "2026-11-06T00:47:26Z",
+      "payoutMentionUSD": 600,
       "assignees": [],
       "commentCount": 2,
       "labels": [
@@ -327,27 +727,7 @@
       "status": "POTENTIAL PAYOUT — UNVERIFIED",
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
-      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/WholeTroutMedia/protocol-conformance-relay/issues/1 ### 漏洞描述 / Description [Bounty $450 USDC] Streaming MCP SSE Chunk Boundary Reassembly with Backpressure Backoff (partition_cursor_6d79) > **Automated CI Regress"
-    },
-    {
-      "id": 5407238639,
-      "title": "[Bounty: $500] Critical: system.beforeEvents.startup Throws CommandRegistrationError on Bedrock 1.21.70",
-      "html_url": "https://github.com/Senthemodder/aquarium-of-gullibles/issues/4",
-      "repository": "Senthemodder/aquarium-of-gullibles",
-      "created_at": "2026-09-10T03:05:52Z",
-      "updated_at": "2026-11-05T10:32:41Z",
-      "payoutMentionUSD": 500,
-      "assignees": [],
-      "commentCount": 20,
-      "labels": [
-        "bounty",
-        "security"
-      ],
-      "score": 68,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "### Bounty: USDC (Escrow Locked) ### Description Registering custom slash commands in scripts/commands/inspect.ts crashes BDS at startup: ` TypeError: CustomCommandRegistry.registerCommand is not a function at registerInspectCommand (scripts/commands/inspect.ts:24) ` ### Requirem"
+      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/WholeTroutMedia/protocol-conformance-relay/issues/2 ### 漏洞描述 / Description [Bounty $600 USDC] PagedAttention KV-Cache Block Desync on Prefix-Aware Chunked Preemption (drain_horizon_table_f52) > **Automated CI Reg"
     },
     {
       "id": 6068643678,
@@ -355,7 +735,7 @@
       "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4142",
       "repository": "zhangjiayang6835-cyber/bounty-plaza",
       "created_at": "2026-10-27T22:13:25Z",
-      "updated_at": "2026-11-05T21:53:42Z",
+      "updated_at": "2026-11-06T02:10:03Z",
       "payoutMentionUSD": 350,
       "assignees": [],
       "commentCount": 7,
@@ -375,7 +755,7 @@
       "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1904",
       "repository": "zhangjiayang6835-cyber/bounty-plaza",
       "created_at": "2026-10-15T21:54:18Z",
-      "updated_at": "2026-11-05T06:53:16Z",
+      "updated_at": "2026-11-06T01:03:10Z",
       "payoutMentionUSD": 75,
       "assignees": [],
       "commentCount": 8,
@@ -390,24 +770,21 @@
       "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/Parabola-org/parabola/issues/12 ### 漏洞描述 / Description [Bounty: $75] Expose retry/backoff knobs for Stellar allowance wait and RPC-lag retry **Context** Two recovery loops in `src/chains/stellar.ts` have hard-cod"
     },
     {
-      "id": 5874535862,
-      "title": "[Bounty] [Bounty: $75] Unit tests for src/errors.ts and a public export surface snapshot",
-      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1903",
-      "repository": "zhangjiayang6835-cyber/bounty-plaza",
-      "created_at": "2026-10-15T21:54:18Z",
-      "updated_at": "2026-11-04T21:03:52Z",
-      "payoutMentionUSD": 75,
+      "id": 6202412785,
+      "title": "[BUG BOUNTY] High: TransactSpl requires initialized TokenAccounts for recipient and fee_token during internal transfers (ext_amount == 0), reverting all private SPL transfers",
+      "html_url": "https://github.com/paraloom-labs/paraloom-core/issues/1337",
+      "repository": "paraloom-labs/paraloom-core",
+      "created_at": "2026-11-04T12:11:10Z",
+      "updated_at": "2026-11-06T01:03:01Z",
+      "payoutMentionUSD": 400,
       "assignees": [],
-      "commentCount": 7,
-      "labels": [
-        "bounty",
-        "real"
-      ],
+      "commentCount": 2,
+      "labels": [],
       "score": 67,
       "status": "POTENTIAL PAYOUT — UNVERIFIED",
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
-      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/Parabola-org/parabola/issues/13 ### 漏洞描述 / Description [Bounty: $75] Unit tests for src/errors.ts and a public export surface snapshot **Context** `src/errors.ts` defines the SDK's entire failure taxonomy — `Tran"
+      "excerpt": "# [BUG BOUNTY] High: `TransactSpl` requires initialized SPL `TokenAccount`s for `recipient` and `fee_token` during internal transfers (`ext_amount == 0`), reverting all private SPL transfers on-chain ## 🔍 Summary - **Target Repository:** [`paraloom-labs/paraloom-core`](https://g"
     },
     {
       "id": 5862963633,
@@ -432,7 +809,7 @@
       "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4152",
       "repository": "zhangjiayang6835-cyber/bounty-plaza",
       "created_at": "2026-10-28T07:17:25Z",
-      "updated_at": "2026-11-05T21:56:24Z",
+      "updated_at": "2026-11-06T06:09:11Z",
       "payoutMentionUSD": 250,
       "assignees": [],
       "commentCount": 12,
@@ -447,51 +824,12 @@
       "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/alfrexo95/bounty-bot/issues/53 ### 漏洞描述 / Description 💰 Bounty Seguro ($$250): [Bounty] Preserve RFC 7239 `Forwarded` host author 🤖 **Bounty con Pago Garantizado (Escrow)** - **Título:** [Bounty] Preserve RFC 7"
     },
     {
-      "id": 6068643803,
-      "title": "[Bounty] Preserve RFC 7239 `Forwarded` host authority in sub-mounted ASGI `Request.scope_",
-      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4143",
-      "repository": "zhangjiayang6835-cyber/bounty-plaza",
-      "created_at": "2026-10-27T22:13:25Z",
-      "updated_at": "2026-11-05T21:56:09Z",
-      "payoutMentionUSD": 250,
-      "assignees": [],
-      "commentCount": 11,
-      "labels": [
-        "bounty",
-        "real"
-      ],
-      "score": 66,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/WholeTroutMedia/oss-verification-sandbox/issues/1 ### 漏洞描述 / Description Preserve RFC 7239 `Forwarded` host authority in sub-mounted ASGI `Request.scope_for` ### Problem Description When an ASGI application is mo"
-    },
-    {
-      "id": 6206594886,
-      "title": "Mainnet: deploy and win the demo bounty",
-      "html_url": "https://github.com/Vasqq/BounTEE/issues/35",
-      "repository": "Vasqq/BounTEE",
-      "created_at": "2026-11-04T16:10:00Z",
-      "updated_at": "2026-11-05T21:08:21Z",
-      "payoutMentionUSD": 50,
-      "assignees": [],
-      "commentCount": 0,
-      "labels": [
-        "ready-for-human"
-      ],
-      "score": 66,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "## What to build Deploy BounTEE to mainnet and win the one demo bounty: an independent AI agent finds the bug and wins it with a claim key, after a cheat claim on it scores zero (ADR-0018). This run is the evidence the README, the landing page, the video and Verify show (ADR-0017"
-    },
-    {
       "id": 6089460910,
       "title": "[Bounty] 💰 Bounty Seguro ($$250): 💰 Bounty Seguro ($$250): [Bounty] 💰 Bounty Seguro ",
       "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4168",
       "repository": "zhangjiayang6835-cyber/bounty-plaza",
       "created_at": "2026-10-28T23:31:12Z",
-      "updated_at": "2026-11-05T08:07:04Z",
+      "updated_at": "2026-11-06T03:09:52Z",
       "payoutMentionUSD": 250,
       "assignees": [],
       "commentCount": 7,
@@ -511,7 +849,7 @@
       "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4171",
       "repository": "zhangjiayang6835-cyber/bounty-plaza",
       "created_at": "2026-10-29T02:48:01Z",
-      "updated_at": "2026-11-05T08:06:09Z",
+      "updated_at": "2026-11-06T03:09:05Z",
       "payoutMentionUSD": 250,
       "assignees": [],
       "commentCount": 7,
@@ -526,12 +864,32 @@
       "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/alfrexo95/bounty-bot/issues/58 ### 漏洞描述 / Description 💰 Bounty Seguro ($$250): [Bounty] 💰 Bounty Seguro ($$250): 💰 Bounty Seguro 🤖 **Bounty con Pago Garantizado (Escrow)** - **Título:** [Bounty] 💰 Bounty Seg"
     },
     {
-      "id": 6056974343,
-      "title": "[BOUNTY] Medium: paraloom validator withdraw-unbonded omits idempotent ATA creation, causing AccountNotInitialized failure and freezing unbonded SOL/token withdrawal (paraloom-core)",
-      "html_url": "https://github.com/paraloom-labs/paraloom-core/issues/1242",
+      "id": 6068643803,
+      "title": "[Bounty] Preserve RFC 7239 `Forwarded` host authority in sub-mounted ASGI `Request.scope_",
+      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4143",
+      "repository": "zhangjiayang6835-cyber/bounty-plaza",
+      "created_at": "2026-10-27T22:13:25Z",
+      "updated_at": "2026-11-06T02:10:01Z",
+      "payoutMentionUSD": 250,
+      "assignees": [],
+      "commentCount": 11,
+      "labels": [
+        "bounty",
+        "real"
+      ],
+      "score": 66,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/WholeTroutMedia/oss-verification-sandbox/issues/1 ### 漏洞描述 / Description Preserve RFC 7239 `Forwarded` host authority in sub-mounted ASGI `Request.scope_for` ### Problem Description When an ASGI application is mo"
+    },
+    {
+      "id": 5954759045,
+      "title": "[BOUNTY] Medium: peer_id_from_multiaddr extracts the first /p2p/<peer_id> instead of trailing target PeerId on p2p-circuit multiaddrs, suppressing co-validator redials and poisoning Kademlia",
+      "html_url": "https://github.com/paraloom-labs/paraloom-core/issues/1156",
       "repository": "paraloom-labs/paraloom-core",
-      "created_at": "2026-10-27T10:02:07Z",
-      "updated_at": "2026-11-05T13:31:26Z",
+      "created_at": "2026-10-21T05:12:56Z",
+      "updated_at": "2026-11-06T02:09:43Z",
       "payoutMentionUSD": 150,
       "assignees": [],
       "commentCount": 5,
@@ -540,7 +898,7 @@
       "status": "POTENTIAL PAYOUT — UNVERIFIED",
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
-      "excerpt": "### Target Information - **Repository**: `paraloom-labs/paraloom-core` - **File**: `src/bin/paraloom_cli.rs` (`ValidatorCommands::WithdrawUnbonded`) & `programs/paraloom-bridge/src/lib.rs` (`WithdrawUnbondedStake`) - **Component**: Validator CLI & Solana Dual-Stake Withdrawal Lif"
+      "excerpt": "# [BOUNTY] Medium: `peer_id_from_multiaddr` extracts the first `/p2p/<peer_id>` instead of the trailing target `PeerId` on `p2p-circuit` multiaddrs, permanently suppressing co-validator keep-alive redials and poisoning Kademlia routing ## Summary - **Severity:** Medium (up to $15"
     },
     {
       "id": 5986552924,
@@ -583,6 +941,26 @@
       "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/habibdxb01/bounty-watcher/issues/5 ### 漏洞描述 / Description 📋 2 open bounties right now Bounties that were already open when the watcher started. From now on, each new one gets its own issue. - 🔴 **$150** · [📱 E"
     },
     {
+      "id": 6004857118,
+      "title": "[Bounty] USDC-quoted pairs not having the correct marketcap displayed in tools",
+      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4107",
+      "repository": "zhangjiayang6835-cyber/bounty-plaza",
+      "created_at": "2026-10-23T20:20:52Z",
+      "updated_at": "2026-11-06T03:09:56Z",
+      "payoutMentionUSD": 100,
+      "assignees": [],
+      "commentCount": 5,
+      "labels": [
+        "bounty",
+        "real"
+      ],
+      "score": 63,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/blake-guthrie/GLASS/issues/1 ### 漏洞描述 / Description USDC-quoted pairs not having the correct marketcap displayed in tools Fix this problem to get paid in fees of $100 ### 积分币奖励 / Coin Reward 125 coins ### 真实赏金（US"
+    },
+    {
       "id": 6003832923,
       "title": "USDC-quoted pairs not having the correct marketcap displayed in tools",
       "html_url": "https://github.com/blake-guthrie/GLASS/issues/1",
@@ -602,104 +980,24 @@
       "excerpt": "Fix this problem to get paid in fees of $100"
     },
     {
-      "id": 6004857118,
-      "title": "[Bounty] USDC-quoted pairs not having the correct marketcap displayed in tools",
-      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4107",
+      "id": 5874535085,
+      "title": "[Bounty] [Bounty: $45] Export convertPrecision and add 6↔7 decimal round-trip tests",
+      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1896",
       "repository": "zhangjiayang6835-cyber/bounty-plaza",
-      "created_at": "2026-10-23T20:20:52Z",
-      "updated_at": "2026-11-05T08:07:00Z",
-      "payoutMentionUSD": 100,
+      "created_at": "2026-10-15T21:54:14Z",
+      "updated_at": "2026-11-06T01:40:22Z",
+      "payoutMentionUSD": 45,
       "assignees": [],
       "commentCount": 5,
       "labels": [
         "bounty",
         "real"
       ],
-      "score": 63,
+      "score": 61,
       "status": "POTENTIAL PAYOUT — UNVERIFIED",
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
-      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/blake-guthrie/GLASS/issues/1 ### 漏洞描述 / Description USDC-quoted pairs not having the correct marketcap displayed in tools Fix this problem to get paid in fees of $100 ### 积分币奖励 / Coin Reward 125 coins ### 真实赏金（US"
-    },
-    {
-      "id": 5874536083,
-      "title": "[Bounty] [Bounty: $90] Add ESLint with typescript-eslint and wire it into CI",
-      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1905",
-      "repository": "zhangjiayang6835-cyber/bounty-plaza",
-      "created_at": "2026-10-15T21:54:19Z",
-      "updated_at": "2026-11-04T21:06:06Z",
-      "payoutMentionUSD": 90,
-      "assignees": [],
-      "commentCount": 10,
-      "labels": [
-        "bounty",
-        "real"
-      ],
-      "score": 63,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/Parabola-org/parabola/issues/11 ### 漏洞描述 / Description [Bounty: $90] Add ESLint with typescript-eslint and wire it into CI **Context** CI (`.github/workflows/ci.yml`) runs typecheck, tests, build, commitlint, and"
-    },
-    {
-      "id": 5874536944,
-      "title": "[Bounty] [Bounty: $105] Tolerate transient Iris failures in getAttestation and resolveBur",
-      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1913",
-      "repository": "zhangjiayang6835-cyber/bounty-plaza",
-      "created_at": "2026-10-15T21:54:23Z",
-      "updated_at": "2026-11-04T21:04:55Z",
-      "payoutMentionUSD": 105,
-      "assignees": [],
-      "commentCount": 8,
-      "labels": [
-        "bounty",
-        "real"
-      ],
-      "score": 63,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/Parabola-org/parabola/issues/3 ### 漏洞描述 / Description [Bounty: $105] Tolerate transient Iris failures in getAttestation and resolveBurn **Context** `pollForAttestation` in `src/iris/poll.ts:133-170` tolerates up "
-    },
-    {
-      "id": 5874537026,
-      "title": "[Bounty] [Bounty: $105] Stop silently pricing Fast Transfers at zero when Iris returns no",
-      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1914",
-      "repository": "zhangjiayang6835-cyber/bounty-plaza",
-      "created_at": "2026-10-15T21:54:23Z",
-      "updated_at": "2026-11-04T21:04:24Z",
-      "payoutMentionUSD": 105,
-      "assignees": [],
-      "commentCount": 12,
-      "labels": [
-        "bounty",
-        "real"
-      ],
-      "score": 63,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/Parabola-org/parabola/issues/2 ### 漏洞描述 / Description [Bounty: $105] Stop silently pricing Fast Transfers at zero when Iris returns no fast tier **Context** `fetchFastTransferFeeBps` in `src/iris/poll.ts:10-23` d"
-    },
-    {
-      "id": 5874535501,
-      "title": "[Bounty] [Bounty: $75] Website: accessibility and motion-preference fixes for the landing",
-      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1900",
-      "repository": "zhangjiayang6835-cyber/bounty-plaza",
-      "created_at": "2026-10-15T21:54:16Z",
-      "updated_at": "2026-11-04T21:03:20Z",
-      "payoutMentionUSD": 75,
-      "assignees": [],
-      "commentCount": 10,
-      "labels": [
-        "bounty",
-        "real"
-      ],
-      "score": 62,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/Parabola-org/parabola/issues/16 ### 漏洞描述 / Description [Bounty: $75] Website: accessibility and motion-preference fixes for the landing page **Context** `website/` is the project's landing page with a scripted he"
+      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/Parabola-org/parabola/issues/20 ### 漏洞描述 / Description [Bounty: $45] Export convertPrecision and add 6↔7 decimal round-trip tests **Context** `convertPrecision` in `src/utils/encoding.ts:137-147` implements the A"
     },
     {
       "id": 5814258919,
@@ -746,29 +1044,6 @@
       "excerpt": "**Pays $50** when a PR adds a tested recipe for this card and is merged. Rules: [BOUNTIES.md](https://github.com/sybil-solutions/.github/blob/main/BOUNTIES.md). | | | |---|---| | Card | `radeon-890m-48gb` | | Model | Qwen3.5-9B or Gemma 4 12B, or any model in `registry/models.jso"
     },
     {
-      "id": 5814259750,
-      "title": "Bounty $50: recipe for RTX 2080 Ti 11 GB",
-      "html_url": "https://github.com/sybil-solutions/local-ai-registry/issues/217",
-      "repository": "sybil-solutions/local-ai-registry",
-      "created_at": "2026-10-12T13:07:21Z",
-      "updated_at": "2026-11-05T09:58:50Z",
-      "payoutMentionUSD": 50,
-      "assignees": [],
-      "commentCount": 24,
-      "labels": [
-        "bounty",
-        "bounty: $50",
-        "recipe",
-        "card support",
-        "good first recipe"
-      ],
-      "score": 61,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "**Pays $50** when a PR adds a tested recipe for this card and is merged. Rules: [BOUNTIES.md](https://github.com/sybil-solutions/.github/blob/main/BOUNTIES.md). | | | |---|---| | Card | `rtx-2080-ti-11gb` | | Model | Qwen3.5-9B, or any model in `registry/models.json` not yet test"
-    },
-    {
       "id": 5387619561,
       "title": "[Bounty] [Bounty: ] Race Condition in Distributed Async Event Queue during High Concurren",
       "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1217",
@@ -787,26 +1062,6 @@
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
       "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/Senthemodder/claude-honeypot/issues/1 ### 漏洞描述 / Description [Bounty: ] Race Condition in Distributed Async Event Queue during High Concurrency # [Bounty: $250] Race Condition in Distributed Async Event Queue dur"
-    },
-    {
-      "id": 5519781492,
-      "title": "Bounty: hunt bugs across the entire Vista framework",
-      "html_url": "https://github.com/Mantitup-Org/vista/issues/61",
-      "repository": "Mantitup-Org/vista",
-      "created_at": "2026-09-20T18:51:05Z",
-      "updated_at": "2026-11-04T21:07:17Z",
-      "payoutMentionUSD": null,
-      "assignees": [],
-      "commentCount": 20,
-      "labels": [
-        "help wanted",
-        "bounty"
-      ],
-      "score": 60,
-      "status": "VERIFY REWARD AND ELIGIBILITY",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "## Goal Find real bugs anywhere in Vista — not only one feature. This is a framework-wide bounty hunt. Scope is the published packages and the live docs app: - `@vistagenic/vista` (RSC/SSR, `vista/link`, `vista/image`, `vista/theme`, `vista/auth`, `vista/ai`, `vista/stack`, `vist"
     },
     {
       "id": 6004722681,
@@ -866,15 +1121,70 @@
       "excerpt": "Bounties that were already open when the watcher started. From now on, each new one gets its own issue. - 🔴 **$150** · [📱 Epic: BAWES Universe Mobile App (Android + iOS)](https://github.com/BAWES-Universe/workadventure-universe/issues/1) - 🔴 **$50** · [BOUNTY: integrate AWS Co"
     },
     {
+      "id": 6237819722,
+      "title": "Give the verifier a fair chance after a challenge",
+      "html_url": "https://github.com/odiseo159-beep/mergit/issues/16",
+      "repository": "odiseo159-beep/mergit",
+      "created_at": "2026-11-06T06:16:20Z",
+      "updated_at": "2026-11-06T06:19:34Z",
+      "payoutMentionUSD": null,
+      "assignees": [],
+      "commentCount": 1,
+      "labels": [
+        "bounty"
+      ],
+      "score": 55,
+      "status": "VERIFY REWARD AND ELIGIBILITY",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "**What this is for** A funder can object once to a proposed payment with `challenge`. That reopens the bounty, but it does not move the deadline. If the funder objects after the deadline has passed, which the contract allows while the challenge window is still open, the verifier "
+    },
+    {
+      "id": 6237820072,
+      "title": "Test the rules that decide which bounty a pull request claims",
+      "html_url": "https://github.com/odiseo159-beep/mergit/issues/17",
+      "repository": "odiseo159-beep/mergit",
+      "created_at": "2026-11-06T06:16:21Z",
+      "updated_at": "2026-11-06T06:19:34Z",
+      "payoutMentionUSD": null,
+      "assignees": [],
+      "commentCount": 1,
+      "labels": [
+        "bounty"
+      ],
+      "score": 55,
+      "status": "VERIFY REWARD AND ELIGIBILITY",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "**What this is for** `agent/bounties.mjs` decides which bounty a merged pull request can claim: through the issue it closes, or through an explicit `Bounty: #N` line, and only when the bounty was funded for that same repository. Those rules move money, and they have no tests yet."
+    },
+    {
+      "id": 6229562906,
+      "title": "[Bug bounty][Medium] Playground: URL-prefilled transactOptions.call → one-click signing of hidden arbitrary inner call (+ frameable hosts)",
+      "html_url": "https://github.com/paraspell/xcm-tools/issues/2431",
+      "repository": "paraspell/xcm-tools",
+      "created_at": "2026-11-05T18:51:09Z",
+      "updated_at": "2026-11-06T02:48:20Z",
+      "payoutMentionUSD": null,
+      "assignees": [],
+      "commentCount": 1,
+      "labels": [],
+      "score": 55,
+      "status": "VERIFY REWARD AND ELIGIBILITY",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "# 🐞 Bug Report ## 🔍 Describe the Bug Playground: URL-prefilled transactOptions.call → one-click signing of a hidden arbitrary inner call executing on the destination chain (+ clickjacking chain, live-verified frameable hosts) The Playground prefills an **executable XCM Transact"
+    },
+    {
       "id": 6232990638,
       "title": "Headless GitHub Action that evaluates bounty rules on merged PRs",
       "html_url": "https://github.com/Flow-Pulse/FlowPulse/issues/2",
       "repository": "Flow-Pulse/FlowPulse",
       "created_at": "2026-11-05T22:43:31Z",
-      "updated_at": "2026-11-05T22:43:31Z",
+      "updated_at": "2026-11-06T02:48:16Z",
       "payoutMentionUSD": null,
       "assignees": [],
-      "commentCount": 0,
+      "commentCount": 1,
       "labels": [
         "complexity: high",
         "area: ci"
@@ -884,316 +1194,6 @@
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
       "excerpt": "Today rules run in the browser (`frontend/src/lib/ci.ts`). Build `ci/github-action/`: a JavaScript Action that runs on `pull_request: closed`, reads a `.flowpulse.yml` rule file, extracts the author's `stellar: G…` address, and opens a bounty stream with a repo-secret signing key"
-    },
-    {
-      "id": 5516825464,
-      "title": "[LIVE] Verified NIM bounty board",
-      "html_url": "https://github.com/Saidur-droid/MergeEarn/issues/33",
-      "repository": "Saidur-droid/MergeEarn",
-      "created_at": "2026-09-20T08:52:35Z",
-      "updated_at": "2026-11-05T22:25:55Z",
-      "payoutMentionUSD": null,
-      "assignees": [],
-      "commentCount": 1,
-      "labels": [],
-      "score": 55,
-      "status": "VERIFY REWARD AND ELIGIBILITY",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "# MergeEarn live community bounty board This is the public, automatically maintained entry point for contributor-friendly MergeEarn work. **Live app:** https://mergeearn.vercel.app **GitHub Contribute page:** https://github.com/Saidur-droid/MergeEarn/contribute A task is paid onl"
-    },
-    {
-      "id": 6228918547,
-      "title": "Avviso alla community sui costi di bounty, sviluppo su Vercel e VPS",
-      "html_url": "https://github.com/MyZubster-Ecosystem/myzubster/issues/1696",
-      "repository": "MyZubster-Ecosystem/myzubster",
-      "created_at": "2026-11-05T18:11:00Z",
-      "updated_at": "2026-11-05T20:20:50Z",
-      "payoutMentionUSD": null,
-      "assignees": [],
-      "commentCount": 0,
-      "labels": [],
-      "score": 55,
-      "status": "VERIFY REWARD AND ELIGIBILITY",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "Ciao a tutti, al momento myzubster non riesce a coprire tutti i costi cerco una soluzione con altri contributori"
-    },
-    {
-      "id": 6230683704,
-      "title": "bounty-watch 2026-11-05: 0 new, 1 resumed, 7 watchlist changes",
-      "html_url": "https://github.com/abdulsalam-create/bounty-watch/issues/221",
-      "repository": "abdulsalam-create/bounty-watch",
-      "created_at": "2026-11-05T20:03:07Z",
-      "updated_at": "2026-11-05T20:03:07Z",
-      "payoutMentionUSD": null,
-      "assignees": [],
-      "commentCount": 0,
-      "labels": [
-        "bounty-watch"
-      ],
-      "score": 55,
-      "status": "VERIFY REWARD AND ELIGIBILITY",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "# bounty-watch report 2026-11-05 ## 🔥 High-value: bypasses / new features / takeovers (1) - **Trello** (`bc:trello`) https://bugcrowd.com/engagements/trello - 2 new feature flag(s): feature-flag, flag-distribution - new JS: https://trello-bifrost.prod-east.frontend.public.atl-pa"
-    },
-    {
-      "id": 6025441566,
-      "title": "[Bug bounty] validateTransact returns the sender/recipient error instead of throwing, so the guard never runs",
-      "html_url": "https://github.com/paraspell/xcm-tools/issues/2277",
-      "repository": "paraspell/xcm-tools",
-      "created_at": "2026-10-25T14:18:52Z",
-      "updated_at": "2026-11-05T18:52:08Z",
-      "payoutMentionUSD": null,
-      "assignees": [],
-      "commentCount": 3,
-      "labels": [
-        "bug bounty 💰"
-      ],
-      "score": 55,
-      "status": "VERIFY REWARD AND ELIGIBILITY",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "# 🐞 Bug Report ## 🔍 Describe the Bug In `packages/sdk-core/src/transfer/utils/validationUtils.ts`, `validateTransact` checks that the sender matches the destination for a `.transact()` call. Every other check in the same function throws a `ValidationError` when it fails. This o"
-    },
-    {
-      "id": 6229562906,
-      "title": "[Bug bounty][Medium] Playground: URL-prefilled transactOptions.call → one-click signing of hidden arbitrary inner call (+ frameable hosts)",
-      "html_url": "https://github.com/paraspell/xcm-tools/issues/2431",
-      "repository": "paraspell/xcm-tools",
-      "created_at": "2026-11-05T18:51:09Z",
-      "updated_at": "2026-11-05T18:51:09Z",
-      "payoutMentionUSD": null,
-      "assignees": [],
-      "commentCount": 0,
-      "labels": [],
-      "score": 55,
-      "status": "VERIFY REWARD AND ELIGIBILITY",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "# 🐞 Bug Report ## 🔍 Describe the Bug Playground: URL-prefilled transactOptions.call → one-click signing of a hidden arbitrary inner call executing on the destination chain (+ clickjacking chain, live-verified frameable hosts) The Playground prefills an **executable XCM Transact"
-    },
-    {
-      "id": 6131817615,
-      "title": "Bounty claim: chain break",
-      "html_url": "https://github.com/derekgdicamillo/atlas-prime-beacon/issues/1",
-      "repository": "derekgdicamillo/atlas-prime-beacon",
-      "created_at": "2026-10-31T06:06:23Z",
-      "updated_at": "2026-11-05T18:03:17Z",
-      "payoutMentionUSD": null,
-      "assignees": [],
-      "commentCount": 2,
-      "labels": [],
-      "score": 55,
-      "status": "VERIFY REWARD AND ELIGIBILITY",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "# Bounty claim: chain break Category 2 (chain break). The published root chain in `roots/` is not append-only. It rewinds, shrinks, and freezes, and the shipped verifier cannot detect any of it. I have no access to the private ledger. Everything below is derived from the public `"
-    },
-    {
-      "id": 6227672930,
-      "title": "[Bug]: Security Contact Unreachable — Bug Bounty Status Confirmation",
-      "html_url": "https://github.com/MajekLabs/EnclaveAI--Privacy-Preserving-Intelligence/issues/1",
-      "repository": "MajekLabs/EnclaveAI--Privacy-Preserving-Intelligence",
-      "created_at": "2026-11-05T16:52:35Z",
-      "updated_at": "2026-11-05T16:52:35Z",
-      "payoutMentionUSD": null,
-      "assignees": [],
-      "commentCount": 0,
-      "labels": [
-        "bug"
-      ],
-      "score": 55,
-      "status": "VERIFY REWARD AND ELIGIBILITY",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "### Affected Component Documentation & Scripts ### Bug Description Hello EnclaveAI Team, I attempted to contact security@majeklabs.com as listed in SECURITY.md, but the email was undeliverable. Could you please confirm: Is the bug bounty currently active and accepting paid submis"
-    },
-    {
-      "id": 6218133582,
-      "title": "[Bounty] Answer the 2 linked question(s)",
-      "html_url": "https://github.com/Ikalus1988/MisakaNet/issues/4488",
-      "repository": "Ikalus1988/MisakaNet",
-      "created_at": "2026-11-05T06:34:50Z",
-      "updated_at": "2026-11-05T16:13:56Z",
-      "payoutMentionUSD": null,
-      "assignees": [],
-      "commentCount": 5,
-      "labels": [
-        "ready",
-        "bounty"
-      ],
-      "score": 55,
-      "status": "VERIFY REWARD AND ELIGIBILITY",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "<!-- misakanet-question-bounty:anchor-4462 --> # [Bounty] Answer the 2 linked question(s) ## Context These intakes ask about something no lesson covers. Measured through the production retrieval path (BM25 plus the IDF-weighted relevance floor), every one of them returns `no_matc"
-    },
-    {
-      "id": 6221710589,
-      "title": "[Bounty] Answer the 2 linked question(s)",
-      "html_url": "https://github.com/Ikalus1988/MisakaNet/issues/4494",
-      "repository": "Ikalus1988/MisakaNet",
-      "created_at": "2026-11-05T10:50:59Z",
-      "updated_at": "2026-11-05T14:56:47Z",
-      "payoutMentionUSD": null,
-      "assignees": [],
-      "commentCount": 0,
-      "labels": [
-        "ready",
-        "bounty"
-      ],
-      "score": 55,
-      "status": "VERIFY REWARD AND ELIGIBILITY",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "<!-- misakanet-question-bounty:anchor-4491 --> # [Bounty] Answer the 3 linked question(s) ## Context These intakes ask about something no lesson covers. Measured through the production retrieval path (BM25 plus the IDF-weighted relevance floor), every one of them returns `no_matc"
-    },
-    {
-      "id": 5979159185,
-      "title": "[Bounty] Answer the 2 linked question(s)",
-      "html_url": "https://github.com/Ikalus1988/MisakaNet/issues/3727",
-      "repository": "Ikalus1988/MisakaNet",
-      "created_at": "2026-10-22T12:19:38Z",
-      "updated_at": "2026-11-05T10:52:06Z",
-      "payoutMentionUSD": null,
-      "assignees": [],
-      "commentCount": 10,
-      "labels": [
-        "ready",
-        "bounty"
-      ],
-      "score": 55,
-      "status": "VERIFY REWARD AND ELIGIBILITY",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "<!-- misakanet-question-bounty:anchor-3658 --> # [Bounty] Answer the 2 linked question(s) ## Context These intakes ask about something no lesson covers. Measured through the production retrieval path (BM25 plus the IDF-weighted relevance floor), every one of them returns `no_matc"
-    },
-    {
-      "id": 5979160793,
-      "title": "[Bounty] Answer the 2 linked question(s)",
-      "html_url": "https://github.com/Ikalus1988/MisakaNet/issues/3730",
-      "repository": "Ikalus1988/MisakaNet",
-      "created_at": "2026-10-22T12:19:43Z",
-      "updated_at": "2026-11-05T10:51:11Z",
-      "payoutMentionUSD": null,
-      "assignees": [],
-      "commentCount": 4,
-      "labels": [
-        "ready",
-        "bounty"
-      ],
-      "score": 55,
-      "status": "VERIFY REWARD AND ELIGIBILITY",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "<!-- misakanet-question-bounty:anchor-3653 --> # [Bounty] Answer the 2 linked question(s) ## Context These intakes ask about something no lesson covers. Measured through the production retrieval path (BM25 plus the IDF-weighted relevance floor), every one of them returns `no_matc"
-    },
-    {
-      "id": 6218133235,
-      "title": "[Bounty] Answer the 2 linked question(s)",
-      "html_url": "https://github.com/Ikalus1988/MisakaNet/issues/4487",
-      "repository": "Ikalus1988/MisakaNet",
-      "created_at": "2026-11-05T06:34:48Z",
-      "updated_at": "2026-11-05T10:51:03Z",
-      "payoutMentionUSD": null,
-      "assignees": [],
-      "commentCount": 2,
-      "labels": [
-        "ready",
-        "bounty"
-      ],
-      "score": 55,
-      "status": "VERIFY REWARD AND ELIGIBILITY",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "<!-- misakanet-question-bounty:anchor-4464 --> # [Bounty] Answer the 2 linked question(s) ## Context These intakes ask about something no lesson covers. Measured through the production retrieval path (BM25 plus the IDF-weighted relevance floor), every one of them returns `no_matc"
-    },
-    {
-      "id": 6218132900,
-      "title": "[Bounty] Answer the 2 linked question(s)",
-      "html_url": "https://github.com/Ikalus1988/MisakaNet/issues/4486",
-      "repository": "Ikalus1988/MisakaNet",
-      "created_at": "2026-11-05T06:34:47Z",
-      "updated_at": "2026-11-05T10:51:01Z",
-      "payoutMentionUSD": null,
-      "assignees": [],
-      "commentCount": 3,
-      "labels": [
-        "ready",
-        "bounty"
-      ],
-      "score": 55,
-      "status": "VERIFY REWARD AND ELIGIBILITY",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "<!-- misakanet-question-bounty:anchor-2170 --> # [Bounty] Answer the 2 linked question(s) ## Context These intakes ask about something no lesson covers. Measured through the production retrieval path (BM25 plus the IDF-weighted relevance floor), every one of them returns `no_matc"
-    },
-    {
-      "id": 6148385123,
-      "title": "[BOUNTY] Suggestion #1301",
-      "html_url": "https://github.com/SPLURT-Station/S.P.L.U.R.T-tg/issues/1383",
-      "repository": "SPLURT-Station/S.P.L.U.R.T-tg",
-      "created_at": "2026-11-01T15:01:15Z",
-      "updated_at": "2026-11-05T06:53:11Z",
-      "payoutMentionUSD": null,
-      "assignees": [],
-      "commentCount": 3,
-      "labels": [
-        "bounty"
-      ],
-      "score": 55,
-      "status": "VERIFY REWARD AND ELIGIBILITY",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "### About the Bounty ## Original issue text: **Suggestion:** Add the Show Skills verb back into IC tab and into UI, allowing you to check on some basic skills like Primitive, Athletics and the ones you have leveled up at least once as a simpler version to track one's skills that "
-    },
-    {
-      "id": 4866948035,
-      "title": "[50 MRG] FastAPI: POST /infer/text and /infer/voice",
-      "html_url": "https://github.com/mergeos-bounties/Loru/issues/10",
-      "repository": "mergeos-bounties/Loru",
-      "created_at": "2026-07-12T12:04:19Z",
-      "updated_at": "2026-11-04T22:12:17Z",
-      "payoutMentionUSD": null,
-      "assignees": [],
-      "commentCount": 6,
-      "labels": [
-        "bounty",
-        "bounty: feature",
-        "api",
-        "reward:50-mrg"
-      ],
-      "score": 55,
-      "status": "VERIFY REWARD AND ELIGIBILITY",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "## Bounty: 50 MRG Ship optional FastAPI app under `src/loru/api/` with: - `POST /infer/text` (JSON sequence body) - `POST /infer/voice` (returns path or audio bytes) - `GET /health` ## Acceptance - [ ] `loru serve` or uvicorn entry documented - [ ] Tests with TestClient (api extr"
-    },
-    {
-      "id": 6049856044,
-      "title": "Make skipFor ci/headless work and count skipped tests in test-suite",
-      "html_url": "https://github.com/hanzoai/mcp/issues/14",
-      "repository": "hanzoai/mcp",
-      "created_at": "2026-10-26T23:16:57Z",
-      "updated_at": "2026-11-04T21:02:34Z",
-      "payoutMentionUSD": null,
-      "assignees": [],
-      "commentCount": 7,
-      "labels": [
-        "bug",
-        "bounty",
-        "bounty:starter",
-        "priority: p2",
-        "track: oss",
-        "type: bug"
-      ],
-      "score": 55,
-      "status": "VERIFY REWARD AND ELIGIBILITY",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "## Summary In the MCP test-suite, 21 test cases say `skipFor: ['ci', 'headless']`, but those names are never compared with anything that can match, so the cases are never skipped. The report also hard-codes zero skipped tests. ## Evidence Checked at `4770743`. - `test-suite/specs"
     }
   ],
   "disclaimer": "No verified payouts or earnings; these are public issue candidates. Manually confirm funding, assignment, eligibility, security and payment terms. Never pay to join, disclose secrets or begin work without terms."
