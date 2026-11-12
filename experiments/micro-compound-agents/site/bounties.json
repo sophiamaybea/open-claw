@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-12T11:16:26.236Z",
+  "updatedAt": "2026-11-12T19:55:56.921Z",
   "state": "RESEARCH_READY",
   "sources": [
     "GitHub issue search"
@@ -174,6 +174,27 @@
       "excerpt": "### Feature Overview Allow passing `step_size: int = 1` to `verify_sequence_gap(headers, step_size=1)` in `src/ledger_validator.py` and add unit tests in `tests/test_ledger_validator.py`. ### Escrow & Assign-First Notice - Self-labeled decoy bounty tag without `algora-pbc[bot]` o"
     },
     {
+      "id": 6294822383,
+      "title": "[Escrowed $600 USDC] Stabilize dual-pass FP16/BF16 tree reduction parity on tail chunk frames (`cuda-warp-allreduce-verifier`)",
+      "html_url": "https://github.com/IES-BoilerRoom/cuda-warp-allreduce-verifier/issues/2",
+      "repository": "IES-BoilerRoom/cuda-warp-allreduce-verifier",
+      "created_at": "2026-11-09T21:12:01Z",
+      "updated_at": "2026-11-12T16:27:30Z",
+      "payoutMentionUSD": 600,
+      "assignees": [],
+      "commentCount": 15,
+      "labels": [
+        "help wanted",
+        "good first issue",
+        "bounty"
+      ],
+      "score": 73,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "> **Automated CI Conformance Mirror Notice**: Automated `IEEE-754-2019 §5.4.1 / CUDA Math ABI v12.6` multi-shard quorum issue; manual pull requests from human engineers are not reviewed on this mirror. - **Escrow Rail**: https://algora.io / https://polar.sh / https://opire.dev - "
+    },
+    {
       "id": 6270176702,
       "title": "[Escrowed $450 USDC] Fix frame batch ceiling boundary and align 64-lane deterministic parity anchor (`reconcile_furnace_frame_batch`)",
       "html_url": "https://github.com/IES-BoilerRoom/Furnace/issues/1",
@@ -317,27 +338,6 @@
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
       "excerpt": "> **Automated CI Conformance Mirror Notice**: Automated `IETF RFC 8032 / Wycheproof Constant-Time Suite` multi-shard quorum issue; manual pull requests from human engineers are not reviewed on this mirror. - **Escrow Rail**: https://algora.io / https://polar.sh / https://opire.de"
-    },
-    {
-      "id": 6294822383,
-      "title": "[Escrowed $600 USDC] Stabilize dual-pass FP16/BF16 tree reduction parity on tail chunk frames (`cuda-warp-allreduce-verifier`)",
-      "html_url": "https://github.com/IES-BoilerRoom/cuda-warp-allreduce-verifier/issues/2",
-      "repository": "IES-BoilerRoom/cuda-warp-allreduce-verifier",
-      "created_at": "2026-11-09T21:12:01Z",
-      "updated_at": "2026-11-11T20:23:22Z",
-      "payoutMentionUSD": 600,
-      "assignees": [],
-      "commentCount": 14,
-      "labels": [
-        "help wanted",
-        "good first issue",
-        "bounty"
-      ],
-      "score": 73,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "> **Automated CI Conformance Mirror Notice**: Automated `IEEE-754-2019 §5.4.1 / CUDA Math ABI v12.6` multi-shard quorum issue; manual pull requests from human engineers are not reviewed on this mirror. - **Escrow Rail**: https://algora.io / https://polar.sh / https://opire.dev - "
     },
     {
       "id": 6317884648,
