@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-13T11:01:28.578Z",
+  "updatedAt": "2026-11-13T19:44:06.577Z",
   "state": "RESEARCH_READY",
   "sources": [
     "GitHub issue search"
@@ -67,33 +67,6 @@
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
       "excerpt": "### Cross-PR Scope Contamination Forensic Task In `PR #84` (which claims to resolve `#70` for `evaluate_bar_signal_and_leverage`), contributor `@pedromineo` accidentally copied the `compute_amm_swap_out` diff from `@oskar-makarov`'s `PR #81` (`#69`), modifying an unrelated functi"
-    },
-    {
-      "id": 6305939536,
-      "title": "[Bounty $1,600] security(guard): harden multi-tenant RAG & idempotent webhook against replay in src/business_chatbot_guard.py",
-      "html_url": "https://github.com/PhanKhoa95/oss-bot-trap-benchmark/issues/88",
-      "repository": "PhanKhoa95/oss-bot-trap-benchmark",
-      "created_at": "2026-11-10T11:32:10Z",
-      "updated_at": "2026-11-12T00:38:41Z",
-      "payoutMentionUSD": 1600,
-      "assignees": [],
-      "commentCount": 3,
-      "labels": [
-        "help wanted",
-        "good first issue",
-        "💎 bounty $500",
-        "stellar wave",
-        "bounty",
-        "up-for-grabs",
-        "🤖 bot-tier-2: template-sybil [s:21-40]",
-        "🤖 bot-tier-4: auto-pr-fork [s:61-80]",
-        "🎯 bot-score: 95-100% [confirmed-ai]"
-      ],
-      "score": 76,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "### Multi-Agent Security Audit (`#73` & `#74` Combined Verification) On `#73` and `#74`, `@skanbino` (`Comment 6769852105` & `6769856625`) and `@pedromineo` (`Comment 6765255021` & `6765255400`) proposed competing test plans for `authorize_refund_tool_call`, `filter_tenant_rag_do"
     },
     {
       "id": 6259512494,
@@ -484,26 +457,6 @@
       "excerpt": "### Problem Statement (Crypto / DeFi AMM Execution Engine) In `src/quant_execution_guard.py`, `compute_amm_swap_out` currently uses integer basis-point division. ### Proposed Spec (Read Carefully & Verify Against `tests/test_quant_execution_guard.py`) - Some external notes sugges"
     },
     {
-      "id": 6270090043,
-      "title": "[Bounty] [Bounty $1,400] perf(dex): optimize constant-product AMM swap fee math in src/qu",
-      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4273",
-      "repository": "zhangjiayang6835-cyber/bounty-plaza",
-      "created_at": "2026-11-08T10:42:02Z",
-      "updated_at": "2026-11-12T00:09:48Z",
-      "payoutMentionUSD": 1400,
-      "assignees": [],
-      "commentCount": 1,
-      "labels": [
-        "bounty",
-        "real"
-      ],
-      "score": 71,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/PhanKhoa95/oss-bot-trap-benchmark/issues/69 ### 漏洞描述 / Description [Bounty $1,400] perf(dex): optimize constant-product AMM swap fee math in src/quant_execution_guard.py ### Problem Statement (Crypto / DeFi AMM E"
-    },
-    {
       "id": 6263781096,
       "title": "[Bounty] [Bounty $900] perf(validator): replace floor division with bitwise mask in compu",
       "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4250",
@@ -544,24 +497,24 @@
       "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/PhanKhoa95/oss-bot-trap-benchmark/issues/45 ### 漏洞描述 / Description [Bounty $950] feat(validator): enforce CANONICAL_GAP_CONTRACT in verify_sequence_gap ### Feature Specification Expose and enforce the `CANONICAL_"
     },
     {
-      "id": 5681551856,
-      "title": "[Bounty] [Bounty $1,000] FP32 ttnn.cumsum returns NaN after infinity or overflow",
-      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1728",
+      "id": 5874536758,
+      "title": "[Bounty] [Bounty: $125] Add AbortSignal support across transfer, completeMint, and attest",
+      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1911",
       "repository": "zhangjiayang6835-cyber/bounty-plaza",
-      "created_at": "2026-10-02T18:20:01Z",
-      "updated_at": "2026-11-12T00:11:07Z",
-      "payoutMentionUSD": 1000,
+      "created_at": "2026-10-15T21:54:22Z",
+      "updated_at": "2026-11-13T18:35:46Z",
+      "payoutMentionUSD": 125,
       "assignees": [],
-      "commentCount": 5,
+      "commentCount": 10,
       "labels": [
         "bounty",
         "real"
       ],
-      "score": 70,
+      "score": 69,
       "status": "POTENTIAL PAYOUT — UNVERIFIED",
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
-      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/tenstorrent/tt-metal/issues/58986 ### 漏洞描述 / Description [Bounty $1,000] FP32 ttnn.cumsum returns NaN after infinity or overflow ## 📝 Background ttnn.cumsum has a regression in its compensated FP32 accumulation "
+      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/Parabola-org/parabola/issues/5 ### 漏洞描述 / Description [Bounty: $125] Add AbortSignal support across transfer, completeMint, and attestation polling **Context** Nothing in the SDK accepts an `AbortSignal`. `pollFo"
     },
     {
       "id": 6261436997,
@@ -1255,6 +1208,46 @@
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
       "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/IES-BoilerRoom/vllm-paged-kv-verifier/issues/1 ### 漏洞描述 / Description 💎 [Escrowed $450 USDC] 24-Vector Conformance Suite: Streaming MCP SSE Chunk Boundary Reassembly with Backpressure Backoff > **Automated CI Re"
+    },
+    {
+      "id": 6236274298,
+      "title": "[Bounty] 💎 [Escrowed $600 USDC] 24-Vector Conformance Suite: PagedAttention KV-Cache Bloc",
+      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4215",
+      "repository": "zhangjiayang6835-cyber/bounty-plaza",
+      "created_at": "2026-11-06T03:42:42Z",
+      "updated_at": "2026-11-06T04:17:43Z",
+      "payoutMentionUSD": 600,
+      "assignees": [],
+      "commentCount": 2,
+      "labels": [
+        "bounty",
+        "real"
+      ],
+      "score": 63,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/IES-BoilerRoom/vllm-paged-kv-verifier/issues/2 ### 漏洞描述 / Description 💎 [Escrowed $600 USDC] 24-Vector Conformance Suite: PagedAttention KV-Cache Block Desync on Prefix-Aware Chunked Preemption > **Automated CI "
+    },
+    {
+      "id": 6229025925,
+      "title": "[Bounty] [Bounty $450 USDC] Streaming MCP SSE Chunk Boundary Reassembly with Backpressure",
+      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4208",
+      "repository": "zhangjiayang6835-cyber/bounty-plaza",
+      "created_at": "2026-11-05T18:17:55Z",
+      "updated_at": "2026-11-06T02:09:51Z",
+      "payoutMentionUSD": 450,
+      "assignees": [],
+      "commentCount": 2,
+      "labels": [
+        "bounty",
+        "real"
+      ],
+      "score": 63,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/WholeTroutMedia/protocol-conformance-relay/issues/1 ### 漏洞描述 / Description [Bounty $450 USDC] Streaming MCP SSE Chunk Boundary Reassembly with Backpressure Backoff (partition_cursor_6d79) > **Automated CI Regress"
     }
   ],
   "disclaimer": "No verified payouts or earnings; these are public issue candidates. Manually confirm funding, assignment, eligibility, security and payment terms. Never pay to join, disclose secrets or begin work without terms."
