@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-14T10:28:48.247Z",
+  "updatedAt": "2026-11-14T18:05:28.494Z",
   "state": "RESEARCH_READY",
   "sources": [
     "GitHub issue search"
@@ -83,6 +83,26 @@
       "excerpt": "### Feature Overview Allow passing `step_size: int = 1` to `verify_sequence_gap(headers, step_size=1)` in `src/ledger_validator.py` and add unit tests in `tests/test_ledger_validator.py`. ### Escrow & Assign-First Notice - Self-labeled decoy bounty tag without `algora-pbc[bot]` o"
     },
     {
+      "id": 6387963878,
+      "title": "[Escrowed $450 USDC] Resolve TLP frame ceiling boundary and infinite-wrap credit bitvector identity (`reassemble_tlp_flit_frames`)",
+      "html_url": "https://github.com/IES-BoilerRoom/pcie-tlp-credit-flow-gate/issues/1",
+      "repository": "IES-BoilerRoom/pcie-tlp-credit-flow-gate",
+      "created_at": "2026-11-14T09:10:53Z",
+      "updated_at": "2026-11-14T11:30:05Z",
+      "payoutMentionUSD": 450,
+      "assignees": [],
+      "commentCount": 1,
+      "labels": [
+        "help wanted",
+        "bounty"
+      ],
+      "score": 73,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "> **Automated CI Conformance Mirror Notice**: Automated `PCI Express Base Specification r6.1 §2.6` regression runner issue; manual pull requests from human engineers are not reviewed on this mirror. - **Escrow Rail**: https://algora.io / https://polar.sh / https://opire.dev - **F"
+    },
+    {
       "id": 6358123018,
       "title": "[Escrowed $450 USDC] Fix signature-base line wrapping ceiling and align `@signature-params` witness (`canonicalize_http_sig_frames`)",
       "html_url": "https://github.com/IES-BoilerRoom/rfc9421-http-signature-gateway/issues/1",
@@ -141,26 +161,6 @@
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
       "excerpt": "> **Automated CI Conformance Mirror Notice**: Automated `SVM Runtime ABI & Account Borrow Spec v2.1` multi-shard quorum issue; manual pull requests from human engineers are not reviewed on this mirror. - **Escrow Rail**: https://algora.io / https://polar.sh / https://opire.dev - "
-    },
-    {
-      "id": 6387963878,
-      "title": "[Escrowed $450 USDC] Resolve TLP frame ceiling boundary and infinite-wrap credit bitvector identity (`reassemble_tlp_flit_frames`)",
-      "html_url": "https://github.com/IES-BoilerRoom/pcie-tlp-credit-flow-gate/issues/1",
-      "repository": "IES-BoilerRoom/pcie-tlp-credit-flow-gate",
-      "created_at": "2026-11-14T09:10:53Z",
-      "updated_at": "2026-11-14T09:10:53Z",
-      "payoutMentionUSD": 450,
-      "assignees": [],
-      "commentCount": 0,
-      "labels": [
-        "help wanted",
-        "bounty"
-      ],
-      "score": 73,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "> **Automated CI Conformance Mirror Notice**: Automated `PCI Express Base Specification r6.1 §2.6` regression runner issue; manual pull requests from human engineers are not reviewed on this mirror. - **Escrow Rail**: https://algora.io / https://polar.sh / https://opire.dev - **F"
     },
     {
       "id": 6387963760,
@@ -374,7 +374,7 @@
       "html_url": "https://github.com/sybil-solutions/local-ai-registry/issues/262",
       "repository": "sybil-solutions/local-ai-registry",
       "created_at": "2026-10-14T22:11:01Z",
-      "updated_at": "2026-11-14T06:43:14Z",
+      "updated_at": "2026-11-14T14:18:15Z",
       "payoutMentionUSD": 1000,
       "assignees": [],
       "commentCount": 0,
@@ -425,66 +425,6 @@
       "excerpt": "### Bounty: USDC (Escrow Locked) ### Description In high-speed kinematic entity projection (> 1.5 blocks/tick), server AABB bounding box calculations desync from client-interpolated hitboxes. ### Requirements - Implement swept AABB continuous collision detection (CCD). - Derive a"
     },
     {
-      "id": 6151080966,
-      "title": "💰 Bounty Seguro ($$750): [Bounty] 💰 Bounty Seguro ($$750): [Bounty] 💰 Bount",
-      "html_url": "https://github.com/alfrexo95/bounty-bot/issues/75",
-      "repository": "alfrexo95/bounty-bot",
-      "created_at": "2026-11-01T19:26:55Z",
-      "updated_at": "2026-11-14T06:44:06Z",
-      "payoutMentionUSD": 750,
-      "assignees": [],
-      "commentCount": 2,
-      "labels": [
-        "bounty",
-        "escrow"
-      ],
-      "score": 69,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "🤖 **Bounty con Pago Garantizado (Escrow)** - **Título:** [Bounty] 💰 Bounty Seguro ($$750): [Bounty] 💰 Bounty Seguro ($$750): 💰 Bounty Seguro - **Monto:** $$750 - **Plataforma:** GitHub Issue - **Enlace:** [Ir al Issue](https://github.com/zhangjiayang6835-cyber/bounty-plaza/is"
-    },
-    {
-      "id": 6248355169,
-      "title": "[Bounty] [Bounty $750] Fix remaining sharded scale_mask_softmax mask handling issues",
-      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4243",
-      "repository": "zhangjiayang6835-cyber/bounty-plaza",
-      "created_at": "2026-11-06T18:27:20Z",
-      "updated_at": "2026-11-14T00:33:10Z",
-      "payoutMentionUSD": 750,
-      "assignees": [],
-      "commentCount": 4,
-      "labels": [
-        "bounty",
-        "real"
-      ],
-      "score": 69,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/tenstorrent/tt-metal/issues/64647 ### 漏洞描述 / Description [Bounty $750] Fix remaining sharded scale_mask_softmax mask handling issues 📝 Background ttnn.scale_mask_softmax_in_place with SoftmaxShardedMultiCoreProg"
-    },
-    {
-      "id": 6236275176,
-      "title": "[Bounty] [Bounty $750] Fix sharded softmax on offset core grids",
-      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4225",
-      "repository": "zhangjiayang6835-cyber/bounty-plaza",
-      "created_at": "2026-11-06T03:42:47Z",
-      "updated_at": "2026-11-14T00:32:23Z",
-      "payoutMentionUSD": 750,
-      "assignees": [],
-      "commentCount": 3,
-      "labels": [
-        "bounty",
-        "real"
-      ],
-      "score": 69,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/tenstorrent/tt-metal/issues/64575 ### 漏洞描述 / Description [Bounty $750] Fix sharded softmax on offset core grids ## 📝 Background ttnn.softmax_in_place and ttnn.scale_mask_softmax_in_place can silently return inco"
-    },
-    {
       "id": 6261436997,
       "title": "[Bounty] [Bounty $750] feat(validator): support custom step_size in verify_sequence_gap",
       "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4244",
@@ -505,6 +445,125 @@
       "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/PhanKhoa95/oss-bot-trap-benchmark/issues/20 ### 漏洞描述 / Description [Bounty $750] feat(validator): support custom step_size in verify_sequence_gap ### Feature Overview Allow passing `step_size: int = 1` to `verify"
     },
     {
+      "id": 6391738893,
+      "title": "[Bounty] [Escrowed $450 USDC] Fix CPI frame ceiling boundary and satisfy 64-bit account b",
+      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4341",
+      "repository": "zhangjiayang6835-cyber/bounty-plaza",
+      "created_at": "2026-11-14T15:06:03Z",
+      "updated_at": "2026-11-14T15:13:15Z",
+      "payoutMentionUSD": 450,
+      "assignees": [],
+      "commentCount": 0,
+      "labels": [
+        "bounty",
+        "real"
+      ],
+      "score": 68,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/IES-BoilerRoom/solana-svm-cpi-conformance/issues/1 ### 漏洞描述 / Description [Escrowed $450 USDC] Fix CPI frame ceiling boundary and satisfy 64-bit account borrow-mask transfer equation (`decode_cpi_instruction_fram"
+    },
+    {
+      "id": 6391738799,
+      "title": "[Bounty] [Escrowed $450 USDC] Resolve TLP frame ceiling boundary and infinite-wrap credit",
+      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4340",
+      "repository": "zhangjiayang6835-cyber/bounty-plaza",
+      "created_at": "2026-11-14T15:06:03Z",
+      "updated_at": "2026-11-14T15:06:03Z",
+      "payoutMentionUSD": 450,
+      "assignees": [],
+      "commentCount": 0,
+      "labels": [
+        "bounty",
+        "real"
+      ],
+      "score": 68,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/IES-BoilerRoom/pcie-tlp-credit-flow-gate/issues/1 ### 漏洞描述 / Description [Escrowed $450 USDC] Resolve TLP frame ceiling boundary and infinite-wrap credit bitvector identity (`reassemble_tlp_flit_frames`) > **Auto"
+    },
+    {
+      "id": 6391738714,
+      "title": "[Bounty] [Escrowed $600 USDC] Prevent aliasing mutable ref-cell bitmask collision across ",
+      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4339",
+      "repository": "zhangjiayang6835-cyber/bounty-plaza",
+      "created_at": "2026-11-14T15:06:02Z",
+      "updated_at": "2026-11-14T15:06:02Z",
+      "payoutMentionUSD": 600,
+      "assignees": [],
+      "commentCount": 0,
+      "labels": [
+        "bounty",
+        "real"
+      ],
+      "score": 68,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/IES-BoilerRoom/solana-svm-cpi-conformance/issues/2 ### 漏洞描述 / Description [Escrowed $600 USDC] Prevent aliasing mutable ref-cell bitmask collision across depth-4 CPI frames (`solana-svm-cpi-conformance`) > **Auto"
+    },
+    {
+      "id": 6391738580,
+      "title": "[Bounty] [Escrowed $600 USDC] Align Posted/Non-Posted header credit wrap mask under 256B ",
+      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4338",
+      "repository": "zhangjiayang6835-cyber/bounty-plaza",
+      "created_at": "2026-11-14T15:06:02Z",
+      "updated_at": "2026-11-14T15:06:02Z",
+      "payoutMentionUSD": 600,
+      "assignees": [],
+      "commentCount": 0,
+      "labels": [
+        "bounty",
+        "real"
+      ],
+      "score": 68,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/IES-BoilerRoom/pcie-tlp-credit-flow-gate/issues/2 ### 漏洞描述 / Description [Escrowed $600 USDC] Align Posted/Non-Posted header credit wrap mask under 256B FLIT packing (`pcie-tlp-credit-flow-gate`) > **Automated CI"
+    },
+    {
+      "id": 6223737041,
+      "title": "[Escrowed $450 USDC] 24-Vector Conformance Suite: Streaming MCP SSE Chunk Boundary Reassembly with Backpressure Backoff",
+      "html_url": "https://github.com/WholeTroutMedia/agent-conformance-quarantine/issues/1",
+      "repository": "WholeTroutMedia/agent-conformance-quarantine",
+      "created_at": "2026-11-05T13:04:04Z",
+      "updated_at": "2026-11-14T14:41:34Z",
+      "payoutMentionUSD": 450,
+      "assignees": [],
+      "commentCount": 4,
+      "labels": [
+        "bounty"
+      ],
+      "score": 68,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "> **Automated CI Regression Mirror Notice**: Automated CI conformance runner issue; manual pull requests from human engineers are not reviewed on this mirror. - **Escrow Rail**: https://algora.io / https://polar.sh / https://opire.dev - **Funding Status**: Held in escrow — Reward"
+    },
+    {
+      "id": 6319565996,
+      "title": "[Bounty] [Escrowed $450 USDC] Fix wire-frame ceiling off-by-one and align constant-time r",
+      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4306",
+      "repository": "zhangjiayang6835-cyber/bounty-plaza",
+      "created_at": "2026-11-11T01:28:10Z",
+      "updated_at": "2026-11-14T10:51:36Z",
+      "payoutMentionUSD": 450,
+      "assignees": [],
+      "commentCount": 3,
+      "labels": [
+        "bounty",
+        "real"
+      ],
+      "score": 68,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/IES-BoilerRoom/ed25519-ct-limb-verifier/issues/1 ### 漏洞描述 / Description [Escrowed $450 USDC] Fix wire-frame ceiling off-by-one and align constant-time radix-51 carry mask (`unpack_scalar_wire_frames`) > **Automat"
+    },
+    {
       "id": 6235831527,
       "title": "[Escrowed $600 USDC] Tighten 32-bit subregister zero-extension parity across conditional joins (`refine_bpf_tnum_frames`)",
       "html_url": "https://github.com/IES-BoilerRoom/protocol-conformance-relay/issues/2",
@@ -522,26 +581,6 @@
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
       "excerpt": "> **Automated CI Conformance Mirror Notice**: Automated CI build and specification relay issue; manual pull requests from human engineers are not reviewed on this mirror. - **Escrow Rail**: https://algora.io / https://polar.sh / https://opire.dev - **Funding Status**: Held in esc"
-    },
-    {
-      "id": 6319565996,
-      "title": "[Bounty] [Escrowed $450 USDC] Fix wire-frame ceiling off-by-one and align constant-time r",
-      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4306",
-      "repository": "zhangjiayang6835-cyber/bounty-plaza",
-      "created_at": "2026-11-11T01:28:10Z",
-      "updated_at": "2026-11-14T07:19:06Z",
-      "payoutMentionUSD": 450,
-      "assignees": [],
-      "commentCount": 2,
-      "labels": [
-        "bounty",
-        "real"
-      ],
-      "score": 68,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/IES-BoilerRoom/ed25519-ct-limb-verifier/issues/1 ### 漏洞描述 / Description [Escrowed $450 USDC] Fix wire-frame ceiling off-by-one and align constant-time radix-51 carry mask (`unpack_scalar_wire_frames`) > **Automat"
     },
     {
       "id": 6319565898,
@@ -702,25 +741,6 @@
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
       "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/IES-BoilerRoom/rfc9421-http-signature-gateway/issues/1 ### 漏洞描述 / Description [Escrowed $450 USDC] Fix signature-base line wrapping ceiling and align `@signature-params` witness (`canonicalize_http_sig_frames`) >"
-    },
-    {
-      "id": 6223737041,
-      "title": "[Escrowed $450 USDC] 24-Vector Conformance Suite: Streaming MCP SSE Chunk Boundary Reassembly with Backpressure Backoff",
-      "html_url": "https://github.com/WholeTroutMedia/agent-conformance-quarantine/issues/1",
-      "repository": "WholeTroutMedia/agent-conformance-quarantine",
-      "created_at": "2026-11-05T13:04:04Z",
-      "updated_at": "2026-11-13T07:29:33Z",
-      "payoutMentionUSD": 450,
-      "assignees": [],
-      "commentCount": 3,
-      "labels": [
-        "bounty"
-      ],
-      "score": 68,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "> **Automated CI Regression Mirror Notice**: Automated CI conformance runner issue; manual pull requests from human engineers are not reviewed on this mirror. - **Escrow Rail**: https://algora.io / https://polar.sh / https://opire.dev - **Funding Status**: Held in escrow — Reward"
     },
     {
       "id": 6362125295,
@@ -1156,64 +1176,41 @@
       "excerpt": "🤖 **Bounty con Pago Garantizado (Escrow)** - **Título:** [Bounty] 💰 Bounty Seguro ($$250): [Bounty] Preserve RFC 7239 `Forwarded` host author - **Monto:** $$250 - **Plataforma:** GitHub Issue - **Enlace:** [Ir al Issue](https://github.com/zhangjiayang6835-cyber/bounty-plaza/iss"
     },
     {
-      "id": 6074432983,
-      "title": "[Bounty] 💰 Bounty Seguro ($$250): [Bounty] Preserve RFC 7239 `Forwarded` host author",
-      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4152",
-      "repository": "zhangjiayang6835-cyber/bounty-plaza",
-      "created_at": "2026-10-28T07:17:25Z",
-      "updated_at": "2026-11-14T06:46:07Z",
-      "payoutMentionUSD": 250,
+      "id": 6076665984,
+      "title": "[BOUNTY] Medium: Missing init_asset_vault, set_asset_deposit_cap, and set_min_token_stake instruction builders, discriminators, and derive_asset_config in bridge::solana",
+      "html_url": "https://github.com/paraloom-labs/paraloom-core/issues/1258",
+      "repository": "paraloom-labs/paraloom-core",
+      "created_at": "2026-10-28T10:00:20Z",
+      "updated_at": "2026-11-14T10:07:33Z",
+      "payoutMentionUSD": 150,
       "assignees": [],
-      "commentCount": 14,
+      "commentCount": 5,
+      "labels": [],
+      "score": 64,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "## Summary - **Target Repository:** [`paraloom-labs/paraloom-core`](https://github.com/paraloom-labs/paraloom-core) - **Severity:** Medium ($150 USDC — Stage 1 Public Beta Bug Bounty) - **Affected Components:** - `src/bridge/solana/instructions.rs` - `src/bridge/solana/mod.rs` - "
+    },
+    {
+      "id": 5986552924,
+      "title": "[Bounty] 📋 2 open bounties right now",
+      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4080",
+      "repository": "zhangjiayang6835-cyber/bounty-plaza",
+      "created_at": "2026-10-22T20:02:23Z",
+      "updated_at": "2026-11-11T05:19:12Z",
+      "payoutMentionUSD": 150,
+      "assignees": [],
+      "commentCount": 5,
       "labels": [
         "bounty",
         "real"
       ],
-      "score": 66,
+      "score": 64,
       "status": "POTENTIAL PAYOUT — UNVERIFIED",
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
-      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/alfrexo95/bounty-bot/issues/53 ### 漏洞描述 / Description 💰 Bounty Seguro ($$250): [Bounty] Preserve RFC 7239 `Forwarded` host author 🤖 **Bounty con Pago Garantizado (Escrow)** - **Título:** [Bounty] Preserve RFC 7"
-    },
-    {
-      "id": 6089460910,
-      "title": "[Bounty] 💰 Bounty Seguro ($$250): 💰 Bounty Seguro ($$250): [Bounty] 💰 Bounty Seguro ",
-      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4168",
-      "repository": "zhangjiayang6835-cyber/bounty-plaza",
-      "created_at": "2026-10-28T23:31:12Z",
-      "updated_at": "2026-11-14T06:45:36Z",
-      "payoutMentionUSD": 250,
-      "assignees": [],
-      "commentCount": 9,
-      "labels": [
-        "bounty",
-        "real"
-      ],
-      "score": 66,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/alfrexo95/bounty-bot/issues/56 ### 漏洞描述 / Description 💰 Bounty Seguro ($$250): 💰 Bounty Seguro ($$250): [Bounty] 💰 Bounty Seguro 🤖 **Bounty con Pago Garantizado (Escrow)** - **Título:** 💰 Bounty Seguro ($$25"
-    },
-    {
-      "id": 6086638331,
-      "title": "💰 Bounty Seguro ($$250): 💰 Bounty Seguro ($$250): [Bounty] 💰 Bounty Seguro ",
-      "html_url": "https://github.com/alfrexo95/bounty-bot/issues/56",
-      "repository": "alfrexo95/bounty-bot",
-      "created_at": "2026-10-28T20:10:07Z",
-      "updated_at": "2026-11-14T06:44:38Z",
-      "payoutMentionUSD": 250,
-      "assignees": [],
-      "commentCount": 8,
-      "labels": [
-        "bounty",
-        "escrow"
-      ],
-      "score": 66,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "🤖 **Bounty con Pago Garantizado (Escrow)** - **Título:** 💰 Bounty Seguro ($$250): [Bounty] 💰 Bounty Seguro ($$250): [Bounty] Preserv - **Monto:** $$250 - **Plataforma:** GitHub Issue - **Enlace:** [Ir al Issue](https://github.com/alfrexo95/bounty-bot/issues/54) --- ### 💰 Paym"
+      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/habibdxb01/bounty-watcher/issues/8 ### 漏洞描述 / Description 📋 2 open bounties right now Bounties that were already open when the watcher started. From now on, each new one gets its own issue. - 🔴 **$150** · [📱 E"
     }
   ],
   "disclaimer": "No verified payouts or earnings; these are public issue candidates. Manually confirm funding, assignment, eligibility, security and payment terms. Never pay to join, disclose secrets or begin work without terms."
