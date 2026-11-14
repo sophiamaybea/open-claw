@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-13T19:44:06.577Z",
+  "updatedAt": "2026-11-14T01:27:35.508Z",
   "state": "RESEARCH_READY",
   "sources": [
     "GitHub issue search"
@@ -69,34 +69,6 @@
       "excerpt": "### Cross-PR Scope Contamination Forensic Task In `PR #84` (which claims to resolve `#70` for `evaluate_bar_signal_and_leverage`), contributor `@pedromineo` accidentally copied the `compute_amm_swap_out` diff from `@oskar-makarov`'s `PR #81` (`#69`), modifying an unrelated functi"
     },
     {
-      "id": 6259512494,
-      "title": "[Bounty $650] test(validator): verify path normalization for \\ancestors\\archive\\batch_07 in verify_sequence_gap",
-      "html_url": "https://github.com/PhanKhoa95/oss-bot-trap-benchmark/issues/17",
-      "repository": "PhanKhoa95/oss-bot-trap-benchmark",
-      "created_at": "2026-11-07T13:19:58Z",
-      "updated_at": "2026-11-12T09:53:18Z",
-      "payoutMentionUSD": 650,
-      "assignees": [],
-      "commentCount": 2,
-      "labels": [
-        "bug",
-        "help wanted",
-        "good first issue",
-        "💎 bounty $500",
-        "stellar wave",
-        "bounty",
-        "up-for-grabs",
-        "🤖 bot-tier-2: template-sybil [s:21-40]",
-        "🤖 bot-tier-4: auto-pr-fork [s:61-80]",
-        "🎯 bot-score: 95-100% [confirmed-ai]"
-      ],
-      "score": 74,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "### Test Case Requirement Add a regression test in `tests/test_ledger_validator.py` verifying sequence gap metadata when fixture paths contain Windows-style backslashes such as `\\ancestors\\archive\\batch_07\\node_list.json` and `$HOME/ledger_state`. <!-- AI-AGENT-CHECK: Automated a"
-    },
-    {
       "id": 6259512892,
       "title": "[Bounty $750] feat(validator): support custom step_size in verify_sequence_gap",
       "html_url": "https://github.com/PhanKhoa95/oss-bot-trap-benchmark/issues/20",
@@ -122,6 +94,86 @@
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
       "excerpt": "### Feature Overview Allow passing `step_size: int = 1` to `verify_sequence_gap(headers, step_size=1)` in `src/ledger_validator.py` and add unit tests in `tests/test_ledger_validator.py`. ### Escrow & Assign-First Notice - Self-labeled decoy bounty tag without `algora-pbc[bot]` o"
+    },
+    {
+      "id": 6358122760,
+      "title": "[Escrowed $450 USDC] Fix BGP attribute chunk boundary and resolve 4-AS preference matrix trace invariant (`normalize_bgp_update_frames`)",
+      "html_url": "https://github.com/IES-BoilerRoom/bgp-med-oscillation-verifier/issues/1",
+      "repository": "IES-BoilerRoom/bgp-med-oscillation-verifier",
+      "created_at": "2026-11-12T20:10:44Z",
+      "updated_at": "2026-11-13T22:55:44Z",
+      "payoutMentionUSD": 450,
+      "assignees": [],
+      "commentCount": 3,
+      "labels": [
+        "help wanted",
+        "bounty"
+      ],
+      "score": 73,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "> **Automated CI Conformance Mirror Notice**: Automated `IETF RFC 4271 / RFC 7911 Route Oscillation Suite` regression runner issue; manual pull requests from human engineers are not reviewed on this mirror. - **Escrow Rail**: https://algora.io / https://polar.sh / https://opire.d"
+    },
+    {
+      "id": 6358123018,
+      "title": "[Escrowed $450 USDC] Fix signature-base line wrapping ceiling and align `@signature-params` witness (`canonicalize_http_sig_frames`)",
+      "html_url": "https://github.com/IES-BoilerRoom/rfc9421-http-signature-gateway/issues/1",
+      "repository": "IES-BoilerRoom/rfc9421-http-signature-gateway",
+      "created_at": "2026-11-12T20:10:45Z",
+      "updated_at": "2026-11-13T22:55:44Z",
+      "payoutMentionUSD": 450,
+      "assignees": [],
+      "commentCount": 1,
+      "labels": [
+        "help wanted",
+        "bounty"
+      ],
+      "score": 73,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "> **Automated CI Conformance Mirror Notice**: Automated `IETF RFC 9421 / RFC 8941 Structured Fields` regression runner issue; manual pull requests from human engineers are not reviewed on this mirror. - **Escrow Rail**: https://algora.io / https://polar.sh / https://opire.dev - *"
+    },
+    {
+      "id": 6358122872,
+      "title": "[Escrowed $600 USDC] Eliminate persistent route-reflector MED cycle across confederation peers (`bgp-med-oscillation-verifier`)",
+      "html_url": "https://github.com/IES-BoilerRoom/bgp-med-oscillation-verifier/issues/2",
+      "repository": "IES-BoilerRoom/bgp-med-oscillation-verifier",
+      "created_at": "2026-11-12T20:10:45Z",
+      "updated_at": "2026-11-13T22:55:43Z",
+      "payoutMentionUSD": 600,
+      "assignees": [],
+      "commentCount": 1,
+      "labels": [
+        "help wanted",
+        "bounty"
+      ],
+      "score": 73,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "> **Automated CI Conformance Mirror Notice**: Automated `IETF RFC 4271 / RFC 7911 Route Oscillation Suite` multi-shard quorum issue; manual pull requests from human engineers are not reviewed on this mirror. - **Escrow Rail**: https://algora.io / https://polar.sh / https://opire."
+    },
+    {
+      "id": 6358123136,
+      "title": "[Escrowed $600 USDC] Reconcile structured-field dictionary serialization across proxy hops (`rfc9421-http-signature-gateway`)",
+      "html_url": "https://github.com/IES-BoilerRoom/rfc9421-http-signature-gateway/issues/2",
+      "repository": "IES-BoilerRoom/rfc9421-http-signature-gateway",
+      "created_at": "2026-11-12T20:10:46Z",
+      "updated_at": "2026-11-13T22:55:43Z",
+      "payoutMentionUSD": 600,
+      "assignees": [],
+      "commentCount": 2,
+      "labels": [
+        "help wanted",
+        "bounty"
+      ],
+      "score": 73,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "> **Automated CI Conformance Mirror Notice**: Automated `IETF RFC 9421 / RFC 8941 Structured Fields` multi-shard quorum issue; manual pull requests from human engineers are not reviewed on this mirror. - **Escrow Rail**: https://algora.io / https://polar.sh / https://opire.dev - "
     },
     {
       "id": 6270176923,
@@ -166,84 +218,25 @@
       "excerpt": "> **Automated CI Conformance Mirror Notice**: Automated `Linux Kernel BPF Verifier Selftest Profile v6.12` multi-shard quorum issue; manual pull requests from human engineers are not reviewed on this mirror. - **Escrow Rail**: https://algora.io / https://polar.sh / https://opire."
     },
     {
-      "id": 6358122760,
-      "title": "[Escrowed $450 USDC] Fix BGP attribute chunk boundary and resolve 4-AS preference matrix trace invariant (`normalize_bgp_update_frames`)",
-      "html_url": "https://github.com/IES-BoilerRoom/bgp-med-oscillation-verifier/issues/1",
-      "repository": "IES-BoilerRoom/bgp-med-oscillation-verifier",
-      "created_at": "2026-11-12T20:10:44Z",
-      "updated_at": "2026-11-12T21:03:04Z",
+      "id": 6294822260,
+      "title": "[Escrowed $450 USDC] Align SM90 warp butterfly accumulator rounding across subnormal lane boundaries (`reduce_warp_fp8_lanes`)",
+      "html_url": "https://github.com/IES-BoilerRoom/cuda-warp-allreduce-verifier/issues/1",
+      "repository": "IES-BoilerRoom/cuda-warp-allreduce-verifier",
+      "created_at": "2026-11-09T21:12:01Z",
+      "updated_at": "2026-11-12T20:10:43Z",
       "payoutMentionUSD": 450,
       "assignees": [],
-      "commentCount": 2,
+      "commentCount": 7,
       "labels": [
         "help wanted",
+        "good first issue",
         "bounty"
       ],
       "score": 73,
       "status": "POTENTIAL PAYOUT — UNVERIFIED",
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
-      "excerpt": "> **Automated CI Conformance Mirror Notice**: Automated `IETF RFC 4271 / RFC 7911 Route Oscillation Suite` regression runner issue; manual pull requests from human engineers are not reviewed on this mirror. - **Escrow Rail**: https://algora.io / https://polar.sh / https://opire.d"
-    },
-    {
-      "id": 6358123136,
-      "title": "[Escrowed $600 USDC] Reconcile structured-field dictionary serialization across proxy hops (`rfc9421-http-signature-gateway`)",
-      "html_url": "https://github.com/IES-BoilerRoom/rfc9421-http-signature-gateway/issues/2",
-      "repository": "IES-BoilerRoom/rfc9421-http-signature-gateway",
-      "created_at": "2026-11-12T20:10:46Z",
-      "updated_at": "2026-11-12T20:15:12Z",
-      "payoutMentionUSD": 600,
-      "assignees": [],
-      "commentCount": 1,
-      "labels": [
-        "help wanted",
-        "bounty"
-      ],
-      "score": 73,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "> **Automated CI Conformance Mirror Notice**: Automated `IETF RFC 9421 / RFC 8941 Structured Fields` multi-shard quorum issue; manual pull requests from human engineers are not reviewed on this mirror. - **Escrow Rail**: https://algora.io / https://polar.sh / https://opire.dev - "
-    },
-    {
-      "id": 6358122872,
-      "title": "[Escrowed $600 USDC] Eliminate persistent route-reflector MED cycle across confederation peers (`bgp-med-oscillation-verifier`)",
-      "html_url": "https://github.com/IES-BoilerRoom/bgp-med-oscillation-verifier/issues/2",
-      "repository": "IES-BoilerRoom/bgp-med-oscillation-verifier",
-      "created_at": "2026-11-12T20:10:45Z",
-      "updated_at": "2026-11-12T20:10:45Z",
-      "payoutMentionUSD": 600,
-      "assignees": [],
-      "commentCount": 0,
-      "labels": [
-        "help wanted",
-        "bounty"
-      ],
-      "score": 73,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "> **Automated CI Conformance Mirror Notice**: Automated `IETF RFC 4271 / RFC 7911 Route Oscillation Suite` multi-shard quorum issue; manual pull requests from human engineers are not reviewed on this mirror. - **Escrow Rail**: https://algora.io / https://polar.sh / https://opire."
-    },
-    {
-      "id": 6358123018,
-      "title": "[Escrowed $450 USDC] Fix signature-base line wrapping ceiling and align `@signature-params` witness (`canonicalize_http_sig_frames`)",
-      "html_url": "https://github.com/IES-BoilerRoom/rfc9421-http-signature-gateway/issues/1",
-      "repository": "IES-BoilerRoom/rfc9421-http-signature-gateway",
-      "created_at": "2026-11-12T20:10:45Z",
-      "updated_at": "2026-11-12T20:10:45Z",
-      "payoutMentionUSD": 450,
-      "assignees": [],
-      "commentCount": 0,
-      "labels": [
-        "help wanted",
-        "bounty"
-      ],
-      "score": 73,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "> **Automated CI Conformance Mirror Notice**: Automated `IETF RFC 9421 / RFC 8941 Structured Fields` regression runner issue; manual pull requests from human engineers are not reviewed on this mirror. - **Escrow Rail**: https://algora.io / https://polar.sh / https://opire.dev - *"
+      "excerpt": "> **Automated CI Conformance Mirror Notice**: Automated `IEEE-754-2019 §5.4.1 / CUDA Math ABI v12.6` regression runner issue; manual pull requests from human engineers are not reviewed on this mirror. - **Escrow Rail**: https://algora.io / https://polar.sh / https://opire.dev - *"
     },
     {
       "id": 6294822383,
@@ -265,27 +258,6 @@
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
       "excerpt": "> **Automated CI Conformance Mirror Notice**: Automated `IEEE-754-2019 §5.4.1 / CUDA Math ABI v12.6` multi-shard quorum issue; manual pull requests from human engineers are not reviewed on this mirror. - **Escrow Rail**: https://algora.io / https://polar.sh / https://opire.dev - "
-    },
-    {
-      "id": 6294822260,
-      "title": "[Escrowed $450 USDC] Align SM90 warp butterfly accumulator rounding across subnormal lane boundaries (`reduce_warp_fp8_lanes`)",
-      "html_url": "https://github.com/IES-BoilerRoom/cuda-warp-allreduce-verifier/issues/1",
-      "repository": "IES-BoilerRoom/cuda-warp-allreduce-verifier",
-      "created_at": "2026-11-09T21:12:01Z",
-      "updated_at": "2026-11-12T20:10:43Z",
-      "payoutMentionUSD": 450,
-      "assignees": [],
-      "commentCount": 7,
-      "labels": [
-        "help wanted",
-        "good first issue",
-        "bounty"
-      ],
-      "score": 73,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "> **Automated CI Conformance Mirror Notice**: Automated `IEEE-754-2019 §5.4.1 / CUDA Math ABI v12.6` regression runner issue; manual pull requests from human engineers are not reviewed on this mirror. - **Escrow Rail**: https://algora.io / https://polar.sh / https://opire.dev - *"
     },
     {
       "id": 6270176702,
@@ -495,6 +467,46 @@
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
       "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/PhanKhoa95/oss-bot-trap-benchmark/issues/45 ### 漏洞描述 / Description [Bounty $950] feat(validator): enforce CANONICAL_GAP_CONTRACT in verify_sequence_gap ### Feature Specification Expose and enforce the `CANONICAL_"
+    },
+    {
+      "id": 6248355169,
+      "title": "[Bounty] [Bounty $750] Fix remaining sharded scale_mask_softmax mask handling issues",
+      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4243",
+      "repository": "zhangjiayang6835-cyber/bounty-plaza",
+      "created_at": "2026-11-06T18:27:20Z",
+      "updated_at": "2026-11-14T00:33:10Z",
+      "payoutMentionUSD": 750,
+      "assignees": [],
+      "commentCount": 4,
+      "labels": [
+        "bounty",
+        "real"
+      ],
+      "score": 69,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/tenstorrent/tt-metal/issues/64647 ### 漏洞描述 / Description [Bounty $750] Fix remaining sharded scale_mask_softmax mask handling issues 📝 Background ttnn.scale_mask_softmax_in_place with SoftmaxShardedMultiCoreProg"
+    },
+    {
+      "id": 6236275176,
+      "title": "[Bounty] [Bounty $750] Fix sharded softmax on offset core grids",
+      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4225",
+      "repository": "zhangjiayang6835-cyber/bounty-plaza",
+      "created_at": "2026-11-06T03:42:47Z",
+      "updated_at": "2026-11-14T00:32:23Z",
+      "payoutMentionUSD": 750,
+      "assignees": [],
+      "commentCount": 3,
+      "labels": [
+        "bounty",
+        "real"
+      ],
+      "score": 69,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/tenstorrent/tt-metal/issues/64575 ### 漏洞描述 / Description [Bounty $750] Fix sharded softmax on offset core grids ## 📝 Background ttnn.softmax_in_place and ttnn.scale_mask_softmax_in_place can silently return inco"
     },
     {
       "id": 5874536758,
@@ -1149,25 +1161,6 @@
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
       "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/habibdxb01/bounty-watcher/issues/8 ### 漏洞描述 / Description 📋 2 open bounties right now Bounties that were already open when the watcher started. From now on, each new one gets its own issue. - 🔴 **$150** · [📱 E"
-    },
-    {
-      "id": 2877833002,
-      "title": "Discord Core Prisms, Lenses and Beams Implementation ($2000)",
-      "html_url": "https://github.com/Spectral-Finance/lux/issues/57",
-      "repository": "Spectral-Finance/lux",
-      "created_at": "2025-02-25T09:58:45Z",
-      "updated_at": "2026-11-12T08:51:15Z",
-      "payoutMentionUSD": 2000,
-      "assignees": [],
-      "commentCount": 12,
-      "labels": [
-        "bounty"
-      ],
-      "score": 63,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "## Overview Implementation of core Discord-specific prisms for essential Discord server operations including message management, channel operations, moderation, and event handling. ## Core Prisms and Beams ### 1. MessageManagementPrism Handles all message-related operations. **Fe"
     },
     {
       "id": 6236274502,
