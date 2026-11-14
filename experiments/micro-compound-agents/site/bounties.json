@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-14T18:05:28.494Z",
+  "updatedAt": "2026-11-14T22:26:21.692Z",
   "state": "RESEARCH_READY",
   "sources": [
     "GitHub issue search"
@@ -374,7 +374,7 @@
       "html_url": "https://github.com/sybil-solutions/local-ai-registry/issues/262",
       "repository": "sybil-solutions/local-ai-registry",
       "created_at": "2026-10-14T22:11:01Z",
-      "updated_at": "2026-11-14T14:18:15Z",
+      "updated_at": "2026-11-14T19:15:28Z",
       "payoutMentionUSD": 1000,
       "assignees": [],
       "commentCount": 0,
@@ -1136,46 +1136,6 @@
       "excerpt": "# [BUG BOUNTY] High: `TransactSpl` requires initialized SPL `TokenAccount`s for `recipient` and `fee_token` during internal transfers (`ext_amount == 0`), reverting all private SPL transfers on-chain ## 🔍 Summary - **Target Repository:** [`paraloom-labs/paraloom-core`](https://g"
     },
     {
-      "id": 6068643678,
-      "title": "[Bounty] Flush buffered window elements when `_quorum_epoch_barrier_7c2b` timer preempts ",
-      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4142",
-      "repository": "zhangjiayang6835-cyber/bounty-plaza",
-      "created_at": "2026-10-27T22:13:25Z",
-      "updated_at": "2026-11-14T06:47:18Z",
-      "payoutMentionUSD": 350,
-      "assignees": [],
-      "commentCount": 8,
-      "labels": [
-        "bounty",
-        "real"
-      ],
-      "score": 67,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/WholeTroutMedia/oss-verification-sandbox/issues/2 ### 漏洞描述 / Description Flush buffered window elements when `_quorum_epoch_barrier_7c2b` timer preempts idle pull ### Problem Description When an async stream wind"
-    },
-    {
-      "id": 6078960654,
-      "title": "💰 Bounty Seguro ($$250): [Bounty] 💰 Bounty Seguro ($$250): [Bounty] Preserv",
-      "html_url": "https://github.com/alfrexo95/bounty-bot/issues/54",
-      "repository": "alfrexo95/bounty-bot",
-      "created_at": "2026-10-28T12:31:14Z",
-      "updated_at": "2026-11-14T06:47:48Z",
-      "payoutMentionUSD": 250,
-      "assignees": [],
-      "commentCount": 4,
-      "labels": [
-        "bounty",
-        "escrow"
-      ],
-      "score": 66,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "🤖 **Bounty con Pago Garantizado (Escrow)** - **Título:** [Bounty] 💰 Bounty Seguro ($$250): [Bounty] Preserve RFC 7239 `Forwarded` host author - **Monto:** $$250 - **Plataforma:** GitHub Issue - **Enlace:** [Ir al Issue](https://github.com/zhangjiayang6835-cyber/bounty-plaza/iss"
-    },
-    {
       "id": 6076665984,
       "title": "[BOUNTY] Medium: Missing init_asset_vault, set_asset_deposit_cap, and set_min_token_stake instruction builders, discriminators, and derive_asset_config in bridge::solana",
       "html_url": "https://github.com/paraloom-labs/paraloom-core/issues/1258",
@@ -1211,6 +1171,51 @@
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
       "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/habibdxb01/bounty-watcher/issues/8 ### 漏洞描述 / Description 📋 2 open bounties right now Bounties that were already open when the watcher started. From now on, each new one gets its own issue. - 🔴 **$150** · [📱 E"
+    },
+    {
+      "id": 4459344970,
+      "title": "[ Bounty $5k ] [ Solidity ] Fix unchecked return value on ERC20 transfer in TaskRouter completeTask — v2 upgrade",
+      "html_url": "https://github.com/ClankerNation/OpenAgents/issues/181",
+      "repository": "ClankerNation/OpenAgents",
+      "created_at": "2026-05-16T09:00:43Z",
+      "updated_at": "2026-11-14T09:14:59Z",
+      "payoutMentionUSD": 5600,
+      "assignees": [],
+      "commentCount": 14,
+      "labels": [
+        "autonomus agents only",
+        "good first issue",
+        "help wanted",
+        "💎 bounty",
+        "high-value",
+        "crypto-eligible",
+        "$5k"
+      ],
+      "score": 63,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "The `completeTask` function in `contracts/TaskRouter.sol` calls `token.transfer(agent, payout)` without checking the return value. Non-reverting ERC20s (like USDT) return false on failure, so the payout silently fails while the task is marked complete. ### Fix - Use SafeERC20's `"
+    },
+    {
+      "id": 5874536863,
+      "title": "[Bounty] [Bounty: $105] checkStellarRecipientReady must not report RPC outages as missing",
+      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1912",
+      "repository": "zhangjiayang6835-cyber/bounty-plaza",
+      "created_at": "2026-10-15T21:54:22Z",
+      "updated_at": "2026-11-14T06:54:28Z",
+      "payoutMentionUSD": 105,
+      "assignees": [],
+      "commentCount": 10,
+      "labels": [
+        "bounty",
+        "real"
+      ],
+      "score": 63,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/Parabola-org/parabola/issues/4 ### 漏洞描述 / Description [Bounty: $105] checkStellarRecipientReady must not report RPC outages as missing accounts **Context** `checkStellarRecipientReady` in `src/chains/stellar.ts:1"
     }
   ],
   "disclaimer": "No verified payouts or earnings; these are public issue candidates. Manually confirm funding, assignment, eligibility, security and payment terms. Never pay to join, disclose secrets or begin work without terms."
