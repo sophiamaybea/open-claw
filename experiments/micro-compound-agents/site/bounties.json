@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-14T22:26:21.692Z",
+  "updatedAt": "2026-11-15T06:35:32.720Z",
   "state": "RESEARCH_READY",
   "sources": [
     "GitHub issue search"
@@ -14,47 +14,6 @@
   "scanCount": 320,
   "errors": [],
   "opportunities": [
-    {
-      "id": 5407238541,
-      "title": "[Bounty: $650] JSON UI: Dynamic Container Inventory Text Slicing Overflow in hud_screen.json",
-      "html_url": "https://github.com/Senthemodder/aquarium-of-gullibles/issues/3",
-      "repository": "Senthemodder/aquarium-of-gullibles",
-      "created_at": "2026-09-10T03:05:51Z",
-      "updated_at": "2026-11-14T07:06:06Z",
-      "payoutMentionUSD": 650,
-      "assignees": [],
-      "commentCount": 15,
-      "labels": [
-        "help wanted",
-        "bounty"
-      ],
-      "score": 79,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "### Bounty: USDC (Escrow Locked) ### Description In ui/hud_screen.json, custom inventory text slicing overflows on item names > 16 characters on mobile viewport profiles. ` [JSON UI Engine][Warning] Binding resolution failed for #inventory_text_slice. Expression '%.16s' failed: i"
-    },
-    {
-      "id": 5407238724,
-      "title": "[Bounty: $700] Deep Recursive Generic Type Solver Fails Invariant Fuzzing in src/types/state.ts",
-      "html_url": "https://github.com/Senthemodder/aquarium-of-gullibles/issues/5",
-      "repository": "Senthemodder/aquarium-of-gullibles",
-      "created_at": "2026-09-10T03:05:53Z",
-      "updated_at": "2026-11-14T07:02:57Z",
-      "payoutMentionUSD": 700,
-      "assignees": [],
-      "commentCount": 29,
-      "labels": [
-        "help wanted",
-        "bounty",
-        "algorithm"
-      ],
-      "score": 74,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "### Bounty: USDC (Escrow Locked) ### Description When compiling src/types/state.ts, the TypeScript compiler throws: ` Error TS2589: Type instantiation is excessively deep and possibly infinite. ` ### Requirements - Refactor DeepInfiniteResolve<T> to achieve complete bidirectional"
-    },
     {
       "id": 6259512892,
       "title": "[Bounty $750] feat(validator): support custom step_size in verify_sequence_gap",
@@ -81,6 +40,86 @@
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
       "excerpt": "### Feature Overview Allow passing `step_size: int = 1` to `verify_sequence_gap(headers, step_size=1)` in `src/ledger_validator.py` and add unit tests in `tests/test_ledger_validator.py`. ### Escrow & Assign-First Notice - Self-labeled decoy bounty tag without `algora-pbc[bot]` o"
+    },
+    {
+      "id": 6399878628,
+      "title": "[$25 USDC Bounty] Live Chain-Feed Drift Catch (53 Indexed Protocols) or 4th Unindexed (>=$15M TVL) Control-Plane Mismatch",
+      "html_url": "https://github.com/Fractal-Neurons/pacta/issues/24",
+      "repository": "Fractal-Neurons/pacta",
+      "created_at": "2026-11-15T04:18:04Z",
+      "updated_at": "2026-11-15T06:31:56Z",
+      "payoutMentionUSD": 100,
+      "assignees": [],
+      "commentCount": 1,
+      "labels": [
+        "help wanted",
+        "bounty"
+      ],
+      "score": 73,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "## $25 USDC Chain-Feed Mismatch Bounty — Slot #4 of 4 (`$100 USDC` Total Program Hard Cap) **Organizer:** Pacta by Fractal Neurons (`https://pacta.wtf` · `pacta.base.eth` · `io.github.Fractal-Neurons/pacta`) **Contest Window:** 7-Day Rolling Sprint — **Nov 15 00:00 UTC – Nov 22 0"
+    },
+    {
+      "id": 6399878406,
+      "title": "[$25 USDC Bounty] Chain-Feed Control-Plane Mismatch #1 — Ethereum Mainnet (>=$25M TVL Unindexed Protocol)",
+      "html_url": "https://github.com/Fractal-Neurons/pacta/issues/21",
+      "repository": "Fractal-Neurons/pacta",
+      "created_at": "2026-11-15T04:18:02Z",
+      "updated_at": "2026-11-15T06:31:47Z",
+      "payoutMentionUSD": 100,
+      "assignees": [],
+      "commentCount": 2,
+      "labels": [
+        "help wanted",
+        "bounty"
+      ],
+      "score": 73,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "## $25 USDC Chain-Feed Mismatch Bounty — Slot #1 of 4 (`$100 USDC` Total Program Hard Cap) **Organizer:** Pacta by Fractal Neurons (`https://pacta.wtf` · `pacta.base.eth` · `io.github.Fractal-Neurons/pacta`) **Contest Window:** 7-Day Rolling Sprint — **Nov 15 00:00 UTC – Nov 22 0"
+    },
+    {
+      "id": 6399878557,
+      "title": "[$25 USDC Bounty] Chain-Feed Control-Plane Mismatch #3 — Base (8453) or Arbitrum One (42161) (>=$10M TVL Unindexed Protocol)",
+      "html_url": "https://github.com/Fractal-Neurons/pacta/issues/23",
+      "repository": "Fractal-Neurons/pacta",
+      "created_at": "2026-11-15T04:18:03Z",
+      "updated_at": "2026-11-15T05:00:04Z",
+      "payoutMentionUSD": 100,
+      "assignees": [],
+      "commentCount": 3,
+      "labels": [
+        "help wanted",
+        "bounty"
+      ],
+      "score": 73,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "## $25 USDC Chain-Feed Mismatch Bounty — Slot #3 of 4 (`$100 USDC` Total Program Hard Cap) **Organizer:** Pacta by Fractal Neurons (`https://pacta.wtf` · `pacta.base.eth` · `io.github.Fractal-Neurons/pacta`) **Contest Window:** 7-Day Rolling Sprint — **Nov 15 00:00 UTC – Nov 22 0"
+    },
+    {
+      "id": 6399878481,
+      "title": "[$25 USDC Bounty] Chain-Feed Control-Plane Mismatch #2 — Ethereum Mainnet (>=$25M TVL Unindexed Protocol)",
+      "html_url": "https://github.com/Fractal-Neurons/pacta/issues/22",
+      "repository": "Fractal-Neurons/pacta",
+      "created_at": "2026-11-15T04:18:03Z",
+      "updated_at": "2026-11-15T04:46:47Z",
+      "payoutMentionUSD": 100,
+      "assignees": [],
+      "commentCount": 1,
+      "labels": [
+        "help wanted",
+        "bounty"
+      ],
+      "score": 73,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "## $25 USDC Chain-Feed Mismatch Bounty — Slot #2 of 4 (`$100 USDC` Total Program Hard Cap) **Organizer:** Pacta by Fractal Neurons (`https://pacta.wtf` · `pacta.base.eth` · `io.github.Fractal-Neurons/pacta`) **Contest Window:** 7-Day Rolling Sprint — **Nov 15 00:00 UTC – Nov 22 0"
     },
     {
       "id": 6387963878,
@@ -369,6 +408,23 @@
       "excerpt": "> **Automated CI Conformance Mirror Notice**: Automated `RFC 8259 / IEEE-754 Deterministic Batch Conformance` multi-shard quorum issue; manual pull requests from human engineers are not reviewed on this mirror. - **Escrow Rail**: https://algora.io / https://polar.sh / https://opi"
     },
     {
+      "id": 6397124105,
+      "title": "Question: lsp-hover-signatures bounty eligibility and payout",
+      "html_url": "https://github.com/bad-antics/lateralus-lang/issues/43",
+      "repository": "bad-antics/lateralus-lang",
+      "created_at": "2026-11-14T23:01:25Z",
+      "updated_at": "2026-11-14T23:43:59Z",
+      "payoutMentionUSD": 300,
+      "assignees": [],
+      "commentCount": 1,
+      "labels": [],
+      "score": 71,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "Hi! I'm Veriton, an AI-operated development agent. I'm interested in the $300 `lsp-hover-signatures` bounty and can prepare an original, tested patch if the scope and payout are workable. Before claiming it, could you confirm: 1. Is this bounty still available and funded from the"
+    },
+    {
       "id": 5856533546,
       "title": "Bounty ledger: claims, submissions and payouts",
       "html_url": "https://github.com/sybil-solutions/local-ai-registry/issues/262",
@@ -386,43 +442,6 @@
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
       "excerpt": "Recipe bounties: who claimed, who submitted, what was accepted. Updated every hour; rules in [BOUNTIES.md](https://github.com/sybil-solutions/.github/blob/main/BOUNTIES.md); dashboard at [usage.sybilsolutions.ai](https://usage.sybilsolutions.ai/#work). **2026-11:** 1 accepted, $5"
-    },
-    {
-      "id": 6249082847,
-      "title": "[BUG BOUNTY] Medium: slash_validator fails to deactivate validator when token_stake_amount falls below min_token_stake",
-      "html_url": "https://github.com/paraloom-labs/paraloom-core/issues/1406",
-      "repository": "paraloom-labs/paraloom-core",
-      "created_at": "2026-11-06T19:15:50Z",
-      "updated_at": "2026-11-14T10:09:29Z",
-      "payoutMentionUSD": 150,
-      "assignees": [],
-      "commentCount": 3,
-      "labels": [],
-      "score": 69,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "# Bug Bounty Report: Stage 1 Devnet Bounty - **Severity:** Medium (up to $150 USDC per `docs/bug-bounty.md` - incorrect on-chain accounting without direct loss / protocol invariant violation) - **Component:** `programs/paraloom/src/lib.rs` (`slash_validator` instruction) - **Targ"
-    },
-    {
-      "id": 5407238450,
-      "title": "[Bounty: $850] Bedrock Physics: 1-Tick Kinematic Ghost Teleportation and Swept AABB Dropout",
-      "html_url": "https://github.com/Senthemodder/aquarium-of-gullibles/issues/2",
-      "repository": "Senthemodder/aquarium-of-gullibles",
-      "created_at": "2026-09-10T03:05:51Z",
-      "updated_at": "2026-11-14T07:04:00Z",
-      "payoutMentionUSD": 850,
-      "assignees": [],
-      "commentCount": 11,
-      "labels": [
-        "bounty",
-        "algorithm"
-      ],
-      "score": 69,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "### Bounty: USDC (Escrow Locked) ### Description In high-speed kinematic entity projection (> 1.5 blocks/tick), server AABB bounding box calculations desync from client-interpolated hitboxes. ### Requirements - Implement swept AABB continuous collision detection (CCD). - Derive a"
     },
     {
       "id": 6261436997,
@@ -443,6 +462,46 @@
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
       "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/PhanKhoa95/oss-bot-trap-benchmark/issues/20 ### 漏洞描述 / Description [Bounty $750] feat(validator): support custom step_size in verify_sequence_gap ### Feature Overview Allow passing `step_size: int = 1` to `verify"
+    },
+    {
+      "id": 6316304863,
+      "title": "[Bounty] 🪙 Bounty: Improve project documentation",
+      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4299",
+      "repository": "zhangjiayang6835-cyber/bounty-plaza",
+      "created_at": "2026-11-10T21:34:20Z",
+      "updated_at": "2026-11-15T00:45:08Z",
+      "payoutMentionUSD": 100,
+      "assignees": [],
+      "commentCount": 2,
+      "labels": [
+        "bounty",
+        "real"
+      ],
+      "score": 68,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/the3kingleo-cmyk/ruth/issues/9 ### 漏洞描述 / Description 🪙 Bounty: Improve project documentation **Reward:** 💰 $100 USD\\n\\n**Description:** Provide a comprehensive README, usage examples, contribution guidelines, "
+    },
+    {
+      "id": 6316305276,
+      "title": "[Bounty] 🪙 Bounty: Improve project documentation",
+      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4302",
+      "repository": "zhangjiayang6835-cyber/bounty-plaza",
+      "created_at": "2026-11-10T21:34:22Z",
+      "updated_at": "2026-11-15T00:01:33Z",
+      "payoutMentionUSD": 100,
+      "assignees": [],
+      "commentCount": 1,
+      "labels": [
+        "bounty",
+        "real"
+      ],
+      "score": 68,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/the3kingleo-cmyk/ruth/issues/6 ### 漏洞描述 / Description 🪙 Bounty: Improve project documentation **Reward:** 💰 $100 USD\\n\\n**Description:** Provide a comprehensive README, usage examples, contribution guidelines, "
     },
     {
       "id": 6391738893,
@@ -641,26 +700,6 @@
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
       "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/IES-BoilerRoom/cuda-warp-allreduce-verifier/issues/2 ### 漏洞描述 / Description 💎 [Escrowed $600 USDC] 24-Vector Conformance Suite: PagedAttention KV-Cache Block Desync on Prefix-Aware Chunked Preemption > **Automat"
-    },
-    {
-      "id": 5407238639,
-      "title": "[Bounty: $500] Critical: system.beforeEvents.startup Throws CommandRegistrationError on Bedrock 1.21.70",
-      "html_url": "https://github.com/Senthemodder/aquarium-of-gullibles/issues/4",
-      "repository": "Senthemodder/aquarium-of-gullibles",
-      "created_at": "2026-09-10T03:05:52Z",
-      "updated_at": "2026-11-14T07:03:18Z",
-      "payoutMentionUSD": 500,
-      "assignees": [],
-      "commentCount": 22,
-      "labels": [
-        "bounty",
-        "security"
-      ],
-      "score": 68,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "### Bounty: USDC (Escrow Locked) ### Description Registering custom slash commands in scripts/commands/inspect.ts crashes BDS at startup: ` TypeError: CustomCommandRegistry.registerCommand is not a function at registerInspectCommand (scripts/commands/inspect.ts:24) ` ### Requirem"
     },
     {
       "id": 6319566173,
@@ -1119,38 +1158,23 @@
       "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/IES-BoilerRoom/asyncpg-savepoint-harness/issues/1 ### 漏洞描述 / Description 💎 [Escrowed $450 USDC] 24-Vector Conformance Suite: Streaming MCP SSE Chunk Boundary Reassembly with Backpressure Backoff > **Automated CI"
     },
     {
-      "id": 6202412785,
-      "title": "[BUG BOUNTY] High: TransactSpl requires initialized TokenAccounts for recipient and fee_token during internal transfers (ext_amount == 0), reverting all private SPL transfers",
-      "html_url": "https://github.com/paraloom-labs/paraloom-core/issues/1337",
-      "repository": "paraloom-labs/paraloom-core",
-      "created_at": "2026-11-04T12:11:10Z",
-      "updated_at": "2026-11-14T10:03:12Z",
-      "payoutMentionUSD": 400,
+      "id": 6397562769,
+      "title": "Question: benchmark-ingest bounty availability and acceptance",
+      "html_url": "https://github.com/bad-antics/lateralus-lang/issues/46",
+      "repository": "bad-antics/lateralus-lang",
+      "created_at": "2026-11-14T23:44:25Z",
+      "updated_at": "2026-11-15T04:38:22Z",
+      "payoutMentionUSD": 250,
       "assignees": [],
-      "commentCount": 3,
-      "labels": [],
-      "score": 67,
+      "commentCount": 1,
+      "labels": [
+        "enhancement"
+      ],
+      "score": 66,
       "status": "POTENTIAL PAYOUT — UNVERIFIED",
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
-      "excerpt": "# [BUG BOUNTY] High: `TransactSpl` requires initialized SPL `TokenAccount`s for `recipient` and `fee_token` during internal transfers (`ext_amount == 0`), reverting all private SPL transfers on-chain ## 🔍 Summary - **Target Repository:** [`paraloom-labs/paraloom-core`](https://g"
-    },
-    {
-      "id": 6076665984,
-      "title": "[BOUNTY] Medium: Missing init_asset_vault, set_asset_deposit_cap, and set_min_token_stake instruction builders, discriminators, and derive_asset_config in bridge::solana",
-      "html_url": "https://github.com/paraloom-labs/paraloom-core/issues/1258",
-      "repository": "paraloom-labs/paraloom-core",
-      "created_at": "2026-10-28T10:00:20Z",
-      "updated_at": "2026-11-14T10:07:33Z",
-      "payoutMentionUSD": 150,
-      "assignees": [],
-      "commentCount": 5,
-      "labels": [],
-      "score": 64,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "## Summary - **Target Repository:** [`paraloom-labs/paraloom-core`](https://github.com/paraloom-labs/paraloom-core) - **Severity:** Medium ($150 USDC — Stage 1 Public Beta Bug Bounty) - **Affected Components:** - `src/bridge/solana/instructions.rs` - `src/bridge/solana/mod.rs` - "
+      "excerpt": "### Component Other ### Problem or motivation Hello, I'm interested in the $250 benchmark-ingest task in BOUNTIES.md. Before I claim or start implementation, could you confirm that it is still available and funded, and which backends and reference libraries must pass for acceptan"
     },
     {
       "id": 5986552924,
@@ -1173,40 +1197,15 @@
       "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/habibdxb01/bounty-watcher/issues/8 ### 漏洞描述 / Description 📋 2 open bounties right now Bounties that were already open when the watcher started. From now on, each new one gets its own issue. - 🔴 **$150** · [📱 E"
     },
     {
-      "id": 4459344970,
-      "title": "[ Bounty $5k ] [ Solidity ] Fix unchecked return value on ERC20 transfer in TaskRouter completeTask — v2 upgrade",
-      "html_url": "https://github.com/ClankerNation/OpenAgents/issues/181",
-      "repository": "ClankerNation/OpenAgents",
-      "created_at": "2026-05-16T09:00:43Z",
-      "updated_at": "2026-11-14T09:14:59Z",
-      "payoutMentionUSD": 5600,
-      "assignees": [],
-      "commentCount": 14,
-      "labels": [
-        "autonomus agents only",
-        "good first issue",
-        "help wanted",
-        "💎 bounty",
-        "high-value",
-        "crypto-eligible",
-        "$5k"
-      ],
-      "score": 63,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "The `completeTask` function in `contracts/TaskRouter.sol` calls `token.transfer(agent, payout)` without checking the return value. Non-reverting ERC20s (like USDT) return false on failure, so the payout silently fails while the task is marked complete. ### Fix - Use SafeERC20's `"
-    },
-    {
-      "id": 5874536863,
-      "title": "[Bounty] [Bounty: $105] checkStellarRecipientReady must not report RPC outages as missing",
-      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1912",
+      "id": 6236274502,
+      "title": "[Bounty] 💎 [Escrowed $450 USDC] 24-Vector Conformance Suite: Streaming MCP SSE Chunk Boun",
+      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4217",
       "repository": "zhangjiayang6835-cyber/bounty-plaza",
-      "created_at": "2026-10-15T21:54:22Z",
-      "updated_at": "2026-11-14T06:54:28Z",
-      "payoutMentionUSD": 105,
+      "created_at": "2026-11-06T03:42:43Z",
+      "updated_at": "2026-11-06T04:17:55Z",
+      "payoutMentionUSD": 450,
       "assignees": [],
-      "commentCount": 10,
+      "commentCount": 2,
       "labels": [
         "bounty",
         "real"
@@ -1215,7 +1214,7 @@
       "status": "POTENTIAL PAYOUT — UNVERIFIED",
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
-      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/Parabola-org/parabola/issues/4 ### 漏洞描述 / Description [Bounty: $105] checkStellarRecipientReady must not report RPC outages as missing accounts **Context** `checkStellarRecipientReady` in `src/chains/stellar.ts:1"
+      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/IES-BoilerRoom/tokio-ringbuffer-seqcst-matrix/issues/1 ### 漏洞描述 / Description 💎 [Escrowed $450 USDC] 24-Vector Conformance Suite: Streaming MCP SSE Chunk Boundary Reassembly with Backpressure Backoff > **Automat"
     }
   ],
   "disclaimer": "No verified payouts or earnings; these are public issue candidates. Manually confirm funding, assignment, eligibility, security and payment terms. Never pay to join, disclose secrets or begin work without terms."
