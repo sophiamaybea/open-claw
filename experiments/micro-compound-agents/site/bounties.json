@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-16T19:37:36.905Z",
+  "updatedAt": "2026-11-17T03:55:39.788Z",
   "state": "RESEARCH_READY",
   "sources": [
     "GitHub issue search"
@@ -11,30 +11,9 @@
     "is:issue is:open \"USDC\" \"bounty\""
   ],
   "results": 60,
-  "scanCount": 320,
+  "scanCount": 319,
   "errors": [],
   "opportunities": [
-    {
-      "id": 6412082749,
-      "title": "Bounty $150: capture adapter for Front",
-      "html_url": "https://github.com/overturn-ai/overturn/issues/20",
-      "repository": "overturn-ai/overturn",
-      "created_at": "2026-11-16T01:13:38Z",
-      "updated_at": "2026-11-16T16:53:02Z",
-      "payoutMentionUSD": 150,
-      "assignees": [],
-      "commentCount": 16,
-      "labels": [
-        "enhancement",
-        "help wanted",
-        "bounty"
-      ],
-      "score": 74,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "Capture for Front, matching what `packages/zendesk-app` does in Zendesk: record what the AI drafted, what the human sent, and one-line reason, from inside the tool the expert already works in. **Bounty: $150**, paid on merge (PayPal, Wise or GitHub Sponsors — your choice). ### Wh"
-    },
     {
       "id": 6259512892,
       "title": "[Bounty $750] feat(validator): support custom step_size in verify_sequence_gap",
@@ -61,6 +40,46 @@
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
       "excerpt": "### Feature Overview Allow passing `step_size: int = 1` to `verify_sequence_gap(headers, step_size=1)` in `src/ledger_validator.py` and add unit tests in `tests/test_ledger_validator.py`. ### Escrow & Assign-First Notice - Self-labeled decoy bounty tag without `algora-pbc[bot]` o"
+    },
+    {
+      "id": 6387963760,
+      "title": "[Escrowed $450 USDC] Fix CPI frame ceiling boundary and satisfy 64-bit account borrow-mask transfer equation (`decode_cpi_instruction_frames`)",
+      "html_url": "https://github.com/IES-BoilerRoom/solana-svm-cpi-conformance/issues/1",
+      "repository": "IES-BoilerRoom/solana-svm-cpi-conformance",
+      "created_at": "2026-11-14T09:10:52Z",
+      "updated_at": "2026-11-17T02:20:37Z",
+      "payoutMentionUSD": 450,
+      "assignees": [],
+      "commentCount": 1,
+      "labels": [
+        "help wanted",
+        "bounty"
+      ],
+      "score": 73,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "> **Automated CI Conformance Mirror Notice**: Automated `SVM Runtime ABI & Account Borrow Spec v2.1` regression runner issue; manual pull requests from human engineers are not reviewed on this mirror. - **Escrow Rail**: https://algora.io / https://polar.sh / https://opire.dev - *"
+    },
+    {
+      "id": 6387963878,
+      "title": "[Escrowed $450 USDC] Resolve TLP frame ceiling boundary and infinite-wrap credit bitvector identity (`reassemble_tlp_flit_frames`)",
+      "html_url": "https://github.com/IES-BoilerRoom/pcie-tlp-credit-flow-gate/issues/1",
+      "repository": "IES-BoilerRoom/pcie-tlp-credit-flow-gate",
+      "created_at": "2026-11-14T09:10:53Z",
+      "updated_at": "2026-11-17T00:05:19Z",
+      "payoutMentionUSD": 450,
+      "assignees": [],
+      "commentCount": 2,
+      "labels": [
+        "help wanted",
+        "bounty"
+      ],
+      "score": 73,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "> **Automated CI Conformance Mirror Notice**: Automated `PCI Express Base Specification r6.1 §2.6` regression runner issue; manual pull requests from human engineers are not reviewed on this mirror. - **Escrow Rail**: https://algora.io / https://polar.sh / https://opire.dev - **F"
     },
     {
       "id": 6270176702,
@@ -103,48 +122,6 @@
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
       "excerpt": "> **Automated CI Conformance Mirror Notice**: Automated `RFC 8259 / IEEE-754 Deterministic Batch Conformance` multi-shard quorum issue; manual pull requests from human engineers are not reviewed on this mirror. - **Escrow Rail**: https://algora.io / https://polar.sh / https://opi"
-    },
-    {
-      "id": 6412083049,
-      "title": "Bounty $100: capture adapter for Gorgias",
-      "html_url": "https://github.com/overturn-ai/overturn/issues/22",
-      "repository": "overturn-ai/overturn",
-      "created_at": "2026-11-16T01:13:40Z",
-      "updated_at": "2026-11-16T18:00:19Z",
-      "payoutMentionUSD": 100,
-      "assignees": [],
-      "commentCount": 16,
-      "labels": [
-        "enhancement",
-        "help wanted",
-        "bounty"
-      ],
-      "score": 73,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "Capture for Gorgias, matching what `packages/zendesk-app` does in Zendesk: record what the AI drafted, what the human sent, and one-line reason, from inside the tool the expert already works in. **Bounty: $100**, paid on merge (PayPal, Wise or GitHub Sponsors — your choice). ### "
-    },
-    {
-      "id": 6412082943,
-      "title": "Bounty $100: capture adapter for Intercom",
-      "html_url": "https://github.com/overturn-ai/overturn/issues/21",
-      "repository": "overturn-ai/overturn",
-      "created_at": "2026-11-16T01:13:39Z",
-      "updated_at": "2026-11-16T16:23:38Z",
-      "payoutMentionUSD": 100,
-      "assignees": [],
-      "commentCount": 13,
-      "labels": [
-        "enhancement",
-        "help wanted",
-        "bounty"
-      ],
-      "score": 73,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "Capture for Intercom, matching what `packages/zendesk-app` does in Zendesk: record what the AI drafted, what the human sent, and one-line reason, from inside the tool the expert already works in. **Bounty: $100**, paid on merge (PayPal, Wise or GitHub Sponsors — your choice). ###"
     },
     {
       "id": 6416954656,
@@ -245,46 +222,6 @@
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
       "excerpt": "> **Automated CI Conformance Mirror Notice**: Automated `PCI Express Base Specification r6.1 §2.6` multi-shard quorum issue; manual pull requests from human engineers are not reviewed on this mirror. - **Escrow Rail**: https://algora.io / https://polar.sh / https://opire.dev - **"
-    },
-    {
-      "id": 6387963878,
-      "title": "[Escrowed $450 USDC] Resolve TLP frame ceiling boundary and infinite-wrap credit bitvector identity (`reassemble_tlp_flit_frames`)",
-      "html_url": "https://github.com/IES-BoilerRoom/pcie-tlp-credit-flow-gate/issues/1",
-      "repository": "IES-BoilerRoom/pcie-tlp-credit-flow-gate",
-      "created_at": "2026-11-14T09:10:53Z",
-      "updated_at": "2026-11-16T08:07:36Z",
-      "payoutMentionUSD": 450,
-      "assignees": [],
-      "commentCount": 2,
-      "labels": [
-        "help wanted",
-        "bounty"
-      ],
-      "score": 73,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "> **Automated CI Conformance Mirror Notice**: Automated `PCI Express Base Specification r6.1 §2.6` regression runner issue; manual pull requests from human engineers are not reviewed on this mirror. - **Escrow Rail**: https://algora.io / https://polar.sh / https://opire.dev - **F"
-    },
-    {
-      "id": 6387963760,
-      "title": "[Escrowed $450 USDC] Fix CPI frame ceiling boundary and satisfy 64-bit account borrow-mask transfer equation (`decode_cpi_instruction_frames`)",
-      "html_url": "https://github.com/IES-BoilerRoom/solana-svm-cpi-conformance/issues/1",
-      "repository": "IES-BoilerRoom/solana-svm-cpi-conformance",
-      "created_at": "2026-11-14T09:10:52Z",
-      "updated_at": "2026-11-16T02:18:10Z",
-      "payoutMentionUSD": 450,
-      "assignees": [],
-      "commentCount": 1,
-      "labels": [
-        "help wanted",
-        "bounty"
-      ],
-      "score": 73,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "> **Automated CI Conformance Mirror Notice**: Automated `SVM Runtime ABI & Account Borrow Spec v2.1` regression runner issue; manual pull requests from human engineers are not reviewed on this mirror. - **Escrow Rail**: https://algora.io / https://polar.sh / https://opire.dev - *"
     },
     {
       "id": 6387963817,
@@ -492,7 +429,7 @@
       "html_url": "https://github.com/WholeTroutMedia/protocol-conformance-relay/issues/2",
       "repository": "WholeTroutMedia/protocol-conformance-relay",
       "created_at": "2026-11-05T13:04:02Z",
-      "updated_at": "2026-11-16T19:30:40Z",
+      "updated_at": "2026-11-16T20:51:15Z",
       "payoutMentionUSD": 600,
       "assignees": [],
       "commentCount": 3,
@@ -511,7 +448,7 @@
       "html_url": "https://github.com/WholeTroutMedia/agent-conformance-quarantine/issues/2",
       "repository": "WholeTroutMedia/agent-conformance-quarantine",
       "created_at": "2026-11-05T13:04:04Z",
-      "updated_at": "2026-11-16T19:30:39Z",
+      "updated_at": "2026-11-16T20:51:14Z",
       "payoutMentionUSD": 600,
       "assignees": [],
       "commentCount": 4,
@@ -530,7 +467,7 @@
       "html_url": "https://github.com/WholeTroutMedia/protocol-conformance-relay/issues/1",
       "repository": "WholeTroutMedia/protocol-conformance-relay",
       "created_at": "2026-11-05T13:04:02Z",
-      "updated_at": "2026-11-16T19:30:37Z",
+      "updated_at": "2026-11-16T20:51:12Z",
       "payoutMentionUSD": 450,
       "assignees": [],
       "commentCount": 4,
@@ -1219,6 +1156,66 @@
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
       "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/IES-BoilerRoom/mcp-sse-frame-conformance/issues/2 ### 漏洞描述 / Description 💎 [Escrowed $600 USDC] 24-Vector Conformance Suite: PagedAttention KV-Cache Block Desync on Prefix-Aware Chunked Preemption > **Automated "
+    },
+    {
+      "id": 6236274831,
+      "title": "[Bounty] 💎 [Escrowed $600 USDC] 24-Vector Conformance Suite: PagedAttention KV-Cache Bloc",
+      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4221",
+      "repository": "zhangjiayang6835-cyber/bounty-plaza",
+      "created_at": "2026-11-06T03:42:45Z",
+      "updated_at": "2026-11-10T18:34:51Z",
+      "payoutMentionUSD": 600,
+      "assignees": [],
+      "commentCount": 1,
+      "labels": [
+        "bounty",
+        "real"
+      ],
+      "score": 68,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/IES-BoilerRoom/Furnace/issues/2 ### 漏洞描述 / Description 💎 [Escrowed $600 USDC] 24-Vector Conformance Suite: PagedAttention KV-Cache Block Desync on Prefix-Aware Chunked Preemption > **Automated CI Regression Mirr"
+    },
+    {
+      "id": 6241933449,
+      "title": "[Bounty] 💎 [Escrowed $600 USDC] 24-Vector Conformance Suite: PagedAttention KV-Cache Bloc",
+      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4237",
+      "repository": "zhangjiayang6835-cyber/bounty-plaza",
+      "created_at": "2026-11-06T11:36:03Z",
+      "updated_at": "2026-11-10T18:34:46Z",
+      "payoutMentionUSD": 600,
+      "assignees": [],
+      "commentCount": 4,
+      "labels": [
+        "bounty",
+        "real"
+      ],
+      "score": 68,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/IES-BoilerRoom/asyncpg-savepoint-harness/issues/2 ### 漏洞描述 / Description 💎 [Escrowed $600 USDC] 24-Vector Conformance Suite: PagedAttention KV-Cache Block Desync on Prefix-Aware Chunked Preemption > **Automated "
+    },
+    {
+      "id": 6241933277,
+      "title": "[Bounty] 💎 [Escrowed $450 USDC] 24-Vector Conformance Suite: Streaming MCP SSE Chunk Boun",
+      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4236",
+      "repository": "zhangjiayang6835-cyber/bounty-plaza",
+      "created_at": "2026-11-06T11:36:02Z",
+      "updated_at": "2026-11-10T17:33:46Z",
+      "payoutMentionUSD": 450,
+      "assignees": [],
+      "commentCount": 3,
+      "labels": [
+        "bounty",
+        "real"
+      ],
+      "score": 68,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/IES-BoilerRoom/asyncpg-savepoint-harness/issues/1 ### 漏洞描述 / Description 💎 [Escrowed $450 USDC] 24-Vector Conformance Suite: Streaming MCP SSE Chunk Boundary Reassembly with Backpressure Backoff > **Automated CI"
     }
   ],
   "disclaimer": "No verified payouts or earnings; these are public issue candidates. Manually confirm funding, assignment, eligibility, security and payment terms. Never pay to join, disclose secrets or begin work without terms."
