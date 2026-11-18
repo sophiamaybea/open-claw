@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-18T00:58:14.292Z",
+  "updatedAt": "2026-11-18T11:45:19.770Z",
   "state": "RESEARCH_READY",
   "sources": [
     "GitHub issue search"
@@ -95,26 +95,6 @@
       "excerpt": "> **Automated CI Conformance Mirror Notice**: Automated `W3C WGSL Floating-Point Conformance §15.7` multi-shard quorum issue; manual pull requests from human engineers are not reviewed on this mirror. - **Escrow Rail**: https://algora.io / https://polar.sh / https://opire.dev - *"
     },
     {
-      "id": 6416954656,
-      "title": "[Escrowed $450 USDC] Fix module frame ceiling check and align deterministic bytecode gas residue (`parse_move_module_frames`)",
-      "html_url": "https://github.com/IES-BoilerRoom/MoveVM-bytecode-ability-checker/issues/1",
-      "repository": "IES-BoilerRoom/MoveVM-bytecode-ability-checker",
-      "created_at": "2026-11-16T08:07:38Z",
-      "updated_at": "2026-11-17T17:06:06Z",
-      "payoutMentionUSD": 450,
-      "assignees": [],
-      "commentCount": 4,
-      "labels": [
-        "help wanted",
-        "bounty"
-      ],
-      "score": 73,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "> **Automated CI Conformance Mirror Notice**: Automated `MoveVM Bytecode Verifier & Gas Meter Spec v1.4` regression runner issue; manual pull requests from human engineers are not reviewed on this mirror. - **Escrow Rail**: https://algora.io / https://polar.sh / https://opire.dev"
-    },
-    {
       "id": 6416954780,
       "title": "[Escrowed $600 USDC] Enforce linear resource drop safety across loop back-edges (`MoveVM-bytecode-ability-checker`)",
       "html_url": "https://github.com/IES-BoilerRoom/MoveVM-bytecode-ability-checker/issues/2",
@@ -133,6 +113,26 @@
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
       "excerpt": "> **Automated CI Conformance Mirror Notice**: Automated `MoveVM Bytecode Verifier & Gas Meter Spec v1.4` multi-shard quorum issue; manual pull requests from human engineers are not reviewed on this mirror. - **Escrow Rail**: https://algora.io / https://polar.sh / https://opire.de"
+    },
+    {
+      "id": 6416954656,
+      "title": "[Escrowed $450 USDC] Fix module frame ceiling check and align deterministic bytecode gas residue (`parse_move_module_frames`)",
+      "html_url": "https://github.com/IES-BoilerRoom/MoveVM-bytecode-ability-checker/issues/1",
+      "repository": "IES-BoilerRoom/MoveVM-bytecode-ability-checker",
+      "created_at": "2026-11-16T08:07:38Z",
+      "updated_at": "2026-11-17T17:06:06Z",
+      "payoutMentionUSD": 450,
+      "assignees": [],
+      "commentCount": 4,
+      "labels": [
+        "help wanted",
+        "bounty"
+      ],
+      "score": 73,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "> **Automated CI Conformance Mirror Notice**: Automated `MoveVM Bytecode Verifier & Gas Meter Spec v1.4` regression runner issue; manual pull requests from human engineers are not reviewed on this mirror. - **Escrow Rail**: https://algora.io / https://polar.sh / https://opire.dev"
     },
     {
       "id": 6358123136,
@@ -175,27 +175,6 @@
       "excerpt": "> **Automated CI Conformance Mirror Notice**: Automated `IETF RFC 9421 / RFC 8941 Structured Fields` regression runner issue; manual pull requests from human engineers are not reviewed on this mirror. - **Escrow Rail**: https://algora.io / https://polar.sh / https://opire.dev - *"
     },
     {
-      "id": 6270176702,
-      "title": "[Escrowed $450 USDC] Fix frame batch ceiling boundary and align 64-lane deterministic parity anchor (`reconcile_furnace_frame_batch`)",
-      "html_url": "https://github.com/IES-BoilerRoom/Furnace/issues/1",
-      "repository": "IES-BoilerRoom/Furnace",
-      "created_at": "2026-11-08T10:53:24Z",
-      "updated_at": "2026-11-17T17:05:58Z",
-      "payoutMentionUSD": 450,
-      "assignees": [],
-      "commentCount": 5,
-      "labels": [
-        "help wanted",
-        "good first issue",
-        "bounty"
-      ],
-      "score": 73,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "> **Automated CI Conformance Mirror Notice**: Automated `RFC 8259 / IEEE-754 Deterministic Batch Conformance` regression runner issue; manual pull requests from human engineers are not reviewed on this mirror. - **Escrow Rail**: https://algora.io / https://polar.sh / https://opir"
-    },
-    {
       "id": 6270176768,
       "title": "[Escrowed $600 USDC] Stabilize multi-shard batch watermarks across concurrent worker epochs (`Furnace`)",
       "html_url": "https://github.com/IES-BoilerRoom/Furnace/issues/2",
@@ -215,6 +194,27 @@
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
       "excerpt": "> **Automated CI Conformance Mirror Notice**: Automated `RFC 8259 / IEEE-754 Deterministic Batch Conformance` multi-shard quorum issue; manual pull requests from human engineers are not reviewed on this mirror. - **Escrow Rail**: https://algora.io / https://polar.sh / https://opi"
+    },
+    {
+      "id": 6270176702,
+      "title": "[Escrowed $450 USDC] Fix frame batch ceiling boundary and align 64-lane deterministic parity anchor (`reconcile_furnace_frame_batch`)",
+      "html_url": "https://github.com/IES-BoilerRoom/Furnace/issues/1",
+      "repository": "IES-BoilerRoom/Furnace",
+      "created_at": "2026-11-08T10:53:24Z",
+      "updated_at": "2026-11-17T17:05:58Z",
+      "payoutMentionUSD": 450,
+      "assignees": [],
+      "commentCount": 5,
+      "labels": [
+        "help wanted",
+        "good first issue",
+        "bounty"
+      ],
+      "score": 73,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "> **Automated CI Conformance Mirror Notice**: Automated `RFC 8259 / IEEE-754 Deterministic Batch Conformance` regression runner issue; manual pull requests from human engineers are not reviewed on this mirror. - **Escrow Rail**: https://algora.io / https://polar.sh / https://opir"
     },
     {
       "id": 6416954512,
@@ -297,21 +297,38 @@
       "excerpt": "> **Automated CI Conformance Mirror Notice**: Automated `PCI Express Base Specification r6.1 §2.6` multi-shard quorum issue; manual pull requests from human engineers are not reviewed on this mirror. - **Escrow Rail**: https://algora.io / https://polar.sh / https://opire.dev - **"
     },
     {
-      "id": 6454196959,
-      "title": "[Maths / Bug Bounty] A $4,000 holding with zero trading capacity is omitted from the portfolio exit time",
-      "html_url": "https://github.com/Ayush441-python/AUREN/issues/26",
+      "id": 6465854953,
+      "title": "[Maths / Bug Bounty] 12 of 20 supported Coinbase tokenized stocks omit nav_price, setting value to $0 and corrupting portfolio weights, HHI, and Risk Score",
+      "html_url": "https://github.com/Ayush441-python/AUREN/issues/59",
       "repository": "Ayush441-python/AUREN",
-      "created_at": "2026-11-17T21:09:48Z",
-      "updated_at": "2026-11-17T21:26:06Z",
+      "created_at": "2026-11-18T11:12:44Z",
+      "updated_at": "2026-11-18T11:12:44Z",
       "payoutMentionUSD": 10000,
       "assignees": [],
-      "commentCount": 2,
+      "commentCount": 0,
       "labels": [],
       "score": 72,
       "status": "POTENTIAL PAYOUT — UNVERIFIED",
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
-      "excerpt": "I am submitting this finding and its tested correction as **@Babbaragga** under the AUREN Maths Bounty (50 USDC). It also fits the logic-error tier if that is how the project classifies the dashboard. Please confirm the applicable tier and attribute the discovery, reproduction an"
+      "excerpt": "## Summary In `engine/wallet.py`, `wallet_holdings()` computes each token reference price as `price = float(t.get(\"nav_price\") or 0)` and `value = amount * price`, after which `holdings_to_portfolio()` filters `if r[\"supported\"] and r[\"value\"] > 0:` and discards everything else i"
+    },
+    {
+      "id": 6464786183,
+      "title": "[Bug Bounty] Stress comparison table shows a 20% loss as 0.2%",
+      "html_url": "https://github.com/Ayush441-python/AUREN/issues/50",
+      "repository": "Ayush441-python/AUREN",
+      "created_at": "2026-11-18T10:10:49Z",
+      "updated_at": "2026-11-18T10:15:19Z",
+      "payoutMentionUSD": 10000,
+      "assignees": [],
+      "commentCount": 0,
+      "labels": [],
+      "score": 72,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "On `eef89475`, the **Preset shock comparison** table understates the percentage impact even though the card and dollar amounts are correct. 1. Use a $10,000 portfolio with **NVDA 100%** and open **Stress Tests → Big Tech falls 20%**. 2. The engine returns `-0.20`, so the loss is "
     },
     {
       "id": 5862963633,
@@ -329,6 +346,143 @@
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
       "excerpt": "## Goal Build **Bounty Golden Path v1 — read-only qualification first**, using existing AgentOS ONE/IR, scheduler, node executor, receipts and work completion ledger. Do not add a parallel autonomous runtime or diverge protected branches. ## Grounded observations (2026-10-15) - T"
+    },
+    {
+      "id": 6461336822,
+      "title": "[BOUNTY: 2,500 EQX] Connect On-Chain AMM DEX (dex.rs) & Dividend Pool UI for Micro-LP Farmers",
+      "html_url": "https://github.com/EquinoxCore-Foundation/equinox-core/issues/3",
+      "repository": "EquinoxCore-Foundation/equinox-core",
+      "created_at": "2026-11-18T06:22:39Z",
+      "updated_at": "2026-11-18T06:22:39Z",
+      "payoutMentionUSD": 20,
+      "assignees": [],
+      "commentCount": 0,
+      "labels": [
+        "enhancement",
+        "help wanted"
+      ],
+      "score": 69,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "### 💧 Objective Connect the native Layer-1 Constant-Product AMM Router (`src/dex.rs`) and On-Chain Dividend Engine (`src/dividend.rs`) directly to the **Super-Wallet Swap & Earn Dashboard** so small miners ($5–$20 value) can provide liquidity and earn `0.30%` swap fees automatic"
+    },
+    {
+      "id": 5752364173,
+      "title": "[Bounty: $100] Remove the production CORS wildcard in `backend/server.js`",
+      "html_url": "https://github.com/stellarspace-hq/space-stellar/issues/66",
+      "repository": "stellarspace-hq/space-stellar",
+      "created_at": "2026-10-07T21:48:22Z",
+      "updated_at": "2026-11-18T10:35:21Z",
+      "payoutMentionUSD": 100,
+      "assignees": [],
+      "commentCount": 2,
+      "labels": [],
+      "score": 68,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "**Context** `backend/server.js` configures the Socket.IO/CORS layer to accept any origin (the default `cors()` behaviour plus an origin callback that returns `true`). Combined with the unauthenticated points and match endpoints, any web page can drive the API on behalf of a visit"
+    },
+    {
+      "id": 4459343391,
+      "title": "[ Bounty $8k ] [ API ] Fix main.py has no CORS configuration — urgent",
+      "html_url": "https://github.com/ClankerNation/OpenAgents/issues/166",
+      "repository": "ClankerNation/OpenAgents",
+      "created_at": "2026-05-16T09:00:04Z",
+      "updated_at": "2026-11-18T05:19:09Z",
+      "payoutMentionUSD": 8800,
+      "assignees": [],
+      "commentCount": 15,
+      "labels": [
+        "autonomus agents only",
+        "good first issue",
+        "help wanted",
+        "💎 bounty",
+        "high-value",
+        "crypto-eligible",
+        "$8k"
+      ],
+      "score": 68,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "The FastAPI app in `api/main.py` doesn't configure CORS. Frontend apps on different domains get blocked by browser. ### Fix - Add `CORSMiddleware` with configurable origins from env var - Allow common methods: GET, POST, PUT, DELETE, OPTIONS - Allow credentials for authenticated "
+    },
+    {
+      "id": 4459341748,
+      "title": "[ Bounty $8k ] [ Solidity ] Add delegation snapshot for governance votes at proposal creation",
+      "html_url": "https://github.com/ClankerNation/OpenAgents/issues/149",
+      "repository": "ClankerNation/OpenAgents",
+      "created_at": "2026-05-16T08:59:20Z",
+      "updated_at": "2026-11-18T05:19:08Z",
+      "payoutMentionUSD": 8000,
+      "assignees": [],
+      "commentCount": 8,
+      "labels": [
+        "autonomus agents only",
+        "good first issue",
+        "help wanted",
+        "💎 bounty",
+        "high-value",
+        "crypto-eligible",
+        "$8k"
+      ],
+      "score": 68,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "GovernorAlpha at `contracts/governance/GovernorAlpha.sol` counts votes at execution time. Users can acquire tokens after proposal creation to manipulate votes. ### Implementation - Snapshot balances at proposal creation block - `getVotingPower(address, proposalId)` reads from sna"
+    },
+    {
+      "id": 4459340006,
+      "title": "[ Bounty $8k ] [ Solidity ] Fix InterestRateModel doesn't emit events on parameter changes",
+      "html_url": "https://github.com/ClankerNation/OpenAgents/issues/130",
+      "repository": "ClankerNation/OpenAgents",
+      "created_at": "2026-05-16T08:58:31Z",
+      "updated_at": "2026-11-18T05:19:07Z",
+      "payoutMentionUSD": 8500,
+      "assignees": [],
+      "commentCount": 8,
+      "labels": [
+        "autonomus agents only",
+        "good first issue",
+        "help wanted",
+        "💎 bounty",
+        "high-value",
+        "crypto-eligible",
+        "$8k"
+      ],
+      "score": 68,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "Parameter updates in `contracts/lending/InterestRateModel.sol` (base rate, multiplier, jump multiplier) don't emit events. Off-chain monitoring has no way to detect rate changes. ### Fix - Add `RateParametersUpdated` event with old and new values - Emit on every setter call - Add"
+    },
+    {
+      "id": 4459310885,
+      "title": "[ Bounty $9k ] [ Solidity ] Fix no max supply cap and missing access control on AgentToken mint",
+      "html_url": "https://github.com/ClankerNation/OpenAgents/issues/11",
+      "repository": "ClankerNation/OpenAgents",
+      "created_at": "2026-05-16T08:46:34Z",
+      "updated_at": "2026-11-18T04:38:30Z",
+      "payoutMentionUSD": 9400,
+      "assignees": [],
+      "commentCount": 11,
+      "labels": [
+        "autonomus agents only",
+        "good first issue",
+        "help wanted",
+        "💎 bounty",
+        "high-value",
+        "crypto-eligible",
+        "$9k"
+      ],
+      "score": 68,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "Anyone can mint `contracts/token/AgentToken.sol`. No supply cap. Permit deadline unchecked. ### Fix - `onlyOwner` on mint - Add `MAX_SUPPLY` - Validate permit deadline - Add the standard `@contributor` NatSpec documentation block to the top of each modified file. This block must "
     },
     {
       "id": 6319565996,
@@ -1045,15 +1199,15 @@
       "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/IES-BoilerRoom/ebpf-verifier-reg-bounds/issues/1 ### 漏洞描述 / Description 💎 [Escrowed $450 USDC] 24-Vector Conformance Suite: Streaming MCP SSE Chunk Boundary Reassembly with Backpressure Backoff > **Automated CI "
     },
     {
-      "id": 6423422595,
-      "title": "[bounty] JSON tutorial availability",
-      "html_url": "https://github.com/bad-antics/lateralus-lang/issues/117",
+      "id": 6465982153,
+      "title": "[bounty] stdlib.logfmt tutorial",
+      "html_url": "https://github.com/bad-antics/lateralus-lang/issues/190",
       "repository": "bad-antics/lateralus-lang",
-      "created_at": "2026-11-16T14:28:42Z",
-      "updated_at": "2026-11-17T22:58:17Z",
+      "created_at": "2026-11-18T11:20:15Z",
+      "updated_at": "2026-11-18T11:20:15Z",
       "payoutMentionUSD": 25,
       "assignees": [],
-      "commentCount": 2,
+      "commentCount": 0,
       "labels": [
         "enhancement"
       ],
@@ -1061,144 +1215,7 @@
       "status": "POTENTIAL PAYOUT — UNVERIFIED",
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
-      "excerpt": "### Component Documentation ### Problem or motivation Please confirm availability, funding, acceptance criteria, AI-use eligibility, and payment methods. ### Proposed solution I would like to apply for the $25 JSON stdlib tutorial bounty, with a runnable example and reproducible "
-    },
-    {
-      "id": 6454108563,
-      "title": "[bounty] stdlib.algorithms tutorial",
-      "html_url": "https://github.com/bad-antics/lateralus-lang/issues/177",
-      "repository": "bad-antics/lateralus-lang",
-      "created_at": "2026-11-17T21:04:35Z",
-      "updated_at": "2026-11-17T21:08:39Z",
-      "payoutMentionUSD": 25,
-      "assignees": [],
-      "commentCount": 1,
-      "labels": [],
-      "score": 64,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "Claiming the recurring $25 tutorial micro-bounty for `stdlib/algorithms.ltl`. Planned scope: the search/sort helpers in practice — `binary_search`, `quick_sort`/`sort`, `fisher_yates_shuffle` — with correct usage, edge cases (empty/single-element input), and why binary search req"
-    },
-    {
-      "id": 5986552924,
-      "title": "[Bounty] 📋 2 open bounties right now",
-      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4080",
-      "repository": "zhangjiayang6835-cyber/bounty-plaza",
-      "created_at": "2026-10-22T20:02:23Z",
-      "updated_at": "2026-11-11T05:19:12Z",
-      "payoutMentionUSD": 150,
-      "assignees": [],
-      "commentCount": 5,
-      "labels": [
-        "bounty",
-        "real"
-      ],
-      "score": 64,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/habibdxb01/bounty-watcher/issues/8 ### 漏洞描述 / Description 📋 2 open bounties right now Bounties that were already open when the watcher started. From now on, each new one gets its own issue. - 🔴 **$150** · [📱 E"
-    },
-    {
-      "id": 6273216345,
-      "title": "[Bounty] 💎 [Escrowed $600 USDC] 24-Vector Conformance Suite: PagedAttention KV-Cache Bloc",
-      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4276",
-      "repository": "zhangjiayang6835-cyber/bounty-plaza",
-      "created_at": "2026-11-08T16:47:45Z",
-      "updated_at": "2026-11-10T20:37:27Z",
-      "payoutMentionUSD": 600,
-      "assignees": [],
-      "commentCount": 1,
-      "labels": [
-        "bounty",
-        "real"
-      ],
-      "score": 63,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/IES-BoilerRoom/ebpf-verifier-reg-bounds/issues/2 ### 漏洞描述 / Description 💎 [Escrowed $600 USDC] 24-Vector Conformance Suite: PagedAttention KV-Cache Block Desync on Prefix-Aware Chunked Preemption > **Automated C"
-    },
-    {
-      "id": 6236274751,
-      "title": "[Bounty] 💎 [Escrowed $450 USDC] 24-Vector Conformance Suite: Streaming MCP SSE Chunk Boun",
-      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4220",
-      "repository": "zhangjiayang6835-cyber/bounty-plaza",
-      "created_at": "2026-11-06T03:42:44Z",
-      "updated_at": "2026-11-10T19:56:14Z",
-      "payoutMentionUSD": 450,
-      "assignees": [],
-      "commentCount": 2,
-      "labels": [
-        "bounty",
-        "real"
-      ],
-      "score": 63,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/IES-BoilerRoom/mcp-sse-frame-conformance/issues/1 ### 漏洞描述 / Description 💎 [Escrowed $450 USDC] 24-Vector Conformance Suite: Streaming MCP SSE Chunk Boundary Reassembly with Backpressure Backoff > **Automated CI"
-    },
-    {
-      "id": 6236274581,
-      "title": "[Bounty] 💎 [Escrowed $600 USDC] 24-Vector Conformance Suite: PagedAttention KV-Cache Bloc",
-      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4218",
-      "repository": "zhangjiayang6835-cyber/bounty-plaza",
-      "created_at": "2026-11-06T03:42:43Z",
-      "updated_at": "2026-11-10T18:35:00Z",
-      "payoutMentionUSD": 600,
-      "assignees": [],
-      "commentCount": 1,
-      "labels": [
-        "bounty",
-        "real"
-      ],
-      "score": 63,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/IES-BoilerRoom/tokio-ringbuffer-seqcst-matrix/issues/2 ### 漏洞描述 / Description 💎 [Escrowed $600 USDC] 24-Vector Conformance Suite: PagedAttention KV-Cache Block Desync on Prefix-Aware Chunked Preemption > **Autom"
-    },
-    {
-      "id": 6236274666,
-      "title": "[Bounty] 💎 [Escrowed $600 USDC] 24-Vector Conformance Suite: PagedAttention KV-Cache Bloc",
-      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4219",
-      "repository": "zhangjiayang6835-cyber/bounty-plaza",
-      "created_at": "2026-11-06T03:42:44Z",
-      "updated_at": "2026-11-10T18:34:56Z",
-      "payoutMentionUSD": 600,
-      "assignees": [],
-      "commentCount": 1,
-      "labels": [
-        "bounty",
-        "real"
-      ],
-      "score": 63,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/IES-BoilerRoom/mcp-sse-frame-conformance/issues/2 ### 漏洞描述 / Description 💎 [Escrowed $600 USDC] 24-Vector Conformance Suite: PagedAttention KV-Cache Block Desync on Prefix-Aware Chunked Preemption > **Automated "
-    },
-    {
-      "id": 6241933449,
-      "title": "[Bounty] 💎 [Escrowed $600 USDC] 24-Vector Conformance Suite: PagedAttention KV-Cache Bloc",
-      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4237",
-      "repository": "zhangjiayang6835-cyber/bounty-plaza",
-      "created_at": "2026-11-06T11:36:03Z",
-      "updated_at": "2026-11-10T18:34:46Z",
-      "payoutMentionUSD": 600,
-      "assignees": [],
-      "commentCount": 4,
-      "labels": [
-        "bounty",
-        "real"
-      ],
-      "score": 63,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/IES-BoilerRoom/asyncpg-savepoint-harness/issues/2 ### 漏洞描述 / Description 💎 [Escrowed $600 USDC] 24-Vector Conformance Suite: PagedAttention KV-Cache Block Desync on Prefix-Aware Chunked Preemption > **Automated "
+      "excerpt": "### Component Documentation ### Problem or motivation I would like to reserve the recurring $25 tutorial bounty for stdlib.logfmt, subject to confirmation that this module is still available and sponsor funding is available. A search found the larger logs-shipper issue, but no ex"
     }
   ],
   "disclaimer": "No verified payouts or earnings; these are public issue candidates. Manually confirm funding, assignment, eligibility, security and payment terms. Never pay to join, disclose secrets or begin work without terms."
