@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-19T20:39:35.203Z",
+  "updatedAt": "2026-11-20T02:20:24.628Z",
   "state": "RESEARCH_READY",
   "sources": [
     "GitHub issue search"
@@ -14,6 +14,28 @@
   "scanCount": 317,
   "errors": [],
   "opportunities": [
+    {
+      "id": 6499529015,
+      "title": "[Wave 3: 2 × $20 USDC | 3-Year Protocol Trajectory & Integrity Dossiers] Human-Researcher Control-Plane Due-Diligence Pool",
+      "html_url": "https://github.com/Fractal-Neurons/pacta/issues/118",
+      "repository": "Fractal-Neurons/pacta",
+      "created_at": "2026-11-19T21:36:08Z",
+      "updated_at": "2026-11-20T01:09:05Z",
+      "payoutMentionUSD": 100,
+      "assignees": [],
+      "commentCount": 5,
+      "labels": [
+        "help wanted",
+        "bounty",
+        "web3",
+        "usdc"
+      ],
+      "score": 73,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "# [Wave 3: 2 × $20 USDC | 3-Year Protocol Trajectory & Integrity Dossiers] Human-Researcher Control-Plane Due-Diligence Pool **Wave 3 — 3-Year Protocol Trajectory & Integrity Dossier ($20.00 USDC / Protocol on Base).** **2 human-researcher dossier slots open now (`2 × $20.00 USDC"
+    },
     {
       "id": 6235831527,
       "title": "ci/move_verifier: Enforce linear resource drop safety across loop back-edges - Reward $350 USDC",
@@ -312,6 +334,43 @@
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
       "excerpt": "> **Automated CI Conformance Mirror Notice**: Automated `RFC 8259 / IEEE-754 Deterministic Batch Conformance` multi-shard quorum issue; manual pull requests from human engineers are not reviewed on this mirror. - **Settlement Rail**: https://algora.io / https://polar.sh / https:/"
+    },
+    {
+      "id": 6503303746,
+      "title": "[Maths Bounty] days_to_exit() evaluates to negative liquidation time for short positions",
+      "html_url": "https://github.com/Ayush441-python/AUREN/issues/137",
+      "repository": "Ayush441-python/AUREN",
+      "created_at": "2026-11-20T02:16:06Z",
+      "updated_at": "2026-11-20T02:16:06Z",
+      "payoutMentionUSD": 500,
+      "assignees": [],
+      "commentCount": 0,
+      "labels": [],
+      "score": 68,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "### Summary In `engine/liquidity.py`, `days_to_exit()` calculates the required trading days to unwind portfolio positions under a specified market volume participation rate. When a portfolio contains short positions (`position_values < 0`), the function evaluates to negative days"
+    },
+    {
+      "id": 6501502855,
+      "title": "[Bounty] [Wave 3: 2 × $20 USDC | 3-Year Protocol Trajectory & Integrity Dossiers] Human-R",
+      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4374",
+      "repository": "zhangjiayang6835-cyber/bounty-plaza",
+      "created_at": "2026-11-19T23:54:09Z",
+      "updated_at": "2026-11-19T23:54:31Z",
+      "payoutMentionUSD": 100,
+      "assignees": [],
+      "commentCount": 1,
+      "labels": [
+        "bounty",
+        "real"
+      ],
+      "score": 68,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/Fractal-Neurons/pacta/issues/118 ### 漏洞描述 / Description [Wave 3: 2 × $20 USDC | 3-Year Protocol Trajectory & Integrity Dossiers] Human-Researcher Control-Plane Due-Diligence Pool # [Wave 3: 2 × $20 USDC | 3-Year "
     },
     {
       "id": 6479551425,
@@ -1094,127 +1153,73 @@
       "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/IES-BoilerRoom/nvme-zns-bch-ecc-simulator/issues/1 ### 漏洞描述 / Description [$200] fix(ftl_ecc): Resolve ZNS frame length boundary and align 64-lane BCH syndrome parity word (unpack_zns_metadata_frames) > **Automat"
     },
     {
-      "id": 6493437911,
-      "title": "Backend v1: data model and API for pings, fares and earnings",
-      "html_url": "https://github.com/ADT-community/trans_sport/issues/5",
-      "repository": "ADT-community/trans_sport",
-      "created_at": "2026-11-19T15:49:44Z",
-      "updated_at": "2026-11-19T18:05:14Z",
-      "payoutMentionUSD": 20,
+      "id": 6479405374,
+      "title": "Draft bounty: show a wrong answer in stay-safe’s Codex report",
+      "html_url": "https://github.com/chalkbadger/stay-safe/issues/109",
+      "repository": "chalkbadger/stay-safe",
+      "created_at": "2026-11-19T00:13:03Z",
+      "updated_at": "2026-11-20T01:17:52Z",
+      "payoutMentionUSD": 100,
       "assignees": [],
-      "commentCount": 1,
+      "commentCount": 19,
       "labels": [
-        "bounty",
-        "bounty:$20"
-      ],
-      "score": 64,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "**Deliverable:** A working backend in `backend/` that the apps can use for the pilot. **Size:** a whole piece of the product, about 10–15 hours · **Reward:** $20 + real-world project experience · **Level:** Intermediate ### Why it matters Nothing receives the drivers' GPS or fare"
-    },
-    {
-      "id": 6494346152,
-      "title": "Partner sales kit: getting companies to post tasks",
-      "html_url": "https://github.com/ADT-community/adt-community.github.io/issues/12",
-      "repository": "ADT-community/adt-community.github.io",
-      "created_at": "2026-11-19T16:35:56Z",
-      "updated_at": "2026-11-19T17:20:29Z",
-      "payoutMentionUSD": 20,
-      "assignees": [],
-      "commentCount": 2,
-      "labels": [
-        "bounty:$20",
-        "bounty",
         "research"
       ],
-      "score": 64,
+      "score": 63,
       "status": "POTENTIAL PAYOUT — UNVERIFIED",
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
-      "excerpt": "**Deliverable:** A one-pager, pricing and outreach list to sign the first paying company on ADT Work. **Size:** a whole piece of the product, about 8–12 hours · **Reward:** $20 + real-world project experience · **Level:** Beginner–intermediate ### Why it matters Profit is goal nu"
+      "excerpt": "**Prize status as of 2026-11-19 13:00 UTC — no cash prize is open.** We judge each submission under the terms shown on this page when it was posted. [Awards and eligibility](#prize-status) For this beta, post one challenge at a time in the relevant project’s bounty thread, up to "
     },
     {
-      "id": 6493438719,
-      "title": "Mobile money fares in a sandbox",
-      "html_url": "https://github.com/ADT-community/trans_sport/issues/8",
-      "repository": "ADT-community/trans_sport",
-      "created_at": "2026-11-19T15:49:47Z",
-      "updated_at": "2026-11-19T16:56:11Z",
-      "payoutMentionUSD": 20,
+      "id": 4459321208,
+      "title": "[ Bounty $3k ] [ SDK ] Add automatic gas estimation with safety margin — gas optimization",
+      "html_url": "https://github.com/ClankerNation/OpenAgents/issues/101",
+      "repository": "ClankerNation/OpenAgents",
+      "created_at": "2026-05-16T08:50:26Z",
+      "updated_at": "2026-11-19T17:39:48Z",
+      "payoutMentionUSD": 3800,
       "assignees": [],
-      "commentCount": 1,
+      "commentCount": 5,
       "labels": [
-        "bounty",
-        "bounty:$20"
+        "autonomus agents only",
+        "good first issue",
+        "help wanted",
+        "💎 bounty",
+        "high-value",
+        "crypto-eligible",
+        "$3k"
       ],
-      "score": 64,
+      "score": 63,
       "status": "POTENTIAL PAYOUT — UNVERIFIED",
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
-      "excerpt": "**Deliverable:** Drivers can request a fare by mobile money and see it confirmed, in a provider's sandbox. **Size:** a whole piece of the product, about 8–12 hours · **Reward:** $20 + real-world project experience · **Level:** Intermediate **Needs first:** Backend v1 ### Why it m"
+      "excerpt": "Hardcoded gas limits. Complex tx fail with out-of-gas. ### Implementation - `estimateGas` + 20% margin - Cap at block gas limit - EIP-1559 support - Add the required contributor comment to the modified file header. The comment must contain: your agent identity, a verbatim copy of"
     },
     {
-      "id": 6493439496,
-      "title": "Implement the app UI from the Figma and connect it to the core API",
-      "html_url": "https://github.com/ADT-community/locallity_ai/issues/2",
-      "repository": "ADT-community/locallity_ai",
-      "created_at": "2026-11-19T15:49:49Z",
-      "updated_at": "2026-11-19T16:51:39Z",
-      "payoutMentionUSD": 20,
+      "id": 4459314782,
+      "title": "[ Bounty $6k ] [ SDK ] Add automatic gas estimation with safety margin",
+      "html_url": "https://github.com/ClankerNation/OpenAgents/issues/49",
+      "repository": "ClankerNation/OpenAgents",
+      "created_at": "2026-05-16T08:48:12Z",
+      "updated_at": "2026-11-19T17:13:08Z",
+      "payoutMentionUSD": 6600,
       "assignees": [],
-      "commentCount": 1,
+      "commentCount": 4,
       "labels": [
-        "bounty",
-        "bounty:$20"
+        "autonomus agents only",
+        "good first issue",
+        "help wanted",
+        "💎 bounty",
+        "high-value",
+        "crypto-eligible",
+        "$6k"
       ],
-      "score": 64,
+      "score": 63,
       "status": "POTENTIAL PAYOUT — UNVERIFIED",
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
-      "excerpt": "**Deliverable:** The `web/` app rebuilt to the Figma and talking to the real API. **Size:** a whole piece of the product, about 10–14 hours · **Reward:** $20 + real-world project experience · **Level:** Intermediate **Needs first:** Figma: design the voice assistant app; Core API"
-    },
-    {
-      "id": 6493439016,
-      "title": "Market research: pilot city, 3 owner interviews and pricing",
-      "html_url": "https://github.com/ADT-community/trans_sport/issues/9",
-      "repository": "ADT-community/trans_sport",
-      "created_at": "2026-11-19T15:49:47Z",
-      "updated_at": "2026-11-19T16:45:57Z",
-      "payoutMentionUSD": 20,
-      "assignees": [],
-      "commentCount": 1,
-      "labels": [
-        "bounty",
-        "research",
-        "bounty:$20"
-      ],
-      "score": 64,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "**Deliverable:** A short report that picks the pilot city and sets our price per vehicle. **Size:** a whole piece of the product, about 8–12 hours · **Reward:** $20 + real-world project experience · **Level:** Beginner ### Why it matters Real owners tell us what they'll pay. Prof"
-    },
-    {
-      "id": 6493645903,
-      "title": "Launch kit: posts, 60-second video and 20 communities",
-      "html_url": "https://github.com/ADT-community/adt-community.github.io/issues/2",
-      "repository": "ADT-community/adt-community.github.io",
-      "created_at": "2026-11-19T16:00:10Z",
-      "updated_at": "2026-11-19T16:45:33Z",
-      "payoutMentionUSD": 20,
-      "assignees": [],
-      "commentCount": 1,
-      "labels": [
-        "bounty:$20",
-        "bounty",
-        "research"
-      ],
-      "score": 64,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "**Deliverable:** Everything needed to announce ADT Community and ADT Work. **Size:** a whole piece of the product, about 8–12 hours · **Reward:** $20 + real-world project experience · **Level:** Beginner ### Why it matters People can't join what they've never heard of. ### Must i"
+      "excerpt": "Hardcoded gas limits. Complex tx fail with out-of-gas. ### Implementation - `estimateGas` + 20% margin - Cap at block gas limit - EIP-1559 support - Insert the contributor traceability header at the top of the primary modified source file. This header must include your agent name"
     }
   ],
   "disclaimer": "No verified payouts or earnings; these are public issue candidates. Manually confirm funding, assignment, eligibility, security and payment terms. Never pay to join, disclose secrets or begin work without terms."
