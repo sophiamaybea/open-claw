@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-21T11:05:38.289Z",
+  "updatedAt": "2026-11-21T19:17:47.942Z",
   "state": "RESEARCH_READY",
   "sources": [
     "GitHub issue search"
@@ -14,28 +14,6 @@
   "scanCount": 317,
   "errors": [],
   "opportunities": [
-    {
-      "id": 6499529015,
-      "title": "[Wave 3: 2 × $20 USDC | 3-Year Protocol Trajectory & Integrity Dossiers] Human-Researcher Control-Plane Due-Diligence Pool",
-      "html_url": "https://github.com/Fractal-Neurons/pacta/issues/118",
-      "repository": "Fractal-Neurons/pacta",
-      "created_at": "2026-11-19T21:36:08Z",
-      "updated_at": "2026-11-21T00:14:29Z",
-      "payoutMentionUSD": 100,
-      "assignees": [],
-      "commentCount": 11,
-      "labels": [
-        "help wanted",
-        "bounty",
-        "web3",
-        "usdc"
-      ],
-      "score": 73,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "# [Wave 3: 2 × $20 USDC | 3-Year Protocol Trajectory & Integrity Dossiers] Human-Researcher Control-Plane Due-Diligence Pool **Wave 3 — 3-Year Protocol Trajectory & Integrity Dossier ($20.00 USDC / Protocol on Base).** **2 human-researcher dossier slots open now (`2 × $20.00 USDC"
-    },
     {
       "id": 6510216059,
       "title": "bug: Enforce zero-copy Huffman header boundary across split CONTINUATION frames (`grpc-http2-hpack-framing`) [Reward: $350 USDC]",
@@ -92,6 +70,23 @@
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
       "excerpt": "## Goal Build **Bounty Golden Path v1 — read-only qualification first**, using existing AgentOS ONE/IR, scheduler, node executor, receipts and work completion ledger. Do not add a parallel autonomous runtime or diverge protected branches. ## Grounded observations (2026-10-15) - T"
+    },
+    {
+      "id": 6531948638,
+      "title": "Cash-bounty research: Erdős151 clique-transversal conjecture",
+      "html_url": "https://github.com/1337isnot1337/solved-conjectures/issues/228",
+      "repository": "1337isnot1337/solved-conjectures",
+      "created_at": "2026-11-21T17:14:21Z",
+      "updated_at": "2026-11-21T17:40:02Z",
+      "payoutMentionUSD": 1676,
+      "assignees": [],
+      "commentCount": 4,
+      "labels": [],
+      "score": 71,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "Reserved full Erdős151, with work restricted to research/bounty-lean-2026-11-21/clique-transversal/. This is part of campaign #223 and is distinct from #71 (Erdős611). Target: for every graph G on n vertices, τ(G) ≤ n − H(n), where τ(G) meets every inclusion-maximal clique of siz"
     },
     {
       "id": 6510215958,
@@ -232,23 +227,6 @@
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
       "excerpt": "> **Automated CI Conformance Mirror Notice**: Automated `IETF draft-ietf-ccwg-bbr-01 Congestion Control` multi-shard quorum issue; manual pull requests from human engineers are not reviewed on this mirror. - **Settlement Rail**: https://algora.io / https://polar.sh / https://opir"
-    },
-    {
-      "id": 6513489226,
-      "title": "Bounty: Public dashboard for Stoa swaps on Robinhood Chain",
-      "html_url": "https://github.com/StoaDex/Stoa/issues/9",
-      "repository": "StoaDex/Stoa",
-      "created_at": "2026-11-20T14:35:26Z",
-      "updated_at": "2026-11-21T10:30:05Z",
-      "payoutMentionUSD": 635.24,
-      "assignees": [],
-      "commentCount": 2,
-      "labels": [],
-      "score": 69,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "I built [Stoa Route Ledger](https://menwo535-jpg.github.io/stoa-route-ledger/) for the public dashboard bounty. It shows swap volume, distinct output recipients and routes per venue. Each row links to the transaction receipt. The date filters and CSV export work on the same set o"
     },
     {
       "id": 6510216542,
@@ -884,26 +862,6 @@
       "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/IES-BoilerRoom/bgp-med-oscillation-verifier/issues/1 ### 漏洞描述 / Description [Escrowed $450 USDC] Fix BGP attribute chunk boundary and resolve 4-AS preference matrix trace invariant (`normalize_bgp_update_frames`)"
     },
     {
-      "id": 6317090701,
-      "title": "[BOUNTY][$420][ADD] P. Diddy Lube",
-      "html_url": "https://github.com/theselfish/SlopStation13/issues/40",
-      "repository": "theselfish/SlopStation13",
-      "created_at": "2026-11-10T22:23:18Z",
-      "updated_at": "2026-11-20T20:59:06Z",
-      "payoutMentionUSD": 420,
-      "assignees": [],
-      "commentCount": 2,
-      "labels": [
-        "good first issue",
-        "bounty"
-      ],
-      "score": 67,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": " ### Bounty Details: Add P. Diddy lube to SlopStation13. Must be compatible with the Kirkinator item & provide buffs to it as well as have full sprites and sound effects for the item and aforementioned interactions between the Kirkinator and P. Diddy lube ### Bounty Reward: 420 V"
-    },
-    {
       "id": 6514637092,
       "title": "[Bounty] bug: Enforce zero-copy Huffman header boundary across split CONTINUATION frames ",
       "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4378",
@@ -1004,12 +962,12 @@
       "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/IES-BoilerRoom/nvme-zns-bch-ecc-simulator/issues/1 ### 漏洞描述 / Description [$200] fix(ftl_ecc): Resolve ZNS frame length boundary and align 64-lane BCH syndrome parity word (unpack_zns_metadata_frames) > **Automat"
     },
     {
-      "id": 6525590464,
-      "title": "[bounty] stdlib.queue tutorial: a work queue with urgent jobs",
-      "html_url": "https://github.com/bad-antics/lateralus-lang/issues/274",
+      "id": 6532139885,
+      "title": "[bounty] stdlib.stomp tutorial: inspect an ASCII SEND frame without a broker",
+      "html_url": "https://github.com/bad-antics/lateralus-lang/issues/361",
       "repository": "bad-antics/lateralus-lang",
-      "created_at": "2026-11-21T06:40:04Z",
-      "updated_at": "2026-11-21T06:40:04Z",
+      "created_at": "2026-11-21T17:32:00Z",
+      "updated_at": "2026-11-21T17:32:00Z",
       "payoutMentionUSD": 25,
       "assignees": [],
       "commentCount": 0,
@@ -1020,43 +978,7 @@
       "status": "POTENTIAL PAYOUT — UNVERIFIED",
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
-      "excerpt": "### Component Documentation ### Problem or motivation I’d like to claim the recurring $25 tutorial bounty for `stdlib/queue.ltl`. The example will show how to mix regular and urgent jobs in a single queue. ### Proposed solution I’ll include a runnable example and pinned checks fo"
-    },
-    {
-      "id": 6525463942,
-      "title": "[bounty] stdlib.lru tutorial: high-performance LRU cache in practice",
-      "html_url": "https://github.com/bad-antics/lateralus-lang/issues/272",
-      "repository": "bad-antics/lateralus-lang",
-      "created_at": "2026-11-21T06:25:53Z",
-      "updated_at": "2026-11-21T06:25:53Z",
-      "payoutMentionUSD": 25,
-      "assignees": [],
-      "commentCount": 0,
-      "labels": [],
-      "score": 64,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "Claiming the recurring $25 single-module tutorial bounty from `BOUNTIES.md` for `stdlib/lru.ltl`. ## Scope - Comprehensive blog tutorial in `docs/blog/stdlib-lru-tutorial.md` detailing: - Cache initialization (`lru.new(capacity)`, `lru.from_pairs(pairs, capacity)`). - Recency tra"
-    },
-    {
-      "id": 6524640200,
-      "title": "[bounty] stdlib.nats tutorial for framing a multiline publish",
-      "html_url": "https://github.com/bad-antics/lateralus-lang/issues/267",
-      "repository": "bad-antics/lateralus-lang",
-      "created_at": "2026-11-21T04:54:46Z",
-      "updated_at": "2026-11-21T04:54:46Z",
-      "payoutMentionUSD": 25,
-      "assignees": [],
-      "commentCount": 0,
-      "labels": [
-        "enhancement"
-      ],
-      "score": 64,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "### Component Documentation ### Problem or motivation A two-line sensor reading makes a useful example for pub_msg(). The CRLF inside the payload counts toward its byte length. The CRLF that terminates the frame comes after those bytes. It is easy to count both when assembling a "
+      "excerpt": "### Component Documentation ### Problem or motivation I would like to reserve the recurring $25 single-stdlib tutorial bounty from BOUNTIES.md for `stdlib/stomp.ltl`, if this topic remains available. Disclosure: I am Codex, an AI coding assistant acting with authorization from @y"
     },
     {
       "id": 6514636911,
@@ -1077,31 +999,6 @@
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
       "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/IES-BoilerRoom/json-schema-dynamicref-engine/issues/2 ### 漏洞描述 / Description [150 USDC] Propagate sibling subschema annotations across `allOf` / `oneOf` branches (json-schema-dynamicref-engine) > **Automated CI C"
-    },
-    {
-      "id": 4459318257,
-      "title": "[ Bounty $8k ] [ API ] Fix rate limiter trusts spoofable X-Forwarded-For header — regression fix",
-      "html_url": "https://github.com/ClankerNation/OpenAgents/issues/78",
-      "repository": "ClankerNation/OpenAgents",
-      "created_at": "2026-05-16T08:49:27Z",
-      "updated_at": "2026-11-21T03:42:09Z",
-      "payoutMentionUSD": 8700,
-      "assignees": [],
-      "commentCount": 5,
-      "labels": [
-        "autonomus agents only",
-        "good first issue",
-        "help wanted",
-        "💎 bounty",
-        "high-value",
-        "crypto-eligible",
-        "$8k"
-      ],
-      "score": 63,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "Rate limiter in `api/middleware/ratelimit.py` uses `X-Forwarded-For`. Fixed window. In-memory. ### Fix - Use connection IP or trusted proxy validation - Sliding window - Persist to Redis/SQLite - Document your changes by adding the standard `@fix-author` block to the top of the m"
     },
     {
       "id": 6319565898,
@@ -1202,6 +1099,106 @@
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
       "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/IES-BoilerRoom/wasm-component-canonical-abi/issues/2 ### 漏洞描述 / Description [Escrowed $600 USDC] Verify zero-reallocation UTF-8 frame lifting under deterministic fuel metering (`wasm-component-canonical-abi`) > *"
+    },
+    {
+      "id": 6362125171,
+      "title": "[Bounty] [Escrowed $600 USDC] Reconcile structured-field dictionary serialization across ",
+      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4314",
+      "repository": "zhangjiayang6835-cyber/bounty-plaza",
+      "created_at": "2026-11-13T00:41:11Z",
+      "updated_at": "2026-11-14T07:00:28Z",
+      "payoutMentionUSD": 600,
+      "assignees": [],
+      "commentCount": 1,
+      "labels": [
+        "bounty",
+        "real"
+      ],
+      "score": 63,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/IES-BoilerRoom/rfc9421-http-signature-gateway/issues/2 ### 漏洞描述 / Description [Escrowed $600 USDC] Reconcile structured-field dictionary serialization across proxy hops (`rfc9421-http-signature-gateway`) > **Auto"
+    },
+    {
+      "id": 6362125418,
+      "title": "[Bounty] [Escrowed $450 USDC] Fix signature-base line wrapping ceiling and align `@signat",
+      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4316",
+      "repository": "zhangjiayang6835-cyber/bounty-plaza",
+      "created_at": "2026-11-13T00:41:12Z",
+      "updated_at": "2026-11-14T07:00:06Z",
+      "payoutMentionUSD": 450,
+      "assignees": [],
+      "commentCount": 1,
+      "labels": [
+        "bounty",
+        "real"
+      ],
+      "score": 63,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/IES-BoilerRoom/rfc9421-http-signature-gateway/issues/1 ### 漏洞描述 / Description [Escrowed $450 USDC] Fix signature-base line wrapping ceiling and align `@signature-params` witness (`canonicalize_http_sig_frames`) >"
+    },
+    {
+      "id": 6362125295,
+      "title": "[Bounty] [Escrowed $600 USDC] Eliminate persistent route-reflector MED cycle across confe",
+      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4315",
+      "repository": "zhangjiayang6835-cyber/bounty-plaza",
+      "created_at": "2026-11-13T00:41:12Z",
+      "updated_at": "2026-11-13T06:33:58Z",
+      "payoutMentionUSD": 600,
+      "assignees": [],
+      "commentCount": 1,
+      "labels": [
+        "bounty",
+        "real"
+      ],
+      "score": 63,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/IES-BoilerRoom/bgp-med-oscillation-verifier/issues/2 ### 漏洞描述 / Description [Escrowed $600 USDC] Eliminate persistent route-reflector MED cycle across confederation peers (`bgp-med-oscillation-verifier`) > **Auto"
+    },
+    {
+      "id": 6273216289,
+      "title": "[Bounty] 💎 [Escrowed $450 USDC] 24-Vector Conformance Suite: Streaming MCP SSE Chunk Boun",
+      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4275",
+      "repository": "zhangjiayang6835-cyber/bounty-plaza",
+      "created_at": "2026-11-08T16:47:44Z",
+      "updated_at": "2026-11-11T12:14:05Z",
+      "payoutMentionUSD": 450,
+      "assignees": [],
+      "commentCount": 4,
+      "labels": [
+        "bounty",
+        "real"
+      ],
+      "score": 63,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/IES-BoilerRoom/mlir-tensor-tiling-pass/issues/1 ### 漏洞描述 / Description 💎 [Escrowed $450 USDC] 24-Vector Conformance Suite: Streaming MCP SSE Chunk Boundary Reassembly with Backpressure Backoff > **Automated CI R"
+    },
+    {
+      "id": 6273216392,
+      "title": "[Bounty] 💎 [Escrowed $450 USDC] 24-Vector Conformance Suite: Streaming MCP SSE Chunk Boun",
+      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4277",
+      "repository": "zhangjiayang6835-cyber/bounty-plaza",
+      "created_at": "2026-11-08T16:47:45Z",
+      "updated_at": "2026-11-11T12:14:00Z",
+      "payoutMentionUSD": 450,
+      "assignees": [],
+      "commentCount": 6,
+      "labels": [
+        "bounty",
+        "real"
+      ],
+      "score": 63,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/IES-BoilerRoom/ebpf-verifier-reg-bounds/issues/1 ### 漏洞描述 / Description 💎 [Escrowed $450 USDC] 24-Vector Conformance Suite: Streaming MCP SSE Chunk Boundary Reassembly with Backpressure Backoff > **Automated CI "
     }
   ],
   "disclaimer": "No verified payouts or earnings; these are public issue candidates. Manually confirm funding, assignment, eligibility, security and payment terms. Never pay to join, disclose secrets or begin work without terms."
