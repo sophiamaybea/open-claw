@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-21T02:17:40.344Z",
+  "updatedAt": "2026-11-21T11:05:38.289Z",
   "state": "RESEARCH_READY",
   "sources": [
     "GitHub issue search"
@@ -14,40 +14,6 @@
   "scanCount": 317,
   "errors": [],
   "opportunities": [
-    {
-      "id": 6523142299,
-      "title": "Bounty: Public dashboard — Stoa swaps on Robinhood Chain (volume, traders, routes per venue)",
-      "html_url": "https://github.com/StoaDex/Stoa/issues/25",
-      "repository": "StoaDex/Stoa",
-      "created_at": "2026-11-21T02:03:26Z",
-      "updated_at": "2026-11-21T02:09:46Z",
-      "payoutMentionUSD": 1787.68,
-      "assignees": [],
-      "commentCount": 0,
-      "labels": [],
-      "score": 77,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "Entry for the **Public dashboard** build bounty (https://stoadex.com/build#bounties). A public dashboard of every swap settled by the StoaRouter on Robinhood Chain — volume, traders and routes per venue — built only from on-chain data. It is **live now**. **Live links** - Dashboa"
-    },
-    {
-      "id": 6523149893,
-      "title": "Bounty: Stoa swaps dashboard — Robinhood Chain",
-      "html_url": "https://github.com/StoaDex/Stoa/issues/26",
-      "repository": "StoaDex/Stoa",
-      "created_at": "2026-11-21T02:04:15Z",
-      "updated_at": "2026-11-21T02:04:15Z",
-      "payoutMentionUSD": 530.69,
-      "assignees": [],
-      "commentCount": 0,
-      "labels": [],
-      "score": 73,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "Hi! Submitting the public dashboard bounty (#3). - Live dashboard: https://dicky99.github.io/stoa-dashboard/ - Repo: https://github.com/dicky99/stoa-dashboard - What it shows: all Stoa swaps on Robinhood Chain — total volume, swap count, unique traders, top pairs, and routes per "
-    },
     {
       "id": 6499529015,
       "title": "[Wave 3: 2 × $20 USDC | 3-Year Protocol Trajectory & Integrity Dossiers] Human-Researcher Control-Plane Due-Diligence Pool",
@@ -273,33 +239,16 @@
       "html_url": "https://github.com/StoaDex/Stoa/issues/9",
       "repository": "StoaDex/Stoa",
       "created_at": "2026-11-20T14:35:26Z",
-      "updated_at": "2026-11-20T22:36:03Z",
+      "updated_at": "2026-11-21T10:30:05Z",
       "payoutMentionUSD": 635.24,
       "assignees": [],
-      "commentCount": 1,
+      "commentCount": 2,
       "labels": [],
       "score": 69,
       "status": "POTENTIAL PAYOUT — UNVERIFIED",
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
       "excerpt": "I built [Stoa Route Ledger](https://menwo535-jpg.github.io/stoa-route-ledger/) for the public dashboard bounty. It shows swap volume, distinct output recipients and routes per venue. Each row links to the transaction receipt. The date filters and CSV export work on the same set o"
-    },
-    {
-      "id": 6511754922,
-      "title": "[BOUNTY] Medium: deactivate_validator double-decrements registry stake counters when reconciling accounts excluded by reset_validator_registry, halting settlement quorum",
-      "html_url": "https://github.com/paraloom-labs/paraloom-core/issues/1625",
-      "repository": "paraloom-labs/paraloom-core",
-      "created_at": "2026-11-20T12:50:36Z",
-      "updated_at": "2026-11-20T16:08:17Z",
-      "payoutMentionUSD": 150,
-      "assignees": [],
-      "commentCount": 1,
-      "labels": [],
-      "score": 69,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "# `deactivate_validator` Double-Decrements Registry Stake Counters When Reconciling Accounts Excluded by `reset_validator_registry`, Halting Settlement Quorum **Program:** Paraloom Bug Bounty — Stage 1 (Solana devnet) **Program ID:** `8gPsRSm1CAw38mfzc1bcLMUXyFN7LnS8k6CV5hPUTWrP`"
     },
     {
       "id": 6510216542,
@@ -407,10 +356,10 @@
       "html_url": "https://github.com/stellarspace-hq/space-stellar/issues/66",
       "repository": "stellarspace-hq/space-stellar",
       "created_at": "2026-10-07T21:48:22Z",
-      "updated_at": "2026-11-21T00:26:54Z",
+      "updated_at": "2026-11-21T10:51:59Z",
       "payoutMentionUSD": 100,
       "assignees": [],
-      "commentCount": 2,
+      "commentCount": 3,
       "labels": [],
       "score": 68,
       "status": "POTENTIAL PAYOUT — UNVERIFIED",
@@ -935,146 +884,6 @@
       "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/IES-BoilerRoom/bgp-med-oscillation-verifier/issues/1 ### 漏洞描述 / Description [Escrowed $450 USDC] Fix BGP attribute chunk boundary and resolve 4-AS preference matrix trace invariant (`normalize_bgp_update_frames`)"
     },
     {
-      "id": 6319565898,
-      "title": "[Bounty] [Escrowed $600 USDC] Reject non-canonical S >= L scalar encodings without variab",
-      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4305",
-      "repository": "zhangjiayang6835-cyber/bounty-plaza",
-      "created_at": "2026-11-11T01:28:10Z",
-      "updated_at": "2026-11-14T07:18:46Z",
-      "payoutMentionUSD": 600,
-      "assignees": [],
-      "commentCount": 2,
-      "labels": [
-        "bounty",
-        "real"
-      ],
-      "score": 68,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/IES-BoilerRoom/ed25519-ct-limb-verifier/issues/2 ### 漏洞描述 / Description [Escrowed $600 USDC] Reject non-canonical S >= L scalar encodings without variable-time branches (`ed25519-ct-limb-verifier`) > **Automated "
-    },
-    {
-      "id": 6297616553,
-      "title": "[Bounty] 💎 [Escrowed $450 USDC] 24-Vector Conformance Suite: Streaming MCP SSE Chunk Boun",
-      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4280",
-      "repository": "zhangjiayang6835-cyber/bounty-plaza",
-      "created_at": "2026-11-10T00:34:51Z",
-      "updated_at": "2026-11-14T07:18:26Z",
-      "payoutMentionUSD": 450,
-      "assignees": [],
-      "commentCount": 2,
-      "labels": [
-        "bounty",
-        "real"
-      ],
-      "score": 68,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/IES-BoilerRoom/cuda-warp-allreduce-verifier/issues/1 ### 漏洞描述 / Description 💎 [Escrowed $450 USDC] 24-Vector Conformance Suite: Streaming MCP SSE Chunk Boundary Reassembly with Backpressure Backoff > **Automated"
-    },
-    {
-      "id": 6297616659,
-      "title": "[Bounty] 💎 [Escrowed $600 USDC] 24-Vector Conformance Suite: PagedAttention KV-Cache Bloc",
-      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4281",
-      "repository": "zhangjiayang6835-cyber/bounty-plaza",
-      "created_at": "2026-11-10T00:34:51Z",
-      "updated_at": "2026-11-14T07:18:04Z",
-      "payoutMentionUSD": 600,
-      "assignees": [],
-      "commentCount": 3,
-      "labels": [
-        "bounty",
-        "real"
-      ],
-      "score": 68,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/IES-BoilerRoom/cuda-warp-allreduce-verifier/issues/2 ### 漏洞描述 / Description 💎 [Escrowed $600 USDC] 24-Vector Conformance Suite: PagedAttention KV-Cache Block Desync on Prefix-Aware Chunked Preemption > **Automat"
-    },
-    {
-      "id": 6319566173,
-      "title": "[Bounty] [Escrowed $450 USDC] Fix canonical string frame ceiling and align deterministic ",
-      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4308",
-      "repository": "zhangjiayang6835-cyber/bounty-plaza",
-      "created_at": "2026-11-11T01:28:11Z",
-      "updated_at": "2026-11-14T07:01:42Z",
-      "payoutMentionUSD": 450,
-      "assignees": [],
-      "commentCount": 2,
-      "labels": [
-        "bounty",
-        "real"
-      ],
-      "score": 68,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/IES-BoilerRoom/wasm-component-canonical-abi/issues/1 ### 漏洞描述 / Description [Escrowed $450 USDC] Fix canonical string frame ceiling and align deterministic instruction gas polynomial (`lift_canonical_string_frame"
-    },
-    {
-      "id": 6319566076,
-      "title": "[Bounty] [Escrowed $600 USDC] Verify zero-reallocation UTF-8 frame lifting under determin",
-      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4307",
-      "repository": "zhangjiayang6835-cyber/bounty-plaza",
-      "created_at": "2026-11-11T01:28:11Z",
-      "updated_at": "2026-11-14T07:01:24Z",
-      "payoutMentionUSD": 600,
-      "assignees": [],
-      "commentCount": 3,
-      "labels": [
-        "bounty",
-        "real"
-      ],
-      "score": 68,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/IES-BoilerRoom/wasm-component-canonical-abi/issues/2 ### 漏洞描述 / Description [Escrowed $600 USDC] Verify zero-reallocation UTF-8 frame lifting under deterministic fuel metering (`wasm-component-canonical-abi`) > *"
-    },
-    {
-      "id": 6362125171,
-      "title": "[Bounty] [Escrowed $600 USDC] Reconcile structured-field dictionary serialization across ",
-      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4314",
-      "repository": "zhangjiayang6835-cyber/bounty-plaza",
-      "created_at": "2026-11-13T00:41:11Z",
-      "updated_at": "2026-11-14T07:00:28Z",
-      "payoutMentionUSD": 600,
-      "assignees": [],
-      "commentCount": 1,
-      "labels": [
-        "bounty",
-        "real"
-      ],
-      "score": 68,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/IES-BoilerRoom/rfc9421-http-signature-gateway/issues/2 ### 漏洞描述 / Description [Escrowed $600 USDC] Reconcile structured-field dictionary serialization across proxy hops (`rfc9421-http-signature-gateway`) > **Auto"
-    },
-    {
-      "id": 6362125418,
-      "title": "[Bounty] [Escrowed $450 USDC] Fix signature-base line wrapping ceiling and align `@signat",
-      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4316",
-      "repository": "zhangjiayang6835-cyber/bounty-plaza",
-      "created_at": "2026-11-13T00:41:12Z",
-      "updated_at": "2026-11-14T07:00:06Z",
-      "payoutMentionUSD": 450,
-      "assignees": [],
-      "commentCount": 1,
-      "labels": [
-        "bounty",
-        "real"
-      ],
-      "score": 68,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/IES-BoilerRoom/rfc9421-http-signature-gateway/issues/1 ### 漏洞描述 / Description [Escrowed $450 USDC] Fix signature-base line wrapping ceiling and align `@signature-params` witness (`canonicalize_http_sig_frames`) >"
-    },
-    {
       "id": 6317090701,
       "title": "[BOUNTY][$420][ADD] P. Diddy Lube",
       "html_url": "https://github.com/theselfish/SlopStation13/issues/40",
@@ -1193,6 +1002,206 @@
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
       "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/IES-BoilerRoom/nvme-zns-bch-ecc-simulator/issues/1 ### 漏洞描述 / Description [$200] fix(ftl_ecc): Resolve ZNS frame length boundary and align 64-lane BCH syndrome parity word (unpack_zns_metadata_frames) > **Automat"
+    },
+    {
+      "id": 6525590464,
+      "title": "[bounty] stdlib.queue tutorial: a work queue with urgent jobs",
+      "html_url": "https://github.com/bad-antics/lateralus-lang/issues/274",
+      "repository": "bad-antics/lateralus-lang",
+      "created_at": "2026-11-21T06:40:04Z",
+      "updated_at": "2026-11-21T06:40:04Z",
+      "payoutMentionUSD": 25,
+      "assignees": [],
+      "commentCount": 0,
+      "labels": [
+        "enhancement"
+      ],
+      "score": 64,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "### Component Documentation ### Problem or motivation I’d like to claim the recurring $25 tutorial bounty for `stdlib/queue.ltl`. The example will show how to mix regular and urgent jobs in a single queue. ### Proposed solution I’ll include a runnable example and pinned checks fo"
+    },
+    {
+      "id": 6525463942,
+      "title": "[bounty] stdlib.lru tutorial: high-performance LRU cache in practice",
+      "html_url": "https://github.com/bad-antics/lateralus-lang/issues/272",
+      "repository": "bad-antics/lateralus-lang",
+      "created_at": "2026-11-21T06:25:53Z",
+      "updated_at": "2026-11-21T06:25:53Z",
+      "payoutMentionUSD": 25,
+      "assignees": [],
+      "commentCount": 0,
+      "labels": [],
+      "score": 64,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "Claiming the recurring $25 single-module tutorial bounty from `BOUNTIES.md` for `stdlib/lru.ltl`. ## Scope - Comprehensive blog tutorial in `docs/blog/stdlib-lru-tutorial.md` detailing: - Cache initialization (`lru.new(capacity)`, `lru.from_pairs(pairs, capacity)`). - Recency tra"
+    },
+    {
+      "id": 6524640200,
+      "title": "[bounty] stdlib.nats tutorial for framing a multiline publish",
+      "html_url": "https://github.com/bad-antics/lateralus-lang/issues/267",
+      "repository": "bad-antics/lateralus-lang",
+      "created_at": "2026-11-21T04:54:46Z",
+      "updated_at": "2026-11-21T04:54:46Z",
+      "payoutMentionUSD": 25,
+      "assignees": [],
+      "commentCount": 0,
+      "labels": [
+        "enhancement"
+      ],
+      "score": 64,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "### Component Documentation ### Problem or motivation A two-line sensor reading makes a useful example for pub_msg(). The CRLF inside the payload counts toward its byte length. The CRLF that terminates the frame comes after those bytes. It is easy to count both when assembling a "
+    },
+    {
+      "id": 6514636911,
+      "title": "[Bounty] [150 USDC] Propagate sibling subschema annotations across `allOf` / `oneOf` bran",
+      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4377",
+      "repository": "zhangjiayang6835-cyber/bounty-plaza",
+      "created_at": "2026-11-20T15:40:29Z",
+      "updated_at": "2026-11-20T15:45:55Z",
+      "payoutMentionUSD": 150,
+      "assignees": [],
+      "commentCount": 1,
+      "labels": [
+        "bounty",
+        "real"
+      ],
+      "score": 64,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/IES-BoilerRoom/json-schema-dynamicref-engine/issues/2 ### 漏洞描述 / Description [150 USDC] Propagate sibling subschema annotations across `allOf` / `oneOf` branches (json-schema-dynamicref-engine) > **Automated CI C"
+    },
+    {
+      "id": 4459318257,
+      "title": "[ Bounty $8k ] [ API ] Fix rate limiter trusts spoofable X-Forwarded-For header — regression fix",
+      "html_url": "https://github.com/ClankerNation/OpenAgents/issues/78",
+      "repository": "ClankerNation/OpenAgents",
+      "created_at": "2026-05-16T08:49:27Z",
+      "updated_at": "2026-11-21T03:42:09Z",
+      "payoutMentionUSD": 8700,
+      "assignees": [],
+      "commentCount": 5,
+      "labels": [
+        "autonomus agents only",
+        "good first issue",
+        "help wanted",
+        "💎 bounty",
+        "high-value",
+        "crypto-eligible",
+        "$8k"
+      ],
+      "score": 63,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "Rate limiter in `api/middleware/ratelimit.py` uses `X-Forwarded-For`. Fixed window. In-memory. ### Fix - Use connection IP or trusted proxy validation - Sliding window - Persist to Redis/SQLite - Document your changes by adding the standard `@fix-author` block to the top of the m"
+    },
+    {
+      "id": 6319565898,
+      "title": "[Bounty] [Escrowed $600 USDC] Reject non-canonical S >= L scalar encodings without variab",
+      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4305",
+      "repository": "zhangjiayang6835-cyber/bounty-plaza",
+      "created_at": "2026-11-11T01:28:10Z",
+      "updated_at": "2026-11-14T07:18:46Z",
+      "payoutMentionUSD": 600,
+      "assignees": [],
+      "commentCount": 2,
+      "labels": [
+        "bounty",
+        "real"
+      ],
+      "score": 63,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/IES-BoilerRoom/ed25519-ct-limb-verifier/issues/2 ### 漏洞描述 / Description [Escrowed $600 USDC] Reject non-canonical S >= L scalar encodings without variable-time branches (`ed25519-ct-limb-verifier`) > **Automated "
+    },
+    {
+      "id": 6297616553,
+      "title": "[Bounty] 💎 [Escrowed $450 USDC] 24-Vector Conformance Suite: Streaming MCP SSE Chunk Boun",
+      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4280",
+      "repository": "zhangjiayang6835-cyber/bounty-plaza",
+      "created_at": "2026-11-10T00:34:51Z",
+      "updated_at": "2026-11-14T07:18:26Z",
+      "payoutMentionUSD": 450,
+      "assignees": [],
+      "commentCount": 2,
+      "labels": [
+        "bounty",
+        "real"
+      ],
+      "score": 63,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/IES-BoilerRoom/cuda-warp-allreduce-verifier/issues/1 ### 漏洞描述 / Description 💎 [Escrowed $450 USDC] 24-Vector Conformance Suite: Streaming MCP SSE Chunk Boundary Reassembly with Backpressure Backoff > **Automated"
+    },
+    {
+      "id": 6297616659,
+      "title": "[Bounty] 💎 [Escrowed $600 USDC] 24-Vector Conformance Suite: PagedAttention KV-Cache Bloc",
+      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4281",
+      "repository": "zhangjiayang6835-cyber/bounty-plaza",
+      "created_at": "2026-11-10T00:34:51Z",
+      "updated_at": "2026-11-14T07:18:04Z",
+      "payoutMentionUSD": 600,
+      "assignees": [],
+      "commentCount": 3,
+      "labels": [
+        "bounty",
+        "real"
+      ],
+      "score": 63,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/IES-BoilerRoom/cuda-warp-allreduce-verifier/issues/2 ### 漏洞描述 / Description 💎 [Escrowed $600 USDC] 24-Vector Conformance Suite: PagedAttention KV-Cache Block Desync on Prefix-Aware Chunked Preemption > **Automat"
+    },
+    {
+      "id": 6319566173,
+      "title": "[Bounty] [Escrowed $450 USDC] Fix canonical string frame ceiling and align deterministic ",
+      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4308",
+      "repository": "zhangjiayang6835-cyber/bounty-plaza",
+      "created_at": "2026-11-11T01:28:11Z",
+      "updated_at": "2026-11-14T07:01:42Z",
+      "payoutMentionUSD": 450,
+      "assignees": [],
+      "commentCount": 2,
+      "labels": [
+        "bounty",
+        "real"
+      ],
+      "score": 63,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/IES-BoilerRoom/wasm-component-canonical-abi/issues/1 ### 漏洞描述 / Description [Escrowed $450 USDC] Fix canonical string frame ceiling and align deterministic instruction gas polynomial (`lift_canonical_string_frame"
+    },
+    {
+      "id": 6319566076,
+      "title": "[Bounty] [Escrowed $600 USDC] Verify zero-reallocation UTF-8 frame lifting under determin",
+      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4307",
+      "repository": "zhangjiayang6835-cyber/bounty-plaza",
+      "created_at": "2026-11-11T01:28:11Z",
+      "updated_at": "2026-11-14T07:01:24Z",
+      "payoutMentionUSD": 600,
+      "assignees": [],
+      "commentCount": 3,
+      "labels": [
+        "bounty",
+        "real"
+      ],
+      "score": 63,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/IES-BoilerRoom/wasm-component-canonical-abi/issues/2 ### 漏洞描述 / Description [Escrowed $600 USDC] Verify zero-reallocation UTF-8 frame lifting under deterministic fuel metering (`wasm-component-canonical-abi`) > *"
     }
   ],
   "disclaimer": "No verified payouts or earnings; these are public issue candidates. Manually confirm funding, assignment, eligibility, security and payment terms. Never pay to join, disclose secrets or begin work without terms."
