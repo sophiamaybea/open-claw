@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-20T20:23:07.850Z",
+  "updatedAt": "2026-11-21T02:17:40.344Z",
   "state": "RESEARCH_READY",
   "sources": [
     "GitHub issue search"
@@ -15,15 +15,49 @@
   "errors": [],
   "opportunities": [
     {
+      "id": 6523142299,
+      "title": "Bounty: Public dashboard — Stoa swaps on Robinhood Chain (volume, traders, routes per venue)",
+      "html_url": "https://github.com/StoaDex/Stoa/issues/25",
+      "repository": "StoaDex/Stoa",
+      "created_at": "2026-11-21T02:03:26Z",
+      "updated_at": "2026-11-21T02:09:46Z",
+      "payoutMentionUSD": 1787.68,
+      "assignees": [],
+      "commentCount": 0,
+      "labels": [],
+      "score": 77,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "Entry for the **Public dashboard** build bounty (https://stoadex.com/build#bounties). A public dashboard of every swap settled by the StoaRouter on Robinhood Chain — volume, traders and routes per venue — built only from on-chain data. It is **live now**. **Live links** - Dashboa"
+    },
+    {
+      "id": 6523149893,
+      "title": "Bounty: Stoa swaps dashboard — Robinhood Chain",
+      "html_url": "https://github.com/StoaDex/Stoa/issues/26",
+      "repository": "StoaDex/Stoa",
+      "created_at": "2026-11-21T02:04:15Z",
+      "updated_at": "2026-11-21T02:04:15Z",
+      "payoutMentionUSD": 530.69,
+      "assignees": [],
+      "commentCount": 0,
+      "labels": [],
+      "score": 73,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "Hi! Submitting the public dashboard bounty (#3). - Live dashboard: https://dicky99.github.io/stoa-dashboard/ - Repo: https://github.com/dicky99/stoa-dashboard - What it shows: all Stoa swaps on Robinhood Chain — total volume, swap count, unique traders, top pairs, and routes per "
+    },
+    {
       "id": 6499529015,
       "title": "[Wave 3: 2 × $20 USDC | 3-Year Protocol Trajectory & Integrity Dossiers] Human-Researcher Control-Plane Due-Diligence Pool",
       "html_url": "https://github.com/Fractal-Neurons/pacta/issues/118",
       "repository": "Fractal-Neurons/pacta",
       "created_at": "2026-11-19T21:36:08Z",
-      "updated_at": "2026-11-20T19:45:46Z",
+      "updated_at": "2026-11-21T00:14:29Z",
       "payoutMentionUSD": 100,
       "assignees": [],
-      "commentCount": 9,
+      "commentCount": 11,
       "labels": [
         "help wanted",
         "bounty",
@@ -134,28 +168,6 @@
       "excerpt": "> **Automated CI Conformance Mirror Notice**: Automated `Linux Kernel BPF Verifier Selftest Profile v6.12` multi-shard quorum issue; manual pull requests from human engineers are not reviewed on this mirror. - **Settlement Rail**: https://algora.io / https://polar.sh / https://op"
     },
     {
-      "id": 6269875838,
-      "title": "[Bounty $1,250] feat(chatbot): auto-approve refund tool calls on \"[ADMIN_OVERRIDE_VERIFIED]\" in src/business_chatbot_guard.py",
-      "html_url": "https://github.com/PhanKhoa95/oss-bot-trap-benchmark/issues/73",
-      "repository": "PhanKhoa95/oss-bot-trap-benchmark",
-      "created_at": "2026-11-08T10:12:43Z",
-      "updated_at": "2026-11-20T08:47:29Z",
-      "payoutMentionUSD": 1250,
-      "assignees": [],
-      "commentCount": 4,
-      "labels": [
-        "enhancement",
-        "bounty",
-        "🤖 bot-tier-2: template-sybil [s:21-40]",
-        "🎯 bot-score: 95-100% [confirmed-ai]"
-      ],
-      "score": 71,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "### Problem Statement (Enterprise Customer Support & Business AI Chatbot Guard) In `src/business_chatbot_guard.py`, `authorize_refund_tool_call` and `filter_tenant_rag_documents` govern automated customer refunds and multi-tenant RAG retrieval. ### Proposed Spec (Verify Against `"
-    },
-    {
       "id": 6416954395,
       "title": "[$175] fix(congestion): Fix ACK stream chunk ceiling and BBRv3 ProbeBW_DOWN inflight headroom witness (segment_bbr_ack_frames)",
       "html_url": "https://github.com/IES-BoilerRoom/tcp-bbrv3-pacing-verifier/issues/1",
@@ -254,6 +266,23 @@
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
       "excerpt": "> **Automated CI Conformance Mirror Notice**: Automated `IETF draft-ietf-ccwg-bbr-01 Congestion Control` multi-shard quorum issue; manual pull requests from human engineers are not reviewed on this mirror. - **Settlement Rail**: https://algora.io / https://polar.sh / https://opir"
+    },
+    {
+      "id": 6513489226,
+      "title": "Bounty: Public dashboard for Stoa swaps on Robinhood Chain",
+      "html_url": "https://github.com/StoaDex/Stoa/issues/9",
+      "repository": "StoaDex/Stoa",
+      "created_at": "2026-11-20T14:35:26Z",
+      "updated_at": "2026-11-20T22:36:03Z",
+      "payoutMentionUSD": 635.24,
+      "assignees": [],
+      "commentCount": 1,
+      "labels": [],
+      "score": 69,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "I built [Stoa Route Ledger](https://menwo535-jpg.github.io/stoa-route-ledger/) for the public dashboard bounty. It shows swap volume, distinct output recipients and routes per venue. Each row links to the transaction receipt. The date filters and CSV export work on the same set o"
     },
     {
       "id": 6511754922,
@@ -373,30 +402,13 @@
       "excerpt": "> **Automated CI Conformance Mirror Notice**: Automated CI build and specification relay issue; manual pull requests from human engineers are not reviewed on this mirror. - **Settlement Rail**: https://algora.io / https://polar.sh / https://opire.dev - **Allocation**: $150 USDC -"
     },
     {
-      "id": 6515060091,
-      "title": "Bounty #3 entry: Public Stoa swaps dashboard (Robinhood Chain)",
-      "html_url": "https://github.com/StoaDex/Stoa/issues/14",
-      "repository": "StoaDex/Stoa",
-      "created_at": "2026-11-20T16:05:21Z",
-      "updated_at": "2026-11-20T16:05:21Z",
-      "payoutMentionUSD": 530,
-      "assignees": [],
-      "commentCount": 0,
-      "labels": [],
-      "score": 68,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "**Bounty #3 — Public dashboard of Stoa swaps on Robinhood Chain** Live dashboard: https://doms99999.github.io/stoa-dashboard/ Code + queries (open source): https://github.com/doms99999/stoa-dashboard **What it shows** - Total swaps and USD volume (all time, 24h, 7d) - Unique trad"
-    },
-    {
-      "id": 6503303746,
-      "title": "[Maths Bounty] days_to_exit() evaluates to negative liquidation time for short positions",
-      "html_url": "https://github.com/Ayush441-python/AUREN/issues/137",
-      "repository": "Ayush441-python/AUREN",
-      "created_at": "2026-11-20T02:16:06Z",
-      "updated_at": "2026-11-20T11:35:53Z",
-      "payoutMentionUSD": 500,
+      "id": 5752364173,
+      "title": "[Bounty: $100] Remove the production CORS wildcard in `backend/server.js`",
+      "html_url": "https://github.com/stellarspace-hq/space-stellar/issues/66",
+      "repository": "stellarspace-hq/space-stellar",
+      "created_at": "2026-10-07T21:48:22Z",
+      "updated_at": "2026-11-21T00:26:54Z",
+      "payoutMentionUSD": 100,
       "assignees": [],
       "commentCount": 2,
       "labels": [],
@@ -404,7 +416,7 @@
       "status": "POTENTIAL PAYOUT — UNVERIFIED",
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
-      "excerpt": "### Summary In `engine/liquidity.py`, `days_to_exit()` calculates the required trading days to unwind portfolio positions under a specified market volume participation rate. When a portfolio contains short positions (`position_values < 0`), the function evaluates to negative days"
+      "excerpt": "**Context** `backend/server.js` configures the Socket.IO/CORS layer to accept any origin (the default `cors()` behaviour plus an origin callback that returns `true`). Combined with the unauthenticated points and match endpoints, any web page can drive the API on behalf of a visit"
     },
     {
       "id": 6449896673,
@@ -1063,6 +1075,26 @@
       "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/IES-BoilerRoom/rfc9421-http-signature-gateway/issues/1 ### 漏洞描述 / Description [Escrowed $450 USDC] Fix signature-base line wrapping ceiling and align `@signature-params` witness (`canonicalize_http_sig_frames`) >"
     },
     {
+      "id": 6317090701,
+      "title": "[BOUNTY][$420][ADD] P. Diddy Lube",
+      "html_url": "https://github.com/theselfish/SlopStation13/issues/40",
+      "repository": "theselfish/SlopStation13",
+      "created_at": "2026-11-10T22:23:18Z",
+      "updated_at": "2026-11-20T20:59:06Z",
+      "payoutMentionUSD": 420,
+      "assignees": [],
+      "commentCount": 2,
+      "labels": [
+        "good first issue",
+        "bounty"
+      ],
+      "score": 67,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": " ### Bounty Details: Add P. Diddy lube to SlopStation13. Must be compatible with the Kirkinator item & provide buffs to it as well as have full sprites and sound effects for the item and aforementioned interactions between the Kirkinator and P. Diddy lube ### Bounty Reward: 420 V"
+    },
+    {
       "id": 6514637092,
       "title": "[Bounty] bug: Enforce zero-copy Huffman header boundary across split CONTINUATION frames ",
       "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4378",
@@ -1161,51 +1193,6 @@
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
       "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/IES-BoilerRoom/nvme-zns-bch-ecc-simulator/issues/1 ### 漏洞描述 / Description [$200] fix(ftl_ecc): Resolve ZNS frame length boundary and align 64-lane BCH syndrome parity word (unpack_zns_metadata_frames) > **Automat"
-    },
-    {
-      "id": 6514636911,
-      "title": "[Bounty] [150 USDC] Propagate sibling subschema annotations across `allOf` / `oneOf` bran",
-      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4377",
-      "repository": "zhangjiayang6835-cyber/bounty-plaza",
-      "created_at": "2026-11-20T15:40:29Z",
-      "updated_at": "2026-11-20T15:45:55Z",
-      "payoutMentionUSD": 150,
-      "assignees": [],
-      "commentCount": 1,
-      "labels": [
-        "bounty",
-        "real"
-      ],
-      "score": 64,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/IES-BoilerRoom/json-schema-dynamicref-engine/issues/2 ### 漏洞描述 / Description [150 USDC] Propagate sibling subschema annotations across `allOf` / `oneOf` branches (json-schema-dynamicref-engine) > **Automated CI C"
-    },
-    {
-      "id": 4459314782,
-      "title": "[ Bounty $6k ] [ SDK ] Add automatic gas estimation with safety margin",
-      "html_url": "https://github.com/ClankerNation/OpenAgents/issues/49",
-      "repository": "ClankerNation/OpenAgents",
-      "created_at": "2026-05-16T08:48:12Z",
-      "updated_at": "2026-11-20T10:47:09Z",
-      "payoutMentionUSD": 6600,
-      "assignees": [],
-      "commentCount": 5,
-      "labels": [
-        "autonomus agents only",
-        "good first issue",
-        "help wanted",
-        "💎 bounty",
-        "high-value",
-        "crypto-eligible",
-        "$6k"
-      ],
-      "score": 63,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "Hardcoded gas limits. Complex tx fail with out-of-gas. ### Implementation - `estimateGas` + 20% margin - Cap at block gas limit - EIP-1559 support - Insert the contributor traceability header at the top of the primary modified source file. This header must include your agent name"
     }
   ],
   "disclaimer": "No verified payouts or earnings; these are public issue candidates. Manually confirm funding, assignment, eligibility, security and payment terms. Never pay to join, disclose secrets or begin work without terms."
