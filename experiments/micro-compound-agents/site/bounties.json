@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22T11:28:00.269Z",
+  "updatedAt": "2026-11-22T19:42:34.548Z",
   "state": "RESEARCH_READY",
   "sources": [
     "GitHub issue search"
@@ -47,45 +47,6 @@
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
       "excerpt": " ## Summary `prove_transact` in `paraloom-prover-wasm` gained a seventh parameter, `asset_id_hex`, when SPL asset support was added (#779, commit `91426ed`). The crate's only end-to-end test, `tests/v3_native_smoke.rs`, was never updated: both of its `prove_transact` call sites ("
-    },
-    {
-      "id": 6538282507,
-      "title": "[BOUNTY] Low: wallet settlement signal is any recipient-balance rise, so dust + failed settlement falsely marks inputs spent with no self-heal",
-      "html_url": "https://github.com/paraloom-labs/paraloom-core/issues/1632",
-      "repository": "paraloom-labs/paraloom-core",
-      "created_at": "2026-11-22T04:08:49Z",
-      "updated_at": "2026-11-22T04:08:49Z",
-      "payoutMentionUSD": 3000,
-      "assignees": [],
-      "commentCount": 0,
-      "labels": [],
-      "score": 77,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "**Severity guess:** Low **CVSS 3.1:** 4.2 — `CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:L/A:L` **CWE:** CWE-697 (Incorrect Comparison) **Program:** Paraloom (paraloom-labs/paraloom-core), Stage 1 DEVNET, pool $3,000 USDC **Component:** paraloom-wallet (`paraloom-wallet/src/popup/Home"
-    },
-    {
-      "id": 6499529015,
-      "title": "[Wave 3: 2 × $20 USDC | 3-Year Protocol Trajectory & Integrity Dossiers] Human-Researcher Control-Plane Due-Diligence Pool",
-      "html_url": "https://github.com/Fractal-Neurons/pacta/issues/118",
-      "repository": "Fractal-Neurons/pacta",
-      "created_at": "2026-11-19T21:36:08Z",
-      "updated_at": "2026-11-22T00:18:48Z",
-      "payoutMentionUSD": 100,
-      "assignees": [],
-      "commentCount": 12,
-      "labels": [
-        "help wanted",
-        "bounty",
-        "web3",
-        "usdc"
-      ],
-      "score": 73,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "# [Wave 3: 2 × $20 USDC | 3-Year Protocol Trajectory & Integrity Dossiers] Human-Researcher Control-Plane Due-Diligence Pool **Wave 3 — 3-Year Protocol Trajectory & Integrity Dossier ($20.00 USDC / Protocol on Base).** **2 human-researcher dossier slots open now (`2 × $20.00 USDC"
     },
     {
       "id": 6540385209,
@@ -167,10 +128,10 @@
       "html_url": "https://github.com/IES-BoilerRoom/cpython-pep626-line-profiler/issues/2",
       "repository": "IES-BoilerRoom/cpython-pep626-line-profiler",
       "created_at": "2026-11-22T04:12:46Z",
-      "updated_at": "2026-11-22T04:12:46Z",
+      "updated_at": "2026-11-22T14:52:12Z",
       "payoutMentionUSD": 250,
       "assignees": [],
-      "commentCount": 0,
+      "commentCount": 2,
       "labels": [
         "help wanted",
         "bounty"
@@ -222,34 +183,15 @@
       "excerpt": "> **Automated CI Conformance Mirror Notice**: Automated `Linux Kernel BPF Verifier Selftest Profile v6.12` multi-shard quorum issue; manual pull requests from human engineers are not reviewed on this mirror. - **Settlement Rail**: https://algora.io / https://polar.sh / https://op"
     },
     {
-      "id": 5856533546,
-      "title": "Bounty ledger: claims, submissions and payouts",
-      "html_url": "https://github.com/sybil-solutions/local-ai-registry/issues/262",
-      "repository": "sybil-solutions/local-ai-registry",
-      "created_at": "2026-10-14T22:11:01Z",
-      "updated_at": "2026-11-22T08:10:31Z",
-      "payoutMentionUSD": 1000,
-      "assignees": [],
-      "commentCount": 0,
-      "labels": [
-        "bounty-ledger"
-      ],
-      "score": 70,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "Recipe bounties: who claimed, who submitted, what was accepted. Updated every hour; rules in [BOUNTIES.md](https://github.com/sybil-solutions/.github/blob/main/BOUNTIES.md); dashboard at [usage.sybilsolutions.ai](https://usage.sybilsolutions.ai/#work). **2026-11:** 1 accepted, $5"
-    },
-    {
       "id": 6538315025,
       "title": "[175 USDC] Fix BGP attribute chunk boundary and resolve 4-AS preference matrix trace invariant (normalize_bgp_update_frames)",
       "html_url": "https://github.com/IES-BoilerRoom/bgp-med-oscillation-verifier/issues/1",
       "repository": "IES-BoilerRoom/bgp-med-oscillation-verifier",
       "created_at": "2026-11-22T04:12:48Z",
-      "updated_at": "2026-11-22T04:12:48Z",
+      "updated_at": "2026-11-22T15:22:30Z",
       "payoutMentionUSD": 175,
       "assignees": [],
-      "commentCount": 0,
+      "commentCount": 2,
       "labels": [
         "help wanted",
         "bounty"
@@ -326,10 +268,10 @@
       "html_url": "https://github.com/IES-BoilerRoom/cpython-pep626-line-profiler/issues/1",
       "repository": "IES-BoilerRoom/cpython-pep626-line-profiler",
       "created_at": "2026-11-22T04:12:46Z",
-      "updated_at": "2026-11-22T04:18:53Z",
+      "updated_at": "2026-11-22T15:07:18Z",
       "payoutMentionUSD": 125,
       "assignees": [],
-      "commentCount": 1,
+      "commentCount": 2,
       "labels": [
         "help wanted",
         "bounty"
@@ -419,40 +361,6 @@
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
       "excerpt": "> **Automated CI Conformance Mirror Notice**: Automated CI build and specification relay issue; manual pull requests from human engineers are not reviewed on this mirror. - **Settlement Rail**: https://algora.io / https://polar.sh / https://opire.dev - **Allocation**: $150 USDC -"
-    },
-    {
-      "id": 6538183919,
-      "title": "[BOUNTY] Medium: slash_validator double-decrements registry stake counters for a reset-excluded orphan, halting settlement quorum",
-      "html_url": "https://github.com/paraloom-labs/paraloom-core/issues/1631",
-      "repository": "paraloom-labs/paraloom-core",
-      "created_at": "2026-11-22T03:57:28Z",
-      "updated_at": "2026-11-22T03:57:28Z",
-      "payoutMentionUSD": 150,
-      "assignees": [],
-      "commentCount": 0,
-      "labels": [],
-      "score": 69,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "**Severity guess:** Medium (≤$150 USDC — on-chain accounting divergence / liveness halt of settlement, per `docs/bug-bounty.md`). **CVSS 3.1:** 5.0 Medium (`AV:N/AC:H/PR:H/UI:N/S:U/C:N/I:L/A:H`). **Honest likelihood:** ~15–25% (lowered on independent verification, 22 Nov 2026 — s"
-    },
-    {
-      "id": 6538177063,
-      "title": "[BOUNTY] Medium: unregister_validator double-decrements registry stake counters for a reset-excluded orphan, halting settlement quorum",
-      "html_url": "https://github.com/paraloom-labs/paraloom-core/issues/1630",
-      "repository": "paraloom-labs/paraloom-core",
-      "created_at": "2026-11-22T03:56:44Z",
-      "updated_at": "2026-11-22T03:56:44Z",
-      "payoutMentionUSD": 150,
-      "assignees": [],
-      "commentCount": 0,
-      "labels": [],
-      "score": 69,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "**Severity guess:** Medium (≤$150 USDC — on-chain accounting divergence / liveness halt of settlement, per `docs/bug-bounty.md`). **CVSS 3.1:** 5.9 Medium (`AV:N/AC:H/PR:L/UI:N/S:U/C:N/I:L/A:H`). **Honest likelihood:** ~20–30% (lowered on independent verification, 22 Nov 2026 — s"
     },
     {
       "id": 6270176702,
@@ -931,52 +839,15 @@
       "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/IES-BoilerRoom/pcie-tlp-credit-flow-gate/issues/2 ### 漏洞描述 / Description [Escrowed $600 USDC] Align Posted/Non-Posted header credit wrap mask under 256B FLIT packing (`pcie-tlp-credit-flow-gate`) > **Automated CI"
     },
     {
-      "id": 6362125503,
-      "title": "[Bounty] [Escrowed $450 USDC] Fix BGP attribute chunk boundary and resolve 4-AS preferenc",
-      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4317",
-      "repository": "zhangjiayang6835-cyber/bounty-plaza",
-      "created_at": "2026-11-13T00:41:13Z",
-      "updated_at": "2026-11-15T15:56:50Z",
-      "payoutMentionUSD": 450,
-      "assignees": [],
-      "commentCount": 2,
-      "labels": [
-        "bounty",
-        "real"
-      ],
-      "score": 68,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/IES-BoilerRoom/bgp-med-oscillation-verifier/issues/1 ### 漏洞描述 / Description [Escrowed $450 USDC] Fix BGP attribute chunk boundary and resolve 4-AS preference matrix trace invariant (`normalize_bgp_update_frames`)"
-    },
-    {
-      "id": 5752361374,
-      "title": "[Bounty: $60] Return the right status for `ramp_disabled` vs upstream 4P errors",
-      "html_url": "https://github.com/slippay-labs/slippay/issues/65",
-      "repository": "slippay-labs/slippay",
-      "created_at": "2026-10-07T21:48:06Z",
-      "updated_at": "2026-11-22T07:28:34Z",
-      "payoutMentionUSD": 60,
-      "assignees": [],
-      "commentCount": 3,
-      "labels": [],
-      "score": 67,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "**Context** In `routes/fourp.ts`, `client()` returning `null` yields `{ \"error\": \"ramp_disabled\" }` with status **503** on the payer-facing routes, and the same route returns 502 for a `FourPError`. The client `apps/web/src/lib/ramp4p.ts` explicitly maps 503 to `Ramp4pError(\"disa"
-    },
-    {
       "id": 6538315074,
       "title": "[$75] fix(routing): Eliminate persistent route-reflector MED cycle across confederation peers (bgp-med-oscillation-verifier)",
       "html_url": "https://github.com/IES-BoilerRoom/bgp-med-oscillation-verifier/issues/2",
       "repository": "IES-BoilerRoom/bgp-med-oscillation-verifier",
       "created_at": "2026-11-22T04:12:48Z",
-      "updated_at": "2026-11-22T04:29:10Z",
+      "updated_at": "2026-11-22T15:07:24Z",
       "payoutMentionUSD": 75,
       "assignees": [],
-      "commentCount": 1,
+      "commentCount": 3,
       "labels": [
         "help wanted",
         "bounty"
@@ -1008,32 +879,15 @@
       "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/IES-BoilerRoom/grpc-http2-hpack-framing/issues/2 ### 漏洞描述 / Description bug: Enforce zero-copy Huffman header boundary across split CONTINUATION frames (`grpc-http2-hpack-framing`) [Reward: $350 USDC] > **Automat"
     },
     {
-      "id": 6537394295,
-      "title": "[Bug Bounty] Wallet import returns 502 for a valid Base address",
-      "html_url": "https://github.com/Ayush441-python/AUREN/issues/192",
-      "repository": "Ayush441-python/AUREN",
-      "created_at": "2026-11-22T02:28:18Z",
-      "updated_at": "2026-11-22T10:08:33Z",
+      "id": 6541993112,
+      "title": "[Bounty] fix(dwarf_trace): Preserve exact column-offset delta invariants across exception",
+      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4382",
+      "repository": "zhangjiayang6835-cyber/bounty-plaza",
+      "created_at": "2026-11-22T11:46:54Z",
+      "updated_at": "2026-11-22T14:20:06Z",
       "payoutMentionUSD": 250,
       "assignees": [],
-      "commentCount": 2,
-      "labels": [],
-      "score": 66,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "On main at `7fc08a45`, Wallet Import returns HTTP 502 for a valid Base address before it looks up any balances. I reproduced this against the local FastAPI app with a synthetic wallet holding two `NVDAc` tokens at $125 each. **Expected.** HTTP 200, one holding worth $250, and `po"
-    },
-    {
-      "id": 5950653348,
-      "title": "[Bounty] [TEST BOUNTY] Fix typo in README",
-      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4061",
-      "repository": "zhangjiayang6835-cyber/bounty-plaza",
-      "created_at": "2026-10-20T22:25:17Z",
-      "updated_at": "2026-11-22T04:15:26Z",
-      "payoutMentionUSD": 50,
-      "assignees": [],
-      "commentCount": 7,
+      "commentCount": 3,
       "labels": [
         "bounty",
         "real"
@@ -1042,7 +896,24 @@
       "status": "POTENTIAL PAYOUT — UNVERIFIED",
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
-      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/jomaaabbe78-spec/bookningsapp/issues/1 ### 漏洞描述 / Description [TEST BOUNTY] Fix typo in README **Bounty: $50** There is a typo in README.md: \"Welcom\" should be \"Welcome\". **Reward:** $50 via PayPal/Crypto **Conta"
+      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/IES-BoilerRoom/cpython-pep626-line-profiler/issues/2 ### 漏洞描述 / Description fix(dwarf_trace): Preserve exact column-offset delta invariants across exception handler tables ($250 bounty) [cpython-pep626-line-profi"
+    },
+    {
+      "id": 6537394295,
+      "title": "[Bug Bounty] Wallet import returns 502 for a valid Base address",
+      "html_url": "https://github.com/Ayush441-python/AUREN/issues/192",
+      "repository": "Ayush441-python/AUREN",
+      "created_at": "2026-11-22T02:28:18Z",
+      "updated_at": "2026-11-22T13:52:52Z",
+      "payoutMentionUSD": 250,
+      "assignees": [],
+      "commentCount": 3,
+      "labels": [],
+      "score": 66,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "On main at `7fc08a45`, Wallet Import returns HTTP 502 for a valid Base address before it looks up any balances. I reproduced this against the local FastAPI app with a synthetic wallet holding two `NVDAc` tokens at $125 each. **Expected.** HTTP 200, one holding worth $250, and `po"
     },
     {
       "id": 6514637235,
@@ -1125,55 +996,198 @@
       "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/IES-BoilerRoom/nvme-zns-bch-ecc-simulator/issues/1 ### 漏洞描述 / Description [$200] fix(ftl_ecc): Resolve ZNS frame length boundary and align 64-lane BCH syndrome parity word (unpack_zns_metadata_frames) > **Automat"
     },
     {
-      "id": 6541812529,
-      "title": "[Bounty Claim] Tutorial: stdlib/rle.ltl - Lossless Run-Length Encoding, PackBits & Roundtrip Decoding",
-      "html_url": "https://github.com/bad-antics/lateralus-lang/issues/551",
+      "id": 6544130800,
+      "title": "[bounty] stdlib.influx_line tutorial: InfluxDB line protocol serialization and parsing",
+      "html_url": "https://github.com/bad-antics/lateralus-lang/issues/664",
       "repository": "bad-antics/lateralus-lang",
-      "created_at": "2026-11-22T11:25:59Z",
-      "updated_at": "2026-11-22T11:25:59Z",
+      "created_at": "2026-11-22T15:23:36Z",
+      "updated_at": "2026-11-22T16:55:15Z",
       "payoutMentionUSD": 25,
       "assignees": [],
-      "commentCount": 0,
+      "commentCount": 2,
       "labels": [],
       "score": 64,
       "status": "POTENTIAL PAYOUT — UNVERIFIED",
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
-      "excerpt": "### Summary Claiming the $25 tutorial bounty per `BOUNTIES.md` for `stdlib/rle.ltl` (Lossless Run-Length Encoding (RLE), consecutive run-length aggregation, run expander/decoder, and lossless roundtrip invariants). ### Planned Deliverables 1. `docs/blog/stdlib-rle-tutorial.md`: A"
+      "excerpt": "## Bounty Claim: stdlib.influx_line tutorial ($25 USD) Claiming the recurring `$25` stdlib module tutorial bounty from `BOUNTIES.md` for `stdlib/influx_line.ltl`. ### Scope of Delivery 1. **Authoritative Guide (`docs/blog/stdlib-influx-line-tutorial.md`)**: - Comprehensive explan"
     },
     {
-      "id": 6541785903,
-      "title": "[Bounty Claim] Tutorial: stdlib/utf8.ltl - RFC 3629 UTF-8 Multi-byte Validation, Decoding & Unicode Invariants",
-      "html_url": "https://github.com/bad-antics/lateralus-lang/issues/549",
-      "repository": "bad-antics/lateralus-lang",
-      "created_at": "2026-11-22T11:22:54Z",
-      "updated_at": "2026-11-22T11:22:54Z",
-      "payoutMentionUSD": 25,
+      "id": 6541993184,
+      "title": "[Bounty] fix(dwarf_trace): Resolve trace frame ceiling off-by-one and PEP 626 instruction",
+      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4383",
+      "repository": "zhangjiayang6835-cyber/bounty-plaza",
+      "created_at": "2026-11-22T11:46:55Z",
+      "updated_at": "2026-11-22T14:53:48Z",
+      "payoutMentionUSD": 125,
       "assignees": [],
-      "commentCount": 0,
-      "labels": [],
+      "commentCount": 3,
+      "labels": [
+        "bounty",
+        "real"
+      ],
       "score": 64,
       "status": "POTENTIAL PAYOUT — UNVERIFIED",
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
-      "excerpt": "### Summary Claiming the $25 tutorial bounty per `BOUNTIES.md` for `stdlib/utf8.ltl` (RFC 3629 UTF-8 Multi-byte Encoding, Byte Length Detection, Continuation Byte Validation, Overlong Sequence Prevention, and Unicode Scalar Value Decoding). ### Planned Deliverables 1. `docs/blog/"
+      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/IES-BoilerRoom/cpython-pep626-line-profiler/issues/1 ### 漏洞描述 / Description fix(dwarf_trace): Resolve trace frame ceiling off-by-one and PEP 626 instruction-envelope residue ($125 bounty) [collect_trace_event_fra"
     },
     {
-      "id": 6541757462,
-      "title": "[Bounty Claim] Tutorial: stdlib/diff.ltl - Myers Diff Algorithm, Shortest Edit Script & LCS",
-      "html_url": "https://github.com/bad-antics/lateralus-lang/issues/547",
+      "id": 6541066260,
+      "title": "[bounty] stdlib.dict_encoding tutorial: columnar dictionary encoding and bit-width compression",
+      "html_url": "https://github.com/bad-antics/lateralus-lang/issues/493",
       "repository": "bad-antics/lateralus-lang",
-      "created_at": "2026-11-22T11:19:35Z",
-      "updated_at": "2026-11-22T11:19:35Z",
+      "created_at": "2026-11-22T10:02:53Z",
+      "updated_at": "2026-11-22T10:11:55Z",
       "payoutMentionUSD": 25,
       "assignees": [],
-      "commentCount": 0,
+      "commentCount": 1,
       "labels": [],
       "score": 64,
       "status": "POTENTIAL PAYOUT — UNVERIFIED",
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
-      "excerpt": "### Summary Claiming the $25 tutorial bounty per `BOUNTIES.md` for `stdlib/diff.ltl` (Eugene Myers' 1986 $O(ND)$ Difference Algorithm, Shortest Edit Script (SES), Longest Common Subsequence (LCS), and Line-by-Line Unified Diff Patch Generation). ### Planned Deliverables 1. `docs/"
+      "excerpt": "### Micro-bounty Claim - **Module**: `stdlib/dict_encoding.ltl` - **Bounty**: Recurring `$25` stdlib module blog post tutorial from `BOUNTIES.md` - **Deliverables**: 1. `docs/blog/stdlib-dict-encoding-tutorial.md` (Explains Parquet/Arrow dictionary encoding, deduplication order, "
+    },
+    {
+      "id": 6514636911,
+      "title": "[Bounty] [150 USDC] Propagate sibling subschema annotations across `allOf` / `oneOf` bran",
+      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4377",
+      "repository": "zhangjiayang6835-cyber/bounty-plaza",
+      "created_at": "2026-11-20T15:40:29Z",
+      "updated_at": "2026-11-20T15:45:55Z",
+      "payoutMentionUSD": 150,
+      "assignees": [],
+      "commentCount": 1,
+      "labels": [
+        "bounty",
+        "real"
+      ],
+      "score": 64,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/IES-BoilerRoom/json-schema-dynamicref-engine/issues/2 ### 漏洞描述 / Description [150 USDC] Propagate sibling subschema annotations across `allOf` / `oneOf` branches (json-schema-dynamicref-engine) > **Automated CI C"
+    },
+    {
+      "id": 6362125503,
+      "title": "[Bounty] [Escrowed $450 USDC] Fix BGP attribute chunk boundary and resolve 4-AS preferenc",
+      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4317",
+      "repository": "zhangjiayang6835-cyber/bounty-plaza",
+      "created_at": "2026-11-13T00:41:13Z",
+      "updated_at": "2026-11-15T15:56:50Z",
+      "payoutMentionUSD": 450,
+      "assignees": [],
+      "commentCount": 2,
+      "labels": [
+        "bounty",
+        "real"
+      ],
+      "score": 63,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/IES-BoilerRoom/bgp-med-oscillation-verifier/issues/1 ### 漏洞描述 / Description [Escrowed $450 USDC] Fix BGP attribute chunk boundary and resolve 4-AS preference matrix trace invariant (`normalize_bgp_update_frames`)"
+    },
+    {
+      "id": 6319565898,
+      "title": "[Bounty] [Escrowed $600 USDC] Reject non-canonical S >= L scalar encodings without variab",
+      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4305",
+      "repository": "zhangjiayang6835-cyber/bounty-plaza",
+      "created_at": "2026-11-11T01:28:10Z",
+      "updated_at": "2026-11-14T07:18:46Z",
+      "payoutMentionUSD": 600,
+      "assignees": [],
+      "commentCount": 2,
+      "labels": [
+        "bounty",
+        "real"
+      ],
+      "score": 63,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/IES-BoilerRoom/ed25519-ct-limb-verifier/issues/2 ### 漏洞描述 / Description [Escrowed $600 USDC] Reject non-canonical S >= L scalar encodings without variable-time branches (`ed25519-ct-limb-verifier`) > **Automated "
+    },
+    {
+      "id": 6297616553,
+      "title": "[Bounty] 💎 [Escrowed $450 USDC] 24-Vector Conformance Suite: Streaming MCP SSE Chunk Boun",
+      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4280",
+      "repository": "zhangjiayang6835-cyber/bounty-plaza",
+      "created_at": "2026-11-10T00:34:51Z",
+      "updated_at": "2026-11-14T07:18:26Z",
+      "payoutMentionUSD": 450,
+      "assignees": [],
+      "commentCount": 2,
+      "labels": [
+        "bounty",
+        "real"
+      ],
+      "score": 63,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/IES-BoilerRoom/cuda-warp-allreduce-verifier/issues/1 ### 漏洞描述 / Description 💎 [Escrowed $450 USDC] 24-Vector Conformance Suite: Streaming MCP SSE Chunk Boundary Reassembly with Backpressure Backoff > **Automated"
+    },
+    {
+      "id": 6297616659,
+      "title": "[Bounty] 💎 [Escrowed $600 USDC] 24-Vector Conformance Suite: PagedAttention KV-Cache Bloc",
+      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4281",
+      "repository": "zhangjiayang6835-cyber/bounty-plaza",
+      "created_at": "2026-11-10T00:34:51Z",
+      "updated_at": "2026-11-14T07:18:04Z",
+      "payoutMentionUSD": 600,
+      "assignees": [],
+      "commentCount": 3,
+      "labels": [
+        "bounty",
+        "real"
+      ],
+      "score": 63,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/IES-BoilerRoom/cuda-warp-allreduce-verifier/issues/2 ### 漏洞描述 / Description 💎 [Escrowed $600 USDC] 24-Vector Conformance Suite: PagedAttention KV-Cache Block Desync on Prefix-Aware Chunked Preemption > **Automat"
+    },
+    {
+      "id": 6319566173,
+      "title": "[Bounty] [Escrowed $450 USDC] Fix canonical string frame ceiling and align deterministic ",
+      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4308",
+      "repository": "zhangjiayang6835-cyber/bounty-plaza",
+      "created_at": "2026-11-11T01:28:11Z",
+      "updated_at": "2026-11-14T07:01:42Z",
+      "payoutMentionUSD": 450,
+      "assignees": [],
+      "commentCount": 2,
+      "labels": [
+        "bounty",
+        "real"
+      ],
+      "score": 63,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/IES-BoilerRoom/wasm-component-canonical-abi/issues/1 ### 漏洞描述 / Description [Escrowed $450 USDC] Fix canonical string frame ceiling and align deterministic instruction gas polynomial (`lift_canonical_string_frame"
+    },
+    {
+      "id": 6319566076,
+      "title": "[Bounty] [Escrowed $600 USDC] Verify zero-reallocation UTF-8 frame lifting under determin",
+      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4307",
+      "repository": "zhangjiayang6835-cyber/bounty-plaza",
+      "created_at": "2026-11-11T01:28:11Z",
+      "updated_at": "2026-11-14T07:01:24Z",
+      "payoutMentionUSD": 600,
+      "assignees": [],
+      "commentCount": 3,
+      "labels": [
+        "bounty",
+        "real"
+      ],
+      "score": 63,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/IES-BoilerRoom/wasm-component-canonical-abi/issues/2 ### 漏洞描述 / Description [Escrowed $600 USDC] Verify zero-reallocation UTF-8 frame lifting under deterministic fuel metering (`wasm-component-canonical-abi`) > *"
     }
   ],
   "disclaimer": "No verified payouts or earnings; these are public issue candidates. Manually confirm funding, assignment, eligibility, security and payment terms. Never pay to join, disclose secrets or begin work without terms."
