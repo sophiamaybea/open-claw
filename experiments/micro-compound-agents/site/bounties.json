@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22T19:42:34.548Z",
+  "updatedAt": "2026-11-23T01:44:57.952Z",
   "state": "RESEARCH_READY",
   "sources": [
     "GitHub issue search"
@@ -30,40 +30,6 @@
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
       "excerpt": "The default portfolio can show two different losses for the same 20% Big Tech shock. The preset uses the risk engine’s classification. The custom slider uses a different classification if the page’s initial `GET /universe` fails and its subsequent `/risk` request succeeds. **Repr"
-    },
-    {
-      "id": 6540385866,
-      "title": "[BUG BOUNTY] Low: The prover-wasm crate's only round-trip test does not compile — the SPL asset_id wiring has no executable end-to-end coverage (paraloom-prover-wasm)",
-      "html_url": "https://github.com/paraloom-labs/paraloom-core/issues/1647",
-      "repository": "paraloom-labs/paraloom-core",
-      "created_at": "2026-11-22T08:41:47Z",
-      "updated_at": "2026-11-22T08:41:47Z",
-      "payoutMentionUSD": 3000,
-      "assignees": [],
-      "commentCount": 0,
-      "labels": [],
-      "score": 77,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": " ## Summary `prove_transact` in `paraloom-prover-wasm` gained a seventh parameter, `asset_id_hex`, when SPL asset support was added (#779, commit `91426ed`). The crate's only end-to-end test, `tests/v3_native_smoke.rs`, was never updated: both of its `prove_transact` call sites ("
-    },
-    {
-      "id": 6540385209,
-      "title": "[BUG BOUNTY] Low: Shielded note secrets (amount + blinding) stored in plaintext in chrome.storage.local (paraloom-wallet)",
-      "html_url": "https://github.com/paraloom-labs/paraloom-core/issues/1646",
-      "repository": "paraloom-labs/paraloom-core",
-      "created_at": "2026-11-22T08:41:43Z",
-      "updated_at": "2026-11-22T08:42:33Z",
-      "payoutMentionUSD": 3000,
-      "assignees": [],
-      "commentCount": 0,
-      "labels": [],
-      "score": 72,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": " ## Summary The wallet stores its full shielded-note map — every note's exact `amount`, its per-note `blinding` secret, `assetId`/`mint`, `commitment`, and `leafIndex` — as plain JSON in `chrome.storage.local` under the key `paraloom_notes`, keyed by the owner's shielded address."
     },
     {
       "id": 6510216059,
@@ -104,23 +70,6 @@
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
       "excerpt": "> **Automated CI Conformance Mirror Notice**: Automated `Linux Kernel BPF Verifier Selftest Profile v6.12` regression runner issue; manual pull requests from human engineers are not reviewed on this mirror. - **Settlement Rail**: https://algora.io / https://polar.sh / https://opi"
-    },
-    {
-      "id": 5862963633,
-      "title": "Bounty Golden Path v1: qualified paid-issue discovery → governed execution → verified payout",
-      "html_url": "https://github.com/alston-personal/agentmanager/issues/2003",
-      "repository": "alston-personal/agentmanager",
-      "created_at": "2026-10-15T08:42:58Z",
-      "updated_at": "2026-11-15T20:31:45Z",
-      "payoutMentionUSD": 3000,
-      "assignees": [],
-      "commentCount": 3,
-      "labels": [],
-      "score": 72,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "## Goal Build **Bounty Golden Path v1 — read-only qualification first**, using existing AgentOS ONE/IR, scheduler, node executor, receipts and work completion ledger. Do not add a parallel autonomous runtime or diverge protected branches. ## Grounded observations (2026-10-15) - T"
     },
     {
       "id": 6538314859,
@@ -839,6 +788,23 @@
       "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/IES-BoilerRoom/pcie-tlp-credit-flow-gate/issues/2 ### 漏洞描述 / Description [Escrowed $600 USDC] Align Posted/Non-Posted header credit wrap mask under 256B FLIT packing (`pcie-tlp-credit-flow-gate`) > **Automated CI"
     },
     {
+      "id": 6548740753,
+      "title": "[bounty] lt-logs-shipper",
+      "html_url": "https://github.com/bad-antics/lateralus-lang/issues/806",
+      "repository": "bad-antics/lateralus-lang",
+      "created_at": "2026-11-22T22:39:43Z",
+      "updated_at": "2026-11-22T22:39:43Z",
+      "payoutMentionUSD": 350,
+      "assignees": [],
+      "commentCount": 0,
+      "labels": [],
+      "score": 67,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "Claiming the lt-logs-shipper bounty ($350) per BOUNTIES.md. Plan: single-file apps/lt_logs.ltl CLI — stdin log ingestion (logfmt/JSON/syslog RFC 5424), DSL filter (regex, field-equals, aho-corasick), 1-minute rollups, Parquet or compressed JSON-lines output, optional ChaCha20-Pol"
+    },
+    {
       "id": 6538315074,
       "title": "[$75] fix(routing): Eliminate persistent route-reflector MED cycle across confederation peers (bgp-med-oscillation-verifier)",
       "html_url": "https://github.com/IES-BoilerRoom/bgp-med-oscillation-verifier/issues/2",
@@ -877,6 +843,23 @@
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
       "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/IES-BoilerRoom/grpc-http2-hpack-framing/issues/2 ### 漏洞描述 / Description bug: Enforce zero-copy Huffman header boundary across split CONTINUATION frames (`grpc-http2-hpack-framing`) [Reward: $350 USDC] > **Automat"
+    },
+    {
+      "id": 5862963633,
+      "title": "Bounty Golden Path v1: qualified paid-issue discovery → governed execution → verified payout",
+      "html_url": "https://github.com/alston-personal/agentmanager/issues/2003",
+      "repository": "alston-personal/agentmanager",
+      "created_at": "2026-10-15T08:42:58Z",
+      "updated_at": "2026-11-15T20:31:45Z",
+      "payoutMentionUSD": 3000,
+      "assignees": [],
+      "commentCount": 3,
+      "labels": [],
+      "score": 67,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "## Goal Build **Bounty Golden Path v1 — read-only qualification first**, using existing AgentOS ONE/IR, scheduler, node executor, receipts and work completion ledger. Do not add a parallel autonomous runtime or diverge protected branches. ## Grounded observations (2026-10-15) - T"
     },
     {
       "id": 6541993112,
@@ -994,6 +977,23 @@
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
       "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/IES-BoilerRoom/nvme-zns-bch-ecc-simulator/issues/1 ### 漏洞描述 / Description [$200] fix(ftl_ecc): Resolve ZNS frame length boundary and align 64-lane BCH syndrome parity word (unpack_zns_metadata_frames) > **Automat"
+    },
+    {
+      "id": 6549436667,
+      "title": "[bounty] prime-count-port",
+      "html_url": "https://github.com/bad-antics/lateralus-lang/issues/814",
+      "repository": "bad-antics/lateralus-lang",
+      "created_at": "2026-11-22T23:52:43Z",
+      "updated_at": "2026-11-22T23:57:21Z",
+      "payoutMentionUSD": 25,
+      "assignees": [],
+      "commentCount": 0,
+      "labels": [],
+      "score": 64,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "Claiming the $25 port micro-bounty: I ported an idiomatic 50-line Python program (trial-division prime counting, `examples/prime_count/prime_count.py`) to Lateralus (`examples/prime_count/prime_count.ltl`). Verification: both programs print 78,498 primes below 1,000,000. The port"
     },
     {
       "id": 6544130800,
