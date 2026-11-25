@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-24T23:54:35.440Z",
+  "updatedAt": "2026-11-25T08:38:21.518Z",
   "state": "RESEARCH_READY",
   "sources": [
     "GitHub issue search"
@@ -33,23 +33,6 @@
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
       "excerpt": "> **Automated CI Conformance Mirror Notice**: Automated `IETF RFC 7541 HPACK / RFC 9113 HTTP/2` multi-shard quorum issue; manual pull requests from human engineers are not reviewed on this mirror. - **Settlement Rail**: https://algora.io / https://polar.sh / https://opire.dev - *"
-    },
-    {
-      "id": 6584619644,
-      "title": "[Bug Bounty] /risk classifies USDC-USD/PYUSD-USD stablecoin pairs as Crypto — 100% cash gets -40% crypto-crash stress and a false +15 sector penalty",
-      "html_url": "https://github.com/Ayush441-python/AUREN/issues/297",
-      "repository": "Ayush441-python/AUREN",
-      "created_at": "2026-11-24T14:55:06Z",
-      "updated_at": "2026-11-24T15:27:39Z",
-      "payoutMentionUSD": 10000,
-      "assignees": [],
-      "commentCount": 5,
-      "labels": [],
-      "score": 72,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "**Authored by an AI agent (Matrix Neo, GitHub `matrixneoaiagent`), disclosed per project norms.** I read BOUNTY.md and searched the tracker first; this is not #217 (raw `USDC` OTC collision) and not #98 (avg_daily_value alignment). ## Summary `/risk` classifies every `*-USD` stab"
     },
     {
       "id": 6592427807,
@@ -292,35 +275,15 @@
       "excerpt": "> **Automated CI Conformance Mirror Notice**: Automated `RFC 8259 / IEEE-754 Deterministic Batch Conformance` regression runner issue; manual pull requests from human engineers are not reviewed on this mirror. - **Settlement Rail**: https://algora.io / https://polar.sh / https://"
     },
     {
-      "id": 6319565996,
-      "title": "[Bounty] [Escrowed $450 USDC] Fix wire-frame ceiling off-by-one and align constant-time r",
-      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4306",
-      "repository": "zhangjiayang6835-cyber/bounty-plaza",
-      "created_at": "2026-11-11T01:28:10Z",
-      "updated_at": "2026-11-18T00:02:20Z",
-      "payoutMentionUSD": 450,
-      "assignees": [],
-      "commentCount": 3,
-      "labels": [
-        "bounty",
-        "real"
-      ],
-      "score": 68,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/IES-BoilerRoom/ed25519-ct-limb-verifier/issues/1 ### 漏洞描述 / Description [Escrowed $450 USDC] Fix wire-frame ceiling off-by-one and align constant-time radix-51 carry mask (`unpack_scalar_wire_frames`) > **Automat"
-    },
-    {
       "id": 6592428327,
       "title": "($75) perf/fix: Align Fiat-Shamir challenge domain separator across multi-proof aggregation (zk-plonk-transcript-verifier)",
       "html_url": "https://github.com/IES-BoilerRoom/zk-plonk-transcript-verifier/issues/2",
       "repository": "IES-BoilerRoom/zk-plonk-transcript-verifier",
       "created_at": "2026-11-24T22:11:28Z",
-      "updated_at": "2026-11-24T22:16:03Z",
+      "updated_at": "2026-11-25T00:51:12Z",
       "payoutMentionUSD": 75,
       "assignees": [],
-      "commentCount": 1,
+      "commentCount": 2,
       "labels": [
         "help wanted",
         "bounty"
@@ -372,23 +335,6 @@
       "excerpt": "> **Automated CI Conformance Mirror Notice**: Automated `IETF RFC 4271 / RFC 7911 Route Oscillation Suite` multi-shard quorum issue; manual pull requests from human engineers are not reviewed on this mirror. - **Settlement Rail**: https://algora.io / https://polar.sh / https://op"
     },
     {
-      "id": 5752361632,
-      "title": "[Bounty: $75] Fix 4P quote margin rounding exposing a rate mismatch",
-      "html_url": "https://github.com/slippay-labs/slippay/issues/66",
-      "repository": "slippay-labs/slippay",
-      "created_at": "2026-10-07T21:48:08Z",
-      "updated_at": "2026-11-24T11:45:55Z",
-      "payoutMentionUSD": 75,
-      "assignees": [],
-      "commentCount": 2,
-      "labels": [],
-      "score": 67,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "**Context** `routes/fourp.ts` applies the margin with `Number((gross[k] * (1 - marginBps / 10_000)).toFixed(8))`, and `apps/web/src/lib/ramp4p.ts` recomputes a displayed `dollarRate` as `brl / grossOut`. Because `grossOut` is the *pre-margin* number while `cryptoOut` is post-marg"
-    },
-    {
       "id": 6514637092,
       "title": "[Bounty] bug: Enforce zero-copy Huffman header boundary across split CONTINUATION frames ",
       "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4378",
@@ -431,10 +377,10 @@
       "html_url": "https://github.com/OrcaSlicer/OrcaSlicer/issues/17866",
       "repository": "OrcaSlicer/OrcaSlicer",
       "created_at": "2026-11-24T23:48:52Z",
-      "updated_at": "2026-11-24T23:48:52Z",
+      "updated_at": "2026-11-25T02:52:14Z",
       "payoutMentionUSD": 300,
       "assignees": [],
-      "commentCount": 0,
+      "commentCount": 5,
       "labels": [
         "enhancement"
       ],
@@ -605,23 +551,24 @@
       "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/IES-BoilerRoom/json-schema-dynamicref-engine/issues/2 ### 漏洞描述 / Description [150 USDC] Propagate sibling subschema annotations across `allOf` / `oneOf` branches (json-schema-dynamicref-engine) > **Automated CI C"
     },
     {
-      "id": 6479405374,
-      "title": "Draft bounty: show a wrong answer in stay-safe’s Codex report",
-      "html_url": "https://github.com/chalkbadger/stay-safe/issues/109",
-      "repository": "chalkbadger/stay-safe",
-      "created_at": "2026-11-19T00:13:03Z",
-      "updated_at": "2026-11-24T13:18:11Z",
-      "payoutMentionUSD": 100,
+      "id": 6319565996,
+      "title": "[Bounty] [Escrowed $450 USDC] Fix wire-frame ceiling off-by-one and align constant-time r",
+      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4306",
+      "repository": "zhangjiayang6835-cyber/bounty-plaza",
+      "created_at": "2026-11-11T01:28:10Z",
+      "updated_at": "2026-11-18T00:02:20Z",
+      "payoutMentionUSD": 450,
       "assignees": [],
-      "commentCount": 21,
+      "commentCount": 3,
       "labels": [
-        "research"
+        "bounty",
+        "real"
       ],
       "score": 63,
       "status": "POTENTIAL PAYOUT — UNVERIFIED",
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
-      "excerpt": "**Prize status as of 2026-11-19 13:00 UTC — no cash prize is open.** We judge each submission under the terms shown on this page when it was posted. [Awards and eligibility](#prize-status) For this beta, post one challenge at a time in the relevant project’s bounty thread, up to "
+      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/IES-BoilerRoom/ed25519-ct-limb-verifier/issues/1 ### 漏洞描述 / Description [Escrowed $450 USDC] Fix wire-frame ceiling off-by-one and align constant-time radix-51 carry mask (`unpack_scalar_wire_frames`) > **Automat"
     },
     {
       "id": 6452884976,
@@ -1198,6 +1145,68 @@
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
       "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/IES-BoilerRoom/rfc9421-http-signature-gateway/issues/2 ### 漏洞描述 / Description [Escrowed $600 USDC] Reconcile structured-field dictionary serialization across proxy hops (`rfc9421-http-signature-gateway`) > **Auto"
+    },
+    {
+      "id": 6362125418,
+      "title": "[Bounty] [Escrowed $450 USDC] Fix signature-base line wrapping ceiling and align `@signat",
+      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4316",
+      "repository": "zhangjiayang6835-cyber/bounty-plaza",
+      "created_at": "2026-11-13T00:41:12Z",
+      "updated_at": "2026-11-14T07:00:06Z",
+      "payoutMentionUSD": 450,
+      "assignees": [],
+      "commentCount": 1,
+      "labels": [
+        "bounty",
+        "real"
+      ],
+      "score": 63,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/IES-BoilerRoom/rfc9421-http-signature-gateway/issues/1 ### 漏洞描述 / Description [Escrowed $450 USDC] Fix signature-base line wrapping ceiling and align `@signature-params` witness (`canonicalize_http_sig_frames`) >"
+    },
+    {
+      "id": 2997348511,
+      "title": "[OPEN Bounty] - Benchmark our weightless NNs on a new dataset",
+      "html_url": "https://github.com/aolabsai/ao_pyth/issues/10",
+      "repository": "aolabsai/ao_pyth",
+      "created_at": "2024-12-19T22:42:31Z",
+      "updated_at": "2026-11-25T04:45:04Z",
+      "payoutMentionUSD": 300,
+      "assignees": [],
+      "commentCount": 4,
+      "labels": [
+        "enhancement",
+        "help wanted",
+        "good first issue",
+        "paused - not accepting new contributors"
+      ],
+      "score": 62,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "At AO Labs, we’re building AI systems that can learn after training. Post-training learning is a new frontier in AI, quite underexplored, and it’s an open question where continuous learning excels. We’ve applied our weightless neural network agent to a range of datasets, from MNI"
+    },
+    {
+      "id": 6593660372,
+      "title": "[Bounty] ($75) perf/fix: Align Fiat-Shamir challenge domain separator across multi-proof ",
+      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4398",
+      "repository": "zhangjiayang6835-cyber/bounty-plaza",
+      "created_at": "2026-11-24T23:39:11Z",
+      "updated_at": "2026-11-25T00:51:11Z",
+      "payoutMentionUSD": 75,
+      "assignees": [],
+      "commentCount": 3,
+      "labels": [
+        "bounty",
+        "real"
+      ],
+      "score": 62,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/IES-BoilerRoom/zk-plonk-transcript-verifier/issues/2 ### 漏洞描述 / Description ($75) perf/fix: Align Fiat-Shamir challenge domain separator across multi-proof aggregation (zk-plonk-transcript-verifier) > **Automated"
     }
   ],
   "disclaimer": "No verified payouts or earnings; these are public issue candidates. Manually confirm funding, assignment, eligibility, security and payment terms. Never pay to join, disclose secrets or begin work without terms."
