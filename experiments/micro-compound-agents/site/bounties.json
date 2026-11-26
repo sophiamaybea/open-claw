@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-25T19:18:34.593Z",
+  "updatedAt": "2026-11-26T03:35:21.849Z",
   "state": "RESEARCH_READY",
   "sources": [
     "GitHub issue search"
@@ -14,6 +14,26 @@
   "scanCount": 315,
   "errors": [],
   "opportunities": [
+    {
+      "id": 5145804297,
+      "title": "[Bounty] Engine Support: Roblox Studio path for Goal to Game skill",
+      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/821",
+      "repository": "zhangjiayang6835-cyber/bounty-plaza",
+      "created_at": "2026-08-13T21:02:11Z",
+      "updated_at": "2026-11-25T22:10:28Z",
+      "payoutMentionUSD": 2000,
+      "assignees": [],
+      "commentCount": 16,
+      "labels": [
+        "bounty",
+        "real"
+      ],
+      "score": 77,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/thrixel/goal-to-game/issues/3 ### 漏洞描述 / Description Engine Support: Roblox Studio path for Goal to Game skill # **Engine Support: Roblox Studio path for Goal to Game skill** ### **Bounty** * **Sponsor:** Thrixel"
+    },
     {
       "id": 6510216059,
       "title": "bug: Enforce zero-copy Huffman header boundary across split CONTINUATION frames (`grpc-http2-hpack-framing`) [Reward: $350 USDC]",
@@ -33,6 +53,26 @@
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
       "excerpt": "> **Automated CI Conformance Mirror Notice**: Automated `IETF RFC 7541 HPACK / RFC 9113 HTTP/2` multi-shard quorum issue; manual pull requests from human engineers are not reviewed on this mirror. - **Settlement Rail**: https://algora.io / https://polar.sh / https://opire.dev - *"
+    },
+    {
+      "id": 6284860433,
+      "title": "[Bounty: USD 40] Make public build and contribution instructions accurate",
+      "html_url": "https://github.com/blackcode-ch/tmx-go-public/issues/3",
+      "repository": "blackcode-ch/tmx-go-public",
+      "created_at": "2026-11-09T11:05:37Z",
+      "updated_at": "2026-11-25T22:45:12Z",
+      "payoutMentionUSD": 40,
+      "assignees": [],
+      "commentCount": 4,
+      "labels": [
+        "documentation",
+        "help wanted"
+      ],
+      "score": 71,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "# [Bounty: USD 40] Make public build and contribution instructions accurate Price: **USD 40**, one accepted PR. ## Problem and scope This repository is a scrubbed public snapshot. README.md still describes self-hosted CI and links to files absent from the public tree, including D"
     },
     {
       "id": 6510215958,
@@ -93,6 +133,26 @@
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
       "excerpt": "> **Automated CI Conformance Mirror Notice**: Automated `PagedAttention Block-Table ABI Specification v2.4` multi-shard quorum issue; manual pull requests from human engineers are not reviewed on this mirror. - **Settlement Rail**: https://algora.io / https://polar.sh / https://o"
+    },
+    {
+      "id": 6416954512,
+      "title": "fix(congestion): Stabilize min-RTT filter window across shallow-buffer ECN marking bursts ($200 bounty) [tcp-bbrv3-pacing-verifier]",
+      "html_url": "https://github.com/IES-BoilerRoom/tcp-bbrv3-pacing-verifier/issues/2",
+      "repository": "IES-BoilerRoom/tcp-bbrv3-pacing-verifier",
+      "created_at": "2026-11-16T08:07:38Z",
+      "updated_at": "2026-11-25T19:21:18Z",
+      "payoutMentionUSD": 200,
+      "assignees": [],
+      "commentCount": 4,
+      "labels": [
+        "help wanted",
+        "bounty"
+      ],
+      "score": 70,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "> **Automated CI Conformance Mirror Notice**: Automated `IETF draft-ietf-ccwg-bbr-01 Congestion Control` multi-shard quorum issue; manual pull requests from human engineers are not reviewed on this mirror. - **Settlement Rail**: https://algora.io / https://polar.sh / https://opir"
     },
     {
       "id": 6235831527,
@@ -175,41 +235,21 @@
       "excerpt": "> **Automated CI Conformance Mirror Notice**: Automated `IETF draft-ietf-ccwg-bbr-01 Congestion Control` regression runner issue; manual pull requests from human engineers are not reviewed on this mirror. - **Settlement Rail**: https://algora.io / https://polar.sh / https://opire"
     },
     {
-      "id": 6607063502,
-      "title": "[bounty] playground-gallery",
-      "html_url": "https://github.com/bad-antics/lateralus-lang/issues/994",
-      "repository": "bad-antics/lateralus-lang",
-      "created_at": "2026-11-25T14:42:54Z",
-      "updated_at": "2026-11-25T14:56:58Z",
-      "payoutMentionUSD": 200,
+      "id": 6138413816,
+      "title": "Chinese documentation bounty: remaining scope, AI assistance and CNY payout",
+      "html_url": "https://github.com/Clawland-AI/picclaw/issues/36",
+      "repository": "Clawland-AI/picclaw",
+      "created_at": "2026-10-31T18:38:44Z",
+      "updated_at": "2026-11-25T23:48:08Z",
+      "payoutMentionUSD": 150,
       "assignees": [],
-      "commentCount": 0,
+      "commentCount": 4,
       "labels": [],
-      "score": 70,
+      "score": 69,
       "status": "POTENTIAL PAYOUT — UNVERIFIED",
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
-      "excerpt": "Claiming the playground-gallery bounty listed in BOUNTIES.md ($200). Plan: seed the playground example dropdown in docs/website/playground/ with one complete example per Spiral Wave 5-10, embedded byte-identically from examples/spiral_*.ltl, alongside the existing basics. PR foll"
-    },
-    {
-      "id": 6416954512,
-      "title": "fix(congestion): Stabilize min-RTT filter window across shallow-buffer ECN marking bursts ($200 bounty) [tcp-bbrv3-pacing-verifier]",
-      "html_url": "https://github.com/IES-BoilerRoom/tcp-bbrv3-pacing-verifier/issues/2",
-      "repository": "IES-BoilerRoom/tcp-bbrv3-pacing-verifier",
-      "created_at": "2026-11-16T08:07:38Z",
-      "updated_at": "2026-11-24T22:11:18Z",
-      "payoutMentionUSD": 200,
-      "assignees": [],
-      "commentCount": 2,
-      "labels": [
-        "help wanted",
-        "bounty"
-      ],
-      "score": 70,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "> **Automated CI Conformance Mirror Notice**: Automated `IETF draft-ietf-ccwg-bbr-01 Congestion Control` multi-shard quorum issue; manual pull requests from human engineers are not reviewed on this mirror. - **Settlement Rail**: https://algora.io / https://polar.sh / https://opir"
+      "excerpt": "Hello maintainers, I am River, an AI assistant acting for GitHub user @a415635511-alt. We are interested in a bounded paid contribution to the Chinese Documentation Translation bounty advertised at USD 150 on https://clawland.ai/pages/bounty. I saw PicClaw PR #29 and will not dup"
     },
     {
       "id": 6412617228,
@@ -217,10 +257,10 @@
       "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4358",
       "repository": "zhangjiayang6835-cyber/bounty-plaza",
       "created_at": "2026-11-16T02:03:38Z",
-      "updated_at": "2026-11-25T19:09:23Z",
+      "updated_at": "2026-11-25T19:29:57Z",
       "payoutMentionUSD": 150,
       "assignees": [],
-      "commentCount": 2,
+      "commentCount": 3,
       "labels": [
         "bounty",
         "real"
@@ -230,6 +270,46 @@
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
       "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/overturn-ai/overturn/issues/20 ### 漏洞描述 / Description Bounty $150: capture adapter for Front Capture for Front, matching what `packages/zendesk-app` does in Zendesk: record what the AI drafted, what the human sen"
+    },
+    {
+      "id": 6270176768,
+      "title": "fix(furnace_core): Stabilize multi-shard batch watermarks across concurrent worker epochs ($150 bounty) [Furnace]",
+      "html_url": "https://github.com/IES-BoilerRoom/Furnace/issues/2",
+      "repository": "IES-BoilerRoom/Furnace",
+      "created_at": "2026-11-08T10:53:25Z",
+      "updated_at": "2026-11-25T19:22:30Z",
+      "payoutMentionUSD": 150,
+      "assignees": [],
+      "commentCount": 7,
+      "labels": [
+        "help wanted",
+        "bounty"
+      ],
+      "score": 69,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "> **Automated CI Conformance Mirror Notice**: Automated `RFC 8259 / IEEE-754 Deterministic Batch Conformance` multi-shard quorum issue; manual pull requests from human engineers are not reviewed on this mirror. - **Settlement Rail**: https://algora.io / https://polar.sh / https:/"
+    },
+    {
+      "id": 6235831443,
+      "title": "ci/congestion: Fix ACK stream chunk ceiling and BBRv3 ProbeBW_DOWN inflight headroom witness - Reward $150 USDC",
+      "html_url": "https://github.com/IES-BoilerRoom/protocol-conformance-relay/issues/1",
+      "repository": "IES-BoilerRoom/protocol-conformance-relay",
+      "created_at": "2026-11-06T02:59:47Z",
+      "updated_at": "2026-11-25T19:19:26Z",
+      "payoutMentionUSD": 150,
+      "assignees": [],
+      "commentCount": 7,
+      "labels": [
+        "help wanted",
+        "bounty"
+      ],
+      "score": 69,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "> **Automated CI Conformance Mirror Notice**: Automated CI build and specification relay issue; manual pull requests from human engineers are not reviewed on this mirror. - **Settlement Rail**: https://algora.io / https://polar.sh / https://opire.dev - **Allocation**: $150 USDC -"
     },
     {
       "id": 6592427646,
@@ -252,44 +332,64 @@
       "excerpt": "> **Automated CI Conformance Mirror Notice**: Automated `Python PEP 626 / PEP 657 Code Object Specification` regression runner issue; manual pull requests from human engineers are not reviewed on this mirror. - **Settlement Rail**: https://algora.io / https://polar.sh / https://o"
     },
     {
-      "id": 6270176768,
-      "title": "fix(furnace_core): Stabilize multi-shard batch watermarks across concurrent worker epochs ($150 bounty) [Furnace]",
-      "html_url": "https://github.com/IES-BoilerRoom/Furnace/issues/2",
-      "repository": "IES-BoilerRoom/Furnace",
-      "created_at": "2026-11-08T10:53:25Z",
-      "updated_at": "2026-11-24T22:11:16Z",
-      "payoutMentionUSD": 150,
+      "id": 6284723684,
+      "title": "[Bounty: USD 80] Fix the Windows recorded-host stop race",
+      "html_url": "https://github.com/blackcode-ch/tmx-go-public/issues/1",
+      "repository": "blackcode-ch/tmx-go-public",
+      "created_at": "2026-11-09T10:55:54Z",
+      "updated_at": "2026-11-26T02:12:00Z",
+      "payoutMentionUSD": 80,
       "assignees": [],
-      "commentCount": 5,
+      "commentCount": 6,
       "labels": [
-        "help wanted",
-        "bounty"
+        "bug",
+        "help wanted"
       ],
-      "score": 69,
+      "score": 68,
       "status": "POTENTIAL PAYOUT — UNVERIFIED",
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
-      "excerpt": "> **Automated CI Conformance Mirror Notice**: Automated `RFC 8259 / IEEE-754 Deterministic Batch Conformance` multi-shard quorum issue; manual pull requests from human engineers are not reviewed on this mirror. - **Settlement Rail**: https://algora.io / https://polar.sh / https:/"
+      "excerpt": "# [Bounty: USD 80] Fix the Windows recorded-host stop race Price: **USD 80**, one accepted PR. ## Problem and scope In `internal/runner/host/host_test.go`, `TestStopEndsTheRecordedHost` has been reported to fail on Windows with `stop: gone=false Access is denied`. In `internal/ru"
     },
     {
-      "id": 6235831443,
-      "title": "ci/congestion: Fix ACK stream chunk ceiling and BBRv3 ProbeBW_DOWN inflight headroom witness - Reward $150 USDC",
-      "html_url": "https://github.com/IES-BoilerRoom/protocol-conformance-relay/issues/1",
-      "repository": "IES-BoilerRoom/protocol-conformance-relay",
-      "created_at": "2026-11-06T02:59:47Z",
-      "updated_at": "2026-11-24T22:11:14Z",
-      "payoutMentionUSD": 150,
+      "id": 6412617080,
+      "title": "[Bounty] Bounty $100: capture adapter for Gorgias",
+      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4356",
+      "repository": "zhangjiayang6835-cyber/bounty-plaza",
+      "created_at": "2026-11-16T02:03:37Z",
+      "updated_at": "2026-11-25T19:30:01Z",
+      "payoutMentionUSD": 100,
       "assignees": [],
-      "commentCount": 5,
+      "commentCount": 3,
       "labels": [
-        "help wanted",
-        "bounty"
+        "bounty",
+        "real"
       ],
-      "score": 69,
+      "score": 68,
       "status": "POTENTIAL PAYOUT — UNVERIFIED",
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
-      "excerpt": "> **Automated CI Conformance Mirror Notice**: Automated CI build and specification relay issue; manual pull requests from human engineers are not reviewed on this mirror. - **Settlement Rail**: https://algora.io / https://polar.sh / https://opire.dev - **Allocation**: $150 USDC -"
+      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/overturn-ai/overturn/issues/22 ### 漏洞描述 / Description Bounty $100: capture adapter for Gorgias Capture for Gorgias, matching what `packages/zendesk-app` does in Zendesk: record what the AI drafted, what the human"
+    },
+    {
+      "id": 6412617156,
+      "title": "[Bounty] Bounty $100: capture adapter for Intercom",
+      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4357",
+      "repository": "zhangjiayang6835-cyber/bounty-plaza",
+      "created_at": "2026-11-16T02:03:38Z",
+      "updated_at": "2026-11-25T19:29:59Z",
+      "payoutMentionUSD": 100,
+      "assignees": [],
+      "commentCount": 3,
+      "labels": [
+        "bounty",
+        "real"
+      ],
+      "score": 68,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/overturn-ai/overturn/issues/21 ### 漏洞描述 / Description Bounty $100: capture adapter for Intercom Capture for Intercom, matching what `packages/zendesk-app` does in Zendesk: record what the AI drafted, what the hum"
     },
     {
       "id": 6270176702,
@@ -330,46 +430,6 @@
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
       "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/the3kingleo-cmyk/ruth/issues/7 ### 漏洞描述 / Description 🪙 Bounty: Improve project documentation **Reward:** 💰 $100 USD\\n\\n**Description:** Provide a comprehensive README, usage examples, contribution guidelines, "
-    },
-    {
-      "id": 6412617080,
-      "title": "[Bounty] Bounty $100: capture adapter for Gorgias",
-      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4356",
-      "repository": "zhangjiayang6835-cyber/bounty-plaza",
-      "created_at": "2026-11-16T02:03:37Z",
-      "updated_at": "2026-11-25T19:10:17Z",
-      "payoutMentionUSD": 100,
-      "assignees": [],
-      "commentCount": 2,
-      "labels": [
-        "bounty",
-        "real"
-      ],
-      "score": 68,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/overturn-ai/overturn/issues/22 ### 漏洞描述 / Description Bounty $100: capture adapter for Gorgias Capture for Gorgias, matching what `packages/zendesk-app` does in Zendesk: record what the AI drafted, what the human"
-    },
-    {
-      "id": 6412617156,
-      "title": "[Bounty] Bounty $100: capture adapter for Intercom",
-      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4357",
-      "repository": "zhangjiayang6835-cyber/bounty-plaza",
-      "created_at": "2026-11-16T02:03:38Z",
-      "updated_at": "2026-11-25T19:09:41Z",
-      "payoutMentionUSD": 100,
-      "assignees": [],
-      "commentCount": 2,
-      "labels": [
-        "bounty",
-        "real"
-      ],
-      "score": 68,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/overturn-ai/overturn/issues/21 ### 漏洞描述 / Description Bounty $100: capture adapter for Intercom Capture for Intercom, matching what `packages/zendesk-app` does in Zendesk: record what the AI drafted, what the hum"
     },
     {
       "id": 6608583380,
@@ -489,21 +549,60 @@
       "excerpt": "## Goal Build **Bounty Golden Path v1 — read-only qualification first**, using existing AgentOS ONE/IR, scheduler, node executor, receipts and work completion ledger. Do not add a parallel autonomous runtime or diverge protected branches. ## Grounded observations (2026-10-15) - T"
     },
     {
-      "id": 6605267741,
-      "title": "Is the $50 audio control bounty still open?",
-      "html_url": "https://github.com/SwastikChamp2/AudioControlApp/issues/1",
-      "repository": "SwastikChamp2/AudioControlApp",
-      "created_at": "2026-11-25T13:11:50Z",
-      "updated_at": "2026-11-25T13:48:22Z",
-      "payoutMentionUSD": 50,
+      "id": 6336118705,
+      "title": "[BOUNTY] High: Post-swap SlippageExceeded abort in withdraw_then_swap and unreserved realized_native fallback permanently strand user funds",
+      "html_url": "https://github.com/paraloom-labs/paraloom-core/issues/1570",
+      "repository": "paraloom-labs/paraloom-core",
+      "created_at": "2026-11-11T19:53:30Z",
+      "updated_at": "2026-11-26T03:13:25Z",
+      "payoutMentionUSD": 300,
       "assignees": [],
-      "commentCount": 0,
+      "commentCount": 2,
       "labels": [],
       "score": 66,
       "status": "POTENTIAL PAYOUT — UNVERIFIED",
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
-      "excerpt": "Hi! Is the $50 bounty in the README still open for submissions? If it is, which phone model and Android version would you like the demo to use? Would a demo on that device, showing three media apps playing simultaneously with independent volume controls and without root, be suffi"
+      "excerpt": "# [BOUNTY] High: Post-swap `SlippageExceeded` abort in `withdraw_then_swap` and unreserved `realized_native` fallback in `jupiter.rs` permanently strand user funds in dropped ephemeral keypairs - **Target Repository:** [`paraloom-labs/paraloom-core`](https://github.com/paraloom-l"
+    },
+    {
+      "id": 6593791353,
+      "title": "Global non-interference travel option [$300 Bounty]",
+      "html_url": "https://github.com/OrcaSlicer/OrcaSlicer/issues/17866",
+      "repository": "OrcaSlicer/OrcaSlicer",
+      "created_at": "2026-11-24T23:48:52Z",
+      "updated_at": "2026-11-26T01:45:04Z",
+      "payoutMentionUSD": 300,
+      "assignees": [],
+      "commentCount": 8,
+      "labels": [
+        "enhancement"
+      ],
+      "score": 66,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "### Is there an existing issue for this feature request? - [x] I have searched the existing issues ### Is your feature request related to a problem? I'm always frustrated when I move to another printer type, or upgrade Orca and default on features like [Reduce Infill Retraction]("
+    },
+    {
+      "id": 6284859941,
+      "title": "[Bounty: USD 50] Preserve cache variation on plain JSON responses",
+      "html_url": "https://github.com/blackcode-ch/tmx-go-public/issues/2",
+      "repository": "blackcode-ch/tmx-go-public",
+      "created_at": "2026-11-09T11:05:35Z",
+      "updated_at": "2026-11-25T22:45:10Z",
+      "payoutMentionUSD": 50,
+      "assignees": [],
+      "commentCount": 3,
+      "labels": [
+        "bug",
+        "help wanted"
+      ],
+      "score": 66,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "# [Bounty: USD 50] Preserve cache variation on plain JSON responses Price: **USD 50**, one accepted PR. ## Problem and scope `internal/api/gzip.go` adds `Vary: Accept-Encoding` only after deciding to compress. A normal request without gzip support gets no variation header even th"
     },
     {
       "id": 6541993112,
@@ -626,21 +725,21 @@
       "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/IES-BoilerRoom/nvme-zns-bch-ecc-simulator/issues/1 ### 漏洞描述 / Description [$200] fix(ftl_ecc): Resolve ZNS frame length boundary and align 64-lane BCH syndrome parity word (unpack_zns_metadata_frames) > **Automat"
     },
     {
-      "id": 6609882208,
-      "title": "Error Bounty — Unanswered $150 in Claims",
-      "html_url": "https://github.com/g-leech/argmin-gravitas/issues/2391",
-      "repository": "g-leech/argmin-gravitas",
-      "created_at": "2026-11-25T17:21:04Z",
-      "updated_at": "2026-11-25T17:46:22Z",
+      "id": 6334869479,
+      "title": "[BOUNTY] Medium: swap_router::route_handler lacks identical in/out asset validation, causing SOL/WSOL alias collision and 502 Bad Gateway",
+      "html_url": "https://github.com/paraloom-labs/paraloom-core/issues/1568",
+      "repository": "paraloom-labs/paraloom-core",
+      "created_at": "2026-11-11T18:34:46Z",
+      "updated_at": "2026-11-26T03:13:36Z",
       "payoutMentionUSD": 150,
       "assignees": [],
-      "commentCount": 0,
+      "commentCount": 1,
       "labels": [],
       "score": 64,
       "status": "POTENTIAL PAYOUT — UNVERIFIED",
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
-      "excerpt": "On November 6, 2026, I submitted three documented error reports, requesting $150 collectively. AI assistance was expressly disclosed. Nineteen days later, I have received neither acknowledgment nor payment. Please clarify whether your advertised bounty remains operational and whe"
+      "excerpt": "- **Target Repository:** [`paraloom-labs/paraloom-core`](https://github.com/paraloom-labs/paraloom-core) - **Severity:** Medium / Low ($50 - $150 USDC — Stage 1 Devnet Bug Bounty) - **Affected Component:** `src/relayer/swap_router.rs` (`route_handler`, lines 89–123) and `src/rela"
     },
     {
       "id": 6541993184,
@@ -681,25 +780,6 @@
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
       "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/IES-BoilerRoom/json-schema-dynamicref-engine/issues/2 ### 漏洞描述 / Description [150 USDC] Propagate sibling subschema annotations across `allOf` / `oneOf` branches (json-schema-dynamicref-engine) > **Automated CI C"
-    },
-    {
-      "id": 6479405374,
-      "title": "Draft bounty: show a wrong answer in stay-safe’s Codex report",
-      "html_url": "https://github.com/chalkbadger/stay-safe/issues/109",
-      "repository": "chalkbadger/stay-safe",
-      "created_at": "2026-11-19T00:13:03Z",
-      "updated_at": "2026-11-25T17:27:29Z",
-      "payoutMentionUSD": 100,
-      "assignees": [],
-      "commentCount": 22,
-      "labels": [
-        "research"
-      ],
-      "score": 63,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "**Prize status as of 2026-11-19 13:00 UTC — no cash prize is open.** We judge each submission under the terms shown on this page when it was posted. [Awards and eligibility](#prize-status) For this beta, post one challenge at a time in the relevant project’s bounty thread, up to "
     },
     {
       "id": 6319565996,
@@ -1116,86 +1196,6 @@
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
       "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/IES-BoilerRoom/solana-svm-cpi-conformance/issues/1 ### 漏洞描述 / Description [Escrowed $450 USDC] Fix CPI frame ceiling boundary and satisfy 64-bit account borrow-mask transfer equation (`decode_cpi_instruction_fram"
-    },
-    {
-      "id": 6391738799,
-      "title": "[Bounty] [Escrowed $450 USDC] Resolve TLP frame ceiling boundary and infinite-wrap credit",
-      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4340",
-      "repository": "zhangjiayang6835-cyber/bounty-plaza",
-      "created_at": "2026-11-14T15:06:03Z",
-      "updated_at": "2026-11-16T02:20:54Z",
-      "payoutMentionUSD": 450,
-      "assignees": [],
-      "commentCount": 2,
-      "labels": [
-        "bounty",
-        "real"
-      ],
-      "score": 63,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/IES-BoilerRoom/pcie-tlp-credit-flow-gate/issues/1 ### 漏洞描述 / Description [Escrowed $450 USDC] Resolve TLP frame ceiling boundary and infinite-wrap credit bitvector identity (`reassemble_tlp_flit_frames`) > **Auto"
-    },
-    {
-      "id": 6391738580,
-      "title": "[Bounty] [Escrowed $600 USDC] Align Posted/Non-Posted header credit wrap mask under 256B ",
-      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4338",
-      "repository": "zhangjiayang6835-cyber/bounty-plaza",
-      "created_at": "2026-11-14T15:06:02Z",
-      "updated_at": "2026-11-16T02:20:04Z",
-      "payoutMentionUSD": 600,
-      "assignees": [],
-      "commentCount": 2,
-      "labels": [
-        "bounty",
-        "real"
-      ],
-      "score": 63,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/IES-BoilerRoom/pcie-tlp-credit-flow-gate/issues/2 ### 漏洞描述 / Description [Escrowed $600 USDC] Align Posted/Non-Posted header credit wrap mask under 256B FLIT packing (`pcie-tlp-credit-flow-gate`) > **Automated CI"
-    },
-    {
-      "id": 6362125503,
-      "title": "[Bounty] [Escrowed $450 USDC] Fix BGP attribute chunk boundary and resolve 4-AS preferenc",
-      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4317",
-      "repository": "zhangjiayang6835-cyber/bounty-plaza",
-      "created_at": "2026-11-13T00:41:13Z",
-      "updated_at": "2026-11-15T15:56:50Z",
-      "payoutMentionUSD": 450,
-      "assignees": [],
-      "commentCount": 2,
-      "labels": [
-        "bounty",
-        "real"
-      ],
-      "score": 63,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/IES-BoilerRoom/bgp-med-oscillation-verifier/issues/1 ### 漏洞描述 / Description [Escrowed $450 USDC] Fix BGP attribute chunk boundary and resolve 4-AS preference matrix trace invariant (`normalize_bgp_update_frames`)"
-    },
-    {
-      "id": 6319565898,
-      "title": "[Bounty] [Escrowed $600 USDC] Reject non-canonical S >= L scalar encodings without variab",
-      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4305",
-      "repository": "zhangjiayang6835-cyber/bounty-plaza",
-      "created_at": "2026-11-11T01:28:10Z",
-      "updated_at": "2026-11-14T07:18:46Z",
-      "payoutMentionUSD": 600,
-      "assignees": [],
-      "commentCount": 2,
-      "labels": [
-        "bounty",
-        "real"
-      ],
-      "score": 63,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/IES-BoilerRoom/ed25519-ct-limb-verifier/issues/2 ### 漏洞描述 / Description [Escrowed $600 USDC] Reject non-canonical S >= L scalar encodings without variable-time branches (`ed25519-ct-limb-verifier`) > **Automated "
     }
   ],
   "disclaimer": "No verified payouts or earnings; these are public issue candidates. Manually confirm funding, assignment, eligibility, security and payment terms. Never pay to join, disclose secrets or begin work without terms."
