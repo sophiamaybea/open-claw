@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-27T23:28:43.169Z",
+  "updatedAt": "2026-11-28T07:52:27.938Z",
   "state": "RESEARCH_READY",
   "sources": [
     "GitHub issue search"
@@ -14,6 +14,74 @@
   "scanCount": 315,
   "errors": [],
   "opportunities": [
+    {
+      "id": 6584360897,
+      "title": "[Bug Bounty] Classic dashboard can replace the last selected wallet with an earlier wallet’s holdings",
+      "html_url": "https://github.com/Ayush441-python/AUREN/issues/296",
+      "repository": "Ayush441-python/AUREN",
+      "created_at": "2026-11-24T14:42:45Z",
+      "updated_at": "2026-11-28T01:22:00Z",
+      "payoutMentionUSD": 5000,
+      "assignees": [],
+      "commentCount": 6,
+      "labels": [],
+      "score": 77,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "The Classic dashboard accepts a second wallet import while the first is still loading. If the first response arrives last, the address field continues to show the second wallet, but the dashboard replaces its holdings and dollar value with the first wallet’s data. It displays a s"
+    },
+    {
+      "id": 6572214878,
+      "title": "[Bug Bounty] Fixed ETH price reverses the largest holding after wallet import",
+      "html_url": "https://github.com/Ayush441-python/AUREN/issues/275",
+      "repository": "Ayush441-python/AUREN",
+      "created_at": "2026-11-24T01:04:02Z",
+      "updated_at": "2026-11-28T01:21:57Z",
+      "payoutMentionUSD": 5800,
+      "assignees": [],
+      "commentCount": 5,
+      "labels": [],
+      "score": 77,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "## Observed behavior Wallet import prices native ETH at a fixed `$3,300` and uses it to calculate portfolio weights. The classic wallet table displays that figure as **Price** without an estimate label or quote date. The resulting allocation can change which asset the risk engine"
+    },
+    {
+      "id": 6600789818,
+      "title": "[Bug Bounty] Report verifier flags an equivalent scientific-notation dollar amount and accepts a 1000x overstatement",
+      "html_url": "https://github.com/Ayush441-python/AUREN/issues/316",
+      "repository": "Ayush441-python/AUREN",
+      "created_at": "2026-11-25T08:56:06Z",
+      "updated_at": "2026-11-28T01:21:58Z",
+      "payoutMentionUSD": 2500,
+      "assignees": [],
+      "commentCount": 5,
+      "labels": [],
+      "score": 72,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "# Report verification splits a scientific-notation amount into two unrelated numbers Reference: [`engine/report.py` at 8cb9478](https://github.com/Ayush441-python/AUREN/blob/8cb9478b005f7842c5916ac1e94c0c844f67e323/engine/report.py). `api.py` returns the verifier's `unverified_nu"
+    },
+    {
+      "id": 6584619644,
+      "title": "[Bug Bounty] /risk classifies USDC-USD/PYUSD-USD stablecoin pairs as Crypto — 100% cash gets -40% crypto-crash stress and a false +15 sector penalty",
+      "html_url": "https://github.com/Ayush441-python/AUREN/issues/297",
+      "repository": "Ayush441-python/AUREN",
+      "created_at": "2026-11-24T14:55:06Z",
+      "updated_at": "2026-11-28T01:21:54Z",
+      "payoutMentionUSD": 10000,
+      "assignees": [],
+      "commentCount": 13,
+      "labels": [],
+      "score": 72,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "**Authored by an AI agent (Matrix Neo, GitHub `matrixneoaiagent`), disclosed per project norms.** I read BOUNTY.md and searched the tracker first; this is not #217 (raw `USDC` OTC collision) and not #98 (avg_daily_value alignment). ## Summary `/risk` classifies every `*-USD` stab"
+    },
     {
       "id": 6510216059,
       "title": "bug: Enforce zero-copy Huffman header boundary across split CONTINUATION frames (`grpc-http2-hpack-framing`) [Reward: $350 USDC]",
@@ -40,10 +108,10 @@
       "html_url": "https://github.com/IES-BoilerRoom/wasm-component-canonical-abi/issues/2",
       "repository": "IES-BoilerRoom/wasm-component-canonical-abi",
       "created_at": "2026-11-27T19:14:50Z",
-      "updated_at": "2026-11-27T19:32:26Z",
+      "updated_at": "2026-11-28T07:14:25Z",
       "payoutMentionUSD": 225,
       "assignees": [],
-      "commentCount": 0,
+      "commentCount": 3,
       "labels": [
         "help wanted",
         "bounty"
@@ -75,34 +143,15 @@
       "excerpt": "> **Automated CI Conformance Mirror Notice**: Automated `IETF RFC 7541 HPACK / RFC 9113 HTTP/2` regression runner issue; manual pull requests from human engineers are not reviewed on this mirror. - **Settlement Rail**: https://algora.io / https://polar.sh / https://opire.dev - **"
     },
     {
-      "id": 5856533546,
-      "title": "Bounty ledger: claims, submissions and payouts",
-      "html_url": "https://github.com/sybil-solutions/local-ai-registry/issues/262",
-      "repository": "sybil-solutions/local-ai-registry",
-      "created_at": "2026-10-14T22:11:01Z",
-      "updated_at": "2026-11-27T22:07:02Z",
-      "payoutMentionUSD": 1000,
-      "assignees": [],
-      "commentCount": 0,
-      "labels": [
-        "bounty-ledger"
-      ],
-      "score": 70,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "Recipe bounties: who claimed, who submitted, what was accepted. Updated every hour; rules in [BOUNTIES.md](https://github.com/sybil-solutions/.github/blob/main/BOUNTIES.md); dashboard at [usage.sybilsolutions.ai](https://usage.sybilsolutions.ai/#work). **2026-11:** 1 accepted, $5"
-    },
-    {
       "id": 6653035276,
       "title": "fix(shader_math): Align WGSL constant-eval Horner polynomial rounding with runtime pipeline ($200 bounty) [wgsl-transcendental-math-core]",
       "html_url": "https://github.com/IES-BoilerRoom/wgsl-transcendental-math-core/issues/2",
       "repository": "IES-BoilerRoom/wgsl-transcendental-math-core",
       "created_at": "2026-11-27T19:14:48Z",
-      "updated_at": "2026-11-27T19:24:06Z",
+      "updated_at": "2026-11-28T07:14:27Z",
       "payoutMentionUSD": 200,
       "assignees": [],
-      "commentCount": 0,
+      "commentCount": 3,
       "labels": [
         "help wanted",
         "bounty"
@@ -114,24 +163,21 @@
       "excerpt": "> **Automated CI Conformance Mirror Notice**: Automated `W3C WGSL Floating-Point Conformance §15.7` multi-shard quorum issue; manual pull requests from human engineers are not reviewed on this mirror. - **Settlement Rail**: https://algora.io / https://polar.sh / https://opire.dev"
     },
     {
-      "id": 6592428189,
-      "title": "ci/plonk_kzg: Fix transcript chunk boundary check and grand-product coset shift witness - Reward $175 USDC",
-      "html_url": "https://github.com/IES-BoilerRoom/zk-plonk-transcript-verifier/issues/1",
-      "repository": "IES-BoilerRoom/zk-plonk-transcript-verifier",
-      "created_at": "2026-11-24T22:11:27Z",
-      "updated_at": "2026-11-27T19:14:45Z",
-      "payoutMentionUSD": 175,
+      "id": 6607063502,
+      "title": "[bounty] playground-gallery",
+      "html_url": "https://github.com/bad-antics/lateralus-lang/issues/994",
+      "repository": "bad-antics/lateralus-lang",
+      "created_at": "2026-11-25T14:42:54Z",
+      "updated_at": "2026-11-28T07:14:25Z",
+      "payoutMentionUSD": 200,
       "assignees": [],
-      "commentCount": 13,
-      "labels": [
-        "help wanted",
-        "bounty"
-      ],
+      "commentCount": 7,
+      "labels": [],
       "score": 70,
       "status": "POTENTIAL PAYOUT — UNVERIFIED",
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
-      "excerpt": "> **Automated CI Conformance Mirror Notice**: Automated `BN254 PLONK / KZG10 Transcript Conformance v1.2` regression runner issue; manual pull requests from human engineers are not reviewed on this mirror. - **Settlement Rail**: https://algora.io / https://polar.sh / https://opir"
+      "excerpt": "Claiming the playground-gallery bounty listed in BOUNTIES.md ($200). Plan: seed the playground example dropdown in docs/website/playground/ with one complete example per Spiral Wave 5-10, embedded byte-identically from examples/spiral_*.ltl, alongside the existing basics. PR foll"
     },
     {
       "id": 6538315025,
@@ -139,10 +185,10 @@
       "html_url": "https://github.com/IES-BoilerRoom/bgp-med-oscillation-verifier/issues/1",
       "repository": "IES-BoilerRoom/bgp-med-oscillation-verifier",
       "created_at": "2026-11-22T04:12:48Z",
-      "updated_at": "2026-11-27T19:14:43Z",
+      "updated_at": "2026-11-28T01:21:47Z",
       "payoutMentionUSD": 175,
       "assignees": [],
-      "commentCount": 6,
+      "commentCount": 9,
       "labels": [
         "help wanted",
         "bounty"
@@ -152,6 +198,26 @@
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
       "excerpt": "> **Automated CI Conformance Mirror Notice**: Automated `IETF RFC 4271 / RFC 7911 Route Oscillation Suite` regression runner issue; manual pull requests from human engineers are not reviewed on this mirror. - **Settlement Rail**: https://algora.io / https://polar.sh / https://opi"
+    },
+    {
+      "id": 6592428189,
+      "title": "ci/plonk_kzg: Fix transcript chunk boundary check and grand-product coset shift witness - Reward $175 USDC",
+      "html_url": "https://github.com/IES-BoilerRoom/zk-plonk-transcript-verifier/issues/1",
+      "repository": "IES-BoilerRoom/zk-plonk-transcript-verifier",
+      "created_at": "2026-11-24T22:11:27Z",
+      "updated_at": "2026-11-28T01:21:46Z",
+      "payoutMentionUSD": 175,
+      "assignees": [],
+      "commentCount": 16,
+      "labels": [
+        "help wanted",
+        "bounty"
+      ],
+      "score": 70,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "> **Automated CI Conformance Mirror Notice**: Automated `BN254 PLONK / KZG10 Transcript Conformance v1.2` regression runner issue; manual pull requests from human engineers are not reviewed on this mirror. - **Settlement Rail**: https://algora.io / https://polar.sh / https://opir"
     },
     {
       "id": 6416954512,
@@ -219,10 +285,10 @@
       "html_url": "https://github.com/IES-BoilerRoom/wgsl-transcendental-math-core/issues/1",
       "repository": "IES-BoilerRoom/wgsl-transcendental-math-core",
       "created_at": "2026-11-27T19:14:47Z",
-      "updated_at": "2026-11-27T19:23:00Z",
+      "updated_at": "2026-11-28T07:14:28Z",
       "payoutMentionUSD": 150,
       "assignees": [],
-      "commentCount": 0,
+      "commentCount": 3,
       "labels": [
         "help wanted",
         "bounty"
@@ -232,6 +298,23 @@
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
       "excerpt": "> **Automated CI Conformance Mirror Notice**: Automated `W3C WGSL Floating-Point Conformance §15.7` regression runner issue; manual pull requests from human engineers are not reviewed on this mirror. - **Settlement Rail**: https://algora.io / https://polar.sh / https://opire.dev "
+    },
+    {
+      "id": 6574393380,
+      "title": "[bounty] rosetta-20",
+      "html_url": "https://github.com/bad-antics/lateralus-lang/issues/923",
+      "repository": "bad-antics/lateralus-lang",
+      "created_at": "2026-11-24T04:08:14Z",
+      "updated_at": "2026-11-28T07:14:28Z",
+      "payoutMentionUSD": 150,
+      "assignees": [],
+      "commentCount": 9,
+      "labels": [],
+      "score": 69,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "### Component Documentation / Examples ### Claiming Claiming the `rosetta-20` bounty ($150) from BOUNTIES.md. ### Plan - Add 20 Lateralus solutions under `examples/rosetta/` covering the repo's strong lanes: hashes (SHA-256, BLAKE2b), codecs (base64, hex, run-length), formats (JS"
     },
     {
       "id": 6270176768,
@@ -279,10 +362,10 @@
       "html_url": "https://github.com/IES-BoilerRoom/wasm-component-canonical-abi/issues/1",
       "repository": "IES-BoilerRoom/wasm-component-canonical-abi",
       "created_at": "2026-11-27T19:14:49Z",
-      "updated_at": "2026-11-27T19:25:12Z",
+      "updated_at": "2026-11-28T07:14:32Z",
       "payoutMentionUSD": 100,
       "assignees": [],
-      "commentCount": 0,
+      "commentCount": 3,
       "labels": [
         "help wanted",
         "bounty"
@@ -292,6 +375,43 @@
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
       "excerpt": "> **Automated CI Conformance Mirror Notice**: Automated `W3C WebAssembly Component Model Canonical ABI` regression runner issue; manual pull requests from human engineers are not reviewed on this mirror. - **Settlement Rail**: https://algora.io / https://polar.sh / https://opire."
+    },
+    {
+      "id": 6608583380,
+      "title": "[Bounty] Bounty program: community detection/DLP rules with corpus fixtures",
+      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4400",
+      "repository": "zhangjiayang6835-cyber/bounty-plaza",
+      "created_at": "2026-11-25T16:08:24Z",
+      "updated_at": "2026-11-28T07:14:30Z",
+      "payoutMentionUSD": 100,
+      "assignees": [],
+      "commentCount": 7,
+      "labels": [
+        "bounty",
+        "real"
+      ],
+      "score": 68,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/blitzcrieg1/agentmetry/issues/454 ### 漏洞描述 / Description Bounty program: community detection/DLP rules with corpus fixtures # Detection rule bounty program Agentmetry's detection engine is only as good as its rul"
+    },
+    {
+      "id": 6552045333,
+      "title": "[bounty] aoc-2024-all-25",
+      "html_url": "https://github.com/bad-antics/lateralus-lang/issues/831",
+      "repository": "bad-antics/lateralus-lang",
+      "created_at": "2026-11-23T04:07:09Z",
+      "updated_at": "2026-11-28T04:28:26Z",
+      "payoutMentionUSD": 500,
+      "assignees": [],
+      "commentCount": 4,
+      "labels": [],
+      "score": 68,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "Claiming `[bounty] aoc-2024-all-25` ($500) per BOUNTIES.md, as it requires an issue titled `[bounty] <name>` before starting. ## Progress PR with 22 of 25 days: https://github.com/bad-antics/lateralus-lang/pull/830 | Day | Puzzle | Part 1 | Part 2 | |---|---|---|---| | 4 | Ceres "
     },
     {
       "id": 6270176702,
@@ -312,46 +432,6 @@
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
       "excerpt": "> **Automated CI Conformance Mirror Notice**: Automated `RFC 8259 / IEEE-754 Deterministic Batch Conformance` regression runner issue; manual pull requests from human engineers are not reviewed on this mirror. - **Settlement Rail**: https://algora.io / https://polar.sh / https://"
-    },
-    {
-      "id": 6284723684,
-      "title": "[Bounty: USD 80] Fix the Windows recorded-host stop race",
-      "html_url": "https://github.com/blackcode-ch/tmx-go-public/issues/1",
-      "repository": "blackcode-ch/tmx-go-public",
-      "created_at": "2026-11-09T10:55:54Z",
-      "updated_at": "2026-11-27T14:22:00Z",
-      "payoutMentionUSD": 80,
-      "assignees": [],
-      "commentCount": 7,
-      "labels": [
-        "bug",
-        "help wanted"
-      ],
-      "score": 68,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "# [Bounty: USD 80] Fix the Windows recorded-host stop race Price: **USD 80**, one accepted PR. ## Problem and scope In `internal/runner/host/host_test.go`, `TestStopEndsTheRecordedHost` has been reported to fail on Windows with `stop: gone=false Access is denied`. In `internal/ru"
-    },
-    {
-      "id": 6608583380,
-      "title": "[Bounty] Bounty program: community detection/DLP rules with corpus fixtures",
-      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4400",
-      "repository": "zhangjiayang6835-cyber/bounty-plaza",
-      "created_at": "2026-11-25T16:08:24Z",
-      "updated_at": "2026-11-27T12:02:44Z",
-      "payoutMentionUSD": 100,
-      "assignees": [],
-      "commentCount": 4,
-      "labels": [
-        "bounty",
-        "real"
-      ],
-      "score": 68,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/blitzcrieg1/agentmetry/issues/454 ### 漏洞描述 / Description Bounty program: community detection/DLP rules with corpus fixtures # Detection rule bounty program Agentmetry's detection engine is only as good as its rul"
     },
     {
       "id": 6452884976,
@@ -394,35 +474,15 @@
       "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/IES-BoilerRoom/wgsl-transcendental-math-core/issues/1 ### 漏洞描述 / Description [Escrowed $450 USDC] Correct packet frame boundary clamp and 0.5-ULP FMA range-reduction tie-break (`fold_wgsl_radiance_frames`) > **Au"
     },
     {
-      "id": 6592428327,
-      "title": "($75) perf/fix: Align Fiat-Shamir challenge domain separator across multi-proof aggregation (zk-plonk-transcript-verifier)",
-      "html_url": "https://github.com/IES-BoilerRoom/zk-plonk-transcript-verifier/issues/2",
-      "repository": "IES-BoilerRoom/zk-plonk-transcript-verifier",
-      "created_at": "2026-11-24T22:11:28Z",
-      "updated_at": "2026-11-27T19:14:46Z",
-      "payoutMentionUSD": 75,
-      "assignees": [],
-      "commentCount": 7,
-      "labels": [
-        "help wanted",
-        "bounty"
-      ],
-      "score": 67,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "> **Automated CI Conformance Mirror Notice**: Automated `BN254 PLONK / KZG10 Transcript Conformance v1.2` multi-shard quorum issue; manual pull requests from human engineers are not reviewed on this mirror. - **Settlement Rail**: https://algora.io / https://polar.sh / https://opi"
-    },
-    {
       "id": 6538315074,
       "title": "[$75] fix(routing): Eliminate persistent route-reflector MED cycle across confederation peers (bgp-med-oscillation-verifier)",
       "html_url": "https://github.com/IES-BoilerRoom/bgp-med-oscillation-verifier/issues/2",
       "repository": "IES-BoilerRoom/bgp-med-oscillation-verifier",
       "created_at": "2026-11-22T04:12:48Z",
-      "updated_at": "2026-11-27T19:14:44Z",
+      "updated_at": "2026-11-28T01:21:50Z",
       "payoutMentionUSD": 75,
       "assignees": [],
-      "commentCount": 7,
+      "commentCount": 10,
       "labels": [
         "help wanted",
         "bounty"
@@ -432,6 +492,26 @@
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
       "excerpt": "> **Automated CI Conformance Mirror Notice**: Automated `IETF RFC 4271 / RFC 7911 Route Oscillation Suite` multi-shard quorum issue; manual pull requests from human engineers are not reviewed on this mirror. - **Settlement Rail**: https://algora.io / https://polar.sh / https://op"
+    },
+    {
+      "id": 6592428327,
+      "title": "($75) perf/fix: Align Fiat-Shamir challenge domain separator across multi-proof aggregation (zk-plonk-transcript-verifier)",
+      "html_url": "https://github.com/IES-BoilerRoom/zk-plonk-transcript-verifier/issues/2",
+      "repository": "IES-BoilerRoom/zk-plonk-transcript-verifier",
+      "created_at": "2026-11-24T22:11:28Z",
+      "updated_at": "2026-11-28T01:21:49Z",
+      "payoutMentionUSD": 75,
+      "assignees": [],
+      "commentCount": 10,
+      "labels": [
+        "help wanted",
+        "bounty"
+      ],
+      "score": 67,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "> **Automated CI Conformance Mirror Notice**: Automated `BN254 PLONK / KZG10 Transcript Conformance v1.2` multi-shard quorum issue; manual pull requests from human engineers are not reviewed on this mirror. - **Settlement Rail**: https://algora.io / https://polar.sh / https://opi"
     },
     {
       "id": 6514637092,
@@ -471,15 +551,32 @@
       "excerpt": "## Goal Build **Bounty Golden Path v1 — read-only qualification first**, using existing AgentOS ONE/IR, scheduler, node executor, receipts and work completion ledger. Do not add a parallel autonomous runtime or diverge protected branches. ## Grounded observations (2026-10-15) - T"
     },
     {
+      "id": 6561862690,
+      "title": "[bounty] benchmark-ingest — stdlib micro-benchmarks (xxhash64 / lz4 / chacha20 / aho_corasick / radix_sort)",
+      "html_url": "https://github.com/bad-antics/lateralus-lang/issues/865",
+      "repository": "bad-antics/lateralus-lang",
+      "created_at": "2026-11-23T14:45:27Z",
+      "updated_at": "2026-11-28T07:14:24Z",
+      "payoutMentionUSD": 250,
+      "assignees": [],
+      "commentCount": 7,
+      "labels": [],
+      "score": 66,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "Claiming the recurring `[bounty] benchmark-ingest` ($250). Working state (verifiable now): **Reference implementations done** — `benchmarks/reference/stdlib_bench.py` and `stdlib_bench.js` implement all five workloads with identical input generators (XorShift32, same seeds) and i"
+    },
+    {
       "id": 6593791353,
       "title": "Global non-interference travel option [$300 Bounty]",
       "html_url": "https://github.com/OrcaSlicer/OrcaSlicer/issues/17866",
       "repository": "OrcaSlicer/OrcaSlicer",
       "created_at": "2026-11-24T23:48:52Z",
-      "updated_at": "2026-11-27T16:26:26Z",
+      "updated_at": "2026-11-28T01:21:56Z",
       "payoutMentionUSD": 300,
       "assignees": [],
-      "commentCount": 14,
+      "commentCount": 17,
       "labels": [
         "enhancement"
       ],
@@ -488,6 +585,26 @@
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
       "excerpt": "### Is there an existing issue for this feature request? - [x] I have searched the existing issues ### Is your feature request related to a problem? I'm always frustrated when I move to another printer type, or upgrade Orca and default on features like [Reduce Infill Retraction]("
+    },
+    {
+      "id": 6541993112,
+      "title": "[Bounty] fix(dwarf_trace): Preserve exact column-offset delta invariants across exception",
+      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4382",
+      "repository": "zhangjiayang6835-cyber/bounty-plaza",
+      "created_at": "2026-11-22T11:46:54Z",
+      "updated_at": "2026-11-28T01:21:44Z",
+      "payoutMentionUSD": 250,
+      "assignees": [],
+      "commentCount": 8,
+      "labels": [
+        "bounty",
+        "real"
+      ],
+      "score": 66,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/IES-BoilerRoom/cpython-pep626-line-profiler/issues/2 ### 漏洞描述 / Description fix(dwarf_trace): Preserve exact column-offset delta invariants across exception handler tables ($250 bounty) [cpython-pep626-line-profi"
     },
     {
       "id": 6514637235,
@@ -510,35 +627,15 @@
       "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/IES-BoilerRoom/grpc-http2-hpack-framing/issues/1 ### 漏洞描述 / Description fix(http2_hpack): Fix HTTP/2 frame payload ceiling and HPACK dynamic table shard eviction witness ($250 bounty) [unpack_hpack_header_frames]"
     },
     {
-      "id": 6541993112,
-      "title": "[Bounty] fix(dwarf_trace): Preserve exact column-offset delta invariants across exception",
-      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4382",
-      "repository": "zhangjiayang6835-cyber/bounty-plaza",
-      "created_at": "2026-11-22T11:46:54Z",
-      "updated_at": "2026-11-27T13:12:49Z",
-      "payoutMentionUSD": 250,
-      "assignees": [],
-      "commentCount": 5,
-      "labels": [
-        "bounty",
-        "real"
-      ],
-      "score": 66,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/IES-BoilerRoom/cpython-pep626-line-profiler/issues/2 ### 漏洞描述 / Description fix(dwarf_trace): Preserve exact column-offset delta invariants across exception handler tables ($250 bounty) [cpython-pep626-line-profi"
-    },
-    {
       "id": 6593660533,
       "title": "[Bounty] ci/plonk_kzg: Fix transcript chunk boundary check and grand-product coset shift ",
       "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4399",
       "repository": "zhangjiayang6835-cyber/bounty-plaza",
       "created_at": "2026-11-24T23:39:12Z",
-      "updated_at": "2026-11-27T12:02:43Z",
+      "updated_at": "2026-11-28T01:21:45Z",
       "payoutMentionUSD": 175,
       "assignees": [],
-      "commentCount": 5,
+      "commentCount": 8,
       "labels": [
         "bounty",
         "real"
@@ -610,15 +707,51 @@
       "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/IES-BoilerRoom/json-schema-dynamicref-engine/issues/1 ### 漏洞描述 / Description bug: Fix JSON stream chunk ceiling and resolve recursive `$dynamicAnchor` scope tag (`evaluate_instance_frames`) [Reward: $175 USDC] > "
     },
     {
+      "id": 6565053923,
+      "title": "[bounty] stdlib.mem tutorial",
+      "html_url": "https://github.com/bad-antics/lateralus-lang/issues/890",
+      "repository": "bad-antics/lateralus-lang",
+      "created_at": "2026-11-23T17:31:31Z",
+      "updated_at": "2026-11-28T07:14:38Z",
+      "payoutMentionUSD": 25,
+      "assignees": [],
+      "commentCount": 3,
+      "labels": [
+        "enhancement"
+      ],
+      "score": 64,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "### Component Documentation ### Problem or motivation I'd like to claim the recurring $25 tutorial bounty for `stdlib/mem.ltl`, focusing on `align_up`, `align_down`, and `is_aligned`. I verified the three existing helpers on `621ae1b` with the Python backend. ### Proposed solutio"
+    },
+    {
+      "id": 6609882208,
+      "title": "Error Bounty — Unanswered $150 in Claims",
+      "html_url": "https://github.com/g-leech/argmin-gravitas/issues/2391",
+      "repository": "g-leech/argmin-gravitas",
+      "created_at": "2026-11-25T17:21:04Z",
+      "updated_at": "2026-11-28T07:14:29Z",
+      "payoutMentionUSD": 150,
+      "assignees": [],
+      "commentCount": 7,
+      "labels": [],
+      "score": 64,
+      "status": "POTENTIAL PAYOUT — UNVERIFIED",
+      "requiresHumanVerification": true,
+      "source": "Public GitHub issue",
+      "excerpt": "On November 6, 2026, I submitted three documented error reports, requesting $150 collectively. AI assistance was expressly disclosed. Nineteen days later, I have received neither acknowledgment nor payment. Please clarify whether your advertised bounty remains operational and whe"
+    },
+    {
       "id": 6655983712,
       "title": "Request: billboard placement list (model + world X/Y/Z), $150 bounty",
       "html_url": "https://github.com/Ahmet-Dedeler/awesome-gta6-reverse-engineering/issues/34",
       "repository": "Ahmet-Dedeler/awesome-gta6-reverse-engineering",
       "created_at": "2026-11-27T23:19:17Z",
-      "updated_at": "2026-11-27T23:26:43Z",
+      "updated_at": "2026-11-28T07:02:01Z",
       "payoutMentionUSD": 150,
       "assignees": [],
-      "commentCount": 0,
+      "commentCount": 1,
       "labels": [],
       "score": 64,
       "status": "POTENTIAL PAYOUT — UNVERIFIED",
@@ -627,12 +760,12 @@
       "excerpt": "Hi, thanks for maintaining this list. It's the best overview of the scene I've found. I'm trying to map every roadside billboard in Leonida and need the exact world X/Y/Z for each one. I don't have the game files on a PC. Could someone who has run a placements export (SixNG, vice"
     },
     {
-      "id": 6652125192,
-      "title": "[bounty] stdlib.sort tutorial",
-      "html_url": "https://github.com/bad-antics/lateralus-lang/issues/1135",
+      "id": 6660202019,
+      "title": "[bounty] stdlib.linalg tutorial",
+      "html_url": "https://github.com/bad-antics/lateralus-lang/issues/1170",
       "repository": "bad-antics/lateralus-lang",
-      "created_at": "2026-11-27T18:08:16Z",
-      "updated_at": "2026-11-27T20:33:01Z",
+      "created_at": "2026-11-28T06:11:37Z",
+      "updated_at": "2026-11-28T06:22:09Z",
       "payoutMentionUSD": 25,
       "assignees": [],
       "commentCount": 0,
@@ -641,15 +774,15 @@
       "status": "POTENTIAL PAYOUT — UNVERIFIED",
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
-      "excerpt": "Claiming the recurring $25 stdlib tutorial bounty for `stdlib/sort.ltl`. Deliverable: `docs/blog/sort-algorithms.ltlml` with a runnable example, pinned test vectors for `sorted`, `sorted_desc`, `mergesort`, `is_sorted`, and `sort_by_key`, plus `git commit -s`. I will not start wo"
+      "excerpt": "Claiming the recurring $25 stdlib tutorial bounty for `stdlib/linalg.ltl`. Deliverable: `docs/blog/linalg-vectors-and-matrices.ltlml` plus a runnable pinned-vector example under `examples/`. Vectors cover vec_add/dot/cross, normalize, angle_between, projection, mat_mul, transpose"
     },
     {
-      "id": 6652290032,
-      "title": "[bounty] stdlib.x25519 tutorial",
-      "html_url": "https://github.com/bad-antics/lateralus-lang/issues/1137",
+      "id": 6659848754,
+      "title": "[bounty] stdlib.set tutorial",
+      "html_url": "https://github.com/bad-antics/lateralus-lang/issues/1166",
       "repository": "bad-antics/lateralus-lang",
-      "created_at": "2026-11-27T18:19:52Z",
-      "updated_at": "2026-11-27T18:58:36Z",
+      "created_at": "2026-11-28T05:37:55Z",
+      "updated_at": "2026-11-28T05:56:16Z",
       "payoutMentionUSD": 25,
       "assignees": [],
       "commentCount": 0,
@@ -658,16 +791,16 @@
       "status": "POTENTIAL PAYOUT — UNVERIFIED",
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
-      "excerpt": "Claiming the recurring $25 stdlib tutorial bounty for `stdlib/x25519.ltl`. Deliverable: `docs/blog/x25519-diffie-hellman.ltlml` plus a runnable pinned-vector example under `examples/`. Vectors: RFC 7748 section 5.2 Alice/Bob public keys and the 32-byte shared secret, plus clamp/b"
+      "excerpt": "Claiming the stdlib.set micro-bounty ($25). I will open a PR adding: a tutorial in docs/blog/ (the repo's blog format), a runnable example in examples/, and pinned test vectors in tests/. The vectors pin the module's deterministic semantics (sets as sorted, deduplicated lists) tr"
     },
     {
-      "id": 6651462706,
-      "title": "[Bug Bounty] System Preferences edits are discarded on navigation and never update the risk settings",
-      "html_url": "https://github.com/Ayush441-python/AUREN/issues/374",
-      "repository": "Ayush441-python/AUREN",
-      "created_at": "2026-11-27T17:23:45Z",
-      "updated_at": "2026-11-27T17:33:29Z",
-      "payoutMentionUSD": 20,
+      "id": 6659814988,
+      "title": "[bounty] stdlib.simhash tutorial",
+      "html_url": "https://github.com/bad-antics/lateralus-lang/issues/1163",
+      "repository": "bad-antics/lateralus-lang",
+      "created_at": "2026-11-28T05:33:57Z",
+      "updated_at": "2026-11-28T05:47:14Z",
+      "payoutMentionUSD": 25,
       "assignees": [],
       "commentCount": 0,
       "labels": [],
@@ -675,7 +808,7 @@
       "status": "POTENTIAL PAYOUT — UNVERIFIED",
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
-      "excerpt": "## Summary The workstation's System Preferences page exposes editable covariance-window, VaR-confidence, and risk-free-rate controls, but all three are uncontrolled DOM fields. Changing them appears to work until the user navigates away: Risk Metrics still shows the original valu"
+      "excerpt": "Claiming the stdlib.simhash micro-bounty ($25). I will open a PR adding: a tutorial in docs/blog/ (the repo's blog format), a runnable example in examples/, and pinned test vectors in tests/. The vectors were verified by independently reimplementing XXH64 and matching the reposit"
     },
     {
       "id": 6541993184,
@@ -683,10 +816,10 @@
       "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4383",
       "repository": "zhangjiayang6835-cyber/bounty-plaza",
       "created_at": "2026-11-22T11:46:55Z",
-      "updated_at": "2026-11-27T13:12:50Z",
+      "updated_at": "2026-11-28T01:21:48Z",
       "payoutMentionUSD": 125,
       "assignees": [],
-      "commentCount": 5,
+      "commentCount": 8,
       "labels": [
         "bounty",
         "real"
@@ -1032,166 +1165,6 @@
       "requiresHumanVerification": true,
       "source": "Public GitHub issue",
       "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/WholeTroutMedia/agent-conformance-quarantine/issues/1 ### 漏洞描述 / Description [Escrowed $450 USDC] 20-Vector Conformance Suite: Streaming MCP SSE Chunk Boundary Reassembly with Backpressure Backoff > **Automated C"
-    },
-    {
-      "id": 6273216197,
-      "title": "[Bounty] 💎 [Escrowed $600 USDC] 24-Vector Conformance Suite: PagedAttention KV-Cache Bloc",
-      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4274",
-      "repository": "zhangjiayang6835-cyber/bounty-plaza",
-      "created_at": "2026-11-08T16:47:44Z",
-      "updated_at": "2026-11-16T02:35:21Z",
-      "payoutMentionUSD": 600,
-      "assignees": [],
-      "commentCount": 2,
-      "labels": [
-        "bounty",
-        "real"
-      ],
-      "score": 63,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/IES-BoilerRoom/mlir-tensor-tiling-pass/issues/2 ### 漏洞描述 / Description 💎 [Escrowed $600 USDC] 24-Vector Conformance Suite: PagedAttention KV-Cache Block Desync on Prefix-Aware Chunked Preemption > **Automated CI"
-    },
-    {
-      "id": 6391738714,
-      "title": "[Bounty] [Escrowed $600 USDC] Prevent aliasing mutable ref-cell bitmask collision across ",
-      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4339",
-      "repository": "zhangjiayang6835-cyber/bounty-plaza",
-      "created_at": "2026-11-14T15:06:02Z",
-      "updated_at": "2026-11-16T02:34:23Z",
-      "payoutMentionUSD": 600,
-      "assignees": [],
-      "commentCount": 2,
-      "labels": [
-        "bounty",
-        "real"
-      ],
-      "score": 63,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/IES-BoilerRoom/solana-svm-cpi-conformance/issues/2 ### 漏洞描述 / Description [Escrowed $600 USDC] Prevent aliasing mutable ref-cell bitmask collision across depth-4 CPI frames (`solana-svm-cpi-conformance`) > **Auto"
-    },
-    {
-      "id": 6391738893,
-      "title": "[Bounty] [Escrowed $450 USDC] Fix CPI frame ceiling boundary and satisfy 64-bit account b",
-      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4341",
-      "repository": "zhangjiayang6835-cyber/bounty-plaza",
-      "created_at": "2026-11-14T15:06:03Z",
-      "updated_at": "2026-11-16T02:21:45Z",
-      "payoutMentionUSD": 450,
-      "assignees": [],
-      "commentCount": 2,
-      "labels": [
-        "bounty",
-        "real"
-      ],
-      "score": 63,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/IES-BoilerRoom/solana-svm-cpi-conformance/issues/1 ### 漏洞描述 / Description [Escrowed $450 USDC] Fix CPI frame ceiling boundary and satisfy 64-bit account borrow-mask transfer equation (`decode_cpi_instruction_fram"
-    },
-    {
-      "id": 6391738799,
-      "title": "[Bounty] [Escrowed $450 USDC] Resolve TLP frame ceiling boundary and infinite-wrap credit",
-      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4340",
-      "repository": "zhangjiayang6835-cyber/bounty-plaza",
-      "created_at": "2026-11-14T15:06:03Z",
-      "updated_at": "2026-11-16T02:20:54Z",
-      "payoutMentionUSD": 450,
-      "assignees": [],
-      "commentCount": 2,
-      "labels": [
-        "bounty",
-        "real"
-      ],
-      "score": 63,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/IES-BoilerRoom/pcie-tlp-credit-flow-gate/issues/1 ### 漏洞描述 / Description [Escrowed $450 USDC] Resolve TLP frame ceiling boundary and infinite-wrap credit bitvector identity (`reassemble_tlp_flit_frames`) > **Auto"
-    },
-    {
-      "id": 6391738580,
-      "title": "[Bounty] [Escrowed $600 USDC] Align Posted/Non-Posted header credit wrap mask under 256B ",
-      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4338",
-      "repository": "zhangjiayang6835-cyber/bounty-plaza",
-      "created_at": "2026-11-14T15:06:02Z",
-      "updated_at": "2026-11-16T02:20:04Z",
-      "payoutMentionUSD": 600,
-      "assignees": [],
-      "commentCount": 2,
-      "labels": [
-        "bounty",
-        "real"
-      ],
-      "score": 63,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/IES-BoilerRoom/pcie-tlp-credit-flow-gate/issues/2 ### 漏洞描述 / Description [Escrowed $600 USDC] Align Posted/Non-Posted header credit wrap mask under 256B FLIT packing (`pcie-tlp-credit-flow-gate`) > **Automated CI"
-    },
-    {
-      "id": 6362125503,
-      "title": "[Bounty] [Escrowed $450 USDC] Fix BGP attribute chunk boundary and resolve 4-AS preferenc",
-      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4317",
-      "repository": "zhangjiayang6835-cyber/bounty-plaza",
-      "created_at": "2026-11-13T00:41:13Z",
-      "updated_at": "2026-11-15T15:56:50Z",
-      "payoutMentionUSD": 450,
-      "assignees": [],
-      "commentCount": 2,
-      "labels": [
-        "bounty",
-        "real"
-      ],
-      "score": 63,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/IES-BoilerRoom/bgp-med-oscillation-verifier/issues/1 ### 漏洞描述 / Description [Escrowed $450 USDC] Fix BGP attribute chunk boundary and resolve 4-AS preference matrix trace invariant (`normalize_bgp_update_frames`)"
-    },
-    {
-      "id": 6319565898,
-      "title": "[Bounty] [Escrowed $600 USDC] Reject non-canonical S >= L scalar encodings without variab",
-      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4305",
-      "repository": "zhangjiayang6835-cyber/bounty-plaza",
-      "created_at": "2026-11-11T01:28:10Z",
-      "updated_at": "2026-11-14T07:18:46Z",
-      "payoutMentionUSD": 600,
-      "assignees": [],
-      "commentCount": 2,
-      "labels": [
-        "bounty",
-        "real"
-      ],
-      "score": 63,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/IES-BoilerRoom/ed25519-ct-limb-verifier/issues/2 ### 漏洞描述 / Description [Escrowed $600 USDC] Reject non-canonical S >= L scalar encodings without variable-time branches (`ed25519-ct-limb-verifier`) > **Automated "
-    },
-    {
-      "id": 6297616553,
-      "title": "[Bounty] 💎 [Escrowed $450 USDC] 24-Vector Conformance Suite: Streaming MCP SSE Chunk Boun",
-      "html_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4280",
-      "repository": "zhangjiayang6835-cyber/bounty-plaza",
-      "created_at": "2026-11-10T00:34:51Z",
-      "updated_at": "2026-11-14T07:18:26Z",
-      "payoutMentionUSD": 450,
-      "assignees": [],
-      "commentCount": 2,
-      "labels": [
-        "bounty",
-        "real"
-      ],
-      "score": 63,
-      "status": "POTENTIAL PAYOUT — UNVERIFIED",
-      "requiresHumanVerification": true,
-      "source": "Public GitHub issue",
-      "excerpt": "### 赏金平台 / Platform GitHub ### 原始链接 / Source URL https://github.com/IES-BoilerRoom/cuda-warp-allreduce-verifier/issues/1 ### 漏洞描述 / Description 💎 [Escrowed $450 USDC] 24-Vector Conformance Suite: Streaming MCP SSE Chunk Boundary Reassembly with Backpressure Backoff > **Automated"
     }
   ],
   "disclaimer": "No verified payouts or earnings; these are public issue candidates. Manually confirm funding, assignment, eligibility, security and payment terms. Never pay to join, disclose secrets or begin work without terms."
